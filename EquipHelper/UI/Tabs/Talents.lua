@@ -3,12 +3,12 @@ local ADDON_NAME, ns = ...
 ns.RegisterTab({
 	order = 2,
 	key = "talents",
-	label = "Talentos",
+	label = "Talents",
 	render = function(container, guide)
-		ns.UI.Header(container, "Builds de talentos")
+		ns.UI.Header(container, "Talent builds")
 
 		if not guide.talentBuilds or #guide.talentBuilds == 0 then
-			ns.UI.Paragraph(container, "Sin builds para esta combinacion.")
+			ns.UI.Paragraph(container, "No builds for this combination.")
 			return
 		end
 
@@ -16,7 +16,7 @@ ns.RegisterTab({
 			local row = ns.UI.Row(container)
 			row.Left:SetText(build.label)
 			if build.usagePct then
-				row.Right:SetText(("%s  |cff888888%d%% de uso|r"):format(build.source or "", build.usagePct))
+				row.Right:SetText(("%s  |cff888888%d%% usage|r"):format(build.source or "", build.usagePct))
 			else
 				row.Right:SetText(build.source or "")
 			end
@@ -39,6 +39,7 @@ ns.RegisterTab({
 
 		ns.UI.Spacer(container)
 		ns.UI.Paragraph(container,
-			"Selecciona el texto, copialo con Ctrl+C y pegalo en el boton Importar de la ventana de talentos.")
+			"Select the text, copy it with Ctrl+C and paste it into the Import "
+			.. "button of the talent window.")
 	end,
 })

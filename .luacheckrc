@@ -22,13 +22,13 @@ globals = {
 
 read_globals = {
 	-- Base
-	"print", "CreateFrame", "UIParent", "GameTooltip", "GameTooltip_Hide", "PlaySound", "tonumber",
+	"print", "CreateFrame", "UIParent", "GameTooltip", "GameTooltip_Hide", "PlaySound",
 	"SOUNDKIT", "time", "tinsert", "select", "Item", "ITEM_QUALITY_COLORS",
 	"ChatFontNormal", "InputBoxTemplate",
 	-- Info de jugador / spec / talentos
 	"UnitClass", "GetSpecialization", "GetSpecializationInfo",
 	"GetSpecializationInfoByID",
-	"C_SpecializationInfo", "C_ClassTalents", "C_Traits", "C_Spell", "C_AddOns",
+	"C_SpecializationInfo", "C_ClassTalents", "C_Traits", "C_AddOns",
 	"LOCALIZED_CLASS_NAMES_MALE",
 	-- Plantillas y helpers de UI
 	"PanelTemplates_SetNumTabs", "PanelTemplates_SetTab",

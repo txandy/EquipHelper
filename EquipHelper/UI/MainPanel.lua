@@ -83,10 +83,9 @@ function ns.UI.Spacer(container, height)
 end
 
 local function Row_SetItem(row, itemID)
-	row.__spellID = nil
 	row.__itemID = itemID
 	row.Icon:SetTexture(134400) -- interrogante mientras carga
-	row.Left:SetText(("Objeto %d"):format(itemID))
+	row.Left:SetText(("Item %d"):format(itemID))
 
 	-- El cliente puede no tener el item cacheado; se resuelve async.
 	local item = Item:CreateFromItemID(itemID)
@@ -101,23 +100,10 @@ local function Row_SetItem(row, itemID)
 	end)
 end
 
-local function Row_SetSpell(row, spellID)
-	row.__itemID = nil
-	row.__spellID = spellID
-
-	local info = C_Spell.GetSpellInfo(spellID)
-	row.Icon:SetTexture(info and info.iconID or 134400)
-	row.Left:SetText(info and info.name or ("Hechizo %d"):format(spellID))
-end
-
 local function Row_OnEnter(row)
-	if not row.__itemID and not row.__spellID then return end
+	if not row.__itemID then return end
 	GameTooltip:SetOwner(row, "ANCHOR_RIGHT")
-	if row.__itemID then
-		GameTooltip:SetItemByID(row.__itemID)
-	else
-		GameTooltip:SetSpellByID(row.__spellID)
-	end
+	GameTooltip:SetItemByID(row.__itemID)
 	GameTooltip:Show()
 end
 
@@ -141,13 +127,12 @@ function ns.UI.Row(container)
 		f.Right:SetJustifyH("RIGHT")
 
 		f.SetItem = Row_SetItem
-		f.SetSpell = Row_SetSpell
 		f:SetScript("OnEnter", Row_OnEnter)
 		f:SetScript("OnLeave", GameTooltip_Hide)
 		return f
 	end)
 
-	row.__itemID, row.__spellID = nil, nil
+	row.__itemID = nil
 	row.Icon:SetTexture(nil)
 	row.Left:SetText("")
 	row.Right:SetText("")
@@ -243,7 +228,7 @@ local function BuildSelectors(frame)
 	end)
 
 	frame.ContentDD:SetupMenu(function(_, root)
-		for _, entry in ipairs({ { "mplus", "Mitica+" }, { "raid", "Banda" } }) do
+		for _, entry in ipairs({ { "mplus", "Mythic+" }, { "raid", "Raid" } }) do
 			root:CreateRadio(entry[2],
 				function() return ns.state.content == entry[1] end,
 				function()
@@ -303,7 +288,7 @@ local function CreatePanel()
 	frame.FollowButton = CreateFrame("Button", nil, frame, "UIPanelButtonTemplate")
 	frame.FollowButton:SetSize(110, 20)
 	frame.FollowButton:SetPoint("TOPRIGHT", frame.ContentDD, "BOTTOMRIGHT", 0, -4)
-	frame.FollowButton:SetText("Mi personaje")
+	frame.FollowButton:SetText("My character")
 	frame.FollowButton:SetScript("OnClick", function() ns.FollowPlayer() end)
 
 	frame.Scroll = CreateFrame("ScrollFrame", "EquipHelperScroll", frame, "UIPanelScrollFrameTemplate")
@@ -316,7 +301,7 @@ local function CreatePanel()
 
 	frame.Empty = frame.Content:CreateFontString(nil, "ARTWORK", "GameFontDisable")
 	frame.Empty:SetPoint("TOP", frame.Content, "TOP", 0, -60)
-	frame.Empty:SetText("Sin datos para esta combinacion todavia.")
+	frame.Empty:SetText("No data for this combination yet.")
 	frame.Empty:Hide()
 
 	BuildTabs(frame)
@@ -338,21 +323,21 @@ local function UpdateHeader()
 		if hero.heroID == ns.state.heroID then heroName = hero.name end
 	end
 	panel.HeroDD:SetDefaultText(heroName)
-	panel.ContentDD:SetDefaultText(ns.state.content == "raid" and "Banda" or "Mitica+")
+	panel.ContentDD:SetDefaultText(ns.state.content == "raid" and "Raid" or "Mythic+")
 
 	local m = ns.Manifest
 	if m then
 		local parts = {}
-		if m.generated then table.insert(parts, "Datos: " .. m.generated) end
+		if m.generated then table.insert(parts, "Data: " .. m.generated) end
 		if m.season then table.insert(parts, m.season) end
-		if m.patch then table.insert(parts, "parche " .. m.patch) end
+		if m.patch then table.insert(parts, "patch " .. m.patch) end
 		if m.specCount then table.insert(parts, ("%d specs"):format(m.specCount)) end
 		local text = table.concat(parts, "  |  ")
 
 		if m.placeholder then
-			panel.Freshness:SetText("|cffff8800Datos de ejemplo -- el pipeline aun no esta conectado|r")
+			panel.Freshness:SetText("|cffff8800Sample data -- the pipeline is not connected yet|r")
 		elseif ns.IsStale() then
-			panel.Freshness:SetText(("|cffff8800%s  (%d dias de antiguedad)|r"):format(text, ns.GetDataAge()))
+			panel.Freshness:SetText(("|cffff8800%s  (%d days old)|r"):format(text, ns.GetDataAge()))
 		else
 			panel.Freshness:SetText(text)
 		end

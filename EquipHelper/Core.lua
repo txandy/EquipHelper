@@ -77,7 +77,7 @@ function ns.GetHeroTrees(classFile, specID)
 end
 
 -- The single accessor every UI module uses. Returns nil when that combination
--- was never scraped, which the UI renders as an explicit "sin datos" state
+-- was never scraped, which the UI renders as an explicit "no data" state
 -- rather than an empty panel.
 function ns.GetGuide(classFile, specID, heroID, content)
 	local class = ns.EnsureClassData(classFile)
@@ -226,9 +226,9 @@ SlashCmdList.EQUIPHELPER = function(input)
 		local db = ns.db and ns.db.profile
 		if not db then return end
 		db.tooltips = not db.tooltips
-		print(("|cffffd100EquipHelper|r: tooltips %s."):format(db.tooltips and "activados" or "desactivados"))
+		print(("|cffffd100EquipHelper|r: tooltips %s."):format(db.tooltips and "enabled" or "disabled"))
 	elseif command == "help" then
-		print("|cffffd100EquipHelper|r: /eh abre el panel, /eh tooltips los activa o desactiva.")
+		print("|cffffd100EquipHelper|r: /eh opens the panel, /eh tooltips turns item tooltips on or off.")
 	else
 		ns.ToggleMainPanel()
 	end

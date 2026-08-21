@@ -12,12 +12,12 @@ local SLOT_LABEL = {
 	MAINHAND = MAINHANDSLOT, OFFHAND = SECONDARYHANDSLOT,
 }
 
-local CONTENT_LABEL = { mplus = "M+", raid = "Banda" }
+local CONTENT_LABEL = { mplus = "M+", raid = "Raid" }
 
 local CONSUMABLE_LABEL = {
-	FLASK = "Frasco", FOOD = "Comida", WEAPON_OIL = "Aceite de arma",
-	RUNE = "Runa de aumento", POTION = "Pocion de combate",
-	HEALTH_POTION = "Pocion de vida",
+	FLASK = "Flask", FOOD = "Food", WEAPON_OIL = "Weapon oil",
+	RUNE = "Augment rune", POTION = "Combat potion",
+	HEALTH_POTION = "Health potion",
 }
 
 local index = nil       -- [itemID] = { entradas }
@@ -88,19 +88,19 @@ local function DescribeEntry(entry)
 
 	if entry.kind == "consumable" then
 		local label = CONSUMABLE_LABEL[entry.category] or entry.category
-		return ("%s  ·  %s"):format(label, entry.primary and "recomendado" or "alternativa")
+		return ("%s  ·  %s"):format(label, entry.primary and "recommended" or "alternative")
 	elseif entry.kind == "gear" then
 		local slot = SLOT_LABEL[entry.slot] or entry.slot
 		table.insert(parts, ("%s #%d"):format(slot, entry.rank))
 	elseif entry.kind == "gem" then
-		table.insert(parts, "Gema recomendada")
+		table.insert(parts, "Recommended gem")
 	else
 		local slot = SLOT_LABEL[entry.slot] or entry.slot
-		table.insert(parts, ("Encantamiento de %s"):format(slot))
+		table.insert(parts, ("%s enchant"):format(slot))
 	end
 
 	if entry.usagePct then
-		table.insert(parts, ("%.0f%% de uso"):format(entry.usagePct))
+		table.insert(parts, ("%.0f%% usage"):format(entry.usagePct))
 	end
 	table.insert(parts, CONTENT_LABEL[entry.content] or entry.content)
 

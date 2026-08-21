@@ -36,9 +36,9 @@ end
 ns.RegisterTab({
 	order = 3,
 	key = "gear",
-	label = "Equipo",
+	label = "Gear",
 	render = function(container, guide)
-		ns.UI.Header(container, "Mejor en ranura")
+		ns.UI.Header(container, "Best in slot")
 
 		local any = false
 		for _, slot in ipairs(SLOT_ORDER) do
@@ -53,18 +53,18 @@ ns.RegisterTab({
 		end
 
 		if not any then
-			ns.UI.Paragraph(container, "Sin datos de equipo para esta combinacion.")
+			ns.UI.Paragraph(container, "No gear data for this combination.")
 		end
 
 		if guide.gems and #guide.gems > 0 then
 			ns.UI.Spacer(container)
-			ns.UI.Header(container, "Gemas")
+			ns.UI.Header(container, "Gems")
 			RenderItemList(container, guide.gems)
 		end
 
 		if guide.enchants and #guide.enchants > 0 then
 			ns.UI.Spacer(container)
-			ns.UI.Header(container, "Encantamientos")
+			ns.UI.Header(container, "Enchants")
 			for _, entry in ipairs(guide.enchants) do
 				local row = ns.UI.Row(container)
 				row:SetItem(entry.itemID)
@@ -86,7 +86,7 @@ ns.RegisterTab({
 				table.insert(names, ("%s (%s)"):format(key, info.fetchedAt or "?"))
 			end
 			table.sort(names)
-			ns.UI.Paragraph(container, "|cff888888Fuentes: " .. table.concat(names, ", ") .. "|r")
+			ns.UI.Paragraph(container, "|cff888888Sources: " .. table.concat(names, ", ") .. "|r")
 		end
 	end,
 })

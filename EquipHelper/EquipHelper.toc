@@ -1,6 +1,6 @@
 ## Interface: 120000
 ## Title: EquipHelper
-## Notes: Prioridad de stats, builds de talentos, rotacion y BiS para tu spec y hero talent.
+## Notes: Stat priorities, talent builds, BiS gear and consumables for your spec and hero talent.
 ## Author: txandy
 ## Version: @project-version@
 ## SavedVariables: EquipHelperDB
