@@ -47,12 +47,14 @@ ns.RegisterTab({
 		RenderPerformance(container, guide)
 		ns.UI.Header(container, "Stat priority")
 
-		if not guide.statPriority or #guide.statPriority == 0 then
+		local stats, source, isFallback = ns.GetSection(guide, "statPriority")
+		if not stats then
 			ns.UI.Paragraph(container, "No stat priority for this combination.")
 			return
 		end
+		ns.UI.SourceNote(container, "stat priority", source, isFallback)
 
-		for i, entry in ipairs(guide.statPriority) do
+		for i, entry in ipairs(stats) do
 			local row = ns.UI.Row(container)
 			local label = STAT_LABEL[entry.stat] or entry.stat
 			row.Left:SetText(("%d. %s"):format(i, label))

@@ -9,7 +9,9 @@ from __future__ import annotations
 
 from dataclasses import dataclass, field
 
-from scraper.model import CONSUMABLE_CATEGORIES, SLOTS, STATS, SpecGuides
+from scraper.model import (
+    CONSUMABLE_CATEGORIES, SLOTS, SOURCE_ORDER, STATS, SpecGuides,
+)
 from scraper.talent_tree import Spec
 
 MIN_COVERAGE = 0.90        # menos specs que esto y el build no sale
@@ -34,13 +36,8 @@ class Report:
         return "\n".join(lines)
 
 
-def _check_guide(report: Report, spec: SpecGuides, guide) -> None:
-    where = f"{spec.slug}/{guide.hero_name}/{guide.content}"
-
-    if not guide.talent_builds:
-        report.errors.append(f"{where}: sin builds de talentos")
-
-    for build in guide.talent_builds:
+def _check_view(report: Report, where: str, view) -> None:
+    for build in view.talent_builds:
         if len(build.import_string) < MIN_IMPORT_LENGTH:
             report.errors.append(
                 f"{where}: import string sospechosamente corto ({build.import_string!r})"
@@ -48,27 +45,53 @@ def _check_guide(report: Report, spec: SpecGuides, guide) -> None:
         if build.usage_pct is not None and not 0 <= build.usage_pct <= 100:
             report.errors.append(f"{where}: usage_pct fuera de rango ({build.usage_pct})")
 
-    for entry in guide.stat_priority:
+    for entry in view.stat_priority:
         if entry.stat not in STATS:
             report.errors.append(f"{where}: stat desconocido {entry.stat!r}")
 
-    if not guide.gear:
-        report.warnings.append(f"{where}: sin datos de equipo")
-
-    for slot, entries in guide.gear.items():
+    for slot, entries in view.gear.items():
         if slot not in SLOTS:
             report.errors.append(f"{where}: ranura desconocida {slot!r}")
         for entry in entries:
-            if not isinstance(entry.item_id, int) or not 0 < entry.item_id < MAX_ITEM_ID:
-                report.errors.append(f"{where}: itemID implausible {entry.item_id!r}")
+            _check_item(report, where, entry.item_id)
+            for extra in (entry.gem_id, entry.enchant_id):
+                if extra is not None:
+                    _check_item(report, where, extra)
 
-    for entry in guide.gems + list(guide.enchants) + list(guide.consumables):
-        if not isinstance(entry.item_id, int) or not 0 < entry.item_id < MAX_ITEM_ID:
-            report.errors.append(f"{where}: itemID implausible {entry.item_id!r}")
+    for entry in list(view.gems) + list(view.enchants) + list(view.consumables):
+        _check_item(report, where, entry.item_id)
 
-    for entry in guide.consumables:
+    for entry in view.consumables:
         if entry.category not in CONSUMABLE_CATEGORIES:
             report.errors.append(f"{where}: consumible desconocido {entry.category!r}")
+
+
+def _check_item(report: Report, where: str, item_id) -> None:
+    if not isinstance(item_id, int) or not 0 < item_id < MAX_ITEM_ID:
+        report.errors.append(f"{where}: itemID implausible {item_id!r}")
+
+
+def _check_guide(report: Report, spec: SpecGuides, guide) -> None:
+    where = f"{spec.slug}/{guide.hero_name}/{guide.content}"
+
+    # Una guia sin ninguna vista no es un hueco: es una guia que no existe.
+    if not guide.views:
+        report.errors.append(f"{where}: sin ninguna fuente")
+        return
+
+    for key, view in guide.views.items():
+        if key not in SOURCE_ORDER:
+            report.errors.append(f"{where}: fuente desconocida {key!r}")
+        if not view.filled_sections():
+            report.errors.append(f"{where}: la vista {key} no trae ninguna seccion")
+        _check_view(report, f"{where}[{key}]", view)
+
+    # El equipo puede faltar en una fuente concreta, pero que no lo de ninguna
+    # es senal de que algo se rompio aguas arriba.
+    if not any(view.gear for view in guide.views.values()):
+        report.warnings.append(f"{where}: ninguna fuente trae equipo")
+    if not any(view.talent_builds for view in guide.views.values()):
+        report.warnings.append(f"{where}: ninguna fuente trae builds de talentos")
 
 
 def validate(results: list[SpecGuides], expected: list[Spec]) -> Report:
@@ -102,11 +125,11 @@ def validate(results: list[SpecGuides], expected: list[Spec]) -> Report:
 def _item_ids(spec_dict: dict) -> set[int]:
     ids: set[int] = set()
     for guide in spec_dict.get("guides", []):
-        for entries in guide.get("gear", {}).values():
-            ids.update(e["item_id"] for e in entries)
-        ids.update(e["item_id"] for e in guide.get("gems", []))
-        ids.update(e["item_id"] for e in guide.get("enchants", []))
-        ids.update(e["item_id"] for e in guide.get("consumables", []))
+        for view in guide.get("views", {}).values():
+            for entries in view.get("gear", {}).values():
+                ids.update(e["item_id"] for e in entries)
+            for key in ("gems", "enchants", "consumables"):
+                ids.update(e["item_id"] for e in view.get(key, []))
     return ids
 
 

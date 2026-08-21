@@ -70,48 +70,62 @@ def lua_value(value, indent: int = 0) -> str:
     raise TypeError(f"no se como serializar {type(value)!r} a Lua")
 
 
-def _guide_table(guide: dict) -> dict:
-    """Recorta el guide al subconjunto que el addon consume, con sus claves Lua."""
+def _view_table(view: dict) -> dict:
+    """Recorta una vista al subconjunto que el addon consume, con claves Lua."""
     return {
+        "source": view["source"],
+        "url": view["url"],
+        "fetchedAt": view["fetched_at"],
         "statPriority": [
             {"stat": s["stat"], "weight": s["weight"], "share": s["share"]}
-            for s in guide["stat_priority"]
+            for s in view["stat_priority"]
         ],
         "talentBuilds": [
             {
                 "label": b["label"],
                 "importString": b["import_string"],
-                "source": b["source"],
-                "url": b["url"],
                 "usagePct": b["usage_pct"],
                 "metrics": b["metrics"],
+                # Solo se emite cuando es falso: en Lua, nil ya significa "si",
+                # y ahorrarse la clave en el caso comun adelgaza el fichero.
+                "heroSpecific": None if b["hero_specific"] else False,
             }
-            for b in guide["talent_builds"]
+            for b in view["talent_builds"]
         ],
         "gear": {
             slot: [
-                {"itemID": e["item_id"], "usagePct": e["usage_pct"], "sourceHint": e["source_hint"]}
+                {
+                    "itemID": e["item_id"],
+                    "usagePct": e["usage_pct"],
+                    "sourceHint": e["source_hint"],
+                    "dropSource": e["drop_source"],
+                    "gemID": e["gem_id"],
+                    "enchantID": e["enchant_id"],
+                }
                 for e in entries
             ]
-            for slot, entries in guide["gear"].items()
+            for slot, entries in view["gear"].items()
         },
         "gems": [
             {"itemID": e["item_id"], "usagePct": e["usage_pct"], "note": e["note"]}
-            for e in guide["gems"]
+            for e in view["gems"]
         ],
         "enchants": [
             {"itemID": e["item_id"], "slot": e["slot"], "usagePct": e["usage_pct"]}
-            for e in guide["enchants"]
+            for e in view["enchants"]
         ],
         "consumables": [
             {"category": e["category"], "itemID": e["item_id"], "primary": e["is_primary"]}
-            for e in guide["consumables"]
+            for e in view["consumables"]
         ],
+        "notes": dict(view["notes"]),
+    }
+
+
+def _guide_table(guide: dict) -> dict:
+    return {
+        "views": {key: _view_table(v) for key, v in guide["views"].items()},
         "performance": _performance_table(guide.get("performance")),
-        "provenance": {
-            key: {"url": p["url"], "fetchedAt": p["fetched_at"]}
-            for key, p in guide["provenance"].items()
-        },
     }
 
 

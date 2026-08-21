@@ -6,7 +6,7 @@ import shutil
 import pytest
 
 from scraper.emit_lua import class_file_name, lua_value, render_class, update_toc
-from scraper.model import GearEntry, Guide, SpecGuides, StatEntry, TalentBuild
+from scraper.model import GearEntry, Guide, SourceView, SpecGuides, StatEntry, TalentBuild
 
 TOC_TEMPLATE = """## Interface: 120000
 
@@ -21,13 +21,18 @@ UI\\MainPanel.lua
 
 
 def make_spec():
-    guide = Guide(
-        content="mplus", hero_id=40, hero_name="Spellslinger",
+    view = SourceView(
+        source="mythicstats",
+        url="https://mythicstats.com/spec/frost-mage",
+        fetched_at="2026-08-21",
         stat_priority=[StatEntry("HASTE", 900, 40.0, 1.0)],
         talent_builds=[TalentBuild("Spellslinger #1", "C" + "A" * 100, "mythicstats",
                                    "https://mythicstats.com/spec/frost-mage", 40, 3.7)],
-        gear={"TRINKET1": [GearEntry(249343, 75.0)]},
+        gear={"TRINKET1": [GearEntry(249343, 75.0, drop_source="Ula'tek",
+                                     gem_id=240908, enchant_id=244007)]},
     )
+    guide = Guide(content="mplus", hero_id=40, hero_name="Spellslinger",
+                  views={"mythicstats": view})
     return SpecGuides("MAGE", "Mage", 64, "Frost", "frost-mage", [guide])
 
 
@@ -91,3 +96,42 @@ def test_toc_without_markers_is_a_loud_error(tmp_path):
     toc.write_text("## Interface: 120000\nCore.lua\n", encoding="utf-8")
     with pytest.raises(RuntimeError, match="marcadores"):
         update_toc(toc, ["Mage.lua"])
+
+
+# --- Vistas por fuente -----------------------------------------------------
+
+def test_each_source_becomes_its_own_view():
+    rendered = render_class("MAGE", [make_spec()])
+    assert "views = {" in rendered
+    assert 'mythicstats = {' in rendered
+
+
+def test_the_icy_veins_extras_reach_the_lua():
+    # De que jefe cae la pieza, y con que gema y encante va. Es lo que
+    # justifica tener una segunda fuente, asi que no puede quedarse por el
+    # camino en el emisor.
+    rendered = render_class("MAGE", [make_spec()])
+    assert 'dropSource = "Ula\'tek"' in rendered
+    assert "gemID = 240908" in rendered
+    assert "enchantID = 244007" in rendered
+
+
+def test_hero_specific_is_only_emitted_when_false():
+    # En Lua nil ya significa "si"; emitir la clave en el caso comun solo
+    # engorda 40 ficheros.
+    spec = make_spec()
+    assert "heroSpecific" not in render_class("MAGE", [spec])
+
+    spec.guides[0].views["mythicstats"].talent_builds[0].hero_specific = False
+    assert "heroSpecific = false" in render_class("MAGE", [spec])
+
+
+def test_performance_stays_outside_the_views():
+    # Es una medicion, no la opinion de una web: no debe cambiar al cambiar
+    # de fuente en el desplegable.
+    from scraper.model import Performance
+
+    spec = make_spec()
+    spec.guides[0].performance = Performance("dps", 1.0, 2.0, 100, "Heroic", "Abyss", 3, 40)
+    rendered = render_class("MAGE", [spec])
+    assert rendered.index("performance = {") < rendered.index("views = {")

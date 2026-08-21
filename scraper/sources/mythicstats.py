@@ -22,7 +22,7 @@ from datetime import date
 from bs4 import BeautifulSoup, Tag
 
 from scraper.model import (
-    EnchantEntry, GearEntry, Guide, Provenance, SpecGuides, StatEntry,
+    EnchantEntry, GearEntry, Guide, SourceView, SpecGuides, StatEntry,
     normalize_stat_weights,
 )
 from scraper.talent_tree import Spec
@@ -231,8 +231,6 @@ def parse_page(html: str, spec: Spec, content: str, url: str, fetched_at: str) -
         for item_id, percent in _section_rows(soup, title):
             enchants.append(EnchantEntry(item_id=item_id, slot=slot, usage_pct=percent))
 
-    provenance = {SOURCE_KEY: Provenance(url=url, fetched_at=fetched_at)}
-
     # El equipo y los stats son de la spec entera; las builds se reparten por
     # arbol de heroe. Cada guia queda autocontenida para que el addon no tenga
     # que cruzar tablas en runtime.
@@ -242,10 +240,10 @@ def parse_page(html: str, spec: Spec, content: str, url: str, fetched_at: str) -
         if not mine:
             continue
 
-        guides.append(Guide(
-            content=content,
-            hero_id=hero.hero_id,
-            hero_name=hero.name,
+        view = SourceView(
+            source=SOURCE_KEY,
+            url=url,
+            fetched_at=fetched_at,
             stat_priority=list(stats),
             talent_builds=[
                 _build_entry(b, hero.name, position)
@@ -254,7 +252,13 @@ def parse_page(html: str, spec: Spec, content: str, url: str, fetched_at: str) -
             gear={slot: list(entries) for slot, entries in gear.items()},
             gems=list(gems),
             enchants=list(enchants),
-            provenance=dict(provenance),
+        )
+
+        guides.append(Guide(
+            content=content,
+            hero_id=hero.hero_id,
+            hero_name=hero.name,
+            views={SOURCE_KEY: view},
         ))
 
     return guides

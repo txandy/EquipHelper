@@ -7,18 +7,29 @@ ns.RegisterTab({
 	render = function(container, guide)
 		ns.UI.Header(container, "Talent builds")
 
-		if not guide.talentBuilds or #guide.talentBuilds == 0 then
+		local builds, source, isFallback = ns.GetSection(guide, "talentBuilds")
+		if not builds then
 			ns.UI.Paragraph(container, "No builds for this combination.")
 			return
 		end
+		ns.UI.SourceNote(container, "talent builds", source, isFallback)
 
-		for _, build in ipairs(guide.talentBuilds) do
+		-- Algunas webs publican las builds por spec y no por hero talent. Se
+		-- avisa una vez, en vez de fingir que la eleccion de arbol las filtra.
+		for _, build in ipairs(builds) do
+			if build.heroSpecific == false then
+				ns.UI.Paragraph(container,
+					"|cff888888These builds are published for the whole spec, not per hero talent, "
+					.. "so they do not change with the hero talent selected above.|r")
+				break
+			end
+		end
+
+		for _, build in ipairs(builds) do
 			local row = ns.UI.Row(container)
 			row.Left:SetText(build.label)
 			if build.usagePct then
-				row.Right:SetText(("%s  |cff888888%d%% usage|r"):format(build.source or "", build.usagePct))
-			else
-				row.Right:SetText(build.source or "")
+				row.Right:SetText(("%d%% usage"):format(build.usagePct))
 			end
 
 			if build.metrics then

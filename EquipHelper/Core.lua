@@ -6,7 +6,18 @@ ns.tabs = {}          -- ordered list of registered tabs
 ns.callbacks = {}     -- [event] = { fn, ... }
 
 local DEFAULT_CONTENT = "mplus"
+local DEFAULT_SOURCE = "mythicstats"
 local STALE_DAYS = 14
+
+-- Orden en que se prueban las fuentes cuando la elegida no publica una seccion.
+-- Tiene que coincidir con SOURCE_ORDER en scraper/model.py.
+ns.SOURCE_ORDER = { "mythicstats", "icyveins", "wowhead" }
+
+ns.SOURCE_LABEL = {
+	mythicstats = "Mythicstats",
+	icyveins = "Icy Veins",
+	wowhead = "Wowhead",
+}
 
 --------------------------------------------------------------------------------
 -- Tiny event bus. UI modules subscribe; Core publishes.
@@ -87,6 +98,55 @@ function ns.GetGuide(classFile, specID, heroID, content)
 end
 
 --------------------------------------------------------------------------------
+-- Resolucion de secciones
+--
+-- Ninguna web publica todo. En vez de dejar una pestana en blanco cuando la
+-- fuente elegida no cubre una seccion, se cae a otra y se dice en pantalla: el
+-- jugador siempre ve algo util y siempre sabe de donde sale.
+--------------------------------------------------------------------------------
+
+local function IsEmpty(value)
+	if value == nil then return true end
+	if type(value) ~= "table" then return false end
+	return next(value) == nil
+end
+
+-- Devuelve datos, la fuente que los dio, y si hubo que recurrir a un respaldo.
+function ns.GetSection(guide, section)
+	if not guide or not guide.views then return nil, nil, false end
+
+	local preferred = ns.state.source
+	local view = guide.views[preferred]
+	if view and not IsEmpty(view[section]) then
+		return view[section], preferred, false
+	end
+
+	for _, key in ipairs(ns.SOURCE_ORDER) do
+		if key ~= preferred then
+			local other = guide.views[key]
+			if other and not IsEmpty(other[section]) then
+				return other[section], key, true
+			end
+		end
+	end
+
+	return nil, nil, false
+end
+
+-- Las fuentes que este addon trae para esta combinacion, en orden estable.
+function ns.GetSources(guide)
+	local out = {}
+	if not guide or not guide.views then return out end
+
+	for _, key in ipairs(ns.SOURCE_ORDER) do
+		if guide.views[key] then
+			table.insert(out, { key = key, label = ns.SOURCE_LABEL[key] or key })
+		end
+	end
+	return out
+end
+
+--------------------------------------------------------------------------------
 -- Freshness
 --------------------------------------------------------------------------------
 
@@ -110,6 +170,7 @@ ns.state = {
 	specID = nil,
 	heroID = nil,
 	content = DEFAULT_CONTENT,
+	source = DEFAULT_SOURCE,
 	following = true, -- false once the user browses away from their own spec
 }
 
@@ -192,11 +253,13 @@ local function InitDB()
 	local db = EquipHelperDB
 	db.profile = db.profile or {}
 	db.profile.content = db.profile.content or DEFAULT_CONTENT
+	db.profile.source = db.profile.source or DEFAULT_SOURCE
 	if db.profile.tooltips == nil then db.profile.tooltips = true end
 	db.char = db.char or {}
 
 	ns.db = db
 	ns.state.content = db.profile.content
+	ns.state.source = db.profile.source
 end
 
 local frame = CreateFrame("Frame")

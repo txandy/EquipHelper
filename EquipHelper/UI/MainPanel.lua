@@ -142,6 +142,18 @@ function ns.UI.Row(container)
 	return row
 end
 
+-- Aviso de respaldo. Solo aparece cuando la seccion no viene de la fuente que
+-- el jugador eligio: decir de donde sale un dato importa mas cuanto menos lo
+-- espera, y callarlo seria atribuir a una web lo que dijo otra.
+function ns.UI.SourceNote(container, section, sourceKey, isFallback)
+	if not isFallback or not sourceKey then return end
+
+	ns.UI.Paragraph(container, ("|cffff8800%s does not publish %s. Showing %s.|r"):format(
+		ns.SOURCE_LABEL[ns.state.source] or ns.state.source,
+		section,
+		ns.SOURCE_LABEL[sourceKey] or sourceKey))
+end
+
 -- Caja de texto seleccionable, para los import strings de talentos.
 function ns.UI.CopyBox(container, text)
 	local box = Acquire(container, "copybox", function(parent)

@@ -28,6 +28,15 @@ STATS = ("CRIT", "HASTE", "MASTERY", "VERSATILITY", "LEECH", "SPEED", "AVOIDANCE
 CONSUMABLE_CATEGORIES = ("FLASK", "POTION", "HEALTH_POTION", "FOOD",
                          "WEAPON_OIL", "RUNE")
 
+# Fuentes que el jugador puede elegir en el panel, y orden en el que se prueban
+# cuando la elegida no publica una seccion.
+SOURCE_ORDER = ("mythicstats", "icyveins", "wowhead")
+
+# Secciones que una vista puede rellenar. Es la clave que usa ns.GetSection en
+# el addon para resolver los huecos, asi que los nombres tienen que coincidir.
+SECTIONS = ("stat_priority", "talent_builds", "gear", "gems", "enchants",
+            "consumables")
+
 
 @dataclass
 class StatEntry:
@@ -46,6 +55,9 @@ class TalentBuild:
     hero_id: int
     usage_pct: float | None = None
     metrics: dict[str, str] = field(default_factory=dict)
+    # Falso cuando la fuente publica la build por spec y no por arbol de heroe:
+    # la UI lo dice en pantalla en vez de fingir una atribucion que no existe.
+    hero_specific: bool = True
 
 
 @dataclass
@@ -54,6 +66,10 @@ class GearEntry:
     usage_pct: float | None = None
     source_hint: str | None = None
     note: str | None = None
+    # Solo Icy Veins: de que jefe cae, y con que gema y encante va esa pieza.
+    drop_source: str | None = None
+    gem_id: int | None = None
+    enchant_id: int | None = None
 
 
 @dataclass
@@ -85,26 +101,46 @@ class Performance:
 
 
 @dataclass
-class Provenance:
+class SourceView:
+    """Lo que una sola web dice sobre esta combinacion.
+
+    Cada fuente rellena las secciones que publica y deja vacias las demas; el
+    addon resuelve los huecos cayendo a otra vista y avisando en pantalla. Por
+    eso una seccion vacia no es un error: es informacion.
+    """
+
+    source: str
     url: str
     fetched_at: str
-
-
-@dataclass
-class Guide:
-    """Una guia = una combinacion (spec, hero talent, tipo de contenido)."""
-
-    content: str
-    hero_id: int
-    hero_name: str
     stat_priority: list[StatEntry] = field(default_factory=list)
     talent_builds: list[TalentBuild] = field(default_factory=list)
     gear: dict[str, list[GearEntry]] = field(default_factory=dict)
     gems: list[GearEntry] = field(default_factory=list)
     enchants: list[EnchantEntry] = field(default_factory=list)
     consumables: list[ConsumableEntry] = field(default_factory=list)
+    # Texto editorial por ranura o abalorio, cuando la fuente lo da escrito.
+    notes: dict[str, str] = field(default_factory=dict)
+
+    def has(self, section: str) -> bool:
+        return bool(getattr(self, section, None))
+
+    def filled_sections(self) -> tuple[str, ...]:
+        return tuple(name for name in SECTIONS if self.has(name))
+
+
+@dataclass
+class Guide:
+    """Una guia = una combinacion (spec, hero talent, tipo de contenido).
+
+    Lo que es opinion de una web vive en views. El rendimiento no: es una
+    medicion, no una recomendacion, asi que no cambia al cambiar de fuente.
+    """
+
+    content: str
+    hero_id: int
+    hero_name: str
+    views: dict[str, SourceView] = field(default_factory=dict)
     performance: Performance | None = None
-    provenance: dict[str, Provenance] = field(default_factory=dict)
 
 
 @dataclass

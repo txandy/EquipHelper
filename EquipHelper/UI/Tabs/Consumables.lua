@@ -18,13 +18,15 @@ ns.RegisterTab({
 	render = function(container, guide)
 		ns.UI.Header(container, "Consumables")
 
-		if not guide.consumables or #guide.consumables == 0 then
+		local consumables, source, isFallback = ns.GetSection(guide, "consumables")
+		if not consumables then
 			ns.UI.Paragraph(container, "No consumables for this spec.")
 			return
 		end
+		ns.UI.SourceNote(container, "consumables", source, isFallback)
 
 		local byCategory = {}
-		for _, entry in ipairs(guide.consumables) do
+		for _, entry in ipairs(consumables) do
 			byCategory[entry.category] = byCategory[entry.category] or {}
 			table.insert(byCategory[entry.category], entry)
 		end

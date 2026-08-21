@@ -33,7 +33,9 @@ local function Add(itemID, entry)
 end
 
 local function CollectGuide(guide, content)
-	for slot, entries in pairs(guide.gear or {}) do
+	-- Por ns.GetSection y no leyendo la vista a pelo: el tooltip debe decir lo
+	-- mismo que el panel, respaldos incluidos.
+	for slot, entries in pairs(ns.GetSection(guide, "gear") or {}) do
 		for rank, entry in ipairs(entries) do
 			Add(entry.itemID, {
 				kind = "gear", slot = slot, rank = rank,
@@ -42,11 +44,11 @@ local function CollectGuide(guide, content)
 		end
 	end
 
-	for _, entry in ipairs(guide.gems or {}) do
+	for _, entry in ipairs(ns.GetSection(guide, "gems") or {}) do
 		Add(entry.itemID, { kind = "gem", usagePct = entry.usagePct, content = content })
 	end
 
-	for _, entry in ipairs(guide.enchants or {}) do
+	for _, entry in ipairs(ns.GetSection(guide, "enchants") or {}) do
 		Add(entry.itemID, {
 			kind = "enchant", slot = entry.slot,
 			usagePct = entry.usagePct, content = content,
@@ -56,7 +58,7 @@ local function CollectGuide(guide, content)
 	-- Los consumibles no dependen del tipo de contenido, asi que solo se
 	-- indexan una vez o saldrian duplicados en el tooltip.
 	if content == "mplus" then
-		for _, entry in ipairs(guide.consumables or {}) do
+		for _, entry in ipairs(ns.GetSection(guide, "consumables") or {}) do
 			Add(entry.itemID, {
 				kind = "consumable", category = entry.category, primary = entry.primary,
 			})
@@ -70,7 +72,9 @@ local function BuildIndex()
 	local player = ns.player
 	if not player or not player.classFile or not player.specID then return false end
 
-	local key = ("%s:%s:%s"):format(player.classFile, player.specID, player.heroID or "-")
+	-- La fuente entra en la clave: cambiar de web cambia lo que dice el tooltip.
+	local key = ("%s:%s:%s:%s"):format(
+		player.classFile, player.specID, player.heroID or "-", ns.state.source)
 	if index and indexedFor == key then return true end
 
 	index, indexedFor = {}, key

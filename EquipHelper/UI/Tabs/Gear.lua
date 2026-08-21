@@ -27,9 +27,26 @@ local function RenderItemList(container, entries)
 
 		local right = {}
 		if entry.usagePct then table.insert(right, ("%d%%"):format(entry.usagePct)) end
-		if entry.sourceHint then table.insert(right, entry.sourceHint) end
+		-- dropSource es de Icy Veins y sourceHint de Mythicstats: ambos dicen de
+		-- donde sale la pieza, pero solo uno viene relleno cada vez.
+		local from = entry.dropSource or entry.sourceHint
+		if from then table.insert(right, from) end
 		if entry.note then table.insert(right, entry.note) end
 		row.Right:SetText(table.concat(right, "  |  "))
+
+		-- La gema y el encante de esa pieza concreta, cuando la fuente los da.
+		-- Es la ventaja real de Icy Veins sobre un ranking de uso, asi que se
+		-- ve en la fila y no escondido en un tooltip.
+		for _, extra in ipairs({
+			{ id = entry.gemID, label = "Gem" },
+			{ id = entry.enchantID, label = "Enchant" },
+		}) do
+			if extra.id then
+				local sub = ns.UI.Row(container)
+				sub:SetItem(extra.id)
+				sub.Left:SetText("   |cff888888" .. extra.label .. ":|r " .. sub.Left:GetText())
+			end
+		end
 	end
 end
 
@@ -40,9 +57,12 @@ ns.RegisterTab({
 	render = function(container, guide)
 		ns.UI.Header(container, "Best in slot")
 
+		local gear, gearSource, gearFallback = ns.GetSection(guide, "gear")
+		ns.UI.SourceNote(container, "gear", gearSource, gearFallback)
+
 		local any = false
 		for _, slot in ipairs(SLOT_ORDER) do
-			local entries = guide.gear and guide.gear[slot.key]
+			local entries = gear and gear[slot.key]
 			if entries and #entries > 0 then
 				any = true
 				local head = ns.UI.Row(container)
@@ -56,16 +76,20 @@ ns.RegisterTab({
 			ns.UI.Paragraph(container, "No gear data for this combination.")
 		end
 
-		if guide.gems and #guide.gems > 0 then
+		local gems, gemsSource, gemsFallback = ns.GetSection(guide, "gems")
+		if gems then
 			ns.UI.Spacer(container)
 			ns.UI.Header(container, "Gems")
-			RenderItemList(container, guide.gems)
+			ns.UI.SourceNote(container, "gems", gemsSource, gemsFallback)
+			RenderItemList(container, gems)
 		end
 
-		if guide.enchants and #guide.enchants > 0 then
+		local enchants, enchSource, enchFallback = ns.GetSection(guide, "enchants")
+		if enchants then
 			ns.UI.Spacer(container)
 			ns.UI.Header(container, "Enchants")
-			for _, entry in ipairs(guide.enchants) do
+			ns.UI.SourceNote(container, "enchants", enchSource, enchFallback)
+			for _, entry in ipairs(enchants) do
 				local row = ns.UI.Row(container)
 				row:SetItem(entry.itemID)
 				local slotLabel = entry.slot
@@ -79,13 +103,13 @@ ns.RegisterTab({
 		end
 
 		-- Atribucion: obligatoria por los terminos de las fuentes y honesta con el usuario.
-		if guide.provenance then
-			ns.UI.Spacer(container)
-			local names = {}
-			for key, info in pairs(guide.provenance) do
-				table.insert(names, ("%s (%s)"):format(key, info.fetchedAt or "?"))
-			end
-			table.sort(names)
+		ns.UI.Spacer(container)
+		local names = {}
+		for _, entry in ipairs(ns.GetSources(guide)) do
+			local view = guide.views[entry.key]
+			table.insert(names, ("%s (%s)"):format(entry.label, view.fetchedAt or "?"))
+		end
+		if #names > 0 then
 			ns.UI.Paragraph(container, "|cff888888Sources: " .. table.concat(names, ", ") .. "|r")
 		end
 	end,

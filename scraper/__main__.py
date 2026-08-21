@@ -12,7 +12,7 @@ from pathlib import Path
 from scraper import emit_lua, validate
 from scraper.http import Fetcher
 from scraper.model import SpecGuides  # noqa: F401
-from scraper.model import ConsumableEntry, Provenance
+from scraper.model import ConsumableEntry, SourceView
 from scraper.sources import mythicstats, warcraftlogs, wowhead
 from scraper.talent_tree import load as load_talents
 
@@ -57,12 +57,16 @@ def _attach_consumables(fetcher, results, specs, report) -> None:
         fetched_at = date.today().isoformat()
 
         for guide in result.guides:
-            guide.consumables = [
-                ConsumableEntry(category=entry["category"], item_id=entry["item_id"],
-                                is_primary=entry["is_primary"])
-                for entry in consumables
-            ]
-            guide.provenance[wowhead.SOURCE_KEY] = Provenance(url=url, fetched_at=fetched_at)
+            guide.views[wowhead.SOURCE_KEY] = SourceView(
+                source=wowhead.SOURCE_KEY,
+                url=url,
+                fetched_at=fetched_at,
+                consumables=[
+                    ConsumableEntry(category=entry["category"], item_id=entry["item_id"],
+                                    is_primary=entry["is_primary"])
+                    for entry in consumables
+                ],
+            )
 
     print(f"  wowhead: {covered} specs con consumibles")
 
