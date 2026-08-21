@@ -1,0 +1,21 @@
+## Interface: 120000
+## Title: EquipHelper
+## Notes: Prioridad de stats, builds de talentos, rotacion y BiS para tu spec y hero talent.
+## Author: txandy
+## Version: @project-version@
+## SavedVariables: EquipHelperDB
+## IconTexture: Interface\Icons\INV_Misc_Book_09
+## X-Category: Class
+## X-Website: https://github.com/txandy/EquipHelper
+
+Core.lua
+
+Data\Manifest.lua
+Data\Mage.lua
+Data\Warrior.lua
+
+UI\MainPanel.lua
+UI\Tabs\Stats.lua
+UI\Tabs\Talents.lua
+UI\Tabs\Rotation.lua
+UI\Tabs\Gear.lua

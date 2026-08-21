@@ -1,0 +1,7 @@
+.release/
+__pycache__/
+*.pyc
+.venv/
+.cache/
+scraper/.httpcache/
+.DS_Store

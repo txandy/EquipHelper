@@ -1,0 +1,17 @@
+package-as: EquipHelper
+
+# El addon vive en un subdirectorio para que el scraper y los datos convivan en
+# el mismo repo sin acabar dentro del zip que se publica.
+move-folders:
+  EquipHelper/EquipHelper: EquipHelper
+
+ignore:
+  - scraper
+  - data
+  - .github
+  - .luacheckrc
+  - Makefile
+  - README.md
+  - docs
+
+enable-nolib-creation: no
