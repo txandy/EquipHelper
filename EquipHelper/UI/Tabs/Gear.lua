@@ -76,6 +76,15 @@ ns.RegisterTab({
 			ns.UI.Paragraph(container, "No gear data for this combination.")
 		end
 
+		-- El porque escrito de los abalorios. Un ranking dice cual lleva mas
+		-- gente; esto dice en que situacion sirve cada uno.
+		local active = guide.views and guide.views[ns.state.source]
+		if active and active.notes and active.notes.trinkets then
+			ns.UI.Spacer(container)
+			ns.UI.Header(container, "On trinkets")
+			ns.UI.Paragraph(container, active.notes.trinkets)
+		end
+
 		local gems, gemsSource, gemsFallback = ns.GetSection(guide, "gems")
 		if gems then
 			ns.UI.Spacer(container)

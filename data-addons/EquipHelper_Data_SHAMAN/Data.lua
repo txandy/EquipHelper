@@ -1,24 +1,195 @@
 -- GENERATED FILE -- do not edit by hand.
 -- Regenerar con: python -m scraper build
-local ADDON_NAME, ns = ...
 
-ns.RegisterClassData("SHAMAN", {
+EquipHelper_RegisterClassData("SHAMAN", {
 	specs = {
 		[262] = {
 			heroes = {
 				[56] = {
 					mplus = {
-						performance = {
-							difficulty = "Mythic+",
-							median = 204325.4,
-							metric = "dps",
-							outOf = 40,
-							rank = 3,
-							sample = 300,
-							top = 354835.1,
-							zone = "Mythic+ Season 2",
-						},
 						views = {
+							icyveins = {
+								consumables = {
+									{
+										category = "FLASK",
+										itemID = 241322,
+										primary = true,
+									},
+									{
+										category = "FLASK",
+										itemID = 241326,
+										primary = false,
+									},
+									{
+										category = "POTION",
+										itemID = 241308,
+										primary = true,
+									},
+									{
+										category = "HEALTH_POTION",
+										itemID = 271883,
+										primary = true,
+									},
+									{
+										category = "FOOD",
+										itemID = 255845,
+										primary = true,
+									},
+									{
+										category = "FOOD",
+										itemID = 255846,
+										primary = false,
+									},
+									{
+										category = "FOOD",
+										itemID = 242275,
+										primary = false,
+									},
+									{
+										category = "FOOD",
+										itemID = 255847,
+										primary = false,
+									},
+									{
+										category = "WEAPON_OIL",
+										itemID = 243733,
+										primary = true,
+									},
+								},
+								fetchedAt = "2026-08-21",
+								gear = {
+									BACK = {
+										{
+											dropSource = "The Blinding Vale",
+											itemID = 251190,
+										},
+									},
+									CHEST = {
+										{
+											dropSource = "Catalyst on the item from Altar of Fangs",
+											enchantID = 243977,
+											itemID = 271486,
+										},
+									},
+									FEET = {
+										{
+											dropSource = "Temple of Sethraliss",
+											enchantID = 243983,
+											itemID = 159388,
+										},
+									},
+									FINGER1 = {
+										{
+											dropSource = "Voidscar Arena",
+											enchantID = 243956,
+											gemID = 240892,
+											itemID = 252258,
+										},
+									},
+									FINGER2 = {
+										{
+											dropSource = "Temple of Sethraliss",
+											enchantID = 243956,
+											gemID = 240892,
+											itemID = 158366,
+										},
+									},
+									HANDS = {
+										{
+											dropSource = "Catalyst on the item from King's Rest",
+											itemID = 271484,
+										},
+									},
+									HEAD = {
+										{
+											dropSource = "Catalyst on the item from Voidscar Arena",
+											enchantID = 243981,
+											gemID = 240908,
+											itemID = 271483,
+										},
+									},
+									LEGS = {
+										{
+											dropSource = "Catalyst on the item from Temple of Sethraliss",
+											enchantID = 240133,
+											itemID = 271482,
+										},
+									},
+									MAINHAND = {
+										{
+											dropSource = "Altar of Fangs",
+											enchantID = 243973,
+											itemID = 273778,
+										},
+									},
+									NECK = {
+										{
+											dropSource = "Murder Row",
+											gemID = 240967,
+											itemID = 251142,
+										},
+									},
+									OFFHAND = {
+										{
+											dropSource = "Crafted by Inscription",
+											gemID = 273059,
+											itemID = 245769,
+										},
+									},
+									SHOULDER = {
+										{
+											dropSource = "Catalyst on the item from King's Rest",
+											enchantID = 243990,
+											itemID = 271481,
+										},
+									},
+									TRINKET1 = {
+										{
+											dropSource = "Altar of Fangs",
+											itemID = 273794,
+										},
+									},
+									TRINKET2 = {
+										{
+											dropSource = "Altar of Fangs",
+											itemID = 273796,
+										},
+									},
+									WAIST = {
+										{
+											dropSource = "Voidscar Arena",
+											gemID = 240917,
+											itemID = 251228,
+										},
+									},
+									WRIST = {
+										{
+											dropSource = "Crafted by Leatherworking",
+											gemID = 240900,
+											itemID = 244584,
+										},
+									},
+								},
+								source = "icyveins",
+								talentBuilds = {
+									{
+										heroSpecific = false,
+										importString = "CYQAAAAAAAAAAAAAAAAAAAAAAAAAAAzMbLzMmZmZZZZMMjBAAAAsYmNYADY2YCMLAwsNzMjZ2WmJMzsxyMzMjZwyMWMzwMLDAYAgZGDDD",
+										label = "Elemental Single Target - Farseer",
+									},
+									{
+										heroSpecific = false,
+										importString = "CYQAAAAAAAAAAAAAAAAAAAAAAAAAAAzMbLzMGjZZZZMmhBAAAAsYmNYADY2YCMLAwsNzMjx2iJMzsNWmZmZMjFLzMmZGzMLAADAMzYYYA",
+										label = "Elemental Mythic+ - Farseer",
+									},
+									{
+										heroSpecific = false,
+										importString = "CYQAAAAAAAAAAAAAAAAAAAAAAAAAAAzMbLzMGjZZZZMmhBAAAAsYmNYADY2YCMLAwsNzMjZ2WmJMzYsYmZGzYxyMjZmxMzCAwAAzMGGGA",
+										label = "Elemental Delves - Farseer",
+									},
+								},
+								url = "https://www.icy-veins.com/wow/elemental-shaman-pve-dps-gear-best-in-slot",
+							},
 							mythicstats = {
 								enchants = {
 									{
@@ -824,17 +995,173 @@ ns.RegisterClassData("SHAMAN", {
 			heroes = {
 				[55] = {
 					mplus = {
-						performance = {
-							difficulty = "Mythic+",
-							median = 180913.0,
-							metric = "dps",
-							outOf = 40,
-							rank = 10,
-							sample = 300,
-							top = 278882.6,
-							zone = "Mythic+ Season 2",
-						},
 						views = {
+							icyveins = {
+								consumables = {
+									{
+										category = "POTION",
+										itemID = 241288,
+										primary = true,
+									},
+									{
+										category = "HEALTH_POTION",
+										itemID = 271883,
+										primary = true,
+									},
+									{
+										category = "FOOD",
+										itemID = 255845,
+										primary = true,
+									},
+									{
+										category = "FOOD",
+										itemID = 242275,
+										primary = false,
+									},
+									{
+										category = "RUNE",
+										itemID = 259085,
+										primary = true,
+									},
+								},
+								fetchedAt = "2026-08-21",
+								gear = {
+									BACK = {
+										{
+											dropSource = "Blinding Vale",
+											itemID = 251190,
+										},
+									},
+									CHEST = {
+										{
+											dropSource = "Catalyst from Altar of Fangs",
+											enchantID = 243977,
+											itemID = 271486,
+										},
+									},
+									FEET = {
+										{
+											dropSource = "Temple of Sethraliss",
+											enchantID = 243952,
+											itemID = 159388,
+										},
+									},
+									FINGER1 = {
+										{
+											dropSource = "Voidscar Arena",
+											enchantID = 243956,
+											gemID = 240917,
+											itemID = 252258,
+										},
+									},
+									FINGER2 = {
+										{
+											dropSource = "Altar of Fangs",
+											enchantID = 243956,
+											gemID = 240900,
+											itemID = 273792,
+										},
+									},
+									HANDS = {
+										{
+											dropSource = "Catalyst from King's Rest",
+											itemID = 271484,
+										},
+									},
+									HEAD = {
+										{
+											dropSource = "Catalyst from Voidscar Arena",
+											enchantID = 244007,
+											gemID = 240967,
+											itemID = 271483,
+										},
+									},
+									LEGS = {
+										{
+											dropSource = "Catalyst from Temple of Sethraliss",
+											enchantID = 244640,
+											itemID = 271482,
+										},
+									},
+									MAINHAND = {
+										{
+											dropSource = "Voidscar Arena",
+											enchantID = 243973,
+											itemID = 251224,
+										},
+									},
+									NECK = {
+										{
+											dropSource = "Murder Row",
+											gemID = 240900,
+											itemID = 251142,
+										},
+									},
+									OFFHAND = {
+										{
+											dropSource = "Crafted by Blacksmithing",
+											enchantID = 244031,
+											gemID = 273059,
+											itemID = 237850,
+										},
+									},
+									SHOULDER = {
+										{
+											dropSource = "Catalyst from King's Rest",
+											enchantID = 243990,
+											itemID = 271481,
+										},
+									},
+									TRINKET1 = {
+										{
+											dropSource = "Altar of Fangs",
+											itemID = 273796,
+										},
+									},
+									TRINKET2 = {
+										{
+											dropSource = "Murder Row",
+											itemID = 250228,
+										},
+									},
+									WAIST = {
+										{
+											dropSource = "Voidscar Arena",
+											gemID = 240908,
+											itemID = 251228,
+										},
+									},
+									WRIST = {
+										{
+											dropSource = "Crafted by Leatherworking",
+											gemID = 240892,
+											itemID = 244584,
+										},
+									},
+								},
+								notes = {
+									trinkets = "Enhancement ideally wants to get one on-use trinket to pair with the strong cooldowns used in both builds - Doom Winds or Ascendance , respectively - alongside a passive trinket.",
+								},
+								source = "icyveins",
+								talentBuilds = {
+									{
+										heroSpecific = false,
+										importString = "CcQAAAAAAAAAAAAAAAAAAAAAAMzMzgZmZmZmhZmZAAAAAAAAA2AsZGDbwCMDDNYBgZZGzMjllZgZmNWmZmZYYMDAwMMmZMzEYmBDGDA",
+										label = "Raid / Single Target - Stormbringer",
+									},
+									{
+										heroSpecific = false,
+										importString = "CcQAAAAAAAAAAAAAAAAAAAAAAMzMzgZmZmZmhZmZAAAAAAAAAsBYzMG2gFYGGawCAzyMmxYZxYjZmtxyMzMzYswMAAzwYmhRgZGMYMA",
+										label = "AoE / Mythic+ - Stormbringer",
+									},
+									{
+										heroSpecific = false,
+										importString = "CcQAAAAAAAAAAAAAAAAAAAAAAMzMjZmZmZmZmZmZGzAAAAAAAAAALwGMjFN2GAzA2AYWmxMGLLzAzMGLmZmZMWYGAADMGzMxMDAMGA",
+										label = "Delves - Totemic",
+									},
+								},
+								url = "https://www.icy-veins.com/wow/enhancement-shaman-pve-dps-gear-best-in-slot",
+							},
 							mythicstats = {
 								enchants = {
 									{
@@ -1660,17 +1987,211 @@ ns.RegisterClassData("SHAMAN", {
 			heroes = {
 				[54] = {
 					mplus = {
-						performance = {
-							difficulty = "Mythic+",
-							median = 33550.8,
-							metric = "dps",
-							outOf = 40,
-							rank = 36,
-							sample = 300,
-							top = 51846.0,
-							zone = "Mythic+ Season 2",
-						},
 						views = {
+							icyveins = {
+								consumables = {
+									{
+										category = "FLASK",
+										itemID = 241326,
+										primary = true,
+									},
+									{
+										category = "FLASK",
+										itemID = 241320,
+										primary = false,
+									},
+									{
+										category = "POTION",
+										itemID = 241308,
+										primary = true,
+									},
+									{
+										category = "HEALTH_POTION",
+										itemID = 271883,
+										primary = true,
+									},
+									{
+										category = "FOOD",
+										itemID = 255845,
+										primary = true,
+									},
+									{
+										category = "FOOD",
+										itemID = 255846,
+										primary = false,
+									},
+									{
+										category = "FOOD",
+										itemID = 242275,
+										primary = false,
+									},
+									{
+										category = "RUNE",
+										itemID = 259085,
+										primary = true,
+									},
+									{
+										category = "WEAPON_OIL",
+										itemID = 243733,
+										primary = true,
+									},
+								},
+								fetchedAt = "2026-08-21",
+								gear = {
+									BACK = {
+										{
+											dropSource = "Murder Row",
+											itemID = 251132,
+										},
+									},
+									CHEST = {
+										{
+											dropSource = "Catalyst on the chest from King's Rest",
+											enchantID = 244002,
+											itemID = 271486,
+										},
+									},
+									FEET = {
+										{
+											dropSource = "Crafted by Leatherworking",
+											enchantID = 243983,
+											itemID = 244577,
+										},
+									},
+									FINGER1 = {
+										{
+											dropSource = "Murder Row",
+											enchantID = 243956,
+											gemID = 240910,
+											itemID = 251136,
+										},
+									},
+									FINGER2 = {
+										{
+											dropSource = "Den of Nalorakk",
+											enchantID = 243956,
+											gemID = 240910,
+											itemID = 251148,
+										},
+									},
+									HANDS = {
+										{
+											dropSource = "Catalyst on the gloves from The Blinding Vale",
+											itemID = 271484,
+										},
+									},
+									HEAD = {
+										{
+											dropSource = "Catalyst on the head from Temple of Sethraliss",
+											enchantID = 243950,
+											gemID = 240914,
+											itemID = 271483,
+										},
+									},
+									LEGS = {
+										{
+											dropSource = "Catalyst on the item from Temple of Sethraliss",
+											enchantID = 240155,
+											itemID = 271482,
+										},
+									},
+									MAINHAND = {
+										{
+											dropSource = "Altar of Fangs",
+											enchantID = 244029,
+											itemID = 273780,
+										},
+									},
+									NECK = {
+										{
+											dropSource = "Altar of Fangs",
+											gemID = 240967,
+											itemID = 273781,
+										},
+									},
+									OFFHAND = {
+										{
+											dropSource = "The Blinding Vale",
+											itemID = 251196,
+										},
+									},
+									SHOULDER = {
+										{
+											dropSource = "Catalyst on the shoulders from Murder Row",
+											enchantID = 244021,
+											itemID = 271481,
+										},
+									},
+									TRINKET1 = {
+										{
+											dropSource = "Ruby Life Pools",
+											itemID = 193757,
+										},
+									},
+									TRINKET2 = {
+										{
+											dropSource = "Murder Row",
+											itemID = 250215,
+										},
+									},
+									WAIST = {
+										{
+											dropSource = "Den of Nalorakk",
+											gemID = 240898,
+											itemID = 251155,
+										},
+									},
+									WRIST = {
+										{
+											dropSource = "Crafted by Leatherworking",
+											gemID = 240890,
+											itemID = 244584,
+										},
+									},
+								},
+								gems = {
+									{
+										itemID = 240983,
+									},
+									{
+										itemID = 240968,
+									},
+									{
+										itemID = 240910,
+									},
+									{
+										itemID = 240914,
+									},
+									{
+										itemID = 240890,
+									},
+									{
+										itemID = 240898,
+									},
+								},
+								notes = {
+									trinkets = "These are generally the strongest on-use and passive trinkets available, with passive trinkets being favored for ease of use:",
+								},
+								source = "icyveins",
+								talentBuilds = {
+									{
+										heroSpecific = false,
+										importString = "CgQAAAAAAAAAAAAAAAAAAAAAAAAAAgBAAAAzMzsstMmZmZmZGjZMsBbwMW0YbAMDshxMMLzMGNLLzMbmxsxixMjhlZZAAAAzMYmBgxgZA",
+										label = "Restoration Dungeons - Totemic",
+									},
+									{
+										heroSpecific = false,
+										importString = "CgQAAAAAAAAAAAAAAAAAAAAAAAAAAgBAAAAzMzsssNjZGjZGzMYsBbwMW0YbAMDsZGmBbjZmpZbZmhZMbsMzMzYwsMAAAwMzgZGAYwM",
+										label = "Restoration Raid - Totemic",
+									},
+									{
+										heroSpecific = false,
+										importString = "CgQAAAAAAAAAAAAAAAAAAAAAAAAAAgBAAAAzMzsssNzMzMzMzYmhxiZWgBMgZhJwYhBY2mZMa2WmZ2MzMLsYmZGDmlBAAAYGAMzgZwM",
+										label = "Restoration Delves - Farseer",
+									},
+								},
+								url = "https://www.icy-veins.com/wow/restoration-shaman-pve-healing-gear-best-in-slot",
+							},
 							mythicstats = {
 								enchants = {
 									{

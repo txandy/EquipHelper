@@ -6,17 +6,317 @@
       "content": "mplus",
       "hero_id": 51,
       "hero_name": "Trickster",
-      "performance": {
-        "difficulty": "Mythic+",
-        "median": 197730.6,
-        "metric": "dps",
-        "out_of": 40,
-        "rank": 5,
-        "sample": 300,
-        "top": 322836.8,
-        "zone": "Mythic+ Season 2"
-      },
+      "performance": null,
       "views": {
+        "icyveins": {
+          "consumables": [
+            {
+              "category": "FLASK",
+              "is_primary": true,
+              "item_id": 241326
+            },
+            {
+              "category": "FLASK",
+              "is_primary": false,
+              "item_id": 241325
+            },
+            {
+              "category": "FLASK",
+              "is_primary": false,
+              "item_id": 241319
+            },
+            {
+              "category": "POTION",
+              "is_primary": true,
+              "item_id": 241288
+            },
+            {
+              "category": "HEALTH_POTION",
+              "is_primary": true,
+              "item_id": 271883
+            },
+            {
+              "category": "FOOD",
+              "is_primary": true,
+              "item_id": 255845
+            },
+            {
+              "category": "FOOD",
+              "is_primary": false,
+              "item_id": 242275
+            },
+            {
+              "category": "RUNE",
+              "is_primary": true,
+              "item_id": 259085
+            }
+          ],
+          "enchants": [],
+          "fetched_at": "2026-08-21",
+          "gear": {
+            "BACK": [
+              {
+                "drop_source": "Ruby Life Pools",
+                "enchant_id": null,
+                "gem_id": null,
+                "item_id": 193763,
+                "note": null,
+                "source_hint": null,
+                "usage_pct": null
+              }
+            ],
+            "CHEST": [
+              {
+                "drop_source": "Catalyst from Voidscar Arena",
+                "enchant_id": 243977,
+                "gem_id": null,
+                "item_id": 271513,
+                "note": null,
+                "source_hint": null,
+                "usage_pct": null
+              }
+            ],
+            "FEET": [
+              {
+                "drop_source": "Crafted by Leatherworking",
+                "enchant_id": 244008,
+                "gem_id": 240167,
+                "item_id": 244569,
+                "note": null,
+                "source_hint": null,
+                "usage_pct": null
+              }
+            ],
+            "FINGER1": [
+              {
+                "drop_source": "King's Rest",
+                "enchant_id": 243956,
+                "gem_id": 240890,
+                "item_id": 159459,
+                "note": null,
+                "source_hint": null,
+                "usage_pct": null
+              }
+            ],
+            "FINGER2": [
+              {
+                "drop_source": "Den of Nalorakk",
+                "enchant_id": 243956,
+                "gem_id": 240906,
+                "item_id": 251148,
+                "note": null,
+                "source_hint": null,
+                "usage_pct": null
+              }
+            ],
+            "HANDS": [
+              {
+                "drop_source": "Catalyst from Murder Row",
+                "enchant_id": null,
+                "gem_id": null,
+                "item_id": 271511,
+                "note": null,
+                "source_hint": null,
+                "usage_pct": null
+              }
+            ],
+            "HEAD": [
+              {
+                "drop_source": "Altar of Fangs",
+                "enchant_id": 243981,
+                "gem_id": 240967,
+                "item_id": 273791,
+                "note": null,
+                "source_hint": null,
+                "usage_pct": null
+              }
+            ],
+            "LEGS": [
+              {
+                "drop_source": "Catalyst from King's Rest",
+                "enchant_id": 244640,
+                "gem_id": null,
+                "item_id": 271509,
+                "note": null,
+                "source_hint": null,
+                "usage_pct": null
+              }
+            ],
+            "MAINHAND": [
+              {
+                "drop_source": "Ruby Life Pools",
+                "enchant_id": 244029,
+                "gem_id": null,
+                "item_id": 193767,
+                "note": null,
+                "source_hint": null,
+                "usage_pct": null
+              }
+            ],
+            "NECK": [
+              {
+                "drop_source": "Altar of Fangs",
+                "enchant_id": null,
+                "gem_id": 240914,
+                "item_id": 273781,
+                "note": null,
+                "source_hint": null,
+                "usage_pct": null
+              }
+            ],
+            "OFFHAND": [
+              {
+                "drop_source": "Altar of Fangs",
+                "enchant_id": 244029,
+                "gem_id": null,
+                "item_id": 275070,
+                "note": null,
+                "source_hint": null,
+                "usage_pct": null
+              }
+            ],
+            "SHOULDER": [
+              {
+                "drop_source": "Catalyst from Voidscar Arena",
+                "enchant_id": 243990,
+                "gem_id": null,
+                "item_id": 271508,
+                "note": null,
+                "source_hint": null,
+                "usage_pct": null
+              }
+            ],
+            "TRINKET1": [
+              {
+                "drop_source": "Blinding Vale",
+                "enchant_id": null,
+                "gem_id": null,
+                "item_id": 250259,
+                "note": null,
+                "source_hint": null,
+                "usage_pct": null
+              }
+            ],
+            "TRINKET2": [
+              {
+                "drop_source": "King's Rest",
+                "enchant_id": null,
+                "gem_id": null,
+                "item_id": 159617,
+                "note": null,
+                "source_hint": null,
+                "usage_pct": null
+              }
+            ],
+            "WAIST": [
+              {
+                "drop_source": "Crafted by Leatherworking",
+                "enchant_id": null,
+                "gem_id": 240898,
+                "item_id": 244573,
+                "note": null,
+                "source_hint": null,
+                "usage_pct": null
+              }
+            ],
+            "WRIST": [
+              {
+                "drop_source": "Murder Row",
+                "enchant_id": null,
+                "gem_id": 240914,
+                "item_id": 251135,
+                "note": null,
+                "source_hint": null,
+                "usage_pct": null
+              }
+            ]
+          },
+          "gems": [
+            {
+              "drop_source": null,
+              "enchant_id": null,
+              "gem_id": null,
+              "item_id": 240967,
+              "note": null,
+              "source_hint": null,
+              "usage_pct": null
+            },
+            {
+              "drop_source": null,
+              "enchant_id": null,
+              "gem_id": null,
+              "item_id": 240890,
+              "note": null,
+              "source_hint": null,
+              "usage_pct": null
+            },
+            {
+              "drop_source": null,
+              "enchant_id": null,
+              "gem_id": null,
+              "item_id": 240906,
+              "note": null,
+              "source_hint": null,
+              "usage_pct": null
+            },
+            {
+              "drop_source": null,
+              "enchant_id": null,
+              "gem_id": null,
+              "item_id": 240914,
+              "note": null,
+              "source_hint": null,
+              "usage_pct": null
+            },
+            {
+              "drop_source": null,
+              "enchant_id": null,
+              "gem_id": null,
+              "item_id": 240898,
+              "note": null,
+              "source_hint": null,
+              "usage_pct": null
+            }
+          ],
+          "notes": {
+            "trinkets": "There are a great number of Trinkets available for Outlaw, and we will always want to play a combination of two powerful passive trinkets like Zul'jin's Guillotine Technique and Voracious Heart of Ula'tek . Outlaw has no meaningful burst cooldowns, so playing a on-use trinket is not that powerful for us, but the Heart of Ula'tek is simply too strong."
+          },
+          "source": "icyveins",
+          "stat_priority": [],
+          "talent_builds": [
+            {
+              "hero_id": 0,
+              "hero_specific": false,
+              "import_string": "CQQAAAAAAAAAAAAAAAAAAAAAAAgx2MMzMmZmtZmZmZMmF4BmZbaZw2MAAAAAALLzMzwMzMziZmZbAAAAYmBAjZxwADMLsQLsxAMzgBG",
+              "label": "Outlaw Single Target - Trickster",
+              "metrics": {},
+              "source": "icyveins",
+              "url": "https://www.icy-veins.com/wow/outlaw-rogue-pve-dps-spec-builds-talents",
+              "usage_pct": null
+            },
+            {
+              "hero_id": 0,
+              "hero_specific": false,
+              "import_string": "CQQAAAAAAAAAAAAAAAAAAAAAAAgx2MMzMjZmtZmZMzMzsAmZbaZw2MAAAAAALLzMzwMzMziZmZbAAAAYmBAjZxwADMLsQLsxAMzgBG",
+              "label": "Outlaw AoE - Trickster",
+              "metrics": {},
+              "source": "icyveins",
+              "url": "https://www.icy-veins.com/wow/outlaw-rogue-pve-dps-spec-builds-talents",
+              "usage_pct": null
+            },
+            {
+              "hero_id": 0,
+              "hero_specific": false,
+              "import_string": "CQQAAAAAAAAAAAAAAAAAAAAAAAgx2MMzMjZmtZmZMzMzsAmZbaZw2MAAAAAALLzMzwMzMziZmZbAAAAYmBAjZxwADMLsQLsxAMzgBG",
+              "label": "Outlaw Delves - Trickster",
+              "metrics": {},
+              "source": "icyveins",
+              "url": "https://www.icy-veins.com/wow/outlaw-rogue-pve-dps-spec-builds-talents",
+              "usage_pct": null
+            }
+          ],
+          "url": "https://www.icy-veins.com/wow/outlaw-rogue-pve-dps-gear-best-in-slot"
+        },
         "mythicstats": {
           "consumables": [],
           "enchants": [

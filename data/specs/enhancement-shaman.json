@@ -6,17 +6,256 @@
       "content": "mplus",
       "hero_id": 55,
       "hero_name": "Stormbringer",
-      "performance": {
-        "difficulty": "Mythic+",
-        "median": 180913.0,
-        "metric": "dps",
-        "out_of": 40,
-        "rank": 10,
-        "sample": 300,
-        "top": 278882.6,
-        "zone": "Mythic+ Season 2"
-      },
+      "performance": null,
       "views": {
+        "icyveins": {
+          "consumables": [
+            {
+              "category": "POTION",
+              "is_primary": true,
+              "item_id": 241288
+            },
+            {
+              "category": "HEALTH_POTION",
+              "is_primary": true,
+              "item_id": 271883
+            },
+            {
+              "category": "FOOD",
+              "is_primary": true,
+              "item_id": 255845
+            },
+            {
+              "category": "FOOD",
+              "is_primary": false,
+              "item_id": 242275
+            },
+            {
+              "category": "RUNE",
+              "is_primary": true,
+              "item_id": 259085
+            }
+          ],
+          "enchants": [],
+          "fetched_at": "2026-08-21",
+          "gear": {
+            "BACK": [
+              {
+                "drop_source": "Blinding Vale",
+                "enchant_id": null,
+                "gem_id": null,
+                "item_id": 251190,
+                "note": null,
+                "source_hint": null,
+                "usage_pct": null
+              }
+            ],
+            "CHEST": [
+              {
+                "drop_source": "Catalyst from Altar of Fangs",
+                "enchant_id": 243977,
+                "gem_id": null,
+                "item_id": 271486,
+                "note": null,
+                "source_hint": null,
+                "usage_pct": null
+              }
+            ],
+            "FEET": [
+              {
+                "drop_source": "Temple of Sethraliss",
+                "enchant_id": 243952,
+                "gem_id": null,
+                "item_id": 159388,
+                "note": null,
+                "source_hint": null,
+                "usage_pct": null
+              }
+            ],
+            "FINGER1": [
+              {
+                "drop_source": "Voidscar Arena",
+                "enchant_id": 243956,
+                "gem_id": 240917,
+                "item_id": 252258,
+                "note": null,
+                "source_hint": null,
+                "usage_pct": null
+              }
+            ],
+            "FINGER2": [
+              {
+                "drop_source": "Altar of Fangs",
+                "enchant_id": 243956,
+                "gem_id": 240900,
+                "item_id": 273792,
+                "note": null,
+                "source_hint": null,
+                "usage_pct": null
+              }
+            ],
+            "HANDS": [
+              {
+                "drop_source": "Catalyst from King's Rest",
+                "enchant_id": null,
+                "gem_id": null,
+                "item_id": 271484,
+                "note": null,
+                "source_hint": null,
+                "usage_pct": null
+              }
+            ],
+            "HEAD": [
+              {
+                "drop_source": "Catalyst from Voidscar Arena",
+                "enchant_id": 244007,
+                "gem_id": 240967,
+                "item_id": 271483,
+                "note": null,
+                "source_hint": null,
+                "usage_pct": null
+              }
+            ],
+            "LEGS": [
+              {
+                "drop_source": "Catalyst from Temple of Sethraliss",
+                "enchant_id": 244640,
+                "gem_id": null,
+                "item_id": 271482,
+                "note": null,
+                "source_hint": null,
+                "usage_pct": null
+              }
+            ],
+            "MAINHAND": [
+              {
+                "drop_source": "Voidscar Arena",
+                "enchant_id": 243973,
+                "gem_id": null,
+                "item_id": 251224,
+                "note": null,
+                "source_hint": null,
+                "usage_pct": null
+              }
+            ],
+            "NECK": [
+              {
+                "drop_source": "Murder Row",
+                "enchant_id": null,
+                "gem_id": 240900,
+                "item_id": 251142,
+                "note": null,
+                "source_hint": null,
+                "usage_pct": null
+              }
+            ],
+            "OFFHAND": [
+              {
+                "drop_source": "Crafted by Blacksmithing",
+                "enchant_id": 244031,
+                "gem_id": 273059,
+                "item_id": 237850,
+                "note": null,
+                "source_hint": null,
+                "usage_pct": null
+              }
+            ],
+            "SHOULDER": [
+              {
+                "drop_source": "Catalyst from King's Rest",
+                "enchant_id": 243990,
+                "gem_id": null,
+                "item_id": 271481,
+                "note": null,
+                "source_hint": null,
+                "usage_pct": null
+              }
+            ],
+            "TRINKET1": [
+              {
+                "drop_source": "Altar of Fangs",
+                "enchant_id": null,
+                "gem_id": null,
+                "item_id": 273796,
+                "note": null,
+                "source_hint": null,
+                "usage_pct": null
+              }
+            ],
+            "TRINKET2": [
+              {
+                "drop_source": "Murder Row",
+                "enchant_id": null,
+                "gem_id": null,
+                "item_id": 250228,
+                "note": null,
+                "source_hint": null,
+                "usage_pct": null
+              }
+            ],
+            "WAIST": [
+              {
+                "drop_source": "Voidscar Arena",
+                "enchant_id": null,
+                "gem_id": 240908,
+                "item_id": 251228,
+                "note": null,
+                "source_hint": null,
+                "usage_pct": null
+              }
+            ],
+            "WRIST": [
+              {
+                "drop_source": "Crafted by Leatherworking",
+                "enchant_id": null,
+                "gem_id": 240892,
+                "item_id": 244584,
+                "note": null,
+                "source_hint": null,
+                "usage_pct": null
+              }
+            ]
+          },
+          "gems": [],
+          "notes": {
+            "trinkets": "Enhancement ideally wants to get one on-use trinket to pair with the strong cooldowns used in both builds - Doom Winds or Ascendance , respectively - alongside a passive trinket."
+          },
+          "source": "icyveins",
+          "stat_priority": [],
+          "talent_builds": [
+            {
+              "hero_id": 0,
+              "hero_specific": false,
+              "import_string": "CcQAAAAAAAAAAAAAAAAAAAAAAMzMzgZmZmZmhZmZAAAAAAAAA2AsZGDbwCMDDNYBgZZGzMjllZgZmNWmZmZYYMDAwMMmZMzEYmBDGDA",
+              "label": "Raid / Single Target - Stormbringer",
+              "metrics": {},
+              "source": "icyveins",
+              "url": "https://www.icy-veins.com/wow/enhancement-shaman-pve-dps-spec-builds-talents",
+              "usage_pct": null
+            },
+            {
+              "hero_id": 0,
+              "hero_specific": false,
+              "import_string": "CcQAAAAAAAAAAAAAAAAAAAAAAMzMzgZmZmZmhZmZAAAAAAAAAsBYzMG2gFYGGawCAzyMmxYZxYjZmtxyMzMzYswMAAzwYmhRgZGMYMA",
+              "label": "AoE / Mythic+ - Stormbringer",
+              "metrics": {},
+              "source": "icyveins",
+              "url": "https://www.icy-veins.com/wow/enhancement-shaman-pve-dps-spec-builds-talents",
+              "usage_pct": null
+            },
+            {
+              "hero_id": 0,
+              "hero_specific": false,
+              "import_string": "CcQAAAAAAAAAAAAAAAAAAAAAAMzMjZmZmZmZmZmZGzAAAAAAAAAALwGMjFN2GAzA2AYWmxMGLLzAzMGLmZmZMWYGAADMGzMxMDAMGA",
+              "label": "Delves - Totemic",
+              "metrics": {},
+              "source": "icyveins",
+              "url": "https://www.icy-veins.com/wow/enhancement-shaman-pve-dps-spec-builds-talents",
+              "usage_pct": null
+            }
+          ],
+          "url": "https://www.icy-veins.com/wow/enhancement-shaman-pve-dps-gear-best-in-slot"
+        },
         "mythicstats": {
           "consumables": [],
           "enchants": [

@@ -31,7 +31,10 @@ Los datos son reales: **40 specs, 58 guías** (spec × hero talent × M+/banda),
 con prioridad de stats, builds de talentos importables, BiS por ranura, gemas,
 encantamientos, consumibles y rendimiento medido.
 
-Cuatro pestañas: **Stats · Talentos · Equipo · Consumibles**.
+Cuatro pestañas: **Stats · Talentos · Equipo · Consumibles**, y un desplegable
+para elegir **de qué web** ver la información. Cuando la web elegida no publica
+una sección, el panel cae a otra y lo dice en pantalla en vez de quedarse en
+blanco.
 
 ### Por qué no está Archon.gg
 
@@ -100,6 +103,7 @@ de fuentes no necesita credenciales.
 |--------|-----------|----------------|
 | [Mythicstats](https://mythicstats.com) | Builds de talentos importables, BiS, gemas, encantes, prioridad de stats | HTML renderizado en servidor |
 | [Warcraft Logs](https://www.warcraftlogs.com) | Rendimiento medido: mediana del top 100 y puesto por rol | API oficial GraphQL con OAuth |
+| [Icy Veins](https://www.icy-veins.com) | BiS **con el jefe que lo suelta y la gema y el encante de cada pieza**, talentos por escenario, consumibles, abalorios razonados | HTML con `data-wowhead` e ids de sección fijos |
 | [Wowhead](https://www.wowhead.com) | Consumibles: frasco, comida, pociones, aceite de arma, runa de aumento | Guía en BBCode dentro de la página |
 
 Cada guía muestra de qué fuente salió y cuándo se descargó. Warcraft Logs se
@@ -107,6 +111,17 @@ consulta por su API oficial; los otros dos son módulos desacoplables, con
 rate-limit de una petición por segundo, caché en disco y User-Agent
 identificable. Si una fuente deja de estar disponible, el build avisa y publica
 sin ella en vez de fallar.
+
+### Las dos webs no indexan igual
+
+Mythicstats publica los talentos **por hero talent**, con su % de uso real. Icy
+Veins publica **tres por spec**, etiquetados por escenario, en un bloque
+anterior a sus secciones por héroe, que son prosa sin códigos. No hay forma
+fiable de atribuirlos a un árbol, así que se marcan `heroSpecific = false` y el
+panel lo dice, en vez de inventarse una atribución.
+
+Icy Veins tampoco publica la prioridad de stats en forma extraíble: es prosa.
+Ahí su vista se queda vacía a propósito y el panel cae a Mythicstats avisando.
 
 ### Por qué no está la rotación
 

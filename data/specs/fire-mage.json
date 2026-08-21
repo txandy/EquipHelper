@@ -6,17 +6,256 @@
       "content": "mplus",
       "hero_id": 39,
       "hero_name": "Sunfury",
-      "performance": {
-        "difficulty": "Mythic+",
-        "median": 172840.0,
-        "metric": "dps",
-        "out_of": 40,
-        "rank": 17,
-        "sample": 300,
-        "top": 331176.1,
-        "zone": "Mythic+ Season 2"
-      },
+      "performance": null,
       "views": {
+        "icyveins": {
+          "consumables": [
+            {
+              "category": "FLASK",
+              "is_primary": true,
+              "item_id": 241325
+            },
+            {
+              "category": "HEALTH_POTION",
+              "is_primary": true,
+              "item_id": 241308
+            },
+            {
+              "category": "FOOD",
+              "is_primary": true,
+              "item_id": 255845
+            },
+            {
+              "category": "RUNE",
+              "is_primary": true,
+              "item_id": 259085
+            },
+            {
+              "category": "WEAPON_OIL",
+              "is_primary": true,
+              "item_id": 243733
+            }
+          ],
+          "enchants": [],
+          "fetched_at": "2026-08-21",
+          "gear": {
+            "BACK": [
+              {
+                "drop_source": "Blinding Vale",
+                "enchant_id": null,
+                "gem_id": null,
+                "item_id": 251190,
+                "note": null,
+                "source_hint": null,
+                "usage_pct": null
+              }
+            ],
+            "CHEST": [
+              {
+                "drop_source": "Den of Nalorakk + Catalyst",
+                "enchant_id": 243977,
+                "gem_id": null,
+                "item_id": 271567,
+                "note": null,
+                "source_hint": null,
+                "usage_pct": null
+              }
+            ],
+            "FEET": [
+              {
+                "drop_source": "Murder Row",
+                "enchant_id": 244008,
+                "gem_id": null,
+                "item_id": 251137,
+                "note": null,
+                "source_hint": null,
+                "usage_pct": null
+              }
+            ],
+            "FINGER1": [
+              {
+                "drop_source": "Voidscar Arena",
+                "enchant_id": 243956,
+                "gem_id": 240906,
+                "item_id": 252258,
+                "note": null,
+                "source_hint": null,
+                "usage_pct": null
+              }
+            ],
+            "FINGER2": [
+              {
+                "drop_source": "King's Rest",
+                "enchant_id": 243956,
+                "gem_id": 240893,
+                "item_id": 159459,
+                "note": null,
+                "source_hint": null,
+                "usage_pct": null
+              }
+            ],
+            "HANDS": [
+              {
+                "drop_source": "Murder Row + Catalyst",
+                "enchant_id": null,
+                "gem_id": null,
+                "item_id": 271565,
+                "note": null,
+                "source_hint": null,
+                "usage_pct": null
+              }
+            ],
+            "HEAD": [
+              {
+                "drop_source": "Voidscar Arena + Catalyst",
+                "enchant_id": 243981,
+                "gem_id": 240967,
+                "item_id": 271564,
+                "note": null,
+                "source_hint": null,
+                "usage_pct": null
+              }
+            ],
+            "LEGS": [
+              {
+                "drop_source": "Ruby Life Pools + Catalyst",
+                "enchant_id": 240133,
+                "gem_id": null,
+                "item_id": 271563,
+                "note": null,
+                "source_hint": null,
+                "usage_pct": null
+              }
+            ],
+            "MAINHAND": [
+              {
+                "drop_source": "Altar of Fangs",
+                "enchant_id": 244029,
+                "gem_id": null,
+                "item_id": 273778,
+                "note": null,
+                "source_hint": null,
+                "usage_pct": null
+              }
+            ],
+            "NECK": [
+              {
+                "drop_source": "Murder Row",
+                "enchant_id": null,
+                "gem_id": 240893,
+                "item_id": 251142,
+                "note": null,
+                "source_hint": null,
+                "usage_pct": null
+              }
+            ],
+            "OFFHAND": [
+              {
+                "drop_source": "King's Rest",
+                "enchant_id": null,
+                "gem_id": null,
+                "item_id": 159667,
+                "note": null,
+                "source_hint": null,
+                "usage_pct": null
+              }
+            ],
+            "SHOULDER": [
+              {
+                "drop_source": "King's Rest + Catalyst",
+                "enchant_id": 243962,
+                "gem_id": null,
+                "item_id": 271562,
+                "note": null,
+                "source_hint": null,
+                "usage_pct": null
+              }
+            ],
+            "TRINKET1": [
+              {
+                "drop_source": "Altar of Fangs",
+                "enchant_id": null,
+                "gem_id": null,
+                "item_id": 273796,
+                "note": null,
+                "source_hint": null,
+                "usage_pct": null
+              }
+            ],
+            "TRINKET2": [
+              {
+                "drop_source": "Blinding Vale",
+                "enchant_id": null,
+                "gem_id": null,
+                "item_id": 250214,
+                "note": null,
+                "source_hint": null,
+                "usage_pct": null
+              }
+            ],
+            "WAIST": [
+              {
+                "drop_source": "Crafted by Tailoring",
+                "enchant_id": null,
+                "gem_id": 240900,
+                "item_id": 239649,
+                "note": null,
+                "source_hint": null,
+                "usage_pct": null
+              }
+            ],
+            "WRIST": [
+              {
+                "drop_source": "Crafted by Tailoring",
+                "enchant_id": null,
+                "gem_id": 240916,
+                "item_id": 239648,
+                "note": null,
+                "source_hint": null,
+                "usage_pct": null
+              }
+            ]
+          },
+          "gems": [],
+          "notes": {
+            "trinkets": "There are a great number of Trinkets available for Fire. Generally, you will want to use a strong on-use Trinket to pair it with Combustion , and then a strong passive Trinket as your second Trinket."
+          },
+          "source": "icyveins",
+          "stat_priority": [],
+          "talent_builds": [
+            {
+              "hero_id": 0,
+              "hero_specific": false,
+              "import_string": "C8DAAAAAAAAAAAAAAAAAAAAAAYGGLzMzswMDZmZGAAAGAwMz0sstMDAwmZmx2MzMzYDAAAAAbmZMzAAgZMmZmZMzsMAMzAMGwMMGA",
+              "label": "Fire Raid -\nSunfury",
+              "metrics": {},
+              "source": "icyveins",
+              "url": "https://www.icy-veins.com/wow/fire-mage-pve-dps-spec-builds-talents",
+              "usage_pct": null
+            },
+            {
+              "hero_id": 0,
+              "hero_specific": false,
+              "import_string": "C8DAAAAAAAAAAAAAAAAAAAAAAYGGLzMzsgZGZmZGAAAAAmZmmltlZAA2MzM2mZmZGbAAAAAYzMjZGAAMjxMzMjZmlBgZGMjxAmhxA",
+              "label": "Fire Mythic+ -\nSunfury",
+              "metrics": {},
+              "source": "icyveins",
+              "url": "https://www.icy-veins.com/wow/fire-mage-pve-dps-spec-builds-talents",
+              "usage_pct": null
+            },
+            {
+              "hero_id": 0,
+              "hero_specific": false,
+              "import_string": "C8DAAAAAAAAAAAAAAAAAAAAAAYGGLzMzsgZGZmZGAAAAAmZmmltlZAA2MzM2mZmZGbAAAAAYzMjZGAAMjxMzMjZmlBgZGMjxAmhxA",
+              "label": "Fire Delves -\nSunfury",
+              "metrics": {},
+              "source": "icyveins",
+              "url": "https://www.icy-veins.com/wow/fire-mage-pve-dps-spec-builds-talents",
+              "usage_pct": null
+            }
+          ],
+          "url": "https://www.icy-veins.com/wow/fire-mage-pve-dps-gear-best-in-slot"
+        },
         "mythicstats": {
           "consumables": [],
           "enchants": [

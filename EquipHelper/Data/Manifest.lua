@@ -3,6 +3,21 @@
 local ADDON_NAME, ns = ...
 
 ns.Manifest = {
+	classes = {
+		"DEATHKNIGHT",
+		"DEMONHUNTER",
+		"DRUID",
+		"EVOKER",
+		"HUNTER",
+		"MAGE",
+		"MONK",
+		"PALADIN",
+		"PRIEST",
+		"ROGUE",
+		"SHAMAN",
+		"WARLOCK",
+		"WARRIOR",
+	},
 	generated = "2026-08-21",
 	generatedEpoch = 1787270400,
 	guideCount = 58,
@@ -21,6 +36,11 @@ ns.Manifest = {
 			key = "wowhead",
 			label = "Wowhead",
 			url = "https://www.wowhead.com",
+		},
+		{
+			key = "icyveins",
+			label = "Icy Veins",
+			url = "https://www.icy-veins.com",
 		},
 	},
 	specCount = 40,

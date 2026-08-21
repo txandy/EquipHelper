@@ -1,24 +1,178 @@
 -- GENERATED FILE -- do not edit by hand.
 -- Regenerar con: python -m scraper build
-local ADDON_NAME, ns = ...
 
-ns.RegisterClassData("WARLOCK", {
+EquipHelper_RegisterClassData("WARLOCK", {
 	specs = {
 		[265] = {
 			heroes = {
 				[57] = {
 					mplus = {
-						performance = {
-							difficulty = "Mythic+",
-							median = 148518.5,
-							metric = "dps",
-							outOf = 40,
-							rank = 25,
-							sample = 300,
-							top = 275306.4,
-							zone = "Mythic+ Season 2",
-						},
 						views = {
+							icyveins = {
+								consumables = {
+									{
+										category = "FLASK",
+										itemID = 241325,
+										primary = true,
+									},
+									{
+										category = "POTION",
+										itemID = 241288,
+										primary = true,
+									},
+									{
+										category = "HEALTH_POTION",
+										itemID = 271883,
+										primary = true,
+									},
+									{
+										category = "RUNE",
+										itemID = 259085,
+										primary = true,
+									},
+									{
+										category = "WEAPON_OIL",
+										itemID = 243733,
+										primary = true,
+									},
+								},
+								fetchedAt = "2026-08-21",
+								gear = {
+									BACK = {
+										{
+											dropSource = "Murder Row",
+											itemID = 251132,
+										},
+									},
+									CHEST = {
+										{
+											dropSource = "Catalyst",
+											enchantID = 243977,
+											itemID = 271549,
+										},
+									},
+									FEET = {
+										{
+											dropSource = "Coiled Altar",
+											enchantID = 243952,
+											itemID = 268255,
+										},
+									},
+									FINGER1 = {
+										{
+											dropSource = "Altar of Fangs",
+											enchantID = 243956,
+											gemID = 240906,
+											itemID = 273792,
+										},
+									},
+									FINGER2 = {
+										{
+											dropSource = "Murder Row",
+											enchantID = 243956,
+											gemID = 240906,
+											itemID = 251136,
+										},
+									},
+									HANDS = {
+										{
+											dropSource = "Catalyst",
+											itemID = 271547,
+										},
+									},
+									HEAD = {
+										{
+											dropSource = "Blinding Vale",
+											enchantID = 243950,
+											gemID = 240967,
+											itemID = 251199,
+										},
+									},
+									LEGS = {
+										{
+											dropSource = "Catalyst",
+											enchantID = 240133,
+											itemID = 271545,
+										},
+									},
+									MAINHAND = {
+										{
+											dropSource = "Altar of Fangs",
+											enchantID = 244029,
+											itemID = 273778,
+										},
+									},
+									NECK = {
+										{
+											dropSource = "Voidscar Arena",
+											gemID = 240898,
+											itemID = 251234,
+										},
+									},
+									OFFHAND = {
+										{
+											dropSource = "Crafted by Inscription",
+											gemID = 273059,
+											itemID = 245769,
+										},
+									},
+									SHOULDER = {
+										{
+											dropSource = "Catalyst",
+											enchantID = 243990,
+											itemID = 271544,
+										},
+									},
+									TRINKET1 = {
+										{
+											dropSource = "King's Rest",
+											itemID = 273649,
+										},
+									},
+									TRINKET2 = {
+										{
+											dropSource = "Voidscar Arena",
+											itemID = 250224,
+										},
+									},
+									WAIST = {
+										{
+											dropSource = "Voidscar Arena",
+											gemID = 240890,
+											itemID = 251222,
+										},
+									},
+									WRIST = {
+										{
+											dropSource = "Crafted by Tailoring",
+											gemID = 240890,
+											itemID = 239648,
+										},
+									},
+								},
+								notes = {
+									trinkets = "The following list provides a general ranking for all trinkets available for players to better understand what may be more appealing. These rankings assume each item at its highest possible item level, thus for direct or immediate upgrade it is still best practice to sim your own character.",
+								},
+								source = "icyveins",
+								talentBuilds = {
+									{
+										heroSpecific = false,
+										importString = "CkQAAAAAAAAAAAAAAAAAAAAAAwMzMzoZhhZmZmlBAAYmZZ2mZmlxAAjllBGwEMDbBG2GAAAmBAAwMDzMjBzwMzMzMGMzMzAAmBG",
+										label = "Affliction Single-Target - Soul Harvester",
+									},
+									{
+										heroSpecific = false,
+										importString = "CkQAAAAAAAAAAAAAAAAAAAAAAwMjZGNLmxyMzYWGAAwMzsMLmZ2GDAMWWGYATwMsFYYbAAAYGAAAzMjZGmtxYGzMzMDDzMzMAgBMA",
+										label = "Affliction AoE - Soul Harvester",
+									},
+									{
+										heroSpecific = false,
+										importString = "CkQAAAAAAAAAAAAAAAAAAAAAAwMjZGNLmxyMzYWGAAwMzsMLzMzyYAgxyyADYAzwWghtBAAgZAAAMzMmZY2GjZwMzMMMzMzAAmBG",
+										label = "Affliction Delves - Soul Harvester",
+									},
+								},
+								url = "https://www.icy-veins.com/wow/affliction-warlock-pve-dps-gear-best-in-slot",
+							},
 							mythicstats = {
 								enchants = {
 									{
@@ -801,17 +955,172 @@ ns.RegisterClassData("WARLOCK", {
 			heroes = {
 				[59] = {
 					mplus = {
-						performance = {
-							difficulty = "Mythic+",
-							median = 191525.6,
-							metric = "dps",
-							outOf = 40,
-							rank = 7,
-							sample = 300,
-							top = 295802.6,
-							zone = "Mythic+ Season 2",
-						},
 						views = {
+							icyveins = {
+								consumables = {
+									{
+										category = "FLASK",
+										itemID = 241326,
+										primary = true,
+									},
+									{
+										category = "POTION",
+										itemID = 241288,
+										primary = true,
+									},
+									{
+										category = "HEALTH_POTION",
+										itemID = 271883,
+										primary = true,
+									},
+									{
+										category = "RUNE",
+										itemID = 259085,
+										primary = true,
+									},
+									{
+										category = "WEAPON_OIL",
+										itemID = 243733,
+										primary = true,
+									},
+								},
+								fetchedAt = "2026-08-21",
+								gear = {
+									BACK = {
+										{
+											dropSource = "Murder Row",
+											itemID = 251132,
+										},
+									},
+									CHEST = {
+										{
+											dropSource = "Catalyst",
+											enchantID = 243977,
+											itemID = 271549,
+										},
+									},
+									FEET = {
+										{
+											dropSource = "Coiled Altar",
+											enchantID = 243952,
+											itemID = 268255,
+										},
+									},
+									FINGER1 = {
+										{
+											dropSource = "Temple of Sethraliss",
+											enchantID = 243956,
+											gemID = 240906,
+											itemID = 158366,
+										},
+									},
+									FINGER2 = {
+										{
+											dropSource = "Murder Row",
+											enchantID = 243956,
+											gemID = 240906,
+											itemID = 251136,
+										},
+									},
+									HANDS = {
+										{
+											dropSource = "Catalyst",
+											itemID = 271547,
+										},
+									},
+									HEAD = {
+										{
+											dropSource = "Blinding Vale",
+											enchantID = 243950,
+											gemID = 240983,
+											itemID = 251199,
+										},
+									},
+									LEGS = {
+										{
+											dropSource = "Catalyst",
+											enchantID = 240133,
+											itemID = 271545,
+										},
+									},
+									MAINHAND = {
+										{
+											dropSource = "Altar of Fangs",
+											enchantID = 244029,
+											itemID = 273778,
+										},
+									},
+									NECK = {
+										{
+											dropSource = "Voidscar Arena",
+											gemID = 240906,
+											itemID = 251234,
+										},
+									},
+									OFFHAND = {
+										{
+											dropSource = "Crafted by Inscription",
+											gemID = 273059,
+											itemID = 245769,
+										},
+									},
+									SHOULDER = {
+										{
+											dropSource = "Catalyst",
+											enchantID = 243990,
+											itemID = 271544,
+										},
+									},
+									TRINKET1 = {
+										{
+											dropSource = "Altar of Fangs",
+											itemID = 273796,
+										},
+									},
+									TRINKET2 = {
+										{
+											dropSource = "Voidscar Arena",
+											itemID = 250224,
+										},
+									},
+									WAIST = {
+										{
+											dropSource = "Voidscar Arena",
+											gemID = 240890,
+											itemID = 251222,
+										},
+									},
+									WRIST = {
+										{
+											dropSource = "Crafted by Tailoring",
+											gemID = 240906,
+											itemID = 239648,
+										},
+									},
+								},
+								notes = {
+									trinkets = "The following list provides a general ranking for all trinkets available for players to better understand what may be more appealing. These rankings assume each item at its highest possible item level, thus for direct or immediate upgrade it is still best practice to sim your own character.",
+								},
+								source = "icyveins",
+								talentBuilds = {
+									{
+										heroSpecific = false,
+										importString = "CoQAAAAAAAAAAAAAAAAAAAAAAwMzMzoZjhZmxsMAAAAAAAjtlBGwAmhtQGbmhZ2mlZmZMDAYMzMzAMzMmxMDAAwMzMzMjZYZAYA",
+										label = "Demonology Single-Target - Soul Harvester",
+									},
+									{
+										heroSpecific = false,
+										importString = "CoQAAAAAAAAAAAAAAAAAAAAAAwMjZGNLmxmZGzyAAAAAAAAGzYYBGYb0CNsYMzYZ2mZmxMAwMjZGzMDwYmxMbAAgxMzMzww2MGwA",
+										label = "Demonology AoE - Diabolist",
+									},
+									{
+										heroSpecific = false,
+										importString = "CoQAAAAAAAAAAAAAAAAAAAAAAwMjZGNLmxiZGzyAAAAAAAMWWGYADYG2CM2MmZsMmxMzMAwMzMGDwMzYmxMbAAgxMzMzYw2MDwA",
+										label = "Demonology Delves - Soul Harvester",
+									},
+								},
+								url = "https://www.icy-veins.com/wow/demonology-warlock-pve-dps-gear-best-in-slot",
+							},
 							mythicstats = {
 								enchants = {
 									{
@@ -1627,17 +1936,172 @@ ns.RegisterClassData("WARLOCK", {
 			heroes = {
 				[58] = {
 					mplus = {
-						performance = {
-							difficulty = "Mythic+",
-							median = 157554.1,
-							metric = "dps",
-							outOf = 40,
-							rank = 22,
-							sample = 300,
-							top = 305596.6,
-							zone = "Mythic+ Season 2",
-						},
 						views = {
+							icyveins = {
+								consumables = {
+									{
+										category = "FLASK",
+										itemID = 241326,
+										primary = true,
+									},
+									{
+										category = "POTION",
+										itemID = 241288,
+										primary = true,
+									},
+									{
+										category = "HEALTH_POTION",
+										itemID = 271883,
+										primary = true,
+									},
+									{
+										category = "RUNE",
+										itemID = 259085,
+										primary = true,
+									},
+									{
+										category = "WEAPON_OIL",
+										itemID = 243733,
+										primary = true,
+									},
+								},
+								fetchedAt = "2026-08-21",
+								gear = {
+									BACK = {
+										{
+											dropSource = "Murder Row",
+											itemID = 251132,
+										},
+									},
+									CHEST = {
+										{
+											dropSource = "Catalyst",
+											enchantID = 243977,
+											itemID = 271549,
+										},
+									},
+									FEET = {
+										{
+											dropSource = "Coiled Altar",
+											enchantID = 243952,
+											itemID = 268255,
+										},
+									},
+									FINGER1 = {
+										{
+											dropSource = "Temple of Sethraliss",
+											enchantID = 243956,
+											gemID = 240890,
+											itemID = 158366,
+										},
+									},
+									FINGER2 = {
+										{
+											dropSource = "Murder Row",
+											enchantID = 243956,
+											gemID = 240906,
+											itemID = 251136,
+										},
+									},
+									HANDS = {
+										{
+											dropSource = "Catalyst",
+											itemID = 271547,
+										},
+									},
+									HEAD = {
+										{
+											dropSource = "Blinding Vale",
+											enchantID = 243950,
+											gemID = 240967,
+											itemID = 251199,
+										},
+									},
+									LEGS = {
+										{
+											dropSource = "Catalyst",
+											enchantID = 240133,
+											itemID = 271545,
+										},
+									},
+									MAINHAND = {
+										{
+											dropSource = "Altar of Fangs",
+											enchantID = 244029,
+											itemID = 273778,
+										},
+									},
+									NECK = {
+										{
+											dropSource = "Voidscar Arena",
+											gemID = 240900,
+											itemID = 251234,
+										},
+									},
+									OFFHAND = {
+										{
+											dropSource = "Crafted by Inscription",
+											gemID = 273059,
+											itemID = 245769,
+										},
+									},
+									SHOULDER = {
+										{
+											dropSource = "Catalyst",
+											enchantID = 243990,
+											itemID = 271544,
+										},
+									},
+									TRINKET1 = {
+										{
+											dropSource = "Murder Row",
+											itemID = 250215,
+										},
+									},
+									TRINKET2 = {
+										{
+											dropSource = "Voidscar Arena",
+											itemID = 250224,
+										},
+									},
+									WAIST = {
+										{
+											dropSource = "Voidscar Arena",
+											gemID = 240900,
+											itemID = 251222,
+										},
+									},
+									WRIST = {
+										{
+											dropSource = "Crafted by Tailoring",
+											gemID = 240900,
+											itemID = 239648,
+										},
+									},
+								},
+								notes = {
+									trinkets = "The following list provides a general ranking for all trinkets available for players to better understand what may be more appealing. These rankings assume each item at its highest possible item level, thus for direct or immediate upgrade it is still best practice to sim your own character.",
+								},
+								source = "icyveins",
+								talentBuilds = {
+									{
+										heroSpecific = false,
+										importString = "CsQAAAAAAAAAAAAAAAAAAAAAAwMmZGNLMzmZmZWmFzMzsYMWMDAAmZGzMziNYgZxoxMAmtYjBAAGDM2AAmZwYGzYDAAwMzMAAMGG",
+										label = "Destruction Single-Target - Hellcaller",
+									},
+									{
+										heroSpecific = false,
+										importString = "CsQAAAAAAAAAAAAAAAAAAAAAAwMjZGNLmxmZGzysNzYmFzYZZMAAYGjZmZBMmxwCZgthFaswAAAjZYYDAzMAjZGzsBAAYmZmBAwYYA",
+										label = "Destruction AoE - Diabolist",
+									},
+									{
+										heroSpecific = false,
+										importString = "CsQAAAAAAAAAAAAAAAAAAAAAAwMjZGNLmxmZGzysZGzsYYZZmBAAzMjZmZxCMwsY0YGAzG2YAAgxMAAAzMYMzMmNAAAzMzMAAMDD",
+										label = "Destruction Delves - Hellcaller",
+									},
+								},
+								url = "https://www.icy-veins.com/wow/destruction-warlock-pve-dps-gear-best-in-slot",
+							},
 							mythicstats = {
 								enchants = {
 									{
@@ -2349,17 +2813,172 @@ ns.RegisterClassData("WARLOCK", {
 				},
 				[59] = {
 					mplus = {
-						performance = {
-							difficulty = "Mythic+",
-							median = 157554.1,
-							metric = "dps",
-							outOf = 40,
-							rank = 22,
-							sample = 300,
-							top = 305596.6,
-							zone = "Mythic+ Season 2",
-						},
 						views = {
+							icyveins = {
+								consumables = {
+									{
+										category = "FLASK",
+										itemID = 241326,
+										primary = true,
+									},
+									{
+										category = "POTION",
+										itemID = 241288,
+										primary = true,
+									},
+									{
+										category = "HEALTH_POTION",
+										itemID = 271883,
+										primary = true,
+									},
+									{
+										category = "RUNE",
+										itemID = 259085,
+										primary = true,
+									},
+									{
+										category = "WEAPON_OIL",
+										itemID = 243733,
+										primary = true,
+									},
+								},
+								fetchedAt = "2026-08-21",
+								gear = {
+									BACK = {
+										{
+											dropSource = "Murder Row",
+											itemID = 251132,
+										},
+									},
+									CHEST = {
+										{
+											dropSource = "Catalyst",
+											enchantID = 243977,
+											itemID = 271549,
+										},
+									},
+									FEET = {
+										{
+											dropSource = "Coiled Altar",
+											enchantID = 243952,
+											itemID = 268255,
+										},
+									},
+									FINGER1 = {
+										{
+											dropSource = "Temple of Sethraliss",
+											enchantID = 243956,
+											gemID = 240890,
+											itemID = 158366,
+										},
+									},
+									FINGER2 = {
+										{
+											dropSource = "Murder Row",
+											enchantID = 243956,
+											gemID = 240906,
+											itemID = 251136,
+										},
+									},
+									HANDS = {
+										{
+											dropSource = "Catalyst",
+											itemID = 271547,
+										},
+									},
+									HEAD = {
+										{
+											dropSource = "Blinding Vale",
+											enchantID = 243950,
+											gemID = 240967,
+											itemID = 251199,
+										},
+									},
+									LEGS = {
+										{
+											dropSource = "Catalyst",
+											enchantID = 240133,
+											itemID = 271545,
+										},
+									},
+									MAINHAND = {
+										{
+											dropSource = "Altar of Fangs",
+											enchantID = 244029,
+											itemID = 273778,
+										},
+									},
+									NECK = {
+										{
+											dropSource = "Voidscar Arena",
+											gemID = 240900,
+											itemID = 251234,
+										},
+									},
+									OFFHAND = {
+										{
+											dropSource = "Crafted by Inscription",
+											gemID = 273059,
+											itemID = 245769,
+										},
+									},
+									SHOULDER = {
+										{
+											dropSource = "Catalyst",
+											enchantID = 243990,
+											itemID = 271544,
+										},
+									},
+									TRINKET1 = {
+										{
+											dropSource = "Murder Row",
+											itemID = 250215,
+										},
+									},
+									TRINKET2 = {
+										{
+											dropSource = "Voidscar Arena",
+											itemID = 250224,
+										},
+									},
+									WAIST = {
+										{
+											dropSource = "Voidscar Arena",
+											gemID = 240900,
+											itemID = 251222,
+										},
+									},
+									WRIST = {
+										{
+											dropSource = "Crafted by Tailoring",
+											gemID = 240900,
+											itemID = 239648,
+										},
+									},
+								},
+								notes = {
+									trinkets = "The following list provides a general ranking for all trinkets available for players to better understand what may be more appealing. These rankings assume each item at its highest possible item level, thus for direct or immediate upgrade it is still best practice to sim your own character.",
+								},
+								source = "icyveins",
+								talentBuilds = {
+									{
+										heroSpecific = false,
+										importString = "CsQAAAAAAAAAAAAAAAAAAAAAAwMmZGNLMzmZmZWmFzMzsYMWMDAAmZGzMziNYgZxoxMAmtYjBAAGDM2AAmZwYGzYDAAwMzMAAMGG",
+										label = "Destruction Single-Target - Hellcaller",
+									},
+									{
+										heroSpecific = false,
+										importString = "CsQAAAAAAAAAAAAAAAAAAAAAAwMjZGNLmxmZGzysNzYmFzYZZMAAYGjZmZBMmxwCZgthFaswAAAjZYYDAzMAjZGzsBAAYmZmBAwYYA",
+										label = "Destruction AoE - Diabolist",
+									},
+									{
+										heroSpecific = false,
+										importString = "CsQAAAAAAAAAAAAAAAAAAAAAAwMjZGNLmxmZGzysZGzsYYZZmBAAzMjZmZxCMwsY0YGAzG2YAAgxMAAAzMYMzMmNAAAzMzMAAMDD",
+										label = "Destruction Delves - Hellcaller",
+									},
+								},
+								url = "https://www.icy-veins.com/wow/destruction-warlock-pve-dps-gear-best-in-slot",
+							},
 							mythicstats = {
 								enchants = {
 									{

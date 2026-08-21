@@ -6,17 +6,265 @@
       "content": "mplus",
       "hero_id": 64,
       "hero_name": "Conduit of the Celestials",
-      "performance": {
-        "difficulty": "Mythic+",
-        "median": 46719.9,
-        "metric": "dps",
-        "out_of": 40,
-        "rank": 34,
-        "sample": 300,
-        "top": 83239.5,
-        "zone": "Mythic+ Season 2"
-      },
+      "performance": null,
       "views": {
+        "icyveins": {
+          "consumables": [
+            {
+              "category": "FLASK",
+              "is_primary": true,
+              "item_id": 241325
+            },
+            {
+              "category": "FLASK",
+              "is_primary": false,
+              "item_id": 241320
+            },
+            {
+              "category": "POTION",
+              "is_primary": true,
+              "item_id": 241294
+            },
+            {
+              "category": "HEALTH_POTION",
+              "is_primary": true,
+              "item_id": 271883
+            },
+            {
+              "category": "FOOD",
+              "is_primary": true,
+              "item_id": 255845
+            },
+            {
+              "category": "FOOD",
+              "is_primary": false,
+              "item_id": 255846
+            },
+            {
+              "category": "FOOD",
+              "is_primary": false,
+              "item_id": 242275
+            },
+            {
+              "category": "RUNE",
+              "is_primary": true,
+              "item_id": 259085
+            },
+            {
+              "category": "WEAPON_OIL",
+              "is_primary": true,
+              "item_id": 243733
+            }
+          ],
+          "enchants": [],
+          "fetched_at": "2026-08-21",
+          "gear": {
+            "BACK": [
+              {
+                "drop_source": "Crafted by Tailoring",
+                "enchant_id": null,
+                "gem_id": 240167,
+                "item_id": 239656,
+                "note": null,
+                "source_hint": null,
+                "usage_pct": null
+              }
+            ],
+            "CHEST": [
+              {
+                "drop_source": "Catalyst and Voidscar Arena",
+                "enchant_id": 243977,
+                "gem_id": null,
+                "item_id": 271522,
+                "note": null,
+                "source_hint": null,
+                "usage_pct": null
+              }
+            ],
+            "FEET": [
+              {
+                "drop_source": "Den of Nalorakk",
+                "enchant_id": 243983,
+                "gem_id": null,
+                "item_id": 251153,
+                "note": null,
+                "source_hint": null,
+                "usage_pct": null
+              }
+            ],
+            "FINGER1": [
+              {
+                "drop_source": "King's Rest",
+                "enchant_id": 244014,
+                "gem_id": 240890,
+                "item_id": 159459,
+                "note": null,
+                "source_hint": null,
+                "usage_pct": null
+              }
+            ],
+            "FINGER2": [
+              {
+                "drop_source": "Altar of Fangs",
+                "enchant_id": 244014,
+                "gem_id": 240890,
+                "item_id": 273792,
+                "note": null,
+                "source_hint": null,
+                "usage_pct": null
+              }
+            ],
+            "HANDS": [
+              {
+                "drop_source": "The Great Vault",
+                "enchant_id": null,
+                "gem_id": null,
+                "item_id": 271520,
+                "note": null,
+                "source_hint": null,
+                "usage_pct": null
+              }
+            ],
+            "HEAD": [
+              {
+                "drop_source": "Altar of Fangs",
+                "enchant_id": 243950,
+                "gem_id": 240890,
+                "item_id": 273791,
+                "note": null,
+                "source_hint": null,
+                "usage_pct": null
+              }
+            ],
+            "LEGS": [
+              {
+                "drop_source": "Catalyst and King's Rest",
+                "enchant_id": 240133,
+                "gem_id": null,
+                "item_id": 271518,
+                "note": null,
+                "source_hint": null,
+                "usage_pct": null
+              }
+            ],
+            "MAINHAND": [
+              {
+                "drop_source": "Den of Nalorakk",
+                "enchant_id": 244029,
+                "gem_id": null,
+                "item_id": 251156,
+                "note": null,
+                "source_hint": null,
+                "usage_pct": null
+              }
+            ],
+            "NECK": [
+              {
+                "drop_source": "Den of Nalorakk",
+                "enchant_id": null,
+                "gem_id": 240983,
+                "item_id": 251173,
+                "note": null,
+                "source_hint": null,
+                "usage_pct": null
+              }
+            ],
+            "SHOULDER": [
+              {
+                "drop_source": "Catalyst and Voidscar Arena",
+                "enchant_id": 244021,
+                "gem_id": null,
+                "item_id": 271517,
+                "note": null,
+                "source_hint": null,
+                "usage_pct": null
+              }
+            ],
+            "TRINKET1": [
+              {
+                "drop_source": "King's Rest",
+                "enchant_id": null,
+                "gem_id": null,
+                "item_id": 273649,
+                "note": null,
+                "source_hint": null,
+                "usage_pct": null
+              }
+            ],
+            "TRINKET2": [
+              {
+                "drop_source": "Murder Row",
+                "enchant_id": null,
+                "gem_id": null,
+                "item_id": 250215,
+                "note": null,
+                "source_hint": null,
+                "usage_pct": null
+              }
+            ],
+            "WAIST": [
+              {
+                "drop_source": "King's Rest",
+                "enchant_id": null,
+                "gem_id": 240890,
+                "item_id": 159301,
+                "note": null,
+                "source_hint": null,
+                "usage_pct": null
+              }
+            ],
+            "WRIST": [
+              {
+                "drop_source": "Crafted by Leatherworking",
+                "enchant_id": null,
+                "gem_id": 240890,
+                "item_id": 244576,
+                "note": null,
+                "source_hint": null,
+                "usage_pct": null
+              }
+            ]
+          },
+          "gems": [],
+          "notes": {
+            "trinkets": "For healers like Mistweaver, trinkets that are often referred to as \"stat sticks\" are usually a very safe pick. Unlike DPS, where random procs are very rarely wasted, healers do not always have health bars to heal. A powerful proc can go totally unused if it does not line up with moments of extreme damage. Usually, a strong trinket for us will be an item that has static Intellect and a proc with a high uptime of either Haste or Critical Strike."
+          },
+          "source": "icyveins",
+          "stat_priority": [],
+          "talent_builds": [
+            {
+              "hero_id": 0,
+              "hero_specific": false,
+              "import_string": "C4QAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAghx2YZYzixMzyyM2wYGmZZbbmxCzoZMDYwAsMzMzwsBDWmJAAAAAAYxyMLzyMDAAMgBYGwYYsMZMDA",
+              "label": "Mistweaver Raid - Conduit of the Celestials",
+              "metrics": {},
+              "source": "icyveins",
+              "url": "https://www.icy-veins.com/wow/mistweaver-monk-pve-healing-spec-builds-talents",
+              "usage_pct": null
+            },
+            {
+              "hero_id": 0,
+              "hero_specific": false,
+              "import_string": "C4QAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAghxyMLjZx2MmZsZstsNjZ2Mz22yMjFmRzYGwgBDmZmZY2GmhZ5BmAAAAAAgFLzsMLzMAAwAAMDYMwiMmBA",
+              "label": "Mistweaver Mythic+ - Conduit of the Celestials",
+              "metrics": {},
+              "source": "icyveins",
+              "url": "https://www.icy-veins.com/wow/mistweaver-monk-pve-healing-spec-builds-talents",
+              "usage_pct": null
+            },
+            {
+              "hero_id": 0,
+              "hero_specific": false,
+              "import_string": "C4QAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAghxyMLjZx2MzMz2G2sNjZ2Mz22yMjFmZaGzYBDGglZmZGmNYwyMBAAAAAALWmZZWmZAAAYAYGwAsMZMDA",
+              "label": "Mistweaver Delves - Conduit of the Celestials",
+              "metrics": {},
+              "source": "icyveins",
+              "url": "https://www.icy-veins.com/wow/mistweaver-monk-pve-healing-spec-builds-talents",
+              "usage_pct": null
+            }
+          ],
+          "url": "https://www.icy-veins.com/wow/mistweaver-monk-pve-healing-gear-best-in-slot"
+        },
         "mythicstats": {
           "consumables": [],
           "enchants": [

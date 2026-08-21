@@ -13,19 +13,55 @@ from scraper import emit_lua, validate
 from scraper.http import Fetcher
 from scraper.model import SpecGuides  # noqa: F401
 from scraper.model import ConsumableEntry, SourceView
-from scraper.sources import mythicstats, warcraftlogs, wowhead
+from scraper.sources import icyveins, mythicstats, warcraftlogs, wowhead
 from scraper.talent_tree import load as load_talents
 
 ROOT = Path(__file__).resolve().parent.parent
 DATA_DIR = ROOT / "data" / "specs"
 ADDON_DATA = ROOT / "EquipHelper" / "Data"
 TOC = ROOT / "EquipHelper" / "EquipHelper.toc"
+DATA_ADDONS = ROOT / "data-addons"
+PKGMETA = ROOT / ".pkgmeta"
 
 SOURCES = [
     {"key": "mythicstats", "label": "Mythicstats", "url": "https://mythicstats.com"},
     {"key": "warcraftlogs", "label": "Warcraft Logs", "url": "https://www.warcraftlogs.com"},
     {"key": "wowhead", "label": "Wowhead", "url": "https://www.wowhead.com"},
+    {"key": "icyveins", "label": "Icy Veins", "url": "https://www.icy-veins.com"},
 ]
+
+
+def _attach_icyveins(fetcher, results, specs, report) -> None:
+    """Anade la vista de Icy Veins a las guias ya construidas.
+
+    Su equipo viene partido por contenido, asi que cada guia recibe la vista de
+    su tipo. Talentos, gemas y consumibles son de la spec entera y se comparten.
+    """
+    by_slug = {spec.slug: spec for spec in specs}
+    covered = 0
+
+    for result in results:
+        spec = by_slug.get(result.slug)
+        if not spec:
+            continue
+
+        try:
+            views = icyveins.fetch_views(fetcher, spec)
+        except Exception as exc:
+            report.warnings.append(f"icyveins {result.slug}: {exc}")
+            continue
+
+        if not views:
+            report.warnings.append(f"icyveins: sin datos para {result.slug}")
+            continue
+
+        covered += 1
+        for guide in result.guides:
+            view = views.get(guide.content)
+            if view:
+                guide.views[icyveins.SOURCE_KEY] = view
+
+    print(f"  icyveins: {covered} specs")
 
 
 def _attach_consumables(fetcher, results, specs, report) -> None:
@@ -174,6 +210,9 @@ def build(args: argparse.Namespace) -> int:
 
     # La cobertura se mide contra el catalogo completo aunque se pidiera un
     # subconjunto; con --spec eso seria ruido, asi que se compara consigo mismo.
+    if not args.no_icyveins:
+        _attach_icyveins(fetcher, results, specs, _pending_warnings)
+
     if not args.no_wowhead:
         _attach_consumables(fetcher, results, specs, _pending_warnings)
 
@@ -203,11 +242,14 @@ def build(args: argparse.Namespace) -> int:
 
     # Con --spec el resultado es parcial: reescribir el .toc dejaria fuera las
     # clases que no se pidieron y el addon cargaria a medias.
-    written = emit_lua.write_all(ADDON_DATA, None if args.spec else TOC,
-                                 by_class, date.today(), SOURCES)
-    print(f"\nEscritos {len(written)} ficheros Lua en {ADDON_DATA.relative_to(ROOT)}")
-    if args.spec:
-        print("Build parcial: el .toc no se ha tocado.")
+    partial = bool(args.spec)
+    written = emit_lua.write_all(
+        ADDON_DATA, None if partial else TOC, by_class, date.today(), SOURCES,
+        data_root=DATA_ADDONS, pkgmeta_path=None if partial else PKGMETA,
+    )
+    print(f"\nEscritos {len(written)} paquetes de datos en {DATA_ADDONS.relative_to(ROOT)}")
+    if partial:
+        print("Build parcial: el .toc y el .pkgmeta no se han tocado.")
     return 0
 
 
@@ -224,6 +266,8 @@ def main() -> int:
     build_cmd.add_argument("--talents", help="ruta local a talents.json")
     build_cmd.add_argument("--no-warcraftlogs", action="store_true",
                            help="omite la fuente de rendimiento (util al iterar)")
+    build_cmd.add_argument("--no-icyveins", action="store_true",
+                           help="omite Icy Veins (util al iterar)")
     build_cmd.add_argument("--no-wowhead", action="store_true",
                            help="omite la fuente de consumibles (util al iterar)")
     build_cmd.set_defaults(func=build)

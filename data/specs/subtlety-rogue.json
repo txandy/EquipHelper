@@ -6,17 +6,322 @@
       "content": "mplus",
       "hero_id": 53,
       "hero_name": "Deathstalker",
-      "performance": {
-        "difficulty": "Mythic+",
-        "median": 194433.6,
-        "metric": "dps",
-        "out_of": 40,
-        "rank": 6,
-        "sample": 300,
-        "top": 294147.9,
-        "zone": "Mythic+ Season 2"
-      },
+      "performance": null,
       "views": {
+        "icyveins": {
+          "consumables": [
+            {
+              "category": "FLASK",
+              "is_primary": true,
+              "item_id": 241325
+            },
+            {
+              "category": "FLASK",
+              "is_primary": false,
+              "item_id": 241322
+            },
+            {
+              "category": "POTION",
+              "is_primary": true,
+              "item_id": 241308
+            },
+            {
+              "category": "HEALTH_POTION",
+              "is_primary": true,
+              "item_id": 271883
+            },
+            {
+              "category": "FOOD",
+              "is_primary": true,
+              "item_id": 255846
+            },
+            {
+              "category": "FOOD",
+              "is_primary": false,
+              "item_id": 242275
+            },
+            {
+              "category": "RUNE",
+              "is_primary": true,
+              "item_id": 259085
+            }
+          ],
+          "enchants": [],
+          "fetched_at": "2026-08-21",
+          "gear": {
+            "BACK": [
+              {
+                "drop_source": "Blinding Vale",
+                "enchant_id": null,
+                "gem_id": null,
+                "item_id": 251190,
+                "note": null,
+                "source_hint": null,
+                "usage_pct": null
+              }
+            ],
+            "CHEST": [
+              {
+                "drop_source": "Catalyst from Den of Nalorakk",
+                "enchant_id": 243977,
+                "gem_id": null,
+                "item_id": 271513,
+                "note": null,
+                "source_hint": null,
+                "usage_pct": null
+              }
+            ],
+            "FEET": [
+              {
+                "drop_source": "Den of Nalorakk",
+                "enchant_id": 243983,
+                "gem_id": null,
+                "item_id": 251153,
+                "note": null,
+                "source_hint": null,
+                "usage_pct": null
+              }
+            ],
+            "FINGER1": [
+              {
+                "drop_source": "Blinding Vale",
+                "enchant_id": 243956,
+                "gem_id": 240892,
+                "item_id": 251194,
+                "note": null,
+                "source_hint": null,
+                "usage_pct": null
+              }
+            ],
+            "FINGER2": [
+              {
+                "drop_source": "Voidscar Arena",
+                "enchant_id": 243956,
+                "gem_id": 240892,
+                "item_id": 252258,
+                "note": null,
+                "source_hint": null,
+                "usage_pct": null
+              }
+            ],
+            "HANDS": [
+              {
+                "drop_source": "Catalyst from Murder Row",
+                "enchant_id": null,
+                "gem_id": null,
+                "item_id": 271511,
+                "note": null,
+                "source_hint": null,
+                "usage_pct": null
+              }
+            ],
+            "HEAD": [
+              {
+                "drop_source": "Catalyst from Murder Row",
+                "enchant_id": 243950,
+                "gem_id": 240892,
+                "item_id": 271510,
+                "note": null,
+                "source_hint": null,
+                "usage_pct": null
+              }
+            ],
+            "LEGS": [
+              {
+                "drop_source": "Catalyst from Murder Row",
+                "enchant_id": 244640,
+                "gem_id": null,
+                "item_id": 271509,
+                "note": null,
+                "source_hint": null,
+                "usage_pct": null
+              }
+            ],
+            "MAINHAND": [
+              {
+                "drop_source": "Altar of Fangs",
+                "enchant_id": 244031,
+                "gem_id": null,
+                "item_id": 275070,
+                "note": null,
+                "source_hint": null,
+                "usage_pct": null
+              }
+            ],
+            "NECK": [
+              {
+                "drop_source": "Murder Row",
+                "enchant_id": null,
+                "gem_id": 240983,
+                "item_id": 251142,
+                "note": null,
+                "source_hint": null,
+                "usage_pct": null
+              }
+            ],
+            "OFFHAND": [
+              {
+                "drop_source": "Altar of Fangs",
+                "enchant_id": 244031,
+                "gem_id": null,
+                "item_id": 275070,
+                "note": null,
+                "source_hint": null,
+                "usage_pct": null
+              }
+            ],
+            "SHOULDER": [
+              {
+                "drop_source": "Catalyst from Voidscar Arena",
+                "enchant_id": 243990,
+                "gem_id": null,
+                "item_id": 271508,
+                "note": null,
+                "source_hint": null,
+                "usage_pct": null
+              }
+            ],
+            "TRINKET1": [
+              {
+                "drop_source": "Murder Row",
+                "enchant_id": null,
+                "gem_id": null,
+                "item_id": 250215,
+                "note": null,
+                "source_hint": null,
+                "usage_pct": null
+              }
+            ],
+            "TRINKET2": [
+              {
+                "drop_source": "Blinding Vale",
+                "enchant_id": null,
+                "gem_id": null,
+                "item_id": 250259,
+                "note": null,
+                "source_hint": null,
+                "usage_pct": null
+              }
+            ],
+            "WAIST": [
+              {
+                "drop_source": "Temple of Sethraliss",
+                "enchant_id": null,
+                "gem_id": 240892,
+                "item_id": 159317,
+                "note": null,
+                "source_hint": null,
+                "usage_pct": null
+              }
+            ],
+            "WRIST": [
+              {
+                "drop_source": "Murder Row",
+                "enchant_id": null,
+                "gem_id": 240892,
+                "item_id": 251135,
+                "note": null,
+                "source_hint": null,
+                "usage_pct": null
+              }
+            ]
+          },
+          "gems": [
+            {
+              "drop_source": null,
+              "enchant_id": null,
+              "gem_id": null,
+              "item_id": 240983,
+              "note": null,
+              "source_hint": null,
+              "usage_pct": null
+            },
+            {
+              "drop_source": null,
+              "enchant_id": null,
+              "gem_id": null,
+              "item_id": 240890,
+              "note": null,
+              "source_hint": null,
+              "usage_pct": null
+            },
+            {
+              "drop_source": null,
+              "enchant_id": null,
+              "gem_id": null,
+              "item_id": 240892,
+              "note": null,
+              "source_hint": null,
+              "usage_pct": null
+            },
+            {
+              "drop_source": null,
+              "enchant_id": null,
+              "gem_id": null,
+              "item_id": 240908,
+              "note": null,
+              "source_hint": null,
+              "usage_pct": null
+            },
+            {
+              "drop_source": null,
+              "enchant_id": null,
+              "gem_id": null,
+              "item_id": 240898,
+              "note": null,
+              "source_hint": null,
+              "usage_pct": null
+            }
+          ],
+          "notes": {
+            "trinkets": "There are a great number of Trinkets available for Subtlety, and we will always want to play a combination of a powerful on-use trinket to align with our Shadow Blades , and there are two of those this season: Voracious Heart of Ula'tek and Freightrunner's Flask . Alongside that on-use we want a passive trinket providing potent secondary stat buffs or raw damage procs."
+          },
+          "source": "icyveins",
+          "stat_priority": [],
+          "talent_builds": [
+            {
+              "hero_id": 0,
+              "hero_specific": false,
+              "import_string": "CUQAAAAAAAAAAAAAAAAAAAAAAAgx2MAAAAAwsMGLTMbbjxMDDzMzMzw8AbzYGbbzMzMzMjBjZ2GAAAAGMmFzyADYBsMMBmFMDzMAzYA",
+              "label": "Single-Target - Deathstalker",
+              "metrics": {},
+              "source": "icyveins",
+              "url": "https://www.icy-veins.com/wow/subtlety-rogue-pve-dps-spec-builds-talents",
+              "usage_pct": null
+            },
+            {
+              "hero_id": 0,
+              "hero_specific": false,
+              "import_string": "CUQA5HmDzx68KWyrW/8Y781L7Dgx2MAAAAAwsMGLTMbLjxMMjZmZmZGGbzYGbbzMzMzMjBjZ2GAAAAGMGwY2MMwAziWoFbYGwMDmxA",
+              "label": "Mythic+/AoE - Trickster",
+              "metrics": {},
+              "source": "icyveins",
+              "url": "https://www.icy-veins.com/wow/subtlety-rogue-pve-dps-spec-builds-talents",
+              "usage_pct": null
+            },
+            {
+              "hero_id": 0,
+              "hero_specific": false,
+              "import_string": "CUQAAAAAAAAAAAAAAAAAAAAAAAgx2MAAAAAwsMGLTMbLjxMMjZmZmZGGbzYGbbzMzMzMjBjZ2GAAAAGMmFzyADYBsMMhMLYGmZAmxA",
+              "label": "High Mythic+ - Deathstalker",
+              "metrics": {},
+              "source": "icyveins",
+              "url": "https://www.icy-veins.com/wow/subtlety-rogue-pve-dps-spec-builds-talents",
+              "usage_pct": null
+            },
+            {
+              "hero_id": 0,
+              "hero_specific": false,
+              "import_string": "CUQA5HmDzx68KWyrW/8Y781L7Dgx2MAAAAAwsMGLTMbLjxMMjZmZmZGGbzYGbbzMzMzMjBjZ2GAAAAGMGwY2MMwAziWoFbYGwMDmxA",
+              "label": "Delves - Trickster",
+              "metrics": {},
+              "source": "icyveins",
+              "url": "https://www.icy-veins.com/wow/subtlety-rogue-pve-dps-spec-builds-talents",
+              "usage_pct": null
+            }
+          ],
+          "url": "https://www.icy-veins.com/wow/subtlety-rogue-pve-dps-gear-best-in-slot"
+        },
         "mythicstats": {
           "consumables": [],
           "enchants": [

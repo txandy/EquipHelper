@@ -1,24 +1,156 @@
 -- GENERATED FILE -- do not edit by hand.
 -- Regenerar con: python -m scraper build
-local ADDON_NAME, ns = ...
 
-ns.RegisterClassData("PRIEST", {
+EquipHelper_RegisterClassData("PRIEST", {
 	specs = {
 		[256] = {
 			heroes = {
 				[18] = {
 					mplus = {
-						performance = {
-							difficulty = "Mythic+",
-							median = 18560.7,
-							metric = "dps",
-							outOf = 40,
-							rank = 39,
-							sample = 300,
-							top = 48577.7,
-							zone = "Mythic+ Season 2",
-						},
 						views = {
+							icyveins = {
+								consumables = {
+									{
+										category = "POTION",
+										itemID = 241308,
+										primary = true,
+									},
+									{
+										category = "HEALTH_POTION",
+										itemID = 271883,
+										primary = true,
+									},
+									{
+										category = "WEAPON_OIL",
+										itemID = 243733,
+										primary = true,
+									},
+								},
+								fetchedAt = "2026-08-21",
+								gear = {
+									BACK = {
+										{
+											dropSource = "The Blinding Vale",
+											itemID = 251190,
+										},
+									},
+									CHEST = {
+										{
+											dropSource = "Murder Row",
+											enchantID = 244002,
+											itemID = 271558,
+										},
+									},
+									FEET = {
+										{
+											dropSource = "Voidscar Arena",
+											enchantID = 243983,
+											itemID = 251219,
+										},
+									},
+									FINGER1 = {
+										{
+											dropSource = "Altar of Fangs",
+											enchantID = 244014,
+											gemID = 240892,
+											itemID = 273792,
+										},
+									},
+									FINGER2 = {
+										{
+											dropSource = "Voidscar Arena",
+											enchantID = 244014,
+											gemID = 240892,
+											itemID = 252258,
+										},
+									},
+									HANDS = {
+										{
+											dropSource = "Temple of Sethraliss",
+											itemID = 271556,
+										},
+									},
+									HEAD = {
+										{
+											dropSource = "Voidscar Arena",
+											enchantID = 243950,
+											gemID = 240892,
+											itemID = 251232,
+										},
+									},
+									LEGS = {
+										{
+											dropSource = "Den of Nalorakk",
+											enchantID = 240155,
+											itemID = 271554,
+										},
+									},
+									MAINHAND = {
+										{
+											dropSource = "Temple of Sethraliss",
+											enchantID = 243973,
+											itemID = 159636,
+										},
+									},
+									NECK = {
+										{
+											dropSource = "Den of Nalorakk",
+											gemID = 240983,
+											itemID = 251173,
+										},
+									},
+									SHOULDER = {
+										{
+											dropSource = "Temple of Sethraliss",
+											enchantID = 244021,
+											itemID = 271553,
+										},
+									},
+									TRINKET1 = {
+										{
+											dropSource = "The Blinding Vale",
+											itemID = 250214,
+										},
+									},
+									TRINKET2 = {
+										{
+											dropSource = "Murder Row",
+											itemID = 250215,
+										},
+									},
+									WAIST = {
+										{
+											dropSource = "Ruby Life Pools",
+											gemID = 240892,
+											itemID = 193691,
+										},
+									},
+									WRIST = {
+										{
+											dropSource = "Murder Row",
+											gemID = 240892,
+											itemID = 251127,
+										},
+									},
+								},
+								notes = {
+									trinkets = "While there are a large number of trinkets available, the following are the highest priority options to focus on obtaining for Discipline Priest.",
+								},
+								source = "icyveins",
+								talentBuilds = {
+									{
+										heroSpecific = false,
+										importString = "CAQAAAAAAAAAAAAAAAAAAAAAAADsMmxyYmBzgZbmtZmZmZmBAAAAAAAAAgZYZGMzMDzYmBMNTzMYmBAAY2mtFwYzAAwYMzYwMYmBjgB",
+										label = "Voidweaver Raid",
+									},
+									{
+										heroSpecific = false,
+										importString = "CAQAAAAAAAAAAAAAAAAAAAAAAADsMDWmZMmBmZbmtZmZmxMDAAAAAAAAAgZYZGMzMzwYmBbmmJGgZWwQYMLDwYwCAAMmZmxgZAmZGBzA",
+										label = "Oracle Mythic+",
+									},
+								},
+								url = "https://www.icy-veins.com/wow/discipline-priest-pve-healing-gear-best-in-slot",
+							},
 							mythicstats = {
 								enchants = {
 									{
@@ -756,17 +888,150 @@ ns.RegisterClassData("PRIEST", {
 				},
 				[20] = {
 					mplus = {
-						performance = {
-							difficulty = "Mythic+",
-							median = 18560.7,
-							metric = "dps",
-							outOf = 40,
-							rank = 39,
-							sample = 300,
-							top = 48577.7,
-							zone = "Mythic+ Season 2",
-						},
 						views = {
+							icyveins = {
+								consumables = {
+									{
+										category = "POTION",
+										itemID = 241308,
+										primary = true,
+									},
+									{
+										category = "HEALTH_POTION",
+										itemID = 271883,
+										primary = true,
+									},
+									{
+										category = "WEAPON_OIL",
+										itemID = 243733,
+										primary = true,
+									},
+								},
+								fetchedAt = "2026-08-21",
+								gear = {
+									BACK = {
+										{
+											dropSource = "The Blinding Vale",
+											itemID = 251190,
+										},
+									},
+									CHEST = {
+										{
+											dropSource = "Murder Row",
+											enchantID = 244002,
+											itemID = 271558,
+										},
+									},
+									FEET = {
+										{
+											dropSource = "Voidscar Arena",
+											enchantID = 243983,
+											itemID = 251219,
+										},
+									},
+									FINGER1 = {
+										{
+											dropSource = "Altar of Fangs",
+											enchantID = 244014,
+											gemID = 240892,
+											itemID = 273792,
+										},
+									},
+									FINGER2 = {
+										{
+											dropSource = "Voidscar Arena",
+											enchantID = 244014,
+											gemID = 240892,
+											itemID = 252258,
+										},
+									},
+									HANDS = {
+										{
+											dropSource = "Temple of Sethraliss",
+											itemID = 271556,
+										},
+									},
+									HEAD = {
+										{
+											dropSource = "Voidscar Arena",
+											enchantID = 243950,
+											gemID = 240892,
+											itemID = 251232,
+										},
+									},
+									LEGS = {
+										{
+											dropSource = "Den of Nalorakk",
+											enchantID = 240155,
+											itemID = 271554,
+										},
+									},
+									MAINHAND = {
+										{
+											dropSource = "Temple of Sethraliss",
+											enchantID = 243973,
+											itemID = 159636,
+										},
+									},
+									NECK = {
+										{
+											dropSource = "Den of Nalorakk",
+											gemID = 240983,
+											itemID = 251173,
+										},
+									},
+									SHOULDER = {
+										{
+											dropSource = "Temple of Sethraliss",
+											enchantID = 244021,
+											itemID = 271553,
+										},
+									},
+									TRINKET1 = {
+										{
+											dropSource = "The Blinding Vale",
+											itemID = 250214,
+										},
+									},
+									TRINKET2 = {
+										{
+											dropSource = "Murder Row",
+											itemID = 250215,
+										},
+									},
+									WAIST = {
+										{
+											dropSource = "Ruby Life Pools",
+											gemID = 240892,
+											itemID = 193691,
+										},
+									},
+									WRIST = {
+										{
+											dropSource = "Murder Row",
+											gemID = 240892,
+											itemID = 251127,
+										},
+									},
+								},
+								notes = {
+									trinkets = "While there are a large number of trinkets available, the following are the highest priority options to focus on obtaining for Discipline Priest.",
+								},
+								source = "icyveins",
+								talentBuilds = {
+									{
+										heroSpecific = false,
+										importString = "CAQAAAAAAAAAAAAAAAAAAAAAAADsMmxyYmBzgZbmtZmZmZmBAAAAAAAAAgZYZGMzMDzYmBMNTzMYmBAAY2mtFwYzAAwYMzYwMYmBjgB",
+										label = "Voidweaver Raid",
+									},
+									{
+										heroSpecific = false,
+										importString = "CAQAAAAAAAAAAAAAAAAAAAAAAADsMDWmZMmBmZbmtZmZmxMDAAAAAAAAAgZYZGMzMzwYmBbmmJGgZWwQYMLDwYwCAAMmZmxgZAmZGBzA",
+										label = "Oracle Mythic+",
+									},
+								},
+								url = "https://www.icy-veins.com/wow/discipline-priest-pve-healing-gear-best-in-slot",
+							},
 							mythicstats = {
 								enchants = {
 									{
@@ -1518,17 +1783,155 @@ ns.RegisterClassData("PRIEST", {
 			heroes = {
 				[20] = {
 					mplus = {
-						performance = {
-							difficulty = "Mythic+",
-							median = 25420.8,
-							metric = "dps",
-							outOf = 40,
-							rank = 38,
-							sample = 300,
-							top = 58350.4,
-							zone = "Mythic+ Season 2",
-						},
 						views = {
+							icyveins = {
+								consumables = {
+									{
+										category = "POTION",
+										itemID = 241308,
+										primary = true,
+									},
+									{
+										category = "HEALTH_POTION",
+										itemID = 271883,
+										primary = true,
+									},
+									{
+										category = "WEAPON_OIL",
+										itemID = 243733,
+										primary = true,
+									},
+								},
+								fetchedAt = "2026-08-21",
+								gear = {
+									BACK = {
+										{
+											dropSource = "Murder Row",
+											itemID = 251132,
+										},
+									},
+									CHEST = {
+										{
+											dropSource = "Catalyst from Temple of Sethraliss",
+											enchantID = 243977,
+											itemID = 271558,
+										},
+									},
+									FEET = {
+										{
+											dropSource = "Temple of Sethraliss",
+											enchantID = 243983,
+											itemID = 159259,
+										},
+									},
+									FINGER1 = {
+										{
+											dropSource = "Temple of Sethraliss",
+											enchantID = 243956,
+											gemID = 240910,
+											itemID = 158366,
+										},
+									},
+									FINGER2 = {
+										{
+											dropSource = "Murder Row",
+											enchantID = 243956,
+											gemID = 240910,
+											itemID = 251136,
+										},
+									},
+									HANDS = {
+										{
+											dropSource = "Catalyst from Temple of Sethraliss",
+											itemID = 271556,
+										},
+									},
+									HEAD = {
+										{
+											dropSource = "King's Rest",
+											enchantID = 243950,
+											gemID = 240910,
+											itemID = 271555,
+										},
+									},
+									LEGS = {
+										{
+											dropSource = "Catalyst from King's Rest",
+											enchantID = 240155,
+											itemID = 271554,
+										},
+									},
+									MAINHAND = {
+										{
+											dropSource = "Ruby Life Pools",
+											enchantID = 244029,
+											itemID = 193761,
+										},
+									},
+									NECK = {
+										{
+											dropSource = "Voidscar Arena",
+											gemID = 240983,
+											itemID = 251234,
+										},
+									},
+									SHOULDER = {
+										{
+											dropSource = "Temple of Sethraliss",
+											enchantID = 244021,
+											itemID = 271553,
+										},
+									},
+									TRINKET1 = {
+										{
+											dropSource = "The Blinding Vale",
+											itemID = 250214,
+										},
+									},
+									TRINKET2 = {
+										{
+											dropSource = "Murder Row",
+											itemID = 250215,
+										},
+									},
+									WAIST = {
+										{
+											dropSource = "Voidscar Arena",
+											gemID = 240910,
+											itemID = 251222,
+										},
+									},
+									WRIST = {
+										{
+											dropSource = "Temple of Sethraliss",
+											gemID = 240910,
+											itemID = 159263,
+										},
+									},
+								},
+								notes = {
+									trinkets = "This Trinket Tier List is based on the best attributes to improve your Raid performance, unless otherwise mentioned.",
+								},
+								source = "icyveins",
+								talentBuilds = {
+									{
+										heroSpecific = false,
+										importString = "CEQAAAAAAAAAAAAAAAAAAAAAAwYAAAAAAAgZmlxYMzMDzMzYZGmBAAAwwsMDzMzMMDzYAzUAgZWMDziBAGD2MzMLAaGzMGDzMbLDwAGA",
+										label = "Holy Priest Raid - Archon",
+									},
+									{
+										heroSpecific = false,
+										importString = "CEQAAAAAAAAAAAAAAAAAAAAAAwYAAAAAAAMMzsMgZmZYmZGLzMzMAAAAGzsMDmZmxmxMjBMTBAmZzMMbGAYMYzMjFANjZGjBzstMADYA",
+										label = "Holy Priest Weekly M+ - Archon",
+									},
+									{
+										heroSpecific = false,
+										importString = "CEQAAAAAAAAAAAAAAAAAAAAAAADAAAAAAgZmxsMMjZGDzwYZmZmBAAAwYmlZwMzM2MmZMgZKAmZBDhxsNAjBWMzMLAMjZGjBzAMzMgB",
+										label = "Holy Priest Delves & High M+ - Oracle",
+									},
+								},
+								url = "https://www.icy-veins.com/wow/holy-priest-pve-healing-gear-best-in-slot",
+							},
 							mythicstats = {
 								enchants = {
 									{
@@ -2316,17 +2719,206 @@ ns.RegisterClassData("PRIEST", {
 			heroes = {
 				[18] = {
 					mplus = {
-						performance = {
-							difficulty = "Mythic+",
-							median = 180079.5,
-							metric = "dps",
-							outOf = 40,
-							rank = 11,
-							sample = 300,
-							top = 271518.9,
-							zone = "Mythic+ Season 2",
-						},
 						views = {
+							icyveins = {
+								consumables = {
+									{
+										category = "POTION",
+										itemID = 241288,
+										primary = true,
+									},
+									{
+										category = "HEALTH_POTION",
+										itemID = 271883,
+										primary = true,
+									},
+									{
+										category = "FOOD",
+										itemID = 255845,
+										primary = true,
+									},
+									{
+										category = "FOOD",
+										itemID = 255846,
+										primary = false,
+									},
+									{
+										category = "FOOD",
+										itemID = 242275,
+										primary = false,
+									},
+									{
+										category = "WEAPON_OIL",
+										itemID = 243733,
+										primary = true,
+									},
+								},
+								fetchedAt = "2026-08-21",
+								gear = {
+									BACK = {
+										{
+											dropSource = "Blinding Vale",
+											itemID = 251190,
+										},
+									},
+									CHEST = {
+										{
+											dropSource = "Catalyst Chest from Altar of Fangs",
+											enchantID = 243977,
+											itemID = 271558,
+										},
+									},
+									FEET = {
+										{
+											dropSource = "Murder Row",
+											enchantID = 244008,
+											itemID = 251137,
+										},
+									},
+									FINGER1 = {
+										{
+											dropSource = "Voidscar Arena",
+											enchantID = 243956,
+											gemID = 240892,
+											itemID = 252258,
+										},
+									},
+									FINGER2 = {
+										{
+											dropSource = "Altar of Fangs",
+											enchantID = 243956,
+											gemID = 240900,
+											itemID = 273792,
+										},
+									},
+									HANDS = {
+										{
+											dropSource = "Catalyst Hands from Altar of Fangs",
+											itemID = 271556,
+										},
+									},
+									HEAD = {
+										{
+											dropSource = "Catalyst Helm from Voidscar Arena",
+											enchantID = 243981,
+											gemID = 240900,
+											itemID = 271555,
+										},
+									},
+									LEGS = {
+										{
+											dropSource = "Catalyst Legs from Den of Nalorakk",
+											enchantID = 240133,
+											itemID = 271554,
+										},
+									},
+									MAINHAND = {
+										{
+											dropSource = "Altar of Fangs",
+											enchantID = 244031,
+											itemID = 273778,
+										},
+									},
+									NECK = {
+										{
+											dropSource = "Murder Row",
+											gemID = 240983,
+											itemID = 251142,
+										},
+									},
+									OFFHAND = {
+										{
+											dropSource = "Blinding Vale",
+											itemID = 251191,
+										},
+									},
+									SHOULDER = {
+										{
+											dropSource = "King's Rest",
+											enchantID = 243962,
+											itemID = 239045,
+										},
+									},
+									TRINKET1 = {
+										{
+											dropSource = "Murder Row",
+											itemID = 250215,
+										},
+									},
+									TRINKET2 = {
+										{
+											dropSource = "Voidscar Arena",
+											itemID = 250224,
+										},
+									},
+									WAIST = {
+										{
+											dropSource = "Blinding Vale",
+											gemID = 240900,
+											itemID = 251185,
+										},
+									},
+									WRIST = {
+										{
+											dropSource = "Murder Row",
+											gemID = 240900,
+											itemID = 251127,
+										},
+									},
+								},
+								notes = {
+									trinkets = "Shadow Priest has many great Trinkets to choose from throughout the season. The guide below is designed to help you understand which are best to target and what to expect from the trinket options in Season 2. These are generic suggestions of what to target, but anything that is a big item-level jump might be an upgrade, even if it is not on this list. Be sure to get familiar with the Gear Upgrade System system.",
+								},
+								source = "icyveins",
+								talentBuilds = {
+									{
+										heroSpecific = false,
+										importString = "CIQAAAAAAAAAAAAAAAAAAAAAAMMDDAAAAAAAAAAAAmZxMmZbmxMz2MGzw2MzYmZGbIzYxMNAzAMzmZY2MAkxYBAzMgxMzMmNmZbZAmBDA",
+										label = "Shadow Raid - Archon",
+									},
+									{
+										heroSpecific = false,
+										importString = "CIQAAAAAAAAAAAAAAAAAAAAAAMMDDAAAAAAAAAAAAmZxMmZbmxMzyMzYG2mZGzMzYDZGLmpBYmZGAIAz2stAmNGAYwYmZGzGzgZGMDGA",
+										label = "Shadow AoE - Voidweaver",
+									},
+									{
+										heroSpecific = false,
+										importString = "CIQAAAAAAAAAAAAAAAAAAAAAAMMDDAAAAAAAAAAAAmZxMmZbmxMzyMzYmx2MYmZmZDZGLb0AMzMDAEgZb2WAzGDAMwMzMzMbMDmZwMYA",
+										label = "Shadow Delves - Voidweaver",
+									},
+									{
+										heroSpecific = false,
+										importString = "CIQAR03Gt7xPmcDNOjs2Zlb3yOMjZGAAAAAAAAAAAgxMMjx2MDzsNzwMjtZMmZmBmMwMNzAzAMzmZ0sZAIjxCAmBYMzMjZbMz2yAMDGA",
+										label = "Archon Raid - No 4pc Season 2",
+									},
+									{
+										heroSpecific = false,
+										importString = "CIQAR03Gt7xPmcDNOjs2Zlb3yOMjZGAAAAAAAAAAAghZxMGbzMmZWmZYmx2MGzMzYDZGLmpBYGgZ2MjmNDAZMWAwMAjZmZMbjZ2WGgZwA",
+										label = "Archon AoE - No 4pc Season 2",
+									},
+									{
+										heroSpecific = false,
+										importString = "CIQAR03Gt7xPmcDNOjs2Zlb3yOMjZGAAAAAAAAAAAghZxMGbzMmZWmZYmx2MGzMzYDZGLmpBYGgZ2MjmNDAZMWAwMAjZmZMbjZ2WGgZwA",
+										label = "Archon Delves - No 4pc Season 2",
+									},
+									{
+										heroSpecific = false,
+										importString = "CIQAR03Gt7xPmcDNOjs2Zlb3yOMjZGAAAAAAAAAAAgxMMjx2MDzsNzwMsNzMmZmxGyMWMTDwMzMAQAmtZbJY2YAmBYMzMjZbMDmZwMYA",
+										label = "Voidweaver Raid - No 4pc Season 2",
+									},
+									{
+										heroSpecific = false,
+										importString = "CIQAR03Gt7xPmcDNOjs2Zlb3yOMjZGAAAAAAAAAAAghZxMGbzMmZWmZYmx2MGzMzYDZGLmpBYmZGAIAz2stEMbMAwgxMzMmtxMYmBzgB",
+										label = "Voidweaver AoE - No 4pc Season 2",
+									},
+									{
+										heroSpecific = false,
+										importString = "CIQAR03Gt7xPmcDNOjs2Zlb3yOMjZGAAAAAAAAAAAghZxMGbzMmZWmZYmx2MGzMzYDZGLmpBYmZGAIAz2stEMbMAwgxMzMmtxMYmBzgB",
+										label = "Voidweaver Delves - No 4pc Season 2",
+									},
+								},
+								url = "https://www.icy-veins.com/wow/shadow-priest-pve-dps-gear-best-in-slot",
+							},
 							mythicstats = {
 								enchants = {
 									{
@@ -3060,17 +3652,206 @@ ns.RegisterClassData("PRIEST", {
 				},
 				[19] = {
 					mplus = {
-						performance = {
-							difficulty = "Mythic+",
-							median = 180079.5,
-							metric = "dps",
-							outOf = 40,
-							rank = 11,
-							sample = 300,
-							top = 271518.9,
-							zone = "Mythic+ Season 2",
-						},
 						views = {
+							icyveins = {
+								consumables = {
+									{
+										category = "POTION",
+										itemID = 241288,
+										primary = true,
+									},
+									{
+										category = "HEALTH_POTION",
+										itemID = 271883,
+										primary = true,
+									},
+									{
+										category = "FOOD",
+										itemID = 255845,
+										primary = true,
+									},
+									{
+										category = "FOOD",
+										itemID = 255846,
+										primary = false,
+									},
+									{
+										category = "FOOD",
+										itemID = 242275,
+										primary = false,
+									},
+									{
+										category = "WEAPON_OIL",
+										itemID = 243733,
+										primary = true,
+									},
+								},
+								fetchedAt = "2026-08-21",
+								gear = {
+									BACK = {
+										{
+											dropSource = "Blinding Vale",
+											itemID = 251190,
+										},
+									},
+									CHEST = {
+										{
+											dropSource = "Catalyst Chest from Altar of Fangs",
+											enchantID = 243977,
+											itemID = 271558,
+										},
+									},
+									FEET = {
+										{
+											dropSource = "Murder Row",
+											enchantID = 244008,
+											itemID = 251137,
+										},
+									},
+									FINGER1 = {
+										{
+											dropSource = "Voidscar Arena",
+											enchantID = 243956,
+											gemID = 240892,
+											itemID = 252258,
+										},
+									},
+									FINGER2 = {
+										{
+											dropSource = "Altar of Fangs",
+											enchantID = 243956,
+											gemID = 240900,
+											itemID = 273792,
+										},
+									},
+									HANDS = {
+										{
+											dropSource = "Catalyst Hands from Altar of Fangs",
+											itemID = 271556,
+										},
+									},
+									HEAD = {
+										{
+											dropSource = "Catalyst Helm from Voidscar Arena",
+											enchantID = 243981,
+											gemID = 240900,
+											itemID = 271555,
+										},
+									},
+									LEGS = {
+										{
+											dropSource = "Catalyst Legs from Den of Nalorakk",
+											enchantID = 240133,
+											itemID = 271554,
+										},
+									},
+									MAINHAND = {
+										{
+											dropSource = "Altar of Fangs",
+											enchantID = 244031,
+											itemID = 273778,
+										},
+									},
+									NECK = {
+										{
+											dropSource = "Murder Row",
+											gemID = 240983,
+											itemID = 251142,
+										},
+									},
+									OFFHAND = {
+										{
+											dropSource = "Blinding Vale",
+											itemID = 251191,
+										},
+									},
+									SHOULDER = {
+										{
+											dropSource = "King's Rest",
+											enchantID = 243962,
+											itemID = 239045,
+										},
+									},
+									TRINKET1 = {
+										{
+											dropSource = "Murder Row",
+											itemID = 250215,
+										},
+									},
+									TRINKET2 = {
+										{
+											dropSource = "Voidscar Arena",
+											itemID = 250224,
+										},
+									},
+									WAIST = {
+										{
+											dropSource = "Blinding Vale",
+											gemID = 240900,
+											itemID = 251185,
+										},
+									},
+									WRIST = {
+										{
+											dropSource = "Murder Row",
+											gemID = 240900,
+											itemID = 251127,
+										},
+									},
+								},
+								notes = {
+									trinkets = "Shadow Priest has many great Trinkets to choose from throughout the season. The guide below is designed to help you understand which are best to target and what to expect from the trinket options in Season 2. These are generic suggestions of what to target, but anything that is a big item-level jump might be an upgrade, even if it is not on this list. Be sure to get familiar with the Gear Upgrade System system.",
+								},
+								source = "icyveins",
+								talentBuilds = {
+									{
+										heroSpecific = false,
+										importString = "CIQAAAAAAAAAAAAAAAAAAAAAAMMDDAAAAAAAAAAAAmZxMmZbmxMz2MGzw2MzYmZGbIzYxMNAzAMzmZY2MAkxYBAzMgxMzMmNmZbZAmBDA",
+										label = "Shadow Raid - Archon",
+									},
+									{
+										heroSpecific = false,
+										importString = "CIQAAAAAAAAAAAAAAAAAAAAAAMMDDAAAAAAAAAAAAmZxMmZbmxMzyMzYG2mZGzMzYDZGLmpBYmZGAIAz2stAmNGAYwYmZGzGzgZGMDGA",
+										label = "Shadow AoE - Voidweaver",
+									},
+									{
+										heroSpecific = false,
+										importString = "CIQAAAAAAAAAAAAAAAAAAAAAAMMDDAAAAAAAAAAAAmZxMmZbmxMzyMzYmx2MYmZmZDZGLb0AMzMDAEgZb2WAzGDAMwMzMzMbMDmZwMYA",
+										label = "Shadow Delves - Voidweaver",
+									},
+									{
+										heroSpecific = false,
+										importString = "CIQAR03Gt7xPmcDNOjs2Zlb3yOMjZGAAAAAAAAAAAgxMMjx2MDzsNzwMjtZMmZmBmMwMNzAzAMzmZ0sZAIjxCAmBYMzMjZbMz2yAMDGA",
+										label = "Archon Raid - No 4pc Season 2",
+									},
+									{
+										heroSpecific = false,
+										importString = "CIQAR03Gt7xPmcDNOjs2Zlb3yOMjZGAAAAAAAAAAAghZxMGbzMmZWmZYmx2MGzMzYDZGLmpBYGgZ2MjmNDAZMWAwMAjZmZMbjZ2WGgZwA",
+										label = "Archon AoE - No 4pc Season 2",
+									},
+									{
+										heroSpecific = false,
+										importString = "CIQAR03Gt7xPmcDNOjs2Zlb3yOMjZGAAAAAAAAAAAghZxMGbzMmZWmZYmx2MGzMzYDZGLmpBYGgZ2MjmNDAZMWAwMAjZmZMbjZ2WGgZwA",
+										label = "Archon Delves - No 4pc Season 2",
+									},
+									{
+										heroSpecific = false,
+										importString = "CIQAR03Gt7xPmcDNOjs2Zlb3yOMjZGAAAAAAAAAAAgxMMjx2MDzsNzwMsNzMmZmxGyMWMTDwMzMAQAmtZbJY2YAmBYMzMjZbMDmZwMYA",
+										label = "Voidweaver Raid - No 4pc Season 2",
+									},
+									{
+										heroSpecific = false,
+										importString = "CIQAR03Gt7xPmcDNOjs2Zlb3yOMjZGAAAAAAAAAAAghZxMGbzMmZWmZYmx2MGzMzYDZGLmpBYmZGAIAz2stEMbMAwgxMzMmtxMYmBzgB",
+										label = "Voidweaver AoE - No 4pc Season 2",
+									},
+									{
+										heroSpecific = false,
+										importString = "CIQAR03Gt7xPmcDNOjs2Zlb3yOMjZGAAAAAAAAAAAghZxMGbzMmZWmZYmx2MGzMzYDZGLmpBYmZGAIAz2stEMbMAwgxMzMmtxMYmBzgB",
+										label = "Voidweaver Delves - No 4pc Season 2",
+									},
+								},
+								url = "https://www.icy-veins.com/wow/shadow-priest-pve-dps-gear-best-in-slot",
+							},
 							mythicstats = {
 								enchants = {
 									{
@@ -3846,17 +4627,206 @@ ns.RegisterClassData("PRIEST", {
 					},
 					name = "Archon",
 					raid = {
-						performance = {
-							difficulty = "Heroic",
-							median = 158115.9,
-							metric = "dps",
-							outOf = 40,
-							rank = 7,
-							sample = 300,
-							top = 186238.5,
-							zone = "The Venomous Abyss",
-						},
 						views = {
+							icyveins = {
+								consumables = {
+									{
+										category = "POTION",
+										itemID = 241288,
+										primary = true,
+									},
+									{
+										category = "HEALTH_POTION",
+										itemID = 271883,
+										primary = true,
+									},
+									{
+										category = "FOOD",
+										itemID = 255845,
+										primary = true,
+									},
+									{
+										category = "FOOD",
+										itemID = 255846,
+										primary = false,
+									},
+									{
+										category = "FOOD",
+										itemID = 242275,
+										primary = false,
+									},
+									{
+										category = "WEAPON_OIL",
+										itemID = 243733,
+										primary = true,
+									},
+								},
+								fetchedAt = "2026-08-21",
+								gear = {
+									BACK = {
+										{
+											dropSource = "Coiled Altar",
+											itemID = 268253,
+										},
+									},
+									CHEST = {
+										{
+											dropSource = "Vashnik",
+											enchantID = 243977,
+											itemID = 271558,
+										},
+									},
+									FEET = {
+										{
+											dropSource = "Coiled Altar",
+											enchantID = 244008,
+											itemID = 268255,
+										},
+									},
+									FINGER1 = {
+										{
+											dropSource = "Nymrissa Wavecaller",
+											enchantID = 243956,
+											gemID = 240892,
+											itemID = 268266,
+										},
+									},
+									FINGER2 = {
+										{
+											dropSource = "Vashnik",
+											enchantID = 243956,
+											gemID = 240900,
+											itemID = 268249,
+										},
+									},
+									HANDS = {
+										{
+											dropSource = "Catalyst Hands from The Coiled Altar",
+											itemID = 271556,
+										},
+									},
+									HEAD = {
+										{
+											dropSource = "Catalyst Helm from Ula'tek",
+											enchantID = 243981,
+											gemID = 240900,
+											itemID = 271555,
+										},
+									},
+									LEGS = {
+										{
+											dropSource = "Sszorak",
+											enchantID = 240133,
+											itemID = 271554,
+										},
+									},
+									MAINHAND = {
+										{
+											dropSource = "Ula'tek",
+											enchantID = 244031,
+											itemID = 271092,
+										},
+									},
+									NECK = {
+										{
+											dropSource = "Ula'tek",
+											gemID = 240983,
+											itemID = 268265,
+										},
+									},
+									OFFHAND = {
+										{
+											dropSource = "Entombed Sentinels",
+											itemID = 268197,
+										},
+									},
+									SHOULDER = {
+										{
+											dropSource = "Lost Explorers",
+											enchantID = 243962,
+											itemID = 271553,
+										},
+									},
+									TRINKET1 = {
+										{
+											dropSource = "Coiled Altar",
+											itemID = 270169,
+										},
+									},
+									TRINKET2 = {
+										{
+											dropSource = "Lost Explorers",
+											itemID = 270167,
+										},
+									},
+									WAIST = {
+										{
+											dropSource = "Sszorak",
+											gemID = 240900,
+											itemID = 268257,
+										},
+									},
+									WRIST = {
+										{
+											dropSource = "Entombed Sentinels",
+											gemID = 240900,
+											itemID = 268228,
+										},
+									},
+								},
+								notes = {
+									trinkets = "Shadow Priest has many great Trinkets to choose from throughout the season. The guide below is designed to help you understand which are best to target and what to expect from the trinket options in Season 2. These are generic suggestions of what to target, but anything that is a big item-level jump might be an upgrade, even if it is not on this list. Be sure to get familiar with the Gear Upgrade System system.",
+								},
+								source = "icyveins",
+								talentBuilds = {
+									{
+										heroSpecific = false,
+										importString = "CIQAAAAAAAAAAAAAAAAAAAAAAMMDDAAAAAAAAAAAAmZxMmZbmxMz2MGzw2MzYmZGbIzYxMNAzAMzmZY2MAkxYBAzMgxMzMmNmZbZAmBDA",
+										label = "Shadow Raid - Archon",
+									},
+									{
+										heroSpecific = false,
+										importString = "CIQAAAAAAAAAAAAAAAAAAAAAAMMDDAAAAAAAAAAAAmZxMmZbmxMzyMzYG2mZGzMzYDZGLmpBYmZGAIAz2stAmNGAYwYmZGzGzgZGMDGA",
+										label = "Shadow AoE - Voidweaver",
+									},
+									{
+										heroSpecific = false,
+										importString = "CIQAAAAAAAAAAAAAAAAAAAAAAMMDDAAAAAAAAAAAAmZxMmZbmxMzyMzYmx2MYmZmZDZGLb0AMzMDAEgZb2WAzGDAMwMzMzMbMDmZwMYA",
+										label = "Shadow Delves - Voidweaver",
+									},
+									{
+										heroSpecific = false,
+										importString = "CIQAR03Gt7xPmcDNOjs2Zlb3yOMjZGAAAAAAAAAAAgxMMjx2MDzsNzwMjtZMmZmBmMwMNzAzAMzmZ0sZAIjxCAmBYMzMjZbMz2yAMDGA",
+										label = "Archon Raid - No 4pc Season 2",
+									},
+									{
+										heroSpecific = false,
+										importString = "CIQAR03Gt7xPmcDNOjs2Zlb3yOMjZGAAAAAAAAAAAghZxMGbzMmZWmZYmx2MGzMzYDZGLmpBYGgZ2MjmNDAZMWAwMAjZmZMbjZ2WGgZwA",
+										label = "Archon AoE - No 4pc Season 2",
+									},
+									{
+										heroSpecific = false,
+										importString = "CIQAR03Gt7xPmcDNOjs2Zlb3yOMjZGAAAAAAAAAAAghZxMGbzMmZWmZYmx2MGzMzYDZGLmpBYGgZ2MjmNDAZMWAwMAjZmZMbjZ2WGgZwA",
+										label = "Archon Delves - No 4pc Season 2",
+									},
+									{
+										heroSpecific = false,
+										importString = "CIQAR03Gt7xPmcDNOjs2Zlb3yOMjZGAAAAAAAAAAAgxMMjx2MDzsNzwMsNzMmZmxGyMWMTDwMzMAQAmtZbJY2YAmBYMzMjZbMDmZwMYA",
+										label = "Voidweaver Raid - No 4pc Season 2",
+									},
+									{
+										heroSpecific = false,
+										importString = "CIQAR03Gt7xPmcDNOjs2Zlb3yOMjZGAAAAAAAAAAAghZxMGbzMmZWmZYmx2MGzMzYDZGLmpBYmZGAIAz2stEMbMAwgxMzMmtxMYmBzgB",
+										label = "Voidweaver AoE - No 4pc Season 2",
+									},
+									{
+										heroSpecific = false,
+										importString = "CIQAR03Gt7xPmcDNOjs2Zlb3yOMjZGAAAAAAAAAAAghZxMGbzMmZWmZYmx2MGzMzYDZGLmpBYmZGAIAz2stEMbMAwgxMzMmtxMYmBzgB",
+										label = "Voidweaver Delves - No 4pc Season 2",
+									},
+								},
+								url = "https://www.icy-veins.com/wow/shadow-priest-pve-dps-gear-best-in-slot",
+							},
 							mythicstats = {
 								enchants = {
 									{

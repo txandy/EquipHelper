@@ -15,6 +15,9 @@ ignore = {
 globals = {
 	-- Nuestros SavedVariables
 	"EquipHelperDB",
+	-- Unica superficie global del addon: como los paquetes de datos, que son
+	-- addons hermanos con su propio namespace, registran lo suyo.
+	"EquipHelper_RegisterClassData",
 	-- Globals que el addon define por contrato con el cliente
 	"SLASH_EQUIPHELPER1", "SLASH_EQUIPHELPER2",
 	"SlashCmdList", "UISpecialFrames",
@@ -47,4 +50,11 @@ read_globals = {
 -- de talentos no se puede partir en dos lineas, asi que el limite no aplica.
 files["EquipHelper/Data/*.lua"] = {
 	max_line_length = false,
+}
+
+-- Los paquetes de datos los escribe el emisor y solo llaman a la funcion de
+-- registro del addon principal.
+files["data-addons/**/Data.lua"] = {
+	max_line_length = false,
+	read_globals = { "EquipHelper_RegisterClassData" },
 }

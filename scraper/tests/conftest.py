@@ -25,3 +25,18 @@ def frost_mage_html():
 @pytest.fixture(scope="session")
 def consumables_html():
     return (FIXTURES / "wowhead-consumables-frost-mage.html").read_text(encoding="utf-8")
+
+
+@pytest.fixture(scope="session")
+def iv_gear_html():
+    return (FIXTURES / "icyveins-frost-mage-gear.html").read_text(encoding="utf-8")
+
+
+@pytest.fixture(scope="session")
+def iv_talents_html():
+    return (FIXTURES / "icyveins-frost-mage-talents.html").read_text(encoding="utf-8")
+
+
+@pytest.fixture(scope="session")
+def iv_consumables_html():
+    return (FIXTURES / "icyveins-frost-mage-consumables.html").read_text(encoding="utf-8")

@@ -6,17 +6,280 @@
       "content": "mplus",
       "hero_id": 43,
       "hero_name": "Pack Leader",
-      "performance": {
-        "difficulty": "Mythic+",
-        "median": 151564.5,
-        "metric": "dps",
-        "out_of": 40,
-        "rank": 24,
-        "sample": 300,
-        "top": 277291.8,
-        "zone": "Mythic+ Season 2"
-      },
+      "performance": null,
       "views": {
+        "icyveins": {
+          "consumables": [
+            {
+              "category": "FLASK",
+              "is_primary": true,
+              "item_id": 241322
+            },
+            {
+              "category": "HEALTH_POTION",
+              "is_primary": true,
+              "item_id": 271883
+            },
+            {
+              "category": "FOOD",
+              "is_primary": true,
+              "item_id": 255846
+            },
+            {
+              "category": "FOOD",
+              "is_primary": false,
+              "item_id": 255845
+            },
+            {
+              "category": "FOOD",
+              "is_primary": false,
+              "item_id": 242747
+            },
+            {
+              "category": "RUNE",
+              "is_primary": true,
+              "item_id": 259085
+            }
+          ],
+          "enchants": [],
+          "fetched_at": "2026-08-21",
+          "gear": {
+            "BACK": [
+              {
+                "drop_source": "The Blinding Vale",
+                "enchant_id": null,
+                "gem_id": null,
+                "item_id": 251190,
+                "note": null,
+                "source_hint": null,
+                "usage_pct": null
+              }
+            ],
+            "CHEST": [
+              {
+                "drop_source": "Catalyst from Voidscar Arena",
+                "enchant_id": 243977,
+                "gem_id": null,
+                "item_id": 271495,
+                "note": null,
+                "source_hint": null,
+                "usage_pct": null
+              }
+            ],
+            "FEET": [
+              {
+                "drop_source": "Temple of Sethraliss",
+                "enchant_id": 243983,
+                "gem_id": null,
+                "item_id": 159388,
+                "note": null,
+                "source_hint": null,
+                "usage_pct": null
+              }
+            ],
+            "FINGER1": [
+              {
+                "drop_source": "Voidscar Arena",
+                "enchant_id": 243956,
+                "gem_id": 240898,
+                "item_id": 252258,
+                "note": null,
+                "source_hint": null,
+                "usage_pct": null
+              }
+            ],
+            "FINGER2": [
+              {
+                "drop_source": "Murder Row",
+                "enchant_id": 243956,
+                "gem_id": 240898,
+                "item_id": 251136,
+                "note": null,
+                "source_hint": null,
+                "usage_pct": null
+              }
+            ],
+            "HANDS": [
+              {
+                "drop_source": "Catalyst from King's Rest",
+                "enchant_id": null,
+                "gem_id": null,
+                "item_id": 271493,
+                "note": null,
+                "source_hint": null,
+                "usage_pct": null
+              }
+            ],
+            "HEAD": [
+              {
+                "drop_source": "Catalyst from Temple of Sethraliss",
+                "enchant_id": 243950,
+                "gem_id": 240983,
+                "item_id": 271492,
+                "note": null,
+                "source_hint": null,
+                "usage_pct": null
+              }
+            ],
+            "LEGS": [
+              {
+                "drop_source": "Catalyst from Temple of Sethraliss",
+                "enchant_id": 244640,
+                "gem_id": null,
+                "item_id": 271491,
+                "note": null,
+                "source_hint": null,
+                "usage_pct": null
+              }
+            ],
+            "MAINHAND": [
+              {
+                "drop_source": "Altar of Fangs",
+                "enchant_id": 244031,
+                "gem_id": null,
+                "item_id": 275070,
+                "note": null,
+                "source_hint": null,
+                "usage_pct": null
+              }
+            ],
+            "NECK": [
+              {
+                "drop_source": "Murder Row",
+                "enchant_id": null,
+                "gem_id": 240898,
+                "item_id": 251142,
+                "note": null,
+                "source_hint": null,
+                "usage_pct": null
+              }
+            ],
+            "OFFHAND": [
+              {
+                "drop_source": "Altar of Fangs",
+                "enchant_id": 244031,
+                "gem_id": null,
+                "item_id": 275070,
+                "note": null,
+                "source_hint": null,
+                "usage_pct": null
+              }
+            ],
+            "SHOULDER": [
+              {
+                "drop_source": "Catalyst from King's Rest",
+                "enchant_id": 244021,
+                "gem_id": null,
+                "item_id": 271490,
+                "note": null,
+                "source_hint": null,
+                "usage_pct": null
+              }
+            ],
+            "TRINKET1": [
+              {
+                "drop_source": "The Blinding Vale",
+                "enchant_id": null,
+                "gem_id": null,
+                "item_id": 250214,
+                "note": null,
+                "source_hint": null,
+                "usage_pct": null
+              }
+            ],
+            "TRINKET2": [
+              {
+                "drop_source": "Murder Row",
+                "enchant_id": null,
+                "gem_id": null,
+                "item_id": 250215,
+                "note": null,
+                "source_hint": null,
+                "usage_pct": null
+              }
+            ],
+            "WAIST": [
+              {
+                "drop_source": "Crafted by Leatherworking",
+                "enchant_id": null,
+                "gem_id": 240898,
+                "item_id": 244581,
+                "note": null,
+                "source_hint": null,
+                "usage_pct": null
+              }
+            ],
+            "WRIST": [
+              {
+                "drop_source": "Crafted by Leatherworking",
+                "enchant_id": null,
+                "gem_id": 240898,
+                "item_id": 244584,
+                "note": null,
+                "source_hint": null,
+                "usage_pct": null
+              }
+            ]
+          },
+          "gems": [
+            {
+              "drop_source": null,
+              "enchant_id": null,
+              "gem_id": null,
+              "item_id": 240983,
+              "note": null,
+              "source_hint": null,
+              "usage_pct": null
+            },
+            {
+              "drop_source": null,
+              "enchant_id": null,
+              "gem_id": null,
+              "item_id": 240898,
+              "note": null,
+              "source_hint": null,
+              "usage_pct": null
+            }
+          ],
+          "notes": {
+            "trinkets": "As Survival, our optimal setup is Voracious Heart of Ula'tek paired with Zul'jin's Guillotine Technique . Use the Heart with Takedown when possible, but do not hold it for more than 20 seconds to do so."
+          },
+          "source": "icyveins",
+          "stat_priority": [],
+          "talent_builds": [
+            {
+              "hero_id": 0,
+              "hero_specific": false,
+              "import_string": "C8PAAAAAAAAAAAAAAAAAAAAAAMWgBmxoxyAYmgtZMzMGzyAAAAAAwMmxMLmxYGzgx0MAAAADAmxyyMzsYMzMjZmBAzYZDGDjNDAA",
+              "label": "Survival Single Target - Sentinel",
+              "metrics": {},
+              "source": "icyveins",
+              "url": "https://www.icy-veins.com/wow/survival-hunter-pve-dps-spec-builds-talents",
+              "usage_pct": null
+            },
+            {
+              "hero_id": 0,
+              "hero_specific": false,
+              "import_string": "C8PAAAAAAAAAAAAAAAAAAAAAAMWgBmxYGLDgZGYbmZmZmxsNPAAAAAAgZMzMjtZMmxMsMmmBAAAYAgxyyMjFMzMegxYAYGbgxYmZzAAA",
+              "label": "Survival Mythic+ - Sentinel",
+              "metrics": {},
+              "source": "icyveins",
+              "url": "https://www.icy-veins.com/wow/survival-hunter-pve-dps-spec-builds-talents",
+              "usage_pct": null
+            },
+            {
+              "hero_id": 0,
+              "hero_specific": false,
+              "import_string": "C8PAAAAAAAAAAAAAAAAAAAAAAMWgBmxYGLDgZGYbmZmZmxsNPAAAAAAgZMzMDGjZMzwYaAAAAAAGLLzMWwMzMzYMAMjNsMjxMzmBAAA",
+              "label": "Survival Delves - Sentinel",
+              "metrics": {},
+              "source": "icyveins",
+              "url": "https://www.icy-veins.com/wow/survival-hunter-pve-dps-spec-builds-talents",
+              "usage_pct": null
+            }
+          ],
+          "url": "https://www.icy-veins.com/wow/survival-hunter-pve-dps-gear-best-in-slot"
+        },
         "mythicstats": {
           "consumables": [],
           "enchants": [
@@ -1404,17 +1667,280 @@
       "content": "mplus",
       "hero_id": 42,
       "hero_name": "Sentinel",
-      "performance": {
-        "difficulty": "Mythic+",
-        "median": 151564.5,
-        "metric": "dps",
-        "out_of": 40,
-        "rank": 24,
-        "sample": 300,
-        "top": 277291.8,
-        "zone": "Mythic+ Season 2"
-      },
+      "performance": null,
       "views": {
+        "icyveins": {
+          "consumables": [
+            {
+              "category": "FLASK",
+              "is_primary": true,
+              "item_id": 241322
+            },
+            {
+              "category": "HEALTH_POTION",
+              "is_primary": true,
+              "item_id": 271883
+            },
+            {
+              "category": "FOOD",
+              "is_primary": true,
+              "item_id": 255846
+            },
+            {
+              "category": "FOOD",
+              "is_primary": false,
+              "item_id": 255845
+            },
+            {
+              "category": "FOOD",
+              "is_primary": false,
+              "item_id": 242747
+            },
+            {
+              "category": "RUNE",
+              "is_primary": true,
+              "item_id": 259085
+            }
+          ],
+          "enchants": [],
+          "fetched_at": "2026-08-21",
+          "gear": {
+            "BACK": [
+              {
+                "drop_source": "The Blinding Vale",
+                "enchant_id": null,
+                "gem_id": null,
+                "item_id": 251190,
+                "note": null,
+                "source_hint": null,
+                "usage_pct": null
+              }
+            ],
+            "CHEST": [
+              {
+                "drop_source": "Catalyst from Voidscar Arena",
+                "enchant_id": 243977,
+                "gem_id": null,
+                "item_id": 271495,
+                "note": null,
+                "source_hint": null,
+                "usage_pct": null
+              }
+            ],
+            "FEET": [
+              {
+                "drop_source": "Temple of Sethraliss",
+                "enchant_id": 243983,
+                "gem_id": null,
+                "item_id": 159388,
+                "note": null,
+                "source_hint": null,
+                "usage_pct": null
+              }
+            ],
+            "FINGER1": [
+              {
+                "drop_source": "Voidscar Arena",
+                "enchant_id": 243956,
+                "gem_id": 240898,
+                "item_id": 252258,
+                "note": null,
+                "source_hint": null,
+                "usage_pct": null
+              }
+            ],
+            "FINGER2": [
+              {
+                "drop_source": "Murder Row",
+                "enchant_id": 243956,
+                "gem_id": 240898,
+                "item_id": 251136,
+                "note": null,
+                "source_hint": null,
+                "usage_pct": null
+              }
+            ],
+            "HANDS": [
+              {
+                "drop_source": "Catalyst from King's Rest",
+                "enchant_id": null,
+                "gem_id": null,
+                "item_id": 271493,
+                "note": null,
+                "source_hint": null,
+                "usage_pct": null
+              }
+            ],
+            "HEAD": [
+              {
+                "drop_source": "Catalyst from Temple of Sethraliss",
+                "enchant_id": 243950,
+                "gem_id": 240983,
+                "item_id": 271492,
+                "note": null,
+                "source_hint": null,
+                "usage_pct": null
+              }
+            ],
+            "LEGS": [
+              {
+                "drop_source": "Catalyst from Temple of Sethraliss",
+                "enchant_id": 244640,
+                "gem_id": null,
+                "item_id": 271491,
+                "note": null,
+                "source_hint": null,
+                "usage_pct": null
+              }
+            ],
+            "MAINHAND": [
+              {
+                "drop_source": "Altar of Fangs",
+                "enchant_id": 244031,
+                "gem_id": null,
+                "item_id": 275070,
+                "note": null,
+                "source_hint": null,
+                "usage_pct": null
+              }
+            ],
+            "NECK": [
+              {
+                "drop_source": "Murder Row",
+                "enchant_id": null,
+                "gem_id": 240898,
+                "item_id": 251142,
+                "note": null,
+                "source_hint": null,
+                "usage_pct": null
+              }
+            ],
+            "OFFHAND": [
+              {
+                "drop_source": "Altar of Fangs",
+                "enchant_id": 244031,
+                "gem_id": null,
+                "item_id": 275070,
+                "note": null,
+                "source_hint": null,
+                "usage_pct": null
+              }
+            ],
+            "SHOULDER": [
+              {
+                "drop_source": "Catalyst from King's Rest",
+                "enchant_id": 244021,
+                "gem_id": null,
+                "item_id": 271490,
+                "note": null,
+                "source_hint": null,
+                "usage_pct": null
+              }
+            ],
+            "TRINKET1": [
+              {
+                "drop_source": "The Blinding Vale",
+                "enchant_id": null,
+                "gem_id": null,
+                "item_id": 250214,
+                "note": null,
+                "source_hint": null,
+                "usage_pct": null
+              }
+            ],
+            "TRINKET2": [
+              {
+                "drop_source": "Murder Row",
+                "enchant_id": null,
+                "gem_id": null,
+                "item_id": 250215,
+                "note": null,
+                "source_hint": null,
+                "usage_pct": null
+              }
+            ],
+            "WAIST": [
+              {
+                "drop_source": "Crafted by Leatherworking",
+                "enchant_id": null,
+                "gem_id": 240898,
+                "item_id": 244581,
+                "note": null,
+                "source_hint": null,
+                "usage_pct": null
+              }
+            ],
+            "WRIST": [
+              {
+                "drop_source": "Crafted by Leatherworking",
+                "enchant_id": null,
+                "gem_id": 240898,
+                "item_id": 244584,
+                "note": null,
+                "source_hint": null,
+                "usage_pct": null
+              }
+            ]
+          },
+          "gems": [
+            {
+              "drop_source": null,
+              "enchant_id": null,
+              "gem_id": null,
+              "item_id": 240983,
+              "note": null,
+              "source_hint": null,
+              "usage_pct": null
+            },
+            {
+              "drop_source": null,
+              "enchant_id": null,
+              "gem_id": null,
+              "item_id": 240898,
+              "note": null,
+              "source_hint": null,
+              "usage_pct": null
+            }
+          ],
+          "notes": {
+            "trinkets": "As Survival, our optimal setup is Voracious Heart of Ula'tek paired with Zul'jin's Guillotine Technique . Use the Heart with Takedown when possible, but do not hold it for more than 20 seconds to do so."
+          },
+          "source": "icyveins",
+          "stat_priority": [],
+          "talent_builds": [
+            {
+              "hero_id": 0,
+              "hero_specific": false,
+              "import_string": "C8PAAAAAAAAAAAAAAAAAAAAAAMWgBmxoxyAYmgtZMzMGzyAAAAAAwMmxMLmxYGzgx0MAAAADAmxyyMzsYMzMjZmBAzYZDGDjNDAA",
+              "label": "Survival Single Target - Sentinel",
+              "metrics": {},
+              "source": "icyveins",
+              "url": "https://www.icy-veins.com/wow/survival-hunter-pve-dps-spec-builds-talents",
+              "usage_pct": null
+            },
+            {
+              "hero_id": 0,
+              "hero_specific": false,
+              "import_string": "C8PAAAAAAAAAAAAAAAAAAAAAAMWgBmxYGLDgZGYbmZmZmxsNPAAAAAAgZMzMjtZMmxMsMmmBAAAYAgxyyMjFMzMegxYAYGbgxYmZzAAA",
+              "label": "Survival Mythic+ - Sentinel",
+              "metrics": {},
+              "source": "icyveins",
+              "url": "https://www.icy-veins.com/wow/survival-hunter-pve-dps-spec-builds-talents",
+              "usage_pct": null
+            },
+            {
+              "hero_id": 0,
+              "hero_specific": false,
+              "import_string": "C8PAAAAAAAAAAAAAAAAAAAAAAMWgBmxYGLDgZGYbmZmZmxsNPAAAAAAgZMzMDGjZMzwYaAAAAAAGLLzMWwMzMzYMAMjNsMjxMzmBAAA",
+              "label": "Survival Delves - Sentinel",
+              "metrics": {},
+              "source": "icyveins",
+              "url": "https://www.icy-veins.com/wow/survival-hunter-pve-dps-spec-builds-talents",
+              "usage_pct": null
+            }
+          ],
+          "url": "https://www.icy-veins.com/wow/survival-hunter-pve-dps-gear-best-in-slot"
+        },
         "mythicstats": {
           "consumables": [],
           "enchants": [

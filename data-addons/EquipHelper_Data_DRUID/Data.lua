@@ -1,24 +1,209 @@
 -- GENERATED FILE -- do not edit by hand.
 -- Regenerar con: python -m scraper build
-local ADDON_NAME, ns = ...
 
-ns.RegisterClassData("DRUID", {
+EquipHelper_RegisterClassData("DRUID", {
 	specs = {
 		[102] = {
 			heroes = {
 				[24] = {
 					mplus = {
-						performance = {
-							difficulty = "Mythic+",
-							median = 174574.3,
-							metric = "dps",
-							outOf = 40,
-							rank = 15,
-							sample = 300,
-							top = 272717.7,
-							zone = "Mythic+ Season 2",
-						},
 						views = {
+							icyveins = {
+								consumables = {
+									{
+										category = "FLASK",
+										itemID = 241322,
+										primary = true,
+									},
+									{
+										category = "FLASK",
+										itemID = 241325,
+										primary = false,
+									},
+									{
+										category = "POTION",
+										itemID = 241288,
+										primary = true,
+									},
+									{
+										category = "HEALTH_POTION",
+										itemID = 271883,
+										primary = true,
+									},
+									{
+										category = "FOOD",
+										itemID = 255846,
+										primary = true,
+									},
+									{
+										category = "FOOD",
+										itemID = 255845,
+										primary = false,
+									},
+									{
+										category = "FOOD",
+										itemID = 242275,
+										primary = false,
+									},
+									{
+										category = "RUNE",
+										itemID = 259085,
+										primary = true,
+									},
+									{
+										category = "WEAPON_OIL",
+										itemID = 243733,
+										primary = true,
+									},
+								},
+								fetchedAt = "2026-08-21",
+								gear = {
+									BACK = {
+										{
+											dropSource = "Murder Row",
+											itemID = 251132,
+										},
+									},
+									CHEST = {
+										{
+											dropSource = "Catalyst + King's Rest",
+											enchantID = 243977,
+											itemID = 271531,
+										},
+									},
+									FEET = {
+										{
+											dropSource = "Crafted by Leatherworking",
+											enchantID = 243983,
+											gemID = 240167,
+											itemID = 244569,
+										},
+									},
+									FINGER1 = {
+										{
+											dropSource = "Voidscar Arena",
+											enchantID = 243956,
+											gemID = 240900,
+											itemID = 252258,
+										},
+									},
+									FINGER2 = {
+										{
+											dropSource = "Temple of Sethraliss",
+											enchantID = 243956,
+											gemID = 240900,
+											itemID = 158366,
+										},
+									},
+									HANDS = {
+										{
+											dropSource = "Catalyst + King's Rest",
+											itemID = 271529,
+										},
+									},
+									HEAD = {
+										{
+											dropSource = "Catalyst + Temple of Sethraliss",
+											enchantID = 243950,
+											gemID = 240900,
+											itemID = 271528,
+										},
+									},
+									LEGS = {
+										{
+											dropSource = "Catalyst + Murder Row",
+											enchantID = 240133,
+											itemID = 271527,
+										},
+									},
+									MAINHAND = {
+										{
+											dropSource = "Altar of Fangs",
+											enchantID = 244031,
+											itemID = 273778,
+										},
+									},
+									NECK = {
+										{
+											dropSource = "Voidscar Arena",
+											gemID = 240983,
+											itemID = 251234,
+										},
+									},
+									OFFHAND = {
+										{
+											dropSource = "Crafted by Inscription",
+											gemID = 273059,
+											itemID = 245769,
+										},
+									},
+									SHOULDER = {
+										{
+											dropSource = "Voidscar Arena",
+											enchantID = 243990,
+											itemID = 251223,
+										},
+									},
+									TRINKET1 = {
+										{
+											dropSource = "Altar of Fangs",
+											itemID = 273796,
+										},
+									},
+									TRINKET2 = {
+										{
+											dropSource = "Voidscar Arena",
+											itemID = 250224,
+										},
+									},
+									WAIST = {
+										{
+											dropSource = "King's Rest",
+											gemID = 240900,
+											itemID = 159301,
+										},
+									},
+									WRIST = {
+										{
+											dropSource = "Crafted by Leatherworking",
+											gemID = 240900,
+											itemID = 244576,
+										},
+									},
+								},
+								notes = {
+									trinkets = "There are many usable trinkets for Balance Druid in Midnight Season 2. The two best overall options are Vile Vial of Volatile Venom for an on-use choice and Gebbo's Bottomless Bag for our passive trinket option.",
+								},
+								source = "icyveins",
+								talentBuilds = {
+									{
+										heroSpecific = false,
+										importString = "CYGAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAWoMbNjxMD8AmFzMzMLMMMmZZGGzYhlZWmZMmZDDAGbLzMYMbDgJAAAALMzMzgNjZMmBAwMDWGA",
+										label = "Balance Druid Single-Target - Elune's",
+									},
+									{
+										heroSpecific = false,
+										importString = "CYGAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAWoMbNjxMD8AmFzMzMLMMMmZZmFzMjFWmZZMmZsgBAjttZGMmtBwEAAAgFmZmZwmxMGzAAYmBGA",
+										label = "Balance Druid AoE - Elune's",
+									},
+									{
+										heroSpecific = false,
+										importString = "CYGAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAWoMbNjxMD8AmlZmZmZDgZZmtZWmxMzGLzYMGzshBADw22YBTzMbDAAAA2MzMzMYzYGjBgZGAYA",
+										label = "Balance Druid Delves - Keeper",
+									},
+									{
+										heroSpecific = false,
+										importString = "CYGAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAWoMbNjxMD8AmFzMzMLMMMmZZmFzMjFWmZZMmZsgBAjttZGMmtBwEAAAgFmZmZwmxMGzAAYmBGA",
+										label = "Elunes Chosen Cleave Build",
+									},
+									{
+										heroSpecific = false,
+										importString = "CYGAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAWoMbNjxMDMmlZmZmBMDjZWmZZGzYhlZMmZmxCGAMALbjFMNzsMAAAAYjZmZGsZgxMAmZAgBA",
+										label = "Keeper of the Grove Cleave Build",
+									},
+								},
+								url = "https://www.icy-veins.com/wow/balance-druid-pve-dps-gear-best-in-slot",
+							},
 							mythicstats = {
 								enchants = {
 									{
@@ -813,17 +998,176 @@ ns.RegisterClassData("DRUID", {
 			heroes = {
 				[21] = {
 					mplus = {
-						performance = {
-							difficulty = "Mythic+",
-							median = 174838.2,
-							metric = "dps",
-							outOf = 40,
-							rank = 14,
-							sample = 300,
-							top = 313517.4,
-							zone = "Mythic+ Season 2",
-						},
 						views = {
+							icyveins = {
+								consumables = {
+									{
+										category = "POTION",
+										itemID = 241288,
+										primary = true,
+									},
+									{
+										category = "HEALTH_POTION",
+										itemID = 271883,
+										primary = true,
+									},
+									{
+										category = "FOOD",
+										itemID = 255845,
+										primary = true,
+									},
+									{
+										category = "FOOD",
+										itemID = 242275,
+										primary = false,
+									},
+									{
+										category = "RUNE",
+										itemID = 259085,
+										primary = true,
+									},
+									{
+										category = "WEAPON_OIL",
+										itemID = 243733,
+										primary = true,
+									},
+								},
+								fetchedAt = "2026-08-21",
+								gear = {
+									BACK = {
+										{
+											dropSource = "Blinding Vale",
+											itemID = 251190,
+										},
+									},
+									CHEST = {
+										{
+											dropSource = "Catalyst from Den of Nalorakk",
+											enchantID = 243977,
+											itemID = 271531,
+										},
+									},
+									FEET = {
+										{
+											dropSource = "Crafted by Leatherworking",
+											enchantID = 243952,
+											gemID = 240167,
+											itemID = 244569,
+										},
+									},
+									FINGER1 = {
+										{
+											dropSource = "Voidscar Arena",
+											enchantID = 243956,
+											gemID = 240917,
+											itemID = 252258,
+										},
+									},
+									FINGER2 = {
+										{
+											dropSource = "Temple of Sethraliss",
+											enchantID = 243956,
+											gemID = 240900,
+											itemID = 158366,
+										},
+									},
+									HANDS = {
+										{
+											dropSource = "Catalyst from Murder Row",
+											itemID = 271529,
+										},
+									},
+									HEAD = {
+										{
+											dropSource = "Catalyst from Murder Row",
+											enchantID = 244007,
+											gemID = 240967,
+											itemID = 271528,
+										},
+									},
+									LEGS = {
+										{
+											dropSource = "Catalyst from Murder Row",
+											enchantID = 244640,
+											itemID = 271527,
+										},
+									},
+									MAINHAND = {
+										{
+											dropSource = "Den of Nalorakk",
+											enchantID = 244031,
+											itemID = 251149,
+										},
+									},
+									NECK = {
+										{
+											dropSource = "Murder Row",
+											gemID = 240900,
+											itemID = 251142,
+										},
+									},
+									SHOULDER = {
+										{
+											dropSource = "Catalyst from Voidscar Arena",
+											enchantID = 243990,
+											itemID = 271526,
+										},
+									},
+									TRINKET1 = {
+										{
+											dropSource = "King's Rest",
+											itemID = 159617,
+										},
+									},
+									TRINKET2 = {
+										{
+											dropSource = "Murder Row",
+											itemID = 250228,
+										},
+									},
+									WAIST = {
+										{
+											dropSource = "Temple of Sethraliss",
+											gemID = 240908,
+											itemID = 159317,
+										},
+									},
+									WRIST = {
+										{
+											dropSource = "Crafted by Leatherworking",
+											gemID = 240892,
+											itemID = 244576,
+										},
+									},
+								},
+								notes = {
+									trinkets = "Feral generally seeks to use one on-use trinket that aligns with Berserk to empower its already powerful burst windows, and then one strong passive trinket to go alongside it.",
+								},
+								source = "icyveins",
+								talentBuilds = {
+									{
+										heroSpecific = false,
+										importString = "CcGAAAAAAAAAAAAAAAAAAAAAAAAAAAAwYMjxYmZMmtFWGbzMzYmZAAAAYLY2MMmZUzYWmZmZGjZMAAAAAAMwAAAAAAMbzs0sNzyGYmHAYxMYAAMzAgB",
+										label = "Raid / Single Target - Wildstalker",
+									},
+									{
+										heroSpecific = false,
+										importString = "CcGAAAAAAAAAAAAAAAAAAAAAAAAAAAAgZMzGzMzMGz2yYZsNjZmHYmBAAAgtgZzwYmRNjZZmZmZMmxAAAAAAwADAAAAAwsNzSzyMLbgZeAgFzgBAwMDAGA",
+										label = "Raid / Cleave - Wildstalker",
+									},
+									{
+										heroSpecific = false,
+										importString = "CcGAAAAAAAAAAAAAAAAAAAAAAAAAAAAgZmZ2YmZmxY2MPw2YbGzMmZAAAAYLY2M8AmZUzYWMzMzsMmxAAAAAAwADAAAgmZZWmZmBAsAzMDwCDGAAAzshB",
+										label = "AoE / Mythic+ - Druid of the Claw",
+									},
+									{
+										heroSpecific = false,
+										importString = "CcGAAAAAAAAAAAAAAAAAAAAAAAAAAAAAjZYmxMzMzsZsNz2MmZegZGAAAA2CmNDPgZG1MmlxMzMLjZYAAAAAAMwAAAAoZWmlZmZAALwMzAswgBAAwMbYA",
+										label = "Delves - Druid of the Claw",
+									},
+								},
+								url = "https://www.icy-veins.com/wow/feral-druid-pve-dps-gear-best-in-slot",
+							},
 							mythicstats = {
 								enchants = {
 									{
@@ -1594,17 +1938,176 @@ ns.RegisterClassData("DRUID", {
 				},
 				[22] = {
 					mplus = {
-						performance = {
-							difficulty = "Mythic+",
-							median = 174838.2,
-							metric = "dps",
-							outOf = 40,
-							rank = 14,
-							sample = 300,
-							top = 313517.4,
-							zone = "Mythic+ Season 2",
-						},
 						views = {
+							icyveins = {
+								consumables = {
+									{
+										category = "POTION",
+										itemID = 241288,
+										primary = true,
+									},
+									{
+										category = "HEALTH_POTION",
+										itemID = 271883,
+										primary = true,
+									},
+									{
+										category = "FOOD",
+										itemID = 255845,
+										primary = true,
+									},
+									{
+										category = "FOOD",
+										itemID = 242275,
+										primary = false,
+									},
+									{
+										category = "RUNE",
+										itemID = 259085,
+										primary = true,
+									},
+									{
+										category = "WEAPON_OIL",
+										itemID = 243733,
+										primary = true,
+									},
+								},
+								fetchedAt = "2026-08-21",
+								gear = {
+									BACK = {
+										{
+											dropSource = "Blinding Vale",
+											itemID = 251190,
+										},
+									},
+									CHEST = {
+										{
+											dropSource = "Catalyst from Den of Nalorakk",
+											enchantID = 243977,
+											itemID = 271531,
+										},
+									},
+									FEET = {
+										{
+											dropSource = "Crafted by Leatherworking",
+											enchantID = 243952,
+											gemID = 240167,
+											itemID = 244569,
+										},
+									},
+									FINGER1 = {
+										{
+											dropSource = "Voidscar Arena",
+											enchantID = 243956,
+											gemID = 240917,
+											itemID = 252258,
+										},
+									},
+									FINGER2 = {
+										{
+											dropSource = "Temple of Sethraliss",
+											enchantID = 243956,
+											gemID = 240900,
+											itemID = 158366,
+										},
+									},
+									HANDS = {
+										{
+											dropSource = "Catalyst from Murder Row",
+											itemID = 271529,
+										},
+									},
+									HEAD = {
+										{
+											dropSource = "Catalyst from Murder Row",
+											enchantID = 244007,
+											gemID = 240967,
+											itemID = 271528,
+										},
+									},
+									LEGS = {
+										{
+											dropSource = "Catalyst from Murder Row",
+											enchantID = 244640,
+											itemID = 271527,
+										},
+									},
+									MAINHAND = {
+										{
+											dropSource = "Den of Nalorakk",
+											enchantID = 244031,
+											itemID = 251149,
+										},
+									},
+									NECK = {
+										{
+											dropSource = "Murder Row",
+											gemID = 240900,
+											itemID = 251142,
+										},
+									},
+									SHOULDER = {
+										{
+											dropSource = "Catalyst from Voidscar Arena",
+											enchantID = 243990,
+											itemID = 271526,
+										},
+									},
+									TRINKET1 = {
+										{
+											dropSource = "King's Rest",
+											itemID = 159617,
+										},
+									},
+									TRINKET2 = {
+										{
+											dropSource = "Murder Row",
+											itemID = 250228,
+										},
+									},
+									WAIST = {
+										{
+											dropSource = "Temple of Sethraliss",
+											gemID = 240908,
+											itemID = 159317,
+										},
+									},
+									WRIST = {
+										{
+											dropSource = "Crafted by Leatherworking",
+											gemID = 240892,
+											itemID = 244576,
+										},
+									},
+								},
+								notes = {
+									trinkets = "Feral generally seeks to use one on-use trinket that aligns with Berserk to empower its already powerful burst windows, and then one strong passive trinket to go alongside it.",
+								},
+								source = "icyveins",
+								talentBuilds = {
+									{
+										heroSpecific = false,
+										importString = "CcGAAAAAAAAAAAAAAAAAAAAAAAAAAAAwYMjxYmZMmtFWGbzMzYmZAAAAYLY2MMmZUzYWmZmZGjZMAAAAAAMwAAAAAAMbzs0sNzyGYmHAYxMYAAMzAgB",
+										label = "Raid / Single Target - Wildstalker",
+									},
+									{
+										heroSpecific = false,
+										importString = "CcGAAAAAAAAAAAAAAAAAAAAAAAAAAAAgZMzGzMzMGz2yYZsNjZmHYmBAAAgtgZzwYmRNjZZmZmZMmxAAAAAAwADAAAAAwsNzSzyMLbgZeAgFzgBAwMDAGA",
+										label = "Raid / Cleave - Wildstalker",
+									},
+									{
+										heroSpecific = false,
+										importString = "CcGAAAAAAAAAAAAAAAAAAAAAAAAAAAAgZmZ2YmZmxY2MPw2YbGzMmZAAAAYLY2M8AmZUzYWMzMzsMmxAAAAAAwADAAAgmZZWmZmBAsAzMDwCDGAAAzshB",
+										label = "AoE / Mythic+ - Druid of the Claw",
+									},
+									{
+										heroSpecific = false,
+										importString = "CcGAAAAAAAAAAAAAAAAAAAAAAAAAAAAAjZYmxMzMzsZsNz2MmZegZGAAAA2CmNDPgZG1MmlxMzMLjZYAAAAAAMwAAAAoZWmlZmZAALwMzAswgBAAwMbYA",
+										label = "Delves - Druid of the Claw",
+									},
+								},
+								url = "https://www.icy-veins.com/wow/feral-druid-pve-dps-gear-best-in-slot",
+							},
 							mythicstats = {
 								enchants = {
 									{
@@ -2292,17 +2795,177 @@ ns.RegisterClassData("DRUID", {
 			heroes = {
 				[24] = {
 					mplus = {
-						performance = {
-							difficulty = "Mythic+",
-							median = 98619.0,
-							metric = "dps",
-							outOf = 40,
-							rank = 31,
-							sample = 300,
-							top = 189065.7,
-							zone = "Mythic+ Season 2",
-						},
 						views = {
+							icyveins = {
+								consumables = {
+									{
+										category = "FLASK",
+										itemID = 241325,
+										primary = true,
+									},
+									{
+										category = "POTION",
+										itemID = 241308,
+										primary = true,
+									},
+									{
+										category = "HEALTH_POTION",
+										itemID = 271883,
+										primary = true,
+									},
+									{
+										category = "FOOD",
+										itemID = 255845,
+										primary = true,
+									},
+									{
+										category = "FOOD",
+										itemID = 255846,
+										primary = false,
+									},
+									{
+										category = "RUNE",
+										itemID = 259085,
+										primary = true,
+									},
+								},
+								fetchedAt = "2026-08-21",
+								gear = {
+									BACK = {
+										{
+											dropSource = "Ruby Life Pools",
+											itemID = 193763,
+										},
+									},
+									CHEST = {
+										{
+											dropSource = "Catalyst or Den of Nalorakk",
+											enchantID = 243977,
+											itemID = 251159,
+										},
+									},
+									FEET = {
+										{
+											dropSource = "Den of Nalorakk",
+											enchantID = 243983,
+											itemID = 251153,
+										},
+									},
+									FINGER1 = {
+										{
+											dropSource = "King's Rest",
+											enchantID = 243956,
+											gemID = 240906,
+											itemID = 159459,
+										},
+									},
+									FINGER2 = {
+										{
+											dropSource = "Voidscar Arena",
+											enchantID = 243956,
+											gemID = 240906,
+											itemID = 252258,
+										},
+									},
+									HANDS = {
+										{
+											dropSource = "Catalyst or Murder Row",
+											itemID = 251124,
+										},
+									},
+									HEAD = {
+										{
+											dropSource = "Altar of Fangs",
+											enchantID = 243950,
+											itemID = 273791,
+										},
+									},
+									LEGS = {
+										{
+											dropSource = "Catalyst or King's Rest",
+											enchantID = 244640,
+											itemID = 159313,
+										},
+									},
+									MAINHAND = {
+										{
+											dropSource = "Temple of Sethraliss",
+											enchantID = 243973,
+											itemID = 158370,
+										},
+									},
+									NECK = {
+										{
+											dropSource = "Den of Nalorakk",
+											gemID = 240983,
+											itemID = 251173,
+										},
+									},
+									SHOULDER = {
+										{
+											dropSource = "Catalyst or Voidscar Arena",
+											enchantID = 243990,
+											itemID = 251223,
+										},
+									},
+									TRINKET1 = {
+										{
+											dropSource = "Altar of Fangs",
+											itemID = 273796,
+										},
+									},
+									TRINKET2 = {
+										{
+											dropSource = "Murder Row",
+											itemID = 250228,
+										},
+									},
+									WAIST = {
+										{
+											dropSource = "Crafted by Leatherworking",
+											gemID = 240167,
+											itemID = 244573,
+										},
+									},
+									WRIST = {
+										{
+											dropSource = "Crafted by Leatherworking",
+											gemID = 240167,
+											itemID = 244576,
+										},
+									},
+								},
+								gems = {
+									{
+										itemID = 240983,
+									},
+									{
+										itemID = 240893,
+									},
+								},
+								notes = {
+									trinkets = "There are a great number of Trinkets available for Guardian, and we generally want to play a combination of a powerful on-use trinket like Voracious Heart of Ula'tek or Font of Venomous Rage , and a passive trinket providing potent secondary stat buffs or raw damage procs.",
+								},
+								source = "icyveins",
+								talentBuilds = {
+									{
+										heroSpecific = false,
+										importString = "CgGAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAgZmxsMPwYMzmZZGMLLDMbwoJamZWmZmZGjZMDAAAAAYGLzAAAAgmZZWmZmBAwCmZAWMDGwmFDAmZDG",
+										label = "Guardian Single Target - Druid of the Claw",
+									},
+									{
+										heroSpecific = false,
+										importString = "CgGAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAgZmZml5BmZMziZxwMLLDMbGGNRmZWmZmZmlxMGAAAAAgZsYAbbzMYMLDgJAAAgNMzAsYGMgNLAMzAYA",
+										label = "Guardian AoE - Elunes Chosen",
+									},
+									{
+										heroSpecific = false,
+										importString = "CgGAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAgZmxsMPwMjZWMLGmZZZgZzwoJyMzyMzMzsMmxAAAAAAMjlZALbzMYMLDgJAAAgNMzAsYGMgNLAMzAYA",
+										label = "Guardian Delves - Elunes Chosen",
+									},
+								},
+								url = "https://www.icy-veins.com/wow/guardian-druid-pve-tank-gear-best-in-slot",
+							},
 							mythicstats = {
 								enchants = {
 									{
@@ -3073,17 +3736,177 @@ ns.RegisterClassData("DRUID", {
 			heroes = {
 				[22] = {
 					mplus = {
-						performance = {
-							difficulty = "Mythic+",
-							median = 13548.5,
-							metric = "dps",
-							outOf = 40,
-							rank = 40,
-							sample = 300,
-							top = 70602.9,
-							zone = "Mythic+ Season 2",
-						},
 						views = {
+							icyveins = {
+								consumables = {
+									{
+										category = "POTION",
+										itemID = 241288,
+										primary = true,
+									},
+									{
+										category = "HEALTH_POTION",
+										itemID = 271883,
+										primary = true,
+									},
+									{
+										category = "FOOD",
+										itemID = 255845,
+										primary = true,
+									},
+									{
+										category = "FOOD",
+										itemID = 242272,
+										primary = false,
+									},
+									{
+										category = "FOOD",
+										itemID = 255846,
+										primary = false,
+									},
+									{
+										category = "FOOD",
+										itemID = 255847,
+										primary = false,
+									},
+									{
+										category = "RUNE",
+										itemID = 259085,
+										primary = true,
+									},
+									{
+										category = "WEAPON_OIL",
+										itemID = 243733,
+										primary = true,
+									},
+								},
+								fetchedAt = "2026-08-21",
+								gear = {
+									BACK = {
+										{
+											dropSource = "Blinding Vale",
+											itemID = 251190,
+										},
+									},
+									CHEST = {
+										{
+											dropSource = "Den of Nalorakk",
+											enchantID = 243977,
+											itemID = 271531,
+										},
+									},
+									FEET = {
+										{
+											dropSource = "King's Rest",
+											enchantID = 243983,
+											itemID = 159304,
+										},
+									},
+									FINGER1 = {
+										{
+											dropSource = "King's Rest",
+											enchantID = 244014,
+											gemID = 240892,
+											itemID = 159459,
+										},
+									},
+									FINGER2 = {
+										{
+											dropSource = "Voidscar Arena",
+											enchantID = 244014,
+											gemID = 240892,
+											itemID = 252258,
+										},
+									},
+									HANDS = {
+										{
+											dropSource = "Temple of Sethraliss",
+											itemID = 271529,
+										},
+									},
+									HEAD = {
+										{
+											dropSource = "Murder Row",
+											enchantID = 243950,
+											itemID = 271528,
+										},
+									},
+									LEGS = {
+										{
+											dropSource = "King's Rest",
+											enchantID = 240155,
+											itemID = 271527,
+										},
+									},
+									MAINHAND = {
+										{
+											dropSource = "Temple of Sethraliss",
+											enchantID = 244029,
+											itemID = 159636,
+										},
+									},
+									NECK = {
+										{
+											dropSource = "Murder Row",
+											gemID = 240983,
+											itemID = 251142,
+										},
+									},
+									SHOULDER = {
+										{
+											dropSource = "Voidscar Arena",
+											enchantID = 244021,
+											itemID = 271526,
+										},
+									},
+									TRINKET1 = {
+										{
+											dropSource = "Ruby Life Pools",
+											itemID = 193757,
+										},
+									},
+									TRINKET2 = {
+										{
+											dropSource = "Blinding Vale",
+											itemID = 250214,
+										},
+									},
+									WAIST = {
+										{
+											dropSource = "Temple of Sethraliss",
+											itemID = 159317,
+										},
+									},
+									WRIST = {
+										{
+											dropSource = "Blinding Vale",
+											itemID = 251183,
+										},
+									},
+								},
+								notes = {
+									trinkets = "In general, there are quite a few trinkets that have a similar power level. Any of the trinkets in a tier will be roughly equal to each other. This means that item level on trinkets is quite important. F-tier trinkets are there because they are only better than an empty trinket slot.",
+								},
+								source = "icyveins",
+								talentBuilds = {
+									{
+										heroSpecific = false,
+										importString = "CkGADBD3hSPCL9Y9gz68WcKvMMjxMLzMjZmxsNMYmNjFmBAAAAAAAAAAbDa2YMNzY4BMLzMzMDDzAAAAAAAAAAIAAgZbmlmtZ2sxYmZYmBGNDAwMDADA",
+										label = "Wildstalker Raid",
+									},
+									{
+										heroSpecific = false,
+										importString = "CkGAAAAAAAAAAAAAAAAAAAAAAMMmZZMjZmxsNMMzsMsZbGAAAAAAAAAAsMoZzw0MjZwsYmZmZZGGDAAAAAAAGAAAAAMbzs1sNziNGzMwMbgmBAYmBgB",
+										label = "Wildstalker Mythic+",
+									},
+									{
+										heroSpecific = false,
+										importString = "CkGAAAAAAAAAAAAAAAAAAAAAAMMmxYGzMjZbmZYYhZx2MAAAAAAAAAAYbQzmhpZMzYMLmZmZWmhxAAAAAAAYMAAEAAwsMzWzyML2gZeAMjFQzAAMzAwA",
+										label = "Wildstalker Delves",
+									},
+								},
+								url = "https://www.icy-veins.com/wow/restoration-druid-pve-healing-gear-best-in-slot",
+							},
 							mythicstats = {
 								enchants = {
 									{

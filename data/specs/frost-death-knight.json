@@ -6,17 +6,299 @@
       "content": "mplus",
       "hero_id": 33,
       "hero_name": "Deathbringer",
-      "performance": {
-        "difficulty": "Mythic+",
-        "median": 154881.8,
-        "metric": "dps",
-        "out_of": 40,
-        "rank": 23,
-        "sample": 300,
-        "top": 274108.7,
-        "zone": "Mythic+ Season 2"
-      },
+      "performance": null,
       "views": {
+        "icyveins": {
+          "consumables": [
+            {
+              "category": "FLASK",
+              "is_primary": true,
+              "item_id": 241326
+            },
+            {
+              "category": "FLASK",
+              "is_primary": false,
+              "item_id": 241322
+            },
+            {
+              "category": "FLASK",
+              "is_primary": false,
+              "item_id": 241325
+            },
+            {
+              "category": "POTION",
+              "is_primary": true,
+              "item_id": 241288
+            },
+            {
+              "category": "HEALTH_POTION",
+              "is_primary": true,
+              "item_id": 271883
+            },
+            {
+              "category": "FOOD",
+              "is_primary": true,
+              "item_id": 255846
+            },
+            {
+              "category": "FOOD",
+              "is_primary": false,
+              "item_id": 255845
+            },
+            {
+              "category": "FOOD",
+              "is_primary": false,
+              "item_id": 255847
+            },
+            {
+              "category": "FOOD",
+              "is_primary": false,
+              "item_id": 242275
+            },
+            {
+              "category": "RUNE",
+              "is_primary": true,
+              "item_id": 259085
+            }
+          ],
+          "enchants": [],
+          "fetched_at": "2026-08-21",
+          "gear": {
+            "BACK": [
+              {
+                "drop_source": "Crafted by Tailoring",
+                "enchant_id": null,
+                "gem_id": 240167,
+                "item_id": 239656,
+                "note": null,
+                "source_hint": null,
+                "usage_pct": null
+              }
+            ],
+            "CHEST": [
+              {
+                "drop_source": "Catalyst from Temple of Sethraliss",
+                "enchant_id": 243977,
+                "gem_id": null,
+                "item_id": 271477,
+                "note": null,
+                "source_hint": null,
+                "usage_pct": null
+              }
+            ],
+            "FEET": [
+              {
+                "drop_source": "King's Rest",
+                "enchant_id": 243952,
+                "gem_id": null,
+                "item_id": 159412,
+                "note": null,
+                "source_hint": null,
+                "usage_pct": null
+              }
+            ],
+            "FINGER1": [
+              {
+                "drop_source": "Altar of Fangs",
+                "enchant_id": 243956,
+                "gem_id": 240908,
+                "item_id": 273792,
+                "note": null,
+                "source_hint": null,
+                "usage_pct": null
+              }
+            ],
+            "FINGER2": [
+              {
+                "drop_source": "Voidscar Arena",
+                "enchant_id": 243956,
+                "gem_id": 240908,
+                "item_id": 252258,
+                "note": null,
+                "source_hint": null,
+                "usage_pct": null
+              }
+            ],
+            "HANDS": [
+              {
+                "drop_source": "Catalyst from King's Rest",
+                "enchant_id": null,
+                "gem_id": null,
+                "item_id": 271475,
+                "note": null,
+                "source_hint": null,
+                "usage_pct": null
+              }
+            ],
+            "HEAD": [
+              {
+                "drop_source": "Catalyst from Voidscar Arena",
+                "enchant_id": 244007,
+                "gem_id": 240983,
+                "item_id": 271474,
+                "note": null,
+                "source_hint": null,
+                "usage_pct": null
+              }
+            ],
+            "LEGS": [
+              {
+                "drop_source": "Catalyst from Altar of Fangs",
+                "enchant_id": 244640,
+                "gem_id": null,
+                "item_id": 271473,
+                "note": null,
+                "source_hint": null,
+                "usage_pct": null
+              }
+            ],
+            "MAINHAND": [
+              {
+                "drop_source": "Temple of Sethraliss",
+                "enchant_id": null,
+                "gem_id": null,
+                "item_id": 158373,
+                "note": null,
+                "source_hint": null,
+                "usage_pct": null
+              }
+            ],
+            "NECK": [
+              {
+                "drop_source": "Voidscar Arena",
+                "enchant_id": null,
+                "gem_id": 240906,
+                "item_id": 251234,
+                "note": null,
+                "source_hint": null,
+                "usage_pct": null
+              }
+            ],
+            "OFFHAND": [
+              {
+                "drop_source": "Temple of Sethraliss",
+                "enchant_id": null,
+                "gem_id": null,
+                "item_id": 158373,
+                "note": null,
+                "source_hint": null,
+                "usage_pct": null
+              }
+            ],
+            "SHOULDER": [
+              {
+                "drop_source": "Catalyst from Temple of Sethraliss",
+                "enchant_id": 243990,
+                "gem_id": null,
+                "item_id": 271472,
+                "note": null,
+                "source_hint": null,
+                "usage_pct": null
+              }
+            ],
+            "TRINKET1": [
+              {
+                "drop_source": "The Blinding Vale",
+                "enchant_id": null,
+                "gem_id": null,
+                "item_id": 250238,
+                "note": null,
+                "source_hint": null,
+                "usage_pct": null
+              }
+            ],
+            "TRINKET2": [
+              {
+                "drop_source": "Murder Row",
+                "enchant_id": null,
+                "gem_id": null,
+                "item_id": 250228,
+                "note": null,
+                "source_hint": null,
+                "usage_pct": null
+              }
+            ],
+            "WAIST": [
+              {
+                "drop_source": "King's Rest",
+                "enchant_id": null,
+                "gem_id": 240908,
+                "item_id": 159418,
+                "note": null,
+                "source_hint": null,
+                "usage_pct": null
+              }
+            ],
+            "WRIST": [
+              {
+                "drop_source": "Crafted by Blacksmithing",
+                "enchant_id": null,
+                "gem_id": 240906,
+                "item_id": 237834,
+                "note": null,
+                "source_hint": null,
+                "usage_pct": null
+              }
+            ]
+          },
+          "gems": [
+            {
+              "drop_source": null,
+              "enchant_id": null,
+              "gem_id": null,
+              "item_id": 240983,
+              "note": null,
+              "source_hint": null,
+              "usage_pct": null
+            },
+            {
+              "drop_source": null,
+              "enchant_id": null,
+              "gem_id": null,
+              "item_id": 240906,
+              "note": null,
+              "source_hint": null,
+              "usage_pct": null
+            },
+            {
+              "drop_source": null,
+              "enchant_id": null,
+              "gem_id": null,
+              "item_id": 240908,
+              "note": null,
+              "source_hint": null,
+              "usage_pct": null
+            }
+          ],
+          "notes": {
+            "trinkets": "Frost Death Knight favours a combination of one active trinket and one passive trinket. For active trinkets, Voracious Heart of Ula'tek is by far our best option with great synergy with our 1.5 minute Cooldowns. It also comes at a higher ilvl due to dropping from the final boss."
+          },
+          "source": "icyveins",
+          "stat_priority": [],
+          "talent_builds": [
+            {
+              "hero_id": 0,
+              "hero_specific": false,
+              "import_string": "CsPAAAAAAAAAAAAAAAAAAAAAAMDwMjZmZGDz2MzMzMLmZmMjxYYmxgZMzMzMzMDAAAAAAAAAgNzihBGY2YohNMzYmZgBgBgZGgB",
+              "label": "Frost Single Target",
+              "metrics": {},
+              "source": "icyveins",
+              "url": "https://www.icy-veins.com/wow/frost-death-knight-pve-dps-spec-builds-talents",
+              "usage_pct": null
+            },
+            {
+              "hero_id": 0,
+              "hero_specific": false,
+              "import_string": "CsPAAAAAAAAAAAAAAAAAAAAAAMDYmZMzMzYY2mZmZmZxMjMjxYYMGMzMzMzMzMDAAAAAAAAAjZbgBsAWGmAjFMzYmZgBghZGAgB",
+              "label": "Frost Mythic+/Delves",
+              "metrics": {},
+              "source": "icyveins",
+              "url": "https://www.icy-veins.com/wow/frost-death-knight-pve-dps-spec-builds-talents",
+              "usage_pct": null
+            }
+          ],
+          "url": "https://www.icy-veins.com/wow/frost-death-knight-pve-dps-gear-best-in-slot"
+        },
         "mythicstats": {
           "consumables": [],
           "enchants": [

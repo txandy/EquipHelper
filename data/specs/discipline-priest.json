@@ -6,17 +6,225 @@
       "content": "mplus",
       "hero_id": 20,
       "hero_name": "Oracle",
-      "performance": {
-        "difficulty": "Mythic+",
-        "median": 18560.7,
-        "metric": "dps",
-        "out_of": 40,
-        "rank": 39,
-        "sample": 300,
-        "top": 48577.7,
-        "zone": "Mythic+ Season 2"
-      },
+      "performance": null,
       "views": {
+        "icyveins": {
+          "consumables": [
+            {
+              "category": "POTION",
+              "is_primary": true,
+              "item_id": 241308
+            },
+            {
+              "category": "HEALTH_POTION",
+              "is_primary": true,
+              "item_id": 271883
+            },
+            {
+              "category": "WEAPON_OIL",
+              "is_primary": true,
+              "item_id": 243733
+            }
+          ],
+          "enchants": [],
+          "fetched_at": "2026-08-21",
+          "gear": {
+            "BACK": [
+              {
+                "drop_source": "The Blinding Vale",
+                "enchant_id": null,
+                "gem_id": null,
+                "item_id": 251190,
+                "note": null,
+                "source_hint": null,
+                "usage_pct": null
+              }
+            ],
+            "CHEST": [
+              {
+                "drop_source": "Murder Row",
+                "enchant_id": 244002,
+                "gem_id": null,
+                "item_id": 271558,
+                "note": null,
+                "source_hint": null,
+                "usage_pct": null
+              }
+            ],
+            "FEET": [
+              {
+                "drop_source": "Voidscar Arena",
+                "enchant_id": 243983,
+                "gem_id": null,
+                "item_id": 251219,
+                "note": null,
+                "source_hint": null,
+                "usage_pct": null
+              }
+            ],
+            "FINGER1": [
+              {
+                "drop_source": "Altar of Fangs",
+                "enchant_id": 244014,
+                "gem_id": 240892,
+                "item_id": 273792,
+                "note": null,
+                "source_hint": null,
+                "usage_pct": null
+              }
+            ],
+            "FINGER2": [
+              {
+                "drop_source": "Voidscar Arena",
+                "enchant_id": 244014,
+                "gem_id": 240892,
+                "item_id": 252258,
+                "note": null,
+                "source_hint": null,
+                "usage_pct": null
+              }
+            ],
+            "HANDS": [
+              {
+                "drop_source": "Temple of Sethraliss",
+                "enchant_id": null,
+                "gem_id": null,
+                "item_id": 271556,
+                "note": null,
+                "source_hint": null,
+                "usage_pct": null
+              }
+            ],
+            "HEAD": [
+              {
+                "drop_source": "Voidscar Arena",
+                "enchant_id": 243950,
+                "gem_id": 240892,
+                "item_id": 251232,
+                "note": null,
+                "source_hint": null,
+                "usage_pct": null
+              }
+            ],
+            "LEGS": [
+              {
+                "drop_source": "Den of Nalorakk",
+                "enchant_id": 240155,
+                "gem_id": null,
+                "item_id": 271554,
+                "note": null,
+                "source_hint": null,
+                "usage_pct": null
+              }
+            ],
+            "MAINHAND": [
+              {
+                "drop_source": "Temple of Sethraliss",
+                "enchant_id": 243973,
+                "gem_id": null,
+                "item_id": 159636,
+                "note": null,
+                "source_hint": null,
+                "usage_pct": null
+              }
+            ],
+            "NECK": [
+              {
+                "drop_source": "Den of Nalorakk",
+                "enchant_id": null,
+                "gem_id": 240983,
+                "item_id": 251173,
+                "note": null,
+                "source_hint": null,
+                "usage_pct": null
+              }
+            ],
+            "SHOULDER": [
+              {
+                "drop_source": "Temple of Sethraliss",
+                "enchant_id": 244021,
+                "gem_id": null,
+                "item_id": 271553,
+                "note": null,
+                "source_hint": null,
+                "usage_pct": null
+              }
+            ],
+            "TRINKET1": [
+              {
+                "drop_source": "The Blinding Vale",
+                "enchant_id": null,
+                "gem_id": null,
+                "item_id": 250214,
+                "note": null,
+                "source_hint": null,
+                "usage_pct": null
+              }
+            ],
+            "TRINKET2": [
+              {
+                "drop_source": "Murder Row",
+                "enchant_id": null,
+                "gem_id": null,
+                "item_id": 250215,
+                "note": null,
+                "source_hint": null,
+                "usage_pct": null
+              }
+            ],
+            "WAIST": [
+              {
+                "drop_source": "Ruby Life Pools",
+                "enchant_id": null,
+                "gem_id": 240892,
+                "item_id": 193691,
+                "note": null,
+                "source_hint": null,
+                "usage_pct": null
+              }
+            ],
+            "WRIST": [
+              {
+                "drop_source": "Murder Row",
+                "enchant_id": null,
+                "gem_id": 240892,
+                "item_id": 251127,
+                "note": null,
+                "source_hint": null,
+                "usage_pct": null
+              }
+            ]
+          },
+          "gems": [],
+          "notes": {
+            "trinkets": "While there are a large number of trinkets available, the following are the highest priority options to focus on obtaining for Discipline Priest."
+          },
+          "source": "icyveins",
+          "stat_priority": [],
+          "talent_builds": [
+            {
+              "hero_id": 0,
+              "hero_specific": false,
+              "import_string": "CAQAAAAAAAAAAAAAAAAAAAAAAADsMmxyYmBzgZbmtZmZmZmBAAAAAAAAAgZYZGMzMDzYmBMNTzMYmBAAY2mtFwYzAAwYMzYwMYmBjgB",
+              "label": "Voidweaver Raid",
+              "metrics": {},
+              "source": "icyveins",
+              "url": "https://www.icy-veins.com/wow/discipline-priest-pve-healing-spec-builds-talents",
+              "usage_pct": null
+            },
+            {
+              "hero_id": 0,
+              "hero_specific": false,
+              "import_string": "CAQAAAAAAAAAAAAAAAAAAAAAAADsMDWmZMmBmZbmtZmZmxMDAAAAAAAAAgZYZGMzMzwYmBbmmJGgZWwQYMLDwYwCAAMmZmxgZAmZGBzA",
+              "label": "Oracle Mythic+",
+              "metrics": {},
+              "source": "icyveins",
+              "url": "https://www.icy-veins.com/wow/discipline-priest-pve-healing-spec-builds-talents",
+              "usage_pct": null
+            }
+          ],
+          "url": "https://www.icy-veins.com/wow/discipline-priest-pve-healing-gear-best-in-slot"
+        },
         "mythicstats": {
           "consumables": [],
           "enchants": [
@@ -1396,17 +1604,225 @@
       "content": "mplus",
       "hero_id": 18,
       "hero_name": "Voidweaver",
-      "performance": {
-        "difficulty": "Mythic+",
-        "median": 18560.7,
-        "metric": "dps",
-        "out_of": 40,
-        "rank": 39,
-        "sample": 300,
-        "top": 48577.7,
-        "zone": "Mythic+ Season 2"
-      },
+      "performance": null,
       "views": {
+        "icyveins": {
+          "consumables": [
+            {
+              "category": "POTION",
+              "is_primary": true,
+              "item_id": 241308
+            },
+            {
+              "category": "HEALTH_POTION",
+              "is_primary": true,
+              "item_id": 271883
+            },
+            {
+              "category": "WEAPON_OIL",
+              "is_primary": true,
+              "item_id": 243733
+            }
+          ],
+          "enchants": [],
+          "fetched_at": "2026-08-21",
+          "gear": {
+            "BACK": [
+              {
+                "drop_source": "The Blinding Vale",
+                "enchant_id": null,
+                "gem_id": null,
+                "item_id": 251190,
+                "note": null,
+                "source_hint": null,
+                "usage_pct": null
+              }
+            ],
+            "CHEST": [
+              {
+                "drop_source": "Murder Row",
+                "enchant_id": 244002,
+                "gem_id": null,
+                "item_id": 271558,
+                "note": null,
+                "source_hint": null,
+                "usage_pct": null
+              }
+            ],
+            "FEET": [
+              {
+                "drop_source": "Voidscar Arena",
+                "enchant_id": 243983,
+                "gem_id": null,
+                "item_id": 251219,
+                "note": null,
+                "source_hint": null,
+                "usage_pct": null
+              }
+            ],
+            "FINGER1": [
+              {
+                "drop_source": "Altar of Fangs",
+                "enchant_id": 244014,
+                "gem_id": 240892,
+                "item_id": 273792,
+                "note": null,
+                "source_hint": null,
+                "usage_pct": null
+              }
+            ],
+            "FINGER2": [
+              {
+                "drop_source": "Voidscar Arena",
+                "enchant_id": 244014,
+                "gem_id": 240892,
+                "item_id": 252258,
+                "note": null,
+                "source_hint": null,
+                "usage_pct": null
+              }
+            ],
+            "HANDS": [
+              {
+                "drop_source": "Temple of Sethraliss",
+                "enchant_id": null,
+                "gem_id": null,
+                "item_id": 271556,
+                "note": null,
+                "source_hint": null,
+                "usage_pct": null
+              }
+            ],
+            "HEAD": [
+              {
+                "drop_source": "Voidscar Arena",
+                "enchant_id": 243950,
+                "gem_id": 240892,
+                "item_id": 251232,
+                "note": null,
+                "source_hint": null,
+                "usage_pct": null
+              }
+            ],
+            "LEGS": [
+              {
+                "drop_source": "Den of Nalorakk",
+                "enchant_id": 240155,
+                "gem_id": null,
+                "item_id": 271554,
+                "note": null,
+                "source_hint": null,
+                "usage_pct": null
+              }
+            ],
+            "MAINHAND": [
+              {
+                "drop_source": "Temple of Sethraliss",
+                "enchant_id": 243973,
+                "gem_id": null,
+                "item_id": 159636,
+                "note": null,
+                "source_hint": null,
+                "usage_pct": null
+              }
+            ],
+            "NECK": [
+              {
+                "drop_source": "Den of Nalorakk",
+                "enchant_id": null,
+                "gem_id": 240983,
+                "item_id": 251173,
+                "note": null,
+                "source_hint": null,
+                "usage_pct": null
+              }
+            ],
+            "SHOULDER": [
+              {
+                "drop_source": "Temple of Sethraliss",
+                "enchant_id": 244021,
+                "gem_id": null,
+                "item_id": 271553,
+                "note": null,
+                "source_hint": null,
+                "usage_pct": null
+              }
+            ],
+            "TRINKET1": [
+              {
+                "drop_source": "The Blinding Vale",
+                "enchant_id": null,
+                "gem_id": null,
+                "item_id": 250214,
+                "note": null,
+                "source_hint": null,
+                "usage_pct": null
+              }
+            ],
+            "TRINKET2": [
+              {
+                "drop_source": "Murder Row",
+                "enchant_id": null,
+                "gem_id": null,
+                "item_id": 250215,
+                "note": null,
+                "source_hint": null,
+                "usage_pct": null
+              }
+            ],
+            "WAIST": [
+              {
+                "drop_source": "Ruby Life Pools",
+                "enchant_id": null,
+                "gem_id": 240892,
+                "item_id": 193691,
+                "note": null,
+                "source_hint": null,
+                "usage_pct": null
+              }
+            ],
+            "WRIST": [
+              {
+                "drop_source": "Murder Row",
+                "enchant_id": null,
+                "gem_id": 240892,
+                "item_id": 251127,
+                "note": null,
+                "source_hint": null,
+                "usage_pct": null
+              }
+            ]
+          },
+          "gems": [],
+          "notes": {
+            "trinkets": "While there are a large number of trinkets available, the following are the highest priority options to focus on obtaining for Discipline Priest."
+          },
+          "source": "icyveins",
+          "stat_priority": [],
+          "talent_builds": [
+            {
+              "hero_id": 0,
+              "hero_specific": false,
+              "import_string": "CAQAAAAAAAAAAAAAAAAAAAAAAADsMmxyYmBzgZbmtZmZmZmBAAAAAAAAAgZYZGMzMDzYmBMNTzMYmBAAY2mtFwYzAAwYMzYwMYmBjgB",
+              "label": "Voidweaver Raid",
+              "metrics": {},
+              "source": "icyveins",
+              "url": "https://www.icy-veins.com/wow/discipline-priest-pve-healing-spec-builds-talents",
+              "usage_pct": null
+            },
+            {
+              "hero_id": 0,
+              "hero_specific": false,
+              "import_string": "CAQAAAAAAAAAAAAAAAAAAAAAAADsMDWmZMmBmZbmtZmZmxMDAAAAAAAAAgZYZGMzMzwYmBbmmJGgZWwQYMLDwYwCAAMmZmxgZAmZGBzA",
+              "label": "Oracle Mythic+",
+              "metrics": {},
+              "source": "icyveins",
+              "url": "https://www.icy-veins.com/wow/discipline-priest-pve-healing-spec-builds-talents",
+              "usage_pct": null
+            }
+          ],
+          "url": "https://www.icy-veins.com/wow/discipline-priest-pve-healing-gear-best-in-slot"
+        },
         "mythicstats": {
           "consumables": [],
           "enchants": [

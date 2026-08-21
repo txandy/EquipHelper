@@ -208,11 +208,14 @@ local function BuildSelectors(frame)
 	frame.HeroDD = AddDropdown("TOPRIGHT", frame.SpecDD, 6, 150)
 	frame.ContentDD = AddDropdown("TOPRIGHT", frame.HeroDD, 6, 110)
 
+	-- La fuente va en su propia fila: es de otra naturaleza que las tres de
+	-- arriba. Esas dicen de quien hablamos; esta dice quien lo cuenta.
+	frame.SourceDD = CreateFrame("DropdownButton", nil, frame, "WowStyle1DropdownTemplate")
+	frame.SourceDD:SetPoint("TOPLEFT", frame.ClassDD, "BOTTOMLEFT", 0, -4)
+	frame.SourceDD:SetWidth(150)
+
 	frame.ClassDD:SetupMenu(function(_, root)
-		local classes = {}
-		for classFile in pairs(ns.data) do table.insert(classes, classFile) end
-		table.sort(classes)
-		for _, classFile in ipairs(classes) do
+		for _, classFile in ipairs(ns.GetClasses()) do
 			local label = LOCALIZED_CLASS_NAMES_MALE[classFile] or classFile
 			root:CreateRadio(label,
 				function() return ns.state.classFile == classFile end,
@@ -236,6 +239,21 @@ local function BuildSelectors(frame)
 			root:CreateRadio(hero.name,
 				function() return ns.state.heroID == hero.heroID end,
 				function() ns.SelectSpec(ns.state.classFile, ns.state.specID, hero.heroID, nil, false) end)
+		end
+	end)
+
+	frame.SourceDD:SetupMenu(function(_, root)
+		local guide = ns.GetGuide(ns.state.classFile, ns.state.specID,
+			ns.state.heroID, ns.state.content)
+
+		for _, entry in ipairs(ns.GetSources(guide)) do
+			root:CreateRadio(entry.label,
+				function() return ns.state.source == entry.key end,
+				function()
+					ns.state.source = entry.key
+					if ns.db then ns.db.profile.source = entry.key end
+					ns.Fire("SELECTION_CHANGED")
+				end)
 		end
 	end)
 
@@ -294,7 +312,7 @@ local function CreatePanel()
 	BuildSelectors(frame)
 
 	frame.Freshness = frame:CreateFontString(nil, "ARTWORK", "GameFontDisableSmall")
-	frame.Freshness:SetPoint("TOPLEFT", frame.ClassDD, "BOTTOMLEFT", 2, -6)
+	frame.Freshness:SetPoint("TOPLEFT", frame.SourceDD, "BOTTOMLEFT", 2, -6)
 	frame.Freshness:SetJustifyH("LEFT")
 
 	frame.FollowButton = CreateFrame("Button", nil, frame, "UIPanelButtonTemplate")
@@ -304,7 +322,7 @@ local function CreatePanel()
 	frame.FollowButton:SetScript("OnClick", function() ns.FollowPlayer() end)
 
 	frame.Scroll = CreateFrame("ScrollFrame", "EquipHelperScroll", frame, "UIPanelScrollFrameTemplate")
-	frame.Scroll:SetPoint("TOPLEFT", frame, "TOPLEFT", 12, -108)
+	frame.Scroll:SetPoint("TOPLEFT", frame, "TOPLEFT", 12, -132)
 	frame.Scroll:SetPoint("BOTTOMRIGHT", frame, "BOTTOMRIGHT", -32, 34)
 
 	frame.Content = CreateFrame("Frame", nil, frame.Scroll)
@@ -336,6 +354,20 @@ local function UpdateHeader()
 	end
 	panel.HeroDD:SetDefaultText(heroName)
 	panel.ContentDD:SetDefaultText(ns.state.content == "raid" and "Raid" or "Mythic+")
+
+	local guide = ns.GetGuide(ns.state.classFile, ns.state.specID,
+		ns.state.heroID, ns.state.content)
+	local sources = ns.GetSources(guide)
+	local available = false
+	for _, entry in ipairs(sources) do
+		if entry.key == ns.state.source then available = true end
+	end
+	-- Una spec puede no estar cubierta por la web elegida. Antes de dejar el
+	-- panel en blanco se pasa a una que si la cubra.
+	if not available and sources[1] then
+		ns.state.source = sources[1].key
+	end
+	panel.SourceDD:SetDefaultText(ns.SOURCE_LABEL[ns.state.source] or ns.state.source)
 
 	local m = ns.Manifest
 	if m then

@@ -5,6 +5,7 @@ ns.data = {}          -- [classFile] = generated guide tables
 ns.tabs = {}          -- ordered list of registered tabs
 ns.callbacks = {}     -- [event] = { fn, ... }
 
+local DATA_ADDON_PREFIX = "EquipHelper_Data_"
 local DEFAULT_CONTENT = "mplus"
 local DEFAULT_SOURCE = "mythicstats"
 local STALE_DAYS = 14
@@ -43,12 +44,45 @@ end
 -- sibling package) -- callers stay identical.
 --------------------------------------------------------------------------------
 
-function ns.RegisterClassData(classFile, payload)
+-- Los datos viven en paquetes hermanos que se cargan bajo demanda. Un addon
+-- aparte recibe su propio (nombre, ns) por varargs, asi que no puede tocar
+-- nuestro namespace privado: la unica superficie global que exponemos es esta
+-- funcion, que es todo lo que necesitan.
+function _G.EquipHelper_RegisterClassData(classFile, payload)
 	ns.data[classFile] = payload
 end
 
+ns.dataErrors = {}
+
+-- Carga el paquete de datos de una clase la primera vez que hace falta.
+-- Todos los accesos pasan por aqui, asi que es el unico sitio que sabe que los
+-- datos no estaban ya en memoria.
 function ns.EnsureClassData(classFile)
+	if not classFile then return nil end
+	if ns.data[classFile] then return ns.data[classFile] end
+	if ns.dataErrors[classFile] then return nil end
+
+	local name = DATA_ADDON_PREFIX .. classFile
+	local loaded, reason = C_AddOns.LoadAddOn(name)
+	if not loaded then
+		-- Se recuerda para no reintentar en cada repintado. Suele significar
+		-- que el jugador desactivo el paquete en la lista de addons.
+		ns.dataErrors[classFile] = reason or "UNKNOWN"
+		return nil
+	end
+
 	return ns.data[classFile]
+end
+
+-- Las clases que este addon trae, sin cargar sus datos. Con carga bajo demanda
+-- ns.data solo contiene las ya abiertas, asi que la lista viene del manifiesto.
+function ns.GetClasses()
+	local out = {}
+	for _, classFile in ipairs((ns.Manifest and ns.Manifest.classes) or {}) do
+		table.insert(out, classFile)
+	end
+	table.sort(out)
+	return out
 end
 
 function ns.GetSpecs(classFile)

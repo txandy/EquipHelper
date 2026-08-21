@@ -6,17 +6,256 @@
       "content": "mplus",
       "hero_id": 59,
       "hero_name": "Diabolist",
-      "performance": {
-        "difficulty": "Mythic+",
-        "median": 191525.6,
-        "metric": "dps",
-        "out_of": 40,
-        "rank": 7,
-        "sample": 300,
-        "top": 295802.6,
-        "zone": "Mythic+ Season 2"
-      },
+      "performance": null,
       "views": {
+        "icyveins": {
+          "consumables": [
+            {
+              "category": "FLASK",
+              "is_primary": true,
+              "item_id": 241326
+            },
+            {
+              "category": "POTION",
+              "is_primary": true,
+              "item_id": 241288
+            },
+            {
+              "category": "HEALTH_POTION",
+              "is_primary": true,
+              "item_id": 271883
+            },
+            {
+              "category": "RUNE",
+              "is_primary": true,
+              "item_id": 259085
+            },
+            {
+              "category": "WEAPON_OIL",
+              "is_primary": true,
+              "item_id": 243733
+            }
+          ],
+          "enchants": [],
+          "fetched_at": "2026-08-21",
+          "gear": {
+            "BACK": [
+              {
+                "drop_source": "Murder Row",
+                "enchant_id": null,
+                "gem_id": null,
+                "item_id": 251132,
+                "note": null,
+                "source_hint": null,
+                "usage_pct": null
+              }
+            ],
+            "CHEST": [
+              {
+                "drop_source": "Catalyst",
+                "enchant_id": 243977,
+                "gem_id": null,
+                "item_id": 271549,
+                "note": null,
+                "source_hint": null,
+                "usage_pct": null
+              }
+            ],
+            "FEET": [
+              {
+                "drop_source": "Coiled Altar",
+                "enchant_id": 243952,
+                "gem_id": null,
+                "item_id": 268255,
+                "note": null,
+                "source_hint": null,
+                "usage_pct": null
+              }
+            ],
+            "FINGER1": [
+              {
+                "drop_source": "Temple of Sethraliss",
+                "enchant_id": 243956,
+                "gem_id": 240906,
+                "item_id": 158366,
+                "note": null,
+                "source_hint": null,
+                "usage_pct": null
+              }
+            ],
+            "FINGER2": [
+              {
+                "drop_source": "Murder Row",
+                "enchant_id": 243956,
+                "gem_id": 240906,
+                "item_id": 251136,
+                "note": null,
+                "source_hint": null,
+                "usage_pct": null
+              }
+            ],
+            "HANDS": [
+              {
+                "drop_source": "Catalyst",
+                "enchant_id": null,
+                "gem_id": null,
+                "item_id": 271547,
+                "note": null,
+                "source_hint": null,
+                "usage_pct": null
+              }
+            ],
+            "HEAD": [
+              {
+                "drop_source": "Blinding Vale",
+                "enchant_id": 243950,
+                "gem_id": 240983,
+                "item_id": 251199,
+                "note": null,
+                "source_hint": null,
+                "usage_pct": null
+              }
+            ],
+            "LEGS": [
+              {
+                "drop_source": "Catalyst",
+                "enchant_id": 240133,
+                "gem_id": null,
+                "item_id": 271545,
+                "note": null,
+                "source_hint": null,
+                "usage_pct": null
+              }
+            ],
+            "MAINHAND": [
+              {
+                "drop_source": "Altar of Fangs",
+                "enchant_id": 244029,
+                "gem_id": null,
+                "item_id": 273778,
+                "note": null,
+                "source_hint": null,
+                "usage_pct": null
+              }
+            ],
+            "NECK": [
+              {
+                "drop_source": "Voidscar Arena",
+                "enchant_id": null,
+                "gem_id": 240906,
+                "item_id": 251234,
+                "note": null,
+                "source_hint": null,
+                "usage_pct": null
+              }
+            ],
+            "OFFHAND": [
+              {
+                "drop_source": "Crafted by Inscription",
+                "enchant_id": null,
+                "gem_id": 273059,
+                "item_id": 245769,
+                "note": null,
+                "source_hint": null,
+                "usage_pct": null
+              }
+            ],
+            "SHOULDER": [
+              {
+                "drop_source": "Catalyst",
+                "enchant_id": 243990,
+                "gem_id": null,
+                "item_id": 271544,
+                "note": null,
+                "source_hint": null,
+                "usage_pct": null
+              }
+            ],
+            "TRINKET1": [
+              {
+                "drop_source": "Altar of Fangs",
+                "enchant_id": null,
+                "gem_id": null,
+                "item_id": 273796,
+                "note": null,
+                "source_hint": null,
+                "usage_pct": null
+              }
+            ],
+            "TRINKET2": [
+              {
+                "drop_source": "Voidscar Arena",
+                "enchant_id": null,
+                "gem_id": null,
+                "item_id": 250224,
+                "note": null,
+                "source_hint": null,
+                "usage_pct": null
+              }
+            ],
+            "WAIST": [
+              {
+                "drop_source": "Voidscar Arena",
+                "enchant_id": null,
+                "gem_id": 240890,
+                "item_id": 251222,
+                "note": null,
+                "source_hint": null,
+                "usage_pct": null
+              }
+            ],
+            "WRIST": [
+              {
+                "drop_source": "Crafted by Tailoring",
+                "enchant_id": null,
+                "gem_id": 240906,
+                "item_id": 239648,
+                "note": null,
+                "source_hint": null,
+                "usage_pct": null
+              }
+            ]
+          },
+          "gems": [],
+          "notes": {
+            "trinkets": "The following list provides a general ranking for all trinkets available for players to better understand what may be more appealing. These rankings assume each item at its highest possible item level, thus for direct or immediate upgrade it is still best practice to sim your own character."
+          },
+          "source": "icyveins",
+          "stat_priority": [],
+          "talent_builds": [
+            {
+              "hero_id": 0,
+              "hero_specific": false,
+              "import_string": "CoQAAAAAAAAAAAAAAAAAAAAAAwMzMzoZjhZmxsMAAAAAAAjtlBGwAmhtQGbmhZ2mlZmZMDAYMzMzAMzMmxMDAAwMzMzMjZYZAYA",
+              "label": "Demonology Single-Target - Soul Harvester",
+              "metrics": {},
+              "source": "icyveins",
+              "url": "https://www.icy-veins.com/wow/demonology-warlock-pve-dps-spec-builds-talents",
+              "usage_pct": null
+            },
+            {
+              "hero_id": 0,
+              "hero_specific": false,
+              "import_string": "CoQAAAAAAAAAAAAAAAAAAAAAAwMjZGNLmxmZGzyAAAAAAAAGzYYBGYb0CNsYMzYZ2mZmxMAwMjZGzMDwYmxMbAAgxMzMzww2MGwA",
+              "label": "Demonology AoE - Diabolist",
+              "metrics": {},
+              "source": "icyveins",
+              "url": "https://www.icy-veins.com/wow/demonology-warlock-pve-dps-spec-builds-talents",
+              "usage_pct": null
+            },
+            {
+              "hero_id": 0,
+              "hero_specific": false,
+              "import_string": "CoQAAAAAAAAAAAAAAAAAAAAAAwMjZGNLmxiZGzyAAAAAAAMWWGYADYG2CM2MmZsMmxMzMAwMzMGDwMzYmxMbAAgxMzMzYw2MDwA",
+              "label": "Demonology Delves - Soul Harvester",
+              "metrics": {},
+              "source": "icyveins",
+              "url": "https://www.icy-veins.com/wow/demonology-warlock-pve-dps-spec-builds-talents",
+              "usage_pct": null
+            }
+          ],
+          "url": "https://www.icy-veins.com/wow/demonology-warlock-pve-dps-gear-best-in-slot"
+        },
         "mythicstats": {
           "consumables": [],
           "enchants": [

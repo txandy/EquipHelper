@@ -1,24 +1,161 @@
 -- GENERATED FILE -- do not edit by hand.
 -- Regenerar con: python -m scraper build
-local ADDON_NAME, ns = ...
 
-ns.RegisterClassData("EVOKER", {
+EquipHelper_RegisterClassData("EVOKER", {
 	specs = {
 		[1467] = {
 			heroes = {
 				[36] = {
 					mplus = {
-						performance = {
-							difficulty = "Mythic+",
-							median = 165230.5,
-							metric = "dps",
-							outOf = 40,
-							rank = 21,
-							sample = 300,
-							top = 298248.2,
-							zone = "Mythic+ Season 2",
-						},
 						views = {
+							icyveins = {
+								consumables = {
+									{
+										category = "FOOD",
+										itemID = 255845,
+										primary = true,
+									},
+									{
+										category = "FOOD",
+										itemID = 242275,
+										primary = false,
+									},
+									{
+										category = "WEAPON_OIL",
+										itemID = 243733,
+										primary = true,
+									},
+								},
+								fetchedAt = "2026-08-21",
+								gear = {
+									BACK = {
+										{
+											dropSource = "Murder Row",
+											itemID = 251132,
+										},
+									},
+									CHEST = {
+										{
+											dropSource = "Catalyst from Altar of Fangs",
+											enchantID = 243977,
+											itemID = 271876,
+										},
+									},
+									FEET = {
+										{
+											dropSource = "Temple of Sethraliss",
+											enchantID = 243983,
+											itemID = 159388,
+										},
+									},
+									FINGER1 = {
+										{
+											dropSource = "Temple of Sethraliss",
+											enchantID = 243956,
+											gemID = 240906,
+											itemID = 158366,
+										},
+									},
+									FINGER2 = {
+										{
+											dropSource = "Altar of Fangs",
+											enchantID = 243956,
+											gemID = 240906,
+											itemID = 273792,
+										},
+									},
+									HANDS = {
+										{
+											dropSource = "King's Rest",
+											itemID = 271502,
+										},
+									},
+									HEAD = {
+										{
+											dropSource = "Catalyst from Voidscar Arena",
+											enchantID = 244007,
+											itemID = 271501,
+										},
+									},
+									LEGS = {
+										{
+											dropSource = "Catalyst from Temple of Sethraliss",
+											enchantID = 240133,
+											itemID = 271500,
+										},
+									},
+									MAINHAND = {
+										{
+											dropSource = "Altar of Fangs",
+											enchantID = 244029,
+											itemID = 273778,
+										},
+									},
+									NECK = {
+										{
+											dropSource = "Altar of Fangs",
+											gemID = 240983,
+											itemID = 273781,
+										},
+									},
+									OFFHAND = {
+										{
+											dropSource = "Crafted by Inscription",
+											gemID = 273060,
+											itemID = 245769,
+										},
+									},
+									SHOULDER = {
+										{
+											dropSource = "Catalyst from King's Rest",
+											enchantID = 243990,
+											itemID = 271499,
+										},
+									},
+									TRINKET1 = {
+										{
+											dropSource = "Murder Row",
+											itemID = 250215,
+										},
+									},
+									TRINKET2 = {
+										{
+											dropSource = "Voidscar Arena",
+											itemID = 250224,
+										},
+									},
+									WAIST = {
+										{
+											dropSource = "Den of Nalorakk",
+											itemID = 251155,
+										},
+									},
+									WRIST = {
+										{
+											dropSource = "Crafted by Leatherworking",
+											gemID = 240167,
+											itemID = 244584,
+										},
+									},
+								},
+								notes = {
+									trinkets = "We would recommend simming the trinkets listed here when you acquire them as it will not be an ironclad rule of what is BiS in every situation. There are other trinkets you can use beside these but they are quite significantly worse.",
+								},
+								source = "icyveins",
+								talentBuilds = {
+									{
+										heroSpecific = false,
+										importString = "CsbBAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAjZgZYGzMgBjZamZmpZmx2MMzMzMzMzAmxMGzMLzMDMwYwGsMGN2GAzAwGGYmBDD",
+										label = "Scalecommander Raid/Delves -",
+									},
+									{
+										heroSpecific = false,
+										importString = "CsbBAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAjZAMzwMwMYMTjZmpZmZ2mhZmZmZmZGwMzMGzMLzMDMwYwGsMGN2GAzAwGGYmBDD",
+										label = "Scalecommander Mythic+ -",
+									},
+								},
+								url = "https://www.icy-veins.com/wow/devastation-evoker-pve-dps-gear-best-in-slot",
+							},
 							mythicstats = {
 								enchants = {
 									{
@@ -812,17 +949,193 @@ ns.RegisterClassData("EVOKER", {
 			heroes = {
 				[37] = {
 					mplus = {
-						performance = {
-							difficulty = "Mythic+",
-							median = 39210.3,
-							metric = "dps",
-							outOf = 40,
-							rank = 35,
-							sample = 300,
-							top = 100049.5,
-							zone = "Mythic+ Season 2",
-						},
 						views = {
+							icyveins = {
+								consumables = {
+									{
+										category = "FLASK",
+										itemID = 241322,
+										primary = true,
+									},
+									{
+										category = "FLASK",
+										itemID = 241325,
+										primary = false,
+									},
+									{
+										category = "POTION",
+										itemID = 241288,
+										primary = true,
+									},
+									{
+										category = "HEALTH_POTION",
+										itemID = 271883,
+										primary = true,
+									},
+									{
+										category = "FOOD",
+										itemID = 242747,
+										primary = true,
+									},
+									{
+										category = "RUNE",
+										itemID = 259085,
+										primary = true,
+									},
+									{
+										category = "WEAPON_OIL",
+										itemID = 243733,
+										primary = true,
+									},
+								},
+								fetchedAt = "2026-08-21",
+								gear = {
+									BACK = {
+										{
+											dropSource = "The Blinding Vale",
+											itemID = 251190,
+										},
+									},
+									CHEST = {
+										{
+											dropSource = "Catalyst from Temple of Sethraliss",
+											enchantID = 243977,
+											itemID = 271504,
+										},
+									},
+									FEET = {
+										{
+											dropSource = "Temple of Sethraliss",
+											enchantID = 243983,
+											itemID = 159388,
+										},
+									},
+									FINGER1 = {
+										{
+											dropSource = "Murder Row",
+											enchantID = 243959,
+											gemID = 240898,
+											itemID = 251136,
+										},
+									},
+									FINGER2 = {
+										{
+											dropSource = "Voidscar Arena",
+											enchantID = 243959,
+											gemID = 240898,
+											itemID = 252258,
+										},
+									},
+									HANDS = {
+										{
+											dropSource = "Catalyst from King's Rest",
+											itemID = 271502,
+										},
+									},
+									HEAD = {
+										{
+											dropSource = "Ruby Life Pools",
+											enchantID = 243950,
+											itemID = 271501,
+										},
+									},
+									LEGS = {
+										{
+											dropSource = "Catalyst from Temple of Sethraliss",
+											enchantID = 240155,
+											itemID = 271500,
+										},
+									},
+									MAINHAND = {
+										{
+											dropSource = "King's Rest",
+											enchantID = 244029,
+											itemID = 160216,
+										},
+									},
+									NECK = {
+										{
+											dropSource = "Murder Row",
+											gemID = 240983,
+											itemID = 251142,
+										},
+									},
+									OFFHAND = {
+										{
+											dropSource = "The Blinding Vale",
+											itemID = 251191,
+										},
+									},
+									SHOULDER = {
+										{
+											dropSource = "King's Rest",
+											enchantID = 244021,
+											itemID = 271499,
+										},
+									},
+									TRINKET1 = {
+										{
+											dropSource = "The Blinding Vale",
+											itemID = 250214,
+										},
+									},
+									TRINKET2 = {
+										{
+											dropSource = "Murder Row",
+											itemID = 250215,
+										},
+									},
+									WAIST = {
+										{
+											dropSource = "Den of Nalorakk",
+											gemID = 240898,
+											itemID = 251155,
+										},
+									},
+									WRIST = {
+										{
+											dropSource = "Altar of Fangs",
+											gemID = 240898,
+											itemID = 273775,
+										},
+									},
+								},
+								gems = {
+									{
+										itemID = 240968,
+									},
+									{
+										itemID = 240983,
+									},
+								},
+								notes = {
+									trinkets = "As always, you should consult with QELive to determine your best trinkets as the list can often change with tuning. However, this season you will want to utilize Soulcoiler Ritual Vessel and Gebbo's Bottomless Bag . Two incredibly powerful trinkets from the new raid. Mythic+ trinkets are unfortunately a bit undertuned in comparison but you do have a few good options to use while working to acquire your BiS trinkets from raid.",
+								},
+								source = "icyveins",
+								talentBuilds = {
+									{
+										heroSpecific = false,
+										importString = "CwbBAAAAAAAAAAAAAAAAAAAAAAAAAAAMzMDmZMYGzmhZmZbYAAwMjZMDGzIzMDAAAwMzMZGzMmtZGAYGzALgFwMMB2MsZYAMzMGA",
+										label = "Flameshaper Raiding - Flameshaper",
+									},
+									{
+										heroSpecific = false,
+										importString = "CwbBAAAAAAAAAAAAAAAAAAAAAAAAAAAmZmZ2WGzYYmxsZGw2wAAAzYGzMjhZiZmBAAAMzMTGzMjxMzAAjZgFwCYGmAbM2MMAmZGD",
+										label = "Flameshaper Mythic+ - Flameshaper",
+									},
+									{
+										heroSpecific = false,
+										importString = "CwbBAAAAAAAAAAAAAAAAAAAAAAAAAAAYmZ2WmHAzYmxsZMzMzyAAAMzYGDmxMyMzAAAAMzMTmxMjZbmZAwAjZsxCMwMM0AWgxMDwYA",
+										label = "Chronowarden Raiding - Chronowarden",
+									},
+									{
+										heroSpecific = false,
+										importString = "CwbBAAAAAAAAAAAAAAAAAAAAAAAAAAAMzMz2yAzYmxsZGjx2wAAAzYGzghZyMzMAAAw2MzMNjZmZGjZAAYMjFWgBmhhGGWgxMDAD",
+										label = "Chronowarden Mythic+ - Chronowarden",
+									},
+								},
+								url = "https://www.icy-veins.com/wow/preservation-evoker-pve-healing-gear-best-in-slot",
+							},
 							mythicstats = {
 								enchants = {
 									{
@@ -1596,17 +1909,171 @@ ns.RegisterClassData("EVOKER", {
 			heroes = {
 				[36] = {
 					mplus = {
-						performance = {
-							difficulty = "Mythic+",
-							median = 135973.9,
-							metric = "dps",
-							outOf = 40,
-							rank = 27,
-							sample = 300,
-							top = 217718.4,
-							zone = "Mythic+ Season 2",
-						},
 						views = {
+							icyveins = {
+								consumables = {
+									{
+										category = "FLASK",
+										itemID = 241322,
+										primary = true,
+									},
+									{
+										category = "FOOD",
+										itemID = 255845,
+										primary = true,
+									},
+									{
+										category = "FOOD",
+										itemID = 242275,
+										primary = false,
+									},
+									{
+										category = "RUNE",
+										itemID = 259085,
+										primary = true,
+									},
+									{
+										category = "WEAPON_OIL",
+										itemID = 243733,
+										primary = true,
+									},
+								},
+								fetchedAt = "2026-08-21",
+								gear = {
+									BACK = {
+										{
+											dropSource = "Murder Row",
+											itemID = 251132,
+										},
+									},
+									CHEST = {
+										{
+											dropSource = "Catalyst from Voidscar Arena",
+											enchantID = 243977,
+											itemID = 271504,
+										},
+									},
+									FEET = {
+										{
+											dropSource = "Temple of Sethraliss",
+											enchantID = 244008,
+											itemID = 159388,
+										},
+									},
+									FINGER1 = {
+										{
+											dropSource = "Temple of Sethraliss",
+											enchantID = 243959,
+											gemID = 240898,
+											itemID = 158366,
+										},
+									},
+									FINGER2 = {
+										{
+											dropSource = "Murder Row",
+											enchantID = 243959,
+											gemID = 240898,
+											itemID = 251136,
+										},
+									},
+									HANDS = {
+										{
+											dropSource = "Catalyst from Ruby Life Pools",
+											itemID = 271502,
+										},
+									},
+									HEAD = {
+										{
+											dropSource = "Catalyst from Temple of Sethraliss",
+											enchantID = 243981,
+											gemID = 240983,
+											itemID = 271501,
+										},
+									},
+									LEGS = {
+										{
+											dropSource = "Catalyst from Temple of Sethraliss",
+											enchantID = 240133,
+											itemID = 271500,
+										},
+									},
+									MAINHAND = {
+										{
+											dropSource = "Altar of Fangs",
+											enchantID = 244031,
+											itemID = 273778,
+										},
+									},
+									NECK = {
+										{
+											dropSource = "Murder Row",
+											gemID = 240898,
+											itemID = 251142,
+										},
+									},
+									OFFHAND = {
+										{
+											dropSource = "Den of Nalorakk",
+											itemID = 271681,
+										},
+									},
+									SHOULDER = {
+										{
+											dropSource = "Catalyst from King's Rest",
+											enchantID = 243962,
+											itemID = 271499,
+										},
+									},
+									TRINKET1 = {
+										{
+											dropSource = "Voidscar Arena",
+											itemID = 250224,
+										},
+									},
+									TRINKET2 = {
+										{
+											dropSource = "The Blinding Vale",
+											itemID = 250214,
+										},
+									},
+									WAIST = {
+										{
+											dropSource = "Crafted by Leatherworking",
+											gemID = 240898,
+											itemID = 244581,
+										},
+									},
+									WRIST = {
+										{
+											dropSource = "Crafted by Leatherworking",
+											gemID = 240898,
+											itemID = 244584,
+										},
+									},
+								},
+								notes = {
+									trinkets = "Augmentation Evoker currently prefers to wear passive trinkets, as the cooldown of Breath of Eons often does not line up with trinkets due to Cooldown Reduction effects. If you are using an on-use trinket, you can use them on Cooldown.",
+								},
+								source = "icyveins",
+								talentBuilds = {
+									{
+										heroSpecific = false,
+										importString = "CEcBAAAAAAAAAAAAAAAAAAAAAMMzMbzMzgZYmZZGzMjZ2AAAAAAAAYmhxMYM1YmZGAAAAMjZMmZWGzMwMMwYGLsADMDDNwCGjZGAYA",
+										label = "Raiding Build - Chronowarden",
+									},
+									{
+										heroSpecific = false,
+										importString = "CEcBAAAAAAAAAAAAAAAAAAAAAMMzMbjZmxyMYmtZMzMmBAAAAAAAAmhHYGYM1YmZGAAAAMzMjxMz2YmBmZzYwCsMGGbDgZQshxMYmBDG",
+										label = "Weekly Mythic+ Build - Scalecommander",
+									},
+									{
+										heroSpecific = false,
+										importString = "CEcBAAAAAAAAAAAAAAAAAAAAAMMzMbzMzgZYmZZGzMjZ2AAAAAAAAYmhZGYM1YmZGAAAAMjZMmZWGzMwMMwYGLsADMDDNwCGzMzAAD",
+										label = "High Key Mythic+ Build - Chronowarden",
+									},
+								},
+								url = "https://www.icy-veins.com/wow/augmentation-evoker-pve-dps-gear-best-in-slot",
+							},
 							mythicstats = {
 								enchants = {
 									{
@@ -2362,17 +2829,171 @@ ns.RegisterClassData("EVOKER", {
 				},
 				[38] = {
 					mplus = {
-						performance = {
-							difficulty = "Mythic+",
-							median = 135973.9,
-							metric = "dps",
-							outOf = 40,
-							rank = 27,
-							sample = 300,
-							top = 217718.4,
-							zone = "Mythic+ Season 2",
-						},
 						views = {
+							icyveins = {
+								consumables = {
+									{
+										category = "FLASK",
+										itemID = 241322,
+										primary = true,
+									},
+									{
+										category = "FOOD",
+										itemID = 255845,
+										primary = true,
+									},
+									{
+										category = "FOOD",
+										itemID = 242275,
+										primary = false,
+									},
+									{
+										category = "RUNE",
+										itemID = 259085,
+										primary = true,
+									},
+									{
+										category = "WEAPON_OIL",
+										itemID = 243733,
+										primary = true,
+									},
+								},
+								fetchedAt = "2026-08-21",
+								gear = {
+									BACK = {
+										{
+											dropSource = "Murder Row",
+											itemID = 251132,
+										},
+									},
+									CHEST = {
+										{
+											dropSource = "Catalyst from Voidscar Arena",
+											enchantID = 243977,
+											itemID = 271504,
+										},
+									},
+									FEET = {
+										{
+											dropSource = "Temple of Sethraliss",
+											enchantID = 244008,
+											itemID = 159388,
+										},
+									},
+									FINGER1 = {
+										{
+											dropSource = "Temple of Sethraliss",
+											enchantID = 243959,
+											gemID = 240898,
+											itemID = 158366,
+										},
+									},
+									FINGER2 = {
+										{
+											dropSource = "Murder Row",
+											enchantID = 243959,
+											gemID = 240898,
+											itemID = 251136,
+										},
+									},
+									HANDS = {
+										{
+											dropSource = "Catalyst from Ruby Life Pools",
+											itemID = 271502,
+										},
+									},
+									HEAD = {
+										{
+											dropSource = "Catalyst from Temple of Sethraliss",
+											enchantID = 243981,
+											gemID = 240983,
+											itemID = 271501,
+										},
+									},
+									LEGS = {
+										{
+											dropSource = "Catalyst from Temple of Sethraliss",
+											enchantID = 240133,
+											itemID = 271500,
+										},
+									},
+									MAINHAND = {
+										{
+											dropSource = "Altar of Fangs",
+											enchantID = 244031,
+											itemID = 273778,
+										},
+									},
+									NECK = {
+										{
+											dropSource = "Murder Row",
+											gemID = 240898,
+											itemID = 251142,
+										},
+									},
+									OFFHAND = {
+										{
+											dropSource = "Den of Nalorakk",
+											itemID = 271681,
+										},
+									},
+									SHOULDER = {
+										{
+											dropSource = "Catalyst from King's Rest",
+											enchantID = 243962,
+											itemID = 271499,
+										},
+									},
+									TRINKET1 = {
+										{
+											dropSource = "Voidscar Arena",
+											itemID = 250224,
+										},
+									},
+									TRINKET2 = {
+										{
+											dropSource = "The Blinding Vale",
+											itemID = 250214,
+										},
+									},
+									WAIST = {
+										{
+											dropSource = "Crafted by Leatherworking",
+											gemID = 240898,
+											itemID = 244581,
+										},
+									},
+									WRIST = {
+										{
+											dropSource = "Crafted by Leatherworking",
+											gemID = 240898,
+											itemID = 244584,
+										},
+									},
+								},
+								notes = {
+									trinkets = "Augmentation Evoker currently prefers to wear passive trinkets, as the cooldown of Breath of Eons often does not line up with trinkets due to Cooldown Reduction effects. If you are using an on-use trinket, you can use them on Cooldown.",
+								},
+								source = "icyveins",
+								talentBuilds = {
+									{
+										heroSpecific = false,
+										importString = "CEcBAAAAAAAAAAAAAAAAAAAAAMMzMbzMzgZYmZZGzMjZ2AAAAAAAAYmhxMYM1YmZGAAAAMjZMmZWGzMwMMwYGLsADMDDNwCGjZGAYA",
+										label = "Raiding Build - Chronowarden",
+									},
+									{
+										heroSpecific = false,
+										importString = "CEcBAAAAAAAAAAAAAAAAAAAAAMMzMbjZmxyMYmtZMzMmBAAAAAAAAmhHYGYM1YmZGAAAAMzMjxMz2YmBmZzYwCsMGGbDgZQshxMYmBDG",
+										label = "Weekly Mythic+ Build - Scalecommander",
+									},
+									{
+										heroSpecific = false,
+										importString = "CEcBAAAAAAAAAAAAAAAAAAAAAMMzMbzMzgZYmZZGzMjZ2AAAAAAAAYmhZGYM1YmZGAAAAMjZMmZWGzMwMMwYGLsADMDDNwCGzMzAAD",
+										label = "High Key Mythic+ Build - Chronowarden",
+									},
+								},
+								url = "https://www.icy-veins.com/wow/augmentation-evoker-pve-dps-gear-best-in-slot",
+							},
 							mythicstats = {
 								enchants = {
 									{

@@ -35,3 +35,8 @@ jobs:
 
       - run: luarocks install luacheck
       - run: luacheck EquipHelper
+
+      # La resolucion de huecos entre fuentes es logica pura: se prueba fuera
+      # del cliente, con la API de WoW stubbeada.
+      - run: luarocks install busted
+      - run: busted spec

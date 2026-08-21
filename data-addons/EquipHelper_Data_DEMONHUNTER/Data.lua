@@ -1,24 +1,184 @@
 -- GENERATED FILE -- do not edit by hand.
 -- Regenerar con: python -m scraper build
-local ADDON_NAME, ns = ...
 
-ns.RegisterClassData("DEMONHUNTER", {
+EquipHelper_RegisterClassData("DEMONHUNTER", {
 	specs = {
 		[577] = {
 			heroes = {
 				[34] = {
 					mplus = {
-						performance = {
-							difficulty = "Mythic+",
-							median = 167751.7,
-							metric = "dps",
-							outOf = 40,
-							rank = 20,
-							sample = 300,
-							top = 282542.3,
-							zone = "Mythic+ Season 2",
-						},
 						views = {
+							icyveins = {
+								consumables = {
+									{
+										category = "POTION",
+										itemID = 241288,
+										primary = true,
+									},
+									{
+										category = "HEALTH_POTION",
+										itemID = 271883,
+										primary = true,
+									},
+									{
+										category = "FOOD",
+										itemID = 255845,
+										primary = true,
+									},
+									{
+										category = "FOOD",
+										itemID = 242275,
+										primary = false,
+									},
+									{
+										category = "RUNE",
+										itemID = 259085,
+										primary = true,
+									},
+									{
+										category = "WEAPON_OIL",
+										itemID = 243733,
+										primary = true,
+									},
+								},
+								fetchedAt = "2026-08-21",
+								gear = {
+									BACK = {
+										{
+											dropSource = "Murder Row",
+											itemID = 251132,
+										},
+									},
+									CHEST = {
+										{
+											dropSource = "Catalyst from King's Rest",
+											enchantID = 243977,
+											itemID = 271540,
+										},
+									},
+									FEET = {
+										{
+											dropSource = "Temple of Sethraliss",
+											enchantID = 243952,
+											itemID = 159327,
+										},
+									},
+									FINGER1 = {
+										{
+											dropSource = "Temple of Sethraliss",
+											enchantID = 243956,
+											gemID = 240914,
+											itemID = 158366,
+										},
+									},
+									FINGER2 = {
+										{
+											dropSource = "Murder Row",
+											enchantID = 243956,
+											gemID = 240908,
+											itemID = 251136,
+										},
+									},
+									HANDS = {
+										{
+											dropSource = "Catalyst from King's Rest",
+											itemID = 271538,
+										},
+									},
+									HEAD = {
+										{
+											dropSource = "Catalyst from Temple of Sethraliss",
+											enchantID = 244007,
+											gemID = 240967,
+											itemID = 271537,
+										},
+									},
+									LEGS = {
+										{
+											dropSource = "Catalyst from Murder Row",
+											enchantID = 244640,
+											itemID = 271536,
+										},
+									},
+									MAINHAND = {
+										{
+											dropSource = "Blinding Vale",
+											enchantID = 243970,
+											itemID = 251186,
+										},
+									},
+									NECK = {
+										{
+											dropSource = "Voidscar Arena",
+											gemID = 240908,
+											itemID = 251234,
+										},
+									},
+									OFFHAND = {
+										{
+											dropSource = "Crafted by Blacksmithing",
+											enchantID = 244031,
+											gemID = 273059,
+											itemID = 237840,
+										},
+									},
+									SHOULDER = {
+										{
+											dropSource = "Catalyst from Voidscar Arena",
+											enchantID = 243990,
+											itemID = 271535,
+										},
+									},
+									TRINKET1 = {
+										{
+											dropSource = "Altar of Fangs",
+											itemID = 273796,
+										},
+									},
+									TRINKET2 = {
+										{
+											dropSource = "Blinding Vale",
+											itemID = 250259,
+										},
+									},
+									WAIST = {
+										{
+											dropSource = "King's Rest",
+											gemID = 240890,
+											itemID = 159301,
+										},
+									},
+									WRIST = {
+										{
+											dropSource = "Crafted by Leatherworking",
+											gemID = 240898,
+											itemID = 244576,
+										},
+									},
+								},
+								notes = {
+									trinkets = "Havoc generally seeks to use one on-use trinket that aligns with Metamorphosis to enhance its burst windows, and then one strong passive trinket to go with it. Both stat procs and damage effects are useful due to Know Your Enemy , so there's a good amount of flexibility on offer.",
+								},
+								source = "icyveins",
+								talentBuilds = {
+									{
+										heroSpecific = false,
+										importString = "CEkAAAAAAAAAAAAAAAAAAAAAAYgZmZMjZmZmxMZMzAAAAAAAmNjZbmxYmtZmxyMjZsMzwMLzsMDGGLbMhxMjhFAAAAAAAwMDwAAAAwA",
+										label = "Raid / Single Target - Aldrachi Reaver",
+									},
+									{
+										heroSpecific = false,
+										importString = "CEkAAAAAAAAAAAAAAAAAAAAAAYmZGzMz2MmZmxYmMmZAAAAAAAzixsNDzMwMWmZmZYmBzyAbzmZMMbMNmZGzYDAAAYAAAAMzgBAAAgB",
+										label = "AoE / Mythic+ - Fel-Scarred",
+									},
+									{
+										heroSpecific = false,
+										importString = "CEkAAAAAAAAAAAAAAAAAAAAAAYmZGzMjZMzMjxMhZGAAAAAAwsYmhZMzAzYZmZmxyMDmlB2mNzYY2YaMzMzM2AAAAAAAAYmBDAAAAD",
+										label = "Delves - Fel-Scarred",
+									},
+								},
+								url = "https://www.icy-veins.com/wow/havoc-demon-hunter-pve-dps-gear-best-in-slot",
+							},
 							mythicstats = {
 								enchants = {
 									{
@@ -832,17 +992,178 @@ ns.RegisterClassData("DEMONHUNTER", {
 				},
 				[35] = {
 					mplus = {
-						performance = {
-							difficulty = "Mythic+",
-							median = 167751.7,
-							metric = "dps",
-							outOf = 40,
-							rank = 20,
-							sample = 300,
-							top = 282542.3,
-							zone = "Mythic+ Season 2",
-						},
 						views = {
+							icyveins = {
+								consumables = {
+									{
+										category = "POTION",
+										itemID = 241288,
+										primary = true,
+									},
+									{
+										category = "HEALTH_POTION",
+										itemID = 271883,
+										primary = true,
+									},
+									{
+										category = "FOOD",
+										itemID = 255845,
+										primary = true,
+									},
+									{
+										category = "FOOD",
+										itemID = 242275,
+										primary = false,
+									},
+									{
+										category = "RUNE",
+										itemID = 259085,
+										primary = true,
+									},
+									{
+										category = "WEAPON_OIL",
+										itemID = 243733,
+										primary = true,
+									},
+								},
+								fetchedAt = "2026-08-21",
+								gear = {
+									BACK = {
+										{
+											dropSource = "Murder Row",
+											itemID = 251132,
+										},
+									},
+									CHEST = {
+										{
+											dropSource = "Catalyst from King's Rest",
+											enchantID = 243977,
+											itemID = 271540,
+										},
+									},
+									FEET = {
+										{
+											dropSource = "Temple of Sethraliss",
+											enchantID = 243952,
+											itemID = 159327,
+										},
+									},
+									FINGER1 = {
+										{
+											dropSource = "Temple of Sethraliss",
+											enchantID = 243956,
+											gemID = 240914,
+											itemID = 158366,
+										},
+									},
+									FINGER2 = {
+										{
+											dropSource = "Murder Row",
+											enchantID = 243956,
+											gemID = 240908,
+											itemID = 251136,
+										},
+									},
+									HANDS = {
+										{
+											dropSource = "Catalyst from King's Rest",
+											itemID = 271538,
+										},
+									},
+									HEAD = {
+										{
+											dropSource = "Catalyst from Temple of Sethraliss",
+											enchantID = 244007,
+											gemID = 240967,
+											itemID = 271537,
+										},
+									},
+									LEGS = {
+										{
+											dropSource = "Catalyst from Murder Row",
+											enchantID = 244640,
+											itemID = 271536,
+										},
+									},
+									MAINHAND = {
+										{
+											dropSource = "Blinding Vale",
+											enchantID = 243970,
+											itemID = 251186,
+										},
+									},
+									NECK = {
+										{
+											dropSource = "Voidscar Arena",
+											gemID = 240908,
+											itemID = 251234,
+										},
+									},
+									OFFHAND = {
+										{
+											dropSource = "Crafted by Blacksmithing",
+											enchantID = 244031,
+											gemID = 273059,
+											itemID = 237840,
+										},
+									},
+									SHOULDER = {
+										{
+											dropSource = "Catalyst from Voidscar Arena",
+											enchantID = 243990,
+											itemID = 271535,
+										},
+									},
+									TRINKET1 = {
+										{
+											dropSource = "Altar of Fangs",
+											itemID = 273796,
+										},
+									},
+									TRINKET2 = {
+										{
+											dropSource = "Blinding Vale",
+											itemID = 250259,
+										},
+									},
+									WAIST = {
+										{
+											dropSource = "King's Rest",
+											gemID = 240890,
+											itemID = 159301,
+										},
+									},
+									WRIST = {
+										{
+											dropSource = "Crafted by Leatherworking",
+											gemID = 240898,
+											itemID = 244576,
+										},
+									},
+								},
+								notes = {
+									trinkets = "Havoc generally seeks to use one on-use trinket that aligns with Metamorphosis to enhance its burst windows, and then one strong passive trinket to go with it. Both stat procs and damage effects are useful due to Know Your Enemy , so there's a good amount of flexibility on offer.",
+								},
+								source = "icyveins",
+								talentBuilds = {
+									{
+										heroSpecific = false,
+										importString = "CEkAAAAAAAAAAAAAAAAAAAAAAYgZmZMjZmZmxMZMzAAAAAAAmNjZbmxYmtZmxyMjZsMzwMLzsMDGGLbMhxMjhFAAAAAAAwMDwAAAAwA",
+										label = "Raid / Single Target - Aldrachi Reaver",
+									},
+									{
+										heroSpecific = false,
+										importString = "CEkAAAAAAAAAAAAAAAAAAAAAAYmZGzMz2MmZmxYmMmZAAAAAAAzixsNDzMwMWmZmZYmBzyAbzmZMMbMNmZGzYDAAAYAAAAMzgBAAAgB",
+										label = "AoE / Mythic+ - Fel-Scarred",
+									},
+									{
+										heroSpecific = false,
+										importString = "CEkAAAAAAAAAAAAAAAAAAAAAAYmZGzMjZMzMjxMhZGAAAAAAwsYmhZMzAzYZmZmxyMDmlB2mNzYY2YaMzMzM2AAAAAAAAYmBDAAAAD",
+										label = "Delves - Fel-Scarred",
+									},
+								},
+								url = "https://www.icy-veins.com/wow/havoc-demon-hunter-pve-dps-gear-best-in-slot",
+							},
 							mythicstats = {
 								enchants = {
 									{
@@ -1595,17 +1916,253 @@ ns.RegisterClassData("DEMONHUNTER", {
 			heroes = {
 				[124] = {
 					mplus = {
-						performance = {
-							difficulty = "Mythic+",
-							median = 102701.6,
-							metric = "dps",
-							outOf = 40,
-							rank = 30,
-							sample = 300,
-							top = 182014.5,
-							zone = "Mythic+ Season 2",
-						},
 						views = {
+							icyveins = {
+								consumables = {
+									{
+										category = "FLASK",
+										itemID = 241325,
+										primary = true,
+									},
+									{
+										category = "FLASK",
+										itemID = 241326,
+										primary = false,
+									},
+									{
+										category = "FLASK",
+										itemID = 241320,
+										primary = false,
+									},
+									{
+										category = "POTION",
+										itemID = 241288,
+										primary = true,
+									},
+									{
+										category = "HEALTH_POTION",
+										itemID = 271883,
+										primary = true,
+									},
+									{
+										category = "FOOD",
+										itemID = 255845,
+										primary = true,
+									},
+									{
+										category = "FOOD",
+										itemID = 242275,
+										primary = false,
+									},
+									{
+										category = "WEAPON_OIL",
+										itemID = 243733,
+										primary = true,
+									},
+								},
+								fetchedAt = "2026-08-21",
+								gear = {
+									BACK = {
+										{
+											dropSource = "Ruby Life Pools",
+											itemID = 193763,
+										},
+									},
+									CHEST = {
+										{
+											dropSource = "Catalyst Chest from Voidscar Arena",
+											enchantID = 243977,
+											itemID = 271540,
+										},
+									},
+									FEET = {
+										{
+											dropSource = "Den of Nalorakk",
+											enchantID = 243983,
+											itemID = 251153,
+										},
+									},
+									FINGER1 = {
+										{
+											dropSource = "Den of Nalorakk",
+											enchantID = 243956,
+											gemID = 240890,
+											itemID = 251148,
+										},
+									},
+									FINGER2 = {
+										{
+											dropSource = "Altar of Fangs",
+											enchantID = 243956,
+											gemID = 240890,
+											itemID = 273792,
+										},
+									},
+									HANDS = {
+										{
+											dropSource = "Catalyst Hands from Murder Row",
+											itemID = 271538,
+										},
+									},
+									HEAD = {
+										{
+											dropSource = "Catalyst Helm from Altar of Fangs",
+											enchantID = 243950,
+											gemID = 240890,
+											itemID = 271537,
+										},
+									},
+									LEGS = {
+										{
+											dropSource = "Catalyst Legs from King's Rest",
+											enchantID = 244640,
+											itemID = 271536,
+										},
+									},
+									MAINHAND = {
+										{
+											dropSource = "Den of Nalorakk",
+											enchantID = 243973,
+											itemID = 251143,
+										},
+									},
+									NECK = {
+										{
+											dropSource = "Den of Nalorakk",
+											gemID = 240983,
+											itemID = 251173,
+										},
+									},
+									OFFHAND = {
+										{
+											dropSource = "Den of Nalorakk",
+											enchantID = 243973,
+											itemID = 251143,
+										},
+									},
+									SHOULDER = {
+										{
+											dropSource = "Catalyst Shoulders from Den of Nalorakk",
+											enchantID = 244021,
+											itemID = 271535,
+										},
+									},
+									TRINKET1 = {
+										{
+											dropSource = "Murder Row",
+											itemID = 250215,
+										},
+									},
+									TRINKET2 = {
+										{
+											dropSource = "Murder Row",
+											itemID = 250228,
+										},
+									},
+									WAIST = {
+										{
+											dropSource = "Crafted by Leatherworking",
+											gemID = 240890,
+											itemID = 244573,
+										},
+									},
+									WRIST = {
+										{
+											dropSource = "Crafted by Leatherworking",
+											gemID = 240890,
+											itemID = 244576,
+										},
+									},
+								},
+								gems = {
+									{
+										itemID = 240983,
+									},
+									{
+										itemID = 240890,
+									},
+									{
+										itemID = 240910,
+									},
+									{
+										itemID = 243733,
+									},
+									{
+										itemID = 237371,
+									},
+									{
+										itemID = 243973,
+									},
+									{
+										itemID = 243970,
+									},
+									{
+										itemID = 244000,
+									},
+									{
+										itemID = 243977,
+									},
+									{
+										itemID = 243950,
+									},
+									{
+										itemID = 244021,
+									},
+									{
+										itemID = 243983,
+									},
+									{
+										itemID = 244014,
+									},
+									{
+										itemID = 243956,
+									},
+									{
+										itemID = 244642,
+									},
+									{
+										itemID = 244640,
+									},
+									{
+										itemID = 241325,
+									},
+									{
+										itemID = 241326,
+									},
+									{
+										itemID = 241320,
+									},
+									{
+										itemID = 241288,
+									},
+									{
+										itemID = 271883,
+									},
+									{
+										itemID = 255845,
+									},
+									{
+										itemID = 242275,
+									},
+								},
+								notes = {
+									trinkets = "There are a great number of fairly good Trinkets available for Vengeance, and there are a few different kinds of set-ups that can work for us as a Tank specialization. For general value stat stick trinkets that offer permanent or high uptime buffs of stats are generally good offensively while offering consistent defensive value. For Annihilator pairing an on-use trinket with Metamorphosis can lead to strong burst damage. And if you want an additional defensive layer you can choose to use a defensive shield trinket.",
+								},
+								source = "icyveins",
+								talentBuilds = {
+									{
+										heroSpecific = false,
+										importString = "CUkAAAAAAAAAAAAAAAAAAAAAAAAMjZmZMzMjMzMYWMzMDMjZGzYGzMDzMzM2GzsNGAAAAAAAAwMzYDAAAADGzMzMbtNzMDAAAAAwA",
+										label = "Vengeance Single Target",
+									},
+									{
+										heroSpecific = false,
+										importString = "CUkAAAAAAAAAAAAAAAAAAAAAAAAMjZmZMMzkZmBWMjZwMjZGzMzMzYwMzM2YmtxwAAAAAAAAwMzMbAAAAYgZmZmZrtZmZAgBAAAwA",
+										label = "Vengeance AoE",
+									},
+								},
+								url = "https://www.icy-veins.com/wow/vengeance-demon-hunter-pve-tank-gear-best-in-slot",
+							},
 							mythicstats = {
 								enchants = {
 									{
@@ -2404,17 +2961,178 @@ ns.RegisterClassData("DEMONHUNTER", {
 			heroes = {
 				[124] = {
 					mplus = {
-						performance = {
-							difficulty = "Mythic+",
-							median = 188339.1,
-							metric = "dps",
-							outOf = 40,
-							rank = 8,
-							sample = 300,
-							top = 290642.1,
-							zone = "Mythic+ Season 2",
-						},
 						views = {
+							icyveins = {
+								consumables = {
+									{
+										category = "POTION",
+										itemID = 241288,
+										primary = true,
+									},
+									{
+										category = "HEALTH_POTION",
+										itemID = 271883,
+										primary = true,
+									},
+									{
+										category = "FOOD",
+										itemID = 275266,
+										primary = true,
+									},
+									{
+										category = "FOOD",
+										itemID = 242274,
+										primary = false,
+									},
+									{
+										category = "RUNE",
+										itemID = 259085,
+										primary = true,
+									},
+									{
+										category = "WEAPON_OIL",
+										itemID = 243733,
+										primary = true,
+									},
+								},
+								fetchedAt = "2026-08-21",
+								gear = {
+									BACK = {
+										{
+											dropSource = "Murder Row",
+											itemID = 251132,
+										},
+									},
+									CHEST = {
+										{
+											dropSource = "Catalyst from Den of Nalorakk",
+											enchantID = 243977,
+											itemID = 271540,
+										},
+									},
+									FEET = {
+										{
+											dropSource = "Crafted by Leatherworking",
+											enchantID = 243952,
+											gemID = 240167,
+											itemID = 244569,
+										},
+									},
+									FINGER1 = {
+										{
+											dropSource = "Temple of Sethraliss",
+											enchantID = 243956,
+											gemID = 240898,
+											itemID = 158366,
+										},
+									},
+									FINGER2 = {
+										{
+											dropSource = "Murder Row",
+											enchantID = 243956,
+											gemID = 240898,
+											itemID = 251136,
+										},
+									},
+									HANDS = {
+										{
+											dropSource = "Catalyst from King's Rest",
+											itemID = 271538,
+										},
+									},
+									HEAD = {
+										{
+											dropSource = "Catalyst from Temple of Sethraliss",
+											enchantID = 244007,
+											gemID = 240983,
+											itemID = 271537,
+										},
+									},
+									LEGS = {
+										{
+											dropSource = "Catalyst from Murder Row",
+											enchantID = 240133,
+											itemID = 271536,
+										},
+									},
+									MAINHAND = {
+										{
+											dropSource = "Altar of Fangs",
+											enchantID = 244031,
+											itemID = 273778,
+										},
+									},
+									NECK = {
+										{
+											dropSource = "Voidscar Arena",
+											gemID = 240898,
+											itemID = 251234,
+										},
+									},
+									OFFHAND = {
+										{
+											dropSource = "Altar of Fangs",
+											enchantID = 244031,
+											itemID = 273778,
+										},
+									},
+									SHOULDER = {
+										{
+											dropSource = "Catalyst from Voidscar Arena",
+											enchantID = 243990,
+											itemID = 271535,
+										},
+									},
+									TRINKET1 = {
+										{
+											dropSource = "Murder Row",
+											itemID = 250215,
+										},
+									},
+									TRINKET2 = {
+										{
+											dropSource = "Ruby Life Pools",
+											itemID = 193757,
+										},
+									},
+									WAIST = {
+										{
+											dropSource = "King's Rest",
+											gemID = 240898,
+											itemID = 159301,
+										},
+									},
+									WRIST = {
+										{
+											dropSource = "Crafted by Leatherworking",
+											gemID = 240898,
+											itemID = 244576,
+										},
+									},
+								},
+								notes = {
+									trinkets = "Devourer generally seeks to use one on-use trinket to align with Void Metamorphosis to enhance its burst windows, and then one strong passive trinket to go with it.",
+								},
+								source = "icyveins",
+								talentBuilds = {
+									{
+										heroSpecific = false,
+										importString = "CgcBAAAAAAAAAAAAAAAAAAAAAAAWMzMzMzMjBmBAAAAAAY5BGz2gZAAAAAAAAYGzw8AzMzMzMzMjZ2mZM202CACYAMmZmtZmpZbmlZmxYGA",
+										label = "Devourer Single Target - Void-Scarred",
+									},
+									{
+										heroSpecific = false,
+										importString = "CgcBAAAAAAAAAAAAAAAAAAAAAAAWMzMzMzYMGmBAAAAAAY5BGz2gZAAAAAAAAYGzw8AzMzMzMzMjZ2mZM202CACYAMmZmtZmpZZmlZmhZGA",
+										label = "Devourer AoE - Void-Scarred",
+									},
+									{
+										heroSpecific = false,
+										importString = "CgcBAAAAAAAAAAAAAAAAAAAAAAA2MzMzMzMjxwMAAAAAAAmxAmBAAAAAAAgZMDzDMzMzMzMzMmZbmxYTbbAIgBwMzMz2Mz0sNz2MzwMDA",
+										label = "Devourer Delves - Void-Scarred",
+									},
+								},
+								url = "https://www.icy-veins.com/wow/devourer-demon-hunter-pve-dps-gear-best-in-slot",
+							},
 							mythicstats = {
 								enchants = {
 									{
@@ -3218,17 +3936,178 @@ ns.RegisterClassData("DEMONHUNTER", {
 				},
 				[126] = {
 					mplus = {
-						performance = {
-							difficulty = "Mythic+",
-							median = 188339.1,
-							metric = "dps",
-							outOf = 40,
-							rank = 8,
-							sample = 300,
-							top = 290642.1,
-							zone = "Mythic+ Season 2",
-						},
 						views = {
+							icyveins = {
+								consumables = {
+									{
+										category = "POTION",
+										itemID = 241288,
+										primary = true,
+									},
+									{
+										category = "HEALTH_POTION",
+										itemID = 271883,
+										primary = true,
+									},
+									{
+										category = "FOOD",
+										itemID = 275266,
+										primary = true,
+									},
+									{
+										category = "FOOD",
+										itemID = 242274,
+										primary = false,
+									},
+									{
+										category = "RUNE",
+										itemID = 259085,
+										primary = true,
+									},
+									{
+										category = "WEAPON_OIL",
+										itemID = 243733,
+										primary = true,
+									},
+								},
+								fetchedAt = "2026-08-21",
+								gear = {
+									BACK = {
+										{
+											dropSource = "Murder Row",
+											itemID = 251132,
+										},
+									},
+									CHEST = {
+										{
+											dropSource = "Catalyst from Den of Nalorakk",
+											enchantID = 243977,
+											itemID = 271540,
+										},
+									},
+									FEET = {
+										{
+											dropSource = "Crafted by Leatherworking",
+											enchantID = 243952,
+											gemID = 240167,
+											itemID = 244569,
+										},
+									},
+									FINGER1 = {
+										{
+											dropSource = "Temple of Sethraliss",
+											enchantID = 243956,
+											gemID = 240898,
+											itemID = 158366,
+										},
+									},
+									FINGER2 = {
+										{
+											dropSource = "Murder Row",
+											enchantID = 243956,
+											gemID = 240898,
+											itemID = 251136,
+										},
+									},
+									HANDS = {
+										{
+											dropSource = "Catalyst from King's Rest",
+											itemID = 271538,
+										},
+									},
+									HEAD = {
+										{
+											dropSource = "Catalyst from Temple of Sethraliss",
+											enchantID = 244007,
+											gemID = 240983,
+											itemID = 271537,
+										},
+									},
+									LEGS = {
+										{
+											dropSource = "Catalyst from Murder Row",
+											enchantID = 240133,
+											itemID = 271536,
+										},
+									},
+									MAINHAND = {
+										{
+											dropSource = "Altar of Fangs",
+											enchantID = 244031,
+											itemID = 273778,
+										},
+									},
+									NECK = {
+										{
+											dropSource = "Voidscar Arena",
+											gemID = 240898,
+											itemID = 251234,
+										},
+									},
+									OFFHAND = {
+										{
+											dropSource = "Altar of Fangs",
+											enchantID = 244031,
+											itemID = 273778,
+										},
+									},
+									SHOULDER = {
+										{
+											dropSource = "Catalyst from Voidscar Arena",
+											enchantID = 243990,
+											itemID = 271535,
+										},
+									},
+									TRINKET1 = {
+										{
+											dropSource = "Murder Row",
+											itemID = 250215,
+										},
+									},
+									TRINKET2 = {
+										{
+											dropSource = "Ruby Life Pools",
+											itemID = 193757,
+										},
+									},
+									WAIST = {
+										{
+											dropSource = "King's Rest",
+											gemID = 240898,
+											itemID = 159301,
+										},
+									},
+									WRIST = {
+										{
+											dropSource = "Crafted by Leatherworking",
+											gemID = 240898,
+											itemID = 244576,
+										},
+									},
+								},
+								notes = {
+									trinkets = "Devourer generally seeks to use one on-use trinket to align with Void Metamorphosis to enhance its burst windows, and then one strong passive trinket to go with it.",
+								},
+								source = "icyveins",
+								talentBuilds = {
+									{
+										heroSpecific = false,
+										importString = "CgcBAAAAAAAAAAAAAAAAAAAAAAAWMzMzMzMjBmBAAAAAAY5BGz2gZAAAAAAAAYGzw8AzMzMzMzMjZ2mZM202CACYAMmZmtZmpZbmlZmxYGA",
+										label = "Devourer Single Target - Void-Scarred",
+									},
+									{
+										heroSpecific = false,
+										importString = "CgcBAAAAAAAAAAAAAAAAAAAAAAAWMzMzMzYMGmBAAAAAAY5BGz2gZAAAAAAAAYGzw8AzMzMzMzMjZ2mZM202CACYAMmZmtZmpZZmlZmhZGA",
+										label = "Devourer AoE - Void-Scarred",
+									},
+									{
+										heroSpecific = false,
+										importString = "CgcBAAAAAAAAAAAAAAAAAAAAAAA2MzMzMzMjxwMAAAAAAAmxAmBAAAAAAAgZMDzDMzMzMzMzMmZbmxYTbbAIgBwMzMz2Mz0sNz2MzwMDA",
+										label = "Devourer Delves - Void-Scarred",
+									},
+								},
+								url = "https://www.icy-veins.com/wow/devourer-demon-hunter-pve-dps-gear-best-in-slot",
+							},
 							mythicstats = {
 								enchants = {
 									{

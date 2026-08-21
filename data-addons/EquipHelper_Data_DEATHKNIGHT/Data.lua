@@ -1,24 +1,205 @@
 -- GENERATED FILE -- do not edit by hand.
 -- Regenerar con: python -m scraper build
-local ADDON_NAME, ns = ...
 
-ns.RegisterClassData("DEATHKNIGHT", {
+EquipHelper_RegisterClassData("DEATHKNIGHT", {
 	specs = {
 		[250] = {
 			heroes = {
 				[31] = {
 					mplus = {
-						performance = {
-							difficulty = "Mythic+",
-							median = 122596.3,
-							metric = "dps",
-							outOf = 40,
-							rank = 28,
-							sample = 300,
-							top = 215625.1,
-							zone = "Mythic+ Season 2",
-						},
 						views = {
+							icyveins = {
+								consumables = {
+									{
+										category = "FLASK",
+										itemID = 241326,
+										primary = true,
+									},
+									{
+										category = "FLASK",
+										itemID = 241325,
+										primary = false,
+									},
+									{
+										category = "FLASK",
+										itemID = 241320,
+										primary = false,
+									},
+									{
+										category = "POTION",
+										itemID = 241288,
+										primary = true,
+									},
+									{
+										category = "HEALTH_POTION",
+										itemID = 271883,
+										primary = true,
+									},
+									{
+										category = "FOOD",
+										itemID = 255846,
+										primary = true,
+									},
+									{
+										category = "FOOD",
+										itemID = 242273,
+										primary = false,
+									},
+									{
+										category = "RUNE",
+										itemID = 259085,
+										primary = true,
+									},
+									{
+										category = "WEAPON_OIL",
+										itemID = 243733,
+										primary = true,
+									},
+								},
+								fetchedAt = "2026-08-21",
+								gear = {
+									BACK = {
+										{
+											dropSource = "Blinding Vale",
+											itemID = 251190,
+										},
+									},
+									CHEST = {
+										{
+											dropSource = "Temple of Sethraliss",
+											enchantID = 243977,
+											itemID = 159424,
+										},
+									},
+									FEET = {
+										{
+											dropSource = "Altar of Fangs",
+											enchantID = 244008,
+											itemID = 273777,
+										},
+									},
+									FINGER1 = {
+										{
+											dropSource = "King's Rest",
+											enchantID = 243956,
+											gemID = 240906,
+											itemID = 158366,
+										},
+									},
+									FINGER2 = {
+										{
+											dropSource = "King's Rest",
+											enchantID = 243956,
+											gemID = 240906,
+											itemID = 159459,
+										},
+									},
+									HANDS = {
+										{
+											dropSource = "Blinding Vale",
+											itemID = 251197,
+										},
+									},
+									HEAD = {
+										{
+											dropSource = "King's Rest",
+											enchantID = 243981,
+											itemID = 239050,
+										},
+									},
+									LEGS = {
+										{
+											dropSource = "Altar of Fangs",
+											enchantID = 244640,
+											itemID = 273776,
+										},
+									},
+									MAINHAND = {
+										{
+											dropSource = "Blinding Vale",
+											itemID = 251181,
+										},
+									},
+									NECK = {
+										{
+											dropSource = "Den of Nalorakk",
+											gemID = 240983,
+											itemID = 251173,
+										},
+									},
+									SHOULDER = {
+										{
+											dropSource = "Temple of Sethraliss",
+											enchantID = 243962,
+											itemID = 239037,
+										},
+									},
+									TRINKET1 = {
+										{
+											dropSource = "Temple of Sethraliss",
+											itemID = 158367,
+										},
+									},
+									TRINKET2 = {
+										{
+											dropSource = "Blinding Vale",
+											itemID = 250259,
+										},
+									},
+									WAIST = {
+										{
+											dropSource = "Temple of Sethraliss",
+											itemID = 159442,
+										},
+									},
+									WRIST = {
+										{
+											dropSource = "King's Rest",
+											itemID = 159409,
+										},
+									},
+								},
+								gems = {
+									{
+										itemID = 240983,
+									},
+									{
+										itemID = 240967,
+									},
+								},
+								notes = {
+									trinkets = "Drops at a 10 item level bonus and lines up perfectly with Reaper's Mark and Gift of the San'layn .",
+								},
+								source = "icyveins",
+								talentBuilds = {
+									{
+										heroSpecific = false,
+										importString = "CoPAAAAAAAAAAAAAAAAAAAAAAwYWmZGmxMzMMLzMz0MLGzMzMGAAAAwMzMzMzMDzYMDAMzMzAAAYgBmxiGLLAWGwGgZMDAAYmBwA",
+										label = "Blood Single Target - San'layn",
+									},
+									{
+										heroSpecific = false,
+										importString = "CoPAAAAAAAAAAAAAAAAAAAAAAwMzyMzwMmZmhZZmZmmZxYmxMGAAAAwMmZmZmZYGjBAjZmZGAAADMwMW0YZBwyA2AMjZAAAzMwwA",
+										label = "Blood Mythic+ - San'layn",
+									},
+									{
+										heroSpecific = false,
+										importString = "CoPAAAAAAAAAAAAAAAAAAAAAAwMzyMzwMmZmhZZmZmmZxYmZmxAAAAAmxMzMzMDzYMAYMzMzAAAMmtBGwCYbYCMsAYGzAAwMDAMA",
+										label = "Blood Delves - Deathbringer",
+									},
+									{
+										heroSpecific = false,
+										importString = "CoPAAAAAAAAAAAAAAAAAAAAAAwMzyMzwMmZmhZZmZmmZxYmxMGAAAAwMmZmZmZ8AzYAAzMzMzAAAYgBmxiGLLAWGwGgZYAAAzMwwA",
+										label = "Blood - Defensive San'layn",
+									},
+									{
+										heroSpecific = false,
+										importString = "CoPAAAAAAAAAAAAAAAAAAAAAAwMzyMzwMmZmhZZmZmmZxYmZmxAAAAAmxMzMzMjHYGDAYmZmZGAAgxsNwAWAbDTghFAzwAAwMDAMA",
+										label = "Blood - Defensive Deathbringer",
+									},
+								},
+								url = "https://www.icy-veins.com/wow/blood-death-knight-pve-tank-gear-best-in-slot",
+							},
 							mythicstats = {
 								enchants = {
 									{
@@ -768,17 +949,199 @@ ns.RegisterClassData("DEATHKNIGHT", {
 				},
 				[33] = {
 					mplus = {
-						performance = {
-							difficulty = "Mythic+",
-							median = 122596.3,
-							metric = "dps",
-							outOf = 40,
-							rank = 28,
-							sample = 300,
-							top = 215625.1,
-							zone = "Mythic+ Season 2",
-						},
 						views = {
+							icyveins = {
+								consumables = {
+									{
+										category = "FLASK",
+										itemID = 241326,
+										primary = true,
+									},
+									{
+										category = "FLASK",
+										itemID = 241325,
+										primary = false,
+									},
+									{
+										category = "FLASK",
+										itemID = 241320,
+										primary = false,
+									},
+									{
+										category = "POTION",
+										itemID = 241288,
+										primary = true,
+									},
+									{
+										category = "HEALTH_POTION",
+										itemID = 271883,
+										primary = true,
+									},
+									{
+										category = "FOOD",
+										itemID = 255846,
+										primary = true,
+									},
+									{
+										category = "FOOD",
+										itemID = 242273,
+										primary = false,
+									},
+									{
+										category = "RUNE",
+										itemID = 259085,
+										primary = true,
+									},
+									{
+										category = "WEAPON_OIL",
+										itemID = 243733,
+										primary = true,
+									},
+								},
+								fetchedAt = "2026-08-21",
+								gear = {
+									BACK = {
+										{
+											dropSource = "Blinding Vale",
+											itemID = 251190,
+										},
+									},
+									CHEST = {
+										{
+											dropSource = "Temple of Sethraliss",
+											enchantID = 243977,
+											itemID = 159424,
+										},
+									},
+									FEET = {
+										{
+											dropSource = "Altar of Fangs",
+											enchantID = 244008,
+											itemID = 273777,
+										},
+									},
+									FINGER1 = {
+										{
+											dropSource = "King's Rest",
+											enchantID = 243956,
+											gemID = 240906,
+											itemID = 158366,
+										},
+									},
+									FINGER2 = {
+										{
+											dropSource = "King's Rest",
+											enchantID = 243956,
+											gemID = 240906,
+											itemID = 159459,
+										},
+									},
+									HANDS = {
+										{
+											dropSource = "Blinding Vale",
+											itemID = 251197,
+										},
+									},
+									HEAD = {
+										{
+											dropSource = "King's Rest",
+											enchantID = 243981,
+											itemID = 239050,
+										},
+									},
+									LEGS = {
+										{
+											dropSource = "Altar of Fangs",
+											enchantID = 244640,
+											itemID = 273776,
+										},
+									},
+									MAINHAND = {
+										{
+											dropSource = "Blinding Vale",
+											itemID = 251181,
+										},
+									},
+									NECK = {
+										{
+											dropSource = "Den of Nalorakk",
+											gemID = 240983,
+											itemID = 251173,
+										},
+									},
+									SHOULDER = {
+										{
+											dropSource = "Temple of Sethraliss",
+											enchantID = 243962,
+											itemID = 239037,
+										},
+									},
+									TRINKET1 = {
+										{
+											dropSource = "Temple of Sethraliss",
+											itemID = 158367,
+										},
+									},
+									TRINKET2 = {
+										{
+											dropSource = "Blinding Vale",
+											itemID = 250259,
+										},
+									},
+									WAIST = {
+										{
+											dropSource = "Temple of Sethraliss",
+											itemID = 159442,
+										},
+									},
+									WRIST = {
+										{
+											dropSource = "King's Rest",
+											itemID = 159409,
+										},
+									},
+								},
+								gems = {
+									{
+										itemID = 240983,
+									},
+									{
+										itemID = 240967,
+									},
+								},
+								notes = {
+									trinkets = "Drops at a 10 item level bonus and lines up perfectly with Reaper's Mark and Gift of the San'layn .",
+								},
+								source = "icyveins",
+								talentBuilds = {
+									{
+										heroSpecific = false,
+										importString = "CoPAAAAAAAAAAAAAAAAAAAAAAwYWmZGmxMzMMLzMz0MLGzMzMGAAAAwMzMzMzMDzYMDAMzMzAAAYgBmxiGLLAWGwGgZMDAAYmBwA",
+										label = "Blood Single Target - San'layn",
+									},
+									{
+										heroSpecific = false,
+										importString = "CoPAAAAAAAAAAAAAAAAAAAAAAwMzyMzwMmZmhZZmZmmZxYmxMGAAAAwMmZmZmZYGjBAjZmZGAAADMwMW0YZBwyA2AMjZAAAzMwwA",
+										label = "Blood Mythic+ - San'layn",
+									},
+									{
+										heroSpecific = false,
+										importString = "CoPAAAAAAAAAAAAAAAAAAAAAAwMzyMzwMmZmhZZmZmmZxYmZmxAAAAAmxMzMzMDzYMAYMzMzAAAMmtBGwCYbYCMsAYGzAAwMDAMA",
+										label = "Blood Delves - Deathbringer",
+									},
+									{
+										heroSpecific = false,
+										importString = "CoPAAAAAAAAAAAAAAAAAAAAAAwMzyMzwMmZmhZZmZmmZxYmxMGAAAAwMmZmZmZ8AzYAAzMzMzAAAYgBmxiGLLAWGwGgZYAAAzMwwA",
+										label = "Blood - Defensive San'layn",
+									},
+									{
+										heroSpecific = false,
+										importString = "CoPAAAAAAAAAAAAAAAAAAAAAAwMzyMzwMmZmhZZmZmmZxYmZmxAAAAAmxMzMzMjHYGDAYmZmZGAAgxsNwAWAbDTghFAzwAAwMDAMA",
+										label = "Blood - Defensive Deathbringer",
+									},
+								},
+								url = "https://www.icy-veins.com/wow/blood-death-knight-pve-tank-gear-best-in-slot",
+							},
 							mythicstats = {
 								enchants = {
 									{
@@ -1456,17 +1819,202 @@ ns.RegisterClassData("DEATHKNIGHT", {
 			heroes = {
 				[33] = {
 					mplus = {
-						performance = {
-							difficulty = "Mythic+",
-							median = 154881.8,
-							metric = "dps",
-							outOf = 40,
-							rank = 23,
-							sample = 300,
-							top = 274108.7,
-							zone = "Mythic+ Season 2",
-						},
 						views = {
+							icyveins = {
+								consumables = {
+									{
+										category = "FLASK",
+										itemID = 241326,
+										primary = true,
+									},
+									{
+										category = "FLASK",
+										itemID = 241322,
+										primary = false,
+									},
+									{
+										category = "FLASK",
+										itemID = 241325,
+										primary = false,
+									},
+									{
+										category = "POTION",
+										itemID = 241288,
+										primary = true,
+									},
+									{
+										category = "HEALTH_POTION",
+										itemID = 271883,
+										primary = true,
+									},
+									{
+										category = "FOOD",
+										itemID = 255846,
+										primary = true,
+									},
+									{
+										category = "FOOD",
+										itemID = 255845,
+										primary = false,
+									},
+									{
+										category = "FOOD",
+										itemID = 255847,
+										primary = false,
+									},
+									{
+										category = "FOOD",
+										itemID = 242275,
+										primary = false,
+									},
+									{
+										category = "RUNE",
+										itemID = 259085,
+										primary = true,
+									},
+								},
+								fetchedAt = "2026-08-21",
+								gear = {
+									BACK = {
+										{
+											dropSource = "Crafted by Tailoring",
+											gemID = 240167,
+											itemID = 239656,
+										},
+									},
+									CHEST = {
+										{
+											dropSource = "Catalyst from Temple of Sethraliss",
+											enchantID = 243977,
+											itemID = 271477,
+										},
+									},
+									FEET = {
+										{
+											dropSource = "King's Rest",
+											enchantID = 243952,
+											itemID = 159412,
+										},
+									},
+									FINGER1 = {
+										{
+											dropSource = "Altar of Fangs",
+											enchantID = 243956,
+											gemID = 240908,
+											itemID = 273792,
+										},
+									},
+									FINGER2 = {
+										{
+											dropSource = "Voidscar Arena",
+											enchantID = 243956,
+											gemID = 240908,
+											itemID = 252258,
+										},
+									},
+									HANDS = {
+										{
+											dropSource = "Catalyst from King's Rest",
+											itemID = 271475,
+										},
+									},
+									HEAD = {
+										{
+											dropSource = "Catalyst from Voidscar Arena",
+											enchantID = 244007,
+											gemID = 240983,
+											itemID = 271474,
+										},
+									},
+									LEGS = {
+										{
+											dropSource = "Catalyst from Altar of Fangs",
+											enchantID = 244640,
+											itemID = 271473,
+										},
+									},
+									MAINHAND = {
+										{
+											dropSource = "Temple of Sethraliss",
+											itemID = 158373,
+										},
+									},
+									NECK = {
+										{
+											dropSource = "Voidscar Arena",
+											gemID = 240906,
+											itemID = 251234,
+										},
+									},
+									OFFHAND = {
+										{
+											dropSource = "Temple of Sethraliss",
+											itemID = 158373,
+										},
+									},
+									SHOULDER = {
+										{
+											dropSource = "Catalyst from Temple of Sethraliss",
+											enchantID = 243990,
+											itemID = 271472,
+										},
+									},
+									TRINKET1 = {
+										{
+											dropSource = "The Blinding Vale",
+											itemID = 250238,
+										},
+									},
+									TRINKET2 = {
+										{
+											dropSource = "Murder Row",
+											itemID = 250228,
+										},
+									},
+									WAIST = {
+										{
+											dropSource = "King's Rest",
+											gemID = 240908,
+											itemID = 159418,
+										},
+									},
+									WRIST = {
+										{
+											dropSource = "Crafted by Blacksmithing",
+											gemID = 240906,
+											itemID = 237834,
+										},
+									},
+								},
+								gems = {
+									{
+										itemID = 240983,
+									},
+									{
+										itemID = 240906,
+									},
+									{
+										itemID = 240908,
+									},
+								},
+								notes = {
+									trinkets = "Frost Death Knight favours a combination of one active trinket and one passive trinket. For active trinkets, Voracious Heart of Ula'tek is by far our best option with great synergy with our 1.5 minute Cooldowns. It also comes at a higher ilvl due to dropping from the final boss.",
+								},
+								source = "icyveins",
+								talentBuilds = {
+									{
+										heroSpecific = false,
+										importString = "CsPAAAAAAAAAAAAAAAAAAAAAAMDwMjZmZGDz2MzMzMLmZmMjxYYmxgZMzMzMzMDAAAAAAAAAgNzihBGY2YohNMzYmZgBgBgZGgB",
+										label = "Frost Single Target",
+									},
+									{
+										heroSpecific = false,
+										importString = "CsPAAAAAAAAAAAAAAAAAAAAAAMDYmZMzMzYY2mZmZmZxMjMjxYYMGMzMzMzMzMDAAAAAAAAAjZbgBsAWGmAjFMzYmZgBghZGAgB",
+										label = "Frost Mythic+/Delves",
+									},
+								},
+								url = "https://www.icy-veins.com/wow/frost-death-knight-pve-dps-gear-best-in-slot",
+							},
 							mythicstats = {
 								enchants = {
 									{
@@ -2272,17 +2820,186 @@ ns.RegisterClassData("DEATHKNIGHT", {
 			heroes = {
 				[31] = {
 					mplus = {
-						performance = {
-							difficulty = "Mythic+",
-							median = 180034.1,
-							metric = "dps",
-							outOf = 40,
-							rank = 12,
-							sample = 300,
-							top = 306291.5,
-							zone = "Mythic+ Season 2",
-						},
 						views = {
+							icyveins = {
+								consumables = {
+									{
+										category = "FLASK",
+										itemID = 241326,
+										primary = true,
+									},
+									{
+										category = "FLASK",
+										itemID = 241322,
+										primary = false,
+									},
+									{
+										category = "POTION",
+										itemID = 241288,
+										primary = true,
+									},
+									{
+										category = "HEALTH_POTION",
+										itemID = 271883,
+										primary = true,
+									},
+									{
+										category = "FOOD",
+										itemID = 255846,
+										primary = true,
+									},
+									{
+										category = "FOOD",
+										itemID = 255845,
+										primary = false,
+									},
+									{
+										category = "FOOD",
+										itemID = 255847,
+										primary = false,
+									},
+									{
+										category = "FOOD",
+										itemID = 242275,
+										primary = false,
+									},
+									{
+										category = "RUNE",
+										itemID = 259085,
+										primary = true,
+									},
+								},
+								fetchedAt = "2026-08-21",
+								gear = {
+									BACK = {
+										{
+											dropSource = "Crafted by Tailoring",
+											gemID = 240167,
+											itemID = 239656,
+										},
+									},
+									CHEST = {
+										{
+											dropSource = "Catalyst from Temple of Sethraliss",
+											enchantID = 243977,
+											itemID = 271477,
+										},
+									},
+									FEET = {
+										{
+											dropSource = "King's Rest",
+											enchantID = 243952,
+											itemID = 159412,
+										},
+									},
+									FINGER1 = {
+										{
+											dropSource = "Altar of Fangs",
+											enchantID = 243956,
+											gemID = 240908,
+											itemID = 273792,
+										},
+									},
+									FINGER2 = {
+										{
+											dropSource = "Voidscar Arena",
+											enchantID = 243956,
+											gemID = 240908,
+											itemID = 252258,
+										},
+									},
+									HANDS = {
+										{
+											dropSource = "Catalyst from King's Rest",
+											itemID = 271475,
+										},
+									},
+									HEAD = {
+										{
+											dropSource = "Catalyst from Voidscar Arena",
+											enchantID = 244007,
+											gemID = 240983,
+											itemID = 271474,
+										},
+									},
+									LEGS = {
+										{
+											dropSource = "Catalyst from Altar of Fangs",
+											enchantID = 244640,
+											itemID = 271473,
+										},
+									},
+									MAINHAND = {
+										{
+											dropSource = "Murder Row",
+											itemID = 251134,
+										},
+									},
+									NECK = {
+										{
+											dropSource = "Voidscar Arena",
+											gemID = 240908,
+											itemID = 251234,
+										},
+									},
+									SHOULDER = {
+										{
+											dropSource = "Catalyst from Murder Row",
+											enchantID = 243990,
+											itemID = 271472,
+										},
+									},
+									TRINKET1 = {
+										{
+											dropSource = "The Blinding Vale",
+											itemID = 250238,
+										},
+									},
+									TRINKET2 = {
+										{
+											dropSource = "Murder Row",
+											itemID = 250228,
+										},
+									},
+									WAIST = {
+										{
+											dropSource = "King's Rest",
+											gemID = 240908,
+											itemID = 159418,
+										},
+									},
+									WRIST = {
+										{
+											dropSource = "Crafted by Blacksmithing",
+											gemID = 240908,
+											itemID = 237834,
+										},
+									},
+								},
+								gems = {
+									{
+										itemID = 240983,
+									},
+									{
+										itemID = 240906,
+									},
+									{
+										itemID = 240908,
+									},
+								},
+								notes = {
+									trinkets = "Unholy Death Knight favours a combination of one active trinket and one passive trinket. For active trinkets, Voracious Heart of Ula'tek is by far our best option with great synergy with our 1.5 minute Cooldowns. It also comes at a higher ilvl due to dropping from the final boss.",
+								},
+								source = "icyveins",
+								talentBuilds = {
+									{
+										heroSpecific = false,
+										importString = "CwPAAAAAAAAAAAAAAAAAAAAAAAwMjZMzYY2mZmZa2MzMjZAAAAAAAAgZGGDAWmxMz2MzYmZAbmFDDMwsxQjFAMDAjZmxMAzMzYMA",
+										label = "Unholy Single-Target",
+									},
+								},
+								url = "https://www.icy-veins.com/wow/unholy-death-knight-pve-dps-gear-best-in-slot",
+							},
 							mythicstats = {
 								enchants = {
 									{
@@ -2932,17 +3649,186 @@ ns.RegisterClassData("DEATHKNIGHT", {
 				},
 				[32] = {
 					mplus = {
-						performance = {
-							difficulty = "Mythic+",
-							median = 180034.1,
-							metric = "dps",
-							outOf = 40,
-							rank = 12,
-							sample = 300,
-							top = 306291.5,
-							zone = "Mythic+ Season 2",
-						},
 						views = {
+							icyveins = {
+								consumables = {
+									{
+										category = "FLASK",
+										itemID = 241326,
+										primary = true,
+									},
+									{
+										category = "FLASK",
+										itemID = 241322,
+										primary = false,
+									},
+									{
+										category = "POTION",
+										itemID = 241288,
+										primary = true,
+									},
+									{
+										category = "HEALTH_POTION",
+										itemID = 271883,
+										primary = true,
+									},
+									{
+										category = "FOOD",
+										itemID = 255846,
+										primary = true,
+									},
+									{
+										category = "FOOD",
+										itemID = 255845,
+										primary = false,
+									},
+									{
+										category = "FOOD",
+										itemID = 255847,
+										primary = false,
+									},
+									{
+										category = "FOOD",
+										itemID = 242275,
+										primary = false,
+									},
+									{
+										category = "RUNE",
+										itemID = 259085,
+										primary = true,
+									},
+								},
+								fetchedAt = "2026-08-21",
+								gear = {
+									BACK = {
+										{
+											dropSource = "Crafted by Tailoring",
+											gemID = 240167,
+											itemID = 239656,
+										},
+									},
+									CHEST = {
+										{
+											dropSource = "Catalyst from Temple of Sethraliss",
+											enchantID = 243977,
+											itemID = 271477,
+										},
+									},
+									FEET = {
+										{
+											dropSource = "King's Rest",
+											enchantID = 243952,
+											itemID = 159412,
+										},
+									},
+									FINGER1 = {
+										{
+											dropSource = "Altar of Fangs",
+											enchantID = 243956,
+											gemID = 240908,
+											itemID = 273792,
+										},
+									},
+									FINGER2 = {
+										{
+											dropSource = "Voidscar Arena",
+											enchantID = 243956,
+											gemID = 240908,
+											itemID = 252258,
+										},
+									},
+									HANDS = {
+										{
+											dropSource = "Catalyst from King's Rest",
+											itemID = 271475,
+										},
+									},
+									HEAD = {
+										{
+											dropSource = "Catalyst from Voidscar Arena",
+											enchantID = 244007,
+											gemID = 240983,
+											itemID = 271474,
+										},
+									},
+									LEGS = {
+										{
+											dropSource = "Catalyst from Altar of Fangs",
+											enchantID = 244640,
+											itemID = 271473,
+										},
+									},
+									MAINHAND = {
+										{
+											dropSource = "Murder Row",
+											itemID = 251134,
+										},
+									},
+									NECK = {
+										{
+											dropSource = "Voidscar Arena",
+											gemID = 240908,
+											itemID = 251234,
+										},
+									},
+									SHOULDER = {
+										{
+											dropSource = "Catalyst from Murder Row",
+											enchantID = 243990,
+											itemID = 271472,
+										},
+									},
+									TRINKET1 = {
+										{
+											dropSource = "The Blinding Vale",
+											itemID = 250238,
+										},
+									},
+									TRINKET2 = {
+										{
+											dropSource = "Murder Row",
+											itemID = 250228,
+										},
+									},
+									WAIST = {
+										{
+											dropSource = "King's Rest",
+											gemID = 240908,
+											itemID = 159418,
+										},
+									},
+									WRIST = {
+										{
+											dropSource = "Crafted by Blacksmithing",
+											gemID = 240908,
+											itemID = 237834,
+										},
+									},
+								},
+								gems = {
+									{
+										itemID = 240983,
+									},
+									{
+										itemID = 240906,
+									},
+									{
+										itemID = 240908,
+									},
+								},
+								notes = {
+									trinkets = "Unholy Death Knight favours a combination of one active trinket and one passive trinket. For active trinkets, Voracious Heart of Ula'tek is by far our best option with great synergy with our 1.5 minute Cooldowns. It also comes at a higher ilvl due to dropping from the final boss.",
+								},
+								source = "icyveins",
+								talentBuilds = {
+									{
+										heroSpecific = false,
+										importString = "CwPAAAAAAAAAAAAAAAAAAAAAAAwMjZMzYY2mZmZa2MzMjZAAAAAAAAgZGGDAWmxMz2MzYmZAbmFDDMwsxQjFAMDAjZmxMAzMzYMA",
+										label = "Unholy Single-Target",
+									},
+								},
+								url = "https://www.icy-veins.com/wow/unholy-death-knight-pve-dps-gear-best-in-slot",
+							},
 							mythicstats = {
 								enchants = {
 									{

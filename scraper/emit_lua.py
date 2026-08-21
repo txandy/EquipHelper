@@ -23,8 +23,31 @@ local ADDON_NAME, ns = ...
 
 """
 
+# Los datos de clase viven en paquetes aparte, que reciben su propio namespace
+# por varargs y por tanto no pueden usar `ns`. Se registran por la unica funcion
+# global que expone el addon principal.
+DATA_HEADER = """-- GENERATED FILE -- do not edit by hand.
+-- Regenerar con: python -m scraper build
+
+"""
+
+DATA_PREFIX = "EquipHelper_Data_"
+DATA_DIR_NAME = "data-addons"
+
+DATA_TOC = """## Interface: 120000
+## Title: |cff808080EquipHelper|r Data: {label}
+## Author: txandy
+## Version: @project-version@
+## LoadOnDemand: 1
+## Dependencies: EquipHelper
+
+Data.lua
+"""
+
 TOC_BEGIN = "# BEGIN GENERATED DATA"
 TOC_END = "# END GENERATED DATA"
+PKGMETA_BEGIN = "  # BEGIN GENERATED DATA PACKAGES"
+PKGMETA_END = "  # END GENERATED DATA PACKAGES"
 
 _LUA_IDENT = re.compile(r"^[A-Za-z_][A-Za-z0-9_]*$")
 
@@ -144,11 +167,6 @@ def _performance_table(perf: dict | None) -> dict | None:
     }
 
 
-def class_file_name(class_name: str) -> str:
-    """'Death Knight' -> 'DeathKnight.lua'."""
-    return class_name.replace(" ", "").replace("-", "") + ".lua"
-
-
 def render_class(class_file: str, specs: list[SpecGuides]) -> str:
     payload: dict = {"specs": {}}
 
@@ -163,10 +181,11 @@ def render_class(class_file: str, specs: list[SpecGuides]) -> str:
         payload["specs"][spec.spec_id] = {"name": spec.spec_name, "heroes": heroes}
 
     body = lua_value(payload, 0)
-    return f'{HEADER}ns.RegisterClassData("{class_file}", {body})\n'
+    return f'{DATA_HEADER}EquipHelper_RegisterClassData("{class_file}", {body})\n'
 
 
-def render_manifest(generated: date, sources: list[dict], counts: dict) -> str:
+def render_manifest(generated: date, sources: list[dict], counts: dict,
+                    classes: list[str] | None = None) -> str:
     epoch = int(datetime(generated.year, generated.month, generated.day,
                          tzinfo=timezone.utc).timestamp())
     payload = {
@@ -174,6 +193,9 @@ def render_manifest(generated: date, sources: list[dict], counts: dict) -> str:
         "generatedEpoch": epoch,
         "specCount": counts.get("specs", 0),
         "guideCount": counts.get("guides", 0),
+        # Con carga bajo demanda ns.data solo tiene las clases ya abiertas, asi
+        # que el desplegable necesita la lista completa desde aqui.
+        "classes": sorted(classes or []),
         "sources": sources,
     }
     return f"{HEADER}ns.Manifest = {lua_value(payload, 0)}\n"
@@ -190,33 +212,75 @@ def update_toc(toc_path: Path, data_files: list[str]) -> None:
             f"{toc_path} no tiene los marcadores {TOC_BEGIN}/{TOC_END}"
         ) from exc
 
-    block = ["Data\\Manifest.lua"] + [f"Data\\{name}" for name in sorted(data_files)]
     toc_path.write_text(
+        "\n".join(lines[:start + 1] + list(data_files) + lines[end:]) + "\n",
+        encoding="utf-8",
+    )
+
+
+def update_pkgmeta(pkgmeta_path: Path, class_files: list[str]) -> None:
+    """Mantiene una entrada move-folders por paquete de datos.
+
+    El empaquetador copia el repo entero y luego mueve carpetas, asi que cada
+    paquete hermano necesita decir donde acaba. Se genera para que anadir una
+    clase no sea un fichero mas que recordar.
+    """
+    lines = pkgmeta_path.read_text(encoding="utf-8").splitlines()
+    try:
+        start = lines.index(PKGMETA_BEGIN)
+        end = lines.index(PKGMETA_END)
+    except ValueError as exc:
+        raise RuntimeError(
+            f"{pkgmeta_path} no tiene los marcadores {PKGMETA_BEGIN}/{PKGMETA_END}"
+        ) from exc
+
+    block = [
+        f"  EquipHelper/{DATA_DIR_NAME}/{DATA_PREFIX}{cf}: {DATA_PREFIX}{cf}"
+        for cf in sorted(class_files)
+    ]
+    pkgmeta_path.write_text(
         "\n".join(lines[:start + 1] + block + lines[end:]) + "\n", encoding="utf-8"
     )
 
 
+def write_data_package(root: Path, class_file: str, class_name: str,
+                       specs: list[SpecGuides]) -> Path:
+    """Carpeta, .toc y Data.lua de un paquete de carga bajo demanda."""
+    folder = root / f"{DATA_PREFIX}{class_file}"
+    folder.mkdir(parents=True, exist_ok=True)
+
+    (folder / f"{DATA_PREFIX}{class_file}.toc").write_text(
+        DATA_TOC.format(label=class_name), encoding="utf-8")
+    (folder / "Data.lua").write_text(render_class(class_file, specs), encoding="utf-8")
+
+    return folder
+
+
 def write_all(out_dir: Path, toc_path: Path | None, by_class: dict[str, list[SpecGuides]],
-              generated: date, sources: list[dict]) -> list[Path]:
+              generated: date, sources: list[dict],
+              data_root: Path | None = None, pkgmeta_path: Path | None = None) -> list[Path]:
     """toc_path a None deja el .toc intacto, para builds parciales."""
     out_dir.mkdir(parents=True, exist_ok=True)
     written: list[Path] = []
-    names: list[str] = []
 
     total_guides = 0
     for class_file, specs in sorted(by_class.items()):
-        file_name = class_file_name(specs[0].class_name)
-        path = out_dir / file_name
-        path.write_text(render_class(class_file, specs), encoding="utf-8")
-        written.append(path)
-        names.append(file_name)
+        if data_root is not None:
+            written.append(
+                write_data_package(data_root, class_file, specs[0].class_name, specs))
         total_guides += sum(len(s.guides) for s in specs)
 
     counts = {"specs": sum(len(s) for s in by_class.values()), "guides": total_guides}
     manifest = out_dir / "Manifest.lua"
-    manifest.write_text(render_manifest(generated, sources, counts), encoding="utf-8")
+    manifest.write_text(
+        render_manifest(generated, sources, counts, sorted(by_class)), encoding="utf-8")
     written.append(manifest)
 
     if toc_path is not None:
-        update_toc(toc_path, names)
+        # El addon principal solo carga el manifiesto; el resto llega por
+        # C_AddOns.LoadAddOn cuando el jugador abre esa clase.
+        update_toc(toc_path, ["Data\\Manifest.lua"])
+    if pkgmeta_path is not None:
+        update_pkgmeta(pkgmeta_path, sorted(by_class))
+
     return written

@@ -4,6 +4,21 @@ package-as: EquipHelper
 # el mismo repo sin acabar dentro del zip que se publica.
 move-folders:
   EquipHelper/EquipHelper: EquipHelper
+  # BEGIN GENERATED DATA PACKAGES
+  EquipHelper/data-addons/EquipHelper_Data_DEATHKNIGHT: EquipHelper_Data_DEATHKNIGHT
+  EquipHelper/data-addons/EquipHelper_Data_DEMONHUNTER: EquipHelper_Data_DEMONHUNTER
+  EquipHelper/data-addons/EquipHelper_Data_DRUID: EquipHelper_Data_DRUID
+  EquipHelper/data-addons/EquipHelper_Data_EVOKER: EquipHelper_Data_EVOKER
+  EquipHelper/data-addons/EquipHelper_Data_HUNTER: EquipHelper_Data_HUNTER
+  EquipHelper/data-addons/EquipHelper_Data_MAGE: EquipHelper_Data_MAGE
+  EquipHelper/data-addons/EquipHelper_Data_MONK: EquipHelper_Data_MONK
+  EquipHelper/data-addons/EquipHelper_Data_PALADIN: EquipHelper_Data_PALADIN
+  EquipHelper/data-addons/EquipHelper_Data_PRIEST: EquipHelper_Data_PRIEST
+  EquipHelper/data-addons/EquipHelper_Data_ROGUE: EquipHelper_Data_ROGUE
+  EquipHelper/data-addons/EquipHelper_Data_SHAMAN: EquipHelper_Data_SHAMAN
+  EquipHelper/data-addons/EquipHelper_Data_WARLOCK: EquipHelper_Data_WARLOCK
+  EquipHelper/data-addons/EquipHelper_Data_WARRIOR: EquipHelper_Data_WARRIOR
+  # END GENERATED DATA PACKAGES
 
 ignore:
   - scraper

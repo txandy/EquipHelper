@@ -1,24 +1,220 @@
 -- GENERATED FILE -- do not edit by hand.
 -- Regenerar con: python -m scraper build
-local ADDON_NAME, ns = ...
 
-ns.RegisterClassData("MONK", {
+EquipHelper_RegisterClassData("MONK", {
 	specs = {
 		[268] = {
 			heroes = {
 				[65] = {
 					mplus = {
-						performance = {
-							difficulty = "Mythic+",
-							median = 90924.8,
-							metric = "dps",
-							outOf = 40,
-							rank = 33,
-							sample = 300,
-							top = 164811.9,
-							zone = "Mythic+ Season 2",
-						},
 						views = {
+							icyveins = {
+								consumables = {
+									{
+										category = "FLASK",
+										itemID = 241320,
+										primary = true,
+									},
+									{
+										category = "FLASK",
+										itemID = 241326,
+										primary = false,
+									},
+									{
+										category = "FLASK",
+										itemID = 241319,
+										primary = false,
+									},
+									{
+										category = "POTION",
+										itemID = 271886,
+										primary = true,
+									},
+									{
+										category = "FOOD",
+										itemID = 255845,
+										primary = true,
+									},
+									{
+										category = "FOOD",
+										itemID = 255846,
+										primary = false,
+									},
+									{
+										category = "FOOD",
+										itemID = 242275,
+										primary = false,
+									},
+									{
+										category = "FOOD",
+										itemID = 255847,
+										primary = false,
+									},
+									{
+										category = "FOOD",
+										itemID = 242273,
+										primary = false,
+									},
+									{
+										category = "FOOD",
+										itemID = 242274,
+										primary = false,
+									},
+									{
+										category = "RUNE",
+										itemID = 259085,
+										primary = true,
+									},
+									{
+										category = "WEAPON_OIL",
+										itemID = 243733,
+										primary = true,
+									},
+								},
+								fetchedAt = "2026-08-21",
+								gear = {
+									BACK = {
+										{
+											dropSource = "Murder Row",
+											itemID = 251132,
+										},
+									},
+									CHEST = {
+										{
+											dropSource = "Voidscar Arena",
+											enchantID = 243977,
+											itemID = 271522,
+										},
+									},
+									FEET = {
+										{
+											dropSource = "King's Rest",
+											enchantID = 243983,
+											itemID = 159304,
+										},
+									},
+									FINGER1 = {
+										{
+											dropSource = "Den of Nalorakk",
+											enchantID = 243956,
+											gemID = 240914,
+											itemID = 251148,
+										},
+									},
+									FINGER2 = {
+										{
+											dropSource = "Jewelcrafting ( see note )",
+											enchantID = 243956,
+											gemID = 240914,
+											itemID = 251513,
+										},
+									},
+									HANDS = {
+										{
+											dropSource = "Ruby Life Pools",
+											itemID = 271520,
+										},
+									},
+									HEAD = {
+										{
+											dropSource = "Ruby Life Pools",
+											enchantID = 243950,
+											gemID = 240914,
+											itemID = 271519,
+										},
+									},
+									LEGS = {
+										{
+											dropSource = "Temple of Sethraliss",
+											enchantID = 244640,
+											itemID = 271518,
+										},
+									},
+									MAINHAND = {
+										{
+											dropSource = "The Blinding Vale",
+											enchantID = 244029,
+											itemID = 251192,
+										},
+									},
+									NECK = {
+										{
+											dropSource = "Voidscar Arena",
+											gemID = 240983,
+											itemID = 251234,
+										},
+									},
+									SHOULDER = {
+										{
+											dropSource = "Altar of Fangs",
+											enchantID = 244021,
+											itemID = 271517,
+										},
+									},
+									TRINKET1 = {
+										{
+											dropSource = "Voidscar Arena",
+											itemID = 250245,
+										},
+									},
+									TRINKET2 = {
+										{
+											dropSource = "Temple of Sethraliss",
+											itemID = 158374,
+										},
+									},
+									WAIST = {
+										{
+											dropSource = "The Blinding Vale",
+											gemID = 240914,
+											itemID = 251189,
+										},
+									},
+									WRIST = {
+										{
+											dropSource = "Leatherworking ( see note )",
+											gemID = 240914,
+											itemID = 244576,
+										},
+									},
+								},
+								gems = {
+									{
+										itemID = 240910,
+									},
+									{
+										itemID = 240914,
+									},
+									{
+										itemID = 240983,
+									},
+									{
+										itemID = 240967,
+									},
+								},
+								notes = {
+									trinkets = "Trinkets are a gear slot that can provide shifting value across different areas of content. They are also the easiest piece to alter how offensive or defensive-minded you wish to be. Because of this, you should keep many of the trinkets you obtain and be ready to swap them out when the situation calls for it. If you are only interested in the absolute best general choices, then look to collect the damage/hybrid and defensive choices below.",
+								},
+								source = "icyveins",
+								talentBuilds = {
+									{
+										heroSpecific = false,
+										importString = "CwQAAAAAAAAAAAAAAAAAAAAAAAAAAgZbzYGPwYWM2mxMDAAAAAAALLYEmBmhxmZMmZmZMzywMmZZYZzy2sNMLAAwysMtMbzsMAAAAzwGYmBMNGAAwA",
+										label = "Brewmaster Raiding (Defensive) - Master of Harmony",
+									},
+									{
+										heroSpecific = false,
+										importString = "CwQAAAAAAAAAAAAAAAAAAAAAAAAAAwMLbGDzwyM2MmZMAAAAAAALLgYmBmhBzgZmZGzsNMjZWGW2stNbzYWAAgNAAAwsNLNzMzGDbAMzw0YADAYA",
+										label = "Brewmaster Mythic+ (Standard) - Shado Pan",
+									},
+									{
+										heroSpecific = false,
+										importString = "CwQAAAAAAAAAAAAAAAAAAAAAAAAAAgZZzYGzwyM2MmZMAAAAAAALLgYmBmhBzgZmZGzsNMjZWGW2ssNbzYWAAglZZaZ2mZZAAAAMsBmZATjBMAgB",
+										label = "Brewmaster Delves/Open World - Master of Harmony",
+									},
+								},
+								url = "https://www.icy-veins.com/wow/brewmaster-monk-pve-tank-gear-best-in-slot",
+							},
 							mythicstats = {
 								enchants = {
 									{
@@ -747,17 +943,214 @@ ns.RegisterClassData("MONK", {
 				},
 				[66] = {
 					mplus = {
-						performance = {
-							difficulty = "Mythic+",
-							median = 90924.8,
-							metric = "dps",
-							outOf = 40,
-							rank = 33,
-							sample = 300,
-							top = 164811.9,
-							zone = "Mythic+ Season 2",
-						},
 						views = {
+							icyveins = {
+								consumables = {
+									{
+										category = "FLASK",
+										itemID = 241320,
+										primary = true,
+									},
+									{
+										category = "FLASK",
+										itemID = 241326,
+										primary = false,
+									},
+									{
+										category = "FLASK",
+										itemID = 241319,
+										primary = false,
+									},
+									{
+										category = "POTION",
+										itemID = 271886,
+										primary = true,
+									},
+									{
+										category = "FOOD",
+										itemID = 255845,
+										primary = true,
+									},
+									{
+										category = "FOOD",
+										itemID = 255846,
+										primary = false,
+									},
+									{
+										category = "FOOD",
+										itemID = 242275,
+										primary = false,
+									},
+									{
+										category = "FOOD",
+										itemID = 255847,
+										primary = false,
+									},
+									{
+										category = "FOOD",
+										itemID = 242273,
+										primary = false,
+									},
+									{
+										category = "FOOD",
+										itemID = 242274,
+										primary = false,
+									},
+									{
+										category = "RUNE",
+										itemID = 259085,
+										primary = true,
+									},
+									{
+										category = "WEAPON_OIL",
+										itemID = 243733,
+										primary = true,
+									},
+								},
+								fetchedAt = "2026-08-21",
+								gear = {
+									BACK = {
+										{
+											dropSource = "Murder Row",
+											itemID = 251132,
+										},
+									},
+									CHEST = {
+										{
+											dropSource = "Voidscar Arena",
+											enchantID = 243977,
+											itemID = 271522,
+										},
+									},
+									FEET = {
+										{
+											dropSource = "King's Rest",
+											enchantID = 243983,
+											itemID = 159304,
+										},
+									},
+									FINGER1 = {
+										{
+											dropSource = "Den of Nalorakk",
+											enchantID = 243956,
+											gemID = 240914,
+											itemID = 251148,
+										},
+									},
+									FINGER2 = {
+										{
+											dropSource = "Jewelcrafting ( see note )",
+											enchantID = 243956,
+											gemID = 240914,
+											itemID = 251513,
+										},
+									},
+									HANDS = {
+										{
+											dropSource = "Ruby Life Pools",
+											itemID = 271520,
+										},
+									},
+									HEAD = {
+										{
+											dropSource = "Ruby Life Pools",
+											enchantID = 243950,
+											gemID = 240914,
+											itemID = 271519,
+										},
+									},
+									LEGS = {
+										{
+											dropSource = "Temple of Sethraliss",
+											enchantID = 244640,
+											itemID = 271518,
+										},
+									},
+									MAINHAND = {
+										{
+											dropSource = "The Blinding Vale",
+											enchantID = 244029,
+											itemID = 251192,
+										},
+									},
+									NECK = {
+										{
+											dropSource = "Voidscar Arena",
+											gemID = 240983,
+											itemID = 251234,
+										},
+									},
+									SHOULDER = {
+										{
+											dropSource = "Altar of Fangs",
+											enchantID = 244021,
+											itemID = 271517,
+										},
+									},
+									TRINKET1 = {
+										{
+											dropSource = "Voidscar Arena",
+											itemID = 250245,
+										},
+									},
+									TRINKET2 = {
+										{
+											dropSource = "Temple of Sethraliss",
+											itemID = 158374,
+										},
+									},
+									WAIST = {
+										{
+											dropSource = "The Blinding Vale",
+											gemID = 240914,
+											itemID = 251189,
+										},
+									},
+									WRIST = {
+										{
+											dropSource = "Leatherworking ( see note )",
+											gemID = 240914,
+											itemID = 244576,
+										},
+									},
+								},
+								gems = {
+									{
+										itemID = 240910,
+									},
+									{
+										itemID = 240914,
+									},
+									{
+										itemID = 240983,
+									},
+									{
+										itemID = 240967,
+									},
+								},
+								notes = {
+									trinkets = "Trinkets are a gear slot that can provide shifting value across different areas of content. They are also the easiest piece to alter how offensive or defensive-minded you wish to be. Because of this, you should keep many of the trinkets you obtain and be ready to swap them out when the situation calls for it. If you are only interested in the absolute best general choices, then look to collect the damage/hybrid and defensive choices below.",
+								},
+								source = "icyveins",
+								talentBuilds = {
+									{
+										heroSpecific = false,
+										importString = "CwQAAAAAAAAAAAAAAAAAAAAAAAAAAgZbzYGPwYWM2mxMDAAAAAAALLYEmBmhxmZMmZmZMzywMmZZYZzy2sNMLAAwysMtMbzsMAAAAzwGYmBMNGAAwA",
+										label = "Brewmaster Raiding (Defensive) - Master of Harmony",
+									},
+									{
+										heroSpecific = false,
+										importString = "CwQAAAAAAAAAAAAAAAAAAAAAAAAAAwMLbGDzwyM2MmZMAAAAAAALLgYmBmhBzgZmZGzsNMjZWGW2stNbzYWAAgNAAAwsNLNzMzGDbAMzw0YADAYA",
+										label = "Brewmaster Mythic+ (Standard) - Shado Pan",
+									},
+									{
+										heroSpecific = false,
+										importString = "CwQAAAAAAAAAAAAAAAAAAAAAAAAAAgZZzYGzwyM2MmZMAAAAAAALLgYmBmhBzgZmZGzsNMjZWGW2ssNbzYWAAglZZaZ2mZZAAAAMsBmZATjBMAgB",
+										label = "Brewmaster Delves/Open World - Master of Harmony",
+									},
+								},
+								url = "https://www.icy-veins.com/wow/brewmaster-monk-pve-tank-gear-best-in-slot",
+							},
 							mythicstats = {
 								enchants = {
 									{
@@ -1579,17 +1972,175 @@ ns.RegisterClassData("MONK", {
 			heroes = {
 				[65] = {
 					mplus = {
-						performance = {
-							difficulty = "Mythic+",
-							median = 174176.1,
-							metric = "dps",
-							outOf = 40,
-							rank = 16,
-							sample = 300,
-							top = 294477.1,
-							zone = "Mythic+ Season 2",
-						},
 						views = {
+							icyveins = {
+								consumables = {
+									{
+										category = "POTION",
+										itemID = 241288,
+										primary = true,
+									},
+									{
+										category = "HEALTH_POTION",
+										itemID = 271883,
+										primary = true,
+									},
+									{
+										category = "FOOD",
+										itemID = 255846,
+										primary = true,
+									},
+									{
+										category = "FOOD",
+										itemID = 242275,
+										primary = false,
+									},
+									{
+										category = "RUNE",
+										itemID = 259085,
+										primary = true,
+									},
+									{
+										category = "WEAPON_OIL",
+										itemID = 243733,
+										primary = true,
+									},
+								},
+								fetchedAt = "2026-08-21",
+								gear = {
+									BACK = {
+										{
+											dropSource = "Tailoring",
+											itemID = 239656,
+										},
+									},
+									CHEST = {
+										{
+											dropSource = "Catalyst from Den of Nalorakk",
+											enchantID = 243977,
+											itemID = 271522,
+										},
+									},
+									FEET = {
+										{
+											dropSource = "Den of Nalorakk",
+											enchantID = 243952,
+											itemID = 251153,
+										},
+									},
+									FINGER1 = {
+										{
+											dropSource = "Temple of Sethraliss",
+											enchantID = 243956,
+											gemID = 240892,
+											itemID = 158366,
+										},
+									},
+									FINGER2 = {
+										{
+											dropSource = "Voidscar Arena",
+											enchantID = 243956,
+											gemID = 240892,
+											itemID = 252258,
+										},
+									},
+									HANDS = {
+										{
+											dropSource = "Catalyst from Murder Row",
+											itemID = 271520,
+										},
+									},
+									HEAD = {
+										{
+											dropSource = "Catalyst from Murder Row",
+											enchantID = 244007,
+											gemID = 240983,
+											itemID = 271519,
+										},
+									},
+									LEGS = {
+										{
+											dropSource = "Catalyst from Murder Row",
+											enchantID = 244640,
+											itemID = 271518,
+										},
+									},
+									MAINHAND = {
+										{
+											dropSource = "Altar of Fangs",
+											enchantID = 244029,
+											itemID = 273783,
+										},
+									},
+									NECK = {
+										{
+											dropSource = "Murder Row",
+											gemID = 240892,
+											itemID = 251142,
+										},
+									},
+									SHOULDER = {
+										{
+											dropSource = "Catalyst from Voidscar Arena",
+											enchantID = 243990,
+											itemID = 271517,
+										},
+									},
+									TRINKET1 = {
+										{
+											dropSource = "Altar of Fangs",
+											itemID = 273796,
+										},
+									},
+									TRINKET2 = {
+										{
+											dropSource = "The Blinding Vale",
+											itemID = 250259,
+										},
+									},
+									WAIST = {
+										{
+											dropSource = "Nexus King Salhadaar",
+											gemID = 240892,
+											itemID = 159301,
+										},
+									},
+									WRIST = {
+										{
+											dropSource = "Leatherworking",
+											gemID = 240892,
+											itemID = 244576,
+										},
+									},
+								},
+								gems = {
+									{
+										itemID = 240983,
+									},
+								},
+								notes = {
+									trinkets = "There are a great number of Trinkets available for Windwalker, and we will generally want to play a combination of a powerful on-use trinket like Voracious Heart of Ula'tek for 90-second cooldown cycles, Vile Vial of Volatile Venom for 2-minute cooldown cycles, and a passive trinket providing potent secondary stat buffs or raw damage procs. Make sure to consider macro ing your on-use trinket to your Zenith cast!",
+								},
+								source = "icyveins",
+								talentBuilds = {
+									{
+										heroSpecific = false,
+										importString = "C0QAAAAAAAAAAAAAAAAAAAAAAMzYM2GmhlZGbzAAAAAAAAAAAAsMMCzwwAmZGmZmZY2GmhZZmAAWMz2MjZmZmBAwGAMLzSzMzsAgBmZAYsMAGwFA",
+										label = "Windwalker Raids - Shado-Pan",
+									},
+									{
+										heroSpecific = false,
+										importString = "C0QAAAAAAAAAAAAAAAAAAAAAAMzYMgxYZmZ2mBAAAAAAAAAAAYZYEmhhBMjhZmZGmNMDzyMBAswsxMmZmZAAsYmlZZMBAAmZGAzAMWGDYmZ2M",
+										label = "Windwalker Mythic+ - Conduit of the Celestials",
+									},
+									{
+										heroSpecific = false,
+										importString = "C0QAAAAAAAAAAAAAAAAAAAAAAMzYMgxYZmZ2mBAAAAAAAAAAAYZYEmhhBMjhZmZGmNMDzyMBAswsxMmZmZAAsYmlZZMBAAmZGAzAMWGDYmZ2M",
+										label = "Windwalker Delves - Conduit of the Celestials",
+									},
+								},
+								url = "https://www.icy-veins.com/wow/windwalker-monk-pve-dps-gear-best-in-slot",
+							},
 							mythicstats = {
 								enchants = {
 									{
@@ -2415,17 +2966,186 @@ ns.RegisterClassData("MONK", {
 			heroes = {
 				[64] = {
 					mplus = {
-						performance = {
-							difficulty = "Mythic+",
-							median = 46719.9,
-							metric = "dps",
-							outOf = 40,
-							rank = 34,
-							sample = 300,
-							top = 83239.5,
-							zone = "Mythic+ Season 2",
-						},
 						views = {
+							icyveins = {
+								consumables = {
+									{
+										category = "FLASK",
+										itemID = 241325,
+										primary = true,
+									},
+									{
+										category = "FLASK",
+										itemID = 241320,
+										primary = false,
+									},
+									{
+										category = "POTION",
+										itemID = 241294,
+										primary = true,
+									},
+									{
+										category = "HEALTH_POTION",
+										itemID = 271883,
+										primary = true,
+									},
+									{
+										category = "FOOD",
+										itemID = 255845,
+										primary = true,
+									},
+									{
+										category = "FOOD",
+										itemID = 255846,
+										primary = false,
+									},
+									{
+										category = "FOOD",
+										itemID = 242275,
+										primary = false,
+									},
+									{
+										category = "RUNE",
+										itemID = 259085,
+										primary = true,
+									},
+									{
+										category = "WEAPON_OIL",
+										itemID = 243733,
+										primary = true,
+									},
+								},
+								fetchedAt = "2026-08-21",
+								gear = {
+									BACK = {
+										{
+											dropSource = "Crafted by Tailoring",
+											gemID = 240167,
+											itemID = 239656,
+										},
+									},
+									CHEST = {
+										{
+											dropSource = "Catalyst and Voidscar Arena",
+											enchantID = 243977,
+											itemID = 271522,
+										},
+									},
+									FEET = {
+										{
+											dropSource = "Den of Nalorakk",
+											enchantID = 243983,
+											itemID = 251153,
+										},
+									},
+									FINGER1 = {
+										{
+											dropSource = "King's Rest",
+											enchantID = 244014,
+											gemID = 240890,
+											itemID = 159459,
+										},
+									},
+									FINGER2 = {
+										{
+											dropSource = "Altar of Fangs",
+											enchantID = 244014,
+											gemID = 240890,
+											itemID = 273792,
+										},
+									},
+									HANDS = {
+										{
+											dropSource = "The Great Vault",
+											itemID = 271520,
+										},
+									},
+									HEAD = {
+										{
+											dropSource = "Altar of Fangs",
+											enchantID = 243950,
+											gemID = 240890,
+											itemID = 273791,
+										},
+									},
+									LEGS = {
+										{
+											dropSource = "Catalyst and King's Rest",
+											enchantID = 240133,
+											itemID = 271518,
+										},
+									},
+									MAINHAND = {
+										{
+											dropSource = "Den of Nalorakk",
+											enchantID = 244029,
+											itemID = 251156,
+										},
+									},
+									NECK = {
+										{
+											dropSource = "Den of Nalorakk",
+											gemID = 240983,
+											itemID = 251173,
+										},
+									},
+									SHOULDER = {
+										{
+											dropSource = "Catalyst and Voidscar Arena",
+											enchantID = 244021,
+											itemID = 271517,
+										},
+									},
+									TRINKET1 = {
+										{
+											dropSource = "King's Rest",
+											itemID = 273649,
+										},
+									},
+									TRINKET2 = {
+										{
+											dropSource = "Murder Row",
+											itemID = 250215,
+										},
+									},
+									WAIST = {
+										{
+											dropSource = "King's Rest",
+											gemID = 240890,
+											itemID = 159301,
+										},
+									},
+									WRIST = {
+										{
+											dropSource = "Crafted by Leatherworking",
+											gemID = 240890,
+											itemID = 244576,
+										},
+									},
+								},
+								notes = {
+									trinkets = "For healers like Mistweaver, trinkets that are often referred to as \"stat sticks\" are usually a very safe pick. Unlike DPS, where random procs are very rarely wasted, healers do not always have health bars to heal. A powerful proc can go totally unused if it does not line up with moments of extreme damage. Usually, a strong trinket for us will be an item that has static Intellect and a proc with a high uptime of either Haste or Critical Strike.",
+								},
+								source = "icyveins",
+								talentBuilds = {
+									{
+										heroSpecific = false,
+										importString = "C4QAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAghx2YZYzixMzyyM2wYGmZZbbmxCzoZMDYwAsMzMzwsBDWmJAAAAAAYxyMLzyMDAAMgBYGwYYsMZMDA",
+										label = "Mistweaver Raid - Conduit of the Celestials",
+									},
+									{
+										heroSpecific = false,
+										importString = "C4QAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAghxyMLjZx2MmZsZstsNjZ2Mz22yMjFmRzYGwgBDmZmZY2GmhZ5BmAAAAAAgFLzsMLzMAAwAAMDYMwiMmBA",
+										label = "Mistweaver Mythic+ - Conduit of the Celestials",
+									},
+									{
+										heroSpecific = false,
+										importString = "C4QAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAghxyMLjZx2MzMz2G2sNjZ2Mz22yMjFmZaGzYBDGglZmZGmNYwyMBAAAAAALWmZZWmZAAAYAYGwAsMZMDA",
+										label = "Mistweaver Delves - Conduit of the Celestials",
+									},
+								},
+								url = "https://www.icy-veins.com/wow/mistweaver-monk-pve-healing-gear-best-in-slot",
+							},
 							mythicstats = {
 								enchants = {
 									{

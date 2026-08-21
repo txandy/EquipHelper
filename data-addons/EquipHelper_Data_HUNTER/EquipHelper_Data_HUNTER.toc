@@ -1,0 +1,8 @@
+## Interface: 120000
+## Title: |cff808080EquipHelper|r Data: Hunter
+## Author: txandy
+## Version: @project-version@
+## LoadOnDemand: 1
+## Dependencies: EquipHelper
+
+Data.lua

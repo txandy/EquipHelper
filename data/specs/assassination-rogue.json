@@ -6,17 +6,276 @@
       "content": "mplus",
       "hero_id": 53,
       "hero_name": "Deathstalker",
-      "performance": {
-        "difficulty": "Mythic+",
-        "median": 198478.4,
-        "metric": "dps",
-        "out_of": 40,
-        "rank": 4,
-        "sample": 300,
-        "top": 318070.4,
-        "zone": "Mythic+ Season 2"
-      },
+      "performance": null,
       "views": {
+        "icyveins": {
+          "consumables": [
+            {
+              "category": "FLASK",
+              "is_primary": true,
+              "item_id": 241325
+            },
+            {
+              "category": "FLASK",
+              "is_primary": false,
+              "item_id": 241326
+            },
+            {
+              "category": "POTION",
+              "is_primary": true,
+              "item_id": 241308
+            },
+            {
+              "category": "HEALTH_POTION",
+              "is_primary": true,
+              "item_id": 271883
+            },
+            {
+              "category": "FOOD",
+              "is_primary": true,
+              "item_id": 255845
+            },
+            {
+              "category": "FOOD",
+              "is_primary": false,
+              "item_id": 242275
+            },
+            {
+              "category": "RUNE",
+              "is_primary": true,
+              "item_id": 259085
+            }
+          ],
+          "enchants": [],
+          "fetched_at": "2026-08-21",
+          "gear": {
+            "BACK": [
+              {
+                "drop_source": "Ruby Life Pools",
+                "enchant_id": null,
+                "gem_id": null,
+                "item_id": 193763,
+                "note": null,
+                "source_hint": null,
+                "usage_pct": null
+              }
+            ],
+            "CHEST": [
+              {
+                "drop_source": "Catalyst from Den of Nalorakk",
+                "enchant_id": 243977,
+                "gem_id": null,
+                "item_id": 271513,
+                "note": null,
+                "source_hint": null,
+                "usage_pct": null
+              }
+            ],
+            "FEET": [
+              {
+                "drop_source": "Den of Nalorakk",
+                "enchant_id": 244008,
+                "gem_id": null,
+                "item_id": 251153,
+                "note": null,
+                "source_hint": null,
+                "usage_pct": null
+              }
+            ],
+            "FINGER1": [
+              {
+                "drop_source": "Altar of Fangs",
+                "enchant_id": 243956,
+                "gem_id": 240890,
+                "item_id": 273792,
+                "note": null,
+                "source_hint": null,
+                "usage_pct": null
+              }
+            ],
+            "FINGER2": [
+              {
+                "drop_source": "Murder Row",
+                "enchant_id": 243956,
+                "gem_id": 240906,
+                "item_id": 251136,
+                "note": null,
+                "source_hint": null,
+                "usage_pct": null
+              }
+            ],
+            "HANDS": [
+              {
+                "drop_source": "Catalyst from Murder Row",
+                "enchant_id": null,
+                "gem_id": null,
+                "item_id": 271511,
+                "note": null,
+                "source_hint": null,
+                "usage_pct": null
+              }
+            ],
+            "HEAD": [
+              {
+                "drop_source": "Altar of Fangs",
+                "enchant_id": 243981,
+                "gem_id": 240967,
+                "item_id": 273791,
+                "note": null,
+                "source_hint": null,
+                "usage_pct": null
+              }
+            ],
+            "LEGS": [
+              {
+                "drop_source": "Catalyst from Murder Row",
+                "enchant_id": 244640,
+                "gem_id": null,
+                "item_id": 271509,
+                "note": null,
+                "source_hint": null,
+                "usage_pct": null
+              }
+            ],
+            "MAINHAND": [
+              {
+                "drop_source": "Altar of Fangs",
+                "enchant_id": 244029,
+                "gem_id": null,
+                "item_id": 275070,
+                "note": null,
+                "source_hint": null,
+                "usage_pct": null
+              }
+            ],
+            "NECK": [
+              {
+                "drop_source": "Altar of Fangs",
+                "enchant_id": null,
+                "gem_id": 240906,
+                "item_id": 273781,
+                "note": null,
+                "source_hint": null,
+                "usage_pct": null
+              }
+            ],
+            "OFFHAND": [
+              {
+                "drop_source": "Crafted by Blacksmithing",
+                "enchant_id": 244029,
+                "gem_id": 273059,
+                "item_id": 237837,
+                "note": null,
+                "source_hint": null,
+                "usage_pct": null
+              }
+            ],
+            "SHOULDER": [
+              {
+                "drop_source": "Catalyst from Voidscar Arena",
+                "enchant_id": 243990,
+                "gem_id": null,
+                "item_id": 271508,
+                "note": null,
+                "source_hint": null,
+                "usage_pct": null
+              }
+            ],
+            "TRINKET1": [
+              {
+                "drop_source": "Blinding Vale",
+                "enchant_id": null,
+                "gem_id": null,
+                "item_id": 250259,
+                "note": null,
+                "source_hint": null,
+                "usage_pct": null
+              }
+            ],
+            "TRINKET2": [
+              {
+                "drop_source": "King's Rest",
+                "enchant_id": null,
+                "gem_id": null,
+                "item_id": 159617,
+                "note": null,
+                "source_hint": null,
+                "usage_pct": null
+              }
+            ],
+            "WAIST": [
+              {
+                "drop_source": "King's Rest",
+                "enchant_id": null,
+                "gem_id": 240898,
+                "item_id": 159301,
+                "note": null,
+                "source_hint": null,
+                "usage_pct": null
+              }
+            ],
+            "WRIST": [
+              {
+                "drop_source": "Crafted by Leatherworking",
+                "enchant_id": null,
+                "gem_id": 240914,
+                "item_id": 244576,
+                "note": null,
+                "source_hint": null,
+                "usage_pct": null
+              }
+            ]
+          },
+          "gems": [
+            {
+              "drop_source": null,
+              "enchant_id": null,
+              "gem_id": null,
+              "item_id": 240967,
+              "note": null,
+              "source_hint": null,
+              "usage_pct": null
+            }
+          ],
+          "notes": {
+            "trinkets": "There are a great number of Trinkets available for Assassination, and we will always want to play a combination of a powerful on-use trinket like Voracious Heart of Ula'tek or Lustrous Golden Plumage , and a passive trinket providing potent secondary stat buffs or raw damage procs. Make sure to macro your on-use trinket to your Deathmark cast!"
+          },
+          "source": "icyveins",
+          "stat_priority": [],
+          "talent_builds": [
+            {
+              "hero_id": 0,
+              "hero_specific": false,
+              "import_string": "CMQAAAAAAAAAAAAAAAAAAAAAAYmlxsNDGAAAAAY2GsNDAAAAAIbzMzMzMjxyMzMbzsMzMzYGzYMmZMMAbmlBGwCYZYCMsYwMDwYMA",
+              "label": "Assassination Pure Single-Target - Deathstalker",
+              "metrics": {},
+              "source": "icyveins",
+              "url": "https://www.icy-veins.com/wow/assassination-rogue-pve-dps-spec-builds-talents",
+              "usage_pct": null
+            },
+            {
+              "hero_id": 0,
+              "hero_specific": false,
+              "import_string": "CMQAAAAAAAAAAAAAAAAAAAAAAYmlZmFDGAAAAAY2GsNDAAAAAIbzMzMzMjxyMzMbzsMzMPwYMzYMmZGjBYzsMwAWALDTghFDmZAGjB",
+              "label": "Assassination Raid Cleave - Deathstalker",
+              "metrics": {},
+              "source": "icyveins",
+              "url": "https://www.icy-veins.com/wow/assassination-rogue-pve-dps-spec-builds-talents",
+              "usage_pct": null
+            },
+            {
+              "hero_id": 0,
+              "hero_specific": false,
+              "import_string": "CMQAAAAAAAAAAAAAAAAAAAAAAYmlZmFDGAAAAAY2GsNDAAAAAIbzMzMzMjxyMzMbzsMzMPgZMzYMMzYMAbmlBGwCYZYCMsYwMDwYMA",
+              "label": "Assassination Mythic+/Delves - Deathstalker",
+              "metrics": {},
+              "source": "icyveins",
+              "url": "https://www.icy-veins.com/wow/assassination-rogue-pve-dps-spec-builds-talents",
+              "usage_pct": null
+            }
+          ],
+          "url": "https://www.icy-veins.com/wow/assassination-rogue-pve-dps-gear-best-in-slot"
+        },
         "mythicstats": {
           "consumables": [],
           "enchants": [
@@ -1464,17 +1723,276 @@
       "content": "mplus",
       "hero_id": 52,
       "hero_name": "Fatebound",
-      "performance": {
-        "difficulty": "Mythic+",
-        "median": 198478.4,
-        "metric": "dps",
-        "out_of": 40,
-        "rank": 4,
-        "sample": 300,
-        "top": 318070.4,
-        "zone": "Mythic+ Season 2"
-      },
+      "performance": null,
       "views": {
+        "icyveins": {
+          "consumables": [
+            {
+              "category": "FLASK",
+              "is_primary": true,
+              "item_id": 241325
+            },
+            {
+              "category": "FLASK",
+              "is_primary": false,
+              "item_id": 241326
+            },
+            {
+              "category": "POTION",
+              "is_primary": true,
+              "item_id": 241308
+            },
+            {
+              "category": "HEALTH_POTION",
+              "is_primary": true,
+              "item_id": 271883
+            },
+            {
+              "category": "FOOD",
+              "is_primary": true,
+              "item_id": 255845
+            },
+            {
+              "category": "FOOD",
+              "is_primary": false,
+              "item_id": 242275
+            },
+            {
+              "category": "RUNE",
+              "is_primary": true,
+              "item_id": 259085
+            }
+          ],
+          "enchants": [],
+          "fetched_at": "2026-08-21",
+          "gear": {
+            "BACK": [
+              {
+                "drop_source": "Ruby Life Pools",
+                "enchant_id": null,
+                "gem_id": null,
+                "item_id": 193763,
+                "note": null,
+                "source_hint": null,
+                "usage_pct": null
+              }
+            ],
+            "CHEST": [
+              {
+                "drop_source": "Catalyst from Den of Nalorakk",
+                "enchant_id": 243977,
+                "gem_id": null,
+                "item_id": 271513,
+                "note": null,
+                "source_hint": null,
+                "usage_pct": null
+              }
+            ],
+            "FEET": [
+              {
+                "drop_source": "Den of Nalorakk",
+                "enchant_id": 244008,
+                "gem_id": null,
+                "item_id": 251153,
+                "note": null,
+                "source_hint": null,
+                "usage_pct": null
+              }
+            ],
+            "FINGER1": [
+              {
+                "drop_source": "Altar of Fangs",
+                "enchant_id": 243956,
+                "gem_id": 240890,
+                "item_id": 273792,
+                "note": null,
+                "source_hint": null,
+                "usage_pct": null
+              }
+            ],
+            "FINGER2": [
+              {
+                "drop_source": "Murder Row",
+                "enchant_id": 243956,
+                "gem_id": 240906,
+                "item_id": 251136,
+                "note": null,
+                "source_hint": null,
+                "usage_pct": null
+              }
+            ],
+            "HANDS": [
+              {
+                "drop_source": "Catalyst from Murder Row",
+                "enchant_id": null,
+                "gem_id": null,
+                "item_id": 271511,
+                "note": null,
+                "source_hint": null,
+                "usage_pct": null
+              }
+            ],
+            "HEAD": [
+              {
+                "drop_source": "Altar of Fangs",
+                "enchant_id": 243981,
+                "gem_id": 240967,
+                "item_id": 273791,
+                "note": null,
+                "source_hint": null,
+                "usage_pct": null
+              }
+            ],
+            "LEGS": [
+              {
+                "drop_source": "Catalyst from Murder Row",
+                "enchant_id": 244640,
+                "gem_id": null,
+                "item_id": 271509,
+                "note": null,
+                "source_hint": null,
+                "usage_pct": null
+              }
+            ],
+            "MAINHAND": [
+              {
+                "drop_source": "Altar of Fangs",
+                "enchant_id": 244029,
+                "gem_id": null,
+                "item_id": 275070,
+                "note": null,
+                "source_hint": null,
+                "usage_pct": null
+              }
+            ],
+            "NECK": [
+              {
+                "drop_source": "Altar of Fangs",
+                "enchant_id": null,
+                "gem_id": 240906,
+                "item_id": 273781,
+                "note": null,
+                "source_hint": null,
+                "usage_pct": null
+              }
+            ],
+            "OFFHAND": [
+              {
+                "drop_source": "Crafted by Blacksmithing",
+                "enchant_id": 244029,
+                "gem_id": 273059,
+                "item_id": 237837,
+                "note": null,
+                "source_hint": null,
+                "usage_pct": null
+              }
+            ],
+            "SHOULDER": [
+              {
+                "drop_source": "Catalyst from Voidscar Arena",
+                "enchant_id": 243990,
+                "gem_id": null,
+                "item_id": 271508,
+                "note": null,
+                "source_hint": null,
+                "usage_pct": null
+              }
+            ],
+            "TRINKET1": [
+              {
+                "drop_source": "Blinding Vale",
+                "enchant_id": null,
+                "gem_id": null,
+                "item_id": 250259,
+                "note": null,
+                "source_hint": null,
+                "usage_pct": null
+              }
+            ],
+            "TRINKET2": [
+              {
+                "drop_source": "King's Rest",
+                "enchant_id": null,
+                "gem_id": null,
+                "item_id": 159617,
+                "note": null,
+                "source_hint": null,
+                "usage_pct": null
+              }
+            ],
+            "WAIST": [
+              {
+                "drop_source": "King's Rest",
+                "enchant_id": null,
+                "gem_id": 240898,
+                "item_id": 159301,
+                "note": null,
+                "source_hint": null,
+                "usage_pct": null
+              }
+            ],
+            "WRIST": [
+              {
+                "drop_source": "Crafted by Leatherworking",
+                "enchant_id": null,
+                "gem_id": 240914,
+                "item_id": 244576,
+                "note": null,
+                "source_hint": null,
+                "usage_pct": null
+              }
+            ]
+          },
+          "gems": [
+            {
+              "drop_source": null,
+              "enchant_id": null,
+              "gem_id": null,
+              "item_id": 240967,
+              "note": null,
+              "source_hint": null,
+              "usage_pct": null
+            }
+          ],
+          "notes": {
+            "trinkets": "There are a great number of Trinkets available for Assassination, and we will always want to play a combination of a powerful on-use trinket like Voracious Heart of Ula'tek or Lustrous Golden Plumage , and a passive trinket providing potent secondary stat buffs or raw damage procs. Make sure to macro your on-use trinket to your Deathmark cast!"
+          },
+          "source": "icyveins",
+          "stat_priority": [],
+          "talent_builds": [
+            {
+              "hero_id": 0,
+              "hero_specific": false,
+              "import_string": "CMQAAAAAAAAAAAAAAAAAAAAAAYmlxsNDGAAAAAY2GsNDAAAAAIbzMzMzMjxyMzMbzsMzMzYGzYMmZMMAbmlBGwCYZYCMsYwMDwYMA",
+              "label": "Assassination Pure Single-Target - Deathstalker",
+              "metrics": {},
+              "source": "icyveins",
+              "url": "https://www.icy-veins.com/wow/assassination-rogue-pve-dps-spec-builds-talents",
+              "usage_pct": null
+            },
+            {
+              "hero_id": 0,
+              "hero_specific": false,
+              "import_string": "CMQAAAAAAAAAAAAAAAAAAAAAAYmlZmFDGAAAAAY2GsNDAAAAAIbzMzMzMjxyMzMbzsMzMPwYMzYMmZGjBYzsMwAWALDTghFDmZAGjB",
+              "label": "Assassination Raid Cleave - Deathstalker",
+              "metrics": {},
+              "source": "icyveins",
+              "url": "https://www.icy-veins.com/wow/assassination-rogue-pve-dps-spec-builds-talents",
+              "usage_pct": null
+            },
+            {
+              "hero_id": 0,
+              "hero_specific": false,
+              "import_string": "CMQAAAAAAAAAAAAAAAAAAAAAAYmlZmFDGAAAAAY2GsNDAAAAAIbzMzMzMjxyMzMbzsMzMPgZMzYMMzYMAbmlBGwCYZYCMsYwMDwYMA",
+              "label": "Assassination Mythic+/Delves - Deathstalker",
+              "metrics": {},
+              "source": "icyveins",
+              "url": "https://www.icy-veins.com/wow/assassination-rogue-pve-dps-spec-builds-talents",
+              "usage_pct": null
+            }
+          ],
+          "url": "https://www.icy-veins.com/wow/assassination-rogue-pve-dps-gear-best-in-slot"
+        },
         "mythicstats": {
           "consumables": [],
           "enchants": [

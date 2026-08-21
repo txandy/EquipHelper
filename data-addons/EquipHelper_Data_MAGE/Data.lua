@@ -1,24 +1,177 @@
 -- GENERATED FILE -- do not edit by hand.
 -- Regenerar con: python -m scraper build
-local ADDON_NAME, ns = ...
 
-ns.RegisterClassData("MAGE", {
+EquipHelper_RegisterClassData("MAGE", {
 	specs = {
 		[62] = {
 			heroes = {
 				[39] = {
 					mplus = {
-						performance = {
-							difficulty = "Mythic+",
-							median = 215163.6,
-							metric = "dps",
-							outOf = 40,
-							rank = 1,
-							sample = 300,
-							top = 324464.2,
-							zone = "Mythic+ Season 2",
-						},
 						views = {
+							icyveins = {
+								consumables = {
+									{
+										category = "FLASK",
+										itemID = 241325,
+										primary = true,
+									},
+									{
+										category = "HEALTH_POTION",
+										itemID = 241308,
+										primary = true,
+									},
+									{
+										category = "FOOD",
+										itemID = 255845,
+										primary = true,
+									},
+									{
+										category = "RUNE",
+										itemID = 259085,
+										primary = true,
+									},
+									{
+										category = "WEAPON_OIL",
+										itemID = 243733,
+										primary = true,
+									},
+								},
+								fetchedAt = "2026-08-21",
+								gear = {
+									BACK = {
+										{
+											dropSource = "Blinding Vale",
+											itemID = 251190,
+										},
+									},
+									CHEST = {
+										{
+											dropSource = "Den of Nalorakk + Catalyst",
+											enchantID = 243977,
+											itemID = 271567,
+										},
+									},
+									FEET = {
+										{
+											dropSource = "Murder Row",
+											enchantID = 244008,
+											itemID = 251137,
+										},
+									},
+									FINGER1 = {
+										{
+											dropSource = "Voidscar Arena",
+											enchantID = 243956,
+											gemID = 240906,
+											itemID = 252258,
+										},
+									},
+									FINGER2 = {
+										{
+											dropSource = "Den of Nalorakk",
+											enchantID = 243956,
+											gemID = 240916,
+											itemID = 251148,
+										},
+									},
+									HANDS = {
+										{
+											dropSource = "Murder Row + Catalyst",
+											itemID = 271565,
+										},
+									},
+									HEAD = {
+										{
+											dropSource = "Voidscar Arena + Catalyst",
+											enchantID = 243981,
+											gemID = 240967,
+											itemID = 271564,
+										},
+									},
+									LEGS = {
+										{
+											dropSource = "Ruby Life Pools + Catalyst",
+											enchantID = 240133,
+											itemID = 271563,
+										},
+									},
+									MAINHAND = {
+										{
+											dropSource = "Altar of Fangs",
+											enchantID = 244029,
+											itemID = 273778,
+										},
+									},
+									NECK = {
+										{
+											dropSource = "Murder Row",
+											gemID = 240893,
+											itemID = 251142,
+										},
+									},
+									OFFHAND = {
+										{
+											dropSource = "King's Rest",
+											itemID = 159667,
+										},
+									},
+									SHOULDER = {
+										{
+											dropSource = "King's Rest + Catalyst",
+											enchantID = 243962,
+											itemID = 271562,
+										},
+									},
+									TRINKET1 = {
+										{
+											dropSource = "Murder Row",
+											itemID = 250215,
+										},
+									},
+									TRINKET2 = {
+										{
+											dropSource = "Blinding Vale",
+											itemID = 250214,
+										},
+									},
+									WAIST = {
+										{
+											dropSource = "Crafted by Tailoring",
+											gemID = 240900,
+											itemID = 239649,
+										},
+									},
+									WRIST = {
+										{
+											dropSource = "Crafted by Tailoring",
+											gemID = 240916,
+											itemID = 239648,
+										},
+									},
+								},
+								notes = {
+									trinkets = "There are a great number of Trinkets available for Arcane. Generally, you will want to use a strong on-use Trinket to pair it with Arcane Surge , and then a strong passive Trinket as your second Trinket.",
+								},
+								source = "icyveins",
+								talentBuilds = {
+									{
+										heroSpecific = false,
+										importString = "C4DAAAAAAAAAAAAAAAAAAAAAAYGGLzMzswMDamZGAAAGAwMz0sssMDAgNAAAzMDbWmxMLzYMzMzMsxMmZmBAYAAAGgZGwMAYYmZA",
+										label = "Arcane Raid -\nSunfury",
+									},
+									{
+										heroSpecific = false,
+										importString = "C4DAAAAAAAAAAAAAAAAAAAAAAMzwYZmZmFMzQzMzAAAwAAmZmmlllZAAsBAwGMzMsZZGzsMjxMzMzwGzYGzAAMAAADwMDMzAghZmB",
+										label = "Arcane Mythic+ -\nSunfury",
+									},
+									{
+										heroSpecific = false,
+										importString = "C4DAAAAAAAAAAAAAAAAAAAAAAMzwYZGzsYzMDNzYGAAADAYmZaWWWmBAwGAAbwMzwmlZMzyMGzMzMDbMjZMDAwAAAMAzMwMDAGmZG",
+										label = "Arcane Delves -\nSunfury",
+									},
+								},
+								url = "https://www.icy-veins.com/wow/arcane-mage-pve-dps-gear-best-in-slot",
+							},
 							mythicstats = {
 								enchants = {
 									{
@@ -818,17 +971,171 @@ ns.RegisterClassData("MAGE", {
 			heroes = {
 				[39] = {
 					mplus = {
-						performance = {
-							difficulty = "Mythic+",
-							median = 172840.0,
-							metric = "dps",
-							outOf = 40,
-							rank = 17,
-							sample = 300,
-							top = 331176.1,
-							zone = "Mythic+ Season 2",
-						},
 						views = {
+							icyveins = {
+								consumables = {
+									{
+										category = "FLASK",
+										itemID = 241325,
+										primary = true,
+									},
+									{
+										category = "HEALTH_POTION",
+										itemID = 241308,
+										primary = true,
+									},
+									{
+										category = "FOOD",
+										itemID = 255845,
+										primary = true,
+									},
+									{
+										category = "RUNE",
+										itemID = 259085,
+										primary = true,
+									},
+									{
+										category = "WEAPON_OIL",
+										itemID = 243733,
+										primary = true,
+									},
+								},
+								fetchedAt = "2026-08-21",
+								gear = {
+									BACK = {
+										{
+											dropSource = "Blinding Vale",
+											itemID = 251190,
+										},
+									},
+									CHEST = {
+										{
+											dropSource = "Den of Nalorakk + Catalyst",
+											enchantID = 243977,
+											itemID = 271567,
+										},
+									},
+									FEET = {
+										{
+											dropSource = "Murder Row",
+											enchantID = 244008,
+											itemID = 251137,
+										},
+									},
+									FINGER1 = {
+										{
+											dropSource = "Voidscar Arena",
+											enchantID = 243956,
+											gemID = 240906,
+											itemID = 252258,
+										},
+									},
+									FINGER2 = {
+										{
+											dropSource = "King's Rest",
+											enchantID = 243956,
+											gemID = 240893,
+											itemID = 159459,
+										},
+									},
+									HANDS = {
+										{
+											dropSource = "Murder Row + Catalyst",
+											itemID = 271565,
+										},
+									},
+									HEAD = {
+										{
+											dropSource = "Voidscar Arena + Catalyst",
+											enchantID = 243981,
+											gemID = 240967,
+											itemID = 271564,
+										},
+									},
+									LEGS = {
+										{
+											dropSource = "Ruby Life Pools + Catalyst",
+											enchantID = 240133,
+											itemID = 271563,
+										},
+									},
+									MAINHAND = {
+										{
+											dropSource = "Altar of Fangs",
+											enchantID = 244029,
+											itemID = 273778,
+										},
+									},
+									NECK = {
+										{
+											dropSource = "Murder Row",
+											gemID = 240893,
+											itemID = 251142,
+										},
+									},
+									OFFHAND = {
+										{
+											dropSource = "King's Rest",
+											itemID = 159667,
+										},
+									},
+									SHOULDER = {
+										{
+											dropSource = "King's Rest + Catalyst",
+											enchantID = 243962,
+											itemID = 271562,
+										},
+									},
+									TRINKET1 = {
+										{
+											dropSource = "Altar of Fangs",
+											itemID = 273796,
+										},
+									},
+									TRINKET2 = {
+										{
+											dropSource = "Blinding Vale",
+											itemID = 250214,
+										},
+									},
+									WAIST = {
+										{
+											dropSource = "Crafted by Tailoring",
+											gemID = 240900,
+											itemID = 239649,
+										},
+									},
+									WRIST = {
+										{
+											dropSource = "Crafted by Tailoring",
+											gemID = 240916,
+											itemID = 239648,
+										},
+									},
+								},
+								notes = {
+									trinkets = "There are a great number of Trinkets available for Fire. Generally, you will want to use a strong on-use Trinket to pair it with Combustion , and then a strong passive Trinket as your second Trinket.",
+								},
+								source = "icyveins",
+								talentBuilds = {
+									{
+										heroSpecific = false,
+										importString = "C8DAAAAAAAAAAAAAAAAAAAAAAYGGLzMzswMDZmZGAAAGAwMz0sstMDAwmZmx2MzMzYDAAAAAbmZMzAAgZMmZmZMzsMAMzAMGwMMGA",
+										label = "Fire Raid -\nSunfury",
+									},
+									{
+										heroSpecific = false,
+										importString = "C8DAAAAAAAAAAAAAAAAAAAAAAYGGLzMzsgZGZmZGAAAAAmZmmltlZAA2MzM2mZmZGbAAAAAYzMjZGAAMjxMzMjZmlBgZGMjxAmhxA",
+										label = "Fire Mythic+ -\nSunfury",
+									},
+									{
+										heroSpecific = false,
+										importString = "C8DAAAAAAAAAAAAAAAAAAAAAAYGGLzMzsgZGZmZGAAAAAmZmmltlZAA2MzM2mZmZGbAAAAAYzMjZGAAMjxMzMjZmlBgZGMjxAmhxA",
+										label = "Fire Delves -\nSunfury",
+									},
+								},
+								url = "https://www.icy-veins.com/wow/fire-mage-pve-dps-gear-best-in-slot",
+							},
 							mythicstats = {
 								enchants = {
 									{
@@ -1577,17 +1884,199 @@ ns.RegisterClassData("MAGE", {
 			heroes = {
 				[40] = {
 					mplus = {
-						performance = {
-							difficulty = "Mythic+",
-							median = 147116.4,
-							metric = "dps",
-							outOf = 40,
-							rank = 26,
-							sample = 300,
-							top = 223975.3,
-							zone = "Mythic+ Season 2",
-						},
 						views = {
+							icyveins = {
+								consumables = {
+									{
+										category = "FLASK",
+										itemID = 241326,
+										primary = true,
+									},
+									{
+										category = "POTION",
+										itemID = 241288,
+										primary = true,
+									},
+									{
+										category = "HEALTH_POTION",
+										itemID = 271883,
+										primary = true,
+									},
+									{
+										category = "FOOD",
+										itemID = 255846,
+										primary = true,
+									},
+									{
+										category = "FOOD",
+										itemID = 255845,
+										primary = false,
+									},
+									{
+										category = "FOOD",
+										itemID = 242275,
+										primary = false,
+									},
+									{
+										category = "FOOD",
+										itemID = 255847,
+										primary = false,
+									},
+									{
+										category = "RUNE",
+										itemID = 259085,
+										primary = true,
+									},
+									{
+										category = "WEAPON_OIL",
+										itemID = 243733,
+										primary = true,
+									},
+								},
+								fetchedAt = "2026-08-21",
+								gear = {
+									BACK = {
+										{
+											dropSource = "Blinding Vale",
+											itemID = 251190,
+										},
+									},
+									CHEST = {
+										{
+											dropSource = "Temple of Sethraliss",
+											enchantID = 243977,
+											itemID = 159257,
+										},
+									},
+									FEET = {
+										{
+											dropSource = "Murder Row",
+											enchantID = 243952,
+											itemID = 251137,
+										},
+									},
+									FINGER1 = {
+										{
+											dropSource = "Voidscar Arena",
+											enchantID = 243956,
+											gemID = 240908,
+											itemID = 252258,
+										},
+									},
+									FINGER2 = {
+										{
+											dropSource = "Temple of Sethraliss",
+											enchantID = 243956,
+											gemID = 240908,
+											itemID = 158366,
+										},
+									},
+									HANDS = {
+										{
+											dropSource = "Temple of Sethraliss",
+											itemID = 159247,
+										},
+									},
+									HEAD = {
+										{
+											dropSource = "Blinding Vale",
+											enchantID = 244007,
+											gemID = 240908,
+											itemID = 251199,
+										},
+									},
+									LEGS = {
+										{
+											dropSource = "Ruby Life Pools",
+											enchantID = 240133,
+											itemID = 193750,
+										},
+									},
+									MAINHAND = {
+										{
+											dropSource = "Altar of Fangs",
+											enchantID = 243970,
+											itemID = 273778,
+										},
+									},
+									NECK = {
+										{
+											dropSource = "Voidscar Arena",
+											gemID = 240983,
+											itemID = 251234,
+										},
+									},
+									OFFHAND = {
+										{
+											dropSource = "Crafted by Inscription",
+											itemID = 245769,
+										},
+									},
+									SHOULDER = {
+										{
+											dropSource = "Temple of Sethraliss",
+											enchantID = 243990,
+											itemID = 239031,
+										},
+									},
+									TRINKET1 = {
+										{
+											dropSource = "Altar of Fangs",
+											itemID = 273794,
+										},
+									},
+									TRINKET2 = {
+										{
+											dropSource = "Murder Row",
+											itemID = 250215,
+										},
+									},
+									WAIST = {
+										{
+											dropSource = "Crafted by Tailoring",
+											gemID = 240908,
+											itemID = 239649,
+										},
+									},
+									WRIST = {
+										{
+											dropSource = "Den of Nalorakk",
+											gemID = 240908,
+											itemID = 251154,
+										},
+									},
+								},
+								gems = {
+									{
+										itemID = 240983,
+									},
+									{
+										itemID = 240908,
+									},
+								},
+								notes = {
+									trinkets = "There are a decent number of usable trinkets this season, contrary to last. Wavecaller's Seastone and Gebbo's Bottomless Bag are the solid winners in every target count and talent set, but there are significantly more trinkets than just those that are within a fairly close margin to use.",
+								},
+								source = "icyveins",
+								talentBuilds = {
+									{
+										heroSpecific = false,
+										importString = "CAEAAAAAAAAAAAAAAAAAAAAAAYGGLzMzsMmZmYmZGjZMziZmZmZMDAAAMzMzyyMTbAAAAAAwGAbbjZmZwsNPgxMsAAAwMbAzADYGMMA",
+										label = "Frost Single Target",
+									},
+									{
+										heroSpecific = false,
+										importString = "CAEAAAAAAAAAAAAAAAAAAAAAAYGGLzMzsMmZmYmZGzMzMziZmZMjZAAAgZmZWWmZaDAAAAAA2AYbbMzMDmthxMsAAAwMbAzADYGMMA",
+										label = "Frost Light Cleave/Raid",
+									},
+									{
+										heroSpecific = false,
+										importString = "CAEAAAAAAAAAAAAAAAAAAAAAAYGGLzMzsMmZmYmZGzMzMWMzMzMzYmlZamZZWAAAgFAAAAAAYBgttxMzMY2mxMzYbBAAAMzgZgBMDwA",
+										label = "Frost AoE",
+									},
+								},
+								url = "https://www.icy-veins.com/wow/frost-mage-pve-dps-gear-best-in-slot",
+							},
 							mythicstats = {
 								enchants = {
 									{
@@ -2343,17 +2832,199 @@ ns.RegisterClassData("MAGE", {
 				},
 				[41] = {
 					mplus = {
-						performance = {
-							difficulty = "Mythic+",
-							median = 147116.4,
-							metric = "dps",
-							outOf = 40,
-							rank = 26,
-							sample = 300,
-							top = 223975.3,
-							zone = "Mythic+ Season 2",
-						},
 						views = {
+							icyveins = {
+								consumables = {
+									{
+										category = "FLASK",
+										itemID = 241326,
+										primary = true,
+									},
+									{
+										category = "POTION",
+										itemID = 241288,
+										primary = true,
+									},
+									{
+										category = "HEALTH_POTION",
+										itemID = 271883,
+										primary = true,
+									},
+									{
+										category = "FOOD",
+										itemID = 255846,
+										primary = true,
+									},
+									{
+										category = "FOOD",
+										itemID = 255845,
+										primary = false,
+									},
+									{
+										category = "FOOD",
+										itemID = 242275,
+										primary = false,
+									},
+									{
+										category = "FOOD",
+										itemID = 255847,
+										primary = false,
+									},
+									{
+										category = "RUNE",
+										itemID = 259085,
+										primary = true,
+									},
+									{
+										category = "WEAPON_OIL",
+										itemID = 243733,
+										primary = true,
+									},
+								},
+								fetchedAt = "2026-08-21",
+								gear = {
+									BACK = {
+										{
+											dropSource = "Blinding Vale",
+											itemID = 251190,
+										},
+									},
+									CHEST = {
+										{
+											dropSource = "Temple of Sethraliss",
+											enchantID = 243977,
+											itemID = 159257,
+										},
+									},
+									FEET = {
+										{
+											dropSource = "Murder Row",
+											enchantID = 243952,
+											itemID = 251137,
+										},
+									},
+									FINGER1 = {
+										{
+											dropSource = "Voidscar Arena",
+											enchantID = 243956,
+											gemID = 240908,
+											itemID = 252258,
+										},
+									},
+									FINGER2 = {
+										{
+											dropSource = "Temple of Sethraliss",
+											enchantID = 243956,
+											gemID = 240908,
+											itemID = 158366,
+										},
+									},
+									HANDS = {
+										{
+											dropSource = "Temple of Sethraliss",
+											itemID = 159247,
+										},
+									},
+									HEAD = {
+										{
+											dropSource = "Blinding Vale",
+											enchantID = 244007,
+											gemID = 240908,
+											itemID = 251199,
+										},
+									},
+									LEGS = {
+										{
+											dropSource = "Ruby Life Pools",
+											enchantID = 240133,
+											itemID = 193750,
+										},
+									},
+									MAINHAND = {
+										{
+											dropSource = "Altar of Fangs",
+											enchantID = 243970,
+											itemID = 273778,
+										},
+									},
+									NECK = {
+										{
+											dropSource = "Voidscar Arena",
+											gemID = 240983,
+											itemID = 251234,
+										},
+									},
+									OFFHAND = {
+										{
+											dropSource = "Crafted by Inscription",
+											itemID = 245769,
+										},
+									},
+									SHOULDER = {
+										{
+											dropSource = "Temple of Sethraliss",
+											enchantID = 243990,
+											itemID = 239031,
+										},
+									},
+									TRINKET1 = {
+										{
+											dropSource = "Altar of Fangs",
+											itemID = 273794,
+										},
+									},
+									TRINKET2 = {
+										{
+											dropSource = "Murder Row",
+											itemID = 250215,
+										},
+									},
+									WAIST = {
+										{
+											dropSource = "Crafted by Tailoring",
+											gemID = 240908,
+											itemID = 239649,
+										},
+									},
+									WRIST = {
+										{
+											dropSource = "Den of Nalorakk",
+											gemID = 240908,
+											itemID = 251154,
+										},
+									},
+								},
+								gems = {
+									{
+										itemID = 240983,
+									},
+									{
+										itemID = 240908,
+									},
+								},
+								notes = {
+									trinkets = "There are a decent number of usable trinkets this season, contrary to last. Wavecaller's Seastone and Gebbo's Bottomless Bag are the solid winners in every target count and talent set, but there are significantly more trinkets than just those that are within a fairly close margin to use.",
+								},
+								source = "icyveins",
+								talentBuilds = {
+									{
+										heroSpecific = false,
+										importString = "CAEAAAAAAAAAAAAAAAAAAAAAAYGGLzMzsMmZmYmZGjZMziZmZmZMDAAAMzMzyyMTbAAAAAAwGAbbjZmZwsNPgxMsAAAwMbAzADYGMMA",
+										label = "Frost Single Target",
+									},
+									{
+										heroSpecific = false,
+										importString = "CAEAAAAAAAAAAAAAAAAAAAAAAYGGLzMzsMmZmYmZGzMzMziZmZMjZAAAgZmZWWmZaDAAAAAA2AYbbMzMDmthxMsAAAwMbAzADYGMMA",
+										label = "Frost Light Cleave/Raid",
+									},
+									{
+										heroSpecific = false,
+										importString = "CAEAAAAAAAAAAAAAAAAAAAAAAYGGLzMzsMmZmYmZGzMzMWMzMzMzYmlZamZZWAAAgFAAAAAAYBgttxMzMY2mxMzYbBAAAMzgZgBMDwA",
+										label = "Frost AoE",
+									},
+								},
+								url = "https://www.icy-veins.com/wow/frost-mage-pve-dps-gear-best-in-slot",
+							},
 							mythicstats = {
 								enchants = {
 									{

@@ -1,24 +1,165 @@
 -- GENERATED FILE -- do not edit by hand.
 -- Regenerar con: python -m scraper build
-local ADDON_NAME, ns = ...
 
-ns.RegisterClassData("WARRIOR", {
+EquipHelper_RegisterClassData("WARRIOR", {
 	specs = {
 		[71] = {
 			heroes = {
 				[60] = {
 					mplus = {
-						performance = {
-							difficulty = "Mythic+",
-							median = 206478.8,
-							metric = "dps",
-							outOf = 40,
-							rank = 2,
-							sample = 300,
-							top = 319743.7,
-							zone = "Mythic+ Season 2",
-						},
 						views = {
+							icyveins = {
+								consumables = {
+									{
+										category = "RUNE",
+										itemID = 259085,
+										primary = true,
+									},
+									{
+										category = "WEAPON_OIL",
+										itemID = 243733,
+										primary = true,
+									},
+								},
+								fetchedAt = "2026-08-21",
+								gear = {
+									BACK = {
+										{
+											dropSource = "Ruby Life Pools",
+											itemID = 193763,
+										},
+									},
+									CHEST = {
+										{
+											dropSource = "Den of Nalorakk Catalyst",
+											enchantID = 243977,
+											itemID = 271459,
+										},
+									},
+									FEET = {
+										{
+											dropSource = "Crafted by Blacksmithing",
+											enchantID = 243952,
+											gemID = 273068,
+											itemID = 237828,
+										},
+									},
+									FINGER1 = {
+										{
+											dropSource = "Murder Row",
+											enchantID = 243956,
+											gemID = 240892,
+											itemID = 251136,
+										},
+									},
+									FINGER2 = {
+										{
+											dropSource = "Altar of Fangs",
+											enchantID = 243956,
+											gemID = 240908,
+											itemID = 273792,
+										},
+									},
+									HANDS = {
+										{
+											dropSource = "Den of Nalorakk Catalyst",
+											itemID = 271457,
+										},
+									},
+									HEAD = {
+										{
+											dropSource = "Voidscar Arena Catalyst",
+											enchantID = 244007,
+											gemID = 240892,
+											itemID = 271456,
+										},
+									},
+									LEGS = {
+										{
+											dropSource = "Altar of Fangs Catalyst",
+											enchantID = 244642,
+											itemID = 271455,
+										},
+									},
+									MAINHAND = {
+										{
+											dropSource = "Altar of Fangs",
+											enchantID = 243973,
+											itemID = 273782,
+										},
+									},
+									NECK = {
+										{
+											dropSource = "Altar of Fangs",
+											gemID = 240967,
+											itemID = 273781,
+										},
+									},
+									SHOULDER = {
+										{
+											dropSource = "Temple of Sethraliss Catalyst",
+											enchantID = 243962,
+											itemID = 271454,
+										},
+									},
+									TRINKET1 = {
+										{
+											dropSource = "Altar of Fangs",
+											itemID = 273796,
+										},
+									},
+									TRINKET2 = {
+										{
+											dropSource = "Den of Nalorakk",
+											itemID = 250229,
+										},
+									},
+									WAIST = {
+										{
+											dropSource = "King's Rest",
+											gemID = 240890,
+											itemID = 159418,
+										},
+									},
+									WRIST = {
+										{
+											dropSource = "Crafted by Blacksmithing",
+											gemID = 273068,
+											itemID = 237834,
+										},
+									},
+								},
+								gems = {
+									{
+										itemID = 240967,
+									},
+									{
+										itemID = 240983,
+									},
+								},
+								notes = {
+									trinkets = "There are several trinkets available in Season 2, though there are very few on-use trinkets this season, with the majority being random damage or stat buffs, which have little gameplay value and do not benefit from class effects such as Avatar or Colossus Smash .",
+								},
+								source = "icyveins",
+								talentBuilds = {
+									{
+										heroSpecific = false,
+										importString = "CcEAAAAAAAAAAAAAAAAAAAAAAAzMzsMzMmZGAAAghphxYmZzMzMzgxMDAAAAgZWmZAhxyyALgBMDTgZwGYmx2YbglZWGgZGAMDDA",
+										label = "Arms Single-Target - Slayer",
+									},
+									{
+										heroSpecific = false,
+										importString = "CcEAAAAAAAAAAAAAAAAAAAAAAgZmZmFzYmZGAAAghphxYmZzMzMzYmxMDAAAAgxyMDMhxy2ALgBMDTgZwGYmhhBzyMbDwMDAmhBA",
+										label = "Arms Multi-Target - Slayer",
+									},
+									{
+										heroSpecific = false,
+										importString = "CcEAAAAAAAAAAAAAAAAAAAAAAgZmZmFzYmZGAAAghphxYmZzMzMzYmxMDAAAAgxyMDMhxy2ALgBMDTgZwGYmhhBzyMbDwMDAmhBA",
+										label = "Arms Dungeons & Delves - Slayer",
+									},
+								},
+								url = "https://www.icy-veins.com/wow/arms-warrior-pve-dps-gear-best-in-slot",
+							},
 							mythicstats = {
 								enchants = {
 									{
@@ -815,17 +956,161 @@ ns.RegisterClassData("WARRIOR", {
 			heroes = {
 				[60] = {
 					mplus = {
-						performance = {
-							difficulty = "Mythic+",
-							median = 177017.4,
-							metric = "dps",
-							outOf = 40,
-							rank = 13,
-							sample = 300,
-							top = 306863.8,
-							zone = "Mythic+ Season 2",
-						},
 						views = {
+							icyveins = {
+								consumables = {
+									{
+										category = "WEAPON_OIL",
+										itemID = 243733,
+										primary = true,
+									},
+								},
+								fetchedAt = "2026-08-21",
+								gear = {
+									BACK = {
+										{
+											dropSource = "Ruby Life Pools",
+											itemID = 193763,
+										},
+									},
+									CHEST = {
+										{
+											dropSource = "Ruby Life Pools Catalyst",
+											enchantID = 243977,
+											itemID = 271459,
+										},
+									},
+									FEET = {
+										{
+											dropSource = "Crafted by Blacksmithing",
+											enchantID = 243952,
+											gemID = 273068,
+											itemID = 237828,
+										},
+									},
+									FINGER1 = {
+										{
+											dropSource = "Murder Row",
+											enchantID = 243956,
+											gemID = 240900,
+											itemID = 251136,
+										},
+									},
+									FINGER2 = {
+										{
+											dropSource = "Voidscar Arena",
+											enchantID = 243956,
+											gemID = 240900,
+											itemID = 252258,
+										},
+									},
+									HANDS = {
+										{
+											dropSource = "Den of Nalorakk Catalyst",
+											itemID = 271457,
+										},
+									},
+									HEAD = {
+										{
+											dropSource = "Voidscar Arena Catalyst",
+											enchantID = 244007,
+											gemID = 240906,
+											itemID = 271456,
+										},
+									},
+									LEGS = {
+										{
+											dropSource = "Altar of Fangs Catalyst",
+											enchantID = 244642,
+											itemID = 271455,
+										},
+									},
+									MAINHAND = {
+										{
+											dropSource = "Altar of Fangs",
+											enchantID = 243973,
+											itemID = 273782,
+										},
+									},
+									NECK = {
+										{
+											dropSource = "Altar of Fangs",
+											gemID = 240967,
+											itemID = 273781,
+										},
+									},
+									OFFHAND = {
+										{
+											dropSource = "Voidscar Arena",
+											enchantID = 243973,
+											itemID = 251230,
+										},
+									},
+									SHOULDER = {
+										{
+											dropSource = "Murder Row Catalyst",
+											enchantID = 243962,
+											itemID = 271454,
+										},
+									},
+									TRINKET1 = {
+										{
+											dropSource = "Altar of Fangs",
+											itemID = 273796,
+										},
+									},
+									TRINKET2 = {
+										{
+											dropSource = "Den of Nalorakk",
+											itemID = 250229,
+										},
+									},
+									WAIST = {
+										{
+											dropSource = "Temple of Sethraliss",
+											gemID = 240892,
+											itemID = 159442,
+										},
+									},
+									WRIST = {
+										{
+											dropSource = "Crafted by Blacksmithing",
+											gemID = 273068,
+											itemID = 237834,
+										},
+									},
+								},
+								gems = {
+									{
+										itemID = 240967,
+									},
+									{
+										itemID = 240983,
+									},
+								},
+								notes = {
+									trinkets = "There are several trinkets available in Season 2, though there are very few on-use trinkets this season, with the majority being random damage or stat buffs, which have little gameplay value and do not benefit from class effects such as Enrage or Avatar .",
+								},
+								source = "icyveins",
+								talentBuilds = {
+									{
+										heroSpecific = false,
+										importString = "CgEAAAAAAAAAAAAAAAAAAAAAAAAAAAAAgGDzMmZ2MzMzMDjZmZGzYmlZmxMzMbmZmBAAixy2ALgJYGmAzwGwMDjNAAYmhxYYMYM",
+										label = "Fury Single-Target - Slayer",
+									},
+									{
+										heroSpecific = false,
+										importString = "CgEAAAAAAAAAAAAAAAAAAAAAAAAAAAAAgGDjxMzmZmZmZmZMzMzMzYmlZMmZMbmZmBAAixy2ALgJYGmAzwGwMzmBAAYmhxsMwgxA",
+										label = "Fury Multi-target - Slayer",
+									},
+									{
+										heroSpecific = false,
+										importString = "CgEAAAAAAAAAAAAAAAAAAAAAAAAAAAAAgGDjZMz2yMzMjZmxMzMzMjZWmZmZmxsZmZGAAIMwGssY0YGQmFMjFAzgBAMzAwwiZAGD",
+										label = "Fury Dungeons & Delves - Thane",
+									},
+								},
+								url = "https://www.icy-veins.com/wow/fury-warrior-pve-dps-gear-best-in-slot",
+							},
 							mythicstats = {
 								enchants = {
 									{
@@ -1640,17 +1925,161 @@ ns.RegisterClassData("WARRIOR", {
 				},
 				[61] = {
 					mplus = {
-						performance = {
-							difficulty = "Mythic+",
-							median = 177017.4,
-							metric = "dps",
-							outOf = 40,
-							rank = 13,
-							sample = 300,
-							top = 306863.8,
-							zone = "Mythic+ Season 2",
-						},
 						views = {
+							icyveins = {
+								consumables = {
+									{
+										category = "WEAPON_OIL",
+										itemID = 243733,
+										primary = true,
+									},
+								},
+								fetchedAt = "2026-08-21",
+								gear = {
+									BACK = {
+										{
+											dropSource = "Ruby Life Pools",
+											itemID = 193763,
+										},
+									},
+									CHEST = {
+										{
+											dropSource = "Ruby Life Pools Catalyst",
+											enchantID = 243977,
+											itemID = 271459,
+										},
+									},
+									FEET = {
+										{
+											dropSource = "Crafted by Blacksmithing",
+											enchantID = 243952,
+											gemID = 273068,
+											itemID = 237828,
+										},
+									},
+									FINGER1 = {
+										{
+											dropSource = "Murder Row",
+											enchantID = 243956,
+											gemID = 240900,
+											itemID = 251136,
+										},
+									},
+									FINGER2 = {
+										{
+											dropSource = "Voidscar Arena",
+											enchantID = 243956,
+											gemID = 240900,
+											itemID = 252258,
+										},
+									},
+									HANDS = {
+										{
+											dropSource = "Den of Nalorakk Catalyst",
+											itemID = 271457,
+										},
+									},
+									HEAD = {
+										{
+											dropSource = "Voidscar Arena Catalyst",
+											enchantID = 244007,
+											gemID = 240906,
+											itemID = 271456,
+										},
+									},
+									LEGS = {
+										{
+											dropSource = "Altar of Fangs Catalyst",
+											enchantID = 244642,
+											itemID = 271455,
+										},
+									},
+									MAINHAND = {
+										{
+											dropSource = "Altar of Fangs",
+											enchantID = 243973,
+											itemID = 273782,
+										},
+									},
+									NECK = {
+										{
+											dropSource = "Altar of Fangs",
+											gemID = 240967,
+											itemID = 273781,
+										},
+									},
+									OFFHAND = {
+										{
+											dropSource = "Voidscar Arena",
+											enchantID = 243973,
+											itemID = 251230,
+										},
+									},
+									SHOULDER = {
+										{
+											dropSource = "Murder Row Catalyst",
+											enchantID = 243962,
+											itemID = 271454,
+										},
+									},
+									TRINKET1 = {
+										{
+											dropSource = "Altar of Fangs",
+											itemID = 273796,
+										},
+									},
+									TRINKET2 = {
+										{
+											dropSource = "Den of Nalorakk",
+											itemID = 250229,
+										},
+									},
+									WAIST = {
+										{
+											dropSource = "Temple of Sethraliss",
+											gemID = 240892,
+											itemID = 159442,
+										},
+									},
+									WRIST = {
+										{
+											dropSource = "Crafted by Blacksmithing",
+											gemID = 273068,
+											itemID = 237834,
+										},
+									},
+								},
+								gems = {
+									{
+										itemID = 240967,
+									},
+									{
+										itemID = 240983,
+									},
+								},
+								notes = {
+									trinkets = "There are several trinkets available in Season 2, though there are very few on-use trinkets this season, with the majority being random damage or stat buffs, which have little gameplay value and do not benefit from class effects such as Enrage or Avatar .",
+								},
+								source = "icyveins",
+								talentBuilds = {
+									{
+										heroSpecific = false,
+										importString = "CgEAAAAAAAAAAAAAAAAAAAAAAAAAAAAAgGDzMmZ2MzMzMDjZmZGzYmlZmxMzMbmZmBAAixy2ALgJYGmAzwGwMDjNAAYmhxYYMYM",
+										label = "Fury Single-Target - Slayer",
+									},
+									{
+										heroSpecific = false,
+										importString = "CgEAAAAAAAAAAAAAAAAAAAAAAAAAAAAAgGDjxMzmZmZmZmZMzMzMzYmlZMmZMbmZmBAAixy2ALgJYGmAzwGwMzmBAAYmhxsMwgxA",
+										label = "Fury Multi-target - Slayer",
+									},
+									{
+										heroSpecific = false,
+										importString = "CgEAAAAAAAAAAAAAAAAAAAAAAAAAAAAAgGDjZMz2yMzMjZmxMzMzMjZWmZmZmxsZmZGAAIMwGssY0YGQmFMjFAzgBAMzAwwiZAGD",
+										label = "Fury Dungeons & Delves - Thane",
+									},
+								},
+								url = "https://www.icy-veins.com/wow/fury-warrior-pve-dps-gear-best-in-slot",
+							},
 							mythicstats = {
 								enchants = {
 									{
@@ -2404,17 +2833,227 @@ ns.RegisterClassData("WARRIOR", {
 			heroes = {
 				[61] = {
 					mplus = {
-						performance = {
-							difficulty = "Mythic+",
-							median = 104670.7,
-							metric = "dps",
-							outOf = 40,
-							rank = 29,
-							sample = 300,
-							top = 204188.6,
-							zone = "Mythic+ Season 2",
-						},
 						views = {
+							icyveins = {
+								consumables = {
+									{
+										category = "FLASK",
+										itemID = 241326,
+										primary = true,
+									},
+									{
+										category = "FLASK",
+										itemID = 241325,
+										primary = false,
+									},
+									{
+										category = "POTION",
+										itemID = 241308,
+										primary = true,
+									},
+									{
+										category = "HEALTH_POTION",
+										itemID = 271883,
+										primary = true,
+									},
+									{
+										category = "FOOD",
+										itemID = 255846,
+										primary = true,
+									},
+									{
+										category = "FOOD",
+										itemID = 242273,
+										primary = false,
+									},
+									{
+										category = "FOOD",
+										itemID = 242274,
+										primary = false,
+									},
+									{
+										category = "FOOD",
+										itemID = 242275,
+										primary = false,
+									},
+									{
+										category = "RUNE",
+										itemID = 259085,
+										primary = true,
+									},
+									{
+										category = "WEAPON_OIL",
+										itemID = 243733,
+										primary = true,
+									},
+								},
+								fetchedAt = "2026-08-21",
+								gear = {
+									BACK = {
+										{
+											dropSource = "Crafted by Tailoring",
+											gemID = 240167,
+											itemID = 239656,
+										},
+									},
+									CHEST = {
+										{
+											dropSource = "Catalyst from Blinding Vale",
+											enchantID = 243977,
+											itemID = 271459,
+										},
+									},
+									FEET = {
+										{
+											dropSource = "Altar of Fangs",
+											enchantID = 243983,
+											itemID = 273777,
+										},
+									},
+									FINGER1 = {
+										{
+											dropSource = "Altar of Fangs",
+											enchantID = 244014,
+											gemID = 240890,
+											itemID = 273792,
+										},
+									},
+									FINGER2 = {
+										{
+											dropSource = "Voidscar Arena",
+											enchantID = 244014,
+											gemID = 240890,
+											itemID = 252258,
+										},
+									},
+									HANDS = {
+										{
+											dropSource = "Den of Nalorakk",
+											itemID = 251214,
+										},
+									},
+									HEAD = {
+										{
+											dropSource = "Catalyst from King's Rest",
+											enchantID = 243950,
+											gemID = 240983,
+											itemID = 271456,
+										},
+									},
+									LEGS = {
+										{
+											dropSource = "Catalyst from Altar of Fangs",
+											enchantID = 244642,
+											itemID = 271455,
+										},
+									},
+									MAINHAND = {
+										{
+											dropSource = "Blinding Vale",
+											enchantID = 244029,
+											itemID = 251195,
+										},
+									},
+									NECK = {
+										{
+											dropSource = "Den of Nalorakk",
+											itemID = 251173,
+										},
+									},
+									OFFHAND = {
+										{
+											dropSource = "Den of Nalorakk",
+											itemID = 251150,
+										},
+									},
+									SHOULDER = {
+										{
+											dropSource = "Catalyst from Temple of Sethraliss",
+											enchantID = 244021,
+											itemID = 271454,
+										},
+									},
+									TRINKET1 = {
+										{
+											dropSource = "Den of Nalorakk",
+											itemID = 250229,
+										},
+									},
+									TRINKET2 = {
+										{
+											dropSource = "Altar of Fangs",
+											itemID = 273796,
+										},
+									},
+									WAIST = {
+										{
+											dropSource = "King's Rest",
+											gemID = 240890,
+											itemID = 159418,
+										},
+									},
+									WRIST = {
+										{
+											dropSource = "Crafted by Blacksmithing",
+											gemID = 240890,
+											itemID = 237834,
+										},
+									},
+								},
+								gems = {
+									{
+										itemID = 240983,
+									},
+									{
+										itemID = 240890,
+									},
+									{
+										itemID = 240893,
+									},
+								},
+								notes = {
+									trinkets = "Trinkets are some of the more unique items in the game due to their various effects. They can either help bolster your defenses or assist in dishing out even more damage. Regardless of which you will choose, below you can find a list of other noteworthy trinkets for us. There is still number tuning on-going, so this list will be volatile depending on the changes to come.",
+								},
+								source = "icyveins",
+								talentBuilds = {
+									{
+										heroSpecific = false,
+										importString = "CkEAAAAAAAAAAAAAAAAAAAAAA02AAAzMDzMzMzMzmxsMjxYmGGDLzMzMDGzMAAAAYZAYGDAsYGDbwAzwCNmZBmxMDmNAAzMAgZgxA",
+										label = "Single-Target - Colossus",
+									},
+									{
+										heroSpecific = false,
+										importString = "CkEAAAAAAAAAAAAAAAAAAAAAA0yAAAjZYmZmZGziZmlZMGz0YGDLmZmZMDzMAAAAYZAYGDwAbw2iRjZAMLYmNYmZmhxCAMzAAwAGD",
+										label = "AoE - Mountain Thane",
+									},
+									{
+										heroSpecific = false,
+										importString = "CkEAAAAAAAAAAAAAAAAAAAAAAkBAAGzYmZmZmxsYmZZGjxMNmxwiZmZGzwMDAAAAWGAmxAMwGstY0YGAzCmZDmZmZYsAAzMAAMgxA",
+										label = "Delves - Mountain Thane",
+									},
+									{
+										heroSpecific = false,
+										importString = "CkEAAAAAAAAAAAAAAAAAAAAAAkBAAmZGmZmZmxsZmZZGjxMNMGWmZmZGMmZAAAAwyMDwMGgB2glFjGzAY2wMbgxMDmNAYmBAgZgxA",
+										label = "Defensive Raid Build",
+									},
+									{
+										heroSpecific = false,
+										importString = "CkEAAAAAAAAAAAAAAAAAAAAAAkBAAGzwMzMzMmFzMLzYMmpxMGWMzMzYGmZAAAAwyMDwMGgB2gtFjGzAYWwMbYYmZYsAAzMAAMgxA",
+										label = "Defensive Mythic+ Build",
+									},
+									{
+										heroSpecific = false,
+										importString = "CkEAAAAAAAAAAAAAAAAAAAAAAkBAAmZGmZmZmxsZmZZGjxMNMGWmZmZGMmZAAAAwyMDwMGAYxMG2gBmhFaMzCYMzgZDAwMDAYGYMA",
+										label = "Defensive Raid Build",
+									},
+									{
+										heroSpecific = false,
+										importString = "CkEAAAAAAAAAAAAAAAAAAAAAAkBAAGzwMzMzMmFzMLzYMmpxMGWMzMzYGmZAAAAwyMDwMGAYxMGWgBmhFaMzCYmZGGLAAmZAADYMA",
+										label = "Defensive Mythic+ Build",
+									},
+								},
+								url = "https://www.icy-veins.com/wow/protection-warrior-pve-tank-gear-best-in-slot",
+							},
 							mythicstats = {
 								enchants = {
 									{

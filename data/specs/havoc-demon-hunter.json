@@ -6,17 +6,261 @@
       "content": "mplus",
       "hero_id": 35,
       "hero_name": "Aldrachi Reaver",
-      "performance": {
-        "difficulty": "Mythic+",
-        "median": 167751.7,
-        "metric": "dps",
-        "out_of": 40,
-        "rank": 20,
-        "sample": 300,
-        "top": 282542.3,
-        "zone": "Mythic+ Season 2"
-      },
+      "performance": null,
       "views": {
+        "icyveins": {
+          "consumables": [
+            {
+              "category": "POTION",
+              "is_primary": true,
+              "item_id": 241288
+            },
+            {
+              "category": "HEALTH_POTION",
+              "is_primary": true,
+              "item_id": 271883
+            },
+            {
+              "category": "FOOD",
+              "is_primary": true,
+              "item_id": 255845
+            },
+            {
+              "category": "FOOD",
+              "is_primary": false,
+              "item_id": 242275
+            },
+            {
+              "category": "RUNE",
+              "is_primary": true,
+              "item_id": 259085
+            },
+            {
+              "category": "WEAPON_OIL",
+              "is_primary": true,
+              "item_id": 243733
+            }
+          ],
+          "enchants": [],
+          "fetched_at": "2026-08-21",
+          "gear": {
+            "BACK": [
+              {
+                "drop_source": "Murder Row",
+                "enchant_id": null,
+                "gem_id": null,
+                "item_id": 251132,
+                "note": null,
+                "source_hint": null,
+                "usage_pct": null
+              }
+            ],
+            "CHEST": [
+              {
+                "drop_source": "Catalyst from King's Rest",
+                "enchant_id": 243977,
+                "gem_id": null,
+                "item_id": 271540,
+                "note": null,
+                "source_hint": null,
+                "usage_pct": null
+              }
+            ],
+            "FEET": [
+              {
+                "drop_source": "Temple of Sethraliss",
+                "enchant_id": 243952,
+                "gem_id": null,
+                "item_id": 159327,
+                "note": null,
+                "source_hint": null,
+                "usage_pct": null
+              }
+            ],
+            "FINGER1": [
+              {
+                "drop_source": "Temple of Sethraliss",
+                "enchant_id": 243956,
+                "gem_id": 240914,
+                "item_id": 158366,
+                "note": null,
+                "source_hint": null,
+                "usage_pct": null
+              }
+            ],
+            "FINGER2": [
+              {
+                "drop_source": "Murder Row",
+                "enchant_id": 243956,
+                "gem_id": 240908,
+                "item_id": 251136,
+                "note": null,
+                "source_hint": null,
+                "usage_pct": null
+              }
+            ],
+            "HANDS": [
+              {
+                "drop_source": "Catalyst from King's Rest",
+                "enchant_id": null,
+                "gem_id": null,
+                "item_id": 271538,
+                "note": null,
+                "source_hint": null,
+                "usage_pct": null
+              }
+            ],
+            "HEAD": [
+              {
+                "drop_source": "Catalyst from Temple of Sethraliss",
+                "enchant_id": 244007,
+                "gem_id": 240967,
+                "item_id": 271537,
+                "note": null,
+                "source_hint": null,
+                "usage_pct": null
+              }
+            ],
+            "LEGS": [
+              {
+                "drop_source": "Catalyst from Murder Row",
+                "enchant_id": 244640,
+                "gem_id": null,
+                "item_id": 271536,
+                "note": null,
+                "source_hint": null,
+                "usage_pct": null
+              }
+            ],
+            "MAINHAND": [
+              {
+                "drop_source": "Blinding Vale",
+                "enchant_id": 243970,
+                "gem_id": null,
+                "item_id": 251186,
+                "note": null,
+                "source_hint": null,
+                "usage_pct": null
+              }
+            ],
+            "NECK": [
+              {
+                "drop_source": "Voidscar Arena",
+                "enchant_id": null,
+                "gem_id": 240908,
+                "item_id": 251234,
+                "note": null,
+                "source_hint": null,
+                "usage_pct": null
+              }
+            ],
+            "OFFHAND": [
+              {
+                "drop_source": "Crafted by Blacksmithing",
+                "enchant_id": 244031,
+                "gem_id": 273059,
+                "item_id": 237840,
+                "note": null,
+                "source_hint": null,
+                "usage_pct": null
+              }
+            ],
+            "SHOULDER": [
+              {
+                "drop_source": "Catalyst from Voidscar Arena",
+                "enchant_id": 243990,
+                "gem_id": null,
+                "item_id": 271535,
+                "note": null,
+                "source_hint": null,
+                "usage_pct": null
+              }
+            ],
+            "TRINKET1": [
+              {
+                "drop_source": "Altar of Fangs",
+                "enchant_id": null,
+                "gem_id": null,
+                "item_id": 273796,
+                "note": null,
+                "source_hint": null,
+                "usage_pct": null
+              }
+            ],
+            "TRINKET2": [
+              {
+                "drop_source": "Blinding Vale",
+                "enchant_id": null,
+                "gem_id": null,
+                "item_id": 250259,
+                "note": null,
+                "source_hint": null,
+                "usage_pct": null
+              }
+            ],
+            "WAIST": [
+              {
+                "drop_source": "King's Rest",
+                "enchant_id": null,
+                "gem_id": 240890,
+                "item_id": 159301,
+                "note": null,
+                "source_hint": null,
+                "usage_pct": null
+              }
+            ],
+            "WRIST": [
+              {
+                "drop_source": "Crafted by Leatherworking",
+                "enchant_id": null,
+                "gem_id": 240898,
+                "item_id": 244576,
+                "note": null,
+                "source_hint": null,
+                "usage_pct": null
+              }
+            ]
+          },
+          "gems": [],
+          "notes": {
+            "trinkets": "Havoc generally seeks to use one on-use trinket that aligns with Metamorphosis to enhance its burst windows, and then one strong passive trinket to go with it. Both stat procs and damage effects are useful due to Know Your Enemy , so there's a good amount of flexibility on offer."
+          },
+          "source": "icyveins",
+          "stat_priority": [],
+          "talent_builds": [
+            {
+              "hero_id": 0,
+              "hero_specific": false,
+              "import_string": "CEkAAAAAAAAAAAAAAAAAAAAAAYgZmZMjZmZmxMZMzAAAAAAAmNjZbmxYmtZmxyMjZsMzwMLzsMDGGLbMhxMjhFAAAAAAAwMDwAAAAwA",
+              "label": "Raid / Single Target - Aldrachi Reaver",
+              "metrics": {},
+              "source": "icyveins",
+              "url": "https://www.icy-veins.com/wow/havoc-demon-hunter-pve-dps-spec-builds-talents",
+              "usage_pct": null
+            },
+            {
+              "hero_id": 0,
+              "hero_specific": false,
+              "import_string": "CEkAAAAAAAAAAAAAAAAAAAAAAYmZGzMz2MmZmxYmMmZAAAAAAAzixsNDzMwMWmZmZYmBzyAbzmZMMbMNmZGzYDAAAYAAAAMzgBAAAgB",
+              "label": "AoE / Mythic+ - Fel-Scarred",
+              "metrics": {},
+              "source": "icyveins",
+              "url": "https://www.icy-veins.com/wow/havoc-demon-hunter-pve-dps-spec-builds-talents",
+              "usage_pct": null
+            },
+            {
+              "hero_id": 0,
+              "hero_specific": false,
+              "import_string": "CEkAAAAAAAAAAAAAAAAAAAAAAYmZGzMjZMzMjxMhZGAAAAAAwsYmhZMzAzYZmZmxyMDmlB2mNzYY2YaMzMzM2AAAAAAAAYmBDAAAAD",
+              "label": "Delves - Fel-Scarred",
+              "metrics": {},
+              "source": "icyveins",
+              "url": "https://www.icy-veins.com/wow/havoc-demon-hunter-pve-dps-spec-builds-talents",
+              "usage_pct": null
+            }
+          ],
+          "url": "https://www.icy-veins.com/wow/havoc-demon-hunter-pve-dps-gear-best-in-slot"
+        },
         "mythicstats": {
           "consumables": [],
           "enchants": [
@@ -1389,17 +1633,261 @@
       "content": "mplus",
       "hero_id": 34,
       "hero_name": "Fel-Scarred",
-      "performance": {
-        "difficulty": "Mythic+",
-        "median": 167751.7,
-        "metric": "dps",
-        "out_of": 40,
-        "rank": 20,
-        "sample": 300,
-        "top": 282542.3,
-        "zone": "Mythic+ Season 2"
-      },
+      "performance": null,
       "views": {
+        "icyveins": {
+          "consumables": [
+            {
+              "category": "POTION",
+              "is_primary": true,
+              "item_id": 241288
+            },
+            {
+              "category": "HEALTH_POTION",
+              "is_primary": true,
+              "item_id": 271883
+            },
+            {
+              "category": "FOOD",
+              "is_primary": true,
+              "item_id": 255845
+            },
+            {
+              "category": "FOOD",
+              "is_primary": false,
+              "item_id": 242275
+            },
+            {
+              "category": "RUNE",
+              "is_primary": true,
+              "item_id": 259085
+            },
+            {
+              "category": "WEAPON_OIL",
+              "is_primary": true,
+              "item_id": 243733
+            }
+          ],
+          "enchants": [],
+          "fetched_at": "2026-08-21",
+          "gear": {
+            "BACK": [
+              {
+                "drop_source": "Murder Row",
+                "enchant_id": null,
+                "gem_id": null,
+                "item_id": 251132,
+                "note": null,
+                "source_hint": null,
+                "usage_pct": null
+              }
+            ],
+            "CHEST": [
+              {
+                "drop_source": "Catalyst from King's Rest",
+                "enchant_id": 243977,
+                "gem_id": null,
+                "item_id": 271540,
+                "note": null,
+                "source_hint": null,
+                "usage_pct": null
+              }
+            ],
+            "FEET": [
+              {
+                "drop_source": "Temple of Sethraliss",
+                "enchant_id": 243952,
+                "gem_id": null,
+                "item_id": 159327,
+                "note": null,
+                "source_hint": null,
+                "usage_pct": null
+              }
+            ],
+            "FINGER1": [
+              {
+                "drop_source": "Temple of Sethraliss",
+                "enchant_id": 243956,
+                "gem_id": 240914,
+                "item_id": 158366,
+                "note": null,
+                "source_hint": null,
+                "usage_pct": null
+              }
+            ],
+            "FINGER2": [
+              {
+                "drop_source": "Murder Row",
+                "enchant_id": 243956,
+                "gem_id": 240908,
+                "item_id": 251136,
+                "note": null,
+                "source_hint": null,
+                "usage_pct": null
+              }
+            ],
+            "HANDS": [
+              {
+                "drop_source": "Catalyst from King's Rest",
+                "enchant_id": null,
+                "gem_id": null,
+                "item_id": 271538,
+                "note": null,
+                "source_hint": null,
+                "usage_pct": null
+              }
+            ],
+            "HEAD": [
+              {
+                "drop_source": "Catalyst from Temple of Sethraliss",
+                "enchant_id": 244007,
+                "gem_id": 240967,
+                "item_id": 271537,
+                "note": null,
+                "source_hint": null,
+                "usage_pct": null
+              }
+            ],
+            "LEGS": [
+              {
+                "drop_source": "Catalyst from Murder Row",
+                "enchant_id": 244640,
+                "gem_id": null,
+                "item_id": 271536,
+                "note": null,
+                "source_hint": null,
+                "usage_pct": null
+              }
+            ],
+            "MAINHAND": [
+              {
+                "drop_source": "Blinding Vale",
+                "enchant_id": 243970,
+                "gem_id": null,
+                "item_id": 251186,
+                "note": null,
+                "source_hint": null,
+                "usage_pct": null
+              }
+            ],
+            "NECK": [
+              {
+                "drop_source": "Voidscar Arena",
+                "enchant_id": null,
+                "gem_id": 240908,
+                "item_id": 251234,
+                "note": null,
+                "source_hint": null,
+                "usage_pct": null
+              }
+            ],
+            "OFFHAND": [
+              {
+                "drop_source": "Crafted by Blacksmithing",
+                "enchant_id": 244031,
+                "gem_id": 273059,
+                "item_id": 237840,
+                "note": null,
+                "source_hint": null,
+                "usage_pct": null
+              }
+            ],
+            "SHOULDER": [
+              {
+                "drop_source": "Catalyst from Voidscar Arena",
+                "enchant_id": 243990,
+                "gem_id": null,
+                "item_id": 271535,
+                "note": null,
+                "source_hint": null,
+                "usage_pct": null
+              }
+            ],
+            "TRINKET1": [
+              {
+                "drop_source": "Altar of Fangs",
+                "enchant_id": null,
+                "gem_id": null,
+                "item_id": 273796,
+                "note": null,
+                "source_hint": null,
+                "usage_pct": null
+              }
+            ],
+            "TRINKET2": [
+              {
+                "drop_source": "Blinding Vale",
+                "enchant_id": null,
+                "gem_id": null,
+                "item_id": 250259,
+                "note": null,
+                "source_hint": null,
+                "usage_pct": null
+              }
+            ],
+            "WAIST": [
+              {
+                "drop_source": "King's Rest",
+                "enchant_id": null,
+                "gem_id": 240890,
+                "item_id": 159301,
+                "note": null,
+                "source_hint": null,
+                "usage_pct": null
+              }
+            ],
+            "WRIST": [
+              {
+                "drop_source": "Crafted by Leatherworking",
+                "enchant_id": null,
+                "gem_id": 240898,
+                "item_id": 244576,
+                "note": null,
+                "source_hint": null,
+                "usage_pct": null
+              }
+            ]
+          },
+          "gems": [],
+          "notes": {
+            "trinkets": "Havoc generally seeks to use one on-use trinket that aligns with Metamorphosis to enhance its burst windows, and then one strong passive trinket to go with it. Both stat procs and damage effects are useful due to Know Your Enemy , so there's a good amount of flexibility on offer."
+          },
+          "source": "icyveins",
+          "stat_priority": [],
+          "talent_builds": [
+            {
+              "hero_id": 0,
+              "hero_specific": false,
+              "import_string": "CEkAAAAAAAAAAAAAAAAAAAAAAYgZmZMjZmZmxMZMzAAAAAAAmNjZbmxYmtZmxyMjZsMzwMLzsMDGGLbMhxMjhFAAAAAAAwMDwAAAAwA",
+              "label": "Raid / Single Target - Aldrachi Reaver",
+              "metrics": {},
+              "source": "icyveins",
+              "url": "https://www.icy-veins.com/wow/havoc-demon-hunter-pve-dps-spec-builds-talents",
+              "usage_pct": null
+            },
+            {
+              "hero_id": 0,
+              "hero_specific": false,
+              "import_string": "CEkAAAAAAAAAAAAAAAAAAAAAAYmZGzMz2MmZmxYmMmZAAAAAAAzixsNDzMwMWmZmZYmBzyAbzmZMMbMNmZGzYDAAAYAAAAMzgBAAAgB",
+              "label": "AoE / Mythic+ - Fel-Scarred",
+              "metrics": {},
+              "source": "icyveins",
+              "url": "https://www.icy-veins.com/wow/havoc-demon-hunter-pve-dps-spec-builds-talents",
+              "usage_pct": null
+            },
+            {
+              "hero_id": 0,
+              "hero_specific": false,
+              "import_string": "CEkAAAAAAAAAAAAAAAAAAAAAAYmZGzMjZMzMjxMhZGAAAAAAwsYmhZMzAzYZmZmxyMDmlB2mNzYY2YaMzMzM2AAAAAAAAYmBDAAAAD",
+              "label": "Delves - Fel-Scarred",
+              "metrics": {},
+              "source": "icyveins",
+              "url": "https://www.icy-veins.com/wow/havoc-demon-hunter-pve-dps-spec-builds-talents",
+              "usage_pct": null
+            }
+          ],
+          "url": "https://www.icy-veins.com/wow/havoc-demon-hunter-pve-dps-gear-best-in-slot"
+        },
         "mythicstats": {
           "consumables": [],
           "enchants": [

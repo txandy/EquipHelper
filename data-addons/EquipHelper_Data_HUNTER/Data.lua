@@ -1,24 +1,184 @@
 -- GENERATED FILE -- do not edit by hand.
 -- Regenerar con: python -m scraper build
-local ADDON_NAME, ns = ...
 
-ns.RegisterClassData("HUNTER", {
+EquipHelper_RegisterClassData("HUNTER", {
 	specs = {
 		[253] = {
 			heroes = {
 				[43] = {
 					mplus = {
-						performance = {
-							difficulty = "Mythic+",
-							median = 172078.1,
-							metric = "dps",
-							outOf = 40,
-							rank = 18,
-							sample = 300,
-							top = 274564.0,
-							zone = "Mythic+ Season 2",
-						},
 						views = {
+							icyveins = {
+								consumables = {
+									{
+										category = "FLASK",
+										itemID = 241322,
+										primary = true,
+									},
+									{
+										category = "HEALTH_POTION",
+										itemID = 271883,
+										primary = true,
+									},
+									{
+										category = "FOOD",
+										itemID = 255846,
+										primary = true,
+									},
+									{
+										category = "FOOD",
+										itemID = 255845,
+										primary = false,
+									},
+									{
+										category = "FOOD",
+										itemID = 242747,
+										primary = false,
+									},
+									{
+										category = "RUNE",
+										itemID = 259085,
+										primary = true,
+									},
+								},
+								fetchedAt = "2026-08-21",
+								gear = {
+									BACK = {
+										{
+											dropSource = "Murder Row",
+											itemID = 251132,
+										},
+									},
+									CHEST = {
+										{
+											dropSource = "Catalyst from King's Rest",
+											enchantID = 243977,
+											itemID = 271495,
+										},
+									},
+									FEET = {
+										{
+											dropSource = "Temple of Sethraliss",
+											enchantID = 243952,
+											itemID = 159388,
+										},
+									},
+									FINGER1 = {
+										{
+											dropSource = "The Blinding Vale",
+											enchantID = 243956,
+											gemID = 240898,
+											itemID = 251194,
+										},
+									},
+									FINGER2 = {
+										{
+											dropSource = "Murder Row",
+											enchantID = 243956,
+											gemID = 240898,
+											itemID = 251136,
+										},
+									},
+									HANDS = {
+										{
+											dropSource = "Catalyst from Ruby Life Pools",
+											itemID = 271493,
+										},
+									},
+									HEAD = {
+										{
+											dropSource = "Catalyst from Temple of Sethraliss",
+											enchantID = 244007,
+											gemID = 240983,
+											itemID = 271492,
+										},
+									},
+									LEGS = {
+										{
+											dropSource = "Catalyst from Temple of Sethraliss",
+											enchantID = 244640,
+											itemID = 271491,
+										},
+									},
+									MAINHAND = {
+										{
+											dropSource = "The Blinding Vale",
+											enchantID = 244031,
+											itemID = 251187,
+										},
+									},
+									NECK = {
+										{
+											dropSource = "Voidscar Arena",
+											gemID = 240898,
+											itemID = 251234,
+										},
+									},
+									SHOULDER = {
+										{
+											dropSource = "Catalyst from Murder Row",
+											enchantID = 243990,
+											itemID = 271490,
+										},
+									},
+									TRINKET1 = {
+										{
+											dropSource = "King's Rest",
+											itemID = 159617,
+										},
+									},
+									TRINKET2 = {
+										{
+											dropSource = "The Blinding Vale",
+											itemID = 250214,
+										},
+									},
+									WAIST = {
+										{
+											dropSource = "Crafted by Leatherworking",
+											gemID = 240898,
+											itemID = 244581,
+										},
+									},
+									WRIST = {
+										{
+											dropSource = "Crafted by Leatherworking",
+											gemID = 240898,
+											itemID = 244584,
+										},
+									},
+								},
+								gems = {
+									{
+										itemID = 240983,
+									},
+									{
+										itemID = 240898,
+									},
+								},
+								notes = {
+									trinkets = "We are fairly flexible in the trinkets we like. Voracious Heart of Ula'tek paired with Zul'jin's Guillotine Technique is our optimal setup.",
+								},
+								source = "icyveins",
+								talentBuilds = {
+									{
+										heroSpecific = false,
+										importString = "C0PAAAAAAAAAAAAAAAAAAAAAAAMmxwCsAzwwMsBAgZYMzyMDzYmhhZGjZGzMjZMziZmxMmBjpZAAAAAzAAAwYmZAmZjxGMLgtBgB",
+										label = "Beast Mastery Single-Target - Pack Leader",
+									},
+									{
+										heroSpecific = false,
+										importString = "C0PAAAAAAAAAAAAAAAAAAAAAAAMmxwCsAzwQDbAAYGzMzsYGzMzMjZGMzYmhZGzMzYbmZMjZYZMNDAAAAAAAA8AjxAmZjAmFw2AwA",
+										label = "Beast Mastery Mythic+ - Pack Leader",
+									},
+									{
+										heroSpecific = false,
+										importString = "C0PAAAAAAAAAAAAAAAAAAAAAAAMmxwCsAzwQDbAAYGzMzsYGzMzMjZGMzYmhZGzMzgxYGzMMmGAAAAAAAAYmxYAzsRwyMLgtBgBA",
+										label = "Beast Mastery Delves - Pack Leader",
+									},
+								},
+								url = "https://www.icy-veins.com/wow/beast-mastery-hunter-pve-dps-gear-best-in-slot",
+							},
 							mythicstats = {
 								enchants = {
 									{
@@ -800,17 +960,192 @@ ns.RegisterClassData("HUNTER", {
 			heroes = {
 				[42] = {
 					mplus = {
-						performance = {
-							difficulty = "Mythic+",
-							median = 169065.8,
-							metric = "dps",
-							outOf = 40,
-							rank = 19,
-							sample = 300,
-							top = 342778.4,
-							zone = "Mythic+ Season 2",
-						},
 						views = {
+							icyveins = {
+								consumables = {
+									{
+										category = "FLASK",
+										itemID = 241326,
+										primary = true,
+									},
+									{
+										category = "HEALTH_POTION",
+										itemID = 271883,
+										primary = true,
+									},
+									{
+										category = "FOOD",
+										itemID = 255846,
+										primary = true,
+									},
+									{
+										category = "FOOD",
+										itemID = 255845,
+										primary = false,
+									},
+									{
+										category = "FOOD",
+										itemID = 242747,
+										primary = false,
+									},
+									{
+										category = "RUNE",
+										itemID = 259085,
+										primary = true,
+									},
+								},
+								fetchedAt = "2026-08-21",
+								gear = {
+									BACK = {
+										{
+											dropSource = "Murder Row",
+											itemID = 251132,
+										},
+									},
+									CHEST = {
+										{
+											dropSource = "Catalyst from King's Rest",
+											enchantID = 243977,
+											itemID = 271495,
+										},
+									},
+									FEET = {
+										{
+											dropSource = "Temple of Sethraliss",
+											enchantID = 243983,
+											itemID = 159388,
+										},
+									},
+									FINGER1 = {
+										{
+											dropSource = "Temple of Sethraliss",
+											enchantID = 243956,
+											gemID = 240908,
+											itemID = 158366,
+										},
+									},
+									FINGER2 = {
+										{
+											dropSource = "Murder Row",
+											enchantID = 243956,
+											gemID = 240908,
+											itemID = 251136,
+										},
+									},
+									HANDS = {
+										{
+											dropSource = "Catalyst from Ruby Life Pools",
+											itemID = 271493,
+										},
+									},
+									HEAD = {
+										{
+											dropSource = "Catalyst from Temple of Sethraliss",
+											enchantID = 243950,
+											gemID = 240967,
+											itemID = 271492,
+										},
+									},
+									LEGS = {
+										{
+											dropSource = "Catalyst from Temple of Sethraliss",
+											enchantID = 244640,
+											itemID = 271491,
+										},
+									},
+									MAINHAND = {
+										{
+											dropSource = "Murder Row",
+											enchantID = 243970,
+											itemID = 271680,
+										},
+									},
+									NECK = {
+										{
+											dropSource = "Voidscar Arena",
+											gemID = 240914,
+											itemID = 251234,
+										},
+									},
+									SHOULDER = {
+										{
+											dropSource = "Catalyst from Murder Row",
+											enchantID = 244021,
+											itemID = 271490,
+										},
+									},
+									TRINKET1 = {
+										{
+											dropSource = "The Blinding Vale",
+											itemID = 250214,
+										},
+									},
+									TRINKET2 = {
+										{
+											dropSource = "King's Rest",
+											itemID = 159617,
+										},
+									},
+									WAIST = {
+										{
+											dropSource = "Crafted by Leatherworking",
+											gemID = 240890,
+											itemID = 244581,
+										},
+									},
+									WRIST = {
+										{
+											dropSource = "Crafted by Leatherworking",
+											gemID = 240898,
+											itemID = 244584,
+										},
+									},
+								},
+								gems = {
+									{
+										itemID = 240967,
+									},
+									{
+										itemID = 240890,
+									},
+									{
+										itemID = 240898,
+									},
+									{
+										itemID = 240914,
+									},
+									{
+										itemID = 240908,
+									},
+								},
+								notes = {
+									trinkets = "As Marksmanship, we want a powerful on-use Trinket to pair with our Trueshot , and a strong passive Trinket option in our second slot.",
+								},
+								source = "icyveins",
+								talentBuilds = {
+									{
+										heroSpecific = false,
+										importString = "C4PAAAAAAAAAAAAAAAAAAAAAAwCMwMGzYZAjZwGAAAAAAAAYGzYmFzYmZMDGTzYwYbZmZmZmZmZWYmlBzAAAGzMjBwM22gBYjZ2mxAA",
+										label = "Marksmanship Single Target - Sentinel",
+									},
+									{
+										heroSpecific = false,
+										importString = "C4PAAAAAAAAAAAAAAAAAAAAAAwCMwMGzYZAjZwGAAAAAAAAYGzYmFzYmZMDGTzYwstZmZmZmZmZWYmlhZAAAGzMjBwM22gBYjZ2mxAA",
+										label = "Marksmanship Raid AoE/Cleave - Sentinel",
+									},
+									{
+										heroSpecific = false,
+										importString = "C4PAAAAAAAAAAAAAAAAAAAAAAwCMwMGzYZAjZwGAAAAAAAAYGzMzYbGzMjZYZMNjBzy2yMzMzMzMzswMLDzAAA4BGjBgZsBGgNmZbGD",
+										label = "Marksmanship Mythic+ - Sentinel",
+									},
+									{
+										heroSpecific = false,
+										importString = "C4PAAAAAAAAAAAAAAAAAAAAAAwCMwMGzYZAjZwGAAAAAAAAYGzMzgxMzYmhx0wgZZbZmZmZmZmZWwsNMDAAwMjxAwM2wyMAbMz2MG",
+										label = "Marksmanship Delves - Sentinel",
+									},
+								},
+								url = "https://www.icy-veins.com/wow/marksmanship-hunter-pve-dps-gear-best-in-slot",
+							},
 							mythicstats = {
 								enchants = {
 									{
@@ -1575,17 +1910,185 @@ ns.RegisterClassData("HUNTER", {
 			heroes = {
 				[42] = {
 					mplus = {
-						performance = {
-							difficulty = "Mythic+",
-							median = 151564.5,
-							metric = "dps",
-							outOf = 40,
-							rank = 24,
-							sample = 300,
-							top = 277291.8,
-							zone = "Mythic+ Season 2",
-						},
 						views = {
+							icyveins = {
+								consumables = {
+									{
+										category = "FLASK",
+										itemID = 241322,
+										primary = true,
+									},
+									{
+										category = "HEALTH_POTION",
+										itemID = 271883,
+										primary = true,
+									},
+									{
+										category = "FOOD",
+										itemID = 255846,
+										primary = true,
+									},
+									{
+										category = "FOOD",
+										itemID = 255845,
+										primary = false,
+									},
+									{
+										category = "FOOD",
+										itemID = 242747,
+										primary = false,
+									},
+									{
+										category = "RUNE",
+										itemID = 259085,
+										primary = true,
+									},
+								},
+								fetchedAt = "2026-08-21",
+								gear = {
+									BACK = {
+										{
+											dropSource = "The Blinding Vale",
+											itemID = 251190,
+										},
+									},
+									CHEST = {
+										{
+											dropSource = "Catalyst from Voidscar Arena",
+											enchantID = 243977,
+											itemID = 271495,
+										},
+									},
+									FEET = {
+										{
+											dropSource = "Temple of Sethraliss",
+											enchantID = 243983,
+											itemID = 159388,
+										},
+									},
+									FINGER1 = {
+										{
+											dropSource = "Voidscar Arena",
+											enchantID = 243956,
+											gemID = 240898,
+											itemID = 252258,
+										},
+									},
+									FINGER2 = {
+										{
+											dropSource = "Murder Row",
+											enchantID = 243956,
+											gemID = 240898,
+											itemID = 251136,
+										},
+									},
+									HANDS = {
+										{
+											dropSource = "Catalyst from King's Rest",
+											itemID = 271493,
+										},
+									},
+									HEAD = {
+										{
+											dropSource = "Catalyst from Temple of Sethraliss",
+											enchantID = 243950,
+											gemID = 240983,
+											itemID = 271492,
+										},
+									},
+									LEGS = {
+										{
+											dropSource = "Catalyst from Temple of Sethraliss",
+											enchantID = 244640,
+											itemID = 271491,
+										},
+									},
+									MAINHAND = {
+										{
+											dropSource = "Altar of Fangs",
+											enchantID = 244031,
+											itemID = 275070,
+										},
+									},
+									NECK = {
+										{
+											dropSource = "Murder Row",
+											gemID = 240898,
+											itemID = 251142,
+										},
+									},
+									OFFHAND = {
+										{
+											dropSource = "Altar of Fangs",
+											enchantID = 244031,
+											itemID = 275070,
+										},
+									},
+									SHOULDER = {
+										{
+											dropSource = "Catalyst from King's Rest",
+											enchantID = 244021,
+											itemID = 271490,
+										},
+									},
+									TRINKET1 = {
+										{
+											dropSource = "The Blinding Vale",
+											itemID = 250214,
+										},
+									},
+									TRINKET2 = {
+										{
+											dropSource = "Murder Row",
+											itemID = 250215,
+										},
+									},
+									WAIST = {
+										{
+											dropSource = "Crafted by Leatherworking",
+											gemID = 240898,
+											itemID = 244581,
+										},
+									},
+									WRIST = {
+										{
+											dropSource = "Crafted by Leatherworking",
+											gemID = 240898,
+											itemID = 244584,
+										},
+									},
+								},
+								gems = {
+									{
+										itemID = 240983,
+									},
+									{
+										itemID = 240898,
+									},
+								},
+								notes = {
+									trinkets = "As Survival, our optimal setup is Voracious Heart of Ula'tek paired with Zul'jin's Guillotine Technique . Use the Heart with Takedown when possible, but do not hold it for more than 20 seconds to do so.",
+								},
+								source = "icyveins",
+								talentBuilds = {
+									{
+										heroSpecific = false,
+										importString = "C8PAAAAAAAAAAAAAAAAAAAAAAMWgBmxoxyAYmgtZMzMGzyAAAAAAwMmxMLmxYGzgx0MAAAADAmxyyMzsYMzMjZmBAzYZDGDjNDAA",
+										label = "Survival Single Target - Sentinel",
+									},
+									{
+										heroSpecific = false,
+										importString = "C8PAAAAAAAAAAAAAAAAAAAAAAMWgBmxYGLDgZGYbmZmZmxsNPAAAAAAgZMzMjtZMmxMsMmmBAAAYAgxyyMjFMzMegxYAYGbgxYmZzAAA",
+										label = "Survival Mythic+ - Sentinel",
+									},
+									{
+										heroSpecific = false,
+										importString = "C8PAAAAAAAAAAAAAAAAAAAAAAMWgBmxYGLDgZGYbmZmZmxsNPAAAAAAgZMzMDGjZMzwYaAAAAAAGLLzMWwMzMzYMAMjNsMjxMzmBAAA",
+										label = "Survival Delves - Sentinel",
+									},
+								},
+								url = "https://www.icy-veins.com/wow/survival-hunter-pve-dps-gear-best-in-slot",
+							},
 							mythicstats = {
 								enchants = {
 									{
@@ -2362,17 +2865,185 @@ ns.RegisterClassData("HUNTER", {
 				},
 				[43] = {
 					mplus = {
-						performance = {
-							difficulty = "Mythic+",
-							median = 151564.5,
-							metric = "dps",
-							outOf = 40,
-							rank = 24,
-							sample = 300,
-							top = 277291.8,
-							zone = "Mythic+ Season 2",
-						},
 						views = {
+							icyveins = {
+								consumables = {
+									{
+										category = "FLASK",
+										itemID = 241322,
+										primary = true,
+									},
+									{
+										category = "HEALTH_POTION",
+										itemID = 271883,
+										primary = true,
+									},
+									{
+										category = "FOOD",
+										itemID = 255846,
+										primary = true,
+									},
+									{
+										category = "FOOD",
+										itemID = 255845,
+										primary = false,
+									},
+									{
+										category = "FOOD",
+										itemID = 242747,
+										primary = false,
+									},
+									{
+										category = "RUNE",
+										itemID = 259085,
+										primary = true,
+									},
+								},
+								fetchedAt = "2026-08-21",
+								gear = {
+									BACK = {
+										{
+											dropSource = "The Blinding Vale",
+											itemID = 251190,
+										},
+									},
+									CHEST = {
+										{
+											dropSource = "Catalyst from Voidscar Arena",
+											enchantID = 243977,
+											itemID = 271495,
+										},
+									},
+									FEET = {
+										{
+											dropSource = "Temple of Sethraliss",
+											enchantID = 243983,
+											itemID = 159388,
+										},
+									},
+									FINGER1 = {
+										{
+											dropSource = "Voidscar Arena",
+											enchantID = 243956,
+											gemID = 240898,
+											itemID = 252258,
+										},
+									},
+									FINGER2 = {
+										{
+											dropSource = "Murder Row",
+											enchantID = 243956,
+											gemID = 240898,
+											itemID = 251136,
+										},
+									},
+									HANDS = {
+										{
+											dropSource = "Catalyst from King's Rest",
+											itemID = 271493,
+										},
+									},
+									HEAD = {
+										{
+											dropSource = "Catalyst from Temple of Sethraliss",
+											enchantID = 243950,
+											gemID = 240983,
+											itemID = 271492,
+										},
+									},
+									LEGS = {
+										{
+											dropSource = "Catalyst from Temple of Sethraliss",
+											enchantID = 244640,
+											itemID = 271491,
+										},
+									},
+									MAINHAND = {
+										{
+											dropSource = "Altar of Fangs",
+											enchantID = 244031,
+											itemID = 275070,
+										},
+									},
+									NECK = {
+										{
+											dropSource = "Murder Row",
+											gemID = 240898,
+											itemID = 251142,
+										},
+									},
+									OFFHAND = {
+										{
+											dropSource = "Altar of Fangs",
+											enchantID = 244031,
+											itemID = 275070,
+										},
+									},
+									SHOULDER = {
+										{
+											dropSource = "Catalyst from King's Rest",
+											enchantID = 244021,
+											itemID = 271490,
+										},
+									},
+									TRINKET1 = {
+										{
+											dropSource = "The Blinding Vale",
+											itemID = 250214,
+										},
+									},
+									TRINKET2 = {
+										{
+											dropSource = "Murder Row",
+											itemID = 250215,
+										},
+									},
+									WAIST = {
+										{
+											dropSource = "Crafted by Leatherworking",
+											gemID = 240898,
+											itemID = 244581,
+										},
+									},
+									WRIST = {
+										{
+											dropSource = "Crafted by Leatherworking",
+											gemID = 240898,
+											itemID = 244584,
+										},
+									},
+								},
+								gems = {
+									{
+										itemID = 240983,
+									},
+									{
+										itemID = 240898,
+									},
+								},
+								notes = {
+									trinkets = "As Survival, our optimal setup is Voracious Heart of Ula'tek paired with Zul'jin's Guillotine Technique . Use the Heart with Takedown when possible, but do not hold it for more than 20 seconds to do so.",
+								},
+								source = "icyveins",
+								talentBuilds = {
+									{
+										heroSpecific = false,
+										importString = "C8PAAAAAAAAAAAAAAAAAAAAAAMWgBmxoxyAYmgtZMzMGzyAAAAAAwMmxMLmxYGzgx0MAAAADAmxyyMzsYMzMjZmBAzYZDGDjNDAA",
+										label = "Survival Single Target - Sentinel",
+									},
+									{
+										heroSpecific = false,
+										importString = "C8PAAAAAAAAAAAAAAAAAAAAAAMWgBmxYGLDgZGYbmZmZmxsNPAAAAAAgZMzMjtZMmxMsMmmBAAAYAgxyyMjFMzMegxYAYGbgxYmZzAAA",
+										label = "Survival Mythic+ - Sentinel",
+									},
+									{
+										heroSpecific = false,
+										importString = "C8PAAAAAAAAAAAAAAAAAAAAAAMWgBmxYGLDgZGYbmZmZmxsNPAAAAAAgZMzMDGjZMzwYaAAAAAAGLLzMWwMzMzYMAMjNsMjxMzmBAAA",
+										label = "Survival Delves - Sentinel",
+									},
+								},
+								url = "https://www.icy-veins.com/wow/survival-hunter-pve-dps-gear-best-in-slot",
+							},
 							mythicstats = {
 								enchants = {
 									{

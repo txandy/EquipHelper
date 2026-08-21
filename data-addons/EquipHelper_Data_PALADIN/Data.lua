@@ -1,24 +1,194 @@
 -- GENERATED FILE -- do not edit by hand.
 -- Regenerar con: python -m scraper build
-local ADDON_NAME, ns = ...
 
-ns.RegisterClassData("PALADIN", {
+EquipHelper_RegisterClassData("PALADIN", {
 	specs = {
 		[65] = {
 			heroes = {
 				[49] = {
 					mplus = {
-						performance = {
-							difficulty = "Mythic+",
-							median = 29636.2,
-							metric = "dps",
-							outOf = 40,
-							rank = 37,
-							sample = 300,
-							top = 88599.4,
-							zone = "Mythic+ Season 2",
-						},
 						views = {
+							icyveins = {
+								consumables = {
+									{
+										category = "FLASK",
+										itemID = 241322,
+										primary = true,
+									},
+									{
+										category = "FLASK",
+										itemID = 241325,
+										primary = false,
+									},
+									{
+										category = "FLASK",
+										itemID = 241326,
+										primary = false,
+									},
+									{
+										category = "POTION",
+										itemID = 241288,
+										primary = true,
+									},
+									{
+										category = "HEALTH_POTION",
+										itemID = 271883,
+										primary = true,
+									},
+									{
+										category = "FOOD",
+										itemID = 242747,
+										primary = true,
+									},
+									{
+										category = "WEAPON_OIL",
+										itemID = 243733,
+										primary = true,
+									},
+								},
+								fetchedAt = "2026-08-21",
+								gear = {
+									BACK = {
+										{
+											dropSource = "The Blinding Vale",
+											itemID = 251190,
+										},
+									},
+									CHEST = {
+										{
+											dropSource = "Catalyst + Ruby Life Pools",
+											enchantID = 243977,
+											itemID = 271468,
+										},
+									},
+									FEET = {
+										{
+											dropSource = "Altar of Fangs",
+											enchantID = 243983,
+											itemID = 273777,
+										},
+									},
+									FINGER1 = {
+										{
+											dropSource = "Temple of Sethraliss",
+											enchantID = 243959,
+											gemID = 240900,
+											itemID = 158366,
+										},
+									},
+									FINGER2 = {
+										{
+											dropSource = "Voidscar Arena",
+											enchantID = 243959,
+											gemID = 240900,
+											itemID = 252258,
+										},
+									},
+									HANDS = {
+										{
+											dropSource = "Catalyst + King's Rest",
+											itemID = 271466,
+										},
+									},
+									HEAD = {
+										{
+											dropSource = "King's Rest",
+											enchantID = 243950,
+											itemID = 271465,
+										},
+									},
+									LEGS = {
+										{
+											dropSource = "Catalyst + Temple of Sethraliss",
+											enchantID = 240155,
+											itemID = 271464,
+										},
+									},
+									MAINHAND = {
+										{
+											dropSource = "King's Rest",
+											enchantID = 244029,
+											itemID = 160216,
+										},
+									},
+									NECK = {
+										{
+											dropSource = "Murder Row",
+											gemID = 240983,
+											itemID = 251142,
+										},
+									},
+									OFFHAND = {
+										{
+											dropSource = "Den of Nalorakk",
+											itemID = 251150,
+										},
+									},
+									SHOULDER = {
+										{
+											dropSource = "Temple of Sethraliss",
+											enchantID = 244021,
+											itemID = 271463,
+										},
+									},
+									TRINKET1 = {
+										{
+											dropSource = "The Blinding Vale",
+											itemID = 250214,
+										},
+									},
+									TRINKET2 = {
+										{
+											dropSource = "Murder Row",
+											itemID = 250215,
+										},
+									},
+									WAIST = {
+										{
+											dropSource = "King's Rest",
+											gemID = 240900,
+											itemID = 159418,
+										},
+									},
+									WRIST = {
+										{
+											dropSource = "Murder Row",
+											gemID = 240900,
+											itemID = 251133,
+										},
+									},
+								},
+								gems = {
+									{
+										itemID = 240968,
+									},
+									{
+										itemID = 240983,
+									},
+								},
+								notes = {
+									trinkets = "As always, you should consult with QELive to determine your best trinkets as the list can often change with tuning. However, this season you will want to utilize Soulcoiler Ritual Vessel and Gebbo's Bottomless Bag . Two incredibly powerful trinkets from the new raid. Mythic+ trinkets are unfortunately a bit undertuned in comparison but you do have a few good options to use while working to acquire your BiS trinkets from raid.",
+								},
+								source = "icyveins",
+								talentBuilds = {
+									{
+										heroSpecific = false,
+										importString = "CEEAAAAAAAAAAAAAAAAAAAAAAAAAALAwMAAw2MzMjZMzYxYmZYZwMLmpJGzYmZYMbZAYADbgNWmxMLz2Mzs1AAAAsAAbGGzYGmBAwMDzghB",
+										label = "Herald of the Sun Raiding - HeraldoftheSun",
+									},
+									{
+										heroSpecific = false,
+										importString = "CEEAAAAAAAAAAAAAAAAAAAAAAAAAgZBAmBAA2GzMzMjZmZBmZYZsZmFjmYWmxMzwY2yAwAwGYjlZmZWmtZmZrBAAAYBMD2AGGMDAgZGmxYYA",
+										label = "Herald of the Sun Mythic+ - HeraldoftheSun",
+									},
+									{
+										heroSpecific = false,
+										importString = "CEEAAAAAAAAAAAAAAAAAAAAAAAAAgZBAmBAA2GzMzMjZmZBmZYZsZmFjmYWmxMzwY2yAwAwGYjlZmBAAAmZ22WsNzwGYGsBMMYGAzMAMjxoB",
+										label = "Lightsmith Mythic+ - Lightsmith",
+									},
+								},
+								url = "https://www.icy-veins.com/wow/holy-paladin-pve-healing-gear-best-in-slot",
+							},
 							mythicstats = {
 								enchants = {
 									{
@@ -733,17 +903,188 @@ ns.RegisterClassData("PALADIN", {
 				},
 				[50] = {
 					mplus = {
-						performance = {
-							difficulty = "Mythic+",
-							median = 29636.2,
-							metric = "dps",
-							outOf = 40,
-							rank = 37,
-							sample = 300,
-							top = 88599.4,
-							zone = "Mythic+ Season 2",
-						},
 						views = {
+							icyveins = {
+								consumables = {
+									{
+										category = "FLASK",
+										itemID = 241322,
+										primary = true,
+									},
+									{
+										category = "FLASK",
+										itemID = 241325,
+										primary = false,
+									},
+									{
+										category = "FLASK",
+										itemID = 241326,
+										primary = false,
+									},
+									{
+										category = "POTION",
+										itemID = 241288,
+										primary = true,
+									},
+									{
+										category = "HEALTH_POTION",
+										itemID = 271883,
+										primary = true,
+									},
+									{
+										category = "FOOD",
+										itemID = 242747,
+										primary = true,
+									},
+									{
+										category = "WEAPON_OIL",
+										itemID = 243733,
+										primary = true,
+									},
+								},
+								fetchedAt = "2026-08-21",
+								gear = {
+									BACK = {
+										{
+											dropSource = "The Blinding Vale",
+											itemID = 251190,
+										},
+									},
+									CHEST = {
+										{
+											dropSource = "Catalyst + Ruby Life Pools",
+											enchantID = 243977,
+											itemID = 271468,
+										},
+									},
+									FEET = {
+										{
+											dropSource = "Altar of Fangs",
+											enchantID = 243983,
+											itemID = 273777,
+										},
+									},
+									FINGER1 = {
+										{
+											dropSource = "Temple of Sethraliss",
+											enchantID = 243959,
+											gemID = 240900,
+											itemID = 158366,
+										},
+									},
+									FINGER2 = {
+										{
+											dropSource = "Voidscar Arena",
+											enchantID = 243959,
+											gemID = 240900,
+											itemID = 252258,
+										},
+									},
+									HANDS = {
+										{
+											dropSource = "Catalyst + King's Rest",
+											itemID = 271466,
+										},
+									},
+									HEAD = {
+										{
+											dropSource = "King's Rest",
+											enchantID = 243950,
+											itemID = 271465,
+										},
+									},
+									LEGS = {
+										{
+											dropSource = "Catalyst + Temple of Sethraliss",
+											enchantID = 240155,
+											itemID = 271464,
+										},
+									},
+									MAINHAND = {
+										{
+											dropSource = "King's Rest",
+											enchantID = 244029,
+											itemID = 160216,
+										},
+									},
+									NECK = {
+										{
+											dropSource = "Murder Row",
+											gemID = 240983,
+											itemID = 251142,
+										},
+									},
+									OFFHAND = {
+										{
+											dropSource = "Den of Nalorakk",
+											itemID = 251150,
+										},
+									},
+									SHOULDER = {
+										{
+											dropSource = "Temple of Sethraliss",
+											enchantID = 244021,
+											itemID = 271463,
+										},
+									},
+									TRINKET1 = {
+										{
+											dropSource = "The Blinding Vale",
+											itemID = 250214,
+										},
+									},
+									TRINKET2 = {
+										{
+											dropSource = "Murder Row",
+											itemID = 250215,
+										},
+									},
+									WAIST = {
+										{
+											dropSource = "King's Rest",
+											gemID = 240900,
+											itemID = 159418,
+										},
+									},
+									WRIST = {
+										{
+											dropSource = "Murder Row",
+											gemID = 240900,
+											itemID = 251133,
+										},
+									},
+								},
+								gems = {
+									{
+										itemID = 240968,
+									},
+									{
+										itemID = 240983,
+									},
+								},
+								notes = {
+									trinkets = "As always, you should consult with QELive to determine your best trinkets as the list can often change with tuning. However, this season you will want to utilize Soulcoiler Ritual Vessel and Gebbo's Bottomless Bag . Two incredibly powerful trinkets from the new raid. Mythic+ trinkets are unfortunately a bit undertuned in comparison but you do have a few good options to use while working to acquire your BiS trinkets from raid.",
+								},
+								source = "icyveins",
+								talentBuilds = {
+									{
+										heroSpecific = false,
+										importString = "CEEAAAAAAAAAAAAAAAAAAAAAAAAAALAwMAAw2MzMjZMzYxYmZYZwMLmpJGzYmZYMbZAYADbgNWmxMLz2Mzs1AAAAsAAbGGzYGmBAwMDzghB",
+										label = "Herald of the Sun Raiding - HeraldoftheSun",
+									},
+									{
+										heroSpecific = false,
+										importString = "CEEAAAAAAAAAAAAAAAAAAAAAAAAAgZBAmBAA2GzMzMjZmZBmZYZsZmFjmYWmxMzwY2yAwAwGYjlZmZWmtZmZrBAAAYBMD2AGGMDAgZGmxYYA",
+										label = "Herald of the Sun Mythic+ - HeraldoftheSun",
+									},
+									{
+										heroSpecific = false,
+										importString = "CEEAAAAAAAAAAAAAAAAAAAAAAAAAgZBAmBAA2GzMzMjZmZBmZYZsZmFjmYWmxMzwY2yAwAwGYjlZmBAAAmZ22WsNzwGYGsBMMYGAzMAMjxoB",
+										label = "Lightsmith Mythic+ - Lightsmith",
+									},
+								},
+								url = "https://www.icy-veins.com/wow/holy-paladin-pve-healing-gear-best-in-slot",
+							},
 							mythicstats = {
 								enchants = {
 									{
@@ -1535,17 +1876,188 @@ ns.RegisterClassData("PALADIN", {
 			heroes = {
 				[48] = {
 					mplus = {
-						performance = {
-							difficulty = "Mythic+",
-							median = 95079.3,
-							metric = "dps",
-							outOf = 40,
-							rank = 32,
-							sample = 300,
-							top = 167812.7,
-							zone = "Mythic+ Season 2",
-						},
 						views = {
+							icyveins = {
+								consumables = {
+									{
+										category = "FLASK",
+										itemID = 241326,
+										primary = true,
+									},
+									{
+										category = "POTION",
+										itemID = 241308,
+										primary = true,
+									},
+									{
+										category = "HEALTH_POTION",
+										itemID = 271883,
+										primary = true,
+									},
+									{
+										category = "FOOD",
+										itemID = 242274,
+										primary = true,
+									},
+									{
+										category = "RUNE",
+										itemID = 259085,
+										primary = true,
+									},
+									{
+										category = "WEAPON_OIL",
+										itemID = 243733,
+										primary = true,
+									},
+								},
+								fetchedAt = "2026-08-21",
+								gear = {
+									BACK = {
+										{
+											dropSource = "Blinding Vale",
+											itemID = 251190,
+										},
+									},
+									CHEST = {
+										{
+											dropSource = "Ruby Life Pools with Catalyst",
+											enchantID = 243977,
+											itemID = 271468,
+										},
+									},
+									FEET = {
+										{
+											dropSource = "Crafted by Blacksmithing",
+											enchantID = 243983,
+											gemID = 240167,
+											itemID = 237828,
+										},
+									},
+									FINGER1 = {
+										{
+											dropSource = "Voidscar Arena",
+											enchantID = 244014,
+											gemID = 240890,
+											itemID = 252258,
+										},
+									},
+									FINGER2 = {
+										{
+											dropSource = "King's Rest",
+											enchantID = 244014,
+											gemID = 240890,
+											itemID = 159459,
+										},
+									},
+									HANDS = {
+										{
+											dropSource = "King's Rest with Catalyst",
+											itemID = 271466,
+										},
+									},
+									HEAD = {
+										{
+											dropSource = "King's Rest with Catalyst",
+											enchantID = 243981,
+											itemID = 271465,
+										},
+									},
+									LEGS = {
+										{
+											dropSource = "Temple of Sethraliss with Catalyst",
+											enchantID = 244640,
+											itemID = 271464,
+										},
+									},
+									MAINHAND = {
+										{
+											dropSource = "Voidscar Arena",
+											enchantID = 244029,
+											itemID = 251218,
+										},
+									},
+									NECK = {
+										{
+											dropSource = "Altar of Fangs",
+											gemID = 240983,
+											itemID = 273781,
+										},
+									},
+									OFFHAND = {
+										{
+											dropSource = "Den of Nalorakk",
+											itemID = 251150,
+										},
+									},
+									SHOULDER = {
+										{
+											dropSource = "Murder Row with Catalyst",
+											enchantID = 244021,
+											itemID = 271463,
+										},
+									},
+									TRINKET1 = {
+										{
+											dropSource = "Blinding Vale",
+											itemID = 250259,
+										},
+									},
+									TRINKET2 = {
+										{
+											dropSource = "Voidscar Arena",
+											itemID = 250245,
+										},
+									},
+									WAIST = {
+										{
+											dropSource = "King's Rest",
+											itemID = 159418,
+										},
+									},
+									WRIST = {
+										{
+											dropSource = "Crafted by Blacksmithing",
+											gemID = 240167,
+											itemID = 237834,
+										},
+									},
+								},
+								gems = {
+									{
+										itemID = 240983,
+									},
+									{
+										itemID = 240892,
+									},
+								},
+								notes = {
+									trinkets = "As a Protection Paladin or any tank in general your trinket slots can be a powerful tool to solve an issue defensively. In many scenarios your class toolkit (Defensive cooldowns) will cover these needs entirely and you can lean towards more offensive trinkets which will be ranked below. In the scenarios where you do need that additional defensive layer there will be a \"Defensive\" tier which details trinkets of value for these purposes.",
+								},
+								source = "icyveins",
+								talentBuilds = {
+									{
+										heroSpecific = false,
+										importString = "CIEAAAAAAAAAAAAAAAAAAAAAAsZmtZZmZMzMzMWGjxw2MGAAAAAAAAINGmxMzYMbtBgBMwMYbAAgZm2mZWmBAYjNMAGjZYMAALzAmZGwYB",
+										label = "Raid / Single Target - Templar",
+									},
+									{
+										heroSpecific = false,
+										importString = "CIEAAAAAAAAAAAAAAAAAAAAAAsZYWGzYmZmZW2GjZZWmlZMAAAAAAAAQTzMMjZGGzWbAYgBMD2GAAYmptZmlZAA2ssgBAjZYMAALzAmZGwYB",
+										label = "AoE / Mythic+ - Templar (Weekly Keys)",
+									},
+									{
+										heroSpecific = false,
+										importString = "CIEAAAAAAAAAAAAAAAAAAAAAAsZsMLjZMzMzMLbjxsMmlZMAAAAAAAAQTzMMjZGGzWbAYgBMD2GAAYmptZmlZAA2ssgBAjZYMAALzAmZGwYB",
+										label = "AoE / Mythic+ - Templar (High Keys)",
+									},
+									{
+										heroSpecific = false,
+										importString = "CIEAAAAAAAAAAAAAAAAAAAAAAsZYWGzYmZmZW2GjZZWmlZMAAAAAAAAQTzMMjZGGzWbAYgBMD2GAAYmptZmlZAA2ssgBAjZYMAALzAmZGwYB",
+										label = "Delves - Templar",
+									},
+								},
+								url = "https://www.icy-veins.com/wow/protection-paladin-pve-tank-gear-best-in-slot",
+							},
 							mythicstats = {
 								enchants = {
 									{
@@ -2257,17 +2769,188 @@ ns.RegisterClassData("PALADIN", {
 				},
 				[49] = {
 					mplus = {
-						performance = {
-							difficulty = "Mythic+",
-							median = 95079.3,
-							metric = "dps",
-							outOf = 40,
-							rank = 32,
-							sample = 300,
-							top = 167812.7,
-							zone = "Mythic+ Season 2",
-						},
 						views = {
+							icyveins = {
+								consumables = {
+									{
+										category = "FLASK",
+										itemID = 241326,
+										primary = true,
+									},
+									{
+										category = "POTION",
+										itemID = 241308,
+										primary = true,
+									},
+									{
+										category = "HEALTH_POTION",
+										itemID = 271883,
+										primary = true,
+									},
+									{
+										category = "FOOD",
+										itemID = 242274,
+										primary = true,
+									},
+									{
+										category = "RUNE",
+										itemID = 259085,
+										primary = true,
+									},
+									{
+										category = "WEAPON_OIL",
+										itemID = 243733,
+										primary = true,
+									},
+								},
+								fetchedAt = "2026-08-21",
+								gear = {
+									BACK = {
+										{
+											dropSource = "Blinding Vale",
+											itemID = 251190,
+										},
+									},
+									CHEST = {
+										{
+											dropSource = "Ruby Life Pools with Catalyst",
+											enchantID = 243977,
+											itemID = 271468,
+										},
+									},
+									FEET = {
+										{
+											dropSource = "Crafted by Blacksmithing",
+											enchantID = 243983,
+											gemID = 240167,
+											itemID = 237828,
+										},
+									},
+									FINGER1 = {
+										{
+											dropSource = "Voidscar Arena",
+											enchantID = 244014,
+											gemID = 240890,
+											itemID = 252258,
+										},
+									},
+									FINGER2 = {
+										{
+											dropSource = "King's Rest",
+											enchantID = 244014,
+											gemID = 240890,
+											itemID = 159459,
+										},
+									},
+									HANDS = {
+										{
+											dropSource = "King's Rest with Catalyst",
+											itemID = 271466,
+										},
+									},
+									HEAD = {
+										{
+											dropSource = "King's Rest with Catalyst",
+											enchantID = 243981,
+											itemID = 271465,
+										},
+									},
+									LEGS = {
+										{
+											dropSource = "Temple of Sethraliss with Catalyst",
+											enchantID = 244640,
+											itemID = 271464,
+										},
+									},
+									MAINHAND = {
+										{
+											dropSource = "Voidscar Arena",
+											enchantID = 244029,
+											itemID = 251218,
+										},
+									},
+									NECK = {
+										{
+											dropSource = "Altar of Fangs",
+											gemID = 240983,
+											itemID = 273781,
+										},
+									},
+									OFFHAND = {
+										{
+											dropSource = "Den of Nalorakk",
+											itemID = 251150,
+										},
+									},
+									SHOULDER = {
+										{
+											dropSource = "Murder Row with Catalyst",
+											enchantID = 244021,
+											itemID = 271463,
+										},
+									},
+									TRINKET1 = {
+										{
+											dropSource = "Blinding Vale",
+											itemID = 250259,
+										},
+									},
+									TRINKET2 = {
+										{
+											dropSource = "Voidscar Arena",
+											itemID = 250245,
+										},
+									},
+									WAIST = {
+										{
+											dropSource = "King's Rest",
+											itemID = 159418,
+										},
+									},
+									WRIST = {
+										{
+											dropSource = "Crafted by Blacksmithing",
+											gemID = 240167,
+											itemID = 237834,
+										},
+									},
+								},
+								gems = {
+									{
+										itemID = 240983,
+									},
+									{
+										itemID = 240892,
+									},
+								},
+								notes = {
+									trinkets = "As a Protection Paladin or any tank in general your trinket slots can be a powerful tool to solve an issue defensively. In many scenarios your class toolkit (Defensive cooldowns) will cover these needs entirely and you can lean towards more offensive trinkets which will be ranked below. In the scenarios where you do need that additional defensive layer there will be a \"Defensive\" tier which details trinkets of value for these purposes.",
+								},
+								source = "icyveins",
+								talentBuilds = {
+									{
+										heroSpecific = false,
+										importString = "CIEAAAAAAAAAAAAAAAAAAAAAAsZmtZZmZMzMzMWGjxw2MGAAAAAAAAINGmxMzYMbtBgBMwMYbAAgZm2mZWmBAYjNMAGjZYMAALzAmZGwYB",
+										label = "Raid / Single Target - Templar",
+									},
+									{
+										heroSpecific = false,
+										importString = "CIEAAAAAAAAAAAAAAAAAAAAAAsZYWGzYmZmZW2GjZZWmlZMAAAAAAAAQTzMMjZGGzWbAYgBMD2GAAYmptZmlZAA2ssgBAjZYMAALzAmZGwYB",
+										label = "AoE / Mythic+ - Templar (Weekly Keys)",
+									},
+									{
+										heroSpecific = false,
+										importString = "CIEAAAAAAAAAAAAAAAAAAAAAAsZsMLjZMzMzMLbjxsMmlZMAAAAAAAAQTzMMjZGGzWbAYgBMD2GAAYmptZmlZAA2ssgBAjZYMAALzAmZGwYB",
+										label = "AoE / Mythic+ - Templar (High Keys)",
+									},
+									{
+										heroSpecific = false,
+										importString = "CIEAAAAAAAAAAAAAAAAAAAAAAsZYWGzYmZmZW2GjZZWmlZMAAAAAAAAQTzMMjZGGzWbAYgBMD2GAAYmptZmlZAA2ssgBAjZYMAALzAmZGwYB",
+										label = "Delves - Templar",
+									},
+								},
+								url = "https://www.icy-veins.com/wow/protection-paladin-pve-tank-gear-best-in-slot",
+							},
 							mythicstats = {
 								enchants = {
 									{
@@ -3050,17 +3733,178 @@ ns.RegisterClassData("PALADIN", {
 			heroes = {
 				[48] = {
 					mplus = {
-						performance = {
-							difficulty = "Mythic+",
-							median = 187645.3,
-							metric = "dps",
-							outOf = 40,
-							rank = 9,
-							sample = 300,
-							top = 346092.1,
-							zone = "Mythic+ Season 2",
-						},
 						views = {
+							icyveins = {
+								consumables = {
+									{
+										category = "FLASK",
+										itemID = 241322,
+										primary = true,
+									},
+									{
+										category = "POTION",
+										itemID = 241288,
+										primary = true,
+									},
+									{
+										category = "HEALTH_POTION",
+										itemID = 271883,
+										primary = true,
+									},
+									{
+										category = "FOOD",
+										itemID = 242275,
+										primary = true,
+									},
+									{
+										category = "RUNE",
+										itemID = 259085,
+										primary = true,
+									},
+									{
+										category = "WEAPON_OIL",
+										itemID = 243733,
+										primary = true,
+									},
+								},
+								fetchedAt = "2026-08-21",
+								gear = {
+									BACK = {
+										{
+											dropSource = "Murder Row",
+											itemID = 251132,
+										},
+									},
+									CHEST = {
+										{
+											dropSource = "Catalyst",
+											enchantID = 243977,
+											itemID = 271468,
+										},
+									},
+									FEET = {
+										{
+											dropSource = "Altar of Fangs",
+											enchantID = 243952,
+											itemID = 273777,
+										},
+									},
+									FINGER1 = {
+										{
+											dropSource = "Voidscar Arena",
+											enchantID = 243956,
+											gemID = 240892,
+											itemID = 252258,
+										},
+									},
+									FINGER2 = {
+										{
+											dropSource = "Crafted by Jewelcrafting",
+											enchantID = 243956,
+											gemID = 240892,
+											itemID = 251513,
+										},
+									},
+									HANDS = {
+										{
+											dropSource = "Catalyst",
+											itemID = 271466,
+										},
+									},
+									HEAD = {
+										{
+											dropSource = "Catalyst",
+											enchantID = 244007,
+											gemID = 240892,
+											itemID = 271465,
+										},
+									},
+									LEGS = {
+										{
+											dropSource = "Catalyst",
+											enchantID = 244640,
+											itemID = 271464,
+										},
+									},
+									MAINHAND = {
+										{
+											dropSource = "Ruby Life Pools",
+											enchantID = 244031,
+											itemID = 193755,
+										},
+									},
+									NECK = {
+										{
+											dropSource = "Voidscar Arena",
+											gemID = 240983,
+											itemID = 251234,
+										},
+									},
+									SHOULDER = {
+										{
+											dropSource = "Catalyst",
+											enchantID = 243990,
+											itemID = 271463,
+										},
+									},
+									TRINKET1 = {
+										{
+											dropSource = "Blinding Vale",
+											itemID = 250259,
+										},
+									},
+									TRINKET2 = {
+										{
+											dropSource = "Altar of Fangs",
+											itemID = 273796,
+										},
+									},
+									WAIST = {
+										{
+											dropSource = "King's Rest",
+											gemID = 240892,
+											itemID = 159418,
+										},
+									},
+									WRIST = {
+										{
+											dropSource = "Crafted by Blacksmithing",
+											gemID = 240892,
+											itemID = 237834,
+										},
+									},
+								},
+								gems = {
+									{
+										itemID = 240983,
+									},
+									{
+										itemID = 240892,
+									},
+								},
+								notes = {
+									trinkets = "There are very few strong trinkets available this tier, with the stronger raid trinkets far outperforming the rest. There are also a few decent on-use options available, and multiple can be used together by using them with alternating cooldown sets.",
+								},
+								source = "icyveins",
+								talentBuilds = {
+									{
+										heroSpecific = false,
+										importString = "CYEAAAAAAAAAAAAAAAAAAAAAAAAAAAANbbzMzywMDAAAAAAzUGzwMjtxsNMz2MGjZGmxCbDAAgZm2mZ2mBAsBYAwYGmBzYMbYbGMMmxgB",
+										label = "Retribution Single Target - Templar",
+									},
+									{
+										heroSpecific = false,
+										importString = "CYEAAAAAAAAAAAAAAAAAAAAAAAAAAAwoZbbmZWGzMzAAAAAAYmyYGmZsNmthZ2mxYMGmxGbAAAMz02Mz2MAgNADAGzwAzYmZDLzghxMGMA",
+										label = "Retribution AoE - Templar",
+									},
+									{
+										heroSpecific = false,
+										importString = "CYEAAAAAAAAAAAAAAAAAAAAAAAAAAAwoZbbmZWGjZmBAAAAAYmyYGMjtZmthZ2mxYMzwM2YDAAgZm2mZ2mBAsBYAAzwAzYGbYZGMmxMGMA",
+										label = "Retribution Delves - Templar",
+									},
+								},
+								url = "https://www.icy-veins.com/wow/retribution-paladin-pve-dps-gear-best-in-slot",
+							},
 							mythicstats = {
 								enchants = {
 									{
@@ -3815,17 +4659,178 @@ ns.RegisterClassData("PALADIN", {
 				},
 				[50] = {
 					mplus = {
-						performance = {
-							difficulty = "Mythic+",
-							median = 187645.3,
-							metric = "dps",
-							outOf = 40,
-							rank = 9,
-							sample = 300,
-							top = 346092.1,
-							zone = "Mythic+ Season 2",
-						},
 						views = {
+							icyveins = {
+								consumables = {
+									{
+										category = "FLASK",
+										itemID = 241322,
+										primary = true,
+									},
+									{
+										category = "POTION",
+										itemID = 241288,
+										primary = true,
+									},
+									{
+										category = "HEALTH_POTION",
+										itemID = 271883,
+										primary = true,
+									},
+									{
+										category = "FOOD",
+										itemID = 242275,
+										primary = true,
+									},
+									{
+										category = "RUNE",
+										itemID = 259085,
+										primary = true,
+									},
+									{
+										category = "WEAPON_OIL",
+										itemID = 243733,
+										primary = true,
+									},
+								},
+								fetchedAt = "2026-08-21",
+								gear = {
+									BACK = {
+										{
+											dropSource = "Murder Row",
+											itemID = 251132,
+										},
+									},
+									CHEST = {
+										{
+											dropSource = "Catalyst",
+											enchantID = 243977,
+											itemID = 271468,
+										},
+									},
+									FEET = {
+										{
+											dropSource = "Altar of Fangs",
+											enchantID = 243952,
+											itemID = 273777,
+										},
+									},
+									FINGER1 = {
+										{
+											dropSource = "Voidscar Arena",
+											enchantID = 243956,
+											gemID = 240892,
+											itemID = 252258,
+										},
+									},
+									FINGER2 = {
+										{
+											dropSource = "Crafted by Jewelcrafting",
+											enchantID = 243956,
+											gemID = 240892,
+											itemID = 251513,
+										},
+									},
+									HANDS = {
+										{
+											dropSource = "Catalyst",
+											itemID = 271466,
+										},
+									},
+									HEAD = {
+										{
+											dropSource = "Catalyst",
+											enchantID = 244007,
+											gemID = 240892,
+											itemID = 271465,
+										},
+									},
+									LEGS = {
+										{
+											dropSource = "Catalyst",
+											enchantID = 244640,
+											itemID = 271464,
+										},
+									},
+									MAINHAND = {
+										{
+											dropSource = "Ruby Life Pools",
+											enchantID = 244031,
+											itemID = 193755,
+										},
+									},
+									NECK = {
+										{
+											dropSource = "Voidscar Arena",
+											gemID = 240983,
+											itemID = 251234,
+										},
+									},
+									SHOULDER = {
+										{
+											dropSource = "Catalyst",
+											enchantID = 243990,
+											itemID = 271463,
+										},
+									},
+									TRINKET1 = {
+										{
+											dropSource = "Blinding Vale",
+											itemID = 250259,
+										},
+									},
+									TRINKET2 = {
+										{
+											dropSource = "Altar of Fangs",
+											itemID = 273796,
+										},
+									},
+									WAIST = {
+										{
+											dropSource = "King's Rest",
+											gemID = 240892,
+											itemID = 159418,
+										},
+									},
+									WRIST = {
+										{
+											dropSource = "Crafted by Blacksmithing",
+											gemID = 240892,
+											itemID = 237834,
+										},
+									},
+								},
+								gems = {
+									{
+										itemID = 240983,
+									},
+									{
+										itemID = 240892,
+									},
+								},
+								notes = {
+									trinkets = "There are very few strong trinkets available this tier, with the stronger raid trinkets far outperforming the rest. There are also a few decent on-use options available, and multiple can be used together by using them with alternating cooldown sets.",
+								},
+								source = "icyveins",
+								talentBuilds = {
+									{
+										heroSpecific = false,
+										importString = "CYEAAAAAAAAAAAAAAAAAAAAAAAAAAAANbbzMzywMDAAAAAAzUGzwMjtxsNMz2MGjZGmxCbDAAgZm2mZ2mBAsBYAwYGmBzYMbYbGMMmxgB",
+										label = "Retribution Single Target - Templar",
+									},
+									{
+										heroSpecific = false,
+										importString = "CYEAAAAAAAAAAAAAAAAAAAAAAAAAAAwoZbbmZWGzMzAAAAAAYmyYGmZsNmthZ2mxYMGmxGbAAAMz02Mz2MAgNADAGzwAzYmZDLzghxMGMA",
+										label = "Retribution AoE - Templar",
+									},
+									{
+										heroSpecific = false,
+										importString = "CYEAAAAAAAAAAAAAAAAAAAAAAAAAAAwoZbbmZWGjZmBAAAAAYmyYGMjtZmthZ2mxYMzwM2YDAAgZm2mZ2mBAsBYAAzwAzYGbYZGMmxMGMA",
+										label = "Retribution Delves - Templar",
+									},
+								},
+								url = "https://www.icy-veins.com/wow/retribution-paladin-pve-dps-gear-best-in-slot",
+							},
 							mythicstats = {
 								enchants = {
 									{

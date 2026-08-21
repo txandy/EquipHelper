@@ -1,24 +1,194 @@
 -- GENERATED FILE -- do not edit by hand.
 -- Regenerar con: python -m scraper build
-local ADDON_NAME, ns = ...
 
-ns.RegisterClassData("ROGUE", {
+EquipHelper_RegisterClassData("ROGUE", {
 	specs = {
 		[259] = {
 			heroes = {
 				[52] = {
 					mplus = {
-						performance = {
-							difficulty = "Mythic+",
-							median = 198478.4,
-							metric = "dps",
-							outOf = 40,
-							rank = 4,
-							sample = 300,
-							top = 318070.4,
-							zone = "Mythic+ Season 2",
-						},
 						views = {
+							icyveins = {
+								consumables = {
+									{
+										category = "FLASK",
+										itemID = 241325,
+										primary = true,
+									},
+									{
+										category = "FLASK",
+										itemID = 241326,
+										primary = false,
+									},
+									{
+										category = "POTION",
+										itemID = 241308,
+										primary = true,
+									},
+									{
+										category = "HEALTH_POTION",
+										itemID = 271883,
+										primary = true,
+									},
+									{
+										category = "FOOD",
+										itemID = 255845,
+										primary = true,
+									},
+									{
+										category = "FOOD",
+										itemID = 242275,
+										primary = false,
+									},
+									{
+										category = "RUNE",
+										itemID = 259085,
+										primary = true,
+									},
+								},
+								fetchedAt = "2026-08-21",
+								gear = {
+									BACK = {
+										{
+											dropSource = "Ruby Life Pools",
+											itemID = 193763,
+										},
+									},
+									CHEST = {
+										{
+											dropSource = "Catalyst from Den of Nalorakk",
+											enchantID = 243977,
+											itemID = 271513,
+										},
+									},
+									FEET = {
+										{
+											dropSource = "Den of Nalorakk",
+											enchantID = 244008,
+											itemID = 251153,
+										},
+									},
+									FINGER1 = {
+										{
+											dropSource = "Altar of Fangs",
+											enchantID = 243956,
+											gemID = 240890,
+											itemID = 273792,
+										},
+									},
+									FINGER2 = {
+										{
+											dropSource = "Murder Row",
+											enchantID = 243956,
+											gemID = 240906,
+											itemID = 251136,
+										},
+									},
+									HANDS = {
+										{
+											dropSource = "Catalyst from Murder Row",
+											itemID = 271511,
+										},
+									},
+									HEAD = {
+										{
+											dropSource = "Altar of Fangs",
+											enchantID = 243981,
+											gemID = 240967,
+											itemID = 273791,
+										},
+									},
+									LEGS = {
+										{
+											dropSource = "Catalyst from Murder Row",
+											enchantID = 244640,
+											itemID = 271509,
+										},
+									},
+									MAINHAND = {
+										{
+											dropSource = "Altar of Fangs",
+											enchantID = 244029,
+											itemID = 275070,
+										},
+									},
+									NECK = {
+										{
+											dropSource = "Altar of Fangs",
+											gemID = 240906,
+											itemID = 273781,
+										},
+									},
+									OFFHAND = {
+										{
+											dropSource = "Crafted by Blacksmithing",
+											enchantID = 244029,
+											gemID = 273059,
+											itemID = 237837,
+										},
+									},
+									SHOULDER = {
+										{
+											dropSource = "Catalyst from Voidscar Arena",
+											enchantID = 243990,
+											itemID = 271508,
+										},
+									},
+									TRINKET1 = {
+										{
+											dropSource = "Blinding Vale",
+											itemID = 250259,
+										},
+									},
+									TRINKET2 = {
+										{
+											dropSource = "King's Rest",
+											itemID = 159617,
+										},
+									},
+									WAIST = {
+										{
+											dropSource = "King's Rest",
+											gemID = 240898,
+											itemID = 159301,
+										},
+									},
+									WRIST = {
+										{
+											dropSource = "Crafted by Leatherworking",
+											gemID = 240914,
+											itemID = 244576,
+										},
+									},
+								},
+								gems = {
+									{
+										itemID = 240967,
+									},
+								},
+								notes = {
+									trinkets = "There are a great number of Trinkets available for Assassination, and we will always want to play a combination of a powerful on-use trinket like Voracious Heart of Ula'tek or Lustrous Golden Plumage , and a passive trinket providing potent secondary stat buffs or raw damage procs. Make sure to macro your on-use trinket to your Deathmark cast!",
+								},
+								source = "icyveins",
+								talentBuilds = {
+									{
+										heroSpecific = false,
+										importString = "CMQAAAAAAAAAAAAAAAAAAAAAAYmlxsNDGAAAAAY2GsNDAAAAAIbzMzMzMjxyMzMbzsMzMzYGzYMmZMMAbmlBGwCYZYCMsYwMDwYMA",
+										label = "Assassination Pure Single-Target - Deathstalker",
+									},
+									{
+										heroSpecific = false,
+										importString = "CMQAAAAAAAAAAAAAAAAAAAAAAYmlZmFDGAAAAAY2GsNDAAAAAIbzMzMzMjxyMzMbzsMzMPwYMzYMmZGjBYzsMwAWALDTghFDmZAGjB",
+										label = "Assassination Raid Cleave - Deathstalker",
+									},
+									{
+										heroSpecific = false,
+										importString = "CMQAAAAAAAAAAAAAAAAAAAAAAYmlZmFDGAAAAAY2GsNDAAAAAIbzMzMzMjxyMzMbzsMzMPgZMzYMMzYMAbmlBGwCYZYCMsYwMDwYMA",
+										label = "Assassination Mythic+/Delves - Deathstalker",
+									},
+								},
+								url = "https://www.icy-veins.com/wow/assassination-rogue-pve-dps-gear-best-in-slot",
+							},
 							mythicstats = {
 								enchants = {
 									{
@@ -740,17 +910,188 @@ ns.RegisterClassData("ROGUE", {
 				},
 				[53] = {
 					mplus = {
-						performance = {
-							difficulty = "Mythic+",
-							median = 198478.4,
-							metric = "dps",
-							outOf = 40,
-							rank = 4,
-							sample = 300,
-							top = 318070.4,
-							zone = "Mythic+ Season 2",
-						},
 						views = {
+							icyveins = {
+								consumables = {
+									{
+										category = "FLASK",
+										itemID = 241325,
+										primary = true,
+									},
+									{
+										category = "FLASK",
+										itemID = 241326,
+										primary = false,
+									},
+									{
+										category = "POTION",
+										itemID = 241308,
+										primary = true,
+									},
+									{
+										category = "HEALTH_POTION",
+										itemID = 271883,
+										primary = true,
+									},
+									{
+										category = "FOOD",
+										itemID = 255845,
+										primary = true,
+									},
+									{
+										category = "FOOD",
+										itemID = 242275,
+										primary = false,
+									},
+									{
+										category = "RUNE",
+										itemID = 259085,
+										primary = true,
+									},
+								},
+								fetchedAt = "2026-08-21",
+								gear = {
+									BACK = {
+										{
+											dropSource = "Ruby Life Pools",
+											itemID = 193763,
+										},
+									},
+									CHEST = {
+										{
+											dropSource = "Catalyst from Den of Nalorakk",
+											enchantID = 243977,
+											itemID = 271513,
+										},
+									},
+									FEET = {
+										{
+											dropSource = "Den of Nalorakk",
+											enchantID = 244008,
+											itemID = 251153,
+										},
+									},
+									FINGER1 = {
+										{
+											dropSource = "Altar of Fangs",
+											enchantID = 243956,
+											gemID = 240890,
+											itemID = 273792,
+										},
+									},
+									FINGER2 = {
+										{
+											dropSource = "Murder Row",
+											enchantID = 243956,
+											gemID = 240906,
+											itemID = 251136,
+										},
+									},
+									HANDS = {
+										{
+											dropSource = "Catalyst from Murder Row",
+											itemID = 271511,
+										},
+									},
+									HEAD = {
+										{
+											dropSource = "Altar of Fangs",
+											enchantID = 243981,
+											gemID = 240967,
+											itemID = 273791,
+										},
+									},
+									LEGS = {
+										{
+											dropSource = "Catalyst from Murder Row",
+											enchantID = 244640,
+											itemID = 271509,
+										},
+									},
+									MAINHAND = {
+										{
+											dropSource = "Altar of Fangs",
+											enchantID = 244029,
+											itemID = 275070,
+										},
+									},
+									NECK = {
+										{
+											dropSource = "Altar of Fangs",
+											gemID = 240906,
+											itemID = 273781,
+										},
+									},
+									OFFHAND = {
+										{
+											dropSource = "Crafted by Blacksmithing",
+											enchantID = 244029,
+											gemID = 273059,
+											itemID = 237837,
+										},
+									},
+									SHOULDER = {
+										{
+											dropSource = "Catalyst from Voidscar Arena",
+											enchantID = 243990,
+											itemID = 271508,
+										},
+									},
+									TRINKET1 = {
+										{
+											dropSource = "Blinding Vale",
+											itemID = 250259,
+										},
+									},
+									TRINKET2 = {
+										{
+											dropSource = "King's Rest",
+											itemID = 159617,
+										},
+									},
+									WAIST = {
+										{
+											dropSource = "King's Rest",
+											gemID = 240898,
+											itemID = 159301,
+										},
+									},
+									WRIST = {
+										{
+											dropSource = "Crafted by Leatherworking",
+											gemID = 240914,
+											itemID = 244576,
+										},
+									},
+								},
+								gems = {
+									{
+										itemID = 240967,
+									},
+								},
+								notes = {
+									trinkets = "There are a great number of Trinkets available for Assassination, and we will always want to play a combination of a powerful on-use trinket like Voracious Heart of Ula'tek or Lustrous Golden Plumage , and a passive trinket providing potent secondary stat buffs or raw damage procs. Make sure to macro your on-use trinket to your Deathmark cast!",
+								},
+								source = "icyveins",
+								talentBuilds = {
+									{
+										heroSpecific = false,
+										importString = "CMQAAAAAAAAAAAAAAAAAAAAAAYmlxsNDGAAAAAY2GsNDAAAAAIbzMzMzMjxyMzMbzsMzMzYGzYMmZMMAbmlBGwCYZYCMsYwMDwYMA",
+										label = "Assassination Pure Single-Target - Deathstalker",
+									},
+									{
+										heroSpecific = false,
+										importString = "CMQAAAAAAAAAAAAAAAAAAAAAAYmlZmFDGAAAAAY2GsNDAAAAAIbzMzMzMjxyMzMbzsMzMPwYMzYMmZGjBYzsMwAWALDTghFDmZAGjB",
+										label = "Assassination Raid Cleave - Deathstalker",
+									},
+									{
+										heroSpecific = false,
+										importString = "CMQAAAAAAAAAAAAAAAAAAAAAAYmlZmFDGAAAAAY2GsNDAAAAAIbzMzMzMjxyMzMbzsMzMPgZMzYMMzYMAbmlBGwCYZYCMsYwMDwYMA",
+										label = "Assassination Mythic+/Delves - Deathstalker",
+									},
+								},
+								url = "https://www.icy-veins.com/wow/assassination-rogue-pve-dps-gear-best-in-slot",
+							},
 							mythicstats = {
 								enchants = {
 									{
@@ -1554,17 +1895,205 @@ ns.RegisterClassData("ROGUE", {
 			heroes = {
 				[51] = {
 					mplus = {
-						performance = {
-							difficulty = "Mythic+",
-							median = 197730.6,
-							metric = "dps",
-							outOf = 40,
-							rank = 5,
-							sample = 300,
-							top = 322836.8,
-							zone = "Mythic+ Season 2",
-						},
 						views = {
+							icyveins = {
+								consumables = {
+									{
+										category = "FLASK",
+										itemID = 241326,
+										primary = true,
+									},
+									{
+										category = "FLASK",
+										itemID = 241325,
+										primary = false,
+									},
+									{
+										category = "FLASK",
+										itemID = 241319,
+										primary = false,
+									},
+									{
+										category = "POTION",
+										itemID = 241288,
+										primary = true,
+									},
+									{
+										category = "HEALTH_POTION",
+										itemID = 271883,
+										primary = true,
+									},
+									{
+										category = "FOOD",
+										itemID = 255845,
+										primary = true,
+									},
+									{
+										category = "FOOD",
+										itemID = 242275,
+										primary = false,
+									},
+									{
+										category = "RUNE",
+										itemID = 259085,
+										primary = true,
+									},
+								},
+								fetchedAt = "2026-08-21",
+								gear = {
+									BACK = {
+										{
+											dropSource = "Ruby Life Pools",
+											itemID = 193763,
+										},
+									},
+									CHEST = {
+										{
+											dropSource = "Catalyst from Voidscar Arena",
+											enchantID = 243977,
+											itemID = 271513,
+										},
+									},
+									FEET = {
+										{
+											dropSource = "Crafted by Leatherworking",
+											enchantID = 244008,
+											gemID = 240167,
+											itemID = 244569,
+										},
+									},
+									FINGER1 = {
+										{
+											dropSource = "King's Rest",
+											enchantID = 243956,
+											gemID = 240890,
+											itemID = 159459,
+										},
+									},
+									FINGER2 = {
+										{
+											dropSource = "Den of Nalorakk",
+											enchantID = 243956,
+											gemID = 240906,
+											itemID = 251148,
+										},
+									},
+									HANDS = {
+										{
+											dropSource = "Catalyst from Murder Row",
+											itemID = 271511,
+										},
+									},
+									HEAD = {
+										{
+											dropSource = "Altar of Fangs",
+											enchantID = 243981,
+											gemID = 240967,
+											itemID = 273791,
+										},
+									},
+									LEGS = {
+										{
+											dropSource = "Catalyst from King's Rest",
+											enchantID = 244640,
+											itemID = 271509,
+										},
+									},
+									MAINHAND = {
+										{
+											dropSource = "Ruby Life Pools",
+											enchantID = 244029,
+											itemID = 193767,
+										},
+									},
+									NECK = {
+										{
+											dropSource = "Altar of Fangs",
+											gemID = 240914,
+											itemID = 273781,
+										},
+									},
+									OFFHAND = {
+										{
+											dropSource = "Altar of Fangs",
+											enchantID = 244029,
+											itemID = 275070,
+										},
+									},
+									SHOULDER = {
+										{
+											dropSource = "Catalyst from Voidscar Arena",
+											enchantID = 243990,
+											itemID = 271508,
+										},
+									},
+									TRINKET1 = {
+										{
+											dropSource = "Blinding Vale",
+											itemID = 250259,
+										},
+									},
+									TRINKET2 = {
+										{
+											dropSource = "King's Rest",
+											itemID = 159617,
+										},
+									},
+									WAIST = {
+										{
+											dropSource = "Crafted by Leatherworking",
+											gemID = 240898,
+											itemID = 244573,
+										},
+									},
+									WRIST = {
+										{
+											dropSource = "Murder Row",
+											gemID = 240914,
+											itemID = 251135,
+										},
+									},
+								},
+								gems = {
+									{
+										itemID = 240967,
+									},
+									{
+										itemID = 240890,
+									},
+									{
+										itemID = 240906,
+									},
+									{
+										itemID = 240914,
+									},
+									{
+										itemID = 240898,
+									},
+								},
+								notes = {
+									trinkets = "There are a great number of Trinkets available for Outlaw, and we will always want to play a combination of two powerful passive trinkets like Zul'jin's Guillotine Technique and Voracious Heart of Ula'tek . Outlaw has no meaningful burst cooldowns, so playing a on-use trinket is not that powerful for us, but the Heart of Ula'tek is simply too strong.",
+								},
+								source = "icyveins",
+								talentBuilds = {
+									{
+										heroSpecific = false,
+										importString = "CQQAAAAAAAAAAAAAAAAAAAAAAAgx2MMzMmZmtZmZmZMmF4BmZbaZw2MAAAAAALLzMzwMzMziZmZbAAAAYmBAjZxwADMLsQLsxAMzgBG",
+										label = "Outlaw Single Target - Trickster",
+									},
+									{
+										heroSpecific = false,
+										importString = "CQQAAAAAAAAAAAAAAAAAAAAAAAgx2MMzMjZmtZmZMzMzsAmZbaZw2MAAAAAALLzMzwMzMziZmZbAAAAYmBAjZxwADMLsQLsxAMzgBG",
+										label = "Outlaw AoE - Trickster",
+									},
+									{
+										heroSpecific = false,
+										importString = "CQQAAAAAAAAAAAAAAAAAAAAAAAgx2MMzMjZmtZmZMzMzsAmZbaZw2MAAAAAALLzMzwMzMziZmZbAAAAYmBAjZxwADMLsQLsxAMzgBG",
+										label = "Outlaw Delves - Trickster",
+									},
+								},
+								url = "https://www.icy-veins.com/wow/outlaw-rogue-pve-dps-gear-best-in-slot",
+							},
 							mythicstats = {
 								enchants = {
 									{
@@ -2400,17 +2929,204 @@ ns.RegisterClassData("ROGUE", {
 			heroes = {
 				[53] = {
 					mplus = {
-						performance = {
-							difficulty = "Mythic+",
-							median = 194433.6,
-							metric = "dps",
-							outOf = 40,
-							rank = 6,
-							sample = 300,
-							top = 294147.9,
-							zone = "Mythic+ Season 2",
-						},
 						views = {
+							icyveins = {
+								consumables = {
+									{
+										category = "FLASK",
+										itemID = 241325,
+										primary = true,
+									},
+									{
+										category = "FLASK",
+										itemID = 241322,
+										primary = false,
+									},
+									{
+										category = "POTION",
+										itemID = 241308,
+										primary = true,
+									},
+									{
+										category = "HEALTH_POTION",
+										itemID = 271883,
+										primary = true,
+									},
+									{
+										category = "FOOD",
+										itemID = 255846,
+										primary = true,
+									},
+									{
+										category = "FOOD",
+										itemID = 242275,
+										primary = false,
+									},
+									{
+										category = "RUNE",
+										itemID = 259085,
+										primary = true,
+									},
+								},
+								fetchedAt = "2026-08-21",
+								gear = {
+									BACK = {
+										{
+											dropSource = "Blinding Vale",
+											itemID = 251190,
+										},
+									},
+									CHEST = {
+										{
+											dropSource = "Catalyst from Den of Nalorakk",
+											enchantID = 243977,
+											itemID = 271513,
+										},
+									},
+									FEET = {
+										{
+											dropSource = "Den of Nalorakk",
+											enchantID = 243983,
+											itemID = 251153,
+										},
+									},
+									FINGER1 = {
+										{
+											dropSource = "Blinding Vale",
+											enchantID = 243956,
+											gemID = 240892,
+											itemID = 251194,
+										},
+									},
+									FINGER2 = {
+										{
+											dropSource = "Voidscar Arena",
+											enchantID = 243956,
+											gemID = 240892,
+											itemID = 252258,
+										},
+									},
+									HANDS = {
+										{
+											dropSource = "Catalyst from Murder Row",
+											itemID = 271511,
+										},
+									},
+									HEAD = {
+										{
+											dropSource = "Catalyst from Murder Row",
+											enchantID = 243950,
+											gemID = 240892,
+											itemID = 271510,
+										},
+									},
+									LEGS = {
+										{
+											dropSource = "Catalyst from Murder Row",
+											enchantID = 244640,
+											itemID = 271509,
+										},
+									},
+									MAINHAND = {
+										{
+											dropSource = "Altar of Fangs",
+											enchantID = 244031,
+											itemID = 275070,
+										},
+									},
+									NECK = {
+										{
+											dropSource = "Murder Row",
+											gemID = 240983,
+											itemID = 251142,
+										},
+									},
+									OFFHAND = {
+										{
+											dropSource = "Altar of Fangs",
+											enchantID = 244031,
+											itemID = 275070,
+										},
+									},
+									SHOULDER = {
+										{
+											dropSource = "Catalyst from Voidscar Arena",
+											enchantID = 243990,
+											itemID = 271508,
+										},
+									},
+									TRINKET1 = {
+										{
+											dropSource = "Murder Row",
+											itemID = 250215,
+										},
+									},
+									TRINKET2 = {
+										{
+											dropSource = "Blinding Vale",
+											itemID = 250259,
+										},
+									},
+									WAIST = {
+										{
+											dropSource = "Temple of Sethraliss",
+											gemID = 240892,
+											itemID = 159317,
+										},
+									},
+									WRIST = {
+										{
+											dropSource = "Murder Row",
+											gemID = 240892,
+											itemID = 251135,
+										},
+									},
+								},
+								gems = {
+									{
+										itemID = 240983,
+									},
+									{
+										itemID = 240890,
+									},
+									{
+										itemID = 240892,
+									},
+									{
+										itemID = 240908,
+									},
+									{
+										itemID = 240898,
+									},
+								},
+								notes = {
+									trinkets = "There are a great number of Trinkets available for Subtlety, and we will always want to play a combination of a powerful on-use trinket to align with our Shadow Blades , and there are two of those this season: Voracious Heart of Ula'tek and Freightrunner's Flask . Alongside that on-use we want a passive trinket providing potent secondary stat buffs or raw damage procs.",
+								},
+								source = "icyveins",
+								talentBuilds = {
+									{
+										heroSpecific = false,
+										importString = "CUQAAAAAAAAAAAAAAAAAAAAAAAgx2MAAAAAwsMGLTMbbjxMDDzMzMzw8AbzYGbbzMzMzMjBjZ2GAAAAGMmFzyADYBsMMBmFMDzMAzYA",
+										label = "Single-Target - Deathstalker",
+									},
+									{
+										heroSpecific = false,
+										importString = "CUQA5HmDzx68KWyrW/8Y781L7Dgx2MAAAAAwsMGLTMbLjxMMjZmZmZGGbzYGbbzMzMzMjBjZ2GAAAAGMGwY2MMwAziWoFbYGwMDmxA",
+										label = "Mythic+/AoE - Trickster",
+									},
+									{
+										heroSpecific = false,
+										importString = "CUQAAAAAAAAAAAAAAAAAAAAAAAgx2MAAAAAwsMGLTMbLjxMMjZmZmZGGbzYGbbzMzMzMjBjZ2GAAAAGMmFzyADYBsMMhMLYGmZAmxA",
+										label = "High Mythic+ - Deathstalker",
+									},
+									{
+										heroSpecific = false,
+										importString = "CUQA5HmDzx68KWyrW/8Y781L7Dgx2MAAAAAwsMGLTMbLjxMMjZmZmZGGbzYGbbzMzMzMjBjZ2GAAAAGMGwY2MMwAziWoFbYGwMDmxA",
+										label = "Delves - Trickster",
+									},
+								},
+								url = "https://www.icy-veins.com/wow/subtlety-rogue-pve-dps-gear-best-in-slot",
+							},
 							mythicstats = {
 								enchants = {
 									{
