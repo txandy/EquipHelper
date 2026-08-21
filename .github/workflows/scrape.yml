@@ -32,20 +32,57 @@ jobs:
           WCL_CLIENT_ID: ${{ secrets.WCL_CLIENT_ID }}
           WCL_CLIENT_SECRET: ${{ secrets.WCL_CLIENT_SECRET }}
 
-      # PR y no push directo: los datos los mira una persona antes de que
+      # Rama y no push a main: los datos los mira una persona antes de que
       # lleguen a nadie, y el diff de data/ dice exactamente que cambio.
-      - uses: peter-evans/create-pull-request@v7
-        with:
-          branch: data/refresh
-          title: "chore(data): refresco automatico"
-          commit-message: "chore(data): refresco automatico"
-          body: |
-            Regenerado por el workflow `scrape`.
+      - name: Publicar la rama de refresco
+        id: refresh
+        run: |
+          set -euo pipefail
+          PATHS="data EquipHelper/Data EquipHelper/EquipHelper.toc"
 
-            Revisa el diff de `data/specs/` antes de mezclar: ahi se ve que
-            cambio en la fuente. Los `.lua` de `EquipHelper/Data/` se derivan
-            de eso y no se revisan a mano.
-          add-paths: |
-            data/
-            EquipHelper/Data/
-            EquipHelper/EquipHelper.toc
+          if git diff --quiet -- $PATHS; then
+            echo "Sin cambios en los datos." >> "$GITHUB_STEP_SUMMARY"
+            echo "changed=false" >> "$GITHUB_OUTPUT"
+            exit 0
+          fi
+
+          git config user.name "github-actions[bot]"
+          git config user.email "41898282+github-actions[bot]@users.noreply.github.com"
+          git checkout -B data/refresh
+          git add $PATHS
+          git commit -m "chore(data): refresco automatico"
+          git push --force origin data/refresh
+          echo "changed=true" >> "$GITHUB_OUTPUT"
+
+      # Abrir el PR requiere que el repo permita a Actions crear pull requests
+      # (Settings -> Actions -> General -> Workflow permissions). Si esta
+      # desactivado no se pierde nada: la rama ya esta subida y el resumen del
+      # job lleva el enlace para abrirlo a mano.
+      - name: Abrir el pull request
+        if: steps.refresh.outputs.changed == 'true'
+        env:
+          GH_TOKEN: ${{ secrets.GITHUB_TOKEN }}
+        run: |
+          BODY="Regenerado por el workflow \`scrape\`.
+
+          Revisa el diff de \`data/specs/\` antes de mezclar: ahi se ve que
+          cambio en la fuente. Los \`.lua\` de \`EquipHelper/Data/\` se derivan
+          de eso y no se revisan a mano."
+
+          if gh pr create --base main --head data/refresh \
+               --title "chore(data): refresco automatico" --body "$BODY" 2>/dev/null; then
+            echo "Pull request abierto." >> "$GITHUB_STEP_SUMMARY"
+          elif gh pr view data/refresh --json url --jq .url >/dev/null 2>&1; then
+            echo "El pull request ya estaba abierto y se ha actualizado." >> "$GITHUB_STEP_SUMMARY"
+          else
+            URL="${{ github.server_url }}/${{ github.repository }}/compare/main...data/refresh?expand=1"
+            {
+              echo "Rama \`data/refresh\` subida, pero este repositorio no permite"
+              echo "que Actions abra pull requests."
+              echo ""
+              echo "Abrelo a mano: $URL"
+              echo ""
+              echo "O activalo en Settings -> Actions -> General -> Workflow permissions"
+              echo "-> Allow GitHub Actions to create and approve pull requests."
+            } >> "$GITHUB_STEP_SUMMARY"
+          fi
