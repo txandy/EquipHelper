@@ -665,7 +665,7 @@ ns.RegisterClassData("MAGE", {
 						},
 						performance = {
 							difficulty = "Mitica+",
-							median = 214704.9,
+							median = 215007.4,
 							metric = "dps",
 							outOf = 40,
 							rank = 1,

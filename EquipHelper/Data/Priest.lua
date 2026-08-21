@@ -680,7 +680,7 @@ ns.RegisterClassData("PRIEST", {
 						},
 						performance = {
 							difficulty = "Mitica+",
-							median = 18411.9,
+							median = 18539.7,
 							metric = "dps",
 							outOf = 40,
 							rank = 39,
@@ -1432,7 +1432,7 @@ ns.RegisterClassData("PRIEST", {
 						},
 						performance = {
 							difficulty = "Mitica+",
-							median = 18411.9,
+							median = 18539.7,
 							metric = "dps",
 							outOf = 40,
 							rank = 39,
@@ -2200,7 +2200,7 @@ ns.RegisterClassData("PRIEST", {
 						},
 						performance = {
 							difficulty = "Mitica+",
-							median = 25274.5,
+							median = 25295.5,
 							metric = "dps",
 							outOf = 40,
 							rank = 38,
@@ -3002,7 +3002,7 @@ ns.RegisterClassData("PRIEST", {
 						},
 						performance = {
 							difficulty = "Mitica+",
-							median = 179754.1,
+							median = 179924.6,
 							metric = "dps",
 							outOf = 40,
 							rank = 12,
@@ -3750,7 +3750,7 @@ ns.RegisterClassData("PRIEST", {
 						},
 						performance = {
 							difficulty = "Mitica+",
-							median = 179754.1,
+							median = 179924.6,
 							metric = "dps",
 							outOf = 40,
 							rank = 12,

@@ -675,12 +675,12 @@ ns.RegisterClassData("PALADIN", {
 						},
 						performance = {
 							difficulty = "Mitica+",
-							median = 27826.9,
+							median = 28265.1,
 							metric = "dps",
 							outOf = 40,
 							rank = 37,
 							sample = 300,
-							top = 72613.8,
+							top = 88599.4,
 							zone = "Mythic+ Season 2",
 						},
 						provenance = {
@@ -1400,12 +1400,12 @@ ns.RegisterClassData("PALADIN", {
 						},
 						performance = {
 							difficulty = "Mitica+",
-							median = 27826.9,
+							median = 28265.1,
 							metric = "dps",
 							outOf = 40,
 							rank = 37,
 							sample = 300,
-							top = 72613.8,
+							top = 88599.4,
 							zone = "Mythic+ Season 2",
 						},
 						provenance = {

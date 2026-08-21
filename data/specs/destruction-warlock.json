@@ -910,7 +910,7 @@
       "hero_name": "Diabolist",
       "performance": {
         "difficulty": "Mitica+",
-        "median": 158948.0,
+        "median": 158375.4,
         "metric": "dps",
         "out_of": 40,
         "rank": 22,
@@ -1991,7 +1991,7 @@
       "hero_name": "Hellcaller",
       "performance": {
         "difficulty": "Mitica+",
-        "median": 158948.0,
+        "median": 158375.4,
         "metric": "dps",
         "out_of": 40,
         "rank": 22,

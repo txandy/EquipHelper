@@ -1,3 +1,8 @@
+# Las credenciales de Warcraft Logs se leen de .env si existe, para no tener que
+# exportarlas a mano en cada terminal. Ese fichero esta fuera de git.
+-include .env
+export
+
 # WOW_PATH debe apuntar a la carpeta _retail_ de tu instalacion.
 # Ej: make install WOW_PATH="/Applications/World of Warcraft/_retail_"
 WOW_PATH ?=

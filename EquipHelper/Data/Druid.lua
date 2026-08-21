@@ -665,7 +665,7 @@ ns.RegisterClassData("DRUID", {
 							outOf = 40,
 							rank = 14,
 							sample = 300,
-							top = 271612.9,
+							top = 272717.7,
 							zone = "Mythic+ Season 2",
 						},
 						provenance = {
@@ -1462,7 +1462,7 @@ ns.RegisterClassData("DRUID", {
 						},
 						performance = {
 							difficulty = "Mitica+",
-							median = 174440.5,
+							median = 174838.2,
 							metric = "dps",
 							outOf = 40,
 							rank = 15,
@@ -2259,7 +2259,7 @@ ns.RegisterClassData("DRUID", {
 						},
 						performance = {
 							difficulty = "Mitica+",
-							median = 174440.5,
+							median = 174838.2,
 							metric = "dps",
 							outOf = 40,
 							rank = 15,
@@ -3788,7 +3788,7 @@ ns.RegisterClassData("DRUID", {
 						},
 						performance = {
 							difficulty = "Mitica+",
-							median = 13655.3,
+							median = 13548.5,
 							metric = "dps",
 							outOf = 40,
 							rank = 40,

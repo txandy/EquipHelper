@@ -695,7 +695,7 @@ ns.RegisterClassData("DEMONHUNTER", {
 						},
 						performance = {
 							difficulty = "Mitica+",
-							median = 166471.0,
+							median = 166945.3,
 							metric = "dps",
 							outOf = 40,
 							rank = 20,
@@ -1533,7 +1533,7 @@ ns.RegisterClassData("DEMONHUNTER", {
 						},
 						performance = {
 							difficulty = "Mitica+",
-							median = 166471.0,
+							median = 166945.3,
 							metric = "dps",
 							outOf = 40,
 							rank = 20,
@@ -2278,7 +2278,7 @@ ns.RegisterClassData("DEMONHUNTER", {
 						},
 						performance = {
 							difficulty = "Mitica+",
-							median = 101808.0,
+							median = 101979.9,
 							metric = "dps",
 							outOf = 40,
 							rank = 30,
@@ -3111,7 +3111,7 @@ ns.RegisterClassData("DEMONHUNTER", {
 						},
 						performance = {
 							difficulty = "Mitica+",
-							median = 187679.1,
+							median = 188339.1,
 							metric = "dps",
 							outOf = 40,
 							rank = 8,
@@ -3939,7 +3939,7 @@ ns.RegisterClassData("DEMONHUNTER", {
 						},
 						performance = {
 							difficulty = "Mitica+",
-							median = 187679.1,
+							median = 188339.1,
 							metric = "dps",
 							outOf = 40,
 							rank = 8,

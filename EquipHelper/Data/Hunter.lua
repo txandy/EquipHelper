@@ -636,7 +636,7 @@ ns.RegisterClassData("HUNTER", {
 						},
 						performance = {
 							difficulty = "Mitica+",
-							median = 171202.6,
+							median = 171454.0,
 							metric = "dps",
 							outOf = 40,
 							rank = 18,

@@ -1475,7 +1475,7 @@ ns.RegisterClassData("WARLOCK", {
 						},
 						performance = {
 							difficulty = "Mitica+",
-							median = 190788.9,
+							median = 190930.6,
 							metric = "dps",
 							outOf = 40,
 							rank = 7,
@@ -2319,7 +2319,7 @@ ns.RegisterClassData("WARLOCK", {
 						},
 						performance = {
 							difficulty = "Mitica+",
-							median = 158948.0,
+							median = 158375.4,
 							metric = "dps",
 							outOf = 40,
 							rank = 22,
@@ -3041,7 +3041,7 @@ ns.RegisterClassData("WARLOCK", {
 						},
 						performance = {
 							difficulty = "Mitica+",
-							median = 158948.0,
+							median = 158375.4,
 							metric = "dps",
 							outOf = 40,
 							rank = 22,

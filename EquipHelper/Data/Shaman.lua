@@ -660,7 +660,7 @@ ns.RegisterClassData("SHAMAN", {
 						},
 						performance = {
 							difficulty = "Mitica+",
-							median = 202152.5,
+							median = 202718.7,
 							metric = "dps",
 							outOf = 40,
 							rank = 3,
@@ -1514,10 +1514,10 @@ ns.RegisterClassData("SHAMAN", {
 						},
 						performance = {
 							difficulty = "Mitica+",
-							median = 179867.9,
+							median = 180326.7,
 							metric = "dps",
 							outOf = 40,
-							rank = 11,
+							rank = 10,
 							sample = 300,
 							top = 278882.6,
 							zone = "Mythic+ Season 2",
@@ -2353,7 +2353,7 @@ ns.RegisterClassData("SHAMAN", {
 						},
 						performance = {
 							difficulty = "Mitica+",
-							median = 32965.9,
+							median = 33106.1,
 							metric = "dps",
 							outOf = 40,
 							rank = 36,

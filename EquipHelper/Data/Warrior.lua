@@ -651,7 +651,7 @@ ns.RegisterClassData("WARRIOR", {
 						},
 						performance = {
 							difficulty = "Mitica+",
-							median = 205536.6,
+							median = 205905.5,
 							metric = "dps",
 							outOf = 40,
 							rank = 2,

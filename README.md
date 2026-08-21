@@ -70,17 +70,29 @@ luarocks --lua-version=5.1 --lua-dir=/opt/homebrew/opt/luajit install luacheck
 
 ## Credenciales
 
-Warcraft Logs necesita una app OAuth (créala en
-[warcraftlogs.com/api/clients](https://www.warcraftlogs.com/api/clients)):
+Warcraft Logs necesita una app OAuth. Créala en
+[warcraftlogs.com/api/clients](https://www.warcraftlogs.com/api/clients) y pon
+sus dos valores en los dos sitios donde corre el scraper:
+
+**En local** — copia `.env.example` a `.env` y rellénalo. Git lo ignora, y el
+Makefile lo carga solo, así que `make build` funciona sin exportar nada:
 
 ```bash
-export WCL_CLIENT_ID=...
-export WCL_CLIENT_SECRET=...
+cp .env.example .env
+$EDITOR .env
+make build
 ```
 
-En local van en un `.env` que git ignora; en CI, como secrets del repo con esos
-mismos nombres. Si faltan, `make build` sigue adelante y solo omite el
-rendimiento.
+**En CI** — como secrets del repositorio, con esos mismos nombres:
+Settings → Secrets and variables → Actions → New repository secret.
+
+| Nombre | Valor |
+|---|---|
+| `WCL_CLIENT_ID` | el Client ID de la app |
+| `WCL_CLIENT_SECRET` | el Client Secret |
+
+Si faltan, el build no falla: omite el rendimiento medido y lo avisa. El resto
+de fuentes no necesita credenciales.
 
 ## Fuentes y atribución
 

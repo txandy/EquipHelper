@@ -2267,7 +2267,7 @@ ns.RegisterClassData("MONK", {
 						},
 						performance = {
 							difficulty = "Mitica+",
-							median = 173788.6,
+							median = 174176.1,
 							metric = "dps",
 							outOf = 40,
 							rank = 16,
@@ -3116,7 +3116,7 @@ ns.RegisterClassData("MONK", {
 						},
 						performance = {
 							difficulty = "Mitica+",
-							median = 46401.1,
+							median = 46570.6,
 							metric = "dps",
 							outOf = 40,
 							rank = 34,

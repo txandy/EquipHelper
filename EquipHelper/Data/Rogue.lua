@@ -680,7 +680,7 @@ ns.RegisterClassData("ROGUE", {
 						},
 						performance = {
 							difficulty = "Mitica+",
-							median = 197018.4,
+							median = 197609.8,
 							metric = "dps",
 							outOf = 40,
 							rank = 4,
@@ -1412,7 +1412,7 @@ ns.RegisterClassData("ROGUE", {
 						},
 						performance = {
 							difficulty = "Mitica+",
-							median = 197018.4,
+							median = 197609.8,
 							metric = "dps",
 							outOf = 40,
 							rank = 4,

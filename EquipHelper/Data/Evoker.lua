@@ -670,7 +670,7 @@ ns.RegisterClassData("EVOKER", {
 						},
 						performance = {
 							difficulty = "Mitica+",
-							median = 162715.5,
+							median = 163195.3,
 							metric = "dps",
 							outOf = 40,
 							rank = 21,
@@ -1493,7 +1493,7 @@ ns.RegisterClassData("EVOKER", {
 						},
 						performance = {
 							difficulty = "Mitica+",
-							median = 38855.3,
+							median = 39082.9,
 							metric = "dps",
 							outOf = 40,
 							rank = 35,
