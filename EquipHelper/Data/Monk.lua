@@ -686,8 +686,8 @@ ns.RegisterClassData("MONK", {
 							},
 						},
 						performance = {
-							difficulty = "Mitica+",
-							median = 90739.0,
+							difficulty = "Mythic+",
+							median = 90924.8,
 							metric = "dps",
 							outOf = 40,
 							rank = 33,
@@ -1425,8 +1425,8 @@ ns.RegisterClassData("MONK", {
 							},
 						},
 						performance = {
-							difficulty = "Mitica+",
-							median = 90739.0,
+							difficulty = "Mythic+",
+							median = 90924.8,
 							metric = "dps",
 							outOf = 40,
 							rank = 33,
@@ -2266,8 +2266,8 @@ ns.RegisterClassData("MONK", {
 							},
 						},
 						performance = {
-							difficulty = "Mitica+",
-							median = 174176.1,
+							difficulty = "Mythic+",
+							median = 174337.4,
 							metric = "dps",
 							outOf = 40,
 							rank = 16,
@@ -3115,8 +3115,8 @@ ns.RegisterClassData("MONK", {
 							},
 						},
 						performance = {
-							difficulty = "Mitica+",
-							median = 46570.6,
+							difficulty = "Mythic+",
+							median = 46708.7,
 							metric = "dps",
 							outOf = 40,
 							rank = 34,

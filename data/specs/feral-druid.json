@@ -864,8 +864,8 @@
       "hero_id": 21,
       "hero_name": "Druid of the Claw",
       "performance": {
-        "difficulty": "Mitica+",
-        "median": 174838.2,
+        "difficulty": "Mythic+",
+        "median": 174440.5,
         "metric": "dps",
         "out_of": 40,
         "rank": 15,
@@ -1900,8 +1900,8 @@
       "hero_id": 22,
       "hero_name": "Wildstalker",
       "performance": {
-        "difficulty": "Mitica+",
-        "median": 174838.2,
+        "difficulty": "Mythic+",
+        "median": 174440.5,
         "metric": "dps",
         "out_of": 40,
         "rank": 15,

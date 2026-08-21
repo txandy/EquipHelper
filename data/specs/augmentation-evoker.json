@@ -909,7 +909,7 @@
       "hero_id": 38,
       "hero_name": "Chronowarden",
       "performance": {
-        "difficulty": "Mitica+",
+        "difficulty": "Mythic+",
         "median": 135773.1,
         "metric": "dps",
         "out_of": 40,
@@ -1906,7 +1906,7 @@
       "hero_id": 36,
       "hero_name": "Scalecommander",
       "performance": {
-        "difficulty": "Mitica+",
+        "difficulty": "Mythic+",
         "median": 135773.1,
         "metric": "dps",
         "out_of": 40,

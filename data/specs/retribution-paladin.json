@@ -859,7 +859,7 @@
       "hero_id": 50,
       "hero_name": "Herald of the Sun",
       "performance": {
-        "difficulty": "Mitica+",
+        "difficulty": "Mythic+",
         "median": 187645.3,
         "metric": "dps",
         "out_of": 40,
@@ -1792,7 +1792,7 @@
       "hero_id": 48,
       "hero_name": "Templar",
       "performance": {
-        "difficulty": "Mitica+",
+        "difficulty": "Mythic+",
         "median": 187645.3,
         "metric": "dps",
         "out_of": 40,

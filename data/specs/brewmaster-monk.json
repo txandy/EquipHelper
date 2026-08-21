@@ -922,8 +922,8 @@
       "hero_id": 66,
       "hero_name": "Master of Harmony",
       "performance": {
-        "difficulty": "Mitica+",
-        "median": 90739.0,
+        "difficulty": "Mythic+",
+        "median": 90924.8,
         "metric": "dps",
         "out_of": 40,
         "rank": 33,
@@ -2016,8 +2016,8 @@
       "hero_id": 65,
       "hero_name": "Shado-Pan",
       "performance": {
-        "difficulty": "Mitica+",
-        "median": 90739.0,
+        "difficulty": "Mythic+",
+        "median": 90924.8,
         "metric": "dps",
         "out_of": 40,
         "rank": 33,

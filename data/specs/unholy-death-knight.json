@@ -818,11 +818,11 @@
       "hero_id": 32,
       "hero_name": "Rider of the Apocalypse",
       "performance": {
-        "difficulty": "Mitica+",
+        "difficulty": "Mythic+",
         "median": 180034.1,
         "metric": "dps",
         "out_of": 40,
-        "rank": 11,
+        "rank": 12,
         "sample": 300,
         "top": 306291.5,
         "zone": "Mythic+ Season 2"
@@ -1794,11 +1794,11 @@
       "hero_id": 31,
       "hero_name": "San'layn",
       "performance": {
-        "difficulty": "Mitica+",
+        "difficulty": "Mythic+",
         "median": 180034.1,
         "metric": "dps",
         "out_of": 40,
-        "rank": 11,
+        "rank": 12,
         "sample": 300,
         "top": 306291.5,
         "zone": "Mythic+ Season 2"

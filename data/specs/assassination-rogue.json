@@ -919,7 +919,7 @@
       "hero_id": 53,
       "hero_name": "Deathstalker",
       "performance": {
-        "difficulty": "Mitica+",
+        "difficulty": "Mythic+",
         "median": 197609.8,
         "metric": "dps",
         "out_of": 40,
@@ -1996,7 +1996,7 @@
       "hero_id": 52,
       "hero_name": "Fatebound",
       "performance": {
-        "difficulty": "Mitica+",
+        "difficulty": "Mythic+",
         "median": 197609.8,
         "metric": "dps",
         "out_of": 40,

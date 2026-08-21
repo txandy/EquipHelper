@@ -909,8 +909,8 @@
       "hero_id": 49,
       "hero_name": "Lightsmith",
       "performance": {
-        "difficulty": "Mitica+",
-        "median": 95079.3,
+        "difficulty": "Mythic+",
+        "median": 95231.5,
         "metric": "dps",
         "out_of": 40,
         "rank": 32,
@@ -1962,8 +1962,8 @@
       "hero_id": 48,
       "hero_name": "Templar",
       "performance": {
-        "difficulty": "Mitica+",
-        "median": 95079.3,
+        "difficulty": "Mythic+",
+        "median": 95231.5,
         "metric": "dps",
         "out_of": 40,
         "rank": 32,

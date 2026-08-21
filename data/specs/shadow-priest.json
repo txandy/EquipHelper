@@ -909,11 +909,11 @@
       "hero_id": 19,
       "hero_name": "Archon",
       "performance": {
-        "difficulty": "Mitica+",
-        "median": 179924.6,
+        "difficulty": "Mythic+",
+        "median": 180079.5,
         "metric": "dps",
         "out_of": 40,
-        "rank": 12,
+        "rank": 11,
         "sample": 300,
         "top": 271518.9,
         "zone": "Mythic+ Season 2"
@@ -1962,11 +1962,11 @@
       "hero_id": 18,
       "hero_name": "Voidweaver",
       "performance": {
-        "difficulty": "Mitica+",
-        "median": 179924.6,
+        "difficulty": "Mythic+",
+        "median": 180079.5,
         "metric": "dps",
         "out_of": 40,
-        "rank": 12,
+        "rank": 11,
         "sample": 300,
         "top": 271518.9,
         "zone": "Mythic+ Season 2"
@@ -2261,7 +2261,7 @@
       "hero_id": 19,
       "hero_name": "Archon",
       "performance": {
-        "difficulty": "Heroico",
+        "difficulty": "Heroic",
         "median": 158115.9,
         "metric": "dps",
         "out_of": 40,

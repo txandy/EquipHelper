@@ -909,8 +909,8 @@
       "hero_id": 59,
       "hero_name": "Diabolist",
       "performance": {
-        "difficulty": "Mitica+",
-        "median": 190930.6,
+        "difficulty": "Mythic+",
+        "median": 191525.6,
         "metric": "dps",
         "out_of": 40,
         "rank": 7,

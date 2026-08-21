@@ -874,8 +874,8 @@
       "hero_id": 60,
       "hero_name": "Slayer",
       "performance": {
-        "difficulty": "Mitica+",
-        "median": 205905.5,
+        "difficulty": "Mythic+",
+        "median": 206275.4,
         "metric": "dps",
         "out_of": 40,
         "rank": 2,

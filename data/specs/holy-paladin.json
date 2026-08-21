@@ -914,8 +914,8 @@
       "hero_id": 50,
       "hero_name": "Herald of the Sun",
       "performance": {
-        "difficulty": "Mitica+",
-        "median": 28265.1,
+        "difficulty": "Mythic+",
+        "median": 28629.4,
         "metric": "dps",
         "out_of": 40,
         "rank": 37,
@@ -1982,8 +1982,8 @@
       "hero_id": 49,
       "hero_name": "Lightsmith",
       "performance": {
-        "difficulty": "Mitica+",
-        "median": 28265.1,
+        "difficulty": "Mythic+",
+        "median": 28629.4,
         "metric": "dps",
         "out_of": 40,
         "rank": 37,

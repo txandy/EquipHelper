@@ -669,8 +669,8 @@ ns.RegisterClassData("EVOKER", {
 							},
 						},
 						performance = {
-							difficulty = "Mitica+",
-							median = 163195.3,
+							difficulty = "Mythic+",
+							median = 164027.3,
 							metric = "dps",
 							outOf = 40,
 							rank = 21,
@@ -1492,7 +1492,7 @@ ns.RegisterClassData("EVOKER", {
 							},
 						},
 						performance = {
-							difficulty = "Mitica+",
+							difficulty = "Mythic+",
 							median = 39082.9,
 							metric = "dps",
 							outOf = 40,
@@ -2283,7 +2283,7 @@ ns.RegisterClassData("EVOKER", {
 							},
 						},
 						performance = {
-							difficulty = "Mitica+",
+							difficulty = "Mythic+",
 							median = 135773.1,
 							metric = "dps",
 							outOf = 40,
@@ -3057,7 +3057,7 @@ ns.RegisterClassData("EVOKER", {
 							},
 						},
 						performance = {
-							difficulty = "Mitica+",
+							difficulty = "Mythic+",
 							median = 135773.1,
 							metric = "dps",
 							outOf = 40,

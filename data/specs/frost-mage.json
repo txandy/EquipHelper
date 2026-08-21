@@ -909,8 +909,8 @@
       "hero_id": 41,
       "hero_name": "Frostfire",
       "performance": {
-        "difficulty": "Mitica+",
-        "median": 146885.3,
+        "difficulty": "Mythic+",
+        "median": 146929.2,
         "metric": "dps",
         "out_of": 40,
         "rank": 26,
@@ -1878,8 +1878,8 @@
       "hero_id": 40,
       "hero_name": "Spellslinger",
       "performance": {
-        "difficulty": "Mitica+",
-        "median": 146885.3,
+        "difficulty": "Mythic+",
+        "median": 146929.2,
         "metric": "dps",
         "out_of": 40,
         "rank": 26,

@@ -635,7 +635,7 @@ ns.RegisterClassData("HUNTER", {
 							},
 						},
 						performance = {
-							difficulty = "Mitica+",
+							difficulty = "Mythic+",
 							median = 171454.0,
 							metric = "dps",
 							outOf = 40,
@@ -1450,7 +1450,7 @@ ns.RegisterClassData("HUNTER", {
 							},
 						},
 						performance = {
-							difficulty = "Mitica+",
+							difficulty = "Mythic+",
 							median = 169065.8,
 							metric = "dps",
 							outOf = 40,
@@ -2278,8 +2278,8 @@ ns.RegisterClassData("HUNTER", {
 							},
 						},
 						performance = {
-							difficulty = "Mitica+",
-							median = 151055.1,
+							difficulty = "Mythic+",
+							median = 151256.0,
 							metric = "dps",
 							outOf = 40,
 							rank = 24,
@@ -3075,8 +3075,8 @@ ns.RegisterClassData("HUNTER", {
 							},
 						},
 						performance = {
-							difficulty = "Mitica+",
-							median = 151055.1,
+							difficulty = "Mythic+",
+							median = 151256.0,
 							metric = "dps",
 							outOf = 40,
 							rank = 24,

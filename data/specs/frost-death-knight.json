@@ -899,8 +899,8 @@
       "hero_id": 33,
       "hero_name": "Deathbringer",
       "performance": {
-        "difficulty": "Mitica+",
-        "median": 155636.1,
+        "difficulty": "Mythic+",
+        "median": 154492.5,
         "metric": "dps",
         "out_of": 40,
         "rank": 23,

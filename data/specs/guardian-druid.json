@@ -859,8 +859,8 @@
       "hero_id": 24,
       "hero_name": "Elune's Chosen",
       "performance": {
-        "difficulty": "Mitica+",
-        "median": 98730.4,
+        "difficulty": "Mythic+",
+        "median": 98619.0,
         "metric": "dps",
         "out_of": 40,
         "rank": 31,

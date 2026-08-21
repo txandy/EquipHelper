@@ -659,8 +659,8 @@ ns.RegisterClassData("DRUID", {
 							},
 						},
 						performance = {
-							difficulty = "Mitica+",
-							median = 175533.2,
+							difficulty = "Mythic+",
+							median = 175156.3,
 							metric = "dps",
 							outOf = 40,
 							rank = 14,
@@ -1461,8 +1461,8 @@ ns.RegisterClassData("DRUID", {
 							},
 						},
 						performance = {
-							difficulty = "Mitica+",
-							median = 174838.2,
+							difficulty = "Mythic+",
+							median = 174440.5,
 							metric = "dps",
 							outOf = 40,
 							rank = 15,
@@ -2258,8 +2258,8 @@ ns.RegisterClassData("DRUID", {
 							},
 						},
 						performance = {
-							difficulty = "Mitica+",
-							median = 174838.2,
+							difficulty = "Mythic+",
+							median = 174440.5,
 							metric = "dps",
 							outOf = 40,
 							rank = 15,
@@ -2951,8 +2951,8 @@ ns.RegisterClassData("DRUID", {
 							},
 						},
 						performance = {
-							difficulty = "Mitica+",
-							median = 98730.4,
+							difficulty = "Mythic+",
+							median = 98619.0,
 							metric = "dps",
 							outOf = 40,
 							rank = 31,
@@ -3787,7 +3787,7 @@ ns.RegisterClassData("DRUID", {
 							},
 						},
 						performance = {
-							difficulty = "Mitica+",
+							difficulty = "Mythic+",
 							median = 13548.5,
 							metric = "dps",
 							outOf = 40,

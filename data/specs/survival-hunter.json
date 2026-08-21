@@ -919,8 +919,8 @@
       "hero_id": 43,
       "hero_name": "Pack Leader",
       "performance": {
-        "difficulty": "Mitica+",
-        "median": 151055.1,
+        "difficulty": "Mythic+",
+        "median": 151256.0,
         "metric": "dps",
         "out_of": 40,
         "rank": 24,
@@ -1940,8 +1940,8 @@
       "hero_id": 42,
       "hero_name": "Sentinel",
       "performance": {
-        "difficulty": "Mitica+",
-        "median": 151055.1,
+        "difficulty": "Mythic+",
+        "median": 151256.0,
         "metric": "dps",
         "out_of": 40,
         "rank": 24,

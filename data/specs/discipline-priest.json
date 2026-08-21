@@ -919,8 +919,8 @@
       "hero_id": 20,
       "hero_name": "Oracle",
       "performance": {
-        "difficulty": "Mitica+",
-        "median": 18539.7,
+        "difficulty": "Mythic+",
+        "median": 18560.7,
         "metric": "dps",
         "out_of": 40,
         "rank": 39,
@@ -1932,8 +1932,8 @@
       "hero_id": 18,
       "hero_name": "Voidweaver",
       "performance": {
-        "difficulty": "Mitica+",
-        "median": 18539.7,
+        "difficulty": "Mythic+",
+        "median": 18560.7,
         "metric": "dps",
         "out_of": 40,
         "rank": 39,

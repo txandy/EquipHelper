@@ -659,8 +659,8 @@ ns.RegisterClassData("SHAMAN", {
 							},
 						},
 						performance = {
-							difficulty = "Mitica+",
-							median = 202718.7,
+							difficulty = "Mythic+",
+							median = 203323.5,
 							metric = "dps",
 							outOf = 40,
 							rank = 3,
@@ -1513,8 +1513,8 @@ ns.RegisterClassData("SHAMAN", {
 							},
 						},
 						performance = {
-							difficulty = "Mitica+",
-							median = 180326.7,
+							difficulty = "Mythic+",
+							median = 180505.5,
 							metric = "dps",
 							outOf = 40,
 							rank = 10,
@@ -2352,8 +2352,8 @@ ns.RegisterClassData("SHAMAN", {
 							},
 						},
 						performance = {
-							difficulty = "Mitica+",
-							median = 33106.1,
+							difficulty = "Mythic+",
+							median = 33340.1,
 							metric = "dps",
 							outOf = 40,
 							rank = 36,

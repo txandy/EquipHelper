@@ -899,8 +899,8 @@
       "hero_id": 56,
       "hero_name": "Farseer",
       "performance": {
-        "difficulty": "Mitica+",
-        "median": 202718.7,
+        "difficulty": "Mythic+",
+        "median": 203323.5,
         "metric": "dps",
         "out_of": 40,
         "rank": 3,

@@ -904,8 +904,8 @@
       "hero_id": 39,
       "hero_name": "Sunfury",
       "performance": {
-        "difficulty": "Mitica+",
-        "median": 215007.4,
+        "difficulty": "Mythic+",
+        "median": 215163.6,
         "metric": "dps",
         "out_of": 40,
         "rank": 1,

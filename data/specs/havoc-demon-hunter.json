@@ -934,8 +934,8 @@
       "hero_id": 35,
       "hero_name": "Aldrachi Reaver",
       "performance": {
-        "difficulty": "Mitica+",
-        "median": 166945.3,
+        "difficulty": "Mythic+",
+        "median": 167402.2,
         "metric": "dps",
         "out_of": 40,
         "rank": 20,
@@ -1942,8 +1942,8 @@
       "hero_id": 34,
       "hero_name": "Fel-Scarred",
       "performance": {
-        "difficulty": "Mitica+",
-        "median": 166945.3,
+        "difficulty": "Mythic+",
+        "median": 167402.2,
         "metric": "dps",
         "out_of": 40,
         "rank": 20,

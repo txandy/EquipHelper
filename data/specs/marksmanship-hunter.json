@@ -864,7 +864,7 @@
       "hero_id": 42,
       "hero_name": "Sentinel",
       "performance": {
-        "difficulty": "Mitica+",
+        "difficulty": "Mythic+",
         "median": 169065.8,
         "metric": "dps",
         "out_of": 40,

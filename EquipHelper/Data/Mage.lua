@@ -664,8 +664,8 @@ ns.RegisterClassData("MAGE", {
 							},
 						},
 						performance = {
-							difficulty = "Mitica+",
-							median = 215007.4,
+							difficulty = "Mythic+",
+							median = 215163.6,
 							metric = "dps",
 							outOf = 40,
 							rank = 1,
@@ -1505,7 +1505,7 @@ ns.RegisterClassData("MAGE", {
 							},
 						},
 						performance = {
-							difficulty = "Mitica+",
+							difficulty = "Mythic+",
 							median = 172840.0,
 							metric = "dps",
 							outOf = 40,
@@ -2258,8 +2258,8 @@ ns.RegisterClassData("MAGE", {
 							},
 						},
 						performance = {
-							difficulty = "Mitica+",
-							median = 146885.3,
+							difficulty = "Mythic+",
+							median = 146929.2,
 							metric = "dps",
 							outOf = 40,
 							rank = 26,
@@ -3032,8 +3032,8 @@ ns.RegisterClassData("MAGE", {
 							},
 						},
 						performance = {
-							difficulty = "Mitica+",
-							median = 146885.3,
+							difficulty = "Mythic+",
+							median = 146929.2,
 							metric = "dps",
 							outOf = 40,
 							rank = 26,

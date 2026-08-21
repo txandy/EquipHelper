@@ -904,8 +904,8 @@
       "hero_id": 61,
       "hero_name": "Mountain Thane",
       "performance": {
-        "difficulty": "Mitica+",
-        "median": 104530.3,
+        "difficulty": "Mythic+",
+        "median": 104616.0,
         "metric": "dps",
         "out_of": 40,
         "rank": 29,

@@ -650,8 +650,8 @@ ns.RegisterClassData("WARRIOR", {
 							},
 						},
 						performance = {
-							difficulty = "Mitica+",
-							median = 205905.5,
+							difficulty = "Mythic+",
+							median = 206275.4,
 							metric = "dps",
 							outOf = 40,
 							rank = 2,
@@ -1520,8 +1520,8 @@ ns.RegisterClassData("WARRIOR", {
 							},
 						},
 						performance = {
-							difficulty = "Mitica+",
-							median = 177110.1,
+							difficulty = "Mythic+",
+							median = 177017.4,
 							metric = "dps",
 							outOf = 40,
 							rank = 13,
@@ -2359,8 +2359,8 @@ ns.RegisterClassData("WARRIOR", {
 							},
 						},
 						performance = {
-							difficulty = "Mitica+",
-							median = 177110.1,
+							difficulty = "Mythic+",
+							median = 177017.4,
 							metric = "dps",
 							outOf = 40,
 							rank = 13,
@@ -3094,8 +3094,8 @@ ns.RegisterClassData("WARRIOR", {
 							},
 						},
 						performance = {
-							difficulty = "Mitica+",
-							median = 104530.3,
+							difficulty = "Mythic+",
+							median = 104616.0,
 							metric = "dps",
 							outOf = 40,
 							rank = 29,

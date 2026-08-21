@@ -904,8 +904,8 @@
       "hero_id": 54,
       "hero_name": "Totemic",
       "performance": {
-        "difficulty": "Mitica+",
-        "median": 33106.1,
+        "difficulty": "Mythic+",
+        "median": 33340.1,
         "metric": "dps",
         "out_of": 40,
         "rank": 36,

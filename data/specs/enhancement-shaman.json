@@ -919,8 +919,8 @@
       "hero_id": 55,
       "hero_name": "Stormbringer",
       "performance": {
-        "difficulty": "Mitica+",
-        "median": 180326.7,
+        "difficulty": "Mythic+",
+        "median": 180505.5,
         "metric": "dps",
         "out_of": 40,
         "rank": 10,

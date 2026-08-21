@@ -854,8 +854,8 @@
       "hero_id": 33,
       "hero_name": "Deathbringer",
       "performance": {
-        "difficulty": "Mitica+",
-        "median": 123005.4,
+        "difficulty": "Mythic+",
+        "median": 122596.3,
         "metric": "dps",
         "out_of": 40,
         "rank": 28,
@@ -1768,8 +1768,8 @@
       "hero_id": 31,
       "hero_name": "San'layn",
       "performance": {
-        "difficulty": "Mitica+",
-        "median": 123005.4,
+        "difficulty": "Mythic+",
+        "median": 122596.3,
         "metric": "dps",
         "out_of": 40,
         "rank": 28,

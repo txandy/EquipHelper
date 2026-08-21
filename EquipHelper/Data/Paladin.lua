@@ -674,8 +674,8 @@ ns.RegisterClassData("PALADIN", {
 							},
 						},
 						performance = {
-							difficulty = "Mitica+",
-							median = 28265.1,
+							difficulty = "Mythic+",
+							median = 28629.4,
 							metric = "dps",
 							outOf = 40,
 							rank = 37,
@@ -1399,8 +1399,8 @@ ns.RegisterClassData("PALADIN", {
 							},
 						},
 						performance = {
-							difficulty = "Mitica+",
-							median = 28265.1,
+							difficulty = "Mythic+",
+							median = 28629.4,
 							metric = "dps",
 							outOf = 40,
 							rank = 37,
@@ -2212,8 +2212,8 @@ ns.RegisterClassData("PALADIN", {
 							},
 						},
 						performance = {
-							difficulty = "Mitica+",
-							median = 95079.3,
+							difficulty = "Mythic+",
+							median = 95231.5,
 							metric = "dps",
 							outOf = 40,
 							rank = 32,
@@ -2934,8 +2934,8 @@ ns.RegisterClassData("PALADIN", {
 							},
 						},
 						performance = {
-							difficulty = "Mitica+",
-							median = 95079.3,
+							difficulty = "Mythic+",
+							median = 95231.5,
 							metric = "dps",
 							outOf = 40,
 							rank = 32,
@@ -3705,7 +3705,7 @@ ns.RegisterClassData("PALADIN", {
 							},
 						},
 						performance = {
-							difficulty = "Mitica+",
+							difficulty = "Mythic+",
 							median = 187645.3,
 							metric = "dps",
 							outOf = 40,
@@ -4484,7 +4484,7 @@ ns.RegisterClassData("PALADIN", {
 							},
 						},
 						performance = {
-							difficulty = "Mitica+",
+							difficulty = "Mythic+",
 							median = 187645.3,
 							metric = "dps",
 							outOf = 40,

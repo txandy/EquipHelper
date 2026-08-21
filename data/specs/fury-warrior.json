@@ -933,8 +933,8 @@
       "hero_id": 61,
       "hero_name": "Mountain Thane",
       "performance": {
-        "difficulty": "Mitica+",
-        "median": 177110.1,
+        "difficulty": "Mythic+",
+        "median": 177017.4,
         "metric": "dps",
         "out_of": 40,
         "rank": 13,
@@ -1940,8 +1940,8 @@
       "hero_id": 60,
       "hero_name": "Slayer",
       "performance": {
-        "difficulty": "Mitica+",
-        "median": 177110.1,
+        "difficulty": "Mythic+",
+        "median": 177017.4,
         "metric": "dps",
         "out_of": 40,
         "rank": 13,

@@ -679,7 +679,7 @@ ns.RegisterClassData("ROGUE", {
 							},
 						},
 						performance = {
-							difficulty = "Mitica+",
+							difficulty = "Mythic+",
 							median = 197609.8,
 							metric = "dps",
 							outOf = 40,
@@ -1411,7 +1411,7 @@ ns.RegisterClassData("ROGUE", {
 							},
 						},
 						performance = {
-							difficulty = "Mitica+",
+							difficulty = "Mythic+",
 							median = 197609.8,
 							metric = "dps",
 							outOf = 40,
@@ -2249,8 +2249,8 @@ ns.RegisterClassData("ROGUE", {
 							},
 						},
 						performance = {
-							difficulty = "Mitica+",
-							median = 196952.6,
+							difficulty = "Mythic+",
+							median = 197426.0,
 							metric = "dps",
 							outOf = 40,
 							rank = 5,
@@ -3113,8 +3113,8 @@ ns.RegisterClassData("ROGUE", {
 							},
 						},
 						performance = {
-							difficulty = "Mitica+",
-							median = 193914.9,
+							difficulty = "Mythic+",
+							median = 194254.1,
 							metric = "dps",
 							outOf = 40,
 							rank = 6,

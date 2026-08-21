@@ -919,8 +919,8 @@
       "hero_id": 20,
       "hero_name": "Oracle",
       "performance": {
-        "difficulty": "Mitica+",
-        "median": 25295.5,
+        "difficulty": "Mythic+",
+        "median": 25377.5,
         "metric": "dps",
         "out_of": 40,
         "rank": 38,

@@ -669,7 +669,7 @@ ns.RegisterClassData("WARLOCK", {
 							},
 						},
 						performance = {
-							difficulty = "Mitica+",
+							difficulty = "Mythic+",
 							median = 147572.5,
 							metric = "dps",
 							outOf = 40,
@@ -1474,8 +1474,8 @@ ns.RegisterClassData("WARLOCK", {
 							},
 						},
 						performance = {
-							difficulty = "Mitica+",
-							median = 190930.6,
+							difficulty = "Mythic+",
+							median = 191525.6,
 							metric = "dps",
 							outOf = 40,
 							rank = 7,
@@ -2318,13 +2318,13 @@ ns.RegisterClassData("WARLOCK", {
 							},
 						},
 						performance = {
-							difficulty = "Mitica+",
-							median = 158375.4,
+							difficulty = "Mythic+",
+							median = 157554.1,
 							metric = "dps",
 							outOf = 40,
 							rank = 22,
 							sample = 300,
-							top = 280870.6,
+							top = 305596.6,
 							zone = "Mythic+ Season 2",
 						},
 						provenance = {
@@ -3040,13 +3040,13 @@ ns.RegisterClassData("WARLOCK", {
 							},
 						},
 						performance = {
-							difficulty = "Mitica+",
-							median = 158375.4,
+							difficulty = "Mythic+",
+							median = 157554.1,
 							metric = "dps",
 							outOf = 40,
 							rank = 22,
 							sample = 300,
-							top = 280870.6,
+							top = 305596.6,
 							zone = "Mythic+ Season 2",
 						},
 						provenance = {

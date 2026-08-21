@@ -924,8 +924,8 @@
       "hero_id": 124,
       "hero_name": "Annihilator",
       "performance": {
-        "difficulty": "Mitica+",
-        "median": 188339.1,
+        "difficulty": "Mythic+",
+        "median": 187679.1,
         "metric": "dps",
         "out_of": 40,
         "rank": 8,
@@ -2006,8 +2006,8 @@
       "hero_id": 126,
       "hero_name": "Void-Scarred",
       "performance": {
-        "difficulty": "Mitica+",
-        "median": 188339.1,
+        "difficulty": "Mythic+",
+        "median": 187679.1,
         "metric": "dps",
         "out_of": 40,
         "rank": 8,

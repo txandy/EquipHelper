@@ -90,7 +90,7 @@ def test_raid_walks_down_from_mythic_to_a_difficulty_with_logs():
     client = FakeClient(amounts_by_call=[[], [], [], [200.0] * 30, [], []])
     zone = wcl.Zone(53, "Abyss", [(1, "a"), (2, "b"), (3, "c")])
     performance = wcl.fetch_performance(client, FakeSpec(), zone, "raid")
-    assert performance.difficulty == "Heroico"
+    assert performance.difficulty == "Heroic"
 
 
 def test_a_difficulty_with_too_few_logs_is_skipped():
@@ -98,7 +98,7 @@ def test_a_difficulty_with_too_few_logs_is_skipped():
     client = FakeClient(amounts_by_call=[[1.0] * 4, [], [], [2.0] * 30, [], []])
     zone = wcl.Zone(53, "Abyss", [(1, "a"), (2, "b"), (3, "c")])
     performance = wcl.fetch_performance(client, FakeSpec(), zone, "raid")
-    assert performance.difficulty == "Heroico" and performance.sample == 30
+    assert performance.difficulty == "Heroic" and performance.sample == 30
 
 
 def test_healers_are_found_by_falling_back_to_hps():
@@ -117,7 +117,7 @@ def test_no_logs_at_all_yields_nothing():
 
 def _perf(median, metric="dps"):
     return Performance(metric=metric, median=median, top=median, sample=100,
-                       difficulty="Heroico", zone="Abyss")
+                       difficulty="Heroic", zone="Abyss")
 
 
 def test_rank_is_by_median_descending():
@@ -140,3 +140,8 @@ def test_missing_credentials_raise_a_typed_error(monkeypatch):
     monkeypatch.delenv("WCL_CLIENT_SECRET", raising=False)
     with pytest.raises(wcl.NoCredentials):
         wcl.Client()
+
+
+def test_difficulty_labels_are_english():
+    # Estas cadenas viajan en los datos hasta el addon, que solo habla ingles.
+    assert set(wcl.DIFFICULTY_NAMES.values()) == {"Mythic+", "Mythic", "Heroic", "Normal"}

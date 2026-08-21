@@ -909,13 +909,13 @@
       "hero_id": 59,
       "hero_name": "Diabolist",
       "performance": {
-        "difficulty": "Mitica+",
-        "median": 158375.4,
+        "difficulty": "Mythic+",
+        "median": 157554.1,
         "metric": "dps",
         "out_of": 40,
         "rank": 22,
         "sample": 300,
-        "top": 280870.6,
+        "top": 305596.6,
         "zone": "Mythic+ Season 2"
       },
       "provenance": {
@@ -1990,13 +1990,13 @@
       "hero_id": 58,
       "hero_name": "Hellcaller",
       "performance": {
-        "difficulty": "Mitica+",
-        "median": 158375.4,
+        "difficulty": "Mythic+",
+        "median": 157554.1,
         "metric": "dps",
         "out_of": 40,
         "rank": 22,
         "sample": 300,
-        "top": 280870.6,
+        "top": 305596.6,
         "zone": "Mythic+ Season 2"
       },
       "provenance": {

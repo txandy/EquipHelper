@@ -29,7 +29,9 @@ API_URL = "https://www.warcraftlogs.com/api/v2/client"
 # Las dificultades no son las mismas en banda que en mitica+. En banda se prueba
 # de mas dificil a mas facil, porque al principio de una temporada la dificultad
 # mitica todavia no tiene registros; en mitica+ solo existe un nivel.
-DIFFICULTY_NAMES = {10: "Mitica+", 5: "Mitico", 4: "Heroico", 3: "Normal"}
+# En ingles porque este texto viaja en los datos hasta la interfaz del addon,
+# que es internacional. Todo lo que se emite a Lua es un ID o texto en ingles.
+DIFFICULTY_NAMES = {10: "Mythic+", 5: "Mythic", 4: "Heroic", 3: "Normal"}
 DIFFICULTIES = {
     "raid": (5, 4, 3),
     "mplus": (10,),
