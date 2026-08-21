@@ -872,57 +872,57 @@ ns.RegisterClassData("EVOKER", {
 							{
 								itemID = 244029,
 								slot = "MAINHAND",
-								usagePct = 79.6,
+								usagePct = 78.8,
 							},
 							{
 								itemID = 244031,
 								slot = "MAINHAND",
-								usagePct = 16.8,
+								usagePct = 17.3,
 							},
 							{
 								itemID = 273072,
 								slot = "MAINHAND",
-								usagePct = 1.5,
+								usagePct = 1.3,
 							},
 							{
 								itemID = 243951,
 								slot = "HEAD",
-								usagePct = 64.4,
+								usagePct = 63.6,
 							},
 							{
 								itemID = 244007,
 								slot = "HEAD",
-								usagePct = 25.7,
+								usagePct = 27.2,
 							},
 							{
 								itemID = 243949,
 								slot = "HEAD",
-								usagePct = 5.4,
+								usagePct = 5.3,
 							},
 							{
 								itemID = 244021,
 								slot = "SHOULDER",
-								usagePct = 64.6,
+								usagePct = 64.8,
 							},
 							{
 								itemID = 243991,
 								slot = "SHOULDER",
-								usagePct = 31.3,
+								usagePct = 31.0,
 							},
 							{
 								itemID = 244019,
 								slot = "SHOULDER",
-								usagePct = 1.3,
+								usagePct = 1.6,
 							},
 							{
 								itemID = 243977,
 								slot = "CHEST",
-								usagePct = 75.4,
+								usagePct = 75.2,
 							},
 							{
 								itemID = 244003,
 								slot = "CHEST",
-								usagePct = 24.2,
+								usagePct = 24.4,
 							},
 							{
 								itemID = 244002,
@@ -932,12 +932,12 @@ ns.RegisterClassData("EVOKER", {
 							{
 								itemID = 240155,
 								slot = "LEGS",
-								usagePct = 55.3,
+								usagePct = 56.2,
 							},
 							{
 								itemID = 240133,
 								slot = "LEGS",
-								usagePct = 44.1,
+								usagePct = 43.4,
 							},
 							{
 								itemID = 240157,
@@ -947,63 +947,63 @@ ns.RegisterClassData("EVOKER", {
 							{
 								itemID = 243983,
 								slot = "FEET",
-								usagePct = 63.0,
+								usagePct = 63.2,
 							},
 							{
 								itemID = 243953,
 								slot = "FEET",
-								usagePct = 35.9,
+								usagePct = 35.7,
 							},
 							{
 								itemID = 244009,
 								slot = "FEET",
-								usagePct = 0.7,
+								usagePct = 0.9,
 							},
 							{
 								itemID = 243959,
 								slot = "FINGER1",
-								usagePct = 47.8,
+								usagePct = 47.7,
 							},
 							{
 								itemID = 243987,
 								slot = "FINGER1",
-								usagePct = 20.2,
+								usagePct = 20.4,
 							},
 							{
 								itemID = 244015,
 								slot = "FINGER1",
-								usagePct = 14.1,
+								usagePct = 14.3,
 							},
 						},
 						gear = {
 							BACK = {
 								{
 									itemID = 239656,
-									usagePct = 27.0,
+									usagePct = 27.3,
 								},
 								{
 									itemID = 251132,
-									usagePct = 13.0,
+									usagePct = 13.7,
 								},
 								{
 									itemID = 249992,
-									usagePct = 11.4,
+									usagePct = 10.7,
 								},
 								{
 									itemID = 251190,
-									usagePct = 10.2,
+									usagePct = 9.6,
 								},
 								{
 									itemID = 193763,
-									usagePct = 6.3,
+									usagePct = 7.0,
 								},
 								{
 									itemID = 159288,
-									usagePct = 5.3,
+									usagePct = 5.7,
 								},
 								{
 									itemID = 239674,
-									usagePct = 2.5,
+									usagePct = 2.7,
 								},
 								{
 									itemID = 260312,
@@ -1013,35 +1013,35 @@ ns.RegisterClassData("EVOKER", {
 							CHEST = {
 								{
 									itemID = 250000,
-									usagePct = 64.1,
+									usagePct = 62.9,
 								},
 								{
 									itemID = 271504,
-									usagePct = 13.3,
+									usagePct = 14.0,
 								},
 								{
 									itemID = 273789,
-									usagePct = 6.2,
+									usagePct = 6.4,
 								},
 								{
 									itemID = 251233,
-									usagePct = 3.5,
-								},
-								{
-									itemID = 239046,
-									usagePct = 3.5,
+									usagePct = 4.0,
 								},
 								{
 									itemID = 272247,
+									usagePct = 3.6,
+								},
+								{
+									itemID = 239046,
 									usagePct = 3.3,
 								},
 								{
 									itemID = 239034,
-									usagePct = 2.5,
+									usagePct = 2.3,
 								},
 								{
 									itemID = 277779,
-									usagePct = 1.4,
+									usagePct = 1.3,
 								},
 							},
 							FEET = {
@@ -1051,41 +1051,41 @@ ns.RegisterClassData("EVOKER", {
 								},
 								{
 									itemID = 249999,
-									usagePct = 23.4,
+									usagePct = 22.4,
 								},
 								{
 									itemID = 159388,
-									usagePct = 8.7,
+									usagePct = 9.0,
 								},
 								{
 									itemID = 251145,
-									usagePct = 7.5,
+									usagePct = 7.7,
 								},
 								{
 									itemID = 159371,
-									usagePct = 6.8,
+									usagePct = 6.9,
 								},
 								{
 									itemID = 244610,
-									usagePct = 4.9,
-								},
-								{
-									itemID = 272248,
-									usagePct = 3.9,
+									usagePct = 4.6,
 								},
 								{
 									itemID = 251125,
-									usagePct = 3.6,
+									usagePct = 4.0,
+								},
+								{
+									itemID = 272248,
+									usagePct = 3.7,
 								},
 							},
 							FINGER1 = {
 								{
 									itemID = 268290,
-									usagePct = 50.5,
+									usagePct = 50.4,
 								},
 								{
 									itemID = 251136,
-									usagePct = 18.0,
+									usagePct = 17.7,
 								},
 								{
 									itemID = 273792,
@@ -1093,29 +1093,29 @@ ns.RegisterClassData("EVOKER", {
 								},
 								{
 									itemID = 251217,
-									usagePct = 12.4,
+									usagePct = 12.1,
 								},
 								{
 									itemID = 251093,
-									usagePct = 9.2,
+									usagePct = 9.0,
 								},
 								{
 									itemID = 158366,
-									usagePct = 8.5,
-								},
-								{
-									itemID = 252258,
-									usagePct = 8.1,
+									usagePct = 8.7,
 								},
 								{
 									itemID = 49812,
+									usagePct = 7.9,
+								},
+								{
+									itemID = 252258,
 									usagePct = 7.9,
 								},
 							},
 							HANDS = {
 								{
 									itemID = 249998,
-									usagePct = 49.5,
+									usagePct = 49.7,
 								},
 								{
 									itemID = 271502,
@@ -1123,203 +1123,203 @@ ns.RegisterClassData("EVOKER", {
 								},
 								{
 									itemID = 193752,
-									usagePct = 10.8,
-								},
-								{
-									itemID = 251165,
-									usagePct = 3.8,
-								},
-								{
-									itemID = 244583,
-									usagePct = 3.8,
+									usagePct = 10.9,
 								},
 								{
 									itemID = 160213,
-									usagePct = 3.6,
+									usagePct = 4.0,
+								},
+								{
+									itemID = 251165,
+									usagePct = 3.9,
+								},
+								{
+									itemID = 244583,
+									usagePct = 3.7,
 								},
 								{
 									itemID = 249325,
-									usagePct = 3.2,
+									usagePct = 2.9,
 								},
 								{
 									itemID = 272249,
-									usagePct = 2.2,
+									usagePct = 2.1,
 								},
 							},
 							HEAD = {
 								{
 									itemID = 249997,
-									usagePct = 50.6,
+									usagePct = 50.1,
 								},
 								{
 									itemID = 271501,
-									usagePct = 16.2,
+									usagePct = 16.3,
 								},
 								{
 									itemID = 251220,
-									usagePct = 7.6,
+									usagePct = 7.4,
 								},
 								{
 									itemID = 239035,
-									usagePct = 6.5,
-								},
-								{
-									itemID = 277776,
-									usagePct = 3.3,
+									usagePct = 6.9,
 								},
 								{
 									itemID = 49824,
-									usagePct = 3.3,
+									usagePct = 3.6,
 								},
 								{
 									itemID = 193765,
-									usagePct = 3.2,
+									usagePct = 3.4,
+								},
+								{
+									itemID = 277776,
+									usagePct = 3.4,
 								},
 								{
 									itemID = 249914,
-									usagePct = 2.6,
+									usagePct = 2.9,
 								},
 							},
 							LEGS = {
 								{
 									itemID = 249996,
-									usagePct = 70.3,
+									usagePct = 70.6,
 								},
 								{
 									itemID = 271500,
-									usagePct = 11.4,
+									usagePct = 11.1,
 								},
 								{
 									itemID = 268288,
-									usagePct = 6.3,
+									usagePct = 6.0,
 								},
 								{
 									itemID = 159375,
-									usagePct = 3.2,
+									usagePct = 3.4,
 								},
 								{
 									itemID = 251141,
-									usagePct = 2.7,
-								},
-								{
-									itemID = 272251,
-									usagePct = 1.4,
-								},
-								{
-									itemID = 193759,
-									usagePct = 1.4,
+									usagePct = 3.1,
 								},
 								{
 									itemID = 277775,
-									usagePct = 1.2,
+									usagePct = 1.3,
+								},
+								{
+									itemID = 272251,
+									usagePct = 1.1,
+								},
+								{
+									itemID = 193759,
+									usagePct = 1.1,
 								},
 							},
 							MAINHAND = {
 								{
 									itemID = 245770,
-									usagePct = 11.4,
+									usagePct = 11.0,
 								},
 								{
 									itemID = 273778,
-									usagePct = 7.4,
+									usagePct = 7.6,
 								},
 								{
 									itemID = 193761,
-									usagePct = 6.6,
+									usagePct = 6.0,
 								},
 								{
 									itemID = 251123,
-									usagePct = 5.9,
-								},
-								{
-									itemID = 251201,
-									usagePct = 5.1,
+									usagePct = 5.7,
 								},
 								{
 									itemID = 251225,
 									usagePct = 5.1,
 								},
 								{
-									itemID = 273780,
-									usagePct = 4.6,
+									itemID = 251201,
+									usagePct = 4.9,
 								},
 								{
-									itemID = 159636,
-									usagePct = 4.2,
+									itemID = 273780,
+									usagePct = 4.9,
+								},
+								{
+									itemID = 193707,
+									usagePct = 4.4,
 								},
 							},
 							NECK = {
 								{
 									itemID = 268291,
-									usagePct = 43.4,
+									usagePct = 42.3,
 								},
 								{
 									itemID = 273781,
-									usagePct = 11.0,
-								},
-								{
-									itemID = 251173,
-									usagePct = 8.1,
+									usagePct = 11.4,
 								},
 								{
 									itemID = 251234,
-									usagePct = 7.5,
+									usagePct = 7.9,
+								},
+								{
+									itemID = 251173,
+									usagePct = 7.6,
 								},
 								{
 									itemID = 251142,
-									usagePct = 6.9,
+									usagePct = 7.4,
 								},
 								{
 									itemID = 50228,
-									usagePct = 5.6,
+									usagePct = 6.1,
 								},
 								{
 									itemID = 249337,
-									usagePct = 3.5,
+									usagePct = 3.6,
 								},
 								{
 									itemID = 240950,
-									usagePct = 2.9,
+									usagePct = 2.4,
 								},
 							},
 							OFFHAND = {
 								{
 									itemID = 245769,
-									usagePct = 36.8,
+									usagePct = 37.5,
 								},
 								{
 									itemID = 273779,
-									usagePct = 11.5,
+									usagePct = 11.3,
 								},
 								{
 									itemID = 249276,
-									usagePct = 10.9,
+									usagePct = 10.7,
 								},
 								{
 									itemID = 249922,
-									usagePct = 6.9,
+									usagePct = 6.7,
 								},
 								{
 									itemID = 159667,
-									usagePct = 6.9,
+									usagePct = 6.7,
 								},
 								{
 									itemID = 193766,
-									usagePct = 5.9,
+									usagePct = 5.8,
 								},
 								{
 									itemID = 271681,
-									usagePct = 5.0,
+									usagePct = 5.5,
 								},
 								{
 									itemID = 251191,
-									usagePct = 4.7,
+									usagePct = 5.2,
 								},
 							},
 							SHOULDER = {
 								{
 									itemID = 249995,
-									usagePct = 71.6,
+									usagePct = 70.0,
 								},
 								{
 									itemID = 271499,
@@ -1327,15 +1327,15 @@ ns.RegisterClassData("EVOKER", {
 								},
 								{
 									itemID = 251184,
-									usagePct = 4.2,
+									usagePct = 4.1,
 								},
 								{
 									itemID = 239049,
-									usagePct = 2.9,
+									usagePct = 3.4,
 								},
 								{
 									itemID = 251131,
-									usagePct = 2.2,
+									usagePct = 2.6,
 								},
 								{
 									itemID = 272252,
@@ -1343,25 +1343,25 @@ ns.RegisterClassData("EVOKER", {
 								},
 								{
 									itemID = 277774,
-									usagePct = 1.3,
+									usagePct = 1.6,
 								},
 								{
 									itemID = 268231,
-									usagePct = 1.0,
+									usagePct = 1.3,
 								},
 							},
 							TRINKET1 = {
 								{
 									itemID = 249343,
-									usagePct = 40.3,
+									usagePct = 39.3,
 								},
 								{
 									itemID = 268292,
-									usagePct = 32.2,
+									usagePct = 32.0,
 								},
 								{
 									itemID = 264507,
-									usagePct = 19.8,
+									usagePct = 19.4,
 								},
 								{
 									itemID = 249809,
@@ -1369,79 +1369,79 @@ ns.RegisterClassData("EVOKER", {
 								},
 								{
 									itemID = 250256,
-									usagePct = 9.8,
+									usagePct = 9.7,
 								},
 								{
 									itemID = 249808,
-									usagePct = 7.5,
+									usagePct = 8.1,
 								},
 								{
 									itemID = 273796,
-									usagePct = 6.6,
+									usagePct = 7.4,
 								},
 								{
-									itemID = 250214,
-									usagePct = 6.2,
+									itemID = 270162,
+									usagePct = 6.4,
 								},
 							},
 							WAIST = {
 								{
 									itemID = 249994,
-									usagePct = 13.6,
+									usagePct = 13.9,
 								},
 								{
 									itemID = 244581,
-									usagePct = 12.4,
+									usagePct = 12.6,
 								},
 								{
 									itemID = 251228,
-									usagePct = 11.4,
+									usagePct = 12.1,
 								},
 								{
 									itemID = 251155,
-									usagePct = 9.7,
+									usagePct = 9.9,
 								},
 								{
 									itemID = 159369,
-									usagePct = 8.5,
+									usagePct = 9.0,
 								},
 								{
 									itemID = 244611,
-									usagePct = 7.9,
+									usagePct = 7.6,
 								},
 								{
 									itemID = 249371,
-									usagePct = 7.5,
+									usagePct = 7.1,
 								},
 								{
 									itemID = 49810,
-									usagePct = 6.2,
+									usagePct = 5.4,
 								},
 							},
 							WRIST = {
 								{
 									itemID = 244584,
-									usagePct = 36.1,
+									usagePct = 35.9,
 								},
 								{
 									itemID = 159380,
-									usagePct = 9.2,
+									usagePct = 10.0,
 								},
 								{
 									itemID = 273775,
-									usagePct = 8.7,
-								},
-								{
-									itemID = 249304,
-									usagePct = 7.9,
+									usagePct = 8.6,
 								},
 								{
 									itemID = 251200,
-									usagePct = 7.6,
+									usagePct = 8.0,
+								},
+								{
+									itemID = 249304,
+									usagePct = 7.4,
 								},
 								{
 									itemID = 251079,
-									usagePct = 6.8,
+									usagePct = 6.9,
 								},
 								{
 									itemID = 277772,
@@ -1449,14 +1449,14 @@ ns.RegisterClassData("EVOKER", {
 								},
 								{
 									itemID = 272254,
-									usagePct = 4.3,
+									usagePct = 4.1,
 								},
 							},
 						},
 						gems = {
 							{
 								itemID = 240898,
-								usagePct = 29.9,
+								usagePct = 29.0,
 							},
 							{
 								itemID = 240983,
@@ -1464,23 +1464,23 @@ ns.RegisterClassData("EVOKER", {
 							},
 							{
 								itemID = 240906,
-								usagePct = 14.9,
+								usagePct = 15.0,
 							},
 							{
 								itemID = 240900,
-								usagePct = 10.9,
+								usagePct = 11.2,
 							},
 							{
 								itemID = 240890,
-								usagePct = 7.9,
+								usagePct = 7.7,
 							},
 							{
 								itemID = 240908,
-								usagePct = 7.5,
+								usagePct = 7.3,
 							},
 							{
 								itemID = 240892,
-								usagePct = 3.1,
+								usagePct = 3.2,
 							},
 							{
 								itemID = 240894,
@@ -1488,7 +1488,7 @@ ns.RegisterClassData("EVOKER", {
 							},
 							{
 								itemID = 240969,
-								usagePct = 1.0,
+								usagePct = 0.9,
 							},
 						},
 						performance = {
@@ -1513,24 +1513,24 @@ ns.RegisterClassData("EVOKER", {
 						},
 						statPriority = {
 							{
-								share = 53.0,
+								share = 52.6,
 								stat = "MASTERY",
 								weight = 1.0,
 							},
 							{
-								share = 20.8,
+								share = 21.0,
 								stat = "CRIT",
-								weight = 0.783,
+								weight = 0.802,
 							},
 							{
-								share = 16.4,
+								share = 16.3,
 								stat = "HASTE",
-								weight = 0.778,
+								weight = 0.781,
 							},
 							{
-								share = 1.9,
+								share = 2.3,
 								stat = "VERSATILITY",
-								weight = 0.136,
+								weight = 0.158,
 							},
 						},
 						talentBuilds = {
@@ -1543,29 +1543,29 @@ ns.RegisterClassData("EVOKER", {
 								},
 								source = "mythicstats",
 								url = "https://mythicstats.com/spec/preservation-evoker",
-								usagePct = 21.8,
+								usagePct = 21.1,
 							},
 							{
 								importString = "CwbBAAAAAAAAAAAAAAAAAAAAAAAAAAAmZmZ2WGzYYmxsZGw2wAAAzYGzMjhZiZmBAAAMzMTGzMjxMzAAjZgFwCYGmAbM2MMAmZGD",
 								label = "Flameshaper #2",
 								metrics = {
-									["Avg key"] = "+11.5",
+									["Avg key"] = "+11.6",
 									["Max key"] = "+12",
 								},
 								source = "mythicstats",
 								url = "https://mythicstats.com/spec/preservation-evoker",
-								usagePct = 2.5,
+								usagePct = 2.6,
 							},
 							{
 								importString = "CwbBAAAAAAAAAAAAAAAAAAAAAAAAAAAmZmZ2WmZGDjxsZGw2wAAAzYGzMjhZixMAAAgZmZaGzMzMGzAAjZgFwGYGmAbM2MMDwMDD",
 								label = "Flameshaper #3",
 								metrics = {
-									["Avg key"] = "+11.2",
+									["Avg key"] = "+11.3",
 									["Max key"] = "+12",
 								},
 								source = "mythicstats",
 								url = "https://mythicstats.com/spec/preservation-evoker",
-								usagePct = 2.5,
+								usagePct = 2.1,
 							},
 							{
 								importString = "CwbBAAAAAAAAAAAAAAAAAAAAAAAAAAAmZmZ2WmZGDjxsZGw2wAAAzYGzMjhZixMAAAgZmZyYmZmZZMDAMmBWAbgZYCsxYzwMAzMMA",
@@ -1576,21 +1576,21 @@ ns.RegisterClassData("EVOKER", {
 								},
 								source = "mythicstats",
 								url = "https://mythicstats.com/spec/preservation-evoker",
-								usagePct = 2.5,
+								usagePct = 2.0,
 							},
 							{
-								importString = "CwbBAAAAAAAAAAAAAAAAAAAAAAAAAAAmZmZ2WmZGDjxsZGw2wAAAzYmZGjhZixMAAAgZmZyYmZmZZMDAMmBWAbgZYCsxYzwMAzMMA",
+								importString = "CwbBAAAAAAAAAAAAAAAAAAAAAAAAAAAmZmZ2WGYYmZmNzA2GAAAzYGzghZaMzMAAAgZmZaGmZmZbMDAMmBWAbgZYCsZGbGmBYmhB",
 								label = "Flameshaper #5",
 								metrics = {
-									["Avg key"] = "+11.1",
-									["Max key"] = "+11",
+									["Avg key"] = "+11.5",
+									["Max key"] = "+12",
 								},
 								source = "mythicstats",
 								url = "https://mythicstats.com/spec/preservation-evoker",
-								usagePct = 1.4,
+								usagePct = 1.6,
 							},
 							{
-								importString = "CwbBAAAAAAAAAAAAAAAAAAAAAAAAAAAmZmZ2WmZGDjxsZGw2wAAAzYGzMjhZiZmBAAAMzMTGzMjxMzAAjZgFwGYGmAbM2MMAmZGD",
+								importString = "CwbBAAAAAAAAAAAAAAAAAAAAAAAAAAAmZmZ2WmZGDjxsZGw2wAAAzYmZGjhZixMAAAgZmZyYmZmZZMDAMmBWAbgZYCsxYzwMAzMMA",
 								label = "Flameshaper #6",
 								metrics = {
 									["Avg key"] = "+11.1",
@@ -1598,18 +1598,29 @@ ns.RegisterClassData("EVOKER", {
 								},
 								source = "mythicstats",
 								url = "https://mythicstats.com/spec/preservation-evoker",
-								usagePct = 1.3,
+								usagePct = 1.6,
 							},
 							{
-								importString = "CwbBAAAAAAAAAAAAAAAAAAAAAAAAAAAmZmZ2WGYYmZmNzA2GAAAzYGzghZaMzMAAAgZmZaGmZmZbMDAMmBWAbgZYCsZGbGmBYmhB",
+								importString = "CwbBAAAAAAAAAAAAAAAAAAAAAAAAAAAmZmZ2WmZGDjxsZGw2wAAAzYGzMjhZiZmBAAAMzMTGzMjxMzAAjZgFwGYGmAbM2MMAmZGD",
 								label = "Flameshaper #7",
 								metrics = {
-									["Avg key"] = "+11.6",
+									["Avg key"] = "+11.1",
 									["Max key"] = "+12",
 								},
 								source = "mythicstats",
 								url = "https://mythicstats.com/spec/preservation-evoker",
-								usagePct = 1.3,
+								usagePct = 1.4,
+							},
+							{
+								importString = "CwbBAAAAAAAAAAAAAAAAAAAAAAAAAAAmZmZ2WmZGDjxsZGw2wAAAzYGzMjhZixMAAAgZmZaGzMzDMLjZAgxMwCYDMDTgNGbGmBYmhB",
+								label = "Flameshaper #8",
+								metrics = {
+									["Avg key"] = "+11.4",
+									["Max key"] = "+12",
+								},
+								source = "mythicstats",
+								url = "https://mythicstats.com/spec/preservation-evoker",
+								usagePct = 1.1,
 							},
 						},
 					},

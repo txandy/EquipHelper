@@ -1543,6 +1543,210 @@ ns.RegisterClassData("PALADIN", {
 						},
 					},
 					name = "Herald of the Sun",
+					raid = {
+						consumables = {
+							{
+								category = "FLASK",
+								itemID = 241322,
+								primary = true,
+							},
+							{
+								category = "POTION",
+								itemID = 241288,
+								primary = true,
+							},
+							{
+								category = "HEALTH_POTION",
+								itemID = 271884,
+								primary = true,
+							},
+							{
+								category = "WEAPON_OIL",
+								itemID = 243734,
+								primary = true,
+							},
+							{
+								category = "RUNE",
+								itemID = 259085,
+								primary = true,
+							},
+							{
+								category = "FOOD",
+								itemID = 275264,
+								primary = true,
+							},
+							{
+								category = "FOOD",
+								itemID = 275265,
+								primary = false,
+							},
+							{
+								category = "FOOD",
+								itemID = 242299,
+								primary = false,
+							},
+						},
+						enchants = {
+							{
+								itemID = 243971,
+								slot = "MAINHAND",
+								usagePct = 33.3,
+							},
+							{
+								itemID = 244029,
+								slot = "MAINHAND",
+								usagePct = 33.3,
+							},
+							{
+								itemID = 244031,
+								slot = "MAINHAND",
+								usagePct = 33.3,
+							},
+							{
+								itemID = 243951,
+								slot = "HEAD",
+								usagePct = 100.0,
+							},
+							{
+								itemID = 244021,
+								slot = "SHOULDER",
+								usagePct = 100.0,
+							},
+							{
+								itemID = 244003,
+								slot = "CHEST",
+								usagePct = 66.7,
+							},
+							{
+								itemID = 243977,
+								slot = "CHEST",
+								usagePct = 33.3,
+							},
+							{
+								itemID = 240155,
+								slot = "LEGS",
+								usagePct = 66.7,
+							},
+							{
+								itemID = 240133,
+								slot = "LEGS",
+								usagePct = 33.3,
+							},
+							{
+								itemID = 243983,
+								slot = "FEET",
+								usagePct = 100.0,
+							},
+							{
+								itemID = 243959,
+								slot = "FINGER1",
+								usagePct = 66.7,
+							},
+							{
+								itemID = 244015,
+								slot = "FINGER1",
+								usagePct = 16.7,
+							},
+							{
+								itemID = 243987,
+								slot = "FINGER1",
+								usagePct = 16.7,
+							},
+						},
+						gear = {
+							FINGER1 = {
+								{
+									itemID = 268290,
+									usagePct = 100.0,
+								},
+							},
+							HANDS = {
+								{
+									itemID = 249962,
+									usagePct = 66.7,
+								},
+							},
+							HEAD = {
+								{
+									itemID = 271465,
+									usagePct = 100.0,
+								},
+							},
+							LEGS = {
+								{
+									itemID = 271464,
+									usagePct = 66.7,
+								},
+							},
+							MAINHAND = {
+								{
+									itemID = 237843,
+									usagePct = 100.0,
+								},
+							},
+							NECK = {
+								{
+									itemID = 268291,
+									usagePct = 66.7,
+								},
+							},
+						},
+						gems = {
+							{
+								itemID = 240900,
+								usagePct = 33.3,
+							},
+							{
+								itemID = 240890,
+								usagePct = 25.0,
+							},
+							{
+								itemID = 240983,
+								usagePct = 16.7,
+							},
+							{
+								itemID = 240892,
+								usagePct = 8.3,
+							},
+							{
+								itemID = 240908,
+								usagePct = 8.3,
+							},
+							{
+								itemID = 240969,
+								usagePct = 8.3,
+							},
+						},
+						performance = {
+							difficulty = "Heroic",
+							median = 12517.5,
+							metric = "dps",
+							outOf = 40,
+							rank = 39,
+							sample = 300,
+							top = 46194.0,
+							zone = "The Venomous Abyss",
+						},
+						provenance = {
+							mythicstats = {
+								fetchedAt = "2026-08-21",
+								url = "https://mythicstats.com/raid/spec/holy-paladin",
+							},
+							wowhead = {
+								fetchedAt = "2026-08-21",
+								url = "https://www.wowhead.com/guide/classes/paladin/holy/enchants-gems-pve-healer",
+							},
+						},
+						talentBuilds = {
+							{
+								importString = "CEEAAAAAAAAAAAAAAAAAAAAAAAAAAYBAMDAAsNzMzYGzMWMmZGWGMziZaihxMzwwslBgBMsB2YZGzsMbzMzWDAAAwCAsZYMjZYGAAzMMjxwA",
+								label = "Herald of the Sun #1",
+								source = "mythicstats",
+								url = "https://mythicstats.com/raid/spec/holy-paladin",
+								usagePct = 66.7,
+							},
+						},
+					},
 				},
 			},
 			name = "Holy",

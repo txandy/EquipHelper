@@ -50,57 +50,57 @@
         {
           "item_id": 244029,
           "slot": "MAINHAND",
-          "usage_pct": 79.6
+          "usage_pct": 78.8
         },
         {
           "item_id": 244031,
           "slot": "MAINHAND",
-          "usage_pct": 16.8
+          "usage_pct": 17.3
         },
         {
           "item_id": 273072,
           "slot": "MAINHAND",
-          "usage_pct": 1.5
+          "usage_pct": 1.3
         },
         {
           "item_id": 243951,
           "slot": "HEAD",
-          "usage_pct": 64.4
+          "usage_pct": 63.6
         },
         {
           "item_id": 244007,
           "slot": "HEAD",
-          "usage_pct": 25.7
+          "usage_pct": 27.2
         },
         {
           "item_id": 243949,
           "slot": "HEAD",
-          "usage_pct": 5.4
+          "usage_pct": 5.3
         },
         {
           "item_id": 244021,
           "slot": "SHOULDER",
-          "usage_pct": 64.6
+          "usage_pct": 64.8
         },
         {
           "item_id": 243991,
           "slot": "SHOULDER",
-          "usage_pct": 31.3
+          "usage_pct": 31.0
         },
         {
           "item_id": 244019,
           "slot": "SHOULDER",
-          "usage_pct": 1.3
+          "usage_pct": 1.6
         },
         {
           "item_id": 243977,
           "slot": "CHEST",
-          "usage_pct": 75.4
+          "usage_pct": 75.2
         },
         {
           "item_id": 244003,
           "slot": "CHEST",
-          "usage_pct": 24.2
+          "usage_pct": 24.4
         },
         {
           "item_id": 244002,
@@ -110,12 +110,12 @@
         {
           "item_id": 240155,
           "slot": "LEGS",
-          "usage_pct": 55.3
+          "usage_pct": 56.2
         },
         {
           "item_id": 240133,
           "slot": "LEGS",
-          "usage_pct": 44.1
+          "usage_pct": 43.4
         },
         {
           "item_id": 240157,
@@ -125,32 +125,32 @@
         {
           "item_id": 243983,
           "slot": "FEET",
-          "usage_pct": 63.0
+          "usage_pct": 63.2
         },
         {
           "item_id": 243953,
           "slot": "FEET",
-          "usage_pct": 35.9
+          "usage_pct": 35.7
         },
         {
           "item_id": 244009,
           "slot": "FEET",
-          "usage_pct": 0.7
+          "usage_pct": 0.9
         },
         {
           "item_id": 243959,
           "slot": "FINGER1",
-          "usage_pct": 47.8
+          "usage_pct": 47.7
         },
         {
           "item_id": 243987,
           "slot": "FINGER1",
-          "usage_pct": 20.2
+          "usage_pct": 20.4
         },
         {
           "item_id": 244015,
           "slot": "FINGER1",
-          "usage_pct": 14.1
+          "usage_pct": 14.3
         }
       ],
       "gear": {
@@ -159,43 +159,43 @@
             "item_id": 239656,
             "note": null,
             "source_hint": null,
-            "usage_pct": 27.0
+            "usage_pct": 27.3
           },
           {
             "item_id": 251132,
             "note": null,
             "source_hint": null,
-            "usage_pct": 13.0
+            "usage_pct": 13.7
           },
           {
             "item_id": 249992,
             "note": null,
             "source_hint": null,
-            "usage_pct": 11.4
+            "usage_pct": 10.7
           },
           {
             "item_id": 251190,
             "note": null,
             "source_hint": null,
-            "usage_pct": 10.2
+            "usage_pct": 9.6
           },
           {
             "item_id": 193763,
             "note": null,
             "source_hint": null,
-            "usage_pct": 6.3
+            "usage_pct": 7.0
           },
           {
             "item_id": 159288,
             "note": null,
             "source_hint": null,
-            "usage_pct": 5.3
+            "usage_pct": 5.7
           },
           {
             "item_id": 239674,
             "note": null,
             "source_hint": null,
-            "usage_pct": 2.5
+            "usage_pct": 2.7
           },
           {
             "item_id": 260312,
@@ -209,34 +209,34 @@
             "item_id": 250000,
             "note": null,
             "source_hint": null,
-            "usage_pct": 64.1
+            "usage_pct": 62.9
           },
           {
             "item_id": 271504,
             "note": null,
             "source_hint": null,
-            "usage_pct": 13.3
+            "usage_pct": 14.0
           },
           {
             "item_id": 273789,
             "note": null,
             "source_hint": null,
-            "usage_pct": 6.2
+            "usage_pct": 6.4
           },
           {
             "item_id": 251233,
             "note": null,
             "source_hint": null,
-            "usage_pct": 3.5
-          },
-          {
-            "item_id": 239046,
-            "note": null,
-            "source_hint": null,
-            "usage_pct": 3.5
+            "usage_pct": 4.0
           },
           {
             "item_id": 272247,
+            "note": null,
+            "source_hint": null,
+            "usage_pct": 3.6
+          },
+          {
+            "item_id": 239046,
             "note": null,
             "source_hint": null,
             "usage_pct": 3.3
@@ -245,13 +245,13 @@
             "item_id": 239034,
             "note": null,
             "source_hint": null,
-            "usage_pct": 2.5
+            "usage_pct": 2.3
           },
           {
             "item_id": 277779,
             "note": null,
             "source_hint": null,
-            "usage_pct": 1.4
+            "usage_pct": 1.3
           }
         ],
         "FEET": [
@@ -265,43 +265,43 @@
             "item_id": 249999,
             "note": null,
             "source_hint": null,
-            "usage_pct": 23.4
+            "usage_pct": 22.4
           },
           {
             "item_id": 159388,
             "note": null,
             "source_hint": null,
-            "usage_pct": 8.7
+            "usage_pct": 9.0
           },
           {
             "item_id": 251145,
             "note": null,
             "source_hint": null,
-            "usage_pct": 7.5
+            "usage_pct": 7.7
           },
           {
             "item_id": 159371,
             "note": null,
             "source_hint": null,
-            "usage_pct": 6.8
+            "usage_pct": 6.9
           },
           {
             "item_id": 244610,
             "note": null,
             "source_hint": null,
-            "usage_pct": 4.9
-          },
-          {
-            "item_id": 272248,
-            "note": null,
-            "source_hint": null,
-            "usage_pct": 3.9
+            "usage_pct": 4.6
           },
           {
             "item_id": 251125,
             "note": null,
             "source_hint": null,
-            "usage_pct": 3.6
+            "usage_pct": 4.0
+          },
+          {
+            "item_id": 272248,
+            "note": null,
+            "source_hint": null,
+            "usage_pct": 3.7
           }
         ],
         "FINGER1": [
@@ -309,13 +309,13 @@
             "item_id": 268290,
             "note": null,
             "source_hint": null,
-            "usage_pct": 50.5
+            "usage_pct": 50.4
           },
           {
             "item_id": 251136,
             "note": null,
             "source_hint": null,
-            "usage_pct": 18.0
+            "usage_pct": 17.7
           },
           {
             "item_id": 273792,
@@ -327,28 +327,28 @@
             "item_id": 251217,
             "note": null,
             "source_hint": null,
-            "usage_pct": 12.4
+            "usage_pct": 12.1
           },
           {
             "item_id": 251093,
             "note": null,
             "source_hint": null,
-            "usage_pct": 9.2
+            "usage_pct": 9.0
           },
           {
             "item_id": 158366,
             "note": null,
             "source_hint": null,
-            "usage_pct": 8.5
-          },
-          {
-            "item_id": 252258,
-            "note": null,
-            "source_hint": null,
-            "usage_pct": 8.1
+            "usage_pct": 8.7
           },
           {
             "item_id": 49812,
+            "note": null,
+            "source_hint": null,
+            "usage_pct": 7.9
+          },
+          {
+            "item_id": 252258,
             "note": null,
             "source_hint": null,
             "usage_pct": 7.9
@@ -359,7 +359,7 @@
             "item_id": 249998,
             "note": null,
             "source_hint": null,
-            "usage_pct": 49.5
+            "usage_pct": 49.7
           },
           {
             "item_id": 271502,
@@ -371,37 +371,37 @@
             "item_id": 193752,
             "note": null,
             "source_hint": null,
-            "usage_pct": 10.8
-          },
-          {
-            "item_id": 251165,
-            "note": null,
-            "source_hint": null,
-            "usage_pct": 3.8
-          },
-          {
-            "item_id": 244583,
-            "note": null,
-            "source_hint": null,
-            "usage_pct": 3.8
+            "usage_pct": 10.9
           },
           {
             "item_id": 160213,
             "note": null,
             "source_hint": null,
-            "usage_pct": 3.6
+            "usage_pct": 4.0
+          },
+          {
+            "item_id": 251165,
+            "note": null,
+            "source_hint": null,
+            "usage_pct": 3.9
+          },
+          {
+            "item_id": 244583,
+            "note": null,
+            "source_hint": null,
+            "usage_pct": 3.7
           },
           {
             "item_id": 249325,
             "note": null,
             "source_hint": null,
-            "usage_pct": 3.2
+            "usage_pct": 2.9
           },
           {
             "item_id": 272249,
             "note": null,
             "source_hint": null,
-            "usage_pct": 2.2
+            "usage_pct": 2.1
           }
         ],
         "HEAD": [
@@ -409,49 +409,49 @@
             "item_id": 249997,
             "note": null,
             "source_hint": null,
-            "usage_pct": 50.6
+            "usage_pct": 50.1
           },
           {
             "item_id": 271501,
             "note": null,
             "source_hint": null,
-            "usage_pct": 16.2
+            "usage_pct": 16.3
           },
           {
             "item_id": 251220,
             "note": null,
             "source_hint": null,
-            "usage_pct": 7.6
+            "usage_pct": 7.4
           },
           {
             "item_id": 239035,
             "note": null,
             "source_hint": null,
-            "usage_pct": 6.5
-          },
-          {
-            "item_id": 277776,
-            "note": null,
-            "source_hint": null,
-            "usage_pct": 3.3
+            "usage_pct": 6.9
           },
           {
             "item_id": 49824,
             "note": null,
             "source_hint": null,
-            "usage_pct": 3.3
+            "usage_pct": 3.6
           },
           {
             "item_id": 193765,
             "note": null,
             "source_hint": null,
-            "usage_pct": 3.2
+            "usage_pct": 3.4
+          },
+          {
+            "item_id": 277776,
+            "note": null,
+            "source_hint": null,
+            "usage_pct": 3.4
           },
           {
             "item_id": 249914,
             "note": null,
             "source_hint": null,
-            "usage_pct": 2.6
+            "usage_pct": 2.9
           }
         ],
         "LEGS": [
@@ -459,49 +459,49 @@
             "item_id": 249996,
             "note": null,
             "source_hint": null,
-            "usage_pct": 70.3
+            "usage_pct": 70.6
           },
           {
             "item_id": 271500,
             "note": null,
             "source_hint": null,
-            "usage_pct": 11.4
+            "usage_pct": 11.1
           },
           {
             "item_id": 268288,
             "note": null,
             "source_hint": null,
-            "usage_pct": 6.3
+            "usage_pct": 6.0
           },
           {
             "item_id": 159375,
             "note": null,
             "source_hint": null,
-            "usage_pct": 3.2
+            "usage_pct": 3.4
           },
           {
             "item_id": 251141,
             "note": null,
             "source_hint": null,
-            "usage_pct": 2.7
-          },
-          {
-            "item_id": 272251,
-            "note": null,
-            "source_hint": null,
-            "usage_pct": 1.4
-          },
-          {
-            "item_id": 193759,
-            "note": null,
-            "source_hint": null,
-            "usage_pct": 1.4
+            "usage_pct": 3.1
           },
           {
             "item_id": 277775,
             "note": null,
             "source_hint": null,
-            "usage_pct": 1.2
+            "usage_pct": 1.3
+          },
+          {
+            "item_id": 272251,
+            "note": null,
+            "source_hint": null,
+            "usage_pct": 1.1
+          },
+          {
+            "item_id": 193759,
+            "note": null,
+            "source_hint": null,
+            "usage_pct": 1.1
           }
         ],
         "MAINHAND": [
@@ -509,31 +509,25 @@
             "item_id": 245770,
             "note": null,
             "source_hint": null,
-            "usage_pct": 11.4
+            "usage_pct": 11.0
           },
           {
             "item_id": 273778,
             "note": null,
             "source_hint": null,
-            "usage_pct": 7.4
+            "usage_pct": 7.6
           },
           {
             "item_id": 193761,
             "note": null,
             "source_hint": null,
-            "usage_pct": 6.6
+            "usage_pct": 6.0
           },
           {
             "item_id": 251123,
             "note": null,
             "source_hint": null,
-            "usage_pct": 5.9
-          },
-          {
-            "item_id": 251201,
-            "note": null,
-            "source_hint": null,
-            "usage_pct": 5.1
+            "usage_pct": 5.7
           },
           {
             "item_id": 251225,
@@ -542,16 +536,22 @@
             "usage_pct": 5.1
           },
           {
+            "item_id": 251201,
+            "note": null,
+            "source_hint": null,
+            "usage_pct": 4.9
+          },
+          {
             "item_id": 273780,
             "note": null,
             "source_hint": null,
-            "usage_pct": 4.6
+            "usage_pct": 4.9
           },
           {
-            "item_id": 159636,
+            "item_id": 193707,
             "note": null,
             "source_hint": null,
-            "usage_pct": 4.2
+            "usage_pct": 4.4
           }
         ],
         "NECK": [
@@ -559,49 +559,49 @@
             "item_id": 268291,
             "note": null,
             "source_hint": null,
-            "usage_pct": 43.4
+            "usage_pct": 42.3
           },
           {
             "item_id": 273781,
             "note": null,
             "source_hint": null,
-            "usage_pct": 11.0
-          },
-          {
-            "item_id": 251173,
-            "note": null,
-            "source_hint": null,
-            "usage_pct": 8.1
+            "usage_pct": 11.4
           },
           {
             "item_id": 251234,
             "note": null,
             "source_hint": null,
-            "usage_pct": 7.5
+            "usage_pct": 7.9
+          },
+          {
+            "item_id": 251173,
+            "note": null,
+            "source_hint": null,
+            "usage_pct": 7.6
           },
           {
             "item_id": 251142,
             "note": null,
             "source_hint": null,
-            "usage_pct": 6.9
+            "usage_pct": 7.4
           },
           {
             "item_id": 50228,
             "note": null,
             "source_hint": null,
-            "usage_pct": 5.6
+            "usage_pct": 6.1
           },
           {
             "item_id": 249337,
             "note": null,
             "source_hint": null,
-            "usage_pct": 3.5
+            "usage_pct": 3.6
           },
           {
             "item_id": 240950,
             "note": null,
             "source_hint": null,
-            "usage_pct": 2.9
+            "usage_pct": 2.4
           }
         ],
         "OFFHAND": [
@@ -609,49 +609,49 @@
             "item_id": 245769,
             "note": null,
             "source_hint": null,
-            "usage_pct": 36.8
+            "usage_pct": 37.5
           },
           {
             "item_id": 273779,
             "note": null,
             "source_hint": null,
-            "usage_pct": 11.5
+            "usage_pct": 11.3
           },
           {
             "item_id": 249276,
             "note": null,
             "source_hint": null,
-            "usage_pct": 10.9
+            "usage_pct": 10.7
           },
           {
             "item_id": 249922,
             "note": null,
             "source_hint": null,
-            "usage_pct": 6.9
+            "usage_pct": 6.7
           },
           {
             "item_id": 159667,
             "note": null,
             "source_hint": null,
-            "usage_pct": 6.9
+            "usage_pct": 6.7
           },
           {
             "item_id": 193766,
             "note": null,
             "source_hint": null,
-            "usage_pct": 5.9
+            "usage_pct": 5.8
           },
           {
             "item_id": 271681,
             "note": null,
             "source_hint": null,
-            "usage_pct": 5.0
+            "usage_pct": 5.5
           },
           {
             "item_id": 251191,
             "note": null,
             "source_hint": null,
-            "usage_pct": 4.7
+            "usage_pct": 5.2
           }
         ],
         "SHOULDER": [
@@ -659,7 +659,7 @@
             "item_id": 249995,
             "note": null,
             "source_hint": null,
-            "usage_pct": 71.6
+            "usage_pct": 70.0
           },
           {
             "item_id": 271499,
@@ -671,19 +671,19 @@
             "item_id": 251184,
             "note": null,
             "source_hint": null,
-            "usage_pct": 4.2
+            "usage_pct": 4.1
           },
           {
             "item_id": 239049,
             "note": null,
             "source_hint": null,
-            "usage_pct": 2.9
+            "usage_pct": 3.4
           },
           {
             "item_id": 251131,
             "note": null,
             "source_hint": null,
-            "usage_pct": 2.2
+            "usage_pct": 2.6
           },
           {
             "item_id": 272252,
@@ -695,13 +695,13 @@
             "item_id": 277774,
             "note": null,
             "source_hint": null,
-            "usage_pct": 1.3
+            "usage_pct": 1.6
           },
           {
             "item_id": 268231,
             "note": null,
             "source_hint": null,
-            "usage_pct": 1.0
+            "usage_pct": 1.3
           }
         ],
         "TRINKET1": [
@@ -709,19 +709,19 @@
             "item_id": 249343,
             "note": null,
             "source_hint": null,
-            "usage_pct": 40.3
+            "usage_pct": 39.3
           },
           {
             "item_id": 268292,
             "note": null,
             "source_hint": null,
-            "usage_pct": 32.2
+            "usage_pct": 32.0
           },
           {
             "item_id": 264507,
             "note": null,
             "source_hint": null,
-            "usage_pct": 19.8
+            "usage_pct": 19.4
           },
           {
             "item_id": 249809,
@@ -733,25 +733,25 @@
             "item_id": 250256,
             "note": null,
             "source_hint": null,
-            "usage_pct": 9.8
+            "usage_pct": 9.7
           },
           {
             "item_id": 249808,
             "note": null,
             "source_hint": null,
-            "usage_pct": 7.5
+            "usage_pct": 8.1
           },
           {
             "item_id": 273796,
             "note": null,
             "source_hint": null,
-            "usage_pct": 6.6
+            "usage_pct": 7.4
           },
           {
-            "item_id": 250214,
+            "item_id": 270162,
             "note": null,
             "source_hint": null,
-            "usage_pct": 6.2
+            "usage_pct": 6.4
           }
         ],
         "WAIST": [
@@ -759,49 +759,49 @@
             "item_id": 249994,
             "note": null,
             "source_hint": null,
-            "usage_pct": 13.6
+            "usage_pct": 13.9
           },
           {
             "item_id": 244581,
             "note": null,
             "source_hint": null,
-            "usage_pct": 12.4
+            "usage_pct": 12.6
           },
           {
             "item_id": 251228,
             "note": null,
             "source_hint": null,
-            "usage_pct": 11.4
+            "usage_pct": 12.1
           },
           {
             "item_id": 251155,
             "note": null,
             "source_hint": null,
-            "usage_pct": 9.7
+            "usage_pct": 9.9
           },
           {
             "item_id": 159369,
             "note": null,
             "source_hint": null,
-            "usage_pct": 8.5
+            "usage_pct": 9.0
           },
           {
             "item_id": 244611,
             "note": null,
             "source_hint": null,
-            "usage_pct": 7.9
+            "usage_pct": 7.6
           },
           {
             "item_id": 249371,
             "note": null,
             "source_hint": null,
-            "usage_pct": 7.5
+            "usage_pct": 7.1
           },
           {
             "item_id": 49810,
             "note": null,
             "source_hint": null,
-            "usage_pct": 6.2
+            "usage_pct": 5.4
           }
         ],
         "WRIST": [
@@ -809,37 +809,37 @@
             "item_id": 244584,
             "note": null,
             "source_hint": null,
-            "usage_pct": 36.1
+            "usage_pct": 35.9
           },
           {
             "item_id": 159380,
             "note": null,
             "source_hint": null,
-            "usage_pct": 9.2
+            "usage_pct": 10.0
           },
           {
             "item_id": 273775,
             "note": null,
             "source_hint": null,
-            "usage_pct": 8.7
-          },
-          {
-            "item_id": 249304,
-            "note": null,
-            "source_hint": null,
-            "usage_pct": 7.9
+            "usage_pct": 8.6
           },
           {
             "item_id": 251200,
             "note": null,
             "source_hint": null,
-            "usage_pct": 7.6
+            "usage_pct": 8.0
+          },
+          {
+            "item_id": 249304,
+            "note": null,
+            "source_hint": null,
+            "usage_pct": 7.4
           },
           {
             "item_id": 251079,
             "note": null,
             "source_hint": null,
-            "usage_pct": 6.8
+            "usage_pct": 6.9
           },
           {
             "item_id": 277772,
@@ -851,7 +851,7 @@
             "item_id": 272254,
             "note": null,
             "source_hint": null,
-            "usage_pct": 4.3
+            "usage_pct": 4.1
           }
         ]
       },
@@ -860,7 +860,7 @@
           "item_id": 240898,
           "note": null,
           "source_hint": null,
-          "usage_pct": 29.9
+          "usage_pct": 29.0
         },
         {
           "item_id": 240983,
@@ -872,31 +872,31 @@
           "item_id": 240906,
           "note": null,
           "source_hint": null,
-          "usage_pct": 14.9
+          "usage_pct": 15.0
         },
         {
           "item_id": 240900,
           "note": null,
           "source_hint": null,
-          "usage_pct": 10.9
+          "usage_pct": 11.2
         },
         {
           "item_id": 240890,
           "note": null,
           "source_hint": null,
-          "usage_pct": 7.9
+          "usage_pct": 7.7
         },
         {
           "item_id": 240908,
           "note": null,
           "source_hint": null,
-          "usage_pct": 7.5
+          "usage_pct": 7.3
         },
         {
           "item_id": 240892,
           "note": null,
           "source_hint": null,
-          "usage_pct": 3.1
+          "usage_pct": 3.2
         },
         {
           "item_id": 240894,
@@ -908,7 +908,7 @@
           "item_id": 240969,
           "note": null,
           "source_hint": null,
-          "usage_pct": 1.0
+          "usage_pct": 0.9
         }
       ],
       "hero_id": 37,
@@ -935,28 +935,28 @@
       },
       "stat_priority": [
         {
-          "rating": 956,
-          "share": 53.0,
+          "rating": 945,
+          "share": 52.6,
           "stat": "MASTERY",
           "weight": 1.0
         },
         {
-          "rating": 749,
-          "share": 20.8,
+          "rating": 758,
+          "share": 21.0,
           "stat": "CRIT",
-          "weight": 0.783
+          "weight": 0.802
         },
         {
-          "rating": 744,
-          "share": 16.4,
+          "rating": 738,
+          "share": 16.3,
           "stat": "HASTE",
-          "weight": 0.778
+          "weight": 0.781
         },
         {
-          "rating": 130,
-          "share": 1.9,
+          "rating": 149,
+          "share": 2.3,
           "stat": "VERSATILITY",
-          "weight": 0.136
+          "weight": 0.158
         }
       ],
       "talent_builds": [
@@ -970,31 +970,31 @@
           },
           "source": "mythicstats",
           "url": "https://mythicstats.com/spec/preservation-evoker",
-          "usage_pct": 21.8
+          "usage_pct": 21.1
         },
         {
           "hero_id": 37,
           "import_string": "CwbBAAAAAAAAAAAAAAAAAAAAAAAAAAAmZmZ2WGzYYmxsZGw2wAAAzYGzMjhZiZmBAAAMzMTGzMjxMzAAjZgFwCYGmAbM2MMAmZGD",
           "label": "Flameshaper #2",
           "metrics": {
-            "Avg key": "+11.5",
+            "Avg key": "+11.6",
             "Max key": "+12"
           },
           "source": "mythicstats",
           "url": "https://mythicstats.com/spec/preservation-evoker",
-          "usage_pct": 2.5
+          "usage_pct": 2.6
         },
         {
           "hero_id": 37,
           "import_string": "CwbBAAAAAAAAAAAAAAAAAAAAAAAAAAAmZmZ2WmZGDjxsZGw2wAAAzYGzMjhZixMAAAgZmZaGzMzMGzAAjZgFwGYGmAbM2MMDwMDD",
           "label": "Flameshaper #3",
           "metrics": {
-            "Avg key": "+11.2",
+            "Avg key": "+11.3",
             "Max key": "+12"
           },
           "source": "mythicstats",
           "url": "https://mythicstats.com/spec/preservation-evoker",
-          "usage_pct": 2.5
+          "usage_pct": 2.1
         },
         {
           "hero_id": 37,
@@ -1006,23 +1006,23 @@
           },
           "source": "mythicstats",
           "url": "https://mythicstats.com/spec/preservation-evoker",
-          "usage_pct": 2.5
+          "usage_pct": 2.0
+        },
+        {
+          "hero_id": 37,
+          "import_string": "CwbBAAAAAAAAAAAAAAAAAAAAAAAAAAAmZmZ2WGYYmZmNzA2GAAAzYGzghZaMzMAAAgZmZaGmZmZbMDAMmBWAbgZYCsZGbGmBYmhB",
+          "label": "Flameshaper #5",
+          "metrics": {
+            "Avg key": "+11.5",
+            "Max key": "+12"
+          },
+          "source": "mythicstats",
+          "url": "https://mythicstats.com/spec/preservation-evoker",
+          "usage_pct": 1.6
         },
         {
           "hero_id": 37,
           "import_string": "CwbBAAAAAAAAAAAAAAAAAAAAAAAAAAAmZmZ2WmZGDjxsZGw2wAAAzYmZGjhZixMAAAgZmZyYmZmZZMDAMmBWAbgZYCsxYzwMAzMMA",
-          "label": "Flameshaper #5",
-          "metrics": {
-            "Avg key": "+11.1",
-            "Max key": "+11"
-          },
-          "source": "mythicstats",
-          "url": "https://mythicstats.com/spec/preservation-evoker",
-          "usage_pct": 1.4
-        },
-        {
-          "hero_id": 37,
-          "import_string": "CwbBAAAAAAAAAAAAAAAAAAAAAAAAAAAmZmZ2WmZGDjxsZGw2wAAAzYGzMjhZiZmBAAAMzMTGzMjxMzAAjZgFwGYGmAbM2MMAmZGD",
           "label": "Flameshaper #6",
           "metrics": {
             "Avg key": "+11.1",
@@ -1030,19 +1030,31 @@
           },
           "source": "mythicstats",
           "url": "https://mythicstats.com/spec/preservation-evoker",
-          "usage_pct": 1.3
+          "usage_pct": 1.6
         },
         {
           "hero_id": 37,
-          "import_string": "CwbBAAAAAAAAAAAAAAAAAAAAAAAAAAAmZmZ2WGYYmZmNzA2GAAAzYGzghZaMzMAAAgZmZaGmZmZbMDAMmBWAbgZYCsZGbGmBYmhB",
+          "import_string": "CwbBAAAAAAAAAAAAAAAAAAAAAAAAAAAmZmZ2WmZGDjxsZGw2wAAAzYGzMjhZiZmBAAAMzMTGzMjxMzAAjZgFwGYGmAbM2MMAmZGD",
           "label": "Flameshaper #7",
           "metrics": {
-            "Avg key": "+11.6",
+            "Avg key": "+11.1",
             "Max key": "+12"
           },
           "source": "mythicstats",
           "url": "https://mythicstats.com/spec/preservation-evoker",
-          "usage_pct": 1.3
+          "usage_pct": 1.4
+        },
+        {
+          "hero_id": 37,
+          "import_string": "CwbBAAAAAAAAAAAAAAAAAAAAAAAAAAAmZmZ2WmZGDjxsZGw2wAAAzYGzMjhZixMAAAgZmZaGzMzDMLjZAgxMwCYDMDTgNGbGmBYmhB",
+          "label": "Flameshaper #8",
+          "metrics": {
+            "Avg key": "+11.4",
+            "Max key": "+12"
+          },
+          "source": "mythicstats",
+          "url": "https://mythicstats.com/spec/preservation-evoker",
+          "usage_pct": 1.1
         }
       ]
     }
