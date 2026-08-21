@@ -24,6 +24,26 @@ jobs:
 
       # El build falla solo si los datos no pasan la puerta de calidad, y
       # entonces no emite Lua: preferimos un job en rojo a publicar basura.
+      # Un secret que no llega se manifiesta como un aviso enterrado en cientos
+      # de lineas de log. Aqui se dice en el resumen del job, con su longitud:
+      # el Client ID son 36 caracteres y el Secret 40, asi que un valor pegado
+      # con un espacio o un salto de linea de mas se ve al instante.
+      - name: Comprobar credenciales
+        env:
+          WCL_CLIENT_ID: ${{ secrets.WCL_CLIENT_ID }}
+          WCL_CLIENT_SECRET: ${{ secrets.WCL_CLIENT_SECRET }}
+        run: |
+          echo "### Credenciales de Warcraft Logs" >> "$GITHUB_STEP_SUMMARY"
+          for name in WCL_CLIENT_ID WCL_CLIENT_SECRET; do
+            value="${!name}"
+            if [ -z "$value" ]; then
+              echo "::warning::$name no llega al workflow"
+              echo "- \`$name\`: **ausente**" >> "$GITHUB_STEP_SUMMARY"
+            else
+              echo "- \`$name\`: presente, ${#value} caracteres" >> "$GITHUB_STEP_SUMMARY"
+            fi
+          done
+
       # Sin los secrets de Warcraft Logs el build sigue: esa fuente se salta con
       # un aviso en vez de tumbar la publicacion.
       - name: Descargar y regenerar
