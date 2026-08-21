@@ -3,6 +3,48 @@
   "class_name": "Druid",
   "guides": [
     {
+      "consumables": [
+        {
+          "category": "FLASK",
+          "is_primary": true,
+          "item_id": 241324
+        },
+        {
+          "category": "POTION",
+          "is_primary": true,
+          "item_id": 241300
+        },
+        {
+          "category": "POTION",
+          "is_primary": false,
+          "item_id": 241288
+        },
+        {
+          "category": "HEALTH_POTION",
+          "is_primary": true,
+          "item_id": 271884
+        },
+        {
+          "category": "WEAPON_OIL",
+          "is_primary": true,
+          "item_id": 243734
+        },
+        {
+          "category": "RUNE",
+          "is_primary": true,
+          "item_id": 259085
+        },
+        {
+          "category": "FOOD",
+          "is_primary": true,
+          "item_id": 255846
+        },
+        {
+          "category": "FOOD",
+          "is_primary": false,
+          "item_id": 242275
+        }
+      ],
       "content": "mplus",
       "enchants": [
         {
@@ -885,9 +927,12 @@
         "mythicstats": {
           "fetched_at": "2026-08-21",
           "url": "https://mythicstats.com/spec/restoration-druid"
+        },
+        "wowhead": {
+          "fetched_at": "2026-08-21",
+          "url": "https://www.wowhead.com/guide/classes/druid/restoration/enchants-gems-pve-healer"
         }
       },
-      "rotation": [],
       "stat_priority": [
         {
           "rating": 1136,

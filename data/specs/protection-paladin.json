@@ -3,6 +3,43 @@
   "class_name": "Paladin",
   "guides": [
     {
+      "consumables": [
+        {
+          "category": "FLASK",
+          "is_primary": true,
+          "item_id": 241324
+        },
+        {
+          "category": "POTION",
+          "is_primary": true,
+          "item_id": 241292
+        },
+        {
+          "category": "POTION",
+          "is_primary": false,
+          "item_id": 241308
+        },
+        {
+          "category": "HEALTH_POTION",
+          "is_primary": true,
+          "item_id": 271884
+        },
+        {
+          "category": "WEAPON_OIL",
+          "is_primary": true,
+          "item_id": 243734
+        },
+        {
+          "category": "RUNE",
+          "is_primary": true,
+          "item_id": 259085
+        },
+        {
+          "category": "FOOD",
+          "is_primary": true,
+          "item_id": 255845
+        }
+      ],
       "content": "mplus",
       "enchants": [
         {
@@ -888,111 +925,9 @@
         },
         "wowhead": {
           "fetched_at": "2026-08-21",
-          "url": "https://www.wowhead.com/guide/classes/paladin/protection/rotation-cooldowns-pve-tank"
+          "url": "https://www.wowhead.com/guide/classes/paladin/protection/enchants-gems-pve-tank"
         }
       },
-      "rotation": [
-        {
-          "mode": "st",
-          "note": "Cast on cooldown.",
-          "spell_id": 31884
-        },
-        {
-          "mode": "st",
-          "note": "if you aren't inside {31884}.",
-          "spell_id": 432472
-        },
-        {
-          "mode": "st",
-          "note": "Cast when you have 3-5 Holy Power or if it's free. Try not to cap Holy Power.",
-          "spell_id": 53600
-        },
-        {
-          "mode": "st",
-          "note": "Cast on cooldown.",
-          "spell_id": 31935
-        },
-        {
-          "mode": "st",
-          "note": "Cast on cooldown.",
-          "spell_id": 275779
-        },
-        {
-          "mode": "st",
-          "note": "if you have 0 Holy Power. Try to use this on cooldown as much as possible.",
-          "spell_id": 375576
-        },
-        {
-          "mode": "st",
-          "note": "if you have any charges.",
-          "spell_id": 432459
-        },
-        {
-          "mode": "st",
-          "note": "/{53595} on cooldown.",
-          "spell_id": 204019
-        },
-        {
-          "mode": "st",
-          "note": "if your health drops below 50% or to top yourself off if you are in danger of a big hit.",
-          "spell_id": 85673
-        },
-        {
-          "mode": "st",
-          "note": "as a filler.",
-          "spell_id": 26573
-        },
-        {
-          "mode": "aoe",
-          "note": "Cast on cooldown.",
-          "spell_id": 31884
-        },
-        {
-          "mode": "aoe",
-          "note": "if you aren't inside {31884}.",
-          "spell_id": 432472
-        },
-        {
-          "mode": "aoe",
-          "note": "Cast when you have 3-5 Holy Power or if it's free. Try not to cap Holy Power.",
-          "spell_id": 53600
-        },
-        {
-          "mode": "aoe",
-          "note": "Cast on cooldown.",
-          "spell_id": 31935
-        },
-        {
-          "mode": "aoe",
-          "note": "Cast on cooldown.",
-          "spell_id": 275779
-        },
-        {
-          "mode": "aoe",
-          "note": "if you have 0 Holy Power. Try to use this on cooldown as much as possible.",
-          "spell_id": 375576
-        },
-        {
-          "mode": "aoe",
-          "note": "if you have any charges.",
-          "spell_id": 432459
-        },
-        {
-          "mode": "aoe",
-          "note": "/{53595} on cooldown.",
-          "spell_id": 204019
-        },
-        {
-          "mode": "aoe",
-          "note": "if your health drops below 50% or to top yourself off if you are in danger of a big hit.",
-          "spell_id": 85673
-        },
-        {
-          "mode": "aoe",
-          "note": "as a filler.",
-          "spell_id": 26573
-        }
-      ],
       "stat_priority": [
         {
           "rating": 969,
@@ -1121,6 +1056,43 @@
       ]
     },
     {
+      "consumables": [
+        {
+          "category": "FLASK",
+          "is_primary": true,
+          "item_id": 241324
+        },
+        {
+          "category": "POTION",
+          "is_primary": true,
+          "item_id": 241292
+        },
+        {
+          "category": "POTION",
+          "is_primary": false,
+          "item_id": 241308
+        },
+        {
+          "category": "HEALTH_POTION",
+          "is_primary": true,
+          "item_id": 271884
+        },
+        {
+          "category": "WEAPON_OIL",
+          "is_primary": true,
+          "item_id": 243734
+        },
+        {
+          "category": "RUNE",
+          "is_primary": true,
+          "item_id": 259085
+        },
+        {
+          "category": "FOOD",
+          "is_primary": true,
+          "item_id": 255845
+        }
+      ],
       "content": "mplus",
       "enchants": [
         {
@@ -2006,91 +1978,9 @@
         },
         "wowhead": {
           "fetched_at": "2026-08-21",
-          "url": "https://www.wowhead.com/guide/classes/paladin/protection/rotation-cooldowns-pve-tank"
+          "url": "https://www.wowhead.com/guide/classes/paladin/protection/enchants-gems-pve-tank"
         }
       },
-      "rotation": [
-        {
-          "mode": "st",
-          "note": "Cast on cooldown.",
-          "spell_id": 31884
-        },
-        {
-          "mode": "st",
-          "note": "Cast on cooldown.",
-          "spell_id": 275779
-        },
-        {
-          "mode": "st",
-          "note": "Cast when you have 3-5 Holy Power or if it's free. Try not to cap Holy Power.",
-          "spell_id": 53600
-        },
-        {
-          "mode": "st",
-          "note": "Cast on cooldown.",
-          "spell_id": 31935
-        },
-        {
-          "mode": "st",
-          "note": "if you have 0 Holy Power. Try to use this on cooldown as much as possible.",
-          "spell_id": 375576
-        },
-        {
-          "mode": "st",
-          "note": "/{53595} on cooldown.",
-          "spell_id": 204019
-        },
-        {
-          "mode": "st",
-          "note": "if your health drops below 50% or to top yourself off if you are in danger of a big hit.",
-          "spell_id": 85673
-        },
-        {
-          "mode": "st",
-          "note": "as a filler.",
-          "spell_id": 26573
-        },
-        {
-          "mode": "aoe",
-          "note": "Cast on cooldown.",
-          "spell_id": 31884
-        },
-        {
-          "mode": "aoe",
-          "note": "Cast on cooldown.",
-          "spell_id": 275779
-        },
-        {
-          "mode": "aoe",
-          "note": "Cast when you have 3-5 Holy Power or if it's free. Try not to cap Holy Power.",
-          "spell_id": 53600
-        },
-        {
-          "mode": "aoe",
-          "note": "Cast on cooldown.",
-          "spell_id": 31935
-        },
-        {
-          "mode": "aoe",
-          "note": "if you have 0 Holy Power. Try to use this on cooldown as much as possible.",
-          "spell_id": 375576
-        },
-        {
-          "mode": "aoe",
-          "note": "/{53595} on cooldown.",
-          "spell_id": 204019
-        },
-        {
-          "mode": "aoe",
-          "note": "if your health drops below 50% or to top yourself off if you are in danger of a big hit.",
-          "spell_id": 85673
-        },
-        {
-          "mode": "aoe",
-          "note": "as a filler.",
-          "spell_id": 26573
-        }
-      ],
       "stat_priority": [
         {
           "rating": 969,

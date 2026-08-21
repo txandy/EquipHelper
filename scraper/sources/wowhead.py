@@ -1,20 +1,17 @@
-"""Fuente: guias de clase de Wowhead.
+"""Fuente: pagina de consumibles de las guias de clase de Wowhead.
 
-Aporta lo unico que ninguna otra fuente da: la lista de prioridad de la
-rotacion, con sus condiciones ("Ice Lance si Fingers of Frost esta activo").
-Mythicstats y Warcraft Logs miden que se juega y como rinde; nadie mas explica
-en que orden pulsar los botones.
+Aporta lo unico que ninguna otra fuente publica: que frasco, pocion, comida,
+aceite de arma y runa de aumento usa cada spec. Mythicstats y Warcraft Logs
+miden equipo y rendimiento; los consumibles no salen en ningun ranking.
 
 Wowhead no tiene API y sus terminos no contemplan la extraccion automatica, asi
-que este modulo es el mas conservador del proyecto: una peticion por segundo,
-cache en disco, User-Agent identificable, y aislado para poder desactivarlo sin
-tocar nada mas. La guia se publica con atribucion y enlace en el addon.
+que este modulo es conservador: una peticion por segundo, cache en disco,
+User-Agent identificable, y aislado para poder desactivarlo sin tocar nada mas.
+La guia se publica con atribucion y enlace en el addon.
 
-Detalle tecnico: la guia viaja como BBCode dentro de una cadena de JavaScript,
-no como HTML. Eso juega a favor: los marcadores [ol] / [li] / [spell=ID] son
-mucho mas estables que unas clases CSS, y el propio Wowhead ya separa la
-rotacion por hero talent con [div display-options="Spellslinger"], que es
-exactamente el corte que necesita el addon.
+La guia viaja como BBCode dentro de una cadena de JavaScript. Aqui juega a
+favor: [h3 toc="Combat Potion"] e [item=241288] son mucho mas estables que unas
+clases CSS, y cada consumible tiene su propia cabecera.
 """
 
 from __future__ import annotations
@@ -25,35 +22,23 @@ SOURCE_KEY = "wowhead"
 BASE_URL = "https://www.wowhead.com/guide/classes"
 
 # El sufijo depende del rol y no lo sabemos de antemano; se prueban por orden.
-ROLE_SUFFIXES = ("rotation-cooldowns-pve-dps", "rotation-cooldowns-pve-healer",
-                 "rotation-cooldowns-pve-tank")
+ROLE_SUFFIXES = ("enchants-gems-pve-dps", "enchants-gems-pve-healer",
+                 "enchants-gems-pve-tank")
 
-# El espaciado de estas cabeceras no es de fiar: la guia de Mago Escarcha
-# escribe "AoE  Rotation" con dos espacios. \s+ en vez de un espacio literal.
-# "Opener" entra con modo None a proposito: marca donde dejan de ser listas de
-# prioridad, para no colar la secuencia de apertura como si fuera la rotacion.
-# Las cabeceras se clasifican por su texto, pero solo se miran cabeceras de
-# verdad: "opener" aparece tambien en prosa ("...and your opener sequence"), y
-# buscarla suelta hacia que un bloque perdiera su seccion.
-HEADING = re.compile(r"\[h[23][^\]]*\](.*?)\[/h[23]\]", re.S)
-
-HEADING_MODES = (
-    ("aoe", re.compile(r"\b(aoe|cleave|multi[\s-]*target)\b", re.I)),
-    ("st", re.compile(r"single[\s-]*target", re.I)),
-    # Guias de sanador y algunas de dps no separan por numero de objetivos:
-    # publican una sola lista, que va al modo por defecto.
-    ("st", re.compile(r"\b(healing|dps|priority)\s+rotation\b", re.I)),
-    ("st", re.compile(r"\brotation\s+priority\b", re.I)),
-    # Centinela: a partir del opener ya no hay listas de prioridad.
-    (None, re.compile(r"\bopener\b", re.I)),
+# Se clasifica por el texto de la cabecera, y el orden importa: "Health Potion"
+# tiene que probarse antes que "Potion" o se lo comeria la pocion de combate.
+CATEGORIES = (
+    ("HEALTH_POTION", re.compile(r"health(?:ing)?\s+potions?", re.I)),
+    ("POTION", re.compile(r"(?:combat\s+)?potions?", re.I)),
+    ("FLASK", re.compile(r"flasks?", re.I)),
+    ("FOOD", re.compile(r"food|feast", re.I)),
+    ("WEAPON_OIL", re.compile(r"weapon\s+(?:buff|oil)", re.I)),
+    ("RUNE", re.compile(r"augment\s+rune", re.I)),
 )
 
-DIV_BLOCK = re.compile(r'\[div display-options="([^"]+)"\](.*?)\[/div\]', re.S)
-LABEL_AOE = re.compile(r"\b(aoe|mt|multi)\b", re.I)
-LABEL_ST = re.compile(r"\b(st|single)\b", re.I)
-OL_BLOCK = re.compile(r"\[ol\](.*?)\[/ol\]", re.S)
-LI_ITEM = re.compile(r"\[li\](.*?)\[/li\]", re.S)
-SPELL_TAG = re.compile(r"\[spell=(\d+)\]")
+HEADING = re.compile(r"\[h[23][^\]]*\](.*?)\[/h[23]\]", re.S)
+ITEM_TAG = re.compile(r"\[item=(\d+)")
+UL_BLOCK = re.compile(r"\[ul\](.*?)\[/ul\]", re.S)
 BBCODE_TAG = re.compile(r"\[/?[^\]]*\]")
 
 
@@ -69,170 +54,82 @@ def _unescape(html: str) -> str:
                 .replace('\\"', '"').replace("\\/", "/"))
 
 
-def _clean(text: str) -> str:
-    """Quita el BBCode y deja la condicion legible.
+def _classify(heading: str) -> str | None:
+    label = BBCODE_TAG.sub("", heading)
+    for category, pattern in CATEGORIES:
+        if pattern.search(label):
+            return category
+    return None
 
-    Los hechizos que la condicion menciona ("si [spell=190447] esta activo") se
-    conservan como tokens {190447}. Guardar aqui el nombre en ingles romperia la
-    regla de solo-IDs y dejaria la frase sin traducir; el addon los sustituye por
-    el nombre localizado al renderizar.
+
+def _recommended_items(section: str) -> list[int]:
+    """Los items que la seccion recomienda de verdad.
+
+    Solo se miran la primera frase o la primera lista, nunca la seccion entera.
+    El texto sigue despues con salvedades que citan otros items ("si llevas
+    [item=245880], la pocion empeora"), y tragarselos meteria un abalorio en la
+    lista de pociones. El precio de esta prudencia es perder alguna alternativa
+    que el autor menciona en una frase posterior; a cambio, lo que se publica
+    nunca esta mal.
     """
-    with_tokens = SPELL_TAG.sub(lambda m: "{" + m.group(1) + "}", text)
-    without_tags = BBCODE_TAG.sub("", with_tokens)
-    collapsed = re.sub(r"\s+", " ", without_tags).strip()
-    return collapsed.strip(" -–—")
+    body = section.strip()
+
+    listed = UL_BLOCK.search(body)
+    first_sentence = body.split(".", 1)[0]
+
+    # La lista manda si aparece antes de que acabe la primera frase, que es como
+    # se escriben las secciones de comida: prosa, y debajo las opciones.
+    if listed and not ITEM_TAG.search(first_sentence):
+        scope = listed.group(1)
+    else:
+        scope = first_sentence
+
+    seen: list[int] = []
+    for match in ITEM_TAG.finditer(scope):
+        item_id = int(match.group(1))
+        if item_id not in seen:
+            seen.append(item_id)
+    return seen
 
 
-def _headings(text: str) -> list[tuple[int, str | None]]:
-    """Posicion y modo de cada cabecera que dice a que rotacion pertenece.
+def parse_consumables(html: str, spec=None) -> list[dict]:
+    """[{category, item_id, is_primary}] en el orden en que los da la guia."""
+    text = _unescape(html)
+    headings = list(HEADING.finditer(text))
+    found: list[dict] = []
+    covered: set[str] = set()
 
-    Las que no dicen nada (por ejemplo "Priority") no aparecen: no cambian de
-    seccion, solo titulan la lista que viene debajo.
-    """
-    found: list[tuple[int, str | None]] = []
+    for index, match in enumerate(headings):
+        category = _classify(match.group(1))
+        if category is None or category in covered:
+            continue
 
-    for match in HEADING.finditer(text):
-        label = BBCODE_TAG.sub("", match.group(1))
-        for mode, pattern in HEADING_MODES:
-            if pattern.search(label):
-                found.append((match.start(), mode))
-                break
+        end = headings[index + 1].start() if index + 1 < len(headings) else len(text)
+        items = _recommended_items(text[match.end():end])
+        if not items:
+            continue
+
+        covered.add(category)
+        for position, item_id in enumerate(items):
+            found.append({
+                "category": category,
+                "item_id": item_id,
+                "is_primary": position == 0,
+            })
 
     return found
 
 
-def _mode_at(headings: list[tuple[int, str | None]], position: int) -> str | None:
-    """A que rotacion pertenece un bloque: la ultima cabecera que lo precede."""
-    mode = None
-    for start, candidate in headings:
-        if start > position:
-            break
-        mode = candidate
-    return mode
-
-
-def _parse_priority(block: str) -> list[dict]:
-    """Convierte el primer [ol] del bloque en una lista de prioridad."""
-    ordered = OL_BLOCK.search(block)
-    if not ordered:
-        return []
-
-    entries: list[dict] = []
-    for item in LI_ITEM.findall(ordered.group(1)):
-        spell = SPELL_TAG.search(item)
-        if not spell:
-            continue
-        # La condicion es el resto de la linea sin el hechizo principal.
-        condition = _clean(SPELL_TAG.sub("", item, count=1))
-        entries.append({"spell_id": int(spell.group(1)), "note": condition or None})
-
-    return entries
-
-
-def _hero_for_block(label: str, entries: list[dict], spec) -> int | None:
-    """A que hero talent pertenece un bloque.
-
-    La etiqueta display-options no sirve como identificador: cada autor de guia
-    se inventa la suya ("slayer-st", "SS", "DB&AoE"), y solo algunas coinciden
-    con el nombre del arbol. Lo que si es univoco son los hechizos: si la
-    prioridad incluye un talento de heroe, ese talento dice de que arbol es.
-    Se vota porque una rotacion puede rozar un talento compartido.
-    """
-    votes: dict[int, int] = {}
-    for entry in entries:
-        hero_id = spec.spell_to_hero.get(entry["spell_id"])
-        if hero_id:
-            votes[hero_id] = votes.get(hero_id, 0) + 1
-
-    if votes:
-        return max(votes, key=votes.get)
-
-    # Sin talentos de heroe en la lista, la etiqueta es el ultimo recurso.
-    normalized = re.sub(r"[^a-z]+", " ", label.lower())
-    for tree in spec.hero_trees:
-        words = re.sub(r"[^a-z]+", " ", tree.name.lower()).split()
-        if any(word in normalized.split() for word in words):
-            return tree.hero_id
-
-    return None
-
-
-def _mode_for_block(label: str, headings, position: int) -> str | None:
-    """El modo lo dice la etiqueta si lo lleva; si no, la cabecera anterior.
-
-    Varias guias marcan el bloque como "slayer-st" / "thane-mt" y ponen las dos
-    variantes bajo la misma cabecera, asi que la etiqueta manda cuando habla.
-    """
-    if LABEL_AOE.search(label):
-        return "aoe"
-    if LABEL_ST.search(label):
-        return "st"
-    return _mode_at(headings, position)
-
-
-def parse_rotations(html: str, spec) -> dict[int, dict[str, list[dict]]]:
-    """{hero_id: {"st": [entradas], "aoe": [...]}} con las prioridades.
-
-    Las guias sin division por hero talent (varias de sanador) publican una sola
-    rotacion; en ese caso se asigna a todos los arboles, que es lo que el propio
-    autor esta diciendo.
-    """
-    text = _unescape(html)
-    headings = _headings(text)
-    result: dict[int, dict[str, list[dict]]] = {}
-
-    for match in DIV_BLOCK.finditer(text):
-        label = match.group(1).strip()
-        if label.startswith("!"):
-            # Bloques negados: son el aviso de "elige un hero talent", no contenido.
-            continue
-
-        entries = _parse_priority(match.group(2))
-        if not entries:
-            continue
-
-        mode = _mode_for_block(label, headings, match.start())
-        hero_id = _hero_for_block(label, entries, spec)
-        if mode is None or hero_id is None:
-            continue
-
-        result.setdefault(hero_id, {}).setdefault(mode, entries)
-
-    if result:
-        return result
-
-    return _parse_shared(text, headings, spec)
-
-
-def _parse_shared(text: str, headings, spec) -> dict[int, dict[str, list[dict]]]:
-    """Guias que no separan por hero talent: una rotacion para todos."""
-    shared: dict[str, list[dict]] = {}
-
-    for match in OL_BLOCK.finditer(text):
-        mode = _mode_at(headings, match.start())
-        if mode is None or mode in shared:
-            continue
-
-        entries = _parse_priority(match.group(0))
-        if entries:
-            shared[mode] = entries
-
-    if not shared:
-        return {}
-
-    return {tree.hero_id: dict(shared) for tree in spec.hero_trees}
-
-
-def fetch_rotations(fetcher, spec) -> tuple[dict[int, dict[str, list[dict]]], str | None]:
-    """Devuelve las rotaciones y la URL que funciono, o ({}, None)."""
+def fetch_consumables(fetcher, spec) -> tuple[list[dict], str | None]:
+    """Devuelve los consumibles y la URL que funciono, o ([], None)."""
     for url in guide_urls(spec):
         try:
             html = fetcher.get(url)
         except Exception:
             continue
 
-        rotations = parse_rotations(html, spec)
-        if rotations:
-            return rotations, url
+        consumables = parse_consumables(html, spec)
+        if consumables:
+            return consumables, url
 
-    return {}, None
+    return [], None

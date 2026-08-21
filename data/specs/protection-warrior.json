@@ -3,6 +3,43 @@
   "class_name": "Warrior",
   "guides": [
     {
+      "consumables": [
+        {
+          "category": "FLASK",
+          "is_primary": true,
+          "item_id": 241324
+        },
+        {
+          "category": "POTION",
+          "is_primary": true,
+          "item_id": 241292
+        },
+        {
+          "category": "POTION",
+          "is_primary": false,
+          "item_id": 241308
+        },
+        {
+          "category": "HEALTH_POTION",
+          "is_primary": true,
+          "item_id": 271884
+        },
+        {
+          "category": "WEAPON_OIL",
+          "is_primary": true,
+          "item_id": 243734
+        },
+        {
+          "category": "RUNE",
+          "is_primary": true,
+          "item_id": 259085
+        },
+        {
+          "category": "FOOD",
+          "is_primary": true,
+          "item_id": 255845
+        }
+      ],
       "content": "mplus",
       "enchants": [
         {
@@ -883,81 +920,9 @@
         },
         "wowhead": {
           "fetched_at": "2026-08-21",
-          "url": "https://www.wowhead.com/guide/classes/warrior/protection/rotation-cooldowns-pve-tank"
+          "url": "https://www.wowhead.com/guide/classes/warrior/protection/enchants-gems-pve-tank"
         }
       },
-      "rotation": [
-        {
-          "mode": "st",
-          "note": "Always into combat.",
-          "spell_id": 100
-        },
-        {
-          "mode": "st",
-          "note": "on cooldown.",
-          "spell_id": 23922
-        },
-        {
-          "mode": "st",
-          "note": "on cooldown and to apply {394062}.",
-          "spell_id": 6343
-        },
-        {
-          "mode": "st",
-          "note": null,
-          "spell_id": 6572
-        },
-        {
-          "mode": "st",
-          "note": "Spend excess Rage on .",
-          "spell_id": 190456
-        },
-        {
-          "mode": "st",
-          "note": "targets at or below 20%(35% if you have the talent) health.",
-          "spell_id": 163201
-        },
-        {
-          "mode": "st",
-          "note": "Use if you have low HP!",
-          "spell_id": 202168
-        },
-        {
-          "mode": "aoe",
-          "note": "Always into combat.",
-          "spell_id": 100
-        },
-        {
-          "mode": "aoe",
-          "note": "on cooldown.",
-          "spell_id": 23922
-        },
-        {
-          "mode": "aoe",
-          "note": "on cooldown and to apply {394062}.",
-          "spell_id": 6343
-        },
-        {
-          "mode": "aoe",
-          "note": null,
-          "spell_id": 6572
-        },
-        {
-          "mode": "aoe",
-          "note": "Spend excess Rage on .",
-          "spell_id": 190456
-        },
-        {
-          "mode": "aoe",
-          "note": "targets at or below 20%(35% if you have the talent) health.",
-          "spell_id": 163201
-        },
-        {
-          "mode": "aoe",
-          "note": "Use if you have low HP!",
-          "spell_id": 202168
-        }
-      ],
       "stat_priority": [
         {
           "rating": 1083,

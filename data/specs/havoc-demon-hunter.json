@@ -3,6 +3,53 @@
   "class_name": "Demon Hunter",
   "guides": [
     {
+      "consumables": [
+        {
+          "category": "FLASK",
+          "is_primary": true,
+          "item_id": 241326
+        },
+        {
+          "category": "FLASK",
+          "is_primary": false,
+          "item_id": 241322
+        },
+        {
+          "category": "POTION",
+          "is_primary": true,
+          "item_id": 241288
+        },
+        {
+          "category": "HEALTH_POTION",
+          "is_primary": true,
+          "item_id": 271884
+        },
+        {
+          "category": "WEAPON_OIL",
+          "is_primary": true,
+          "item_id": 243734
+        },
+        {
+          "category": "RUNE",
+          "is_primary": true,
+          "item_id": 259085
+        },
+        {
+          "category": "FOOD",
+          "is_primary": true,
+          "item_id": 266996
+        },
+        {
+          "category": "FOOD",
+          "is_primary": false,
+          "item_id": 242275
+        },
+        {
+          "category": "FOOD",
+          "is_primary": false,
+          "item_id": 242747
+        }
+      ],
       "content": "mplus",
       "enchants": [
         {
@@ -903,71 +950,9 @@
         },
         "wowhead": {
           "fetched_at": "2026-08-21",
-          "url": "https://www.wowhead.com/guide/classes/demon-hunter/havoc/rotation-cooldowns-pve-dps"
+          "url": "https://www.wowhead.com/guide/classes/demon-hunter/havoc/enchants-gems-pve-dps"
         }
       },
-      "rotation": [
-        {
-          "mode": "st",
-          "note": "Cast Once you have spent all reset abilities",
-          "spell_id": 191427
-        },
-        {
-          "mode": "st",
-          "note": "Cast when {198013} cooldown is less than 10 seconds",
-          "spell_id": 370965
-        },
-        {
-          "mode": "st",
-          "note": "Cast if {452402} is available",
-          "spell_id": 210152
-        },
-        {
-          "mode": "st",
-          "note": "Cast if {452402} is available",
-          "spell_id": 201427
-        },
-        {
-          "mode": "st",
-          "note": "Cast",
-          "spell_id": 198013
-        },
-        {
-          "mode": "st",
-          "note": "Cast",
-          "spell_id": 258860
-        },
-        {
-          "mode": "st",
-          "note": "Cast",
-          "spell_id": 210152
-        },
-        {
-          "mode": "st",
-          "note": "Cast",
-          "spell_id": 188499
-        },
-        {
-          "mode": "st",
-          "note": "Cast",
-          "spell_id": 201427
-        },
-        {
-          "mode": "st",
-          "note": "Cast if at 100 Fury or Less",
-          "spell_id": 213241
-        },
-        {
-          "mode": "st",
-          "note": "Cast",
-          "spell_id": 162794
-        },
-        {
-          "mode": "st",
-          "note": "Cast or {195072} when no other abilities are available",
-          "spell_id": 185123
-        }
-      ],
       "stat_priority": [
         {
           "rating": 1140,
@@ -1026,6 +1011,53 @@
       ]
     },
     {
+      "consumables": [
+        {
+          "category": "FLASK",
+          "is_primary": true,
+          "item_id": 241326
+        },
+        {
+          "category": "FLASK",
+          "is_primary": false,
+          "item_id": 241322
+        },
+        {
+          "category": "POTION",
+          "is_primary": true,
+          "item_id": 241288
+        },
+        {
+          "category": "HEALTH_POTION",
+          "is_primary": true,
+          "item_id": 271884
+        },
+        {
+          "category": "WEAPON_OIL",
+          "is_primary": true,
+          "item_id": 243734
+        },
+        {
+          "category": "RUNE",
+          "is_primary": true,
+          "item_id": 259085
+        },
+        {
+          "category": "FOOD",
+          "is_primary": true,
+          "item_id": 266996
+        },
+        {
+          "category": "FOOD",
+          "is_primary": false,
+          "item_id": 242275
+        },
+        {
+          "category": "FOOD",
+          "is_primary": false,
+          "item_id": 242747
+        }
+      ],
       "content": "mplus",
       "enchants": [
         {
@@ -1926,71 +1958,9 @@
         },
         "wowhead": {
           "fetched_at": "2026-08-21",
-          "url": "https://www.wowhead.com/guide/classes/demon-hunter/havoc/rotation-cooldowns-pve-dps"
+          "url": "https://www.wowhead.com/guide/classes/demon-hunter/havoc/enchants-gems-pve-dps"
         }
       },
-      "rotation": [
-        {
-          "mode": "st",
-          "note": "Cast Once you have spent all reset abilities",
-          "spell_id": 191427
-        },
-        {
-          "mode": "st",
-          "note": "Cast when {198013} cooldown is less than 10 seconds",
-          "spell_id": 370965
-        },
-        {
-          "mode": "st",
-          "note": "Cast if {452402} is available",
-          "spell_id": 210152
-        },
-        {
-          "mode": "st",
-          "note": "Cast if {452402} is available",
-          "spell_id": 201427
-        },
-        {
-          "mode": "st",
-          "note": "Cast",
-          "spell_id": 198013
-        },
-        {
-          "mode": "st",
-          "note": "Cast",
-          "spell_id": 258860
-        },
-        {
-          "mode": "st",
-          "note": "Cast",
-          "spell_id": 210152
-        },
-        {
-          "mode": "st",
-          "note": "Cast",
-          "spell_id": 188499
-        },
-        {
-          "mode": "st",
-          "note": "Cast",
-          "spell_id": 201427
-        },
-        {
-          "mode": "st",
-          "note": "Cast if at 100 Fury or Less",
-          "spell_id": 213241
-        },
-        {
-          "mode": "st",
-          "note": "Cast",
-          "spell_id": 162794
-        },
-        {
-          "mode": "st",
-          "note": "Cast or {195072} when no other abilities are available",
-          "spell_id": 185123
-        }
-      ],
       "stat_priority": [
         {
           "rating": 1140,

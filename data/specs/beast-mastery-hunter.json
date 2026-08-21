@@ -3,6 +3,43 @@
   "class_name": "Hunter",
   "guides": [
     {
+      "consumables": [
+        {
+          "category": "FLASK",
+          "is_primary": true,
+          "item_id": 241322
+        },
+        {
+          "category": "POTION",
+          "is_primary": true,
+          "item_id": 241308
+        },
+        {
+          "category": "POTION",
+          "is_primary": false,
+          "item_id": 241288
+        },
+        {
+          "category": "HEALTH_POTION",
+          "is_primary": true,
+          "item_id": 271884
+        },
+        {
+          "category": "WEAPON_OIL",
+          "is_primary": true,
+          "item_id": 243734
+        },
+        {
+          "category": "RUNE",
+          "is_primary": true,
+          "item_id": 259085
+        },
+        {
+          "category": "FOOD",
+          "is_primary": true,
+          "item_id": 255846
+        }
+      ],
       "content": "mplus",
       "enchants": [
         {
@@ -838,76 +875,9 @@
         },
         "wowhead": {
           "fetched_at": "2026-08-21",
-          "url": "https://www.wowhead.com/guide/classes/hunter/beast-mastery/rotation-cooldowns-pve-dps"
+          "url": "https://www.wowhead.com/guide/classes/hunter/beast-mastery/enchants-gems-pve-dps"
         }
       },
-      "rotation": [
-        {
-          "mode": "st",
-          "note": "Cast if {19574} is available in the next 3 seconds or about to reach 2 charges.",
-          "spell_id": 217200
-        },
-        {
-          "mode": "st",
-          "note": "Cast .",
-          "spell_id": 19574
-        },
-        {
-          "mode": "st",
-          "note": "Cast if you have a {471876} buff or {1273126} active.",
-          "spell_id": 34026
-        },
-        {
-          "mode": "st",
-          "note": "Cast if you have {1299389} active.",
-          "spell_id": 193455
-        },
-        {
-          "mode": "st",
-          "note": "Cast .",
-          "spell_id": 217200
-        },
-        {
-          "mode": "st",
-          "note": "Cast .",
-          "spell_id": 193455
-        },
-        {
-          "mode": "aoe",
-          "note": "Cast on your priority target if you're about to reach 2 charges.",
-          "spell_id": 217200
-        },
-        {
-          "mode": "aoe",
-          "note": "Cast .",
-          "spell_id": 1264359
-        },
-        {
-          "mode": "aoe",
-          "note": "Cast as long as {115939} is active.",
-          "spell_id": 19574
-        },
-        {
-          "mode": "aoe",
-          "note": "Cast if you have a {471876} buff or {1273126} active.",
-          "spell_id": 34026
-        },
-        {
-          "mode": "aoe",
-          "note": "Cast if you have {1299389} active.",
-          "spell_id": 193455
-        },
-        {
-          "mode": "aoe",
-          "note": "Cast on your priority target.",
-          "spell_id": 217200
-        },
-        {
-          "mode": "aoe",
-          "note": "Cast .",
-          "spell_id": 193455
-        }
-      ],
       "stat_priority": [
         {
           "rating": 1059,

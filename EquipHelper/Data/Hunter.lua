@@ -8,6 +8,43 @@ ns.RegisterClassData("HUNTER", {
 			heroes = {
 				[43] = {
 					mplus = {
+						consumables = {
+							{
+								category = "FLASK",
+								itemID = 241322,
+								primary = true,
+							},
+							{
+								category = "POTION",
+								itemID = 241308,
+								primary = true,
+							},
+							{
+								category = "POTION",
+								itemID = 241288,
+								primary = false,
+							},
+							{
+								category = "HEALTH_POTION",
+								itemID = 271884,
+								primary = true,
+							},
+							{
+								category = "WEAPON_OIL",
+								itemID = 243734,
+								primary = true,
+							},
+							{
+								category = "RUNE",
+								itemID = 259085,
+								primary = true,
+							},
+							{
+								category = "FOOD",
+								itemID = 255846,
+								primary = true,
+							},
+						},
 						enchants = {
 							{
 								itemID = 244031,
@@ -614,74 +651,7 @@ ns.RegisterClassData("HUNTER", {
 							},
 							wowhead = {
 								fetchedAt = "2026-08-21",
-								url = "https://www.wowhead.com/guide/classes/hunter/beast-mastery/rotation-cooldowns-pve-dps",
-							},
-						},
-						rotation = {
-							{
-								mode = "st",
-								note = "Cast if {19574} is available in the next 3 seconds or about to reach 2 charges.",
-								spellID = 217200,
-							},
-							{
-								mode = "st",
-								note = "Cast .",
-								spellID = 19574,
-							},
-							{
-								mode = "st",
-								note = "Cast if you have a {471876} buff or {1273126} active.",
-								spellID = 34026,
-							},
-							{
-								mode = "st",
-								note = "Cast if you have {1299389} active.",
-								spellID = 193455,
-							},
-							{
-								mode = "st",
-								note = "Cast .",
-								spellID = 217200,
-							},
-							{
-								mode = "st",
-								note = "Cast .",
-								spellID = 193455,
-							},
-							{
-								mode = "aoe",
-								note = "Cast on your priority target if you're about to reach 2 charges.",
-								spellID = 217200,
-							},
-							{
-								mode = "aoe",
-								note = "Cast .",
-								spellID = 1264359,
-							},
-							{
-								mode = "aoe",
-								note = "Cast as long as {115939} is active.",
-								spellID = 19574,
-							},
-							{
-								mode = "aoe",
-								note = "Cast if you have a {471876} buff or {1273126} active.",
-								spellID = 34026,
-							},
-							{
-								mode = "aoe",
-								note = "Cast if you have {1299389} active.",
-								spellID = 193455,
-							},
-							{
-								mode = "aoe",
-								note = "Cast on your priority target.",
-								spellID = 217200,
-							},
-							{
-								mode = "aoe",
-								note = "Cast .",
-								spellID = 193455,
+								url = "https://www.wowhead.com/guide/classes/hunter/beast-mastery/enchants-gems-pve-dps",
 							},
 						},
 						statPriority = {
@@ -848,6 +818,48 @@ ns.RegisterClassData("HUNTER", {
 			heroes = {
 				[42] = {
 					mplus = {
+						consumables = {
+							{
+								category = "FLASK",
+								itemID = 241326,
+								primary = true,
+							},
+							{
+								category = "POTION",
+								itemID = 241288,
+								primary = true,
+							},
+							{
+								category = "HEALTH_POTION",
+								itemID = 271884,
+								primary = true,
+							},
+							{
+								category = "WEAPON_OIL",
+								itemID = 243734,
+								primary = true,
+							},
+							{
+								category = "RUNE",
+								itemID = 259085,
+								primary = true,
+							},
+							{
+								category = "FOOD",
+								itemID = 255846,
+								primary = true,
+							},
+							{
+								category = "FOOD",
+								itemID = 255845,
+								primary = false,
+							},
+							{
+								category = "FOOD",
+								itemID = 242747,
+								primary = false,
+							},
+						},
 						enchants = {
 							{
 								itemID = 243971,
@@ -1454,114 +1466,7 @@ ns.RegisterClassData("HUNTER", {
 							},
 							wowhead = {
 								fetchedAt = "2026-08-21",
-								url = "https://www.wowhead.com/guide/classes/hunter/marksmanship/rotation-cooldowns-pve-dps",
-							},
-						},
-						rotation = {
-							{
-								mode = "st",
-								note = "Trinket Usage. Use on-use trinkets inside . Stat trinkets gain the most from the window, so they take priority when you have to pick one.",
-								spellID = 288613,
-							},
-							{
-								mode = "st",
-								note = "Cast on cooldown. Thanks to {473520}, you can cast it twice in a row and should do so.",
-								spellID = 212431,
-							},
-							{
-								mode = "st",
-								note = "Cast on cooldown.",
-								spellID = 260243,
-							},
-							{
-								mode = "st",
-								note = "Cast on cooldown, saving your final use of the fight until {204089} reaches 30 stacks.",
-								spellID = 288613,
-							},
-							{
-								mode = "st",
-								note = "Cast if {288613} is about to expire.",
-								spellID = 1264902,
-							},
-							{
-								mode = "st",
-								note = "Cast to spend {260240}.",
-								spellID = 53351,
-							},
-							{
-								mode = "st",
-								note = "Cast to spend {260240}. While {288613} is up, only do so straight after an {19434}.",
-								spellID = 185358,
-							},
-							{
-								mode = "st",
-								note = "Cast on cooldown. Outside of {288613}, clip its last tick with {185358}.",
-								spellID = 257044,
-							},
-							{
-								mode = "st",
-								note = "Cast on cooldown.",
-								spellID = 19434,
-							},
-							{
-								mode = "st",
-								note = "Cast .",
-								spellID = 1264902,
-							},
-							{
-								mode = "st",
-								note = "Cast .",
-								spellID = 56641,
-							},
-							{
-								mode = "aoe",
-								note = "Trinket Usage. Use on-use trinkets inside . Stat trinkets gain the most from the window, so they take priority when you have to pick one.",
-								spellID = 288613,
-							},
-							{
-								mode = "aoe",
-								note = "Cast on cooldown. Thanks to {473520} you get two casts in a row, and they should land on two different targets so that {1296634} reduces your cooldowns twice instead of once.",
-								spellID = 212431,
-							},
-							{
-								mode = "aoe",
-								note = "Cast on cooldown.",
-								spellID = 260243,
-							},
-							{
-								mode = "aoe",
-								note = "Cast on cooldown, saving your final use of the fight until {204089} reaches 30 stacks.",
-								spellID = 288613,
-							},
-							{
-								mode = "aoe",
-								note = "Cast if {288613} is about to expire.",
-								spellID = 1264902,
-							},
-							{
-								mode = "aoe",
-								note = "Cast to spend {260240}, or simply to put {257621} back up when it has dropped.",
-								spellID = 257620,
-							},
-							{
-								mode = "aoe",
-								note = "Cast under {257621}, and clip its last tick with {257620}.",
-								spellID = 257044,
-							},
-							{
-								mode = "aoe",
-								note = "Cast on cooldown with {257621} up.",
-								spellID = 19434,
-							},
-							{
-								mode = "aoe",
-								note = "Cast .",
-								spellID = 1264902,
-							},
-							{
-								mode = "aoe",
-								note = "Cast .",
-								spellID = 56641,
+								url = "https://www.wowhead.com/guide/classes/hunter/marksmanship/enchants-gems-pve-dps",
 							},
 						},
 						statPriority = {
@@ -1702,6 +1607,38 @@ ns.RegisterClassData("HUNTER", {
 			heroes = {
 				[42] = {
 					mplus = {
+						consumables = {
+							{
+								category = "FLASK",
+								itemID = 245933,
+								primary = true,
+							},
+							{
+								category = "POTION",
+								itemID = 241288,
+								primary = true,
+							},
+							{
+								category = "HEALTH_POTION",
+								itemID = 271884,
+								primary = true,
+							},
+							{
+								category = "WEAPON_OIL",
+								itemID = 243734,
+								primary = true,
+							},
+							{
+								category = "RUNE",
+								itemID = 259085,
+								primary = true,
+							},
+							{
+								category = "FOOD",
+								itemID = 275265,
+								primary = true,
+							},
+						},
 						enchants = {
 							{
 								itemID = 244031,
@@ -2357,79 +2294,7 @@ ns.RegisterClassData("HUNTER", {
 							},
 							wowhead = {
 								fetchedAt = "2026-08-21",
-								url = "https://www.wowhead.com/guide/classes/hunter/survival/rotation-cooldowns-pve-dps",
-							},
-						},
-						rotation = {
-							{
-								mode = "st",
-								note = "Cast if it is not yet active.",
-								spellID = 257284,
-							},
-							{
-								mode = "st",
-								note = "Cast if you have a {260285} stack to spend and your target is not affected by {1253601}.",
-								spellID = 1261193,
-							},
-							{
-								mode = "st",
-								note = "Cast if you have a {260285} stack to spend under the following circumstances: - If your target is affected by {1253601}. - If there is around 4-6 seconds remaining until {259495} is fully recharged.",
-								spellID = 259495,
-							},
-							{
-								mode = "st",
-								note = "Cast if you have a {260285} stack to spend.",
-								spellID = 1264949,
-							},
-							{
-								mode = "st",
-								note = "Cast . if you have a {260285} stack to spend.",
-								spellID = 1262293,
-							},
-							{
-								mode = "st",
-								note = "Cast .",
-								spellID = 186270,
-							},
-							{
-								mode = "aoe",
-								note = "Cast if it is not yet active.",
-								spellID = 257284,
-							},
-							{
-								mode = "aoe",
-								note = "Cast whenever you run out of {260285} stacks.",
-								spellID = 259489,
-							},
-							{
-								mode = "aoe",
-								note = "Cast if you have a {260285} stack to spend/",
-								spellID = 1261193,
-							},
-							{
-								mode = "aoe",
-								note = "Cast if you have a {260285} stack to spend. Ideally you should directly target mobs that have {1253601} if available, but this can be ignored if you are trying to prioritise a bulky mob.",
-								spellID = 259495,
-							},
-							{
-								mode = "aoe",
-								note = "Cast if you have a {260285} stack to spend. If your target already has {1253601} on them, try to swap to another target first.",
-								spellID = 1250646,
-							},
-							{
-								mode = "aoe",
-								note = "Cast if you have a {260285} stack to spend.",
-								spellID = 1264949,
-							},
-							{
-								mode = "aoe",
-								note = "Cast . if you have a {260285} stack to spend.",
-								spellID = 1262343,
-							},
-							{
-								mode = "aoe",
-								note = "Cast .",
-								spellID = 186270,
+								url = "https://www.wowhead.com/guide/classes/hunter/survival/enchants-gems-pve-dps",
 							},
 						},
 						statPriority = {
@@ -2539,6 +2404,38 @@ ns.RegisterClassData("HUNTER", {
 				},
 				[43] = {
 					mplus = {
+						consumables = {
+							{
+								category = "FLASK",
+								itemID = 245933,
+								primary = true,
+							},
+							{
+								category = "POTION",
+								itemID = 241288,
+								primary = true,
+							},
+							{
+								category = "HEALTH_POTION",
+								itemID = 271884,
+								primary = true,
+							},
+							{
+								category = "WEAPON_OIL",
+								itemID = 243734,
+								primary = true,
+							},
+							{
+								category = "RUNE",
+								itemID = 259085,
+								primary = true,
+							},
+							{
+								category = "FOOD",
+								itemID = 275265,
+								primary = true,
+							},
+						},
 						enchants = {
 							{
 								itemID = 244031,
@@ -3194,79 +3091,7 @@ ns.RegisterClassData("HUNTER", {
 							},
 							wowhead = {
 								fetchedAt = "2026-08-21",
-								url = "https://www.wowhead.com/guide/classes/hunter/survival/rotation-cooldowns-pve-dps",
-							},
-						},
-						rotation = {
-							{
-								mode = "st",
-								note = "Cast if it is not yet active.",
-								spellID = 257284,
-							},
-							{
-								mode = "st",
-								note = "Cast whenever any of the {471878} beasts are available to summon, without wasting any {260285} stacks. .",
-								spellID = 259489,
-							},
-							{
-								mode = "st",
-								note = "Cast if you have a {260285} stack to spend.",
-								spellID = 259495,
-							},
-							{
-								mode = "st",
-								note = "Cast if you have a {260285} stack to spend.",
-								spellID = 1261193,
-							},
-							{
-								mode = "st",
-								note = "Cast if you have a {260285} stack to spend.",
-								spellID = 1259003,
-							},
-							{
-								mode = "st",
-								note = "Cast with or without a {260285} to spend.",
-								spellID = 186270,
-							},
-							{
-								mode = "st",
-								note = "Cast .",
-								spellID = 259489,
-							},
-							{
-								mode = "aoe",
-								note = "Cast if it is not yet active.",
-								spellID = 257284,
-							},
-							{
-								mode = "aoe",
-								note = "Cast whenever any of the {471878} beasts are available to summon, without wasting any {260285} stacks. .",
-								spellID = 259489,
-							},
-							{
-								mode = "aoe",
-								note = "Cast if you have a {260285} stack to spend",
-								spellID = 1261193,
-							},
-							{
-								mode = "aoe",
-								note = "Cast if you have a {260285} stack to spend.",
-								spellID = 259495,
-							},
-							{
-								mode = "aoe",
-								note = "Cast if you have a {260285} stack to spend.",
-								spellID = 1259003,
-							},
-							{
-								mode = "aoe",
-								note = "Cast with or without a {260285} to spend",
-								spellID = 186270,
-							},
-							{
-								mode = "aoe",
-								note = "Cast .",
-								spellID = 259489,
+								url = "https://www.wowhead.com/guide/classes/hunter/survival/enchants-gems-pve-dps",
 							},
 						},
 						statPriority = {

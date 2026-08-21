@@ -14,6 +14,12 @@ local SLOT_LABEL = {
 
 local CONTENT_LABEL = { mplus = "M+", raid = "Banda" }
 
+local CONSUMABLE_LABEL = {
+	FLASK = "Frasco", FOOD = "Comida", WEAPON_OIL = "Aceite de arma",
+	RUNE = "Runa de aumento", POTION = "Pocion de combate",
+	HEALTH_POTION = "Pocion de vida",
+}
+
 local index = nil       -- [itemID] = { entradas }
 local indexedFor = nil  -- clave de la spec para la que se construyo
 
@@ -46,6 +52,16 @@ local function CollectGuide(guide, content)
 			usagePct = entry.usagePct, content = content,
 		})
 	end
+
+	-- Los consumibles no dependen del tipo de contenido, asi que solo se
+	-- indexan una vez o saldrian duplicados en el tooltip.
+	if content == "mplus" then
+		for _, entry in ipairs(guide.consumables or {}) do
+			Add(entry.itemID, {
+				kind = "consumable", category = entry.category, primary = entry.primary,
+			})
+		end
+	end
 end
 
 -- Se indexa solo la spec del jugador. Recorrer las 40 al arrancar costaria
@@ -70,7 +86,10 @@ end
 local function DescribeEntry(entry)
 	local parts = {}
 
-	if entry.kind == "gear" then
+	if entry.kind == "consumable" then
+		local label = CONSUMABLE_LABEL[entry.category] or entry.category
+		return ("%s  ·  %s"):format(label, entry.primary and "recomendado" or "alternativa")
+	elseif entry.kind == "gear" then
 		local slot = SLOT_LABEL[entry.slot] or entry.slot
 		table.insert(parts, ("%s #%d"):format(slot, entry.rank))
 	elseif entry.kind == "gem" then

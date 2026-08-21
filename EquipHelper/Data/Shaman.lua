@@ -8,6 +8,33 @@ ns.RegisterClassData("SHAMAN", {
 			heroes = {
 				[56] = {
 					mplus = {
+						consumables = {
+							{
+								category = "FLASK",
+								itemID = 241322,
+								primary = true,
+							},
+							{
+								category = "POTION",
+								itemID = 241308,
+								primary = true,
+							},
+							{
+								category = "HEALTH_POTION",
+								itemID = 271883,
+								primary = true,
+							},
+							{
+								category = "RUNE",
+								itemID = 259085,
+								primary = true,
+							},
+							{
+								category = "FOOD",
+								itemID = 255846,
+								primary = true,
+							},
+						},
 						enchants = {
 							{
 								itemID = 243971,
@@ -648,59 +675,7 @@ ns.RegisterClassData("SHAMAN", {
 							},
 							wowhead = {
 								fetchedAt = "2026-08-21",
-								url = "https://www.wowhead.com/guide/classes/shaman/elemental/rotation-cooldowns-pve-dps",
-							},
-						},
-						rotation = {
-							{
-								mode = "st",
-								note = "Remember to use and {378081} for movement events.",
-								spellID = 79206,
-							},
-							{
-								mode = "st",
-								note = "Cast on cooldown.",
-								spellID = 191634,
-							},
-							{
-								mode = "st",
-								note = "Cast on cooldown.",
-								spellID = 443454,
-							},
-							{
-								mode = "st",
-								note = "Cast roughly on cooldown, but always after {191634}",
-								spellID = 114050,
-							},
-							{
-								mode = "st",
-								note = "Cast as your filler.",
-								spellID = 188196,
-							},
-							{
-								mode = "aoe",
-								note = "Remember to use and {378081} for movement events.",
-								spellID = 79206,
-							},
-							{
-								mode = "aoe",
-								note = "Cast on cooldown.",
-								spellID = 191634,
-							},
-							{
-								mode = "aoe",
-								note = "Cast roughly on cooldown.",
-								spellID = 443454,
-							},
-							{
-								mode = "aoe",
-								note = "Cast roughly on cooldown, but always after {191634}",
-								spellID = 114050,
-							},
-							{
-								mode = "aoe",
-								note = "Cast as your filler.",
-								spellID = 188443,
+								url = "https://www.wowhead.com/guide/classes/shaman/elemental/enchants-gems-pve-dps",
 							},
 						},
 						statPriority = {
@@ -867,6 +842,38 @@ ns.RegisterClassData("SHAMAN", {
 			heroes = {
 				[55] = {
 					mplus = {
+						consumables = {
+							{
+								category = "FLASK",
+								itemID = 241324,
+								primary = true,
+							},
+							{
+								category = "POTION",
+								itemID = 241288,
+								primary = true,
+							},
+							{
+								category = "HEALTH_POTION",
+								itemID = 271884,
+								primary = true,
+							},
+							{
+								category = "RUNE",
+								itemID = 259085,
+								primary = true,
+							},
+							{
+								category = "FOOD",
+								itemID = 255845,
+								primary = true,
+							},
+							{
+								category = "FOOD",
+								itemID = 242275,
+								primary = false,
+							},
+						},
 						enchants = {
 							{
 								itemID = 244029,
@@ -1522,104 +1529,7 @@ ns.RegisterClassData("SHAMAN", {
 							},
 							wowhead = {
 								fetchedAt = "2026-08-21",
-								url = "https://www.wowhead.com/guide/classes/shaman/enhancement/rotation-cooldowns-pve-dps",
-							},
-						},
-						rotation = {
-							{
-								mode = "st",
-								note = "Cast &ndash;",
-								spellID = 470057,
-							},
-							{
-								mode = "st",
-								note = "Cast &ndash;",
-								spellID = 187874,
-							},
-							{
-								mode = "st",
-								note = "Cast",
-								spellID = 114051,
-							},
-							{
-								mode = "st",
-								note = "Cast during {114051} &ndash;",
-								spellID = 115356,
-							},
-							{
-								mode = "st",
-								note = "Cast during {384352}",
-								spellID = 17364,
-							},
-							{
-								mode = "st",
-								note = "Cast / {188196} with 10 {187880} &ndash;",
-								spellID = 454009,
-							},
-							{
-								mode = "st",
-								note = "Cast",
-								spellID = 17364,
-							},
-							{
-								mode = "st",
-								note = "Cast",
-								spellID = 60103,
-							},
-							{
-								mode = "st",
-								note = "Cast with 5+ {187880}",
-								spellID = 188196,
-							},
-							{
-								mode = "aoe",
-								note = "Cast &ndash;",
-								spellID = 470057,
-							},
-							{
-								mode = "aoe",
-								note = "Cast &ndash;",
-								spellID = 187874,
-							},
-							{
-								mode = "aoe",
-								note = "Cast",
-								spellID = 114051,
-							},
-							{
-								mode = "aoe",
-								note = "Cast during {114051} &ndash;",
-								spellID = 115356,
-							},
-							{
-								mode = "aoe",
-								note = "Cast during {384352}",
-								spellID = 17364,
-							},
-							{
-								mode = "aoe",
-								note = "Cast with a proc and 10 {187880} &ndash;",
-								spellID = 454009,
-							},
-							{
-								mode = "aoe",
-								note = "Cast otherwise at 9+ {187880} &ndash;",
-								spellID = 188443,
-							},
-							{
-								mode = "aoe",
-								note = "Cast",
-								spellID = 17364,
-							},
-							{
-								mode = "aoe",
-								note = "Cast",
-								spellID = 60103,
-							},
-							{
-								mode = "aoe",
-								note = "Cast with 5+ {187880}",
-								spellID = 188443,
+								url = "https://www.wowhead.com/guide/classes/shaman/enhancement/enchants-gems-pve-dps",
 							},
 						},
 						statPriority = {
@@ -1786,6 +1696,38 @@ ns.RegisterClassData("SHAMAN", {
 			heroes = {
 				[54] = {
 					mplus = {
+						consumables = {
+							{
+								category = "FLASK",
+								itemID = 241326,
+								primary = true,
+							},
+							{
+								category = "POTION",
+								itemID = 241288,
+								primary = true,
+							},
+							{
+								category = "HEALTH_POTION",
+								itemID = 241304,
+								primary = true,
+							},
+							{
+								category = "RUNE",
+								itemID = 259085,
+								primary = true,
+							},
+							{
+								category = "FOOD",
+								itemID = 255845,
+								primary = true,
+							},
+							{
+								category = "FOOD",
+								itemID = 242275,
+								primary = false,
+							},
+						},
 						enchants = {
 							{
 								itemID = 244029,
@@ -2426,39 +2368,7 @@ ns.RegisterClassData("SHAMAN", {
 							},
 							wowhead = {
 								fetchedAt = "2026-08-21",
-								url = "https://www.wowhead.com/guide/classes/shaman/restoration/rotation-cooldowns-pve-healer",
-							},
-						},
-						rotation = {
-							{
-								mode = "st",
-								note = "Use all your procs",
-								spellID = 1267068,
-							},
-							{
-								mode = "st",
-								note = "Keep on cooldown",
-								spellID = 61295,
-							},
-							{
-								mode = "st",
-								note = "Use",
-								spellID = 378081,
-							},
-							{
-								mode = "st",
-								note = "Maintain",
-								spellID = 444995,
-							},
-							{
-								mode = "st",
-								note = "Keep on cooldown",
-								spellID = 5394,
-							},
-							{
-								mode = "st",
-								note = "Cast or {77472}",
-								spellID = 1064,
+								url = "https://www.wowhead.com/guide/classes/shaman/restoration/enchants-gems-pve-healer",
 							},
 						},
 						statPriority = {

@@ -3,6 +3,48 @@
   "class_name": "Rogue",
   "guides": [
     {
+      "consumables": [
+        {
+          "category": "FLASK",
+          "is_primary": true,
+          "item_id": 241326
+        },
+        {
+          "category": "FLASK",
+          "is_primary": false,
+          "item_id": 241322
+        },
+        {
+          "category": "POTION",
+          "is_primary": true,
+          "item_id": 241308
+        },
+        {
+          "category": "HEALTH_POTION",
+          "is_primary": true,
+          "item_id": 271884
+        },
+        {
+          "category": "WEAPON_OIL",
+          "is_primary": true,
+          "item_id": 243734
+        },
+        {
+          "category": "RUNE",
+          "is_primary": true,
+          "item_id": 259085
+        },
+        {
+          "category": "FOOD",
+          "is_primary": true,
+          "item_id": 255845
+        },
+        {
+          "category": "FOOD",
+          "is_primary": false,
+          "item_id": 242275
+        }
+      ],
       "content": "mplus",
       "enchants": [
         {
@@ -903,51 +945,9 @@
         },
         "wowhead": {
           "fetched_at": "2026-08-21",
-          "url": "https://www.wowhead.com/guide/classes/rogue/subtlety/rotation-cooldowns-pve-dps"
+          "url": "https://www.wowhead.com/guide/classes/rogue/subtlety/enchants-gems-pve-dps"
         }
       },
-      "rotation": [
-        {
-          "mode": "st",
-          "note": "Cast if {457058} is up.",
-          "spell_id": 196819
-        },
-        {
-          "mode": "st",
-          "note": "Cast .",
-          "spell_id": 280719
-        },
-        {
-          "mode": "st",
-          "note": "Cast .",
-          "spell_id": 196819
-        },
-        {
-          "mode": "st",
-          "note": "Cast .",
-          "spell_id": 185438
-        },
-        {
-          "mode": "aoe",
-          "note": "Cast .",
-          "spell_id": 280719
-        },
-        {
-          "mode": "aoe",
-          "note": "Cast with {457058}.",
-          "spell_id": 196819
-        },
-        {
-          "mode": "aoe",
-          "note": "Cast .",
-          "spell_id": 319175
-        },
-        {
-          "mode": "aoe",
-          "note": "Cast .",
-          "spell_id": 197835
-        }
-      ],
       "stat_priority": [
         {
           "rating": 1018,

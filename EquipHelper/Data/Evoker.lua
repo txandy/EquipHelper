@@ -8,6 +8,43 @@ ns.RegisterClassData("EVOKER", {
 			heroes = {
 				[36] = {
 					mplus = {
+						consumables = {
+							{
+								category = "FLASK",
+								itemID = 241326,
+								primary = true,
+							},
+							{
+								category = "HEALTH_POTION",
+								itemID = 241304,
+								primary = true,
+							},
+							{
+								category = "WEAPON_OIL",
+								itemID = 243734,
+								primary = true,
+							},
+							{
+								category = "RUNE",
+								itemID = 259085,
+								primary = true,
+							},
+							{
+								category = "FOOD",
+								itemID = 255846,
+								primary = true,
+							},
+							{
+								category = "FOOD",
+								itemID = 242272,
+								primary = false,
+							},
+							{
+								category = "FOOD",
+								itemID = 242274,
+								primary = false,
+							},
+						},
 						enchants = {
 							{
 								itemID = 244029,
@@ -648,114 +685,7 @@ ns.RegisterClassData("EVOKER", {
 							},
 							wowhead = {
 								fetchedAt = "2026-08-21",
-								url = "https://www.wowhead.com/guide/classes/evoker/devastation/rotation-cooldowns-pve-dps",
-							},
-						},
-						rotation = {
-							{
-								mode = "st",
-								note = ".",
-								spellID = 357210,
-							},
-							{
-								mode = "st",
-								note = ".",
-								spellID = 375087,
-							},
-							{
-								mode = "st",
-								note = ".",
-								spellID = 370553,
-							},
-							{
-								mode = "st",
-								note = "Rank 1.",
-								spellID = 359073,
-							},
-							{
-								mode = "st",
-								note = "Rank 1.",
-								spellID = 357208,
-							},
-							{
-								mode = "st",
-								note = "with {436335} without {369297} if is not capped.",
-								spellID = 1292321,
-							},
-							{
-								mode = "st",
-								note = "Spend / to channel {356995} with {436335}.",
-								spellID = 369297,
-							},
-							{
-								mode = "st",
-								note = "Spend / to channel {356995}.",
-								spellID = 369297,
-							},
-							{
-								mode = "st",
-								note = ".",
-								spellID = 1292321,
-							},
-							{
-								mode = "st",
-								note = "as filler.",
-								spellID = 361469,
-							},
-							{
-								mode = "st",
-								note = "if needed for movement.",
-								spellID = 362969,
-							},
-							{
-								mode = "aoe",
-								note = ".",
-								spellID = 357210,
-							},
-							{
-								mode = "aoe",
-								note = ".",
-								spellID = 375087,
-							},
-							{
-								mode = "aoe",
-								note = "on {359073}. - .",
-								spellID = 370553,
-							},
-							{
-								mode = "aoe",
-								note = "Rank 1.",
-								spellID = 357208,
-							},
-							{
-								mode = "aoe",
-								note = ".",
-								spellID = 359073,
-							},
-							{
-								mode = "aoe",
-								note = "with {436335} without {369297} if is not capped.",
-								spellID = 1292321,
-							},
-							{
-								mode = "aoe",
-								note = "Channel with {436335}.",
-								spellID = 356995,
-							},
-							{
-								mode = "aoe",
-								note = "Otherwise, channel .",
-								spellID = 356995,
-							},
-							{
-								mode = "aoe",
-								note = ".",
-								spellID = 1292321,
-							},
-							{
-								mode = "aoe",
-								note = "as filler.",
-								spellID = 362969,
+								url = "https://www.wowhead.com/guide/classes/evoker/devastation/enchants-gems-pve-dps",
 							},
 						},
 						statPriority = {
@@ -896,6 +826,48 @@ ns.RegisterClassData("EVOKER", {
 			heroes = {
 				[37] = {
 					mplus = {
+						consumables = {
+							{
+								category = "FLASK",
+								itemID = 241322,
+								primary = true,
+							},
+							{
+								category = "POTION",
+								itemID = 241300,
+								primary = true,
+							},
+							{
+								category = "POTION",
+								itemID = 241288,
+								primary = false,
+							},
+							{
+								category = "HEALTH_POTION",
+								itemID = 271884,
+								primary = true,
+							},
+							{
+								category = "WEAPON_OIL",
+								itemID = 243734,
+								primary = true,
+							},
+							{
+								category = "RUNE",
+								itemID = 259085,
+								primary = true,
+							},
+							{
+								category = "FOOD",
+								itemID = 255846,
+								primary = true,
+							},
+							{
+								category = "FOOD",
+								itemID = 242275,
+								primary = false,
+							},
+						},
 						enchants = {
 							{
 								itemID = 244029,
@@ -1534,6 +1506,10 @@ ns.RegisterClassData("EVOKER", {
 								fetchedAt = "2026-08-21",
 								url = "https://mythicstats.com/spec/preservation-evoker",
 							},
+							wowhead = {
+								fetchedAt = "2026-08-21",
+								url = "https://www.wowhead.com/guide/classes/evoker/preservation/enchants-gems-pve-healer",
+							},
 						},
 						statPriority = {
 							{
@@ -1646,6 +1622,43 @@ ns.RegisterClassData("EVOKER", {
 			heroes = {
 				[36] = {
 					mplus = {
+						consumables = {
+							{
+								category = "FLASK",
+								itemID = 241322,
+								primary = true,
+							},
+							{
+								category = "POTION",
+								itemID = 241288,
+								primary = true,
+							},
+							{
+								category = "HEALTH_POTION",
+								itemID = 271884,
+								primary = true,
+							},
+							{
+								category = "WEAPON_OIL",
+								itemID = 243734,
+								primary = true,
+							},
+							{
+								category = "RUNE",
+								itemID = 259085,
+								primary = true,
+							},
+							{
+								category = "FOOD",
+								itemID = 266985,
+								primary = true,
+							},
+							{
+								category = "FOOD",
+								itemID = 242747,
+								primary = false,
+							},
+						},
 						enchants = {
 							{
 								itemID = 244029,
@@ -2286,109 +2299,7 @@ ns.RegisterClassData("EVOKER", {
 							},
 							wowhead = {
 								fetchedAt = "2026-08-21",
-								url = "https://www.wowhead.com/guide/classes/evoker/augmentation/rotation-cooldowns-pve-dps",
-							},
-						},
-						rotation = {
-							{
-								mode = "st",
-								note = "Maintain on allied DPS players.",
-								spellID = 409311,
-							},
-							{
-								mode = "st",
-								note = "Cast if a few seconds or less remain on the active buff duration.",
-								spellID = 395152,
-							},
-							{
-								mode = "st",
-								note = "Cast (see section on cooldown usage for more details).",
-								spellID = 403631,
-							},
-							{
-								mode = "st",
-								note = "Cast (see section on cooldown usage for more details).",
-								spellID = 370553,
-							},
-							{
-								mode = "st",
-								note = "Cast at Rank 1 or Max Rank.",
-								spellID = 357208,
-							},
-							{
-								mode = "st",
-								note = "Cast at Rank 1, unless increased radius is needed to hit relevant targets.",
-								spellID = 408092,
-							},
-							{
-								mode = "st",
-								note = "Cast .",
-								spellID = 395160,
-							},
-							{
-								mode = "st",
-								note = "Cast as filler in nearly all situations.",
-								spellID = 361469,
-							},
-							{
-								mode = "st",
-								note = "Cast as backup filler that can be cast while moving, or used to slow enemies.",
-								spellID = 362969,
-							},
-							{
-								mode = "st",
-								note = "Maintain on a Tank.",
-								spellID = 360827,
-							},
-							{
-								mode = "aoe",
-								note = "Maintain on allied DPS players.",
-								spellID = 409311,
-							},
-							{
-								mode = "aoe",
-								note = "Cast if a few seconds or less remain on the active buff duration.",
-								spellID = 395152,
-							},
-							{
-								mode = "aoe",
-								note = "Cast (see section on cooldown usage for more details).",
-								spellID = 403631,
-							},
-							{
-								mode = "aoe",
-								note = "Cast (see section on cooldown usage for more details).",
-								spellID = 370553,
-							},
-							{
-								mode = "aoe",
-								note = "Cast at Rank 1 or Max Rank.",
-								spellID = 357208,
-							},
-							{
-								mode = "aoe",
-								note = "Cast at Rank 1, unless increased radius is needed to hit relevant targets.",
-								spellID = 408092,
-							},
-							{
-								mode = "aoe",
-								note = "Cast .",
-								spellID = 395160,
-							},
-							{
-								mode = "aoe",
-								note = "Cast as filler in nearly all situations.",
-								spellID = 361469,
-							},
-							{
-								mode = "aoe",
-								note = "Cast as backup filler that can be cast while moving, or used to slow enemies.",
-								spellID = 362969,
-							},
-							{
-								mode = "aoe",
-								note = "Maintain on a Tank.",
-								spellID = 360827,
+								url = "https://www.wowhead.com/guide/classes/evoker/augmentation/enchants-gems-pve-dps",
 							},
 						},
 						statPriority = {
@@ -2485,6 +2396,43 @@ ns.RegisterClassData("EVOKER", {
 				},
 				[38] = {
 					mplus = {
+						consumables = {
+							{
+								category = "FLASK",
+								itemID = 241322,
+								primary = true,
+							},
+							{
+								category = "POTION",
+								itemID = 241288,
+								primary = true,
+							},
+							{
+								category = "HEALTH_POTION",
+								itemID = 271884,
+								primary = true,
+							},
+							{
+								category = "WEAPON_OIL",
+								itemID = 243734,
+								primary = true,
+							},
+							{
+								category = "RUNE",
+								itemID = 259085,
+								primary = true,
+							},
+							{
+								category = "FOOD",
+								itemID = 266985,
+								primary = true,
+							},
+							{
+								category = "FOOD",
+								itemID = 242747,
+								primary = false,
+							},
+						},
 						enchants = {
 							{
 								itemID = 244029,
@@ -3125,119 +3073,7 @@ ns.RegisterClassData("EVOKER", {
 							},
 							wowhead = {
 								fetchedAt = "2026-08-21",
-								url = "https://www.wowhead.com/guide/classes/evoker/augmentation/rotation-cooldowns-pve-dps",
-							},
-						},
-						rotation = {
-							{
-								mode = "st",
-								note = "Maintain on allied DPS players.",
-								spellID = 409311,
-							},
-							{
-								mode = "st",
-								note = "Cast if a few seconds or less remain on the active buff duration.",
-								spellID = 395152,
-							},
-							{
-								mode = "st",
-								note = "Cast (see section on cooldown usage for more details).",
-								spellID = 403631,
-							},
-							{
-								mode = "st",
-								note = "Cast (see section on cooldown usage for more details).",
-								spellID = 370553,
-							},
-							{
-								mode = "st",
-								note = "Cast at Rank 1 or Max Rank.",
-								spellID = 357208,
-							},
-							{
-								mode = "st",
-								note = "Cast at Rank 1, unless increased radius is needed to hit relevant targets.",
-								spellID = 408092,
-							},
-							{
-								mode = "st",
-								note = "Only if talented: Cast (see section on cooldown usage for more details).",
-								spellID = 404977,
-							},
-							{
-								mode = "st",
-								note = "Cast .",
-								spellID = 395160,
-							},
-							{
-								mode = "st",
-								note = "Cast as filler in nearly all situations.",
-								spellID = 361469,
-							},
-							{
-								mode = "st",
-								note = "Cast as backup filler that can be cast while moving, or used to slow enemies.",
-								spellID = 362969,
-							},
-							{
-								mode = "st",
-								note = "Maintain on a Tank.",
-								spellID = 360827,
-							},
-							{
-								mode = "aoe",
-								note = "Maintain on allied DPS players.",
-								spellID = 409311,
-							},
-							{
-								mode = "aoe",
-								note = "Cast if a few seconds or less remain on the active buff duration.",
-								spellID = 395152,
-							},
-							{
-								mode = "aoe",
-								note = "Cast (see section on cooldown usage for more details).",
-								spellID = 403631,
-							},
-							{
-								mode = "aoe",
-								note = "Cast (see section on cooldown usage for more details).",
-								spellID = 370553,
-							},
-							{
-								mode = "aoe",
-								note = "Cast at Rank 1 or Max Rank.",
-								spellID = 357208,
-							},
-							{
-								mode = "aoe",
-								note = "Cast at Rank 1, unless increased radius is needed to hit relevant targets.",
-								spellID = 408092,
-							},
-							{
-								mode = "aoe",
-								note = "Only if talented: Cast (see section on cooldown usage for more details).",
-								spellID = 404977,
-							},
-							{
-								mode = "aoe",
-								note = "Cast .",
-								spellID = 395160,
-							},
-							{
-								mode = "aoe",
-								note = "Cast as filler in nearly all situations.",
-								spellID = 361469,
-							},
-							{
-								mode = "aoe",
-								note = "Cast as backup filler that can be cast while moving, or used to slow enemies.",
-								spellID = 362969,
-							},
-							{
-								mode = "aoe",
-								note = "Maintain on a Tank.",
-								spellID = 360827,
+								url = "https://www.wowhead.com/guide/classes/evoker/augmentation/enchants-gems-pve-dps",
 							},
 						},
 						statPriority = {

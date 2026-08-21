@@ -3,6 +3,48 @@
   "class_name": "Rogue",
   "guides": [
     {
+      "consumables": [
+        {
+          "category": "FLASK",
+          "is_primary": true,
+          "item_id": 241326
+        },
+        {
+          "category": "FLASK",
+          "is_primary": false,
+          "item_id": 241324
+        },
+        {
+          "category": "POTION",
+          "is_primary": true,
+          "item_id": 241309
+        },
+        {
+          "category": "HEALTH_POTION",
+          "is_primary": true,
+          "item_id": 271884
+        },
+        {
+          "category": "WEAPON_OIL",
+          "is_primary": true,
+          "item_id": 243734
+        },
+        {
+          "category": "RUNE",
+          "is_primary": true,
+          "item_id": 259085
+        },
+        {
+          "category": "FOOD",
+          "is_primary": true,
+          "item_id": 255846
+        },
+        {
+          "category": "FOOD",
+          "is_primary": false,
+          "item_id": 242747
+        }
+      ],
       "content": "mplus",
       "enchants": [
         {
@@ -903,126 +945,9 @@
         },
         "wowhead": {
           "fetched_at": "2026-08-21",
-          "url": "https://www.wowhead.com/guide/classes/rogue/outlaw/rotation-cooldowns-pve-dps"
+          "url": "https://www.wowhead.com/guide/classes/rogue/outlaw/enchants-gems-pve-dps"
         }
       },
-      "rotation": [
-        {
-          "mode": "st",
-          "note": "Cast on cooldown if at stage 1 or less.",
-          "spell_id": 315508
-        },
-        {
-          "mode": "st",
-          "note": "Cast if you have a stage 3 or higher {315508} active.",
-          "spell_id": 381989
-        },
-        {
-          "mode": "st",
-          "note": "Cast whenever {315341}, {13750}, {51690}, and {271877} are on cooldown.",
-          "spell_id": 1277933
-        },
-        {
-          "mode": "st",
-          "note": "Cast on cooldown at 2 or fewer combo points, followed by {51690}.",
-          "spell_id": 13750
-        },
-        {
-          "mode": "st",
-          "note": "Cast with the 4-set bonus active.",
-          "spell_id": 2098
-        },
-        {
-          "mode": "st",
-          "note": "Cast on cooldown.",
-          "spell_id": 271877
-        },
-        {
-          "mode": "st",
-          "note": "Cast at 6 or more combo points.",
-          "spell_id": 315341
-        },
-        {
-          "mode": "st",
-          "note": "Cast at 6 or more combo points.",
-          "spell_id": 2098
-        },
-        {
-          "mode": "st",
-          "note": "Cast if; \\t{279876} has 6 stacks.",
-          "spell_id": 185763
-        },
-        {
-          "mode": "st",
-          "note": "has 3 stacks, and you are at 1-3 combo points.",
-          "spell_id": 279876
-        },
-        {
-          "mode": "st",
-          "note": "Cast at 5 or fewer combo points.",
-          "spell_id": 193315
-        },
-        {
-          "mode": "aoe",
-          "note": "if there are 2 or more targets in range, and it is not already active. If already active, recast at 4 or fewer combo points when there are 4 or more targets within range.",
-          "spell_id": 13877
-        },
-        {
-          "mode": "aoe",
-          "note": "Cast on cooldown if at stage 1 or less.",
-          "spell_id": 315508
-        },
-        {
-          "mode": "aoe",
-          "note": "Cast if you have a stage 3 or higher {315508} active.",
-          "spell_id": 381989
-        },
-        {
-          "mode": "aoe",
-          "note": "Cast whenever {315341}, {13750}, {51690}, and {271877} are on cooldown.",
-          "spell_id": 1277933
-        },
-        {
-          "mode": "aoe",
-          "note": "Cast on cooldown at 2 or fewer combo points, followed by {51690}.",
-          "spell_id": 13750
-        },
-        {
-          "mode": "aoe",
-          "note": "Cast with the 4-set bonus active.",
-          "spell_id": 2098
-        },
-        {
-          "mode": "aoe",
-          "note": "Cast on cooldown.",
-          "spell_id": 271877
-        },
-        {
-          "mode": "aoe",
-          "note": "Cast at 6 or more combo points.",
-          "spell_id": 315341
-        },
-        {
-          "mode": "aoe",
-          "note": "Cast at 6 or more combo points.",
-          "spell_id": 2098
-        },
-        {
-          "mode": "aoe",
-          "note": "Cast if; \\t{279876} has 6 stacks.",
-          "spell_id": 185763
-        },
-        {
-          "mode": "aoe",
-          "note": "has 3 stacks, and you are at 1-3 combo points.",
-          "spell_id": 279876
-        },
-        {
-          "mode": "aoe",
-          "note": "Cast at 5 or fewer combo points.",
-          "spell_id": 193315
-        }
-      ],
       "stat_priority": [
         {
           "rating": 1213,

@@ -12,7 +12,7 @@ from pathlib import Path
 from scraper import emit_lua, validate
 from scraper.http import Fetcher
 from scraper.model import SpecGuides  # noqa: F401
-from scraper.model import Provenance, RotationEntry
+from scraper.model import ConsumableEntry, Provenance
 from scraper.sources import mythicstats, warcraftlogs, wowhead
 from scraper.talent_tree import load as load_talents
 
@@ -28,11 +28,12 @@ SOURCES = [
 ]
 
 
-def _attach_rotations(fetcher, results, specs, report) -> None:
-    """Anade la lista de prioridad de Wowhead a las guias ya construidas.
+def _attach_consumables(fetcher, results, specs, report) -> None:
+    """Anade los consumibles de Wowhead a las guias ya construidas.
 
-    La rotacion depende del hero talent pero no del tipo de contenido: la misma
-    prioridad vale en banda y en mitica+, y por eso se copia a las dos guias.
+    Dependen de la spec pero no del hero talent ni del tipo de contenido: el
+    mismo frasco vale en banda y en mitica+, y por eso se copian a todas sus
+    guias.
     """
     by_slug = {spec.slug: spec for spec in specs}
     covered = 0
@@ -43,31 +44,27 @@ def _attach_rotations(fetcher, results, specs, report) -> None:
             continue
 
         try:
-            rotations, url = wowhead.fetch_rotations(fetcher, spec)
+            consumables, url = wowhead.fetch_consumables(fetcher, spec)
         except Exception as exc:
             report.warnings.append(f"wowhead {result.slug}: {exc}")
             continue
 
-        if not rotations:
-            report.warnings.append(f"wowhead: sin rotacion para {result.slug}")
+        if not consumables:
+            report.warnings.append(f"wowhead: sin consumibles para {result.slug}")
             continue
 
         covered += 1
         fetched_at = date.today().isoformat()
 
         for guide in result.guides:
-            modes = rotations.get(guide.hero_id)
-            if not modes:
-                continue
-
-            guide.rotation = [
-                RotationEntry(spell_id=entry["spell_id"], note=entry["note"], mode=mode)
-                for mode in ("st", "aoe")
-                for entry in modes.get(mode, [])
+            guide.consumables = [
+                ConsumableEntry(category=entry["category"], item_id=entry["item_id"],
+                                is_primary=entry["is_primary"])
+                for entry in consumables
             ]
             guide.provenance[wowhead.SOURCE_KEY] = Provenance(url=url, fetched_at=fetched_at)
 
-    print(f"  wowhead: {covered} specs con rotacion")
+    print(f"  wowhead: {covered} specs con consumibles")
 
 
 def _attach_performance(results: list[SpecGuides], specs, report) -> None:
@@ -174,7 +171,7 @@ def build(args: argparse.Namespace) -> int:
     # La cobertura se mide contra el catalogo completo aunque se pidiera un
     # subconjunto; con --spec eso seria ruido, asi que se compara consigo mismo.
     if not args.no_wowhead:
-        _attach_rotations(fetcher, results, specs, _pending_warnings)
+        _attach_consumables(fetcher, results, specs, _pending_warnings)
 
     if not args.no_warcraftlogs:
         _attach_performance(results, specs, _pending_warnings)
@@ -224,7 +221,7 @@ def main() -> int:
     build_cmd.add_argument("--no-warcraftlogs", action="store_true",
                            help="omite la fuente de rendimiento (util al iterar)")
     build_cmd.add_argument("--no-wowhead", action="store_true",
-                           help="omite la fuente de rotacion (util al iterar)")
+                           help="omite la fuente de consumibles (util al iterar)")
     build_cmd.set_defaults(func=build)
 
     args = parser.parse_args()

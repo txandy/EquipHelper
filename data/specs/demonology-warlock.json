@@ -3,6 +3,43 @@
   "class_name": "Warlock",
   "guides": [
     {
+      "consumables": [
+        {
+          "category": "FLASK",
+          "is_primary": true,
+          "item_id": 241326
+        },
+        {
+          "category": "POTION",
+          "is_primary": true,
+          "item_id": 241308
+        },
+        {
+          "category": "HEALTH_POTION",
+          "is_primary": true,
+          "item_id": 271884
+        },
+        {
+          "category": "WEAPON_OIL",
+          "is_primary": true,
+          "item_id": 243734
+        },
+        {
+          "category": "RUNE",
+          "is_primary": true,
+          "item_id": 259085
+        },
+        {
+          "category": "FOOD",
+          "is_primary": true,
+          "item_id": 255845
+        },
+        {
+          "category": "FOOD",
+          "is_primary": false,
+          "item_id": 242275
+        }
+      ],
       "content": "mplus",
       "enchants": [
         {
@@ -888,91 +925,9 @@
         },
         "wowhead": {
           "fetched_at": "2026-08-21",
-          "url": "https://www.wowhead.com/guide/classes/warlock/demonology/rotation-cooldowns-pve-dps"
+          "url": "https://www.wowhead.com/guide/classes/warlock/demonology/enchants-gems-pve-dps"
         }
       },
-      "rotation": [
-        {
-          "mode": "st",
-          "note": "Cast /{196277}.",
-          "spell_id": 264130
-        },
-        {
-          "mode": "st",
-          "note": "Cast .",
-          "spell_id": 104316
-        },
-        {
-          "mode": "st",
-          "note": "Cast /{434635}.",
-          "spell_id": 105174
-        },
-        {
-          "mode": "st",
-          "note": "Cast /{1276467}.",
-          "spell_id": 1276452
-        },
-        {
-          "mode": "st",
-          "note": "Cast .",
-          "spell_id": 265187
-        },
-        {
-          "mode": "st",
-          "note": "Cast .",
-          "spell_id": 1276672
-        },
-        {
-          "mode": "st",
-          "note": "Cast with {267102}.",
-          "spell_id": 264178
-        },
-        {
-          "mode": "st",
-          "note": "Cast /{433891}.",
-          "spell_id": 686
-        },
-        {
-          "mode": "aoe",
-          "note": "Cast .",
-          "spell_id": 196277
-        },
-        {
-          "mode": "aoe",
-          "note": "Cast .",
-          "spell_id": 1276672
-        },
-        {
-          "mode": "aoe",
-          "note": "Cast .",
-          "spell_id": 104316
-        },
-        {
-          "mode": "aoe",
-          "note": "Cast /{434635}.",
-          "spell_id": 105174
-        },
-        {
-          "mode": "aoe",
-          "note": "Cast /{1276467}.",
-          "spell_id": 1276452
-        },
-        {
-          "mode": "aoe",
-          "note": "Cast .",
-          "spell_id": 265187
-        },
-        {
-          "mode": "aoe",
-          "note": "Cast with {267102}.",
-          "spell_id": 264178
-        },
-        {
-          "mode": "aoe",
-          "note": "Cast /{433891}.",
-          "spell_id": 686
-        }
-      ],
       "stat_priority": [
         {
           "rating": 870,

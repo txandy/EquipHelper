@@ -34,7 +34,7 @@ local function RenderItemList(container, entries)
 end
 
 ns.RegisterTab({
-	order = 4,
+	order = 3,
 	key = "gear",
 	label = "Equipo",
 	render = function(container, guide)

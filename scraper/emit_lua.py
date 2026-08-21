@@ -103,9 +103,9 @@ def _guide_table(guide: dict) -> dict:
             {"itemID": e["item_id"], "slot": e["slot"], "usagePct": e["usage_pct"]}
             for e in guide["enchants"]
         ],
-        "rotation": [
-            {"spellID": e["spell_id"], "note": e["note"], "mode": e["mode"]}
-            for e in guide["rotation"]
+        "consumables": [
+            {"category": e["category"], "itemID": e["item_id"], "primary": e["is_primary"]}
+            for e in guide["consumables"]
         ],
         "performance": _performance_table(guide.get("performance")),
         "provenance": {

@@ -30,6 +30,6 @@ Data\Warrior.lua
 UI\MainPanel.lua
 UI\Tabs\Stats.lua
 UI\Tabs\Talents.lua
-UI\Tabs\Rotation.lua
 UI\Tabs\Gear.lua
+UI\Tabs\Consumables.lua
 UI\Tooltip.lua

@@ -3,6 +3,33 @@
   "class_name": "Death Knight",
   "guides": [
     {
+      "consumables": [
+        {
+          "category": "POTION",
+          "is_primary": true,
+          "item_id": 241288
+        },
+        {
+          "category": "HEALTH_POTION",
+          "is_primary": true,
+          "item_id": 241304
+        },
+        {
+          "category": "RUNE",
+          "is_primary": true,
+          "item_id": 259085
+        },
+        {
+          "category": "FOOD",
+          "is_primary": true,
+          "item_id": 255845
+        },
+        {
+          "category": "FOOD",
+          "is_primary": false,
+          "item_id": 242275
+        }
+      ],
       "content": "mplus",
       "enchants": [
         {
@@ -807,76 +834,9 @@
         },
         "wowhead": {
           "fetched_at": "2026-08-21",
-          "url": "https://www.wowhead.com/guide/classes/death-knight/unholy/rotation-cooldowns-pve-dps"
+          "url": "https://www.wowhead.com/guide/classes/death-knight/unholy/enchants-gems-pve-dps"
         }
       },
-      "rotation": [
-        {
-          "mode": "st",
-          "note": "Cast on cooldown.",
-          "spell_id": 1233448
-        },
-        {
-          "mode": "st",
-          "note": "Cast if {1233448} is active.",
-          "spell_id": 1247378
-        },
-        {
-          "mode": "st",
-          "note": "Cast if you have a {49530} proc.",
-          "spell_id": 47541
-        },
-        {
-          "mode": "st",
-          "note": "Cast if you have no {1254252} stacks.",
-          "spell_id": 85948
-        },
-        {
-          "mode": "st",
-          "note": "Cast if you have {1254252} stacks.",
-          "spell_id": 55090
-        },
-        {
-          "mode": "st",
-          "note": "Cast .",
-          "spell_id": 47541
-        },
-        {
-          "mode": "aoe",
-          "note": "Cast on cooldown.",
-          "spell_id": 1233448
-        },
-        {
-          "mode": "aoe",
-          "note": "Cast if {1233448} is active.",
-          "spell_id": 1247378
-        },
-        {
-          "mode": "aoe",
-          "note": "Cast if you expect your targets to stay inside of it.",
-          "spell_id": 43265
-        },
-        {
-          "mode": "aoe",
-          "note": "Cast if {49530} procs.",
-          "spell_id": 207317
-        },
-        {
-          "mode": "aoe",
-          "note": "Cast if you have no {1254252} stacks.",
-          "spell_id": 85948
-        },
-        {
-          "mode": "aoe",
-          "note": "Cast if you have {1254252} stacks.",
-          "spell_id": 55090
-        },
-        {
-          "mode": "aoe",
-          "note": "Cast .",
-          "spell_id": 207317
-        }
-      ],
       "stat_priority": [
         {
           "rating": 1152,
@@ -1019,6 +979,33 @@
       ]
     },
     {
+      "consumables": [
+        {
+          "category": "POTION",
+          "is_primary": true,
+          "item_id": 241288
+        },
+        {
+          "category": "HEALTH_POTION",
+          "is_primary": true,
+          "item_id": 241304
+        },
+        {
+          "category": "RUNE",
+          "is_primary": true,
+          "item_id": 259085
+        },
+        {
+          "category": "FOOD",
+          "is_primary": true,
+          "item_id": 255845
+        },
+        {
+          "category": "FOOD",
+          "is_primary": false,
+          "item_id": 242275
+        }
+      ],
       "content": "mplus",
       "enchants": [
         {
@@ -1823,76 +1810,9 @@
         },
         "wowhead": {
           "fetched_at": "2026-08-21",
-          "url": "https://www.wowhead.com/guide/classes/death-knight/unholy/rotation-cooldowns-pve-dps"
+          "url": "https://www.wowhead.com/guide/classes/death-knight/unholy/enchants-gems-pve-dps"
         }
       },
-      "rotation": [
-        {
-          "mode": "st",
-          "note": "Cast on cooldown.",
-          "spell_id": 1233448
-        },
-        {
-          "mode": "st",
-          "note": "Cast if {1233448} is active.",
-          "spell_id": 1247378
-        },
-        {
-          "mode": "st",
-          "note": "Cast if you have a {49530} proc.",
-          "spell_id": 47541
-        },
-        {
-          "mode": "st",
-          "note": "Cast if you have no {1254252} stacks.",
-          "spell_id": 85948
-        },
-        {
-          "mode": "st",
-          "note": "Cast if you have {1254252} stacks.",
-          "spell_id": 55090
-        },
-        {
-          "mode": "st",
-          "note": "Cast .",
-          "spell_id": 47541
-        },
-        {
-          "mode": "aoe",
-          "note": "Cast on cooldown.",
-          "spell_id": 1233448
-        },
-        {
-          "mode": "aoe",
-          "note": "Cast if {1233448} is active.",
-          "spell_id": 1247378
-        },
-        {
-          "mode": "aoe",
-          "note": "Cast if you expect your targets to stay inside of it.",
-          "spell_id": 43265
-        },
-        {
-          "mode": "aoe",
-          "note": "Cast if {49530} procs.",
-          "spell_id": 207317
-        },
-        {
-          "mode": "aoe",
-          "note": "Cast if you have no {1254252} stacks.",
-          "spell_id": 85948
-        },
-        {
-          "mode": "aoe",
-          "note": "Cast if you have {1254252} stacks.",
-          "spell_id": 55090
-        },
-        {
-          "mode": "aoe",
-          "note": "Cast .",
-          "spell_id": 207317
-        }
-      ],
       "stat_priority": [
         {
           "rating": 1152,

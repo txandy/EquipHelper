@@ -8,734 +8,48 @@ ns.RegisterClassData("DEATHKNIGHT", {
 			heroes = {
 				[31] = {
 					mplus = {
-						enchants = {
+						consumables = {
 							{
-								itemID = 244029,
-								slot = "MAINHAND",
-								usagePct = 0.1,
+								category = "FLASK",
+								itemID = 241324,
+								primary = true,
 							},
 							{
-								itemID = 243981,
-								slot = "HEAD",
-								usagePct = 41.7,
+								category = "FLASK",
+								itemID = 241326,
+								primary = false,
 							},
 							{
-								itemID = 243951,
-								slot = "HEAD",
-								usagePct = 26.0,
+								category = "POTION",
+								itemID = 241288,
+								primary = true,
 							},
 							{
-								itemID = 244007,
-								slot = "HEAD",
-								usagePct = 22.0,
+								category = "HEALTH_POTION",
+								itemID = 271884,
+								primary = true,
 							},
 							{
-								itemID = 243963,
-								slot = "SHOULDER",
-								usagePct = 48.7,
+								category = "WEAPON_OIL",
+								itemID = 243734,
+								primary = true,
 							},
 							{
-								itemID = 244021,
-								slot = "SHOULDER",
-								usagePct = 34.1,
+								category = "RUNE",
+								itemID = 259085,
+								primary = true,
 							},
 							{
-								itemID = 243991,
-								slot = "SHOULDER",
-								usagePct = 12.2,
+								category = "FOOD",
+								itemID = 255846,
+								primary = true,
 							},
 							{
-								itemID = 243977,
-								slot = "CHEST",
-								usagePct = 90.9,
-							},
-							{
-								itemID = 243947,
-								slot = "CHEST",
-								usagePct = 8.2,
-							},
-							{
-								itemID = 243976,
-								slot = "CHEST",
-								usagePct = 0.6,
-							},
-							{
-								itemID = 244641,
-								slot = "LEGS",
-								usagePct = 93.8,
-							},
-							{
-								itemID = 244643,
-								slot = "LEGS",
-								usagePct = 5.3,
-							},
-							{
-								itemID = 244645,
-								slot = "LEGS",
-								usagePct = 0.5,
-							},
-							{
-								itemID = 244009,
-								slot = "FEET",
-								usagePct = 52.3,
-							},
-							{
-								itemID = 243983,
-								slot = "FEET",
-								usagePct = 31.2,
-							},
-							{
-								itemID = 243953,
-								slot = "FEET",
-								usagePct = 16.1,
-							},
-							{
-								itemID = 243957,
-								slot = "FINGER1",
-								usagePct = 32.0,
-							},
-							{
-								itemID = 244017,
-								slot = "FINGER1",
-								usagePct = 24.2,
-							},
-							{
-								itemID = 244015,
-								slot = "FINGER1",
-								usagePct = 16.8,
+								category = "FOOD",
+								itemID = 242273,
+								primary = false,
 							},
 						},
-						gear = {
-							BACK = {
-								{
-									itemID = 193763,
-									usagePct = 18.5,
-								},
-								{
-									itemID = 239656,
-									usagePct = 18.3,
-								},
-								{
-									itemID = 159288,
-									usagePct = 11.8,
-								},
-								{
-									itemID = 251190,
-									usagePct = 11.1,
-								},
-								{
-									itemID = 251132,
-									usagePct = 9.7,
-								},
-								{
-									itemID = 249965,
-									usagePct = 3.9,
-								},
-								{
-									itemID = 272230,
-									usagePct = 3.2,
-								},
-								{
-									itemID = 272227,
-									usagePct = 2.8,
-								},
-							},
-							CHEST = {
-								{
-									itemID = 249973,
-									usagePct = 49.5,
-								},
-								{
-									itemID = 271477,
-									usagePct = 16.8,
-								},
-								{
-									itemID = 193753,
-									usagePct = 7.1,
-								},
-								{
-									itemID = 251151,
-									usagePct = 6.8,
-								},
-								{
-									itemID = 251193,
-									usagePct = 6.1,
-								},
-								{
-									itemID = 273787,
-									usagePct = 5.2,
-								},
-								{
-									itemID = 239036,
-									usagePct = 4.7,
-								},
-								{
-									itemID = 272255,
-									usagePct = 1.4,
-								},
-							},
-							FEET = {
-								{
-									itemID = 273777,
-									usagePct = 18.1,
-								},
-								{
-									itemID = 193728,
-									usagePct = 14.5,
-								},
-								{
-									itemID = 159412,
-									usagePct = 12.0,
-								},
-								{
-									itemID = 249381,
-									usagePct = 10.7,
-								},
-								{
-									itemID = 277770,
-									usagePct = 9.2,
-								},
-								{
-									itemID = 249972,
-									usagePct = 6.8,
-								},
-								{
-									itemID = 272256,
-									usagePct = 5.2,
-								},
-								{
-									itemID = 237828,
-									usagePct = 4.3,
-								},
-							},
-							FINGER1 = {
-								{
-									itemID = 268290,
-									usagePct = 26.7,
-								},
-								{
-									itemID = 273792,
-									usagePct = 17.8,
-								},
-								{
-									itemID = 159459,
-									usagePct = 16.3,
-								},
-								{
-									itemID = 252258,
-									usagePct = 15.5,
-								},
-								{
-									itemID = 251148,
-									usagePct = 12.1,
-								},
-								{
-									itemID = 158366,
-									usagePct = 10.6,
-								},
-								{
-									itemID = 251136,
-									usagePct = 10.2,
-								},
-								{
-									itemID = 162544,
-									usagePct = 9.3,
-								},
-							},
-							HANDS = {
-								{
-									itemID = 249971,
-									usagePct = 41.7,
-								},
-								{
-									itemID = 271475,
-									usagePct = 16.9,
-								},
-								{
-									itemID = 251221,
-									usagePct = 14.5,
-								},
-								{
-									itemID = 251214,
-									usagePct = 6.8,
-								},
-								{
-									itemID = 251197,
-									usagePct = 6.6,
-								},
-								{
-									itemID = 159413,
-									usagePct = 3.2,
-								},
-								{
-									itemID = 277769,
-									usagePct = 2.5,
-								},
-								{
-									itemID = 151332,
-									usagePct = 2.3,
-								},
-							},
-							HEAD = {
-								{
-									itemID = 249970,
-									usagePct = 52.5,
-								},
-								{
-									itemID = 271474,
-									usagePct = 15.6,
-								},
-								{
-									itemID = 251126,
-									usagePct = 9.0,
-								},
-								{
-									itemID = 251229,
-									usagePct = 8.4,
-								},
-								{
-									itemID = 239050,
-									usagePct = 3.9,
-								},
-								{
-									itemID = 277768,
-									usagePct = 3.4,
-								},
-								{
-									itemID = 272258,
-									usagePct = 1.9,
-								},
-								{
-									itemID = 266432,
-									usagePct = 1.7,
-								},
-							},
-							LEGS = {
-								{
-									itemID = 249969,
-									usagePct = 48.8,
-								},
-								{
-									itemID = 271473,
-									usagePct = 15.2,
-								},
-								{
-									itemID = 251182,
-									usagePct = 13.2,
-								},
-								{
-									itemID = 159435,
-									usagePct = 5.9,
-								},
-								{
-									itemID = 273776,
-									usagePct = 5.4,
-								},
-								{
-									itemID = 277767,
-									usagePct = 4.5,
-								},
-								{
-									itemID = 272259,
-									usagePct = 2.7,
-								},
-								{
-									itemID = 251208,
-									usagePct = 1.2,
-								},
-							},
-							MAINHAND = {
-								{
-									itemID = 237846,
-									usagePct = 39.7,
-								},
-								{
-									itemID = 193755,
-									usagePct = 9.7,
-								},
-								{
-									itemID = 251230,
-									usagePct = 7.0,
-								},
-								{
-									itemID = 251134,
-									usagePct = 5.8,
-								},
-								{
-									itemID = 251181,
-									usagePct = 5.6,
-								},
-								{
-									itemID = 273782,
-									usagePct = 4.4,
-								},
-								{
-									itemID = 159644,
-									usagePct = 3.9,
-								},
-								{
-									itemID = 237842,
-									usagePct = 3.9,
-								},
-							},
-							NECK = {
-								{
-									itemID = 268291,
-									usagePct = 28.6,
-								},
-								{
-									itemID = 273781,
-									usagePct = 12.8,
-								},
-								{
-									itemID = 251234,
-									usagePct = 11.5,
-								},
-								{
-									itemID = 251142,
-									usagePct = 11.2,
-								},
-								{
-									itemID = 251173,
-									usagePct = 10.3,
-								},
-								{
-									itemID = 272229,
-									usagePct = 3.7,
-								},
-								{
-									itemID = 240950,
-									usagePct = 3.4,
-								},
-								{
-									itemID = 272228,
-									usagePct = 3.2,
-								},
-							},
-							SHOULDER = {
-								{
-									itemID = 249968,
-									usagePct = 40.2,
-								},
-								{
-									itemID = 271472,
-									usagePct = 15.0,
-								},
-								{
-									itemID = 239037,
-									usagePct = 12.4,
-								},
-								{
-									itemID = 251138,
-									usagePct = 8.5,
-								},
-								{
-									itemID = 239051,
-									usagePct = 6.3,
-								},
-								{
-									itemID = 277766,
-									usagePct = 4.3,
-								},
-								{
-									itemID = 50234,
-									usagePct = 3.4,
-								},
-								{
-									itemID = 272260,
-									usagePct = 3.2,
-								},
-							},
-							TRINKET1 = {
-								{
-									itemID = 249343,
-									usagePct = 30.6,
-								},
-								{
-									itemID = 249344,
-									usagePct = 28.3,
-								},
-								{
-									itemID = 250238,
-									usagePct = 8.7,
-								},
-								{
-									itemID = 250229,
-									usagePct = 8.7,
-								},
-								{
-									itemID = 273796,
-									usagePct = 8.3,
-								},
-								{
-									itemID = 274493,
-									usagePct = 8.0,
-								},
-								{
-									itemID = 264507,
-									usagePct = 7.5,
-								},
-								{
-									itemID = 250245,
-									usagePct = 7.2,
-								},
-							},
-							WAIST = {
-								{
-									itemID = 268289,
-									usagePct = 22.2,
-								},
-								{
-									itemID = 251144,
-									usagePct = 14.2,
-								},
-								{
-									itemID = 159418,
-									usagePct = 14.2,
-								},
-								{
-									itemID = 249967,
-									usagePct = 13.8,
-								},
-								{
-									itemID = 159442,
-									usagePct = 11.5,
-								},
-								{
-									itemID = 277765,
-									usagePct = 6.7,
-								},
-								{
-									itemID = 272261,
-									usagePct = 3.9,
-								},
-								{
-									itemID = 268244,
-									usagePct = 2.1,
-								},
-							},
-							WRIST = {
-								{
-									itemID = 237834,
-									usagePct = 35.8,
-								},
-								{
-									itemID = 159425,
-									usagePct = 14.3,
-								},
-								{
-									itemID = 251133,
-									usagePct = 11.6,
-								},
-								{
-									itemID = 159409,
-									usagePct = 11.2,
-								},
-								{
-									itemID = 272262,
-									usagePct = 4.9,
-								},
-								{
-									itemID = 277764,
-									usagePct = 4.9,
-								},
-								{
-									itemID = 249966,
-									usagePct = 4.8,
-								},
-								{
-									itemID = 276641,
-									usagePct = 2.6,
-								},
-							},
-						},
-						gems = {
-							{
-								itemID = 240983,
-								usagePct = 20.8,
-							},
-							{
-								itemID = 240908,
-								usagePct = 13.7,
-							},
-							{
-								itemID = 240890,
-								usagePct = 13.2,
-							},
-							{
-								itemID = 240916,
-								usagePct = 9.1,
-							},
-							{
-								itemID = 240918,
-								usagePct = 8.4,
-							},
-							{
-								itemID = 240898,
-								usagePct = 8.1,
-							},
-							{
-								itemID = 240894,
-								usagePct = 8.1,
-							},
-							{
-								itemID = 240906,
-								usagePct = 5.7,
-							},
-							{
-								itemID = 240914,
-								usagePct = 4.0,
-							},
-						},
-						performance = {
-							difficulty = "Mitica+",
-							median = 123253.3,
-							metric = "dps",
-							outOf = 40,
-							rank = 28,
-							sample = 300,
-							top = 215625.1,
-							zone = "Mythic+ Season 2",
-						},
-						provenance = {
-							mythicstats = {
-								fetchedAt = "2026-08-21",
-								url = "https://mythicstats.com/spec/blood-death-knight",
-							},
-						},
-						statPriority = {
-							{
-								share = 51.2,
-								stat = "MASTERY",
-								weight = 1.0,
-							},
-							{
-								share = 19.9,
-								stat = "HASTE",
-								weight = 0.848,
-							},
-							{
-								share = 18.5,
-								stat = "CRIT",
-								weight = 0.768,
-							},
-							{
-								share = 6.7,
-								stat = "VERSATILITY",
-								weight = 0.473,
-							},
-						},
-						talentBuilds = {
-							{
-								importString = "CoPAAAAAAAAAAAAAAAAAAAAAAwYWmZmxMmZmhZZmZmmZxYMmxAAAAAmxMzMzMDzYMAYMzMzAAAYgBmxiGLLAWGwGgZMzAAAzMwwA",
-								label = "San'layn #1",
-								metrics = {
-									["Avg dps"] = "124K",
-									["Avg key"] = "+12.4",
-									["Max dps"] = "140K",
-									["Max key"] = "+13",
-								},
-								source = "mythicstats",
-								url = "https://mythicstats.com/spec/blood-death-knight",
-								usagePct = 2.5,
-							},
-							{
-								importString = "CoPAAAAAAAAAAAAAAAAAAAAAAwMzyMzwMmZmhZbmZmmZxMjZmxAAAAAmhZmZmZMzYAAzMzMzAAAYgBmxiGLbA2GwGgZMAAAzMAGA",
-								label = "San'layn #2",
-								metrics = {
-									["Avg dps"] = "128K",
-									["Avg key"] = "+12.1",
-									["Max dps"] = "167K",
-									["Max key"] = "+13",
-								},
-								source = "mythicstats",
-								url = "https://mythicstats.com/spec/blood-death-knight",
-								usagePct = 2.3,
-							},
-							{
-								importString = "CoPAAAAAAAAAAAAAAAAAAAAAAwMzyMzMmxMzMMLzMz0MLGjxMGAAAAwMmZmZmZYGjBAjZmZGAAADMwMW0YZBwyA2AMjZAAAzMwwA",
-								label = "San'layn #3",
-								metrics = {
-									["Avg dps"] = "123K",
-									["Avg key"] = "+12.4",
-									["Max dps"] = "152K",
-									["Max key"] = "+13",
-								},
-								source = "mythicstats",
-								url = "https://mythicstats.com/spec/blood-death-knight",
-								usagePct = 2.1,
-							},
-							{
-								importString = "CoPAAAAAAAAAAAAAAAAAAAAAAwMzyMzMmxMzMMLjZmmZxYmZmxAAAAAGMzMzMjZmZMAYmZmZGAAADMwMW0YZDw2A2AMjBAAYmBwA",
-								label = "San'layn #4",
-								metrics = {
-									["Avg dps"] = "113K",
-									["Avg key"] = "+12.4",
-									["Max dps"] = "128K",
-									["Max key"] = "+13",
-								},
-								source = "mythicstats",
-								url = "https://mythicstats.com/spec/blood-death-knight",
-								usagePct = 2.1,
-							},
-							{
-								importString = "CoPAAAAAAAAAAAAAAAAAAAAAAwMzyMzMmxMmhZbmZmmZxMjZmxAAAAAGMzMzMjZmZMAYmZmZGAAADMwMW0YZDw2A2AMjBAAYmBwA",
-								label = "San'layn #5",
-								metrics = {
-									["Avg dps"] = "103K",
-									["Avg key"] = "+12.1",
-									["Max dps"] = "104K",
-									["Max key"] = "+13",
-								},
-								source = "mythicstats",
-								url = "https://mythicstats.com/spec/blood-death-knight",
-								usagePct = 1.9,
-							},
-							{
-								importString = "CoPAAAAAAAAAAAAAAAAAAAAAAwMzyMzwMmZmhZbmZmmZxMjZmxAAAAAGMzMzMjZmZMAYmZmZGAAADMwMW0YZDw2A2AMjBAAYmBwA",
-								label = "San'layn #6",
-								metrics = {
-									["Avg dps"] = "127K",
-									["Avg key"] = "+12.7",
-									["Max dps"] = "157K",
-									["Max key"] = "+13",
-								},
-								source = "mythicstats",
-								url = "https://mythicstats.com/spec/blood-death-knight",
-								usagePct = 1.4,
-							},
-							{
-								importString = "CoPAAAAAAAAAAAAAAAAAAAAAAwMzyMzMmxMzMMLjZmmZxYmZmxAAAAAGMzMzMjZmZMAYmZmZGAAADMwMW0YZBwyA2AMjBAAYmBwA",
-								label = "San'layn #7",
-								metrics = {
-									["Avg dps"] = "131K",
-									["Avg key"] = "+12.5",
-									["Max dps"] = "140K",
-									["Max key"] = "+14",
-								},
-								source = "mythicstats",
-								url = "https://mythicstats.com/spec/blood-death-knight",
-								usagePct = 1.3,
-							},
-							{
-								importString = "CoPAAAAAAAAAAAAAAAAAAAAAAwMzyMzMmxMzMMLzMz0MLGjxMGAAAAwMmZmZmZYGDAYmZmZGAAADMwMW0YZBwyA2AMjZAAAzMwwA",
-								label = "San'layn #8",
-								metrics = {
-									["Avg dps"] = "116K",
-									["Avg key"] = "+12.5",
-									["Max dps"] = "126K",
-									["Max key"] = "+13",
-								},
-								source = "mythicstats",
-								url = "https://mythicstats.com/spec/blood-death-knight",
-								usagePct = 1.3,
-							},
-						},
-					},
-					name = "San'layn",
-				},
-				[33] = {
-					mplus = {
 						enchants = {
 							{
 								itemID = 244029,
@@ -1332,39 +646,781 @@ ns.RegisterClassData("DEATHKNIGHT", {
 							},
 							wowhead = {
 								fetchedAt = "2026-08-21",
-								url = "https://www.wowhead.com/guide/classes/death-knight/blood/rotation-cooldowns-pve-tank",
+								url = "https://www.wowhead.com/guide/classes/death-knight/blood/enchants-gems-pve-tank",
 							},
 						},
-						rotation = {
+						statPriority = {
 							{
-								mode = "aoe",
-								note = "Gather the enemies or packs you intend to pull. You can weave , {206930} and {49998} while doing so to build AoE threat",
-								spellID = 50842,
+								share = 51.2,
+								stat = "MASTERY",
+								weight = 1.0,
 							},
 							{
-								mode = "aoe",
-								note = "Near the end of your gather, pre-place where you intend to fight",
-								spellID = 43265,
+								share = 19.9,
+								stat = "HASTE",
+								weight = 0.848,
 							},
 							{
-								mode = "aoe",
-								note = "Cast",
-								spellID = 439843,
+								share = 18.5,
+								stat = "CRIT",
+								weight = 0.768,
 							},
 							{
-								mode = "aoe",
-								note = "Cast",
-								spellID = 49028,
+								share = 6.7,
+								stat = "VERSATILITY",
+								weight = 0.473,
+							},
+						},
+						talentBuilds = {
+							{
+								importString = "CoPAAAAAAAAAAAAAAAAAAAAAAwYWmZmxMmZmhZZmZmmZxYMmxAAAAAmxMzMzMDzYMAYMzMzAAAYgBmxiGLLAWGwGgZMzAAAzMwwA",
+								label = "San'layn #1",
+								metrics = {
+									["Avg dps"] = "124K",
+									["Avg key"] = "+12.4",
+									["Max dps"] = "140K",
+									["Max key"] = "+13",
+								},
+								source = "mythicstats",
+								url = "https://mythicstats.com/spec/blood-death-knight",
+								usagePct = 2.5,
 							},
 							{
-								mode = "aoe",
-								note = "Cast",
-								spellID = 50842,
+								importString = "CoPAAAAAAAAAAAAAAAAAAAAAAwMzyMzwMmZmhZbmZmmZxMjZmxAAAAAmhZmZmZMzYAAzMzMzAAAYgBmxiGLbA2GwGgZMAAAzMAGA",
+								label = "San'layn #2",
+								metrics = {
+									["Avg dps"] = "128K",
+									["Avg key"] = "+12.1",
+									["Max dps"] = "167K",
+									["Max key"] = "+13",
+								},
+								source = "mythicstats",
+								url = "https://mythicstats.com/spec/blood-death-knight",
+								usagePct = 2.3,
 							},
 							{
-								mode = "aoe",
-								note = "Cast",
-								spellID = 49998,
+								importString = "CoPAAAAAAAAAAAAAAAAAAAAAAwMzyMzMmxMzMMLzMz0MLGjxMGAAAAwMmZmZmZYGjBAjZmZGAAADMwMW0YZBwyA2AMjZAAAzMwwA",
+								label = "San'layn #3",
+								metrics = {
+									["Avg dps"] = "123K",
+									["Avg key"] = "+12.4",
+									["Max dps"] = "152K",
+									["Max key"] = "+13",
+								},
+								source = "mythicstats",
+								url = "https://mythicstats.com/spec/blood-death-knight",
+								usagePct = 2.1,
+							},
+							{
+								importString = "CoPAAAAAAAAAAAAAAAAAAAAAAwMzyMzMmxMzMMLjZmmZxYmZmxAAAAAGMzMzMjZmZMAYmZmZGAAADMwMW0YZDw2A2AMjBAAYmBwA",
+								label = "San'layn #4",
+								metrics = {
+									["Avg dps"] = "113K",
+									["Avg key"] = "+12.4",
+									["Max dps"] = "128K",
+									["Max key"] = "+13",
+								},
+								source = "mythicstats",
+								url = "https://mythicstats.com/spec/blood-death-knight",
+								usagePct = 2.1,
+							},
+							{
+								importString = "CoPAAAAAAAAAAAAAAAAAAAAAAwMzyMzMmxMmhZbmZmmZxMjZmxAAAAAGMzMzMjZmZMAYmZmZGAAADMwMW0YZDw2A2AMjBAAYmBwA",
+								label = "San'layn #5",
+								metrics = {
+									["Avg dps"] = "103K",
+									["Avg key"] = "+12.1",
+									["Max dps"] = "104K",
+									["Max key"] = "+13",
+								},
+								source = "mythicstats",
+								url = "https://mythicstats.com/spec/blood-death-knight",
+								usagePct = 1.9,
+							},
+							{
+								importString = "CoPAAAAAAAAAAAAAAAAAAAAAAwMzyMzwMmZmhZbmZmmZxMjZmxAAAAAGMzMzMjZmZMAYmZmZGAAADMwMW0YZDw2A2AMjBAAYmBwA",
+								label = "San'layn #6",
+								metrics = {
+									["Avg dps"] = "127K",
+									["Avg key"] = "+12.7",
+									["Max dps"] = "157K",
+									["Max key"] = "+13",
+								},
+								source = "mythicstats",
+								url = "https://mythicstats.com/spec/blood-death-knight",
+								usagePct = 1.4,
+							},
+							{
+								importString = "CoPAAAAAAAAAAAAAAAAAAAAAAwMzyMzMmxMzMMLjZmmZxYmZmxAAAAAGMzMzMjZmZMAYmZmZGAAADMwMW0YZBwyA2AMjBAAYmBwA",
+								label = "San'layn #7",
+								metrics = {
+									["Avg dps"] = "131K",
+									["Avg key"] = "+12.5",
+									["Max dps"] = "140K",
+									["Max key"] = "+14",
+								},
+								source = "mythicstats",
+								url = "https://mythicstats.com/spec/blood-death-knight",
+								usagePct = 1.3,
+							},
+							{
+								importString = "CoPAAAAAAAAAAAAAAAAAAAAAAwMzyMzMmxMzMMLzMz0MLGjxMGAAAAwMmZmZmZYGDAYmZmZGAAADMwMW0YZBwyA2AMjZAAAzMwwA",
+								label = "San'layn #8",
+								metrics = {
+									["Avg dps"] = "116K",
+									["Avg key"] = "+12.5",
+									["Max dps"] = "126K",
+									["Max key"] = "+13",
+								},
+								source = "mythicstats",
+								url = "https://mythicstats.com/spec/blood-death-knight",
+								usagePct = 1.3,
+							},
+						},
+					},
+					name = "San'layn",
+				},
+				[33] = {
+					mplus = {
+						consumables = {
+							{
+								category = "FLASK",
+								itemID = 241324,
+								primary = true,
+							},
+							{
+								category = "FLASK",
+								itemID = 241326,
+								primary = false,
+							},
+							{
+								category = "POTION",
+								itemID = 241288,
+								primary = true,
+							},
+							{
+								category = "HEALTH_POTION",
+								itemID = 271884,
+								primary = true,
+							},
+							{
+								category = "WEAPON_OIL",
+								itemID = 243734,
+								primary = true,
+							},
+							{
+								category = "RUNE",
+								itemID = 259085,
+								primary = true,
+							},
+							{
+								category = "FOOD",
+								itemID = 255846,
+								primary = true,
+							},
+							{
+								category = "FOOD",
+								itemID = 242273,
+								primary = false,
+							},
+						},
+						enchants = {
+							{
+								itemID = 244029,
+								slot = "MAINHAND",
+								usagePct = 0.1,
+							},
+							{
+								itemID = 243981,
+								slot = "HEAD",
+								usagePct = 41.7,
+							},
+							{
+								itemID = 243951,
+								slot = "HEAD",
+								usagePct = 26.0,
+							},
+							{
+								itemID = 244007,
+								slot = "HEAD",
+								usagePct = 22.0,
+							},
+							{
+								itemID = 243963,
+								slot = "SHOULDER",
+								usagePct = 48.7,
+							},
+							{
+								itemID = 244021,
+								slot = "SHOULDER",
+								usagePct = 34.1,
+							},
+							{
+								itemID = 243991,
+								slot = "SHOULDER",
+								usagePct = 12.2,
+							},
+							{
+								itemID = 243977,
+								slot = "CHEST",
+								usagePct = 90.9,
+							},
+							{
+								itemID = 243947,
+								slot = "CHEST",
+								usagePct = 8.2,
+							},
+							{
+								itemID = 243976,
+								slot = "CHEST",
+								usagePct = 0.6,
+							},
+							{
+								itemID = 244641,
+								slot = "LEGS",
+								usagePct = 93.8,
+							},
+							{
+								itemID = 244643,
+								slot = "LEGS",
+								usagePct = 5.3,
+							},
+							{
+								itemID = 244645,
+								slot = "LEGS",
+								usagePct = 0.5,
+							},
+							{
+								itemID = 244009,
+								slot = "FEET",
+								usagePct = 52.3,
+							},
+							{
+								itemID = 243983,
+								slot = "FEET",
+								usagePct = 31.2,
+							},
+							{
+								itemID = 243953,
+								slot = "FEET",
+								usagePct = 16.1,
+							},
+							{
+								itemID = 243957,
+								slot = "FINGER1",
+								usagePct = 32.0,
+							},
+							{
+								itemID = 244017,
+								slot = "FINGER1",
+								usagePct = 24.2,
+							},
+							{
+								itemID = 244015,
+								slot = "FINGER1",
+								usagePct = 16.8,
+							},
+						},
+						gear = {
+							BACK = {
+								{
+									itemID = 193763,
+									usagePct = 18.5,
+								},
+								{
+									itemID = 239656,
+									usagePct = 18.3,
+								},
+								{
+									itemID = 159288,
+									usagePct = 11.8,
+								},
+								{
+									itemID = 251190,
+									usagePct = 11.1,
+								},
+								{
+									itemID = 251132,
+									usagePct = 9.7,
+								},
+								{
+									itemID = 249965,
+									usagePct = 3.9,
+								},
+								{
+									itemID = 272230,
+									usagePct = 3.2,
+								},
+								{
+									itemID = 272227,
+									usagePct = 2.8,
+								},
+							},
+							CHEST = {
+								{
+									itemID = 249973,
+									usagePct = 49.5,
+								},
+								{
+									itemID = 271477,
+									usagePct = 16.8,
+								},
+								{
+									itemID = 193753,
+									usagePct = 7.1,
+								},
+								{
+									itemID = 251151,
+									usagePct = 6.8,
+								},
+								{
+									itemID = 251193,
+									usagePct = 6.1,
+								},
+								{
+									itemID = 273787,
+									usagePct = 5.2,
+								},
+								{
+									itemID = 239036,
+									usagePct = 4.7,
+								},
+								{
+									itemID = 272255,
+									usagePct = 1.4,
+								},
+							},
+							FEET = {
+								{
+									itemID = 273777,
+									usagePct = 18.1,
+								},
+								{
+									itemID = 193728,
+									usagePct = 14.5,
+								},
+								{
+									itemID = 159412,
+									usagePct = 12.0,
+								},
+								{
+									itemID = 249381,
+									usagePct = 10.7,
+								},
+								{
+									itemID = 277770,
+									usagePct = 9.2,
+								},
+								{
+									itemID = 249972,
+									usagePct = 6.8,
+								},
+								{
+									itemID = 272256,
+									usagePct = 5.2,
+								},
+								{
+									itemID = 237828,
+									usagePct = 4.3,
+								},
+							},
+							FINGER1 = {
+								{
+									itemID = 268290,
+									usagePct = 26.7,
+								},
+								{
+									itemID = 273792,
+									usagePct = 17.8,
+								},
+								{
+									itemID = 159459,
+									usagePct = 16.3,
+								},
+								{
+									itemID = 252258,
+									usagePct = 15.5,
+								},
+								{
+									itemID = 251148,
+									usagePct = 12.1,
+								},
+								{
+									itemID = 158366,
+									usagePct = 10.6,
+								},
+								{
+									itemID = 251136,
+									usagePct = 10.2,
+								},
+								{
+									itemID = 162544,
+									usagePct = 9.3,
+								},
+							},
+							HANDS = {
+								{
+									itemID = 249971,
+									usagePct = 41.7,
+								},
+								{
+									itemID = 271475,
+									usagePct = 16.9,
+								},
+								{
+									itemID = 251221,
+									usagePct = 14.5,
+								},
+								{
+									itemID = 251214,
+									usagePct = 6.8,
+								},
+								{
+									itemID = 251197,
+									usagePct = 6.6,
+								},
+								{
+									itemID = 159413,
+									usagePct = 3.2,
+								},
+								{
+									itemID = 277769,
+									usagePct = 2.5,
+								},
+								{
+									itemID = 151332,
+									usagePct = 2.3,
+								},
+							},
+							HEAD = {
+								{
+									itemID = 249970,
+									usagePct = 52.5,
+								},
+								{
+									itemID = 271474,
+									usagePct = 15.6,
+								},
+								{
+									itemID = 251126,
+									usagePct = 9.0,
+								},
+								{
+									itemID = 251229,
+									usagePct = 8.4,
+								},
+								{
+									itemID = 239050,
+									usagePct = 3.9,
+								},
+								{
+									itemID = 277768,
+									usagePct = 3.4,
+								},
+								{
+									itemID = 272258,
+									usagePct = 1.9,
+								},
+								{
+									itemID = 266432,
+									usagePct = 1.7,
+								},
+							},
+							LEGS = {
+								{
+									itemID = 249969,
+									usagePct = 48.8,
+								},
+								{
+									itemID = 271473,
+									usagePct = 15.2,
+								},
+								{
+									itemID = 251182,
+									usagePct = 13.2,
+								},
+								{
+									itemID = 159435,
+									usagePct = 5.9,
+								},
+								{
+									itemID = 273776,
+									usagePct = 5.4,
+								},
+								{
+									itemID = 277767,
+									usagePct = 4.5,
+								},
+								{
+									itemID = 272259,
+									usagePct = 2.7,
+								},
+								{
+									itemID = 251208,
+									usagePct = 1.2,
+								},
+							},
+							MAINHAND = {
+								{
+									itemID = 237846,
+									usagePct = 39.7,
+								},
+								{
+									itemID = 193755,
+									usagePct = 9.7,
+								},
+								{
+									itemID = 251230,
+									usagePct = 7.0,
+								},
+								{
+									itemID = 251134,
+									usagePct = 5.8,
+								},
+								{
+									itemID = 251181,
+									usagePct = 5.6,
+								},
+								{
+									itemID = 273782,
+									usagePct = 4.4,
+								},
+								{
+									itemID = 159644,
+									usagePct = 3.9,
+								},
+								{
+									itemID = 237842,
+									usagePct = 3.9,
+								},
+							},
+							NECK = {
+								{
+									itemID = 268291,
+									usagePct = 28.6,
+								},
+								{
+									itemID = 273781,
+									usagePct = 12.8,
+								},
+								{
+									itemID = 251234,
+									usagePct = 11.5,
+								},
+								{
+									itemID = 251142,
+									usagePct = 11.2,
+								},
+								{
+									itemID = 251173,
+									usagePct = 10.3,
+								},
+								{
+									itemID = 272229,
+									usagePct = 3.7,
+								},
+								{
+									itemID = 240950,
+									usagePct = 3.4,
+								},
+								{
+									itemID = 272228,
+									usagePct = 3.2,
+								},
+							},
+							SHOULDER = {
+								{
+									itemID = 249968,
+									usagePct = 40.2,
+								},
+								{
+									itemID = 271472,
+									usagePct = 15.0,
+								},
+								{
+									itemID = 239037,
+									usagePct = 12.4,
+								},
+								{
+									itemID = 251138,
+									usagePct = 8.5,
+								},
+								{
+									itemID = 239051,
+									usagePct = 6.3,
+								},
+								{
+									itemID = 277766,
+									usagePct = 4.3,
+								},
+								{
+									itemID = 50234,
+									usagePct = 3.4,
+								},
+								{
+									itemID = 272260,
+									usagePct = 3.2,
+								},
+							},
+							TRINKET1 = {
+								{
+									itemID = 249343,
+									usagePct = 30.6,
+								},
+								{
+									itemID = 249344,
+									usagePct = 28.3,
+								},
+								{
+									itemID = 250238,
+									usagePct = 8.7,
+								},
+								{
+									itemID = 250229,
+									usagePct = 8.7,
+								},
+								{
+									itemID = 273796,
+									usagePct = 8.3,
+								},
+								{
+									itemID = 274493,
+									usagePct = 8.0,
+								},
+								{
+									itemID = 264507,
+									usagePct = 7.5,
+								},
+								{
+									itemID = 250245,
+									usagePct = 7.2,
+								},
+							},
+							WAIST = {
+								{
+									itemID = 268289,
+									usagePct = 22.2,
+								},
+								{
+									itemID = 251144,
+									usagePct = 14.2,
+								},
+								{
+									itemID = 159418,
+									usagePct = 14.2,
+								},
+								{
+									itemID = 249967,
+									usagePct = 13.8,
+								},
+								{
+									itemID = 159442,
+									usagePct = 11.5,
+								},
+								{
+									itemID = 277765,
+									usagePct = 6.7,
+								},
+								{
+									itemID = 272261,
+									usagePct = 3.9,
+								},
+								{
+									itemID = 268244,
+									usagePct = 2.1,
+								},
+							},
+							WRIST = {
+								{
+									itemID = 237834,
+									usagePct = 35.8,
+								},
+								{
+									itemID = 159425,
+									usagePct = 14.3,
+								},
+								{
+									itemID = 251133,
+									usagePct = 11.6,
+								},
+								{
+									itemID = 159409,
+									usagePct = 11.2,
+								},
+								{
+									itemID = 272262,
+									usagePct = 4.9,
+								},
+								{
+									itemID = 277764,
+									usagePct = 4.9,
+								},
+								{
+									itemID = 249966,
+									usagePct = 4.8,
+								},
+								{
+									itemID = 276641,
+									usagePct = 2.6,
+								},
+							},
+						},
+						gems = {
+							{
+								itemID = 240983,
+								usagePct = 20.8,
+							},
+							{
+								itemID = 240908,
+								usagePct = 13.7,
+							},
+							{
+								itemID = 240890,
+								usagePct = 13.2,
+							},
+							{
+								itemID = 240916,
+								usagePct = 9.1,
+							},
+							{
+								itemID = 240918,
+								usagePct = 8.4,
+							},
+							{
+								itemID = 240898,
+								usagePct = 8.1,
+							},
+							{
+								itemID = 240894,
+								usagePct = 8.1,
+							},
+							{
+								itemID = 240906,
+								usagePct = 5.7,
+							},
+							{
+								itemID = 240914,
+								usagePct = 4.0,
+							},
+						},
+						performance = {
+							difficulty = "Mitica+",
+							median = 123253.3,
+							metric = "dps",
+							outOf = 40,
+							rank = 28,
+							sample = 300,
+							top = 215625.1,
+							zone = "Mythic+ Season 2",
+						},
+						provenance = {
+							mythicstats = {
+								fetchedAt = "2026-08-21",
+								url = "https://mythicstats.com/spec/blood-death-knight",
+							},
+							wowhead = {
+								fetchedAt = "2026-08-21",
+								url = "https://www.wowhead.com/guide/classes/death-knight/blood/enchants-gems-pve-tank",
 							},
 						},
 						statPriority = {
@@ -1414,6 +1470,48 @@ ns.RegisterClassData("DEATHKNIGHT", {
 			heroes = {
 				[33] = {
 					mplus = {
+						consumables = {
+							{
+								category = "FLASK",
+								itemID = 241326,
+								primary = true,
+							},
+							{
+								category = "POTION",
+								itemID = 241308,
+								primary = true,
+							},
+							{
+								category = "HEALTH_POTION",
+								itemID = 241304,
+								primary = true,
+							},
+							{
+								category = "WEAPON_OIL",
+								itemID = 243734,
+								primary = true,
+							},
+							{
+								category = "RUNE",
+								itemID = 259085,
+								primary = true,
+							},
+							{
+								category = "FOOD",
+								itemID = 266985,
+								primary = true,
+							},
+							{
+								category = "FOOD",
+								itemID = 242744,
+								primary = false,
+							},
+							{
+								category = "FOOD",
+								itemID = 242275,
+								primary = false,
+							},
+						},
 						enchants = {
 							{
 								itemID = 244007,
@@ -2039,127 +2137,7 @@ ns.RegisterClassData("DEATHKNIGHT", {
 							},
 							wowhead = {
 								fetchedAt = "2026-08-21",
-								url = "https://www.wowhead.com/guide/classes/death-knight/frost/rotation-cooldowns-pve-dps",
-							},
-						},
-						rotation = {
-							{
-								mode = "st",
-								note = "if you have 2 charges",
-								spellID = 47568,
-							},
-							{
-								mode = "st",
-								spellID = 439843,
-							},
-							{
-								mode = "st",
-								spellID = 51271,
-							},
-							{
-								mode = "st",
-								spellID = 1249658,
-							},
-							{
-								mode = "st",
-								spellID = 279302,
-							},
-							{
-								mode = "st",
-								note = "if you have 2 {51128} stacks, or 1 {51128} and {441378}",
-								spellID = 49020,
-							},
-							{
-								mode = "st",
-								note = "with {59057}",
-								spellID = 49184,
-							},
-							{
-								mode = "st",
-								note = "to avoid Runic Power waste",
-								spellID = 49143,
-							},
-							{
-								mode = "st",
-								note = "with {51128}",
-								spellID = 49020,
-							},
-							{
-								mode = "st",
-								note = "to generate {51128}",
-								spellID = 47568,
-							},
-							{
-								mode = "st",
-								spellID = 49143,
-							},
-							{
-								mode = "st",
-								note = "without {51128}",
-								spellID = 49020,
-							},
-							{
-								mode = "st",
-								spellID = 49184,
-							},
-							{
-								mode = "aoe",
-								note = "if you have 2 charges",
-								spellID = 47568,
-							},
-							{
-								mode = "aoe",
-								spellID = 439843,
-							},
-							{
-								mode = "aoe",
-								spellID = 51271,
-							},
-							{
-								mode = "aoe",
-								spellID = 1249658,
-							},
-							{
-								mode = "aoe",
-								spellID = 279302,
-							},
-							{
-								mode = "aoe",
-								note = "if you have 2 {51128} stacks, or {441378}",
-								spellID = 207230,
-							},
-							{
-								mode = "aoe",
-								note = "with {59057}",
-								spellID = 49184,
-							},
-							{
-								mode = "aoe",
-								note = "to avoid Runic Power waste",
-								spellID = 194913,
-							},
-							{
-								mode = "aoe",
-								note = "with {51128}",
-								spellID = 207230,
-							},
-							{
-								mode = "aoe",
-								note = "to generate {51128}",
-								spellID = 47568,
-							},
-							{
-								mode = "aoe",
-								spellID = 194913,
-							},
-							{
-								mode = "aoe",
-								note = "without {51128}",
-								spellID = 207230,
-							},
-							{
-								mode = "aoe",
-								spellID = 49184,
+								url = "https://www.wowhead.com/guide/classes/death-knight/frost/enchants-gems-pve-dps",
 							},
 						},
 						statPriority = {
@@ -2326,6 +2304,33 @@ ns.RegisterClassData("DEATHKNIGHT", {
 			heroes = {
 				[31] = {
 					mplus = {
+						consumables = {
+							{
+								category = "POTION",
+								itemID = 241288,
+								primary = true,
+							},
+							{
+								category = "HEALTH_POTION",
+								itemID = 241304,
+								primary = true,
+							},
+							{
+								category = "RUNE",
+								itemID = 259085,
+								primary = true,
+							},
+							{
+								category = "FOOD",
+								itemID = 255845,
+								primary = true,
+							},
+							{
+								category = "FOOD",
+								itemID = 242275,
+								primary = false,
+							},
+						},
 						enchants = {
 							{
 								itemID = 244007,
@@ -2903,74 +2908,7 @@ ns.RegisterClassData("DEATHKNIGHT", {
 							},
 							wowhead = {
 								fetchedAt = "2026-08-21",
-								url = "https://www.wowhead.com/guide/classes/death-knight/unholy/rotation-cooldowns-pve-dps",
-							},
-						},
-						rotation = {
-							{
-								mode = "st",
-								note = "Cast on cooldown.",
-								spellID = 1233448,
-							},
-							{
-								mode = "st",
-								note = "Cast if {1233448} is active.",
-								spellID = 1247378,
-							},
-							{
-								mode = "st",
-								note = "Cast if you have a {49530} proc.",
-								spellID = 47541,
-							},
-							{
-								mode = "st",
-								note = "Cast if you have no {1254252} stacks.",
-								spellID = 85948,
-							},
-							{
-								mode = "st",
-								note = "Cast if you have {1254252} stacks.",
-								spellID = 55090,
-							},
-							{
-								mode = "st",
-								note = "Cast .",
-								spellID = 47541,
-							},
-							{
-								mode = "aoe",
-								note = "Cast on cooldown.",
-								spellID = 1233448,
-							},
-							{
-								mode = "aoe",
-								note = "Cast if {1233448} is active.",
-								spellID = 1247378,
-							},
-							{
-								mode = "aoe",
-								note = "Cast if you expect your targets to stay inside of it.",
-								spellID = 43265,
-							},
-							{
-								mode = "aoe",
-								note = "Cast if {49530} procs.",
-								spellID = 207317,
-							},
-							{
-								mode = "aoe",
-								note = "Cast if you have no {1254252} stacks.",
-								spellID = 85948,
-							},
-							{
-								mode = "aoe",
-								note = "Cast if you have {1254252} stacks.",
-								spellID = 55090,
-							},
-							{
-								mode = "aoe",
-								note = "Cast .",
-								spellID = 207317,
+								url = "https://www.wowhead.com/guide/classes/death-knight/unholy/enchants-gems-pve-dps",
 							},
 						},
 						statPriority = {
@@ -3028,6 +2966,33 @@ ns.RegisterClassData("DEATHKNIGHT", {
 				},
 				[32] = {
 					mplus = {
+						consumables = {
+							{
+								category = "POTION",
+								itemID = 241288,
+								primary = true,
+							},
+							{
+								category = "HEALTH_POTION",
+								itemID = 241304,
+								primary = true,
+							},
+							{
+								category = "RUNE",
+								itemID = 259085,
+								primary = true,
+							},
+							{
+								category = "FOOD",
+								itemID = 255845,
+								primary = true,
+							},
+							{
+								category = "FOOD",
+								itemID = 242275,
+								primary = false,
+							},
+						},
 						enchants = {
 							{
 								itemID = 244007,
@@ -3605,74 +3570,7 @@ ns.RegisterClassData("DEATHKNIGHT", {
 							},
 							wowhead = {
 								fetchedAt = "2026-08-21",
-								url = "https://www.wowhead.com/guide/classes/death-knight/unholy/rotation-cooldowns-pve-dps",
-							},
-						},
-						rotation = {
-							{
-								mode = "st",
-								note = "Cast on cooldown.",
-								spellID = 1233448,
-							},
-							{
-								mode = "st",
-								note = "Cast if {1233448} is active.",
-								spellID = 1247378,
-							},
-							{
-								mode = "st",
-								note = "Cast if you have a {49530} proc.",
-								spellID = 47541,
-							},
-							{
-								mode = "st",
-								note = "Cast if you have no {1254252} stacks.",
-								spellID = 85948,
-							},
-							{
-								mode = "st",
-								note = "Cast if you have {1254252} stacks.",
-								spellID = 55090,
-							},
-							{
-								mode = "st",
-								note = "Cast .",
-								spellID = 47541,
-							},
-							{
-								mode = "aoe",
-								note = "Cast on cooldown.",
-								spellID = 1233448,
-							},
-							{
-								mode = "aoe",
-								note = "Cast if {1233448} is active.",
-								spellID = 1247378,
-							},
-							{
-								mode = "aoe",
-								note = "Cast if you expect your targets to stay inside of it.",
-								spellID = 43265,
-							},
-							{
-								mode = "aoe",
-								note = "Cast if {49530} procs.",
-								spellID = 207317,
-							},
-							{
-								mode = "aoe",
-								note = "Cast if you have no {1254252} stacks.",
-								spellID = 85948,
-							},
-							{
-								mode = "aoe",
-								note = "Cast if you have {1254252} stacks.",
-								spellID = 55090,
-							},
-							{
-								mode = "aoe",
-								note = "Cast .",
-								spellID = 207317,
+								url = "https://www.wowhead.com/guide/classes/death-knight/unholy/enchants-gems-pve-dps",
 							},
 						},
 						statPriority = {

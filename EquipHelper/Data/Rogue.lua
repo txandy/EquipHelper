@@ -8,6 +8,38 @@ ns.RegisterClassData("ROGUE", {
 			heroes = {
 				[52] = {
 					mplus = {
+						consumables = {
+							{
+								category = "FLASK",
+								itemID = 241324,
+								primary = true,
+							},
+							{
+								category = "POTION",
+								itemID = 271887,
+								primary = true,
+							},
+							{
+								category = "HEALTH_POTION",
+								itemID = 271884,
+								primary = true,
+							},
+							{
+								category = "WEAPON_OIL",
+								itemID = 243734,
+								primary = true,
+							},
+							{
+								category = "RUNE",
+								itemID = 259085,
+								primary = true,
+							},
+							{
+								category = "FOOD",
+								itemID = 255845,
+								primary = true,
+							},
+						},
 						enchants = {
 							{
 								itemID = 244029,
@@ -663,84 +695,7 @@ ns.RegisterClassData("ROGUE", {
 							},
 							wowhead = {
 								fetchedAt = "2026-08-21",
-								url = "https://www.wowhead.com/guide/classes/rogue/assassination/rotation-cooldowns-pve-dps",
-							},
-						},
-						rotation = {
-							{
-								mode = "st",
-								note = "Maintain",
-								spellID = 703,
-							},
-							{
-								mode = "st",
-								note = "Cast until having 5 or more combo points",
-								spellID = 1329,
-							},
-							{
-								mode = "st",
-								note = "Maintain by casting at 5 or more combo points",
-								spellID = 1943,
-							},
-							{
-								mode = "st",
-								note = "Cast followed by {703} to apply {381632}. This should be lined up with {360194} in most situations",
-								spellID = 1856,
-							},
-							{
-								mode = "st",
-								note = "Cast on cooldown",
-								spellID = 360194,
-							},
-							{
-								mode = "st",
-								note = "Cast on cooldown, immediately after {360194} when applicable",
-								spellID = 385627,
-							},
-							{
-								mode = "st",
-								note = "Cast at 5 or more combo points",
-								spellID = 32645,
-							},
-							{
-								mode = "aoe",
-								note = "Maintain on your main target",
-								spellID = 703,
-							},
-							{
-								mode = "aoe",
-								note = "Maintain by casting at 5 or more combo points on your main target",
-								spellID = 1943,
-							},
-							{
-								mode = "aoe",
-								note = "Cast to spread bleeds to secondary targets until having 5 or more combo points",
-								spellID = 1247227,
-							},
-							{
-								mode = "aoe",
-								note = "Cast on 2 or more targets, until having 5 or more combo points",
-								spellID = 51723,
-							},
-							{
-								mode = "aoe",
-								note = "Cast followed by {703} to apply {381632}. In Mythic+, this is commonly held for chainpulls where you cannot stealth beforehand. Otherwise, sync with {360194}.",
-								spellID = 1856,
-							},
-							{
-								mode = "aoe",
-								note = "Cast on cooldown",
-								spellID = 360194,
-							},
-							{
-								mode = "aoe",
-								note = "Cast on cooldown, immediately after {360194} when applicable",
-								spellID = 385627,
-							},
-							{
-								mode = "aoe",
-								note = "Cast at 5 or more combo points to avoid wasting energy and combo points",
-								spellID = 32645,
+								url = "https://www.wowhead.com/guide/classes/rogue/assassination/enchants-gems-pve-dps",
 							},
 						},
 						statPriority = {
@@ -785,6 +740,38 @@ ns.RegisterClassData("ROGUE", {
 				},
 				[53] = {
 					mplus = {
+						consumables = {
+							{
+								category = "FLASK",
+								itemID = 241324,
+								primary = true,
+							},
+							{
+								category = "POTION",
+								itemID = 271887,
+								primary = true,
+							},
+							{
+								category = "HEALTH_POTION",
+								itemID = 271884,
+								primary = true,
+							},
+							{
+								category = "WEAPON_OIL",
+								itemID = 243734,
+								primary = true,
+							},
+							{
+								category = "RUNE",
+								itemID = 259085,
+								primary = true,
+							},
+							{
+								category = "FOOD",
+								itemID = 255845,
+								primary = true,
+							},
+						},
 						enchants = {
 							{
 								itemID = 244029,
@@ -1440,89 +1427,7 @@ ns.RegisterClassData("ROGUE", {
 							},
 							wowhead = {
 								fetchedAt = "2026-08-21",
-								url = "https://www.wowhead.com/guide/classes/rogue/assassination/rotation-cooldowns-pve-dps",
-							},
-						},
-						rotation = {
-							{
-								mode = "st",
-								note = "Maintain",
-								spellID = 703,
-							},
-							{
-								mode = "st",
-								note = "Cast until having 5 or more combo points",
-								spellID = 1329,
-							},
-							{
-								mode = "st",
-								note = "Cast at maximum combo points when {457058} is active",
-								spellID = 32645,
-							},
-							{
-								mode = "st",
-								note = "Maintain by casting at 5 or more combo points",
-								spellID = 1943,
-							},
-							{
-								mode = "st",
-								note = "Cast followed by {703} to apply {381632}. This should be lined up with {360194} in most situations",
-								spellID = 1856,
-							},
-							{
-								mode = "st",
-								note = "Cast on cooldown",
-								spellID = 360194,
-							},
-							{
-								mode = "st",
-								note = "Cast on cooldown, immediately after {360194} when applicable",
-								spellID = 385627,
-							},
-							{
-								mode = "st",
-								note = "Cast at 5 or more combo points",
-								spellID = 32645,
-							},
-							{
-								mode = "aoe",
-								note = "Maintain on your main target",
-								spellID = 703,
-							},
-							{
-								mode = "aoe",
-								note = "Maintain by casting at 5 or more combo points on your main target",
-								spellID = 1943,
-							},
-							{
-								mode = "aoe",
-								note = "Cast to spread bleeds to secondary targets until having 5 or more combo points",
-								spellID = 1247227,
-							},
-							{
-								mode = "aoe",
-								note = "Cast on 2 or more targets, until having 5 or more combo points",
-								spellID = 51723,
-							},
-							{
-								mode = "aoe",
-								note = "Cast followed by {703} to apply {381632}. In Mythic+, this is commonly held for chainpulls where you cannot stealth beforehand. Otherwise, sync with {360194}.",
-								spellID = 1856,
-							},
-							{
-								mode = "aoe",
-								note = "Cast on cooldown",
-								spellID = 360194,
-							},
-							{
-								mode = "aoe",
-								note = "Cast on cooldown, immediately after {360194} when applicable",
-								spellID = 385627,
-							},
-							{
-								mode = "aoe",
-								note = "Cast at 5 or more combo points to avoid wasting energy and combo points",
-								spellID = 32645,
+								url = "https://www.wowhead.com/guide/classes/rogue/assassination/enchants-gems-pve-dps",
 							},
 						},
 						statPriority = {
@@ -1663,6 +1568,48 @@ ns.RegisterClassData("ROGUE", {
 			heroes = {
 				[51] = {
 					mplus = {
+						consumables = {
+							{
+								category = "FLASK",
+								itemID = 241326,
+								primary = true,
+							},
+							{
+								category = "FLASK",
+								itemID = 241324,
+								primary = false,
+							},
+							{
+								category = "POTION",
+								itemID = 241309,
+								primary = true,
+							},
+							{
+								category = "HEALTH_POTION",
+								itemID = 271884,
+								primary = true,
+							},
+							{
+								category = "WEAPON_OIL",
+								itemID = 243734,
+								primary = true,
+							},
+							{
+								category = "RUNE",
+								itemID = 259085,
+								primary = true,
+							},
+							{
+								category = "FOOD",
+								itemID = 255846,
+								primary = true,
+							},
+							{
+								category = "FOOD",
+								itemID = 242747,
+								primary = false,
+							},
+						},
 						enchants = {
 							{
 								itemID = 244029,
@@ -2318,124 +2265,7 @@ ns.RegisterClassData("ROGUE", {
 							},
 							wowhead = {
 								fetchedAt = "2026-08-21",
-								url = "https://www.wowhead.com/guide/classes/rogue/outlaw/rotation-cooldowns-pve-dps",
-							},
-						},
-						rotation = {
-							{
-								mode = "st",
-								note = "Cast on cooldown if at stage 1 or less.",
-								spellID = 315508,
-							},
-							{
-								mode = "st",
-								note = "Cast if you have a stage 3 or higher {315508} active.",
-								spellID = 381989,
-							},
-							{
-								mode = "st",
-								note = "Cast whenever {315341}, {13750}, {51690}, and {271877} are on cooldown.",
-								spellID = 1277933,
-							},
-							{
-								mode = "st",
-								note = "Cast on cooldown at 2 or fewer combo points, followed by {51690}.",
-								spellID = 13750,
-							},
-							{
-								mode = "st",
-								note = "Cast with the 4-set bonus active.",
-								spellID = 2098,
-							},
-							{
-								mode = "st",
-								note = "Cast on cooldown.",
-								spellID = 271877,
-							},
-							{
-								mode = "st",
-								note = "Cast at 6 or more combo points.",
-								spellID = 315341,
-							},
-							{
-								mode = "st",
-								note = "Cast at 6 or more combo points.",
-								spellID = 2098,
-							},
-							{
-								mode = "st",
-								note = "Cast if; \\t{279876} has 6 stacks.",
-								spellID = 185763,
-							},
-							{
-								mode = "st",
-								note = "has 3 stacks, and you are at 1-3 combo points.",
-								spellID = 279876,
-							},
-							{
-								mode = "st",
-								note = "Cast at 5 or fewer combo points.",
-								spellID = 193315,
-							},
-							{
-								mode = "aoe",
-								note = "if there are 2 or more targets in range, and it is not already active. If already active, recast at 4 or fewer combo points when there are 4 or more targets within range.",
-								spellID = 13877,
-							},
-							{
-								mode = "aoe",
-								note = "Cast on cooldown if at stage 1 or less.",
-								spellID = 315508,
-							},
-							{
-								mode = "aoe",
-								note = "Cast if you have a stage 3 or higher {315508} active.",
-								spellID = 381989,
-							},
-							{
-								mode = "aoe",
-								note = "Cast whenever {315341}, {13750}, {51690}, and {271877} are on cooldown.",
-								spellID = 1277933,
-							},
-							{
-								mode = "aoe",
-								note = "Cast on cooldown at 2 or fewer combo points, followed by {51690}.",
-								spellID = 13750,
-							},
-							{
-								mode = "aoe",
-								note = "Cast with the 4-set bonus active.",
-								spellID = 2098,
-							},
-							{
-								mode = "aoe",
-								note = "Cast on cooldown.",
-								spellID = 271877,
-							},
-							{
-								mode = "aoe",
-								note = "Cast at 6 or more combo points.",
-								spellID = 315341,
-							},
-							{
-								mode = "aoe",
-								note = "Cast at 6 or more combo points.",
-								spellID = 2098,
-							},
-							{
-								mode = "aoe",
-								note = "Cast if; \\t{279876} has 6 stacks.",
-								spellID = 185763,
-							},
-							{
-								mode = "aoe",
-								note = "has 3 stacks, and you are at 1-3 combo points.",
-								spellID = 279876,
-							},
-							{
-								mode = "aoe",
-								note = "Cast at 5 or fewer combo points.",
-								spellID = 193315,
+								url = "https://www.wowhead.com/guide/classes/rogue/outlaw/enchants-gems-pve-dps",
 							},
 						},
 						statPriority = {
@@ -2602,6 +2432,48 @@ ns.RegisterClassData("ROGUE", {
 			heroes = {
 				[53] = {
 					mplus = {
+						consumables = {
+							{
+								category = "FLASK",
+								itemID = 241326,
+								primary = true,
+							},
+							{
+								category = "FLASK",
+								itemID = 241322,
+								primary = false,
+							},
+							{
+								category = "POTION",
+								itemID = 241308,
+								primary = true,
+							},
+							{
+								category = "HEALTH_POTION",
+								itemID = 271884,
+								primary = true,
+							},
+							{
+								category = "WEAPON_OIL",
+								itemID = 243734,
+								primary = true,
+							},
+							{
+								category = "RUNE",
+								itemID = 259085,
+								primary = true,
+							},
+							{
+								category = "FOOD",
+								itemID = 255845,
+								primary = true,
+							},
+							{
+								category = "FOOD",
+								itemID = 242275,
+								primary = false,
+							},
+						},
 						enchants = {
 							{
 								itemID = 244029,
@@ -3257,49 +3129,7 @@ ns.RegisterClassData("ROGUE", {
 							},
 							wowhead = {
 								fetchedAt = "2026-08-21",
-								url = "https://www.wowhead.com/guide/classes/rogue/subtlety/rotation-cooldowns-pve-dps",
-							},
-						},
-						rotation = {
-							{
-								mode = "st",
-								note = "Cast if {457058} is up.",
-								spellID = 196819,
-							},
-							{
-								mode = "st",
-								note = "Cast .",
-								spellID = 280719,
-							},
-							{
-								mode = "st",
-								note = "Cast .",
-								spellID = 196819,
-							},
-							{
-								mode = "st",
-								note = "Cast .",
-								spellID = 185438,
-							},
-							{
-								mode = "aoe",
-								note = "Cast .",
-								spellID = 280719,
-							},
-							{
-								mode = "aoe",
-								note = "Cast with {457058}.",
-								spellID = 196819,
-							},
-							{
-								mode = "aoe",
-								note = "Cast .",
-								spellID = 319175,
-							},
-							{
-								mode = "aoe",
-								note = "Cast .",
-								spellID = 197835,
+								url = "https://www.wowhead.com/guide/classes/rogue/subtlety/enchants-gems-pve-dps",
 							},
 						},
 						statPriority = {

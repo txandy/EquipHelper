@@ -3,6 +3,48 @@
   "class_name": "Druid",
   "guides": [
     {
+      "consumables": [
+        {
+          "category": "FLASK",
+          "is_primary": true,
+          "item_id": 241326
+        },
+        {
+          "category": "FLASK",
+          "is_primary": false,
+          "item_id": 241322
+        },
+        {
+          "category": "POTION",
+          "is_primary": true,
+          "item_id": 241292
+        },
+        {
+          "category": "HEALTH_POTION",
+          "is_primary": true,
+          "item_id": 241304
+        },
+        {
+          "category": "WEAPON_OIL",
+          "is_primary": true,
+          "item_id": 243734
+        },
+        {
+          "category": "RUNE",
+          "is_primary": true,
+          "item_id": 259085
+        },
+        {
+          "category": "FOOD",
+          "is_primary": true,
+          "item_id": 242273
+        },
+        {
+          "category": "FOOD",
+          "is_primary": false,
+          "item_id": 242277
+        }
+      ],
       "content": "mplus",
       "enchants": [
         {
@@ -838,111 +880,9 @@
         },
         "wowhead": {
           "fetched_at": "2026-08-21",
-          "url": "https://www.wowhead.com/guide/classes/druid/feral/rotation-cooldowns-pve-dps"
+          "url": "https://www.wowhead.com/guide/classes/druid/feral/enchants-gems-pve-dps"
         }
       },
-      "rotation": [
-        {
-          "mode": "st",
-          "note": "Cast : If you have 5 Combo Points, {1079} is missing or in Pandemic, and you have {5217} active.",
-          "spell_id": 1079
-        },
-        {
-          "mode": "st",
-          "note": "If you have 5 Combo Points, is missing or in Pandemic, and {5217} will not be active before the dot expires.",
-          "spell_id": 1079
-        },
-        {
-          "mode": "st",
-          "note": "Cast if: you have 5 Combo Points and 50 energy, {1079} is active, and {106951} is active.",
-          "spell_id": 22568
-        },
-        {
-          "mode": "st",
-          "note": "you have 5 Combo Points and 50 energy, is active, and {106951} is not active.",
-          "spell_id": 1079
-        },
-        {
-          "mode": "st",
-          "note": "and {391528} with {5217}, these should be synced",
-          "spell_id": 106951
-        },
-        {
-          "mode": "st",
-          "note": "If is coming off CD within 3 seconds, and you're above 80% energy dump your energy.",
-          "spell_id": 5217
-        },
-        {
-          "mode": "st",
-          "note": "Cast on cooldown",
-          "spell_id": 5217
-        },
-        {
-          "mode": "st",
-          "note": "Cast if: It is missing on the target or in pandemic",
-          "spell_id": 1822
-        },
-        {
-          "mode": "st",
-          "note": "has 2 seconds or less of duration and {5217} is not ready.",
-          "spell_id": 1822
-        },
-        {
-          "mode": "st",
-          "note": "has 2 seconds or less of duration and {5217} is not ready.",
-          "spell_id": 155625
-        },
-        {
-          "mode": "st",
-          "note": "to Generate Combo Points",
-          "spell_id": 5221
-        },
-        {
-          "mode": "aoe",
-          "note": "Cast if {1079} is missing or in pandemic.",
-          "spell_id": 285381
-        },
-        {
-          "mode": "aoe",
-          "note": "Cast with {5217}, these should be synced.",
-          "spell_id": 106951
-        },
-        {
-          "mode": "aoe",
-          "note": "Cast if you have 5 Combo Points, 50 energy and {1079} is active",
-          "spell_id": 22568
-        },
-        {
-          "mode": "aoe",
-          "note": "and {391528} with {5217}, these should be synced.",
-          "spell_id": 106951
-        },
-        {
-          "mode": "aoe",
-          "note": "Cast on cooldown.",
-          "spell_id": 274837
-        },
-        {
-          "mode": "aoe",
-          "note": "during {106951} for {441835} procs.",
-          "spell_id": 213764
-        },
-        {
-          "mode": "aoe",
-          "note": "with {135700} procs",
-          "spell_id": 213764
-        },
-        {
-          "mode": "aoe",
-          "note": "Cast if it is missing or in pandemic up to 5 targets.",
-          "spell_id": 1822
-        },
-        {
-          "mode": "aoe",
-          "note": "to generate Combo points.",
-          "spell_id": 213764
-        }
-      ],
       "stat_priority": [
         {
           "rating": 1083,
@@ -1099,6 +1039,48 @@
       ]
     },
     {
+      "consumables": [
+        {
+          "category": "FLASK",
+          "is_primary": true,
+          "item_id": 241326
+        },
+        {
+          "category": "FLASK",
+          "is_primary": false,
+          "item_id": 241322
+        },
+        {
+          "category": "POTION",
+          "is_primary": true,
+          "item_id": 241292
+        },
+        {
+          "category": "HEALTH_POTION",
+          "is_primary": true,
+          "item_id": 241304
+        },
+        {
+          "category": "WEAPON_OIL",
+          "is_primary": true,
+          "item_id": 243734
+        },
+        {
+          "category": "RUNE",
+          "is_primary": true,
+          "item_id": 259085
+        },
+        {
+          "category": "FOOD",
+          "is_primary": true,
+          "item_id": 242273
+        },
+        {
+          "category": "FOOD",
+          "is_primary": false,
+          "item_id": 242277
+        }
+      ],
       "content": "mplus",
       "enchants": [
         {
@@ -1934,106 +1916,9 @@
         },
         "wowhead": {
           "fetched_at": "2026-08-21",
-          "url": "https://www.wowhead.com/guide/classes/druid/feral/rotation-cooldowns-pve-dps"
+          "url": "https://www.wowhead.com/guide/classes/druid/feral/enchants-gems-pve-dps"
         }
       },
-      "rotation": [
-        {
-          "mode": "st",
-          "note": "Cast : If you have 5 combo points, {1079} is missing or in Pandemic, and you have {5217} active.",
-          "spell_id": 1079
-        },
-        {
-          "mode": "st",
-          "note": "If you have 5 combo points, is missing or in Pandemic, and {5217} will not be active before the dot expires.",
-          "spell_id": 1079
-        },
-        {
-          "mode": "st",
-          "note": "Cast if: you have 5 Combo Points and 50 energy, {1079} is active, and {106951} is active.",
-          "spell_id": 22568
-        },
-        {
-          "mode": "st",
-          "note": "you have 5 Combo Points and 50 energy, is active, and {106951} is not active.",
-          "spell_id": 1079
-        },
-        {
-          "mode": "st",
-          "note": "and {391528} with {5217}, these should be synced",
-          "spell_id": 106951
-        },
-        {
-          "mode": "st",
-          "note": "If is coming off CD within 3 seconds, and you're above 80% energy dump your energy.",
-          "spell_id": 5217
-        },
-        {
-          "mode": "st",
-          "note": "Cast on cooldown",
-          "spell_id": 5217
-        },
-        {
-          "mode": "st",
-          "note": "Cast if: It is missing on the target or in pandemic",
-          "spell_id": 1822
-        },
-        {
-          "mode": "st",
-          "note": "has 2 seconds or less of duration and {5217} is not ready.",
-          "spell_id": 1822
-        },
-        {
-          "mode": "st",
-          "note": "has 2 seconds or less of duration and {5217} is not ready.",
-          "spell_id": 155625
-        },
-        {
-          "mode": "st",
-          "note": "to Generate Combo Points",
-          "spell_id": 5221
-        },
-        {
-          "mode": "aoe",
-          "note": "Cast if {1079} is missing or in pandemic.",
-          "spell_id": 285381
-        },
-        {
-          "mode": "aoe",
-          "note": "Cast with {5217}, these should be synced.",
-          "spell_id": 106951
-        },
-        {
-          "mode": "aoe",
-          "note": "Cast if you have 5 Combo Points and {1079} is active",
-          "spell_id": 22568
-        },
-        {
-          "mode": "aoe",
-          "note": "and {391528} with {5217}, these should be synced.",
-          "spell_id": 106951
-        },
-        {
-          "mode": "aoe",
-          "note": "Cast on cooldown.",
-          "spell_id": 274837
-        },
-        {
-          "mode": "aoe",
-          "note": "with {135700} procs up to 7 targets.",
-          "spell_id": 213764
-        },
-        {
-          "mode": "aoe",
-          "note": "Cast if it is missing or in pandemic.",
-          "spell_id": 1822
-        },
-        {
-          "mode": "aoe",
-          "note": "to generate Combo points.",
-          "spell_id": 213764
-        }
-      ],
       "stat_priority": [
         {
           "rating": 1083,

@@ -3,6 +3,43 @@
   "class_name": "Warlock",
   "guides": [
     {
+      "consumables": [
+        {
+          "category": "FLASK",
+          "is_primary": true,
+          "item_id": 241322
+        },
+        {
+          "category": "POTION",
+          "is_primary": true,
+          "item_id": 241308
+        },
+        {
+          "category": "HEALTH_POTION",
+          "is_primary": true,
+          "item_id": 271884
+        },
+        {
+          "category": "WEAPON_OIL",
+          "is_primary": true,
+          "item_id": 243734
+        },
+        {
+          "category": "RUNE",
+          "is_primary": true,
+          "item_id": 259085
+        },
+        {
+          "category": "FOOD",
+          "is_primary": true,
+          "item_id": 255846
+        },
+        {
+          "category": "FOOD",
+          "is_primary": false,
+          "item_id": 242275
+        }
+      ],
       "content": "mplus",
       "enchants": [
         {
@@ -888,86 +925,9 @@
         },
         "wowhead": {
           "fetched_at": "2026-08-21",
-          "url": "https://www.wowhead.com/guide/classes/warlock/affliction/rotation-cooldowns-pve-dps"
+          "url": "https://www.wowhead.com/guide/classes/warlock/affliction/enchants-gems-pve-dps"
         }
       },
-      "rotation": [
-        {
-          "mode": "st",
-          "note": "Cast .",
-          "spell_id": 48181
-        },
-        {
-          "mode": "st",
-          "note": "Cast .",
-          "spell_id": 980
-        },
-        {
-          "mode": "st",
-          "note": "Cast .",
-          "spell_id": 172
-        },
-        {
-          "mode": "st",
-          "note": "Cast .",
-          "spell_id": 205180
-        },
-        {
-          "mode": "st",
-          "note": "Cast .",
-          "spell_id": 316099
-        },
-        {
-          "mode": "st",
-          "note": "Cast .",
-          "spell_id": 1257052
-        },
-        {
-          "mode": "st",
-          "note": "Cast .",
-          "spell_id": 316099
-        },
-        {
-          "mode": "st",
-          "note": "Cast .",
-          "spell_id": 1261149
-        },
-        {
-          "mode": "aoe",
-          "note": "Cast .",
-          "spell_id": 27243
-        },
-        {
-          "mode": "aoe",
-          "note": "Cast on your priority target.",
-          "spell_id": 48181
-        },
-        {
-          "mode": "aoe",
-          "note": "Cast on a handful of targets.",
-          "spell_id": 980
-        },
-        {
-          "mode": "aoe",
-          "note": "Cast .",
-          "spell_id": 205180
-        },
-        {
-          "mode": "aoe",
-          "note": "Cast .",
-          "spell_id": 1257052
-        },
-        {
-          "mode": "aoe",
-          "note": "Cast as many times as possible.",
-          "spell_id": 27243
-        },
-        {
-          "mode": "aoe",
-          "note": "Cast .",
-          "spell_id": 1261149
-        }
-      ],
       "stat_priority": [
         {
           "rating": 964,

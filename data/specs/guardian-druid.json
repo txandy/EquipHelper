@@ -3,6 +3,43 @@
   "class_name": "Druid",
   "guides": [
     {
+      "consumables": [
+        {
+          "category": "FLASK",
+          "is_primary": true,
+          "item_id": 241324
+        },
+        {
+          "category": "POTION",
+          "is_primary": true,
+          "item_id": 241292
+        },
+        {
+          "category": "POTION",
+          "is_primary": false,
+          "item_id": 241308
+        },
+        {
+          "category": "HEALTH_POTION",
+          "is_primary": true,
+          "item_id": 271884
+        },
+        {
+          "category": "WEAPON_OIL",
+          "is_primary": true,
+          "item_id": 243734
+        },
+        {
+          "category": "RUNE",
+          "is_primary": true,
+          "item_id": 259085
+        },
+        {
+          "category": "FOOD",
+          "is_primary": true,
+          "item_id": 255845
+        }
+      ],
       "content": "mplus",
       "enchants": [
         {
@@ -838,106 +875,9 @@
         },
         "wowhead": {
           "fetched_at": "2026-08-21",
-          "url": "https://www.wowhead.com/guide/classes/druid/guardian/rotation-cooldowns-pve-tank"
+          "url": "https://www.wowhead.com/guide/classes/druid/guardian/enchants-gems-pve-tank"
         }
       },
-      "rotation": [
-        {
-          "mode": "st",
-          "note": "Maintain on your primary target.",
-          "spell_id": 8921
-        },
-        {
-          "mode": "st",
-          "note": "Maintain 3-5 stacks of .",
-          "spell_id": 77758
-        },
-        {
-          "mode": "st",
-          "note": "Cast on cooldown.",
-          "spell_id": 1252871
-        },
-        {
-          "mode": "st",
-          "note": "Cast on cooldown.",
-          "spell_id": 33917
-        },
-        {
-          "mode": "st",
-          "note": "Cast on cooldown.",
-          "spell_id": 77758
-        },
-        {
-          "mode": "st",
-          "note": "Spend Rage on either (offensively) or {192081}(defensively.",
-          "spell_id": 6807
-        },
-        {
-          "mode": "st",
-          "note": "Cast if your health dips low.",
-          "spell_id": 22842
-        },
-        {
-          "mode": "st",
-          "note": "Cast with {203964} procs.",
-          "spell_id": 8921
-        },
-        {
-          "mode": "st",
-          "note": "Use your cooldowns /{394786} as frequently as possible.",
-          "spell_id": 22812
-        },
-        {
-          "mode": "st",
-          "note": "Cast if you have nothing else to press.",
-          "spell_id": 213771
-        },
-        {
-          "mode": "aoe",
-          "note": "Maintain on your primary target.",
-          "spell_id": 8921
-        },
-        {
-          "mode": "aoe",
-          "note": "Maintain 3-5 stacks of .",
-          "spell_id": 77758
-        },
-        {
-          "mode": "aoe",
-          "note": "Cast on cooldown.",
-          "spell_id": 33917
-        },
-        {
-          "mode": "aoe",
-          "note": "Cast on cooldown.",
-          "spell_id": 77758
-        },
-        {
-          "mode": "aoe",
-          "note": "Spend Rage on either (offensively) or {192081}(defensively.",
-          "spell_id": 6807
-        },
-        {
-          "mode": "aoe",
-          "note": "Cast if your health dips low.",
-          "spell_id": 22842
-        },
-        {
-          "mode": "aoe",
-          "note": "Cast with {203964} procs.",
-          "spell_id": 8921
-        },
-        {
-          "mode": "aoe",
-          "note": "Use your cooldowns /{394786} as frequently as possible.",
-          "spell_id": 22812
-        },
-        {
-          "mode": "aoe",
-          "note": "Cast if you have nothing else to press.",
-          "spell_id": 213771
-        }
-      ],
       "stat_priority": [
         {
           "rating": 1049,

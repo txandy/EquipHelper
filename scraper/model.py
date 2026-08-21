@@ -24,6 +24,10 @@ SLOTS = (
 # Claves de stat que entiende el addon (ver UI/Tabs/Stats.lua).
 STATS = ("CRIT", "HASTE", "MASTERY", "VERSATILITY", "LEECH", "SPEED", "AVOIDANCE")
 
+# Claves de consumible que entiende el addon (ver UI/Tabs/Consumables.lua).
+CONSUMABLE_CATEGORIES = ("FLASK", "POTION", "HEALTH_POTION", "FOOD",
+                         "WEAPON_OIL", "RUNE")
+
 
 @dataclass
 class StatEntry:
@@ -60,10 +64,10 @@ class EnchantEntry:
 
 
 @dataclass
-class RotationEntry:
-    spell_id: int
-    note: str | None = None   # puede llevar tokens {spellID} que el addon resuelve
-    mode: str = "st"          # "st" objetivo unico, "aoe" multiples
+class ConsumableEntry:
+    category: str        # ver CONSUMABLE_CATEGORIES
+    item_id: int
+    is_primary: bool     # el que la guia recomienda; el resto son alternativas
 
 
 @dataclass
@@ -98,7 +102,7 @@ class Guide:
     gear: dict[str, list[GearEntry]] = field(default_factory=dict)
     gems: list[GearEntry] = field(default_factory=list)
     enchants: list[EnchantEntry] = field(default_factory=list)
-    rotation: list[RotationEntry] = field(default_factory=list)
+    consumables: list[ConsumableEntry] = field(default_factory=list)
     performance: Performance | None = None
     provenance: dict[str, Provenance] = field(default_factory=dict)
 

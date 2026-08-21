@@ -3,6 +3,53 @@
   "class_name": "Monk",
   "guides": [
     {
+      "consumables": [
+        {
+          "category": "FLASK",
+          "is_primary": true,
+          "item_id": 241320
+        },
+        {
+          "category": "POTION",
+          "is_primary": true,
+          "item_id": 241308
+        },
+        {
+          "category": "HEALTH_POTION",
+          "is_primary": true,
+          "item_id": 271884
+        },
+        {
+          "category": "HEALTH_POTION",
+          "is_primary": false,
+          "item_id": 241304
+        },
+        {
+          "category": "WEAPON_OIL",
+          "is_primary": true,
+          "item_id": 243734
+        },
+        {
+          "category": "FOOD",
+          "is_primary": true,
+          "item_id": 255845
+        },
+        {
+          "category": "FOOD",
+          "is_primary": false,
+          "item_id": 255846
+        },
+        {
+          "category": "FOOD",
+          "is_primary": false,
+          "item_id": 242275
+        },
+        {
+          "category": "FOOD",
+          "is_primary": false,
+          "item_id": 255847
+        }
+      ],
       "content": "mplus",
       "enchants": [
         {
@@ -891,101 +938,9 @@
         },
         "wowhead": {
           "fetched_at": "2026-08-21",
-          "url": "https://www.wowhead.com/guide/classes/monk/brewmaster/rotation-cooldowns-pve-tank"
+          "url": "https://www.wowhead.com/guide/classes/monk/brewmaster/enchants-gems-pve-tank"
         }
       },
-      "rotation": [
-        {
-          "mode": "st",
-          "note": "Execute an enemy with , when allowed",
-          "spell_id": 322109
-        },
-        {
-          "mode": "st",
-          "note": "Use to trigger {196736}",
-          "spell_id": 100784
-        },
-        {
-          "mode": "st",
-          "note": "Only if taking minimal damage, activate /{1241059}",
-          "spell_id": 322507
-        },
-        {
-          "mode": "st",
-          "note": "Activate",
-          "spell_id": 132578
-        },
-        {
-          "mode": "st",
-          "note": "Consume your buff with {100780}",
-          "spell_id": 196736
-        },
-        {
-          "mode": "st",
-          "note": "Use , ideally with {116847} active beforehand",
-          "spell_id": 325153
-        },
-        {
-          "mode": "st",
-          "note": "Use your second charge of",
-          "spell_id": 121253
-        },
-        {
-          "mode": "st",
-          "note": "Use when there are no other abilities to press",
-          "spell_id": 100780
-        },
-        {
-          "mode": "aoe",
-          "note": "Execute an enemy with , when allowed",
-          "spell_id": 322109
-        },
-        {
-          "mode": "aoe",
-          "note": "Activate",
-          "spell_id": 132578
-        },
-        {
-          "mode": "aoe",
-          "note": "While is active, cast {115181}",
-          "spell_id": 132578
-        },
-        {
-          "mode": "aoe",
-          "note": "While is active, cast {121253}",
-          "spell_id": 132578
-        },
-        {
-          "mode": "aoe",
-          "note": "Use to trigger {196736}",
-          "spell_id": 100784
-        },
-        {
-          "mode": "aoe",
-          "note": "Consume your buff with {100780}",
-          "spell_id": 196736
-        },
-        {
-          "mode": "aoe",
-          "note": "Use , ideally with {116847} active beforehand",
-          "spell_id": 325153
-        },
-        {
-          "mode": "aoe",
-          "note": "Only if taking minimal damage, activate /{1241059}",
-          "spell_id": 322507
-        },
-        {
-          "mode": "aoe",
-          "note": "Use your second charge of",
-          "spell_id": 121253
-        },
-        {
-          "mode": "aoe",
-          "note": "Use when there are no other abilities to press and {196736} is not active",
-          "spell_id": 322729
-        }
-      ],
       "stat_priority": [
         {
           "rating": 1047,
@@ -1142,6 +1097,53 @@
       ]
     },
     {
+      "consumables": [
+        {
+          "category": "FLASK",
+          "is_primary": true,
+          "item_id": 241320
+        },
+        {
+          "category": "POTION",
+          "is_primary": true,
+          "item_id": 241308
+        },
+        {
+          "category": "HEALTH_POTION",
+          "is_primary": true,
+          "item_id": 271884
+        },
+        {
+          "category": "HEALTH_POTION",
+          "is_primary": false,
+          "item_id": 241304
+        },
+        {
+          "category": "WEAPON_OIL",
+          "is_primary": true,
+          "item_id": 243734
+        },
+        {
+          "category": "FOOD",
+          "is_primary": true,
+          "item_id": 255845
+        },
+        {
+          "category": "FOOD",
+          "is_primary": false,
+          "item_id": 255846
+        },
+        {
+          "category": "FOOD",
+          "is_primary": false,
+          "item_id": 242275
+        },
+        {
+          "category": "FOOD",
+          "is_primary": false,
+          "item_id": 255847
+        }
+      ],
       "content": "mplus",
       "enchants": [
         {
@@ -2030,101 +2032,9 @@
         },
         "wowhead": {
           "fetched_at": "2026-08-21",
-          "url": "https://www.wowhead.com/guide/classes/monk/brewmaster/rotation-cooldowns-pve-tank"
+          "url": "https://www.wowhead.com/guide/classes/monk/brewmaster/enchants-gems-pve-tank"
         }
       },
-      "rotation": [
-        {
-          "mode": "st",
-          "note": "Execute an enemy with , when allowed",
-          "spell_id": 322109
-        },
-        {
-          "mode": "st",
-          "note": "Use to trigger {196736}",
-          "spell_id": 100784
-        },
-        {
-          "mode": "st",
-          "note": "Only if taking minimal damage, activate /{1241059}",
-          "spell_id": 322507
-        },
-        {
-          "mode": "st",
-          "note": "Activate",
-          "spell_id": 132578
-        },
-        {
-          "mode": "st",
-          "note": "Consume your buff with {100780}",
-          "spell_id": 196736
-        },
-        {
-          "mode": "st",
-          "note": "Use , ideally with {116847} active beforehand",
-          "spell_id": 325153
-        },
-        {
-          "mode": "st",
-          "note": "Use your second charge of",
-          "spell_id": 121253
-        },
-        {
-          "mode": "st",
-          "note": "Use when there are no other abilities to press",
-          "spell_id": 100780
-        },
-        {
-          "mode": "aoe",
-          "note": "Execute an enemy with , when allowed",
-          "spell_id": 322109
-        },
-        {
-          "mode": "aoe",
-          "note": "Activate",
-          "spell_id": 132578
-        },
-        {
-          "mode": "aoe",
-          "note": "While is active, cast {115181}",
-          "spell_id": 132578
-        },
-        {
-          "mode": "aoe",
-          "note": "While is active, cast {121253}",
-          "spell_id": 132578
-        },
-        {
-          "mode": "aoe",
-          "note": "Use to trigger {196736}",
-          "spell_id": 100784
-        },
-        {
-          "mode": "aoe",
-          "note": "Consume your buff with {100780}",
-          "spell_id": 196736
-        },
-        {
-          "mode": "aoe",
-          "note": "Use , ideally with {116847} active beforehand",
-          "spell_id": 325153
-        },
-        {
-          "mode": "aoe",
-          "note": "Only if taking minimal damage, activate /{1241059}",
-          "spell_id": 322507
-        },
-        {
-          "mode": "aoe",
-          "note": "Use your second charge of",
-          "spell_id": 121253
-        },
-        {
-          "mode": "aoe",
-          "note": "Use when there are no other abilities to press and {196736} is not active",
-          "spell_id": 322729
-        }
-      ],
       "stat_priority": [
         {
           "rating": 1047,

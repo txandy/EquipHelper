@@ -3,6 +3,38 @@
   "class_name": "Mage",
   "guides": [
     {
+      "consumables": [
+        {
+          "category": "FLASK",
+          "is_primary": true,
+          "item_id": 241324
+        },
+        {
+          "category": "POTION",
+          "is_primary": true,
+          "item_id": 241308
+        },
+        {
+          "category": "HEALTH_POTION",
+          "is_primary": true,
+          "item_id": 271884
+        },
+        {
+          "category": "WEAPON_OIL",
+          "is_primary": true,
+          "item_id": 243734
+        },
+        {
+          "category": "RUNE",
+          "is_primary": true,
+          "item_id": 259085
+        },
+        {
+          "category": "FOOD",
+          "is_primary": true,
+          "item_id": 255845
+        }
+      ],
       "content": "mplus",
       "enchants": [
         {
@@ -888,26 +920,9 @@
         },
         "wowhead": {
           "fetched_at": "2026-08-21",
-          "url": "https://www.wowhead.com/guide/classes/mage/arcane/rotation-cooldowns-pve-dps"
+          "url": "https://www.wowhead.com/guide/classes/mage/arcane/enchants-gems-pve-dps"
         }
       },
-      "rotation": [
-        {
-          "mode": "st",
-          "note": null,
-          "spell_id": 365350
-        },
-        {
-          "mode": "st",
-          "note": null,
-          "spell_id": 5143
-        },
-        {
-          "mode": "st",
-          "note": "then {321507} while its midair",
-          "spell_id": 44425
-        }
-      ],
       "stat_priority": [
         {
           "rating": 910,

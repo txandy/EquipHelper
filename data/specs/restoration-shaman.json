@@ -3,6 +3,38 @@
   "class_name": "Shaman",
   "guides": [
     {
+      "consumables": [
+        {
+          "category": "FLASK",
+          "is_primary": true,
+          "item_id": 241326
+        },
+        {
+          "category": "POTION",
+          "is_primary": true,
+          "item_id": 241288
+        },
+        {
+          "category": "HEALTH_POTION",
+          "is_primary": true,
+          "item_id": 241304
+        },
+        {
+          "category": "RUNE",
+          "is_primary": true,
+          "item_id": 259085
+        },
+        {
+          "category": "FOOD",
+          "is_primary": true,
+          "item_id": 255845
+        },
+        {
+          "category": "FOOD",
+          "is_primary": false,
+          "item_id": 242275
+        }
+      ],
       "content": "mplus",
       "enchants": [
         {
@@ -888,41 +920,9 @@
         },
         "wowhead": {
           "fetched_at": "2026-08-21",
-          "url": "https://www.wowhead.com/guide/classes/shaman/restoration/rotation-cooldowns-pve-healer"
+          "url": "https://www.wowhead.com/guide/classes/shaman/restoration/enchants-gems-pve-healer"
         }
       },
-      "rotation": [
-        {
-          "mode": "st",
-          "note": "Use all your procs",
-          "spell_id": 1267068
-        },
-        {
-          "mode": "st",
-          "note": "Keep on cooldown",
-          "spell_id": 61295
-        },
-        {
-          "mode": "st",
-          "note": "Use",
-          "spell_id": 378081
-        },
-        {
-          "mode": "st",
-          "note": "Maintain",
-          "spell_id": 444995
-        },
-        {
-          "mode": "st",
-          "note": "Keep on cooldown",
-          "spell_id": 5394
-        },
-        {
-          "mode": "st",
-          "note": "Cast or {77472}",
-          "spell_id": 1064
-        }
-      ],
       "stat_priority": [
         {
           "rating": 929,

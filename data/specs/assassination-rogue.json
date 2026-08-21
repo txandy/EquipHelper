@@ -3,6 +3,38 @@
   "class_name": "Rogue",
   "guides": [
     {
+      "consumables": [
+        {
+          "category": "FLASK",
+          "is_primary": true,
+          "item_id": 241324
+        },
+        {
+          "category": "POTION",
+          "is_primary": true,
+          "item_id": 271887
+        },
+        {
+          "category": "HEALTH_POTION",
+          "is_primary": true,
+          "item_id": 271884
+        },
+        {
+          "category": "WEAPON_OIL",
+          "is_primary": true,
+          "item_id": 243734
+        },
+        {
+          "category": "RUNE",
+          "is_primary": true,
+          "item_id": 259085
+        },
+        {
+          "category": "FOOD",
+          "is_primary": true,
+          "item_id": 255845
+        }
+      ],
       "content": "mplus",
       "enchants": [
         {
@@ -903,91 +935,9 @@
         },
         "wowhead": {
           "fetched_at": "2026-08-21",
-          "url": "https://www.wowhead.com/guide/classes/rogue/assassination/rotation-cooldowns-pve-dps"
+          "url": "https://www.wowhead.com/guide/classes/rogue/assassination/enchants-gems-pve-dps"
         }
       },
-      "rotation": [
-        {
-          "mode": "st",
-          "note": "Maintain",
-          "spell_id": 703
-        },
-        {
-          "mode": "st",
-          "note": "Cast until having 5 or more combo points",
-          "spell_id": 1329
-        },
-        {
-          "mode": "st",
-          "note": "Cast at maximum combo points when {457058} is active",
-          "spell_id": 32645
-        },
-        {
-          "mode": "st",
-          "note": "Maintain by casting at 5 or more combo points",
-          "spell_id": 1943
-        },
-        {
-          "mode": "st",
-          "note": "Cast followed by {703} to apply {381632}. This should be lined up with {360194} in most situations",
-          "spell_id": 1856
-        },
-        {
-          "mode": "st",
-          "note": "Cast on cooldown",
-          "spell_id": 360194
-        },
-        {
-          "mode": "st",
-          "note": "Cast on cooldown, immediately after {360194} when applicable",
-          "spell_id": 385627
-        },
-        {
-          "mode": "st",
-          "note": "Cast at 5 or more combo points",
-          "spell_id": 32645
-        },
-        {
-          "mode": "aoe",
-          "note": "Maintain on your main target",
-          "spell_id": 703
-        },
-        {
-          "mode": "aoe",
-          "note": "Maintain by casting at 5 or more combo points on your main target",
-          "spell_id": 1943
-        },
-        {
-          "mode": "aoe",
-          "note": "Cast to spread bleeds to secondary targets until having 5 or more combo points",
-          "spell_id": 1247227
-        },
-        {
-          "mode": "aoe",
-          "note": "Cast on 2 or more targets, until having 5 or more combo points",
-          "spell_id": 51723
-        },
-        {
-          "mode": "aoe",
-          "note": "Cast followed by {703} to apply {381632}. In Mythic+, this is commonly held for chainpulls where you cannot stealth beforehand. Otherwise, sync with {360194}.",
-          "spell_id": 1856
-        },
-        {
-          "mode": "aoe",
-          "note": "Cast on cooldown",
-          "spell_id": 360194
-        },
-        {
-          "mode": "aoe",
-          "note": "Cast on cooldown, immediately after {360194} when applicable",
-          "spell_id": 385627
-        },
-        {
-          "mode": "aoe",
-          "note": "Cast at 5 or more combo points to avoid wasting energy and combo points",
-          "spell_id": 32645
-        }
-      ],
       "stat_priority": [
         {
           "rating": 974,
@@ -1130,6 +1080,38 @@
       ]
     },
     {
+      "consumables": [
+        {
+          "category": "FLASK",
+          "is_primary": true,
+          "item_id": 241324
+        },
+        {
+          "category": "POTION",
+          "is_primary": true,
+          "item_id": 271887
+        },
+        {
+          "category": "HEALTH_POTION",
+          "is_primary": true,
+          "item_id": 271884
+        },
+        {
+          "category": "WEAPON_OIL",
+          "is_primary": true,
+          "item_id": 243734
+        },
+        {
+          "category": "RUNE",
+          "is_primary": true,
+          "item_id": 259085
+        },
+        {
+          "category": "FOOD",
+          "is_primary": true,
+          "item_id": 255845
+        }
+      ],
       "content": "mplus",
       "enchants": [
         {
@@ -2030,86 +2012,9 @@
         },
         "wowhead": {
           "fetched_at": "2026-08-21",
-          "url": "https://www.wowhead.com/guide/classes/rogue/assassination/rotation-cooldowns-pve-dps"
+          "url": "https://www.wowhead.com/guide/classes/rogue/assassination/enchants-gems-pve-dps"
         }
       },
-      "rotation": [
-        {
-          "mode": "st",
-          "note": "Maintain",
-          "spell_id": 703
-        },
-        {
-          "mode": "st",
-          "note": "Cast until having 5 or more combo points",
-          "spell_id": 1329
-        },
-        {
-          "mode": "st",
-          "note": "Maintain by casting at 5 or more combo points",
-          "spell_id": 1943
-        },
-        {
-          "mode": "st",
-          "note": "Cast followed by {703} to apply {381632}. This should be lined up with {360194} in most situations",
-          "spell_id": 1856
-        },
-        {
-          "mode": "st",
-          "note": "Cast on cooldown",
-          "spell_id": 360194
-        },
-        {
-          "mode": "st",
-          "note": "Cast on cooldown, immediately after {360194} when applicable",
-          "spell_id": 385627
-        },
-        {
-          "mode": "st",
-          "note": "Cast at 5 or more combo points",
-          "spell_id": 32645
-        },
-        {
-          "mode": "aoe",
-          "note": "Maintain on your main target",
-          "spell_id": 703
-        },
-        {
-          "mode": "aoe",
-          "note": "Maintain by casting at 5 or more combo points on your main target",
-          "spell_id": 1943
-        },
-        {
-          "mode": "aoe",
-          "note": "Cast to spread bleeds to secondary targets until having 5 or more combo points",
-          "spell_id": 1247227
-        },
-        {
-          "mode": "aoe",
-          "note": "Cast on 2 or more targets, until having 5 or more combo points",
-          "spell_id": 51723
-        },
-        {
-          "mode": "aoe",
-          "note": "Cast followed by {703} to apply {381632}. In Mythic+, this is commonly held for chainpulls where you cannot stealth beforehand. Otherwise, sync with {360194}.",
-          "spell_id": 1856
-        },
-        {
-          "mode": "aoe",
-          "note": "Cast on cooldown",
-          "spell_id": 360194
-        },
-        {
-          "mode": "aoe",
-          "note": "Cast on cooldown, immediately after {360194} when applicable",
-          "spell_id": 385627
-        },
-        {
-          "mode": "aoe",
-          "note": "Cast at 5 or more combo points to avoid wasting energy and combo points",
-          "spell_id": 32645
-        }
-      ],
       "stat_priority": [
         {
           "rating": 974,

@@ -1,19 +1,20 @@
-"""La rotacion es lo unico que Wowhead aporta y nadie mas da."""
+"""Los consumibles son lo unico que Wowhead aporta y nadie mas publica."""
 
 import pytest
 
+from scraper.model import CONSUMABLE_CATEGORIES
 from scraper.sources import wowhead
 
 
 @pytest.fixture(scope="module")
-def rotations(wowhead_html, frost_mage):
-    return wowhead.parse_rotations(wowhead_html, frost_mage)
+def consumables(consumables_html):
+    return wowhead.parse_consumables(consumables_html)
 
 
 def test_urls_cover_the_three_roles(frost_mage):
     urls = wowhead.guide_urls(frost_mage)
     assert urls[0] == ("https://www.wowhead.com/guide/classes/mage/frost/"
-                       "rotation-cooldowns-pve-dps")
+                       "enchants-gems-pve-dps")
     assert any("healer" in url for url in urls) and any("tank" in url for url in urls)
 
 
@@ -25,90 +26,57 @@ def test_url_slugs_lose_their_spaces():
     assert "/death-knight/beast-mastery/" in wowhead.guide_urls(Spec())[0]
 
 
-def test_rotation_is_split_per_hero_talent(rotations, frost_mage):
-    assert set(rotations) == set(frost_mage.hero_names)
+def test_every_category_the_guide_publishes_is_found(consumables):
+    found = {entry["category"] for entry in consumables}
+    assert found == {"FLASK", "POTION", "HEALTH_POTION", "WEAPON_OIL", "RUNE", "FOOD"}
 
 
-def test_both_single_target_and_aoe_are_captured(rotations):
-    # La cabecera de AoE lleva dos espacios en esta guia; si el regex exige uno,
-    # este test se cae y ese fue exactamente el bug.
-    for modes in rotations.values():
-        assert set(modes) == {"st", "aoe"}
-        assert len(modes["aoe"]) > 5
+def test_categories_are_ones_the_addon_understands(consumables):
+    assert all(entry["category"] in CONSUMABLE_CATEGORIES for entry in consumables)
 
 
-def test_opener_is_not_mistaken_for_a_rotation(rotations):
-    # La secuencia de apertura vive en bloques del mismo tipo, justo despues.
-    for modes in rotations.values():
-        assert set(modes) <= {"st", "aoe"}
+def test_each_category_has_exactly_one_primary(consumables):
+    for category in {entry["category"] for entry in consumables}:
+        primaries = [e for e in consumables if e["category"] == category and e["is_primary"]]
+        assert len(primaries) == 1
 
 
-def test_conditions_keep_their_spells_as_tokens(rotations):
-    notes = [e["note"] for modes in rotations.values()
-             for entries in modes.values() for e in entries if e["note"]]
-    assert any("{190447}" in note for note in notes)
-    # Y nunca el nombre en ingles, que rompe la regla de solo-IDs.
-    assert not any("Brain Freeze" in note for note in notes)
+def test_health_potion_is_not_swallowed_by_the_combat_potion(consumables):
+    # "Health Potion" contiene "Potion": si el orden de los patrones se invierte,
+    # las dos secciones caen en la misma categoria y una se pierde.
+    potion = next(e for e in consumables if e["category"] == "POTION" and e["is_primary"])
+    health = next(e for e in consumables if e["category"] == "HEALTH_POTION")
+    assert potion["item_id"] != health["item_id"]
 
 
-def test_entries_without_a_condition_have_no_note(rotations):
-    entries = rotations[40]["st"]
-    assert any(entry["note"] is None for entry in entries)
+def test_caveat_sentences_do_not_leak_items(consumables):
+    # La seccion de pocion de combate sigue con "si llevas [item=245880], la
+    # pocion empeora". Ese 245880 es un abalorio: publicarlo como pocion seria
+    # un dato confiadamente falso.
+    potions = [e["item_id"] for e in consumables if e["category"] == "POTION"]
+    assert 245880 not in potions
+    assert len(potions) == 2
 
 
-def test_bbcode_leftovers_are_stripped(rotations):
-    notes = [e["note"] for modes in rotations.values()
-             for entries in modes.values() for e in entries if e["note"]]
-    assert not any("[" in note or "]" in note for note in notes)
+def test_food_is_read_from_its_list_not_its_prose(consumables):
+    # La seccion de comida empieza con un parrafo sin items y pone las opciones
+    # debajo, en un [ul]. Si solo se mirara la primera frase, saldria vacia.
+    food = [e for e in consumables if e["category"] == "FOOD"]
+    assert len(food) == 2 and food[0]["is_primary"]
 
 
-def test_a_page_without_the_guide_yields_nothing(frost_mage):
-    assert wowhead.parse_rotations("<html>nada</html>", frost_mage) == {}
+def test_a_page_without_the_guide_yields_nothing():
+    assert wowhead.parse_consumables("<html>nada</html>") == []
 
 
-# --- Atribucion cuando la guia usa taquigrafia propia ---------------------
-#
-# Cada autor se inventa sus display-options. La de Brewmaster usa "spm" y "moh",
-# que no se parecen a "Shado-Pan" ni a "Master of Harmony": la unica via fiable
-# es mirar que talentos de heroe aparecen en la propia lista.
-
-@pytest.fixture(scope="module")
-def brewmaster_rotations(brewmaster_html, brewmaster):
-    return wowhead.parse_rotations(brewmaster_html, brewmaster)
+def test_a_section_without_items_is_skipped():
+    text = '[h3 toc="Flasks"]Flask[/h3]Sim your character.[h3 toc="Food"]Food[/h3]Use [item=1].'
+    parsed = wowhead.parse_consumables(text)
+    assert [e["category"] for e in parsed] == ["FOOD"]
 
 
-def test_shorthand_labels_are_resolved_by_their_spells(brewmaster_rotations, brewmaster):
-    assert set(brewmaster_rotations) == set(brewmaster.hero_names)
-
-
-def test_prose_mentions_of_the_opener_do_not_end_a_section(brewmaster_rotations):
-    # La palabra "opener" sale en el texto de la seccion de AoE. Si se busca
-    # suelta en vez de en las cabeceras, los bloques posteriores pierden su modo.
-    for modes in brewmaster_rotations.values():
-        assert "aoe" in modes
-
-
-def test_headings_are_read_only_as_headings():
-    text = "[h3]Best AoE  Rotation[/h3] blah opener blah [h3]Priority[/h3]"
-    headings = wowhead._headings(text)
-    assert [mode for _, mode in headings] == ["aoe"]
-
-
-def test_opener_heading_still_closes_the_section():
-    text = "[h3]Single Target Rotation[/h3] x [h3]Best Opener[/h3]"
-    headings = wowhead._headings(text)
-    assert wowhead._mode_at(headings, len(text)) is None
-    assert wowhead._mode_at(headings, 30) == "st"
-
-
-def test_label_can_carry_the_mode_itself():
-    # "slayer-st" / "thane-mt": algunas guias ponen ambas variantes bajo una
-    # sola cabecera y distinguen en la etiqueta.
-    assert wowhead._mode_for_block("slayer-st", [], 0) == "st"
-    assert wowhead._mode_for_block("thane-mt", [], 0) == "aoe"
-
-
-def test_negated_blocks_are_not_content(brewmaster_html, brewmaster):
-    # "!(spm)&!(moh)" es el aviso de "elige un hero talent".
-    assert all(entries for modes in wowhead.parse_rotations(brewmaster_html, brewmaster).values()
-               for entries in modes.values())
+def test_only_the_first_section_per_category_counts():
+    # Algunas guias repiten la cabecera mas abajo con salvedades; la primera
+    # es la recomendacion.
+    text = '[h3]Flask[/h3]Use [item=1].[h3]Flask[/h3]Or maybe [item=2].'
+    assert [e["item_id"] for e in wowhead.parse_consumables(text)] == [1]

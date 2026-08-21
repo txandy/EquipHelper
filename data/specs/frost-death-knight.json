@@ -3,6 +3,48 @@
   "class_name": "Death Knight",
   "guides": [
     {
+      "consumables": [
+        {
+          "category": "FLASK",
+          "is_primary": true,
+          "item_id": 241326
+        },
+        {
+          "category": "POTION",
+          "is_primary": true,
+          "item_id": 241308
+        },
+        {
+          "category": "HEALTH_POTION",
+          "is_primary": true,
+          "item_id": 241304
+        },
+        {
+          "category": "WEAPON_OIL",
+          "is_primary": true,
+          "item_id": 243734
+        },
+        {
+          "category": "RUNE",
+          "is_primary": true,
+          "item_id": 259085
+        },
+        {
+          "category": "FOOD",
+          "is_primary": true,
+          "item_id": 266985
+        },
+        {
+          "category": "FOOD",
+          "is_primary": false,
+          "item_id": 242744
+        },
+        {
+          "category": "FOOD",
+          "is_primary": false,
+          "item_id": 242275
+        }
+      ],
       "content": "mplus",
       "enchants": [
         {
@@ -873,141 +915,9 @@
         },
         "wowhead": {
           "fetched_at": "2026-08-21",
-          "url": "https://www.wowhead.com/guide/classes/death-knight/frost/rotation-cooldowns-pve-dps"
+          "url": "https://www.wowhead.com/guide/classes/death-knight/frost/enchants-gems-pve-dps"
         }
       },
-      "rotation": [
-        {
-          "mode": "st",
-          "note": "if you have 2 charges",
-          "spell_id": 47568
-        },
-        {
-          "mode": "st",
-          "note": null,
-          "spell_id": 439843
-        },
-        {
-          "mode": "st",
-          "note": null,
-          "spell_id": 51271
-        },
-        {
-          "mode": "st",
-          "note": null,
-          "spell_id": 1249658
-        },
-        {
-          "mode": "st",
-          "note": null,
-          "spell_id": 279302
-        },
-        {
-          "mode": "st",
-          "note": "if you have 2 {51128} stacks, or 1 {51128} and {441378}",
-          "spell_id": 49020
-        },
-        {
-          "mode": "st",
-          "note": "with {59057}",
-          "spell_id": 49184
-        },
-        {
-          "mode": "st",
-          "note": "to avoid Runic Power waste",
-          "spell_id": 49143
-        },
-        {
-          "mode": "st",
-          "note": "with {51128}",
-          "spell_id": 49020
-        },
-        {
-          "mode": "st",
-          "note": "to generate {51128}",
-          "spell_id": 47568
-        },
-        {
-          "mode": "st",
-          "note": null,
-          "spell_id": 49143
-        },
-        {
-          "mode": "st",
-          "note": "without {51128}",
-          "spell_id": 49020
-        },
-        {
-          "mode": "st",
-          "note": null,
-          "spell_id": 49184
-        },
-        {
-          "mode": "aoe",
-          "note": "if you have 2 charges",
-          "spell_id": 47568
-        },
-        {
-          "mode": "aoe",
-          "note": null,
-          "spell_id": 439843
-        },
-        {
-          "mode": "aoe",
-          "note": null,
-          "spell_id": 51271
-        },
-        {
-          "mode": "aoe",
-          "note": null,
-          "spell_id": 1249658
-        },
-        {
-          "mode": "aoe",
-          "note": null,
-          "spell_id": 279302
-        },
-        {
-          "mode": "aoe",
-          "note": "if you have 2 {51128} stacks, or {441378}",
-          "spell_id": 207230
-        },
-        {
-          "mode": "aoe",
-          "note": "with {59057}",
-          "spell_id": 49184
-        },
-        {
-          "mode": "aoe",
-          "note": "to avoid Runic Power waste",
-          "spell_id": 194913
-        },
-        {
-          "mode": "aoe",
-          "note": "with {51128}",
-          "spell_id": 207230
-        },
-        {
-          "mode": "aoe",
-          "note": "to generate {51128}",
-          "spell_id": 47568
-        },
-        {
-          "mode": "aoe",
-          "note": null,
-          "spell_id": 194913
-        },
-        {
-          "mode": "aoe",
-          "note": "without {51128}",
-          "spell_id": 207230
-        },
-        {
-          "mode": "aoe",
-          "note": null,
-          "spell_id": 49184
-        }
-      ],
       "stat_priority": [
         {
           "rating": 1104,

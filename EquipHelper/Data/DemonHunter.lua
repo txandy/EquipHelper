@@ -8,6 +8,53 @@ ns.RegisterClassData("DEMONHUNTER", {
 			heroes = {
 				[34] = {
 					mplus = {
+						consumables = {
+							{
+								category = "FLASK",
+								itemID = 241326,
+								primary = true,
+							},
+							{
+								category = "FLASK",
+								itemID = 241322,
+								primary = false,
+							},
+							{
+								category = "POTION",
+								itemID = 241288,
+								primary = true,
+							},
+							{
+								category = "HEALTH_POTION",
+								itemID = 271884,
+								primary = true,
+							},
+							{
+								category = "WEAPON_OIL",
+								itemID = 243734,
+								primary = true,
+							},
+							{
+								category = "RUNE",
+								itemID = 259085,
+								primary = true,
+							},
+							{
+								category = "FOOD",
+								itemID = 266996,
+								primary = true,
+							},
+							{
+								category = "FOOD",
+								itemID = 242275,
+								primary = false,
+							},
+							{
+								category = "FOOD",
+								itemID = 242747,
+								primary = false,
+							},
+						},
 						enchants = {
 							{
 								itemID = 244029,
@@ -663,69 +710,7 @@ ns.RegisterClassData("DEMONHUNTER", {
 							},
 							wowhead = {
 								fetchedAt = "2026-08-21",
-								url = "https://www.wowhead.com/guide/classes/demon-hunter/havoc/rotation-cooldowns-pve-dps",
-							},
-						},
-						rotation = {
-							{
-								mode = "st",
-								note = "Cast Once you have spent all reset abilities",
-								spellID = 191427,
-							},
-							{
-								mode = "st",
-								note = "Cast when {198013} cooldown is less than 10 seconds",
-								spellID = 370965,
-							},
-							{
-								mode = "st",
-								note = "Cast if {452402} is available",
-								spellID = 210152,
-							},
-							{
-								mode = "st",
-								note = "Cast if {452402} is available",
-								spellID = 201427,
-							},
-							{
-								mode = "st",
-								note = "Cast",
-								spellID = 198013,
-							},
-							{
-								mode = "st",
-								note = "Cast",
-								spellID = 258860,
-							},
-							{
-								mode = "st",
-								note = "Cast",
-								spellID = 210152,
-							},
-							{
-								mode = "st",
-								note = "Cast",
-								spellID = 188499,
-							},
-							{
-								mode = "st",
-								note = "Cast",
-								spellID = 201427,
-							},
-							{
-								mode = "st",
-								note = "Cast if at 100 Fury or Less",
-								spellID = 213241,
-							},
-							{
-								mode = "st",
-								note = "Cast",
-								spellID = 162794,
-							},
-							{
-								mode = "st",
-								note = "Cast or {195072} when no other abilities are available",
-								spellID = 185123,
+								url = "https://www.wowhead.com/guide/classes/demon-hunter/havoc/enchants-gems-pve-dps",
 							},
 						},
 						statPriority = {
@@ -861,6 +846,53 @@ ns.RegisterClassData("DEMONHUNTER", {
 				},
 				[35] = {
 					mplus = {
+						consumables = {
+							{
+								category = "FLASK",
+								itemID = 241326,
+								primary = true,
+							},
+							{
+								category = "FLASK",
+								itemID = 241322,
+								primary = false,
+							},
+							{
+								category = "POTION",
+								itemID = 241288,
+								primary = true,
+							},
+							{
+								category = "HEALTH_POTION",
+								itemID = 271884,
+								primary = true,
+							},
+							{
+								category = "WEAPON_OIL",
+								itemID = 243734,
+								primary = true,
+							},
+							{
+								category = "RUNE",
+								itemID = 259085,
+								primary = true,
+							},
+							{
+								category = "FOOD",
+								itemID = 266996,
+								primary = true,
+							},
+							{
+								category = "FOOD",
+								itemID = 242275,
+								primary = false,
+							},
+							{
+								category = "FOOD",
+								itemID = 242747,
+								primary = false,
+							},
+						},
 						enchants = {
 							{
 								itemID = 244029,
@@ -1516,69 +1548,7 @@ ns.RegisterClassData("DEMONHUNTER", {
 							},
 							wowhead = {
 								fetchedAt = "2026-08-21",
-								url = "https://www.wowhead.com/guide/classes/demon-hunter/havoc/rotation-cooldowns-pve-dps",
-							},
-						},
-						rotation = {
-							{
-								mode = "st",
-								note = "Cast Once you have spent all reset abilities",
-								spellID = 191427,
-							},
-							{
-								mode = "st",
-								note = "Cast when {198013} cooldown is less than 10 seconds",
-								spellID = 370965,
-							},
-							{
-								mode = "st",
-								note = "Cast if {452402} is available",
-								spellID = 210152,
-							},
-							{
-								mode = "st",
-								note = "Cast if {452402} is available",
-								spellID = 201427,
-							},
-							{
-								mode = "st",
-								note = "Cast",
-								spellID = 198013,
-							},
-							{
-								mode = "st",
-								note = "Cast",
-								spellID = 258860,
-							},
-							{
-								mode = "st",
-								note = "Cast",
-								spellID = 210152,
-							},
-							{
-								mode = "st",
-								note = "Cast",
-								spellID = 188499,
-							},
-							{
-								mode = "st",
-								note = "Cast",
-								spellID = 201427,
-							},
-							{
-								mode = "st",
-								note = "Cast if at 100 Fury or Less",
-								spellID = 213241,
-							},
-							{
-								mode = "st",
-								note = "Cast",
-								spellID = 162794,
-							},
-							{
-								mode = "st",
-								note = "Cast or {195072} when no other abilities are available",
-								spellID = 185123,
+								url = "https://www.wowhead.com/guide/classes/demon-hunter/havoc/enchants-gems-pve-dps",
 							},
 						},
 						statPriority = {
@@ -1641,6 +1611,33 @@ ns.RegisterClassData("DEMONHUNTER", {
 			heroes = {
 				[124] = {
 					mplus = {
+						consumables = {
+							{
+								category = "FLASK",
+								itemID = 241325,
+								primary = true,
+							},
+							{
+								category = "POTION",
+								itemID = 241308,
+								primary = true,
+							},
+							{
+								category = "HEALTH_POTION",
+								itemID = 271884,
+								primary = true,
+							},
+							{
+								category = "WEAPON_OIL",
+								itemID = 243734,
+								primary = true,
+							},
+							{
+								category = "RUNE",
+								itemID = 259085,
+								primary = true,
+							},
+						},
 						enchants = {
 							{
 								itemID = 244029,
@@ -2296,139 +2293,7 @@ ns.RegisterClassData("DEMONHUNTER", {
 							},
 							wowhead = {
 								fetchedAt = "2026-08-21",
-								url = "https://www.wowhead.com/guide/classes/demon-hunter/vengeance/rotation-cooldowns-pve-tank",
-							},
-						},
-						rotation = {
-							{
-								mode = "st",
-								note = "Use off GCD if you are at or near 2 charges and will not need it for movement soon.",
-								spellID = 189110,
-							},
-							{
-								mode = "st",
-								note = "Maintain 75 Fury if you are at 2 stacks of or {187827} is about to come off cooldown.",
-								spellID = 1256301,
-							},
-							{
-								mode = "st",
-								note = "Use if you will not overcap duration and {247454} has more than 10s remaining on its CD.",
-								spellID = 187827,
-							},
-							{
-								mode = "st",
-								note = "Use if you are at or near 2 charges.",
-								spellID = 263642,
-							},
-							{
-								mode = "st",
-								note = "Use with 5+ Souls. If this activated {1256302}, cast {228477} on the next GCD.",
-								spellID = 247454,
-							},
-							{
-								mode = "st",
-								note = "Use .",
-								spellID = 258920,
-							},
-							{
-								mode = "st",
-								note = "Use .",
-								spellID = 204596,
-							},
-							{
-								mode = "st",
-								note = "Use with 1 or more Souls.",
-								spellID = 228477,
-							},
-							{
-								mode = "st",
-								note = "Use if you have at least 50 Fury.",
-								spellID = 212084,
-							},
-							{
-								mode = "st",
-								note = "Spend Fury with at 0 Souls.",
-								spellID = 228477,
-							},
-							{
-								mode = "st",
-								note = "Use if you won't cap Fury or Souls.",
-								spellID = 263642,
-							},
-							{
-								mode = "st",
-								note = "Use if you won't cap Fury.",
-								spellID = 232893,
-							},
-							{
-								mode = "st",
-								note = "Use for filler or when kiting.",
-								spellID = 204157,
-							},
-							{
-								mode = "aoe",
-								note = "Use off GCD if you are at or near 2 charges and will not need it for movement soon.",
-								spellID = 189110,
-							},
-							{
-								mode = "aoe",
-								note = "Maintain 75 Fury if you are at 2 stacks of or {187827} is about to come off cooldown.",
-								spellID = 1256301,
-							},
-							{
-								mode = "aoe",
-								note = "Use if you will not overcap duration and {247454} has more than 10s remaining on its CD.",
-								spellID = 187827,
-							},
-							{
-								mode = "aoe",
-								note = "Use at or near 2 charges.",
-								spellID = 263642,
-							},
-							{
-								mode = "aoe",
-								note = "Use with 5+ Souls. If this activated {1256302}, cast {228477} on the next GCD.",
-								spellID = 247454,
-							},
-							{
-								mode = "aoe",
-								note = "Use .",
-								spellID = 258920,
-							},
-							{
-								mode = "aoe",
-								note = "Use .",
-								spellID = 204596,
-							},
-							{
-								mode = "aoe",
-								note = "Use if you have 5+ Souls but not enough Fury to {247454}.",
-								spellID = 232893,
-							},
-							{
-								mode = "aoe",
-								note = "Use if you have at least 50 Fury.",
-								spellID = 212084,
-							},
-							{
-								mode = "aoe",
-								note = "Spend Fury and any available Souls with .",
-								spellID = 228477,
-							},
-							{
-								mode = "aoe",
-								note = "Use if you won't cap Souls.",
-								spellID = 263642,
-							},
-							{
-								mode = "aoe",
-								note = "Use if you won't cap Fury.",
-								spellID = 232893,
-							},
-							{
-								mode = "aoe",
-								note = "Use for filler or when kiting.",
-								spellID = 204157,
+								url = "https://www.wowhead.com/guide/classes/demon-hunter/vengeance/enchants-gems-pve-tank",
 							},
 						},
 						statPriority = {
@@ -2569,6 +2434,48 @@ ns.RegisterClassData("DEMONHUNTER", {
 			heroes = {
 				[124] = {
 					mplus = {
+						consumables = {
+							{
+								category = "FLASK",
+								itemID = 241322,
+								primary = true,
+							},
+							{
+								category = "FLASK",
+								itemID = 241324,
+								primary = false,
+							},
+							{
+								category = "POTION",
+								itemID = 241288,
+								primary = true,
+							},
+							{
+								category = "HEALTH_POTION",
+								itemID = 271884,
+								primary = true,
+							},
+							{
+								category = "WEAPON_OIL",
+								itemID = 243734,
+								primary = true,
+							},
+							{
+								category = "RUNE",
+								itemID = 259085,
+								primary = true,
+							},
+							{
+								category = "FOOD",
+								itemID = 275266,
+								primary = true,
+							},
+							{
+								category = "FOOD",
+								itemID = 242274,
+								primary = false,
+							},
+						},
 						enchants = {
 							{
 								itemID = 244031,
@@ -3219,74 +3126,7 @@ ns.RegisterClassData("DEMONHUNTER", {
 							},
 							wowhead = {
 								fetchedAt = "2026-08-21",
-								url = "https://www.wowhead.com/guide/classes/demon-hunter/devourer/rotation-cooldowns-pve-dps",
-							},
-						},
-						rotation = {
-							{
-								mode = "st",
-								note = "Cast if it will trigger {1297432}.",
-								spellID = 473662,
-							},
-							{
-								mode = "st",
-								note = "Cast at 4+ souls.",
-								spellID = 1226019,
-							},
-							{
-								mode = "st",
-								note = "Cast",
-								spellID = 1217607,
-							},
-							{
-								mode = "st",
-								note = "Cast",
-								spellID = 473728,
-							},
-							{
-								mode = "st",
-								note = "Cast",
-								spellID = 1241937,
-							},
-							{
-								mode = "st",
-								note = "Cast",
-								spellID = 473662,
-							},
-							{
-								mode = "aoe",
-								note = "Cast if it will trigger {1297432}.",
-								spellID = 473662,
-							},
-							{
-								mode = "aoe",
-								note = "Cast at 10 souls, or 4+ if it will proc {1256301}",
-								spellID = 1226033,
-							},
-							{
-								mode = "aoe",
-								note = "Cast .",
-								spellID = 473728,
-							},
-							{
-								mode = "aoe",
-								note = "Cast .",
-								spellID = 1217607,
-							},
-							{
-								mode = "aoe",
-								note = "Cast if it will proc {1256301}",
-								spellID = 1226019,
-							},
-							{
-								mode = "aoe",
-								note = "Cast",
-								spellID = 1241937,
-							},
-							{
-								mode = "aoe",
-								note = "Cast",
-								spellID = 473662,
+								url = "https://www.wowhead.com/guide/classes/demon-hunter/devourer/enchants-gems-pve-dps",
 							},
 						},
 						statPriority = {
@@ -3422,6 +3262,48 @@ ns.RegisterClassData("DEMONHUNTER", {
 				},
 				[126] = {
 					mplus = {
+						consumables = {
+							{
+								category = "FLASK",
+								itemID = 241322,
+								primary = true,
+							},
+							{
+								category = "FLASK",
+								itemID = 241324,
+								primary = false,
+							},
+							{
+								category = "POTION",
+								itemID = 241288,
+								primary = true,
+							},
+							{
+								category = "HEALTH_POTION",
+								itemID = 271884,
+								primary = true,
+							},
+							{
+								category = "WEAPON_OIL",
+								itemID = 243734,
+								primary = true,
+							},
+							{
+								category = "RUNE",
+								itemID = 259085,
+								primary = true,
+							},
+							{
+								category = "FOOD",
+								itemID = 275266,
+								primary = true,
+							},
+							{
+								category = "FOOD",
+								itemID = 242274,
+								primary = false,
+							},
+						},
 						enchants = {
 							{
 								itemID = 244031,
@@ -4072,114 +3954,7 @@ ns.RegisterClassData("DEMONHUNTER", {
 							},
 							wowhead = {
 								fetchedAt = "2026-08-21",
-								url = "https://www.wowhead.com/guide/classes/demon-hunter/devourer/rotation-cooldowns-pve-dps",
-							},
-						},
-						rotation = {
-							{
-								mode = "st",
-								note = "Cast if it will trigger {1297432}.",
-								spellID = 473662,
-							},
-							{
-								mode = "st",
-								note = "Cast at 4+ souls.",
-								spellID = 1226019,
-							},
-							{
-								mode = "st",
-								note = "Cast if one is not already active.",
-								spellID = 1241937,
-							},
-							{
-								mode = "st",
-								note = "Cast if you are about to enter {1217605}.",
-								spellID = 1245412,
-							},
-							{
-								mode = "st",
-								note = "Cast after {1245412} if about to enter {1217605} and {1246167} is available.",
-								spellID = 344866,
-							},
-							{
-								mode = "st",
-								note = "Cast on cooldown.",
-								spellID = 1246167,
-							},
-							{
-								mode = "st",
-								note = "Cast when available.",
-								spellID = 1217605,
-							},
-							{
-								mode = "st",
-								note = "Cast .",
-								spellID = 1239519,
-							},
-							{
-								mode = "st",
-								note = "Cast if buffed by {1239526}",
-								spellID = 198793,
-							},
-							{
-								mode = "st",
-								note = "Cast .",
-								spellID = 473728,
-							},
-							{
-								mode = "st",
-								note = "Cast .",
-								spellID = 473662,
-							},
-							{
-								mode = "aoe",
-								note = "Cast at 10 souls if it is your first or second cast in this {1217607} window.",
-								spellID = 1239524,
-							},
-							{
-								mode = "aoe",
-								note = "Cast",
-								spellID = 473728,
-							},
-							{
-								mode = "aoe",
-								note = "Cast if it will trigger {1297432} and you have not yet cast your second {473728}.",
-								spellID = 1217610,
-							},
-							{
-								mode = "aoe",
-								note = "Cast .",
-								spellID = 1245470,
-							},
-							{
-								mode = "aoe",
-								note = "Cast if buffed by {1239526}.",
-								spellID = 198793,
-							},
-							{
-								mode = "aoe",
-								note = "Cast .",
-								spellID = 1245483,
-							},
-							{
-								mode = "aoe",
-								note = "Cast .",
-								spellID = 1259431,
-							},
-							{
-								mode = "aoe",
-								note = "Cast if you have not yet cast your second {473728}.",
-								spellID = 1217610,
-							},
-							{
-								mode = "aoe",
-								note = "Cast if you have cast your second {473728}.",
-								spellID = 185123,
-							},
-							{
-								mode = "aoe",
-								note = "Cast at 20 Fury or less remaining, before you drop out of {1217607}.",
-								spellID = 1241937,
+								url = "https://www.wowhead.com/guide/classes/demon-hunter/devourer/enchants-gems-pve-dps",
 							},
 						},
 						statPriority = {

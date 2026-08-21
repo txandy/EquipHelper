@@ -9,7 +9,7 @@ from __future__ import annotations
 
 from dataclasses import dataclass, field
 
-from scraper.model import SLOTS, STATS, SpecGuides
+from scraper.model import CONSUMABLE_CATEGORIES, SLOTS, STATS, SpecGuides
 from scraper.talent_tree import Spec
 
 MIN_COVERAGE = 0.90        # menos specs que esto y el build no sale
@@ -62,9 +62,13 @@ def _check_guide(report: Report, spec: SpecGuides, guide) -> None:
             if not isinstance(entry.item_id, int) or not 0 < entry.item_id < MAX_ITEM_ID:
                 report.errors.append(f"{where}: itemID implausible {entry.item_id!r}")
 
-    for entry in guide.gems + [e for e in guide.enchants]:
+    for entry in guide.gems + list(guide.enchants) + list(guide.consumables):
         if not isinstance(entry.item_id, int) or not 0 < entry.item_id < MAX_ITEM_ID:
             report.errors.append(f"{where}: itemID implausible {entry.item_id!r}")
+
+    for entry in guide.consumables:
+        if entry.category not in CONSUMABLE_CATEGORIES:
+            report.errors.append(f"{where}: consumible desconocido {entry.category!r}")
 
 
 def validate(results: list[SpecGuides], expected: list[Spec]) -> Report:
@@ -102,6 +106,7 @@ def _item_ids(spec_dict: dict) -> set[int]:
             ids.update(e["item_id"] for e in entries)
         ids.update(e["item_id"] for e in guide.get("gems", []))
         ids.update(e["item_id"] for e in guide.get("enchants", []))
+        ids.update(e["item_id"] for e in guide.get("consumables", []))
     return ids
 
 

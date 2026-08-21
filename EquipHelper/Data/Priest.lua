@@ -8,6 +8,53 @@ ns.RegisterClassData("PRIEST", {
 			heroes = {
 				[18] = {
 					mplus = {
+						consumables = {
+							{
+								category = "FLASK",
+								itemID = 241324,
+								primary = true,
+							},
+							{
+								category = "POTION",
+								itemID = 241288,
+								primary = true,
+							},
+							{
+								category = "POTION",
+								itemID = 241308,
+								primary = false,
+							},
+							{
+								category = "POTION",
+								itemID = 241303,
+								primary = false,
+							},
+							{
+								category = "HEALTH_POTION",
+								itemID = 271884,
+								primary = true,
+							},
+							{
+								category = "WEAPON_OIL",
+								itemID = 243734,
+								primary = true,
+							},
+							{
+								category = "RUNE",
+								itemID = 259085,
+								primary = true,
+							},
+							{
+								category = "FOOD",
+								itemID = 255846,
+								primary = true,
+							},
+							{
+								category = "FOOD",
+								itemID = 255848,
+								primary = false,
+							},
+						},
 						enchants = {
 							{
 								itemID = 244029,
@@ -645,6 +692,10 @@ ns.RegisterClassData("PRIEST", {
 							mythicstats = {
 								fetchedAt = "2026-08-21",
 								url = "https://mythicstats.com/spec/discipline-priest",
+							},
+							wowhead = {
+								fetchedAt = "2026-08-21",
+								url = "https://www.wowhead.com/guide/classes/priest/discipline/enchants-gems-pve-healer",
 							},
 						},
 						statPriority = {
@@ -709,6 +760,53 @@ ns.RegisterClassData("PRIEST", {
 				},
 				[20] = {
 					mplus = {
+						consumables = {
+							{
+								category = "FLASK",
+								itemID = 241324,
+								primary = true,
+							},
+							{
+								category = "POTION",
+								itemID = 241288,
+								primary = true,
+							},
+							{
+								category = "POTION",
+								itemID = 241308,
+								primary = false,
+							},
+							{
+								category = "POTION",
+								itemID = 241303,
+								primary = false,
+							},
+							{
+								category = "HEALTH_POTION",
+								itemID = 271884,
+								primary = true,
+							},
+							{
+								category = "WEAPON_OIL",
+								itemID = 243734,
+								primary = true,
+							},
+							{
+								category = "RUNE",
+								itemID = 259085,
+								primary = true,
+							},
+							{
+								category = "FOOD",
+								itemID = 255846,
+								primary = true,
+							},
+							{
+								category = "FOOD",
+								itemID = 255848,
+								primary = false,
+							},
+						},
 						enchants = {
 							{
 								itemID = 244029,
@@ -1346,6 +1444,10 @@ ns.RegisterClassData("PRIEST", {
 							mythicstats = {
 								fetchedAt = "2026-08-21",
 								url = "https://mythicstats.com/spec/discipline-priest",
+							},
+							wowhead = {
+								fetchedAt = "2026-08-21",
+								url = "https://www.wowhead.com/guide/classes/priest/discipline/enchants-gems-pve-healer",
 							},
 						},
 						statPriority = {
@@ -1426,6 +1528,53 @@ ns.RegisterClassData("PRIEST", {
 			heroes = {
 				[20] = {
 					mplus = {
+						consumables = {
+							{
+								category = "FLASK",
+								itemID = 241326,
+								primary = true,
+							},
+							{
+								category = "POTION",
+								itemID = 241288,
+								primary = true,
+							},
+							{
+								category = "POTION",
+								itemID = 241308,
+								primary = false,
+							},
+							{
+								category = "POTION",
+								itemID = 241303,
+								primary = false,
+							},
+							{
+								category = "HEALTH_POTION",
+								itemID = 271884,
+								primary = true,
+							},
+							{
+								category = "WEAPON_OIL",
+								itemID = 243734,
+								primary = true,
+							},
+							{
+								category = "RUNE",
+								itemID = 259085,
+								primary = true,
+							},
+							{
+								category = "FOOD",
+								itemID = 255846,
+								primary = true,
+							},
+							{
+								category = "FOOD",
+								itemID = 242275,
+								primary = false,
+							},
+						},
 						enchants = {
 							{
 								itemID = 244029,
@@ -2064,6 +2213,10 @@ ns.RegisterClassData("PRIEST", {
 								fetchedAt = "2026-08-21",
 								url = "https://mythicstats.com/spec/holy-priest",
 							},
+							wowhead = {
+								fetchedAt = "2026-08-21",
+								url = "https://www.wowhead.com/guide/classes/priest/holy/enchants-gems-pve-healer",
+							},
 						},
 						statPriority = {
 							{
@@ -2187,6 +2340,43 @@ ns.RegisterClassData("PRIEST", {
 			heroes = {
 				[18] = {
 					mplus = {
+						consumables = {
+							{
+								category = "FLASK",
+								itemID = 241322,
+								primary = true,
+							},
+							{
+								category = "POTION",
+								itemID = 241288,
+								primary = true,
+							},
+							{
+								category = "HEALTH_POTION",
+								itemID = 271884,
+								primary = true,
+							},
+							{
+								category = "WEAPON_OIL",
+								itemID = 243734,
+								primary = true,
+							},
+							{
+								category = "RUNE",
+								itemID = 259085,
+								primary = true,
+							},
+							{
+								category = "FOOD",
+								itemID = 242273,
+								primary = true,
+							},
+							{
+								category = "FOOD",
+								itemID = 242275,
+								primary = false,
+							},
+						},
 						enchants = {
 							{
 								itemID = 244031,
@@ -2827,129 +3017,7 @@ ns.RegisterClassData("PRIEST", {
 							},
 							wowhead = {
 								fetchedAt = "2026-08-21",
-								url = "https://www.wowhead.com/guide/classes/priest/shadow/rotation-cooldowns-pve-dps",
-							},
-						},
-						rotation = {
-							{
-								mode = "st",
-								note = "Maintain , either with {1227280} or hard cast {34914}",
-								spellID = 34914,
-							},
-							{
-								mode = "st",
-								note = "Cast .",
-								spellID = 10060,
-							},
-							{
-								mode = "st",
-								note = "Cast if the target has an absorb shield.",
-								spellID = 32379,
-							},
-							{
-								mode = "st",
-								note = "Cast if {335467} is active or if {447444} is about to expire.",
-								spellID = 450405,
-							},
-							{
-								mode = "st",
-								note = "Spend on if it is not active, is about to fall off, you are about to cap, or {447444} is active.",
-								spellID = 335467,
-							},
-							{
-								mode = "st",
-								note = "Cast to activate {447444}.",
-								spellID = 263165,
-							},
-							{
-								mode = "st",
-								note = "Cast .",
-								spellID = 8092,
-							},
-							{
-								mode = "st",
-								note = "Cast .",
-								spellID = 335467,
-							},
-							{
-								mode = "st",
-								note = "Cast if there will be no additional targets to DoT or upcoming movement.",
-								spellID = 1227280,
-							},
-							{
-								mode = "st",
-								note = "Cast if the target is below 20% Hp.",
-								spellID = 32379,
-							},
-							{
-								mode = "st",
-								note = "Cast , interrupting as soon as anything of higher priority becomes available.",
-								spellID = 15407,
-							},
-							{
-								mode = "st",
-								note = "When moving, cast , {32379}, or {589} to generate some and deal some damage.",
-								spellID = 1227280,
-							},
-							{
-								mode = "aoe",
-								note = "Maintain , either with {1227280} or hard cast {34914}",
-								spellID = 34914,
-							},
-							{
-								mode = "aoe",
-								note = "Cast .",
-								spellID = 10060,
-							},
-							{
-								mode = "aoe",
-								note = "Cast if the target has an absorb shield.",
-								spellID = 32379,
-							},
-							{
-								mode = "aoe",
-								note = "Cast if {335467} is active or if {447444} is about to expire.",
-								spellID = 450405,
-							},
-							{
-								mode = "aoe",
-								note = "Spend on if it is not active, is about to fall off, you are about to cap, or {447444} is active.",
-								spellID = 335467,
-							},
-							{
-								mode = "aoe",
-								note = "Cast to activate {447444}.",
-								spellID = 263165,
-							},
-							{
-								mode = "aoe",
-								note = "Cast .",
-								spellID = 8092,
-							},
-							{
-								mode = "aoe",
-								note = "Cast .",
-								spellID = 335467,
-							},
-							{
-								mode = "aoe",
-								note = "Cast if there will be no additional targets to DoT or upcoming movement.",
-								spellID = 1227280,
-							},
-							{
-								mode = "aoe",
-								note = "Cast if there is a target is below 20% Hp.",
-								spellID = 32379,
-							},
-							{
-								mode = "aoe",
-								note = "Cast , interrupting as soon as anything of higher priority becomes available.",
-								spellID = 15407,
-							},
-							{
-								mode = "aoe",
-								note = "When moving, cast , {32379}, or {589} to generate some and deal some damage.",
-								spellID = 1227280,
+								url = "https://www.wowhead.com/guide/classes/priest/shadow/enchants-gems-pve-dps",
 							},
 						},
 						statPriority = {
@@ -3020,6 +3088,43 @@ ns.RegisterClassData("PRIEST", {
 				},
 				[19] = {
 					mplus = {
+						consumables = {
+							{
+								category = "FLASK",
+								itemID = 241322,
+								primary = true,
+							},
+							{
+								category = "POTION",
+								itemID = 241288,
+								primary = true,
+							},
+							{
+								category = "HEALTH_POTION",
+								itemID = 271884,
+								primary = true,
+							},
+							{
+								category = "WEAPON_OIL",
+								itemID = 243734,
+								primary = true,
+							},
+							{
+								category = "RUNE",
+								itemID = 259085,
+								primary = true,
+							},
+							{
+								category = "FOOD",
+								itemID = 242273,
+								primary = true,
+							},
+							{
+								category = "FOOD",
+								itemID = 242275,
+								primary = false,
+							},
+						},
 						enchants = {
 							{
 								itemID = 244031,
@@ -3660,119 +3765,7 @@ ns.RegisterClassData("PRIEST", {
 							},
 							wowhead = {
 								fetchedAt = "2026-08-21",
-								url = "https://www.wowhead.com/guide/classes/priest/shadow/rotation-cooldowns-pve-dps",
-							},
-						},
-						rotation = {
-							{
-								mode = "st",
-								note = "Maintain , either with {1227280} or hard cast {34914}",
-								spellID = 34914,
-							},
-							{
-								mode = "st",
-								note = "Cast .",
-								spellID = 120644,
-							},
-							{
-								mode = "st",
-								note = "Cast .",
-								spellID = 10060,
-							},
-							{
-								mode = "st",
-								note = "Spend on if it is not active, is about to fall off, or you are about to cap.",
-								spellID = 335467,
-							},
-							{
-								mode = "st",
-								note = "Cast .",
-								spellID = 8092,
-							},
-							{
-								mode = "st",
-								note = "Cast if {335467} is active.",
-								spellID = 391403,
-							},
-							{
-								mode = "st",
-								note = "Cast if {228264} is active.",
-								spellID = 335467,
-							},
-							{
-								mode = "st",
-								note = "Cast if there will be no additional targets to DoT or upcoming movement.",
-								spellID = 1227280,
-							},
-							{
-								mode = "st",
-								note = "Cast if the target is below 20% Hp.",
-								spellID = 32379,
-							},
-							{
-								mode = "st",
-								note = "Cast , interrupting as soon as anything of higher priority becomes available.",
-								spellID = 15407,
-							},
-							{
-								mode = "st",
-								note = "When moving, cast , {32379}, or {589} to generate some and deal some damage.",
-								spellID = 1227280,
-							},
-							{
-								mode = "aoe",
-								note = "Maintain , either with {1227280} or hard cast {34914}",
-								spellID = 34914,
-							},
-							{
-								mode = "aoe",
-								note = "Cast .",
-								spellID = 120644,
-							},
-							{
-								mode = "aoe",
-								note = "Cast .",
-								spellID = 10060,
-							},
-							{
-								mode = "aoe",
-								note = "Spend on if it is not active, is about to fall off, or you are about to cap.",
-								spellID = 335467,
-							},
-							{
-								mode = "aoe",
-								note = "Cast .",
-								spellID = 8092,
-							},
-							{
-								mode = "aoe",
-								note = "Cast if {335467} is active.",
-								spellID = 391403,
-							},
-							{
-								mode = "aoe",
-								note = "Cast if {228264} is active.",
-								spellID = 335467,
-							},
-							{
-								mode = "aoe",
-								note = "Cast if there will be no additional targets to DoT or upcoming movement.",
-								spellID = 1227280,
-							},
-							{
-								mode = "aoe",
-								note = "Cast if there is a target is below 20% Hp.",
-								spellID = 32379,
-							},
-							{
-								mode = "aoe",
-								note = "Cast , interrupting as soon as anything of higher priority becomes available.",
-								spellID = 15407,
-							},
-							{
-								mode = "aoe",
-								note = "When moving, cast , {32379}, or {589} to generate some and deal some damage.",
-								spellID = 1227280,
+								url = "https://www.wowhead.com/guide/classes/priest/shadow/enchants-gems-pve-dps",
 							},
 						},
 						statPriority = {
@@ -3893,6 +3886,43 @@ ns.RegisterClassData("PRIEST", {
 					},
 					name = "Archon",
 					raid = {
+						consumables = {
+							{
+								category = "FLASK",
+								itemID = 241322,
+								primary = true,
+							},
+							{
+								category = "POTION",
+								itemID = 241288,
+								primary = true,
+							},
+							{
+								category = "HEALTH_POTION",
+								itemID = 271884,
+								primary = true,
+							},
+							{
+								category = "WEAPON_OIL",
+								itemID = 243734,
+								primary = true,
+							},
+							{
+								category = "RUNE",
+								itemID = 259085,
+								primary = true,
+							},
+							{
+								category = "FOOD",
+								itemID = 242273,
+								primary = true,
+							},
+							{
+								category = "FOOD",
+								itemID = 242275,
+								primary = false,
+							},
+						},
 						enchants = {
 							{
 								itemID = 243971,
@@ -4045,119 +4075,7 @@ ns.RegisterClassData("PRIEST", {
 							},
 							wowhead = {
 								fetchedAt = "2026-08-21",
-								url = "https://www.wowhead.com/guide/classes/priest/shadow/rotation-cooldowns-pve-dps",
-							},
-						},
-						rotation = {
-							{
-								mode = "st",
-								note = "Maintain , either with {1227280} or hard cast {34914}",
-								spellID = 34914,
-							},
-							{
-								mode = "st",
-								note = "Cast .",
-								spellID = 120644,
-							},
-							{
-								mode = "st",
-								note = "Cast .",
-								spellID = 10060,
-							},
-							{
-								mode = "st",
-								note = "Spend on if it is not active, is about to fall off, or you are about to cap.",
-								spellID = 335467,
-							},
-							{
-								mode = "st",
-								note = "Cast .",
-								spellID = 8092,
-							},
-							{
-								mode = "st",
-								note = "Cast if {335467} is active.",
-								spellID = 391403,
-							},
-							{
-								mode = "st",
-								note = "Cast if {228264} is active.",
-								spellID = 335467,
-							},
-							{
-								mode = "st",
-								note = "Cast if there will be no additional targets to DoT or upcoming movement.",
-								spellID = 1227280,
-							},
-							{
-								mode = "st",
-								note = "Cast if the target is below 20% Hp.",
-								spellID = 32379,
-							},
-							{
-								mode = "st",
-								note = "Cast , interrupting as soon as anything of higher priority becomes available.",
-								spellID = 15407,
-							},
-							{
-								mode = "st",
-								note = "When moving, cast , {32379}, or {589} to generate some and deal some damage.",
-								spellID = 1227280,
-							},
-							{
-								mode = "aoe",
-								note = "Maintain , either with {1227280} or hard cast {34914}",
-								spellID = 34914,
-							},
-							{
-								mode = "aoe",
-								note = "Cast .",
-								spellID = 120644,
-							},
-							{
-								mode = "aoe",
-								note = "Cast .",
-								spellID = 10060,
-							},
-							{
-								mode = "aoe",
-								note = "Spend on if it is not active, is about to fall off, or you are about to cap.",
-								spellID = 335467,
-							},
-							{
-								mode = "aoe",
-								note = "Cast .",
-								spellID = 8092,
-							},
-							{
-								mode = "aoe",
-								note = "Cast if {335467} is active.",
-								spellID = 391403,
-							},
-							{
-								mode = "aoe",
-								note = "Cast if {228264} is active.",
-								spellID = 335467,
-							},
-							{
-								mode = "aoe",
-								note = "Cast if there will be no additional targets to DoT or upcoming movement.",
-								spellID = 1227280,
-							},
-							{
-								mode = "aoe",
-								note = "Cast if there is a target is below 20% Hp.",
-								spellID = 32379,
-							},
-							{
-								mode = "aoe",
-								note = "Cast , interrupting as soon as anything of higher priority becomes available.",
-								spellID = 15407,
-							},
-							{
-								mode = "aoe",
-								note = "When moving, cast , {32379}, or {589} to generate some and deal some damage.",
-								spellID = 1227280,
+								url = "https://www.wowhead.com/guide/classes/priest/shadow/enchants-gems-pve-dps",
 							},
 						},
 						talentBuilds = {

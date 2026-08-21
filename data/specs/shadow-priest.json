@@ -3,6 +3,43 @@
   "class_name": "Priest",
   "guides": [
     {
+      "consumables": [
+        {
+          "category": "FLASK",
+          "is_primary": true,
+          "item_id": 241322
+        },
+        {
+          "category": "POTION",
+          "is_primary": true,
+          "item_id": 241288
+        },
+        {
+          "category": "HEALTH_POTION",
+          "is_primary": true,
+          "item_id": 271884
+        },
+        {
+          "category": "WEAPON_OIL",
+          "is_primary": true,
+          "item_id": 243734
+        },
+        {
+          "category": "RUNE",
+          "is_primary": true,
+          "item_id": 259085
+        },
+        {
+          "category": "FOOD",
+          "is_primary": true,
+          "item_id": 242273
+        },
+        {
+          "category": "FOOD",
+          "is_primary": false,
+          "item_id": 242275
+        }
+      ],
       "content": "mplus",
       "enchants": [
         {
@@ -888,121 +925,9 @@
         },
         "wowhead": {
           "fetched_at": "2026-08-21",
-          "url": "https://www.wowhead.com/guide/classes/priest/shadow/rotation-cooldowns-pve-dps"
+          "url": "https://www.wowhead.com/guide/classes/priest/shadow/enchants-gems-pve-dps"
         }
       },
-      "rotation": [
-        {
-          "mode": "st",
-          "note": "Maintain , either with {1227280} or hard cast {34914}",
-          "spell_id": 34914
-        },
-        {
-          "mode": "st",
-          "note": "Cast .",
-          "spell_id": 120644
-        },
-        {
-          "mode": "st",
-          "note": "Cast .",
-          "spell_id": 10060
-        },
-        {
-          "mode": "st",
-          "note": "Spend on if it is not active, is about to fall off, or you are about to cap.",
-          "spell_id": 335467
-        },
-        {
-          "mode": "st",
-          "note": "Cast .",
-          "spell_id": 8092
-        },
-        {
-          "mode": "st",
-          "note": "Cast if {335467} is active.",
-          "spell_id": 391403
-        },
-        {
-          "mode": "st",
-          "note": "Cast if {228264} is active.",
-          "spell_id": 335467
-        },
-        {
-          "mode": "st",
-          "note": "Cast if there will be no additional targets to DoT or upcoming movement.",
-          "spell_id": 1227280
-        },
-        {
-          "mode": "st",
-          "note": "Cast if the target is below 20% Hp.",
-          "spell_id": 32379
-        },
-        {
-          "mode": "st",
-          "note": "Cast , interrupting as soon as anything of higher priority becomes available.",
-          "spell_id": 15407
-        },
-        {
-          "mode": "st",
-          "note": "When moving, cast , {32379}, or {589} to generate some and deal some damage.",
-          "spell_id": 1227280
-        },
-        {
-          "mode": "aoe",
-          "note": "Maintain , either with {1227280} or hard cast {34914}",
-          "spell_id": 34914
-        },
-        {
-          "mode": "aoe",
-          "note": "Cast .",
-          "spell_id": 120644
-        },
-        {
-          "mode": "aoe",
-          "note": "Cast .",
-          "spell_id": 10060
-        },
-        {
-          "mode": "aoe",
-          "note": "Spend on if it is not active, is about to fall off, or you are about to cap.",
-          "spell_id": 335467
-        },
-        {
-          "mode": "aoe",
-          "note": "Cast .",
-          "spell_id": 8092
-        },
-        {
-          "mode": "aoe",
-          "note": "Cast if {335467} is active.",
-          "spell_id": 391403
-        },
-        {
-          "mode": "aoe",
-          "note": "Cast if {228264} is active.",
-          "spell_id": 335467
-        },
-        {
-          "mode": "aoe",
-          "note": "Cast if there will be no additional targets to DoT or upcoming movement.",
-          "spell_id": 1227280
-        },
-        {
-          "mode": "aoe",
-          "note": "Cast if there is a target is below 20% Hp.",
-          "spell_id": 32379
-        },
-        {
-          "mode": "aoe",
-          "note": "Cast , interrupting as soon as anything of higher priority becomes available.",
-          "spell_id": 15407
-        },
-        {
-          "mode": "aoe",
-          "note": "When moving, cast , {32379}, or {589} to generate some and deal some damage.",
-          "spell_id": 1227280
-        }
-      ],
       "stat_priority": [
         {
           "rating": 1033,
@@ -1131,6 +1056,43 @@
       ]
     },
     {
+      "consumables": [
+        {
+          "category": "FLASK",
+          "is_primary": true,
+          "item_id": 241322
+        },
+        {
+          "category": "POTION",
+          "is_primary": true,
+          "item_id": 241288
+        },
+        {
+          "category": "HEALTH_POTION",
+          "is_primary": true,
+          "item_id": 271884
+        },
+        {
+          "category": "WEAPON_OIL",
+          "is_primary": true,
+          "item_id": 243734
+        },
+        {
+          "category": "RUNE",
+          "is_primary": true,
+          "item_id": 259085
+        },
+        {
+          "category": "FOOD",
+          "is_primary": true,
+          "item_id": 242273
+        },
+        {
+          "category": "FOOD",
+          "is_primary": false,
+          "item_id": 242275
+        }
+      ],
       "content": "mplus",
       "enchants": [
         {
@@ -2016,131 +1978,9 @@
         },
         "wowhead": {
           "fetched_at": "2026-08-21",
-          "url": "https://www.wowhead.com/guide/classes/priest/shadow/rotation-cooldowns-pve-dps"
+          "url": "https://www.wowhead.com/guide/classes/priest/shadow/enchants-gems-pve-dps"
         }
       },
-      "rotation": [
-        {
-          "mode": "st",
-          "note": "Maintain , either with {1227280} or hard cast {34914}",
-          "spell_id": 34914
-        },
-        {
-          "mode": "st",
-          "note": "Cast .",
-          "spell_id": 10060
-        },
-        {
-          "mode": "st",
-          "note": "Cast if the target has an absorb shield.",
-          "spell_id": 32379
-        },
-        {
-          "mode": "st",
-          "note": "Cast if {335467} is active or if {447444} is about to expire.",
-          "spell_id": 450405
-        },
-        {
-          "mode": "st",
-          "note": "Spend on if it is not active, is about to fall off, you are about to cap, or {447444} is active.",
-          "spell_id": 335467
-        },
-        {
-          "mode": "st",
-          "note": "Cast to activate {447444}.",
-          "spell_id": 263165
-        },
-        {
-          "mode": "st",
-          "note": "Cast .",
-          "spell_id": 8092
-        },
-        {
-          "mode": "st",
-          "note": "Cast .",
-          "spell_id": 335467
-        },
-        {
-          "mode": "st",
-          "note": "Cast if there will be no additional targets to DoT or upcoming movement.",
-          "spell_id": 1227280
-        },
-        {
-          "mode": "st",
-          "note": "Cast if the target is below 20% Hp.",
-          "spell_id": 32379
-        },
-        {
-          "mode": "st",
-          "note": "Cast , interrupting as soon as anything of higher priority becomes available.",
-          "spell_id": 15407
-        },
-        {
-          "mode": "st",
-          "note": "When moving, cast , {32379}, or {589} to generate some and deal some damage.",
-          "spell_id": 1227280
-        },
-        {
-          "mode": "aoe",
-          "note": "Maintain , either with {1227280} or hard cast {34914}",
-          "spell_id": 34914
-        },
-        {
-          "mode": "aoe",
-          "note": "Cast .",
-          "spell_id": 10060
-        },
-        {
-          "mode": "aoe",
-          "note": "Cast if the target has an absorb shield.",
-          "spell_id": 32379
-        },
-        {
-          "mode": "aoe",
-          "note": "Cast if {335467} is active or if {447444} is about to expire.",
-          "spell_id": 450405
-        },
-        {
-          "mode": "aoe",
-          "note": "Spend on if it is not active, is about to fall off, you are about to cap, or {447444} is active.",
-          "spell_id": 335467
-        },
-        {
-          "mode": "aoe",
-          "note": "Cast to activate {447444}.",
-          "spell_id": 263165
-        },
-        {
-          "mode": "aoe",
-          "note": "Cast .",
-          "spell_id": 8092
-        },
-        {
-          "mode": "aoe",
-          "note": "Cast .",
-          "spell_id": 335467
-        },
-        {
-          "mode": "aoe",
-          "note": "Cast if there will be no additional targets to DoT or upcoming movement.",
-          "spell_id": 1227280
-        },
-        {
-          "mode": "aoe",
-          "note": "Cast if there is a target is below 20% Hp.",
-          "spell_id": 32379
-        },
-        {
-          "mode": "aoe",
-          "note": "Cast , interrupting as soon as anything of higher priority becomes available.",
-          "spell_id": 15407
-        },
-        {
-          "mode": "aoe",
-          "note": "When moving, cast , {32379}, or {589} to generate some and deal some damage.",
-          "spell_id": 1227280
-        }
-      ],
       "stat_priority": [
         {
           "rating": 1033,
@@ -2213,6 +2053,43 @@
       ]
     },
     {
+      "consumables": [
+        {
+          "category": "FLASK",
+          "is_primary": true,
+          "item_id": 241322
+        },
+        {
+          "category": "POTION",
+          "is_primary": true,
+          "item_id": 241288
+        },
+        {
+          "category": "HEALTH_POTION",
+          "is_primary": true,
+          "item_id": 271884
+        },
+        {
+          "category": "WEAPON_OIL",
+          "is_primary": true,
+          "item_id": 243734
+        },
+        {
+          "category": "RUNE",
+          "is_primary": true,
+          "item_id": 259085
+        },
+        {
+          "category": "FOOD",
+          "is_primary": true,
+          "item_id": 242273
+        },
+        {
+          "category": "FOOD",
+          "is_primary": false,
+          "item_id": 242275
+        }
+      ],
       "content": "raid",
       "enchants": [
         {
@@ -2400,121 +2277,9 @@
         },
         "wowhead": {
           "fetched_at": "2026-08-21",
-          "url": "https://www.wowhead.com/guide/classes/priest/shadow/rotation-cooldowns-pve-dps"
+          "url": "https://www.wowhead.com/guide/classes/priest/shadow/enchants-gems-pve-dps"
         }
       },
-      "rotation": [
-        {
-          "mode": "st",
-          "note": "Maintain , either with {1227280} or hard cast {34914}",
-          "spell_id": 34914
-        },
-        {
-          "mode": "st",
-          "note": "Cast .",
-          "spell_id": 120644
-        },
-        {
-          "mode": "st",
-          "note": "Cast .",
-          "spell_id": 10060
-        },
-        {
-          "mode": "st",
-          "note": "Spend on if it is not active, is about to fall off, or you are about to cap.",
-          "spell_id": 335467
-        },
-        {
-          "mode": "st",
-          "note": "Cast .",
-          "spell_id": 8092
-        },
-        {
-          "mode": "st",
-          "note": "Cast if {335467} is active.",
-          "spell_id": 391403
-        },
-        {
-          "mode": "st",
-          "note": "Cast if {228264} is active.",
-          "spell_id": 335467
-        },
-        {
-          "mode": "st",
-          "note": "Cast if there will be no additional targets to DoT or upcoming movement.",
-          "spell_id": 1227280
-        },
-        {
-          "mode": "st",
-          "note": "Cast if the target is below 20% Hp.",
-          "spell_id": 32379
-        },
-        {
-          "mode": "st",
-          "note": "Cast , interrupting as soon as anything of higher priority becomes available.",
-          "spell_id": 15407
-        },
-        {
-          "mode": "st",
-          "note": "When moving, cast , {32379}, or {589} to generate some and deal some damage.",
-          "spell_id": 1227280
-        },
-        {
-          "mode": "aoe",
-          "note": "Maintain , either with {1227280} or hard cast {34914}",
-          "spell_id": 34914
-        },
-        {
-          "mode": "aoe",
-          "note": "Cast .",
-          "spell_id": 120644
-        },
-        {
-          "mode": "aoe",
-          "note": "Cast .",
-          "spell_id": 10060
-        },
-        {
-          "mode": "aoe",
-          "note": "Spend on if it is not active, is about to fall off, or you are about to cap.",
-          "spell_id": 335467
-        },
-        {
-          "mode": "aoe",
-          "note": "Cast .",
-          "spell_id": 8092
-        },
-        {
-          "mode": "aoe",
-          "note": "Cast if {335467} is active.",
-          "spell_id": 391403
-        },
-        {
-          "mode": "aoe",
-          "note": "Cast if {228264} is active.",
-          "spell_id": 335467
-        },
-        {
-          "mode": "aoe",
-          "note": "Cast if there will be no additional targets to DoT or upcoming movement.",
-          "spell_id": 1227280
-        },
-        {
-          "mode": "aoe",
-          "note": "Cast if there is a target is below 20% Hp.",
-          "spell_id": 32379
-        },
-        {
-          "mode": "aoe",
-          "note": "Cast , interrupting as soon as anything of higher priority becomes available.",
-          "spell_id": 15407
-        },
-        {
-          "mode": "aoe",
-          "note": "When moving, cast , {32379}, or {589} to generate some and deal some damage.",
-          "spell_id": 1227280
-        }
-      ],
       "stat_priority": [],
       "talent_builds": [
         {

@@ -3,6 +3,33 @@
   "class_name": "Shaman",
   "guides": [
     {
+      "consumables": [
+        {
+          "category": "FLASK",
+          "is_primary": true,
+          "item_id": 241322
+        },
+        {
+          "category": "POTION",
+          "is_primary": true,
+          "item_id": 241308
+        },
+        {
+          "category": "HEALTH_POTION",
+          "is_primary": true,
+          "item_id": 271883
+        },
+        {
+          "category": "RUNE",
+          "is_primary": true,
+          "item_id": 259085
+        },
+        {
+          "category": "FOOD",
+          "is_primary": true,
+          "item_id": 255846
+        }
+      ],
       "content": "mplus",
       "enchants": [
         {
@@ -888,61 +915,9 @@
         },
         "wowhead": {
           "fetched_at": "2026-08-21",
-          "url": "https://www.wowhead.com/guide/classes/shaman/elemental/rotation-cooldowns-pve-dps"
+          "url": "https://www.wowhead.com/guide/classes/shaman/elemental/enchants-gems-pve-dps"
         }
       },
-      "rotation": [
-        {
-          "mode": "st",
-          "note": "Remember to use and {378081} for movement events.",
-          "spell_id": 79206
-        },
-        {
-          "mode": "st",
-          "note": "Cast on cooldown.",
-          "spell_id": 191634
-        },
-        {
-          "mode": "st",
-          "note": "Cast on cooldown.",
-          "spell_id": 443454
-        },
-        {
-          "mode": "st",
-          "note": "Cast roughly on cooldown, but always after {191634}",
-          "spell_id": 114050
-        },
-        {
-          "mode": "st",
-          "note": "Cast as your filler.",
-          "spell_id": 188196
-        },
-        {
-          "mode": "aoe",
-          "note": "Remember to use and {378081} for movement events.",
-          "spell_id": 79206
-        },
-        {
-          "mode": "aoe",
-          "note": "Cast on cooldown.",
-          "spell_id": 191634
-        },
-        {
-          "mode": "aoe",
-          "note": "Cast roughly on cooldown.",
-          "spell_id": 443454
-        },
-        {
-          "mode": "aoe",
-          "note": "Cast roughly on cooldown, but always after {191634}",
-          "spell_id": 114050
-        },
-        {
-          "mode": "aoe",
-          "note": "Cast as your filler.",
-          "spell_id": 188443
-        }
-      ],
       "stat_priority": [
         {
           "rating": 1095,

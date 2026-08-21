@@ -3,6 +3,43 @@
   "class_name": "Warlock",
   "guides": [
     {
+      "consumables": [
+        {
+          "category": "FLASK",
+          "is_primary": true,
+          "item_id": 241326
+        },
+        {
+          "category": "POTION",
+          "is_primary": true,
+          "item_id": 241308
+        },
+        {
+          "category": "HEALTH_POTION",
+          "is_primary": true,
+          "item_id": 271884
+        },
+        {
+          "category": "WEAPON_OIL",
+          "is_primary": true,
+          "item_id": 243734
+        },
+        {
+          "category": "RUNE",
+          "is_primary": true,
+          "item_id": 259085
+        },
+        {
+          "category": "FOOD",
+          "is_primary": true,
+          "item_id": 255846
+        },
+        {
+          "category": "FOOD",
+          "is_primary": false,
+          "item_id": 242275
+        }
+      ],
       "content": "mplus",
       "enchants": [
         {
@@ -888,71 +925,9 @@
         },
         "wowhead": {
           "fetched_at": "2026-08-21",
-          "url": "https://www.wowhead.com/guide/classes/warlock/destruction/rotation-cooldowns-pve-dps"
+          "url": "https://www.wowhead.com/guide/classes/warlock/destruction/enchants-gems-pve-dps"
         }
       },
-      "rotation": [
-        {
-          "mode": "st",
-          "note": "Maintain .",
-          "spell_id": 348
-        },
-        {
-          "mode": "st",
-          "note": "Cast when available, and if you are about to cap on soul shards",
-          "spell_id": 17877
-        },
-        {
-          "mode": "st",
-          "note": "Cast to avoid capping soul shards",
-          "spell_id": 116858
-        },
-        {
-          "mode": "st",
-          "note": "Cast if you have more than 4 soul shards and {433891} ready",
-          "spell_id": 116858
-        },
-        {
-          "mode": "st",
-          "note": "when available, and you have less than 4 soul shards",
-          "spell_id": 6353
-        },
-        {
-          "mode": "st",
-          "note": "Cast to keep this below 2 stacks or when moving",
-          "spell_id": 17962
-        },
-        {
-          "mode": "st",
-          "note": "Cast to generate soul shards and generate {196406} stacks. Try to use these on {116858} as much as possible.",
-          "spell_id": 17962
-        },
-        {
-          "mode": "st",
-          "note": "Cast to generate soul shards",
-          "spell_id": 29722
-        },
-        {
-          "mode": "aoe",
-          "note": "Maintain on your main target, as well as any target you expect lives longer than 10 seconds",
-          "spell_id": 348
-        },
-        {
-          "mode": "aoe",
-          "note": "Make sure you have no more than 2 soul shards before casting",
-          "spell_id": 433891
-        },
-        {
-          "mode": "aoe",
-          "note": "Cast to generate soul shards and {196406} stacks",
-          "spell_id": 17962
-        },
-        {
-          "mode": "aoe",
-          "note": "Cast to generate soul shards",
-          "spell_id": 29722
-        }
-      ],
       "stat_priority": [
         {
           "rating": 859,
@@ -1109,6 +1084,43 @@
       ]
     },
     {
+      "consumables": [
+        {
+          "category": "FLASK",
+          "is_primary": true,
+          "item_id": 241326
+        },
+        {
+          "category": "POTION",
+          "is_primary": true,
+          "item_id": 241308
+        },
+        {
+          "category": "HEALTH_POTION",
+          "is_primary": true,
+          "item_id": 271884
+        },
+        {
+          "category": "WEAPON_OIL",
+          "is_primary": true,
+          "item_id": 243734
+        },
+        {
+          "category": "RUNE",
+          "is_primary": true,
+          "item_id": 259085
+        },
+        {
+          "category": "FOOD",
+          "is_primary": true,
+          "item_id": 255846
+        },
+        {
+          "category": "FOOD",
+          "is_primary": false,
+          "item_id": 242275
+        }
+      ],
       "content": "mplus",
       "enchants": [
         {
@@ -1994,66 +2006,9 @@
         },
         "wowhead": {
           "fetched_at": "2026-08-21",
-          "url": "https://www.wowhead.com/guide/classes/warlock/destruction/rotation-cooldowns-pve-dps"
+          "url": "https://www.wowhead.com/guide/classes/warlock/destruction/enchants-gems-pve-dps"
         }
       },
-      "rotation": [
-        {
-          "mode": "st",
-          "note": "Maintain",
-          "spell_id": 445468
-        },
-        {
-          "mode": "st",
-          "note": "Cast when available, and if you are about to cap on soul shards",
-          "spell_id": 17877
-        },
-        {
-          "mode": "st",
-          "note": "Cast to avoid capping soul shards",
-          "spell_id": 116858
-        },
-        {
-          "mode": "st",
-          "note": "when available, and you have less than 4 soul shards",
-          "spell_id": 6353
-        },
-        {
-          "mode": "st",
-          "note": "Cast to keep this below 2 stacks or when moving",
-          "spell_id": 17962
-        },
-        {
-          "mode": "st",
-          "note": "Cast to generate soul shards and generate {196406} stacks. Try to use these on {116858} as much as possible.",
-          "spell_id": 17962
-        },
-        {
-          "mode": "st",
-          "note": "Cast to generate soul shards",
-          "spell_id": 29722
-        },
-        {
-          "mode": "aoe",
-          "note": "Maintain on as many targets as possible",
-          "spell_id": 445465
-        },
-        {
-          "mode": "aoe",
-          "note": "cast when you have as many enemies affected by {445465} as possible",
-          "spell_id": 430014
-        },
-        {
-          "mode": "aoe",
-          "note": "Cast to generate soul shards and {196406} stacks",
-          "spell_id": 17962
-        },
-        {
-          "mode": "aoe",
-          "note": "Cast to generate soul shards",
-          "spell_id": 29722
-        }
-      ],
       "stat_priority": [
         {
           "rating": 859,

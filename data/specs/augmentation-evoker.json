@@ -3,6 +3,43 @@
   "class_name": "Evoker",
   "guides": [
     {
+      "consumables": [
+        {
+          "category": "FLASK",
+          "is_primary": true,
+          "item_id": 241322
+        },
+        {
+          "category": "POTION",
+          "is_primary": true,
+          "item_id": 241288
+        },
+        {
+          "category": "HEALTH_POTION",
+          "is_primary": true,
+          "item_id": 271884
+        },
+        {
+          "category": "WEAPON_OIL",
+          "is_primary": true,
+          "item_id": 243734
+        },
+        {
+          "category": "RUNE",
+          "is_primary": true,
+          "item_id": 259085
+        },
+        {
+          "category": "FOOD",
+          "is_primary": true,
+          "item_id": 266985
+        },
+        {
+          "category": "FOOD",
+          "is_primary": false,
+          "item_id": 242747
+        }
+      ],
       "content": "mplus",
       "enchants": [
         {
@@ -888,121 +925,9 @@
         },
         "wowhead": {
           "fetched_at": "2026-08-21",
-          "url": "https://www.wowhead.com/guide/classes/evoker/augmentation/rotation-cooldowns-pve-dps"
+          "url": "https://www.wowhead.com/guide/classes/evoker/augmentation/enchants-gems-pve-dps"
         }
       },
-      "rotation": [
-        {
-          "mode": "st",
-          "note": "Maintain on allied DPS players.",
-          "spell_id": 409311
-        },
-        {
-          "mode": "st",
-          "note": "Cast if a few seconds or less remain on the active buff duration.",
-          "spell_id": 395152
-        },
-        {
-          "mode": "st",
-          "note": "Cast (see section on cooldown usage for more details).",
-          "spell_id": 403631
-        },
-        {
-          "mode": "st",
-          "note": "Cast (see section on cooldown usage for more details).",
-          "spell_id": 370553
-        },
-        {
-          "mode": "st",
-          "note": "Cast at Rank 1 or Max Rank.",
-          "spell_id": 357208
-        },
-        {
-          "mode": "st",
-          "note": "Cast at Rank 1, unless increased radius is needed to hit relevant targets.",
-          "spell_id": 408092
-        },
-        {
-          "mode": "st",
-          "note": "Only if talented: Cast (see section on cooldown usage for more details).",
-          "spell_id": 404977
-        },
-        {
-          "mode": "st",
-          "note": "Cast .",
-          "spell_id": 395160
-        },
-        {
-          "mode": "st",
-          "note": "Cast as filler in nearly all situations.",
-          "spell_id": 361469
-        },
-        {
-          "mode": "st",
-          "note": "Cast as backup filler that can be cast while moving, or used to slow enemies.",
-          "spell_id": 362969
-        },
-        {
-          "mode": "st",
-          "note": "Maintain on a Tank.",
-          "spell_id": 360827
-        },
-        {
-          "mode": "aoe",
-          "note": "Maintain on allied DPS players.",
-          "spell_id": 409311
-        },
-        {
-          "mode": "aoe",
-          "note": "Cast if a few seconds or less remain on the active buff duration.",
-          "spell_id": 395152
-        },
-        {
-          "mode": "aoe",
-          "note": "Cast (see section on cooldown usage for more details).",
-          "spell_id": 403631
-        },
-        {
-          "mode": "aoe",
-          "note": "Cast (see section on cooldown usage for more details).",
-          "spell_id": 370553
-        },
-        {
-          "mode": "aoe",
-          "note": "Cast at Rank 1 or Max Rank.",
-          "spell_id": 357208
-        },
-        {
-          "mode": "aoe",
-          "note": "Cast at Rank 1, unless increased radius is needed to hit relevant targets.",
-          "spell_id": 408092
-        },
-        {
-          "mode": "aoe",
-          "note": "Only if talented: Cast (see section on cooldown usage for more details).",
-          "spell_id": 404977
-        },
-        {
-          "mode": "aoe",
-          "note": "Cast .",
-          "spell_id": 395160
-        },
-        {
-          "mode": "aoe",
-          "note": "Cast as filler in nearly all situations.",
-          "spell_id": 361469
-        },
-        {
-          "mode": "aoe",
-          "note": "Cast as backup filler that can be cast while moving, or used to slow enemies.",
-          "spell_id": 362969
-        },
-        {
-          "mode": "aoe",
-          "note": "Maintain on a Tank.",
-          "spell_id": 360827
-        }
-      ],
       "stat_priority": [
         {
           "rating": 970,
@@ -1075,6 +1000,43 @@
       ]
     },
     {
+      "consumables": [
+        {
+          "category": "FLASK",
+          "is_primary": true,
+          "item_id": 241322
+        },
+        {
+          "category": "POTION",
+          "is_primary": true,
+          "item_id": 241288
+        },
+        {
+          "category": "HEALTH_POTION",
+          "is_primary": true,
+          "item_id": 271884
+        },
+        {
+          "category": "WEAPON_OIL",
+          "is_primary": true,
+          "item_id": 243734
+        },
+        {
+          "category": "RUNE",
+          "is_primary": true,
+          "item_id": 259085
+        },
+        {
+          "category": "FOOD",
+          "is_primary": true,
+          "item_id": 266985
+        },
+        {
+          "category": "FOOD",
+          "is_primary": false,
+          "item_id": 242747
+        }
+      ],
       "content": "mplus",
       "enchants": [
         {
@@ -1960,111 +1922,9 @@
         },
         "wowhead": {
           "fetched_at": "2026-08-21",
-          "url": "https://www.wowhead.com/guide/classes/evoker/augmentation/rotation-cooldowns-pve-dps"
+          "url": "https://www.wowhead.com/guide/classes/evoker/augmentation/enchants-gems-pve-dps"
         }
       },
-      "rotation": [
-        {
-          "mode": "st",
-          "note": "Maintain on allied DPS players.",
-          "spell_id": 409311
-        },
-        {
-          "mode": "st",
-          "note": "Cast if a few seconds or less remain on the active buff duration.",
-          "spell_id": 395152
-        },
-        {
-          "mode": "st",
-          "note": "Cast (see section on cooldown usage for more details).",
-          "spell_id": 403631
-        },
-        {
-          "mode": "st",
-          "note": "Cast (see section on cooldown usage for more details).",
-          "spell_id": 370553
-        },
-        {
-          "mode": "st",
-          "note": "Cast at Rank 1 or Max Rank.",
-          "spell_id": 357208
-        },
-        {
-          "mode": "st",
-          "note": "Cast at Rank 1, unless increased radius is needed to hit relevant targets.",
-          "spell_id": 408092
-        },
-        {
-          "mode": "st",
-          "note": "Cast .",
-          "spell_id": 395160
-        },
-        {
-          "mode": "st",
-          "note": "Cast as filler in nearly all situations.",
-          "spell_id": 361469
-        },
-        {
-          "mode": "st",
-          "note": "Cast as backup filler that can be cast while moving, or used to slow enemies.",
-          "spell_id": 362969
-        },
-        {
-          "mode": "st",
-          "note": "Maintain on a Tank.",
-          "spell_id": 360827
-        },
-        {
-          "mode": "aoe",
-          "note": "Maintain on allied DPS players.",
-          "spell_id": 409311
-        },
-        {
-          "mode": "aoe",
-          "note": "Cast if a few seconds or less remain on the active buff duration.",
-          "spell_id": 395152
-        },
-        {
-          "mode": "aoe",
-          "note": "Cast (see section on cooldown usage for more details).",
-          "spell_id": 403631
-        },
-        {
-          "mode": "aoe",
-          "note": "Cast (see section on cooldown usage for more details).",
-          "spell_id": 370553
-        },
-        {
-          "mode": "aoe",
-          "note": "Cast at Rank 1 or Max Rank.",
-          "spell_id": 357208
-        },
-        {
-          "mode": "aoe",
-          "note": "Cast at Rank 1, unless increased radius is needed to hit relevant targets.",
-          "spell_id": 408092
-        },
-        {
-          "mode": "aoe",
-          "note": "Cast .",
-          "spell_id": 395160
-        },
-        {
-          "mode": "aoe",
-          "note": "Cast as filler in nearly all situations.",
-          "spell_id": 361469
-        },
-        {
-          "mode": "aoe",
-          "note": "Cast as backup filler that can be cast while moving, or used to slow enemies.",
-          "spell_id": 362969
-        },
-        {
-          "mode": "aoe",
-          "note": "Maintain on a Tank.",
-          "spell_id": 360827
-        }
-      ],
       "stat_priority": [
         {
           "rating": 970,

@@ -3,6 +3,48 @@
   "class_name": "Paladin",
   "guides": [
     {
+      "consumables": [
+        {
+          "category": "FLASK",
+          "is_primary": true,
+          "item_id": 241322
+        },
+        {
+          "category": "POTION",
+          "is_primary": true,
+          "item_id": 241288
+        },
+        {
+          "category": "HEALTH_POTION",
+          "is_primary": true,
+          "item_id": 271884
+        },
+        {
+          "category": "WEAPON_OIL",
+          "is_primary": true,
+          "item_id": 243734
+        },
+        {
+          "category": "RUNE",
+          "is_primary": true,
+          "item_id": 259085
+        },
+        {
+          "category": "FOOD",
+          "is_primary": true,
+          "item_id": 275264
+        },
+        {
+          "category": "FOOD",
+          "is_primary": false,
+          "item_id": 275265
+        },
+        {
+          "category": "FOOD",
+          "is_primary": false,
+          "item_id": 242299
+        }
+      ],
       "content": "mplus",
       "enchants": [
         {
@@ -888,36 +930,9 @@
         },
         "wowhead": {
           "fetched_at": "2026-08-21",
-          "url": "https://www.wowhead.com/guide/classes/paladin/holy/rotation-cooldowns-pve-healer"
+          "url": "https://www.wowhead.com/guide/classes/paladin/holy/enchants-gems-pve-healer"
         }
       },
-      "rotation": [
-        {
-          "mode": "st",
-          "note": "Spend procs",
-          "spell_id": 53576
-        },
-        {
-          "mode": "st",
-          "note": "Cast on an Ally",
-          "spell_id": 20473
-        },
-        {
-          "mode": "st",
-          "note": "Cast as needed and as mana allows",
-          "spell_id": 82326
-        },
-        {
-          "mode": "st",
-          "note": "Cast",
-          "spell_id": 20271
-        },
-        {
-          "mode": "st",
-          "note": "Cast",
-          "spell_id": 19750
-        }
-      ],
       "stat_priority": [
         {
           "rating": 1068,
@@ -1056,6 +1071,48 @@
       ]
     },
     {
+      "consumables": [
+        {
+          "category": "FLASK",
+          "is_primary": true,
+          "item_id": 241322
+        },
+        {
+          "category": "POTION",
+          "is_primary": true,
+          "item_id": 241288
+        },
+        {
+          "category": "HEALTH_POTION",
+          "is_primary": true,
+          "item_id": 271884
+        },
+        {
+          "category": "WEAPON_OIL",
+          "is_primary": true,
+          "item_id": 243734
+        },
+        {
+          "category": "RUNE",
+          "is_primary": true,
+          "item_id": 259085
+        },
+        {
+          "category": "FOOD",
+          "is_primary": true,
+          "item_id": 275264
+        },
+        {
+          "category": "FOOD",
+          "is_primary": false,
+          "item_id": 275265
+        },
+        {
+          "category": "FOOD",
+          "is_primary": false,
+          "item_id": 242299
+        }
+      ],
       "content": "mplus",
       "enchants": [
         {
@@ -1941,36 +1998,9 @@
         },
         "wowhead": {
           "fetched_at": "2026-08-21",
-          "url": "https://www.wowhead.com/guide/classes/paladin/holy/rotation-cooldowns-pve-healer"
+          "url": "https://www.wowhead.com/guide/classes/paladin/holy/enchants-gems-pve-healer"
         }
       },
-      "rotation": [
-        {
-          "mode": "st",
-          "note": "Spend procs",
-          "spell_id": 53576
-        },
-        {
-          "mode": "st",
-          "note": "Cast on an Ally",
-          "spell_id": 20473
-        },
-        {
-          "mode": "st",
-          "note": "Cast as needed and as mana allows",
-          "spell_id": 82326
-        },
-        {
-          "mode": "st",
-          "note": "Cast",
-          "spell_id": 20271
-        },
-        {
-          "mode": "st",
-          "note": "Cast",
-          "spell_id": 19750
-        }
-      ],
       "stat_priority": [
         {
           "rating": 1068,

@@ -3,6 +3,43 @@
   "class_name": "Evoker",
   "guides": [
     {
+      "consumables": [
+        {
+          "category": "FLASK",
+          "is_primary": true,
+          "item_id": 241326
+        },
+        {
+          "category": "HEALTH_POTION",
+          "is_primary": true,
+          "item_id": 241304
+        },
+        {
+          "category": "WEAPON_OIL",
+          "is_primary": true,
+          "item_id": 243734
+        },
+        {
+          "category": "RUNE",
+          "is_primary": true,
+          "item_id": 259085
+        },
+        {
+          "category": "FOOD",
+          "is_primary": true,
+          "item_id": 255846
+        },
+        {
+          "category": "FOOD",
+          "is_primary": false,
+          "item_id": 242272
+        },
+        {
+          "category": "FOOD",
+          "is_primary": false,
+          "item_id": 242274
+        }
+      ],
       "content": "mplus",
       "enchants": [
         {
@@ -888,116 +925,9 @@
         },
         "wowhead": {
           "fetched_at": "2026-08-21",
-          "url": "https://www.wowhead.com/guide/classes/evoker/devastation/rotation-cooldowns-pve-dps"
+          "url": "https://www.wowhead.com/guide/classes/evoker/devastation/enchants-gems-pve-dps"
         }
       },
-      "rotation": [
-        {
-          "mode": "st",
-          "note": ".",
-          "spell_id": 357210
-        },
-        {
-          "mode": "st",
-          "note": ".",
-          "spell_id": 375087
-        },
-        {
-          "mode": "st",
-          "note": ".",
-          "spell_id": 370553
-        },
-        {
-          "mode": "st",
-          "note": "Rank 1.",
-          "spell_id": 359073
-        },
-        {
-          "mode": "st",
-          "note": "Rank 1.",
-          "spell_id": 357208
-        },
-        {
-          "mode": "st",
-          "note": "with {436335} without {369297} if is not capped.",
-          "spell_id": 1292321
-        },
-        {
-          "mode": "st",
-          "note": "Spend / to channel {356995} with {436335}.",
-          "spell_id": 369297
-        },
-        {
-          "mode": "st",
-          "note": "Spend / to channel {356995}.",
-          "spell_id": 369297
-        },
-        {
-          "mode": "st",
-          "note": ".",
-          "spell_id": 1292321
-        },
-        {
-          "mode": "st",
-          "note": "as filler.",
-          "spell_id": 361469
-        },
-        {
-          "mode": "st",
-          "note": "if needed for movement.",
-          "spell_id": 362969
-        },
-        {
-          "mode": "aoe",
-          "note": ".",
-          "spell_id": 357210
-        },
-        {
-          "mode": "aoe",
-          "note": ".",
-          "spell_id": 375087
-        },
-        {
-          "mode": "aoe",
-          "note": "on {359073}. - .",
-          "spell_id": 370553
-        },
-        {
-          "mode": "aoe",
-          "note": "Rank 1.",
-          "spell_id": 357208
-        },
-        {
-          "mode": "aoe",
-          "note": ".",
-          "spell_id": 359073
-        },
-        {
-          "mode": "aoe",
-          "note": "with {436335} without {369297} if is not capped.",
-          "spell_id": 1292321
-        },
-        {
-          "mode": "aoe",
-          "note": "Channel with {436335}.",
-          "spell_id": 356995
-        },
-        {
-          "mode": "aoe",
-          "note": "Otherwise, channel .",
-          "spell_id": 356995
-        },
-        {
-          "mode": "aoe",
-          "note": ".",
-          "spell_id": 1292321
-        },
-        {
-          "mode": "aoe",
-          "note": "as filler.",
-          "spell_id": 362969
-        }
-      ],
       "stat_priority": [
         {
           "rating": 1013,

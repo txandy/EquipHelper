@@ -3,6 +3,48 @@
   "class_name": "Death Knight",
   "guides": [
     {
+      "consumables": [
+        {
+          "category": "FLASK",
+          "is_primary": true,
+          "item_id": 241324
+        },
+        {
+          "category": "FLASK",
+          "is_primary": false,
+          "item_id": 241326
+        },
+        {
+          "category": "POTION",
+          "is_primary": true,
+          "item_id": 241288
+        },
+        {
+          "category": "HEALTH_POTION",
+          "is_primary": true,
+          "item_id": 271884
+        },
+        {
+          "category": "WEAPON_OIL",
+          "is_primary": true,
+          "item_id": 243734
+        },
+        {
+          "category": "RUNE",
+          "is_primary": true,
+          "item_id": 259085
+        },
+        {
+          "category": "FOOD",
+          "is_primary": true,
+          "item_id": 255846
+        },
+        {
+          "category": "FOOD",
+          "is_primary": false,
+          "item_id": 242273
+        }
+      ],
       "content": "mplus",
       "enchants": [
         {
@@ -828,41 +870,9 @@
         },
         "wowhead": {
           "fetched_at": "2026-08-21",
-          "url": "https://www.wowhead.com/guide/classes/death-knight/blood/rotation-cooldowns-pve-tank"
+          "url": "https://www.wowhead.com/guide/classes/death-knight/blood/enchants-gems-pve-tank"
         }
       },
-      "rotation": [
-        {
-          "mode": "aoe",
-          "note": "Gather the enemies or packs you intend to pull. You can weave , {206930} and {49998} while doing so to build AoE threat",
-          "spell_id": 50842
-        },
-        {
-          "mode": "aoe",
-          "note": "Near the end of your gather, pre-place where you intend to fight",
-          "spell_id": 43265
-        },
-        {
-          "mode": "aoe",
-          "note": "Cast",
-          "spell_id": 439843
-        },
-        {
-          "mode": "aoe",
-          "note": "Cast",
-          "spell_id": 49028
-        },
-        {
-          "mode": "aoe",
-          "note": "Cast",
-          "spell_id": 50842
-        },
-        {
-          "mode": "aoe",
-          "note": "Cast",
-          "spell_id": 49998
-        }
-      ],
       "stat_priority": [
         {
           "rating": 823,
@@ -907,6 +917,48 @@
       ]
     },
     {
+      "consumables": [
+        {
+          "category": "FLASK",
+          "is_primary": true,
+          "item_id": 241324
+        },
+        {
+          "category": "FLASK",
+          "is_primary": false,
+          "item_id": 241326
+        },
+        {
+          "category": "POTION",
+          "is_primary": true,
+          "item_id": 241288
+        },
+        {
+          "category": "HEALTH_POTION",
+          "is_primary": true,
+          "item_id": 271884
+        },
+        {
+          "category": "WEAPON_OIL",
+          "is_primary": true,
+          "item_id": 243734
+        },
+        {
+          "category": "RUNE",
+          "is_primary": true,
+          "item_id": 259085
+        },
+        {
+          "category": "FOOD",
+          "is_primary": true,
+          "item_id": 255846
+        },
+        {
+          "category": "FOOD",
+          "is_primary": false,
+          "item_id": 242273
+        }
+      ],
       "content": "mplus",
       "enchants": [
         {
@@ -1729,9 +1781,12 @@
         "mythicstats": {
           "fetched_at": "2026-08-21",
           "url": "https://mythicstats.com/spec/blood-death-knight"
+        },
+        "wowhead": {
+          "fetched_at": "2026-08-21",
+          "url": "https://www.wowhead.com/guide/classes/death-knight/blood/enchants-gems-pve-tank"
         }
       },
-      "rotation": [],
       "stat_priority": [
         {
           "rating": 823,

@@ -3,6 +3,53 @@
   "class_name": "Mage",
   "guides": [
     {
+      "consumables": [
+        {
+          "category": "FLASK",
+          "is_primary": true,
+          "item_id": 241322
+        },
+        {
+          "category": "FLASK",
+          "is_primary": false,
+          "item_id": 241324
+        },
+        {
+          "category": "POTION",
+          "is_primary": true,
+          "item_id": 241308
+        },
+        {
+          "category": "HEALTH_POTION",
+          "is_primary": true,
+          "item_id": 241304
+        },
+        {
+          "category": "WEAPON_OIL",
+          "is_primary": true,
+          "item_id": 243734
+        },
+        {
+          "category": "RUNE",
+          "is_primary": true,
+          "item_id": 259085
+        },
+        {
+          "category": "FOOD",
+          "is_primary": true,
+          "item_id": 255846
+        },
+        {
+          "category": "FOOD",
+          "is_primary": false,
+          "item_id": 242272
+        },
+        {
+          "category": "FOOD",
+          "is_primary": false,
+          "item_id": 242274
+        }
+      ],
       "content": "mplus",
       "enchants": [
         {
@@ -888,41 +935,9 @@
         },
         "wowhead": {
           "fetched_at": "2026-08-21",
-          "url": "https://www.wowhead.com/guide/classes/mage/fire/rotation-cooldowns-pve-dps"
+          "url": "https://www.wowhead.com/guide/classes/mage/fire/enchants-gems-pve-dps"
         }
       },
-      "rotation": [
-        {
-          "mode": "st",
-          "note": "with {48108}",
-          "spell_id": 11366
-        },
-        {
-          "mode": "st",
-          "note": "The below casts are used to generate :",
-          "spell_id": 48108
-        },
-        {
-          "mode": "st",
-          "note": ".",
-          "spell_id": 108853
-        },
-        {
-          "mode": "aoe",
-          "note": "with {48108}",
-          "spell_id": 2120
-        },
-        {
-          "mode": "aoe",
-          "note": "The below casts are used to generate :",
-          "spell_id": 48108
-        },
-        {
-          "mode": "aoe",
-          "note": ".",
-          "spell_id": 108853
-        }
-      ],
       "stat_priority": [
         {
           "rating": 1217,

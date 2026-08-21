@@ -3,6 +3,48 @@
   "class_name": "Monk",
   "guides": [
     {
+      "consumables": [
+        {
+          "category": "FLASK",
+          "is_primary": true,
+          "item_id": 241324
+        },
+        {
+          "category": "FLASK",
+          "is_primary": false,
+          "item_id": 241326
+        },
+        {
+          "category": "POTION",
+          "is_primary": true,
+          "item_id": 241288
+        },
+        {
+          "category": "HEALTH_POTION",
+          "is_primary": true,
+          "item_id": 271884
+        },
+        {
+          "category": "WEAPON_OIL",
+          "is_primary": true,
+          "item_id": 243734
+        },
+        {
+          "category": "FOOD",
+          "is_primary": true,
+          "item_id": 266996
+        },
+        {
+          "category": "FOOD",
+          "is_primary": false,
+          "item_id": 242747
+        },
+        {
+          "category": "FOOD",
+          "is_primary": false,
+          "item_id": 268679
+        }
+      ],
       "content": "mplus",
       "enchants": [
         {
@@ -885,9 +927,12 @@
         "mythicstats": {
           "fetched_at": "2026-08-21",
           "url": "https://mythicstats.com/spec/mistweaver-monk"
+        },
+        "wowhead": {
+          "fetched_at": "2026-08-21",
+          "url": "https://www.wowhead.com/guide/classes/monk/mistweaver/enchants-gems-pve-healer"
         }
       },
-      "rotation": [],
       "stat_priority": [
         {
           "rating": 1119,

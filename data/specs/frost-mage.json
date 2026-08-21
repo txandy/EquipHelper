@@ -3,6 +3,48 @@
   "class_name": "Mage",
   "guides": [
     {
+      "consumables": [
+        {
+          "category": "FLASK",
+          "is_primary": true,
+          "item_id": 241322
+        },
+        {
+          "category": "POTION",
+          "is_primary": true,
+          "item_id": 241288
+        },
+        {
+          "category": "POTION",
+          "is_primary": false,
+          "item_id": 241308
+        },
+        {
+          "category": "HEALTH_POTION",
+          "is_primary": true,
+          "item_id": 271884
+        },
+        {
+          "category": "WEAPON_OIL",
+          "is_primary": true,
+          "item_id": 243734
+        },
+        {
+          "category": "RUNE",
+          "is_primary": true,
+          "item_id": 259085
+        },
+        {
+          "category": "FOOD",
+          "is_primary": true,
+          "item_id": 255846
+        },
+        {
+          "category": "FOOD",
+          "is_primary": false,
+          "item_id": 242274
+        }
+      ],
       "content": "mplus",
       "enchants": [
         {
@@ -868,7 +910,7 @@
       "hero_name": "Frostfire",
       "performance": {
         "difficulty": "Mitica+",
-        "median": 146845.2,
+        "median": 146885.3,
         "metric": "dps",
         "out_of": 40,
         "rank": 26,
@@ -883,121 +925,9 @@
         },
         "wowhead": {
           "fetched_at": "2026-08-21",
-          "url": "https://www.wowhead.com/guide/classes/mage/frost/rotation-cooldowns-pve-dps"
+          "url": "https://www.wowhead.com/guide/classes/mage/frost/enchants-gems-pve-dps"
         }
       },
-      "rotation": [
-        {
-          "mode": "st",
-          "note": null,
-          "spell_id": 199786
-        },
-        {
-          "mode": "st",
-          "note": null,
-          "spell_id": 1247777
-        },
-        {
-          "mode": "st",
-          "note": "if {190447} is active and {1247729} is not active",
-          "spell_id": 44614
-        },
-        {
-          "mode": "st",
-          "note": "if {112965} at 2 stacks",
-          "spell_id": 30455
-        },
-        {
-          "mode": "st",
-          "note": null,
-          "spell_id": 205021
-        },
-        {
-          "mode": "st",
-          "note": null,
-          "spell_id": 84714
-        },
-        {
-          "mode": "st",
-          "note": "if both {112965} and {1247729} are active",
-          "spell_id": 30455
-        },
-        {
-          "mode": "st",
-          "note": "if {1221389} at 12 or more stacks",
-          "spell_id": 30455
-        },
-        {
-          "mode": "st",
-          "note": null,
-          "spell_id": 44614
-        },
-        {
-          "mode": "st",
-          "note": null,
-          "spell_id": 116
-        },
-        {
-          "mode": "aoe",
-          "note": null,
-          "spell_id": 199786
-        },
-        {
-          "mode": "aoe",
-          "note": "a few GCDs after {199786} to let finish if it procced",
-          "spell_id": 1247777
-        },
-        {
-          "mode": "aoe",
-          "note": "if {190447} is active and {1247729} is not active",
-          "spell_id": 44614
-        },
-        {
-          "mode": "aoe",
-          "note": "if {112965} at 2 stacks",
-          "spell_id": 30455
-        },
-        {
-          "mode": "aoe",
-          "note": null,
-          "spell_id": 205021
-        },
-        {
-          "mode": "aoe",
-          "note": null,
-          "spell_id": 84714
-        },
-        {
-          "mode": "aoe",
-          "note": "if {270233} is learned and active",
-          "spell_id": 190356
-        },
-        {
-          "mode": "aoe",
-          "note": "against 8 or more targets",
-          "spell_id": 190356
-        },
-        {
-          "mode": "aoe",
-          "note": "if both {112965} and {1247729} are active",
-          "spell_id": 30455
-        },
-        {
-          "mode": "aoe",
-          "note": "if {1221389} at 12 or more stacks",
-          "spell_id": 30455
-        },
-        {
-          "mode": "aoe",
-          "note": null,
-          "spell_id": 44614
-        },
-        {
-          "mode": "aoe",
-          "note": null,
-          "spell_id": 116
-        }
-      ],
       "stat_priority": [
         {
           "rating": 971,
@@ -1042,6 +972,48 @@
       ]
     },
     {
+      "consumables": [
+        {
+          "category": "FLASK",
+          "is_primary": true,
+          "item_id": 241322
+        },
+        {
+          "category": "POTION",
+          "is_primary": true,
+          "item_id": 241288
+        },
+        {
+          "category": "POTION",
+          "is_primary": false,
+          "item_id": 241308
+        },
+        {
+          "category": "HEALTH_POTION",
+          "is_primary": true,
+          "item_id": 271884
+        },
+        {
+          "category": "WEAPON_OIL",
+          "is_primary": true,
+          "item_id": 243734
+        },
+        {
+          "category": "RUNE",
+          "is_primary": true,
+          "item_id": 259085
+        },
+        {
+          "category": "FOOD",
+          "is_primary": true,
+          "item_id": 255846
+        },
+        {
+          "category": "FOOD",
+          "is_primary": false,
+          "item_id": 242274
+        }
+      ],
       "content": "mplus",
       "enchants": [
         {
@@ -1907,7 +1879,7 @@
       "hero_name": "Spellslinger",
       "performance": {
         "difficulty": "Mitica+",
-        "median": 146845.2,
+        "median": 146885.3,
         "metric": "dps",
         "out_of": 40,
         "rank": 26,
@@ -1922,111 +1894,9 @@
         },
         "wowhead": {
           "fetched_at": "2026-08-21",
-          "url": "https://www.wowhead.com/guide/classes/mage/frost/rotation-cooldowns-pve-dps"
+          "url": "https://www.wowhead.com/guide/classes/mage/frost/enchants-gems-pve-dps"
         }
       },
-      "rotation": [
-        {
-          "mode": "st",
-          "note": "if {190447} is active and {1247729} is not active",
-          "spell_id": 44614
-        },
-        {
-          "mode": "st",
-          "note": "if {112965} at 2 stacks",
-          "spell_id": 30455
-        },
-        {
-          "mode": "st",
-          "note": null,
-          "spell_id": 84714
-        },
-        {
-          "mode": "st",
-          "note": null,
-          "spell_id": 199786
-        },
-        {
-          "mode": "st",
-          "note": "if {112965} active",
-          "spell_id": 30455
-        },
-        {
-          "mode": "st",
-          "note": "if {1221389} at 6 or more stacks",
-          "spell_id": 30455
-        },
-        {
-          "mode": "st",
-          "note": "if at 3 or fewer {1246832}",
-          "spell_id": 205021
-        },
-        {
-          "mode": "st",
-          "note": null,
-          "spell_id": 44614
-        },
-        {
-          "mode": "st",
-          "note": null,
-          "spell_id": 116
-        },
-        {
-          "mode": "aoe",
-          "note": "if {190447} is active and {1247729} is not active",
-          "spell_id": 44614
-        },
-        {
-          "mode": "aoe",
-          "note": "if {112965} at 2 stacks",
-          "spell_id": 30455
-        },
-        {
-          "mode": "aoe",
-          "note": null,
-          "spell_id": 84714
-        },
-        {
-          "mode": "aoe",
-          "note": null,
-          "spell_id": 199786
-        },
-        {
-          "mode": "aoe",
-          "note": "if {270233} is active",
-          "spell_id": 190356
-        },
-        {
-          "mode": "aoe",
-          "note": "if {112965} is active",
-          "spell_id": 30455
-        },
-        {
-          "mode": "aoe",
-          "note": "if {1221389} at 6 or more stacks",
-          "spell_id": 30455
-        },
-        {
-          "mode": "aoe",
-          "note": "if at 3 or fewer {1246832}",
-          "spell_id": 205021
-        },
-        {
-          "mode": "aoe",
-          "note": null,
-          "spell_id": 44614
-        },
-        {
-          "mode": "aoe",
-          "note": null,
-          "spell_id": 190356
-        },
-        {
-          "mode": "aoe",
-          "note": null,
-          "spell_id": 116
-        }
-      ],
       "stat_priority": [
         {
           "rating": 971,

@@ -8,6 +8,38 @@ ns.RegisterClassData("MAGE", {
 			heroes = {
 				[39] = {
 					mplus = {
+						consumables = {
+							{
+								category = "FLASK",
+								itemID = 241324,
+								primary = true,
+							},
+							{
+								category = "POTION",
+								itemID = 241308,
+								primary = true,
+							},
+							{
+								category = "HEALTH_POTION",
+								itemID = 271884,
+								primary = true,
+							},
+							{
+								category = "WEAPON_OIL",
+								itemID = 243734,
+								primary = true,
+							},
+							{
+								category = "RUNE",
+								itemID = 259085,
+								primary = true,
+							},
+							{
+								category = "FOOD",
+								itemID = 255845,
+								primary = true,
+							},
+						},
 						enchants = {
 							{
 								itemID = 244029,
@@ -648,22 +680,7 @@ ns.RegisterClassData("MAGE", {
 							},
 							wowhead = {
 								fetchedAt = "2026-08-21",
-								url = "https://www.wowhead.com/guide/classes/mage/arcane/rotation-cooldowns-pve-dps",
-							},
-						},
-						rotation = {
-							{
-								mode = "st",
-								spellID = 365350,
-							},
-							{
-								mode = "st",
-								spellID = 5143,
-							},
-							{
-								mode = "st",
-								note = "then {321507} while its midair",
-								spellID = 44425,
+								url = "https://www.wowhead.com/guide/classes/mage/arcane/enchants-gems-pve-dps",
 							},
 						},
 						statPriority = {
@@ -817,6 +834,53 @@ ns.RegisterClassData("MAGE", {
 			heroes = {
 				[39] = {
 					mplus = {
+						consumables = {
+							{
+								category = "FLASK",
+								itemID = 241322,
+								primary = true,
+							},
+							{
+								category = "FLASK",
+								itemID = 241324,
+								primary = false,
+							},
+							{
+								category = "POTION",
+								itemID = 241308,
+								primary = true,
+							},
+							{
+								category = "HEALTH_POTION",
+								itemID = 241304,
+								primary = true,
+							},
+							{
+								category = "WEAPON_OIL",
+								itemID = 243734,
+								primary = true,
+							},
+							{
+								category = "RUNE",
+								itemID = 259085,
+								primary = true,
+							},
+							{
+								category = "FOOD",
+								itemID = 255846,
+								primary = true,
+							},
+							{
+								category = "FOOD",
+								itemID = 242272,
+								primary = false,
+							},
+							{
+								category = "FOOD",
+								itemID = 242274,
+								primary = false,
+							},
+						},
 						enchants = {
 							{
 								itemID = 244029,
@@ -1457,39 +1521,7 @@ ns.RegisterClassData("MAGE", {
 							},
 							wowhead = {
 								fetchedAt = "2026-08-21",
-								url = "https://www.wowhead.com/guide/classes/mage/fire/rotation-cooldowns-pve-dps",
-							},
-						},
-						rotation = {
-							{
-								mode = "st",
-								note = "with {48108}",
-								spellID = 11366,
-							},
-							{
-								mode = "st",
-								note = "The below casts are used to generate :",
-								spellID = 48108,
-							},
-							{
-								mode = "st",
-								note = ".",
-								spellID = 108853,
-							},
-							{
-								mode = "aoe",
-								note = "with {48108}",
-								spellID = 2120,
-							},
-							{
-								mode = "aoe",
-								note = "The below casts are used to generate :",
-								spellID = 48108,
-							},
-							{
-								mode = "aoe",
-								note = ".",
-								spellID = 108853,
+								url = "https://www.wowhead.com/guide/classes/mage/fire/enchants-gems-pve-dps",
 							},
 						},
 						statPriority = {
@@ -1565,6 +1597,48 @@ ns.RegisterClassData("MAGE", {
 			heroes = {
 				[40] = {
 					mplus = {
+						consumables = {
+							{
+								category = "FLASK",
+								itemID = 241322,
+								primary = true,
+							},
+							{
+								category = "POTION",
+								itemID = 241288,
+								primary = true,
+							},
+							{
+								category = "POTION",
+								itemID = 241308,
+								primary = false,
+							},
+							{
+								category = "HEALTH_POTION",
+								itemID = 271884,
+								primary = true,
+							},
+							{
+								category = "WEAPON_OIL",
+								itemID = 243734,
+								primary = true,
+							},
+							{
+								category = "RUNE",
+								itemID = 259085,
+								primary = true,
+							},
+							{
+								category = "FOOD",
+								itemID = 255846,
+								primary = true,
+							},
+							{
+								category = "FOOD",
+								itemID = 242274,
+								primary = false,
+							},
+						},
 						enchants = {
 							{
 								itemID = 244029,
@@ -2185,7 +2259,7 @@ ns.RegisterClassData("MAGE", {
 						},
 						performance = {
 							difficulty = "Mitica+",
-							median = 146845.2,
+							median = 146885.3,
 							metric = "dps",
 							outOf = 40,
 							rank = 26,
@@ -2200,100 +2274,7 @@ ns.RegisterClassData("MAGE", {
 							},
 							wowhead = {
 								fetchedAt = "2026-08-21",
-								url = "https://www.wowhead.com/guide/classes/mage/frost/rotation-cooldowns-pve-dps",
-							},
-						},
-						rotation = {
-							{
-								mode = "st",
-								note = "if {190447} is active and {1247729} is not active",
-								spellID = 44614,
-							},
-							{
-								mode = "st",
-								note = "if {112965} at 2 stacks",
-								spellID = 30455,
-							},
-							{
-								mode = "st",
-								spellID = 84714,
-							},
-							{
-								mode = "st",
-								spellID = 199786,
-							},
-							{
-								mode = "st",
-								note = "if {112965} active",
-								spellID = 30455,
-							},
-							{
-								mode = "st",
-								note = "if {1221389} at 6 or more stacks",
-								spellID = 30455,
-							},
-							{
-								mode = "st",
-								note = "if at 3 or fewer {1246832}",
-								spellID = 205021,
-							},
-							{
-								mode = "st",
-								spellID = 44614,
-							},
-							{
-								mode = "st",
-								spellID = 116,
-							},
-							{
-								mode = "aoe",
-								note = "if {190447} is active and {1247729} is not active",
-								spellID = 44614,
-							},
-							{
-								mode = "aoe",
-								note = "if {112965} at 2 stacks",
-								spellID = 30455,
-							},
-							{
-								mode = "aoe",
-								spellID = 84714,
-							},
-							{
-								mode = "aoe",
-								spellID = 199786,
-							},
-							{
-								mode = "aoe",
-								note = "if {270233} is active",
-								spellID = 190356,
-							},
-							{
-								mode = "aoe",
-								note = "if {112965} is active",
-								spellID = 30455,
-							},
-							{
-								mode = "aoe",
-								note = "if {1221389} at 6 or more stacks",
-								spellID = 30455,
-							},
-							{
-								mode = "aoe",
-								note = "if at 3 or fewer {1246832}",
-								spellID = 205021,
-							},
-							{
-								mode = "aoe",
-								spellID = 44614,
-							},
-							{
-								mode = "aoe",
-								spellID = 190356,
-							},
-							{
-								mode = "aoe",
-								spellID = 116,
+								url = "https://www.wowhead.com/guide/classes/mage/frost/enchants-gems-pve-dps",
 							},
 						},
 						statPriority = {
@@ -2390,6 +2371,48 @@ ns.RegisterClassData("MAGE", {
 				},
 				[41] = {
 					mplus = {
+						consumables = {
+							{
+								category = "FLASK",
+								itemID = 241322,
+								primary = true,
+							},
+							{
+								category = "POTION",
+								itemID = 241288,
+								primary = true,
+							},
+							{
+								category = "POTION",
+								itemID = 241308,
+								primary = false,
+							},
+							{
+								category = "HEALTH_POTION",
+								itemID = 271884,
+								primary = true,
+							},
+							{
+								category = "WEAPON_OIL",
+								itemID = 243734,
+								primary = true,
+							},
+							{
+								category = "RUNE",
+								itemID = 259085,
+								primary = true,
+							},
+							{
+								category = "FOOD",
+								itemID = 255846,
+								primary = true,
+							},
+							{
+								category = "FOOD",
+								itemID = 242274,
+								primary = false,
+							},
+						},
 						enchants = {
 							{
 								itemID = 244029,
@@ -3010,7 +3033,7 @@ ns.RegisterClassData("MAGE", {
 						},
 						performance = {
 							difficulty = "Mitica+",
-							median = 146845.2,
+							median = 146885.3,
 							metric = "dps",
 							outOf = 40,
 							rank = 26,
@@ -3025,108 +3048,7 @@ ns.RegisterClassData("MAGE", {
 							},
 							wowhead = {
 								fetchedAt = "2026-08-21",
-								url = "https://www.wowhead.com/guide/classes/mage/frost/rotation-cooldowns-pve-dps",
-							},
-						},
-						rotation = {
-							{
-								mode = "st",
-								spellID = 199786,
-							},
-							{
-								mode = "st",
-								spellID = 1247777,
-							},
-							{
-								mode = "st",
-								note = "if {190447} is active and {1247729} is not active",
-								spellID = 44614,
-							},
-							{
-								mode = "st",
-								note = "if {112965} at 2 stacks",
-								spellID = 30455,
-							},
-							{
-								mode = "st",
-								spellID = 205021,
-							},
-							{
-								mode = "st",
-								spellID = 84714,
-							},
-							{
-								mode = "st",
-								note = "if both {112965} and {1247729} are active",
-								spellID = 30455,
-							},
-							{
-								mode = "st",
-								note = "if {1221389} at 12 or more stacks",
-								spellID = 30455,
-							},
-							{
-								mode = "st",
-								spellID = 44614,
-							},
-							{
-								mode = "st",
-								spellID = 116,
-							},
-							{
-								mode = "aoe",
-								spellID = 199786,
-							},
-							{
-								mode = "aoe",
-								note = "a few GCDs after {199786} to let finish if it procced",
-								spellID = 1247777,
-							},
-							{
-								mode = "aoe",
-								note = "if {190447} is active and {1247729} is not active",
-								spellID = 44614,
-							},
-							{
-								mode = "aoe",
-								note = "if {112965} at 2 stacks",
-								spellID = 30455,
-							},
-							{
-								mode = "aoe",
-								spellID = 205021,
-							},
-							{
-								mode = "aoe",
-								spellID = 84714,
-							},
-							{
-								mode = "aoe",
-								note = "if {270233} is learned and active",
-								spellID = 190356,
-							},
-							{
-								mode = "aoe",
-								note = "against 8 or more targets",
-								spellID = 190356,
-							},
-							{
-								mode = "aoe",
-								note = "if both {112965} and {1247729} are active",
-								spellID = 30455,
-							},
-							{
-								mode = "aoe",
-								note = "if {1221389} at 12 or more stacks",
-								spellID = 30455,
-							},
-							{
-								mode = "aoe",
-								spellID = 44614,
-							},
-							{
-								mode = "aoe",
-								spellID = 116,
+								url = "https://www.wowhead.com/guide/classes/mage/frost/enchants-gems-pve-dps",
 							},
 						},
 						statPriority = {
