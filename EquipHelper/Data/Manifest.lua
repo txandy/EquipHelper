@@ -5,7 +5,7 @@ local ADDON_NAME, ns = ...
 ns.Manifest = {
 	generated = "2026-08-21",
 	generatedEpoch = 1787270400,
-	guideCount = 58,
+	guideCount = 59,
 	sources = {
 		{
 			key = "mythicstats",
