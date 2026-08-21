@@ -1,0 +1,37 @@
+name: test
+
+on:
+  push:
+    branches: [main]
+  pull_request:
+
+jobs:
+  scraper:
+    runs-on: ubuntu-latest
+    steps:
+      - uses: actions/checkout@v4
+
+      - uses: actions/setup-python@v5
+        with:
+          python-version: "3.12"
+          cache: pip
+
+      - run: pip install -r scraper/requirements.txt
+
+      # Los tests corren contra HTML grabado en scraper/tests/fixtures, sin red:
+      # si mythicstats cambia su maquetacion, rompe un test y no la produccion.
+      - run: python -m pytest scraper/tests -q
+
+  lua:
+    runs-on: ubuntu-latest
+    steps:
+      - uses: actions/checkout@v4
+
+      # WoW corre Lua 5.1; comprobar con otra version daria falsos positivos.
+      - uses: leafo/gh-actions-lua@v10
+        with:
+          luaVersion: "5.1"
+      - uses: leafo/gh-actions-luarocks@v4
+
+      - run: luarocks install luacheck
+      - run: luacheck EquipHelper

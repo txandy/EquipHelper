@@ -20,23 +20,30 @@ aparezca como un diff feo en un PR y no como un addon corrupto en producción.
 
 ## Estado
 
-- [x] **Fase 1** — Esqueleto del addon: panel con pestañas Stats / Talentos / Rotación / Equipo, detección de spec y hero talent, datos de ejemplo para Mago Escarcha y Guerrero Furia.
-- [ ] **Fase 2** — Scraper de Mythicstats + esquema canónico + emisor de Lua + gate de calidad.
-- [ ] **Fase 3** — Workflows de CI (scrape, test, release).
+- [x] **Fase 1** — Esqueleto del addon: panel con pestañas Stats / Talentos / Rotación / Equipo, detección de spec y hero talent.
+- [x] **Fase 2** — Scraper de Mythicstats + esquema canónico + emisor de Lua + gate de calidad. **40 specs cubiertas.**
+- [x] **Fase 3** — Workflows de CI (scrape diario, test, release).
 - [ ] **Fase 4** — Archon.gg y la API de Warcraft Logs + merge entre fuentes.
 - [ ] **Fase 5** — Wowhead: prioridad de stats y rotación en prosa.
 - [ ] **Fase 6** — Tooltips de objeto enriquecidos.
 
-Los datos que trae hoy son **de ejemplo**, escritos a mano: los `itemID`, los
-`heroID` y los import strings de talentos son placeholders. El panel lo avisa en
-su cabecera mientras `Manifest.placeholder` siga a `true`.
+Los datos son reales: 40 specs, 58 guías (spec × hero talent × M+/banda), con
+prioridad de stats, builds de talentos importables, BiS por ranura, gemas y
+encantamientos. Falta la rotación, que llega en la fase 5 desde Wowhead.
 
 ## Desarrollo
 
 ```bash
+make venv                                               # entorno de Python del scraper
+make test                                               # tests del scraper (sin red)
 make check                                              # sintaxis + luacheck
+make build                                              # descarga, valida y regenera Data/*.lua
 make install WOW_PATH="/ruta/a/World of Warcraft/_retail_"   # symlink al cliente
 ```
+
+`make build` no emite nada si los datos no pasan la puerta de calidad: por
+debajo del 90% de specs cubiertas, con un import string truncado o con un
+`itemID` implausible, falla en vez de publicar.
 
 `make install` enlaza `EquipHelper/` dentro de `Interface/AddOns`, así que editar
 un `.lua` y hacer `/reload` basta. La primera vez hay que reiniciar el cliente

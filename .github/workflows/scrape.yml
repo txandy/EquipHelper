@@ -1,0 +1,46 @@
+name: scrape
+
+on:
+  schedule:
+    - cron: "20 6 * * *"   # a diario, tras el reinicio semanal de la mayoria de regiones
+  workflow_dispatch:
+
+permissions:
+  contents: write
+  pull-requests: write
+
+jobs:
+  refresh:
+    runs-on: ubuntu-latest
+    steps:
+      - uses: actions/checkout@v4
+
+      - uses: actions/setup-python@v5
+        with:
+          python-version: "3.12"
+          cache: pip
+
+      - run: pip install -r scraper/requirements.txt
+
+      # El build falla solo si los datos no pasan la puerta de calidad, y
+      # entonces no emite Lua: preferimos un job en rojo a publicar basura.
+      - name: Descargar y regenerar
+        run: python -m scraper build
+
+      # PR y no push directo: los datos los mira una persona antes de que
+      # lleguen a nadie, y el diff de data/ dice exactamente que cambio.
+      - uses: peter-evans/create-pull-request@v7
+        with:
+          branch: data/refresh
+          title: "chore(data): refresco automatico"
+          commit-message: "chore(data): refresco automatico"
+          body: |
+            Regenerado por el workflow `scrape`.
+
+            Revisa el diff de `data/specs/` antes de mezclar: ahi se ve que
+            cambio en la fuente. Los `.lua` de `EquipHelper/Data/` se derivan
+            de eso y no se revisan a mano.
+          add-paths: |
+            data/
+            EquipHelper/Data/
+            EquipHelper/EquipHelper.toc
