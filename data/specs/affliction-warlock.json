@@ -871,13 +871,103 @@
       ],
       "hero_id": 57,
       "hero_name": "Soul Harvester",
+      "performance": {
+        "difficulty": "Mitica+",
+        "median": 147572.5,
+        "metric": "dps",
+        "out_of": 40,
+        "rank": 25,
+        "sample": 300,
+        "top": 275306.4,
+        "zone": "Mythic+ Season 2"
+      },
       "provenance": {
         "mythicstats": {
           "fetched_at": "2026-08-21",
           "url": "https://mythicstats.com/spec/affliction-warlock"
+        },
+        "wowhead": {
+          "fetched_at": "2026-08-21",
+          "url": "https://www.wowhead.com/guide/classes/warlock/affliction/rotation-cooldowns-pve-dps"
         }
       },
-      "rotation": [],
+      "rotation": [
+        {
+          "mode": "st",
+          "note": "Cast .",
+          "spell_id": 48181
+        },
+        {
+          "mode": "st",
+          "note": "Cast .",
+          "spell_id": 980
+        },
+        {
+          "mode": "st",
+          "note": "Cast .",
+          "spell_id": 172
+        },
+        {
+          "mode": "st",
+          "note": "Cast .",
+          "spell_id": 205180
+        },
+        {
+          "mode": "st",
+          "note": "Cast .",
+          "spell_id": 316099
+        },
+        {
+          "mode": "st",
+          "note": "Cast .",
+          "spell_id": 1257052
+        },
+        {
+          "mode": "st",
+          "note": "Cast .",
+          "spell_id": 316099
+        },
+        {
+          "mode": "st",
+          "note": "Cast .",
+          "spell_id": 1261149
+        },
+        {
+          "mode": "aoe",
+          "note": "Cast .",
+          "spell_id": 27243
+        },
+        {
+          "mode": "aoe",
+          "note": "Cast on your priority target.",
+          "spell_id": 48181
+        },
+        {
+          "mode": "aoe",
+          "note": "Cast on a handful of targets.",
+          "spell_id": 980
+        },
+        {
+          "mode": "aoe",
+          "note": "Cast .",
+          "spell_id": 205180
+        },
+        {
+          "mode": "aoe",
+          "note": "Cast .",
+          "spell_id": 1257052
+        },
+        {
+          "mode": "aoe",
+          "note": "Cast as many times as possible.",
+          "spell_id": 27243
+        },
+        {
+          "mode": "aoe",
+          "note": "Cast .",
+          "spell_id": 1261149
+        }
+      ],
       "stat_priority": [
         {
           "rating": 964,

@@ -880,13 +880,128 @@
       ],
       "hero_id": 61,
       "hero_name": "Mountain Thane",
+      "performance": {
+        "difficulty": "Mitica+",
+        "median": 177110.1,
+        "metric": "dps",
+        "out_of": 40,
+        "rank": 13,
+        "sample": 300,
+        "top": 306863.8,
+        "zone": "Mythic+ Season 2"
+      },
       "provenance": {
         "mythicstats": {
           "fetched_at": "2026-08-21",
           "url": "https://mythicstats.com/spec/fury-warrior"
+        },
+        "wowhead": {
+          "fetched_at": "2026-08-21",
+          "url": "https://www.wowhead.com/guide/classes/warrior/fury/rotation-cooldowns-pve-dps"
         }
       },
-      "rotation": [],
+      "rotation": [
+        {
+          "mode": "st",
+          "note": "over 100 rage",
+          "spell_id": 184367
+        },
+        {
+          "mode": "st",
+          "note": "with two stacks available or less than two seconds of Avatar remaining",
+          "spell_id": 435607
+        },
+        {
+          "mode": "st",
+          "note": "twice to apply the Season 2 tier set critical strike buff",
+          "spell_id": 335096
+        },
+        {
+          "mode": "st",
+          "note": "while the {383877} buff is active",
+          "spell_id": 335097
+        },
+        {
+          "mode": "st",
+          "note": null,
+          "spell_id": 335096
+        },
+        {
+          "mode": "st",
+          "note": null,
+          "spell_id": 184367
+        },
+        {
+          "mode": "st",
+          "note": null,
+          "spell_id": 435607
+        },
+        {
+          "mode": "st",
+          "note": null,
+          "spell_id": 335097
+        },
+        {
+          "mode": "st",
+          "note": null,
+          "spell_id": 5308
+        },
+        {
+          "mode": "st",
+          "note": "when nothing else is available",
+          "spell_id": 6343
+        },
+        {
+          "mode": "aoe",
+          "note": "if Enrage is not already active",
+          "spell_id": 184367
+        },
+        {
+          "mode": "aoe",
+          "note": null,
+          "spell_id": 435607
+        },
+        {
+          "mode": "aoe",
+          "note": "if there are more than 6 targets",
+          "spell_id": 6343
+        },
+        {
+          "mode": "aoe",
+          "note": "over 100 rage",
+          "spell_id": 184367
+        },
+        {
+          "mode": "aoe",
+          "note": null,
+          "spell_id": 335096
+        },
+        {
+          "mode": "aoe",
+          "note": "with the {383877} active",
+          "spell_id": 335097
+        },
+        {
+          "mode": "aoe",
+          "note": null,
+          "spell_id": 184367
+        },
+        {
+          "mode": "aoe",
+          "note": null,
+          "spell_id": 6343
+        },
+        {
+          "mode": "aoe",
+          "note": null,
+          "spell_id": 335097
+        },
+        {
+          "mode": "aoe",
+          "note": null,
+          "spell_id": 5308
+        }
+      ],
       "stat_priority": [
         {
           "rating": 1074,
@@ -1822,13 +1937,113 @@
       ],
       "hero_id": 60,
       "hero_name": "Slayer",
+      "performance": {
+        "difficulty": "Mitica+",
+        "median": 177110.1,
+        "metric": "dps",
+        "out_of": 40,
+        "rank": 13,
+        "sample": 300,
+        "top": 306863.8,
+        "zone": "Mythic+ Season 2"
+      },
       "provenance": {
         "mythicstats": {
           "fetched_at": "2026-08-21",
           "url": "https://mythicstats.com/spec/fury-warrior"
+        },
+        "wowhead": {
+          "fetched_at": "2026-08-21",
+          "url": "https://www.wowhead.com/guide/classes/warrior/fury/rotation-cooldowns-pve-dps"
         }
       },
-      "rotation": [],
+      "rotation": [
+        {
+          "mode": "st",
+          "note": "over 100 rage",
+          "spell_id": 184367
+        },
+        {
+          "mode": "st",
+          "note": "as much as possible immediately before using Bladestorm",
+          "spell_id": 184367
+        },
+        {
+          "mode": "st",
+          "note": null,
+          "spell_id": 227847
+        },
+        {
+          "mode": "st",
+          "note": "with Sudden Death",
+          "spell_id": 5308
+        },
+        {
+          "mode": "st",
+          "note": "if the {383877} is not active",
+          "spell_id": 184367
+        },
+        {
+          "mode": "st",
+          "note": null,
+          "spell_id": 335097
+        },
+        {
+          "mode": "st",
+          "note": null,
+          "spell_id": 385059
+        },
+        {
+          "mode": "st",
+          "note": null,
+          "spell_id": 5308
+        },
+        {
+          "mode": "st",
+          "note": null,
+          "spell_id": 335096
+        },
+        {
+          "mode": "aoe",
+          "note": "if the {85739} buff is not active",
+          "spell_id": 190411
+        },
+        {
+          "mode": "aoe",
+          "note": "as much as possible",
+          "spell_id": 184367
+        },
+        {
+          "mode": "aoe",
+          "note": null,
+          "spell_id": 227847
+        },
+        {
+          "mode": "aoe",
+          "note": "with {280721}",
+          "spell_id": 5308
+        },
+        {
+          "mode": "aoe",
+          "note": null,
+          "spell_id": 385059
+        },
+        {
+          "mode": "aoe",
+          "note": null,
+          "spell_id": 335097
+        },
+        {
+          "mode": "aoe",
+          "note": null,
+          "spell_id": 335096
+        },
+        {
+          "mode": "aoe",
+          "note": null,
+          "spell_id": 5308
+        }
+      ],
       "stat_priority": [
         {
           "rating": 1074,

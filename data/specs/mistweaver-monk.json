@@ -871,6 +871,16 @@
       ],
       "hero_id": 64,
       "hero_name": "Conduit of the Celestials",
+      "performance": {
+        "difficulty": "Mitica+",
+        "median": 46401.1,
+        "metric": "dps",
+        "out_of": 40,
+        "rank": 34,
+        "sample": 300,
+        "top": 83239.5,
+        "zone": "Mythic+ Season 2"
+      },
       "provenance": {
         "mythicstats": {
           "fetched_at": "2026-08-21",

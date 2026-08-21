@@ -821,13 +821,158 @@
       ],
       "hero_id": 60,
       "hero_name": "Slayer",
+      "performance": {
+        "difficulty": "Mitica+",
+        "median": 205536.6,
+        "metric": "dps",
+        "out_of": 40,
+        "rank": 2,
+        "sample": 300,
+        "top": 319743.7,
+        "zone": "Mythic+ Season 2"
+      },
       "provenance": {
         "mythicstats": {
           "fetched_at": "2026-08-21",
           "url": "https://mythicstats.com/spec/arms-warrior"
+        },
+        "wowhead": {
+          "fetched_at": "2026-08-21",
+          "url": "https://www.wowhead.com/guide/classes/warrior/arms/rotation-cooldowns-pve-dps"
         }
       },
-      "rotation": [],
+      "rotation": [
+        {
+          "mode": "st",
+          "note": "to apply or refresh Rend, when less than 10 seconds remaining and Colossus Smash off cooldown",
+          "spell_id": 845
+        },
+        {
+          "mode": "st",
+          "note": "on cooldown",
+          "spell_id": 107574
+        },
+        {
+          "mode": "st",
+          "note": "on cooldown",
+          "spell_id": 167105
+        },
+        {
+          "mode": "st",
+          "note": "with two stacks {280776}",
+          "spell_id": 163201
+        },
+        {
+          "mode": "st",
+          "note": "immediately before Bladestorm, if less than 3 stacks of {444769}",
+          "spell_id": 163201
+        },
+        {
+          "mode": "st",
+          "note": "during Colossus Smash",
+          "spell_id": 227847
+        },
+        {
+          "mode": "st",
+          "note": null,
+          "spell_id": 1269383
+        },
+        {
+          "mode": "st",
+          "note": null,
+          "spell_id": 12294
+        },
+        {
+          "mode": "st",
+          "note": "during {280776}",
+          "spell_id": 163201
+        },
+        {
+          "mode": "st",
+          "note": null,
+          "spell_id": 7384
+        },
+        {
+          "mode": "st",
+          "note": "to refresh Rend with less than 5 seconds remaining",
+          "spell_id": 845
+        },
+        {
+          "mode": "st",
+          "note": "when nothing else is available",
+          "spell_id": 1464
+        },
+        {
+          "mode": "aoe",
+          "note": "on cooldown",
+          "spell_id": 260708
+        },
+        {
+          "mode": "aoe",
+          "note": "early to apply Rend",
+          "spell_id": 845
+        },
+        {
+          "mode": "aoe",
+          "note": null,
+          "spell_id": 107574
+        },
+        {
+          "mode": "aoe",
+          "note": null,
+          "spell_id": 167105
+        },
+        {
+          "mode": "aoe",
+          "note": "with three stacks of {334779}",
+          "spell_id": 845
+        },
+        {
+          "mode": "aoe",
+          "note": null,
+          "spell_id": 227847
+        },
+        {
+          "mode": "aoe",
+          "note": "with two stacks of {280776}",
+          "spell_id": 163201
+        },
+        {
+          "mode": "aoe",
+          "note": null,
+          "spell_id": 845
+        },
+        {
+          "mode": "aoe",
+          "note": "with two charges available",
+          "spell_id": 7384
+        },
+        {
+          "mode": "aoe",
+          "note": "with {280776}",
+          "spell_id": 163201
+        },
+        {
+          "mode": "aoe",
+          "note": null,
+          "spell_id": 7384
+        },
+        {
+          "mode": "aoe",
+          "note": null,
+          "spell_id": 163201
+        },
+        {
+          "mode": "aoe",
+          "note": null,
+          "spell_id": 12294
+        },
+        {
+          "mode": "aoe",
+          "note": "if nothing else is available",
+          "spell_id": 1464
+        }
+      ],
       "stat_priority": [
         {
           "rating": 1067,

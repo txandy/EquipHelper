@@ -638,10 +638,116 @@ ns.RegisterClassData("MONK", {
 								usagePct = 0.8,
 							},
 						},
+						performance = {
+							difficulty = "Mitica+",
+							median = 90739.0,
+							metric = "dps",
+							outOf = 40,
+							rank = 33,
+							sample = 300,
+							top = 164811.9,
+							zone = "Mythic+ Season 2",
+						},
 						provenance = {
 							mythicstats = {
 								fetchedAt = "2026-08-21",
 								url = "https://mythicstats.com/spec/brewmaster-monk",
+							},
+							wowhead = {
+								fetchedAt = "2026-08-21",
+								url = "https://www.wowhead.com/guide/classes/monk/brewmaster/rotation-cooldowns-pve-tank",
+							},
+						},
+						rotation = {
+							{
+								mode = "st",
+								note = "Execute an enemy with , when allowed",
+								spellID = 322109,
+							},
+							{
+								mode = "st",
+								note = "Use to trigger {196736}",
+								spellID = 100784,
+							},
+							{
+								mode = "st",
+								note = "Only if taking minimal damage, activate /{1241059}",
+								spellID = 322507,
+							},
+							{
+								mode = "st",
+								note = "Activate",
+								spellID = 132578,
+							},
+							{
+								mode = "st",
+								note = "Consume your buff with {100780}",
+								spellID = 196736,
+							},
+							{
+								mode = "st",
+								note = "Use , ideally with {116847} active beforehand",
+								spellID = 325153,
+							},
+							{
+								mode = "st",
+								note = "Use your second charge of",
+								spellID = 121253,
+							},
+							{
+								mode = "st",
+								note = "Use when there are no other abilities to press",
+								spellID = 100780,
+							},
+							{
+								mode = "aoe",
+								note = "Execute an enemy with , when allowed",
+								spellID = 322109,
+							},
+							{
+								mode = "aoe",
+								note = "Activate",
+								spellID = 132578,
+							},
+							{
+								mode = "aoe",
+								note = "While is active, cast {115181}",
+								spellID = 132578,
+							},
+							{
+								mode = "aoe",
+								note = "While is active, cast {121253}",
+								spellID = 132578,
+							},
+							{
+								mode = "aoe",
+								note = "Use to trigger {196736}",
+								spellID = 100784,
+							},
+							{
+								mode = "aoe",
+								note = "Consume your buff with {100780}",
+								spellID = 196736,
+							},
+							{
+								mode = "aoe",
+								note = "Use , ideally with {116847} active beforehand",
+								spellID = 325153,
+							},
+							{
+								mode = "aoe",
+								note = "Only if taking minimal damage, activate /{1241059}",
+								spellID = 322507,
+							},
+							{
+								mode = "aoe",
+								note = "Use your second charge of",
+								spellID = 121253,
+							},
+							{
+								mode = "aoe",
+								note = "Use when there are no other abilities to press and {196736} is not active",
+								spellID = 322729,
 							},
 						},
 						statPriority = {
@@ -1316,10 +1422,116 @@ ns.RegisterClassData("MONK", {
 								usagePct = 0.8,
 							},
 						},
+						performance = {
+							difficulty = "Mitica+",
+							median = 90739.0,
+							metric = "dps",
+							outOf = 40,
+							rank = 33,
+							sample = 300,
+							top = 164811.9,
+							zone = "Mythic+ Season 2",
+						},
 						provenance = {
 							mythicstats = {
 								fetchedAt = "2026-08-21",
 								url = "https://mythicstats.com/spec/brewmaster-monk",
+							},
+							wowhead = {
+								fetchedAt = "2026-08-21",
+								url = "https://www.wowhead.com/guide/classes/monk/brewmaster/rotation-cooldowns-pve-tank",
+							},
+						},
+						rotation = {
+							{
+								mode = "st",
+								note = "Execute an enemy with , when allowed",
+								spellID = 322109,
+							},
+							{
+								mode = "st",
+								note = "Use to trigger {196736}",
+								spellID = 100784,
+							},
+							{
+								mode = "st",
+								note = "Only if taking minimal damage, activate /{1241059}",
+								spellID = 322507,
+							},
+							{
+								mode = "st",
+								note = "Activate",
+								spellID = 132578,
+							},
+							{
+								mode = "st",
+								note = "Consume your buff with {100780}",
+								spellID = 196736,
+							},
+							{
+								mode = "st",
+								note = "Use , ideally with {116847} active beforehand",
+								spellID = 325153,
+							},
+							{
+								mode = "st",
+								note = "Use your second charge of",
+								spellID = 121253,
+							},
+							{
+								mode = "st",
+								note = "Use when there are no other abilities to press",
+								spellID = 100780,
+							},
+							{
+								mode = "aoe",
+								note = "Execute an enemy with , when allowed",
+								spellID = 322109,
+							},
+							{
+								mode = "aoe",
+								note = "Activate",
+								spellID = 132578,
+							},
+							{
+								mode = "aoe",
+								note = "While is active, cast {115181}",
+								spellID = 132578,
+							},
+							{
+								mode = "aoe",
+								note = "While is active, cast {121253}",
+								spellID = 132578,
+							},
+							{
+								mode = "aoe",
+								note = "Use to trigger {196736}",
+								spellID = 100784,
+							},
+							{
+								mode = "aoe",
+								note = "Consume your buff with {100780}",
+								spellID = 196736,
+							},
+							{
+								mode = "aoe",
+								note = "Use , ideally with {116847} active beforehand",
+								spellID = 325153,
+							},
+							{
+								mode = "aoe",
+								note = "Only if taking minimal damage, activate /{1241059}",
+								spellID = 322507,
+							},
+							{
+								mode = "aoe",
+								note = "Use your second charge of",
+								spellID = 121253,
+							},
+							{
+								mode = "aoe",
+								note = "Use when there are no other abilities to press and {196736} is not active",
+								spellID = 322729,
 							},
 						},
 						statPriority = {
@@ -2106,10 +2318,141 @@ ns.RegisterClassData("MONK", {
 								usagePct = 1.6,
 							},
 						},
+						performance = {
+							difficulty = "Mitica+",
+							median = 173788.6,
+							metric = "dps",
+							outOf = 40,
+							rank = 16,
+							sample = 300,
+							top = 258612.4,
+							zone = "Mythic+ Season 2",
+						},
 						provenance = {
 							mythicstats = {
 								fetchedAt = "2026-08-21",
 								url = "https://mythicstats.com/spec/windwalker-monk",
+							},
+							wowhead = {
+								fetchedAt = "2026-08-21",
+								url = "https://www.wowhead.com/guide/classes/monk/windwalker/rotation-cooldowns-pve-dps",
+							},
+						},
+						rotation = {
+							{
+								mode = "st",
+								note = "Cast if low on Chi or {1249625} is almost over",
+								spellID = 1272696,
+							},
+							{
+								mode = "st",
+								note = "Cast to avoid capping energy outside of cooldowns OR if not enough Chi to cast {113656}",
+								spellID = 100780,
+							},
+							{
+								mode = "st",
+								note = "Cast",
+								spellID = 113656,
+							},
+							{
+								mode = "st",
+								note = "Cast with {325201} AND with {1296624} active",
+								spellID = 101546,
+							},
+							{
+								mode = "st",
+								note = "Cast",
+								spellID = 107428,
+							},
+							{
+								mode = "st",
+								note = "Cast with {137384} OR during {1249625} talented into {1249832}",
+								spellID = 100784,
+							},
+							{
+								mode = "st",
+								note = "Cast during {1249625} AND either more than 4 Chi OR {325201}",
+								spellID = 101546,
+							},
+							{
+								mode = "st",
+								note = "Cast if less than 2 Chi",
+								spellID = 100780,
+							},
+							{
+								mode = "st",
+								note = "Cast without overcapping Chi",
+								spellID = 100780,
+							},
+							{
+								mode = "aoe",
+								note = "Cast if low on Chi or {1249625} is almost over",
+								spellID = 1272696,
+							},
+							{
+								mode = "aoe",
+								note = "Cast if missing the Chi to cast {113656}",
+								spellID = 100780,
+							},
+							{
+								mode = "aoe",
+								note = "Cast",
+								spellID = 113656,
+							},
+							{
+								mode = "aoe",
+								note = "Cast with Season 2 4-piece bonus, {1296624}",
+								spellID = 101546,
+							},
+							{
+								mode = "aoe",
+								note = "Cast to avoid capping Energy outside of {1249625}",
+								spellID = 100780,
+							},
+							{
+								mode = "aoe",
+								note = "Cast during {1249625} with at least 5 targets",
+								spellID = 101546,
+							},
+							{
+								mode = "aoe",
+								note = "Cast with either Bloodlust or {1249625} but without Season 2 4-piece bonus, {1296624}",
+								spellID = 107428,
+							},
+							{
+								mode = "aoe",
+								note = "Cast with {1249832} talented AND {1249625} AND {107428} on cooldown",
+								spellID = 100784,
+							},
+							{
+								mode = "aoe",
+								note = "Cast",
+								spellID = 101546,
+							},
+							{
+								mode = "aoe",
+								note = "Cast with {137384}",
+								spellID = 100784,
+							},
+							{
+								mode = "aoe",
+								note = "Cast with less than 5 Chi AND no {1249625}",
+								spellID = 100780,
+							},
+							{
+								mode = "aoe",
+								note = "Cast with {392982} talented",
+								spellID = 100784,
+							},
+							{
+								mode = "aoe",
+								note = "Cast",
+								spellID = 107428,
+							},
+							{
+								mode = "aoe",
+								note = "Cast",
+								spellID = 100784,
 							},
 						},
 						statPriority = {
@@ -2898,6 +3241,16 @@ ns.RegisterClassData("MONK", {
 								itemID = 240914,
 								usagePct = 0.9,
 							},
+						},
+						performance = {
+							difficulty = "Mitica+",
+							median = 46401.1,
+							metric = "dps",
+							outOf = 40,
+							rank = 34,
+							sample = 300,
+							top = 83239.5,
+							zone = "Mythic+ Season 2",
 						},
 						provenance = {
 							mythicstats = {

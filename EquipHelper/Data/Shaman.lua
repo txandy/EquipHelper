@@ -631,10 +631,76 @@ ns.RegisterClassData("SHAMAN", {
 								usagePct = 1.4,
 							},
 						},
+						performance = {
+							difficulty = "Mitica+",
+							median = 202152.5,
+							metric = "dps",
+							outOf = 40,
+							rank = 3,
+							sample = 300,
+							top = 354835.1,
+							zone = "Mythic+ Season 2",
+						},
 						provenance = {
 							mythicstats = {
 								fetchedAt = "2026-08-21",
 								url = "https://mythicstats.com/spec/elemental-shaman",
+							},
+							wowhead = {
+								fetchedAt = "2026-08-21",
+								url = "https://www.wowhead.com/guide/classes/shaman/elemental/rotation-cooldowns-pve-dps",
+							},
+						},
+						rotation = {
+							{
+								mode = "st",
+								note = "Remember to use and {378081} for movement events.",
+								spellID = 79206,
+							},
+							{
+								mode = "st",
+								note = "Cast on cooldown.",
+								spellID = 191634,
+							},
+							{
+								mode = "st",
+								note = "Cast on cooldown.",
+								spellID = 443454,
+							},
+							{
+								mode = "st",
+								note = "Cast roughly on cooldown, but always after {191634}",
+								spellID = 114050,
+							},
+							{
+								mode = "st",
+								note = "Cast as your filler.",
+								spellID = 188196,
+							},
+							{
+								mode = "aoe",
+								note = "Remember to use and {378081} for movement events.",
+								spellID = 79206,
+							},
+							{
+								mode = "aoe",
+								note = "Cast on cooldown.",
+								spellID = 191634,
+							},
+							{
+								mode = "aoe",
+								note = "Cast roughly on cooldown.",
+								spellID = 443454,
+							},
+							{
+								mode = "aoe",
+								note = "Cast roughly on cooldown, but always after {191634}",
+								spellID = 114050,
+							},
+							{
+								mode = "aoe",
+								note = "Cast as your filler.",
+								spellID = 188443,
 							},
 						},
 						statPriority = {
@@ -1439,10 +1505,121 @@ ns.RegisterClassData("SHAMAN", {
 								usagePct = 0.9,
 							},
 						},
+						performance = {
+							difficulty = "Mitica+",
+							median = 179867.9,
+							metric = "dps",
+							outOf = 40,
+							rank = 11,
+							sample = 300,
+							top = 278882.6,
+							zone = "Mythic+ Season 2",
+						},
 						provenance = {
 							mythicstats = {
 								fetchedAt = "2026-08-21",
 								url = "https://mythicstats.com/spec/enhancement-shaman",
+							},
+							wowhead = {
+								fetchedAt = "2026-08-21",
+								url = "https://www.wowhead.com/guide/classes/shaman/enhancement/rotation-cooldowns-pve-dps",
+							},
+						},
+						rotation = {
+							{
+								mode = "st",
+								note = "Cast &ndash;",
+								spellID = 470057,
+							},
+							{
+								mode = "st",
+								note = "Cast &ndash;",
+								spellID = 187874,
+							},
+							{
+								mode = "st",
+								note = "Cast",
+								spellID = 114051,
+							},
+							{
+								mode = "st",
+								note = "Cast during {114051} &ndash;",
+								spellID = 115356,
+							},
+							{
+								mode = "st",
+								note = "Cast during {384352}",
+								spellID = 17364,
+							},
+							{
+								mode = "st",
+								note = "Cast / {188196} with 10 {187880} &ndash;",
+								spellID = 454009,
+							},
+							{
+								mode = "st",
+								note = "Cast",
+								spellID = 17364,
+							},
+							{
+								mode = "st",
+								note = "Cast",
+								spellID = 60103,
+							},
+							{
+								mode = "st",
+								note = "Cast with 5+ {187880}",
+								spellID = 188196,
+							},
+							{
+								mode = "aoe",
+								note = "Cast &ndash;",
+								spellID = 470057,
+							},
+							{
+								mode = "aoe",
+								note = "Cast &ndash;",
+								spellID = 187874,
+							},
+							{
+								mode = "aoe",
+								note = "Cast",
+								spellID = 114051,
+							},
+							{
+								mode = "aoe",
+								note = "Cast during {114051} &ndash;",
+								spellID = 115356,
+							},
+							{
+								mode = "aoe",
+								note = "Cast during {384352}",
+								spellID = 17364,
+							},
+							{
+								mode = "aoe",
+								note = "Cast with a proc and 10 {187880} &ndash;",
+								spellID = 454009,
+							},
+							{
+								mode = "aoe",
+								note = "Cast otherwise at 9+ {187880} &ndash;",
+								spellID = 188443,
+							},
+							{
+								mode = "aoe",
+								note = "Cast",
+								spellID = 17364,
+							},
+							{
+								mode = "aoe",
+								note = "Cast",
+								spellID = 60103,
+							},
+							{
+								mode = "aoe",
+								note = "Cast with 5+ {187880}",
+								spellID = 188443,
 							},
 						},
 						statPriority = {
@@ -2232,10 +2409,56 @@ ns.RegisterClassData("SHAMAN", {
 								usagePct = 1.3,
 							},
 						},
+						performance = {
+							difficulty = "Mitica+",
+							median = 32965.9,
+							metric = "dps",
+							outOf = 40,
+							rank = 36,
+							sample = 300,
+							top = 51846.0,
+							zone = "Mythic+ Season 2",
+						},
 						provenance = {
 							mythicstats = {
 								fetchedAt = "2026-08-21",
 								url = "https://mythicstats.com/spec/restoration-shaman",
+							},
+							wowhead = {
+								fetchedAt = "2026-08-21",
+								url = "https://www.wowhead.com/guide/classes/shaman/restoration/rotation-cooldowns-pve-healer",
+							},
+						},
+						rotation = {
+							{
+								mode = "st",
+								note = "Use all your procs",
+								spellID = 1267068,
+							},
+							{
+								mode = "st",
+								note = "Keep on cooldown",
+								spellID = 61295,
+							},
+							{
+								mode = "st",
+								note = "Use",
+								spellID = 378081,
+							},
+							{
+								mode = "st",
+								note = "Maintain",
+								spellID = 444995,
+							},
+							{
+								mode = "st",
+								note = "Keep on cooldown",
+								spellID = 5394,
+							},
+							{
+								mode = "st",
+								note = "Cast or {77472}",
+								spellID = 1064,
 							},
 						},
 						statPriority = {

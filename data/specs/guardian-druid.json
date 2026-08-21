@@ -821,13 +821,123 @@
       ],
       "hero_id": 24,
       "hero_name": "Elune's Chosen",
+      "performance": {
+        "difficulty": "Mitica+",
+        "median": 98730.4,
+        "metric": "dps",
+        "out_of": 40,
+        "rank": 31,
+        "sample": 300,
+        "top": 189065.7,
+        "zone": "Mythic+ Season 2"
+      },
       "provenance": {
         "mythicstats": {
           "fetched_at": "2026-08-21",
           "url": "https://mythicstats.com/spec/guardian-druid"
+        },
+        "wowhead": {
+          "fetched_at": "2026-08-21",
+          "url": "https://www.wowhead.com/guide/classes/druid/guardian/rotation-cooldowns-pve-tank"
         }
       },
-      "rotation": [],
+      "rotation": [
+        {
+          "mode": "st",
+          "note": "Maintain on your primary target.",
+          "spell_id": 8921
+        },
+        {
+          "mode": "st",
+          "note": "Maintain 3-5 stacks of .",
+          "spell_id": 77758
+        },
+        {
+          "mode": "st",
+          "note": "Cast on cooldown.",
+          "spell_id": 1252871
+        },
+        {
+          "mode": "st",
+          "note": "Cast on cooldown.",
+          "spell_id": 33917
+        },
+        {
+          "mode": "st",
+          "note": "Cast on cooldown.",
+          "spell_id": 77758
+        },
+        {
+          "mode": "st",
+          "note": "Spend Rage on either (offensively) or {192081}(defensively.",
+          "spell_id": 6807
+        },
+        {
+          "mode": "st",
+          "note": "Cast if your health dips low.",
+          "spell_id": 22842
+        },
+        {
+          "mode": "st",
+          "note": "Cast with {203964} procs.",
+          "spell_id": 8921
+        },
+        {
+          "mode": "st",
+          "note": "Use your cooldowns /{394786} as frequently as possible.",
+          "spell_id": 22812
+        },
+        {
+          "mode": "st",
+          "note": "Cast if you have nothing else to press.",
+          "spell_id": 213771
+        },
+        {
+          "mode": "aoe",
+          "note": "Maintain on your primary target.",
+          "spell_id": 8921
+        },
+        {
+          "mode": "aoe",
+          "note": "Maintain 3-5 stacks of .",
+          "spell_id": 77758
+        },
+        {
+          "mode": "aoe",
+          "note": "Cast on cooldown.",
+          "spell_id": 33917
+        },
+        {
+          "mode": "aoe",
+          "note": "Cast on cooldown.",
+          "spell_id": 77758
+        },
+        {
+          "mode": "aoe",
+          "note": "Spend Rage on either (offensively) or {192081}(defensively.",
+          "spell_id": 6807
+        },
+        {
+          "mode": "aoe",
+          "note": "Cast if your health dips low.",
+          "spell_id": 22842
+        },
+        {
+          "mode": "aoe",
+          "note": "Cast with {203964} procs.",
+          "spell_id": 8921
+        },
+        {
+          "mode": "aoe",
+          "note": "Use your cooldowns /{394786} as frequently as possible.",
+          "spell_id": 22812
+        },
+        {
+          "mode": "aoe",
+          "note": "Cast if you have nothing else to press.",
+          "spell_id": 213771
+        }
+      ],
       "stat_priority": [
         {
           "rating": 1049,

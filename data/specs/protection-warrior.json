@@ -866,13 +866,98 @@
       ],
       "hero_id": 61,
       "hero_name": "Mountain Thane",
+      "performance": {
+        "difficulty": "Mitica+",
+        "median": 104530.3,
+        "metric": "dps",
+        "out_of": 40,
+        "rank": 29,
+        "sample": 300,
+        "top": 204188.6,
+        "zone": "Mythic+ Season 2"
+      },
       "provenance": {
         "mythicstats": {
           "fetched_at": "2026-08-21",
           "url": "https://mythicstats.com/spec/protection-warrior"
+        },
+        "wowhead": {
+          "fetched_at": "2026-08-21",
+          "url": "https://www.wowhead.com/guide/classes/warrior/protection/rotation-cooldowns-pve-tank"
         }
       },
-      "rotation": [],
+      "rotation": [
+        {
+          "mode": "st",
+          "note": "Always into combat.",
+          "spell_id": 100
+        },
+        {
+          "mode": "st",
+          "note": "on cooldown.",
+          "spell_id": 23922
+        },
+        {
+          "mode": "st",
+          "note": "on cooldown and to apply {394062}.",
+          "spell_id": 6343
+        },
+        {
+          "mode": "st",
+          "note": null,
+          "spell_id": 6572
+        },
+        {
+          "mode": "st",
+          "note": "Spend excess Rage on .",
+          "spell_id": 190456
+        },
+        {
+          "mode": "st",
+          "note": "targets at or below 20%(35% if you have the talent) health.",
+          "spell_id": 163201
+        },
+        {
+          "mode": "st",
+          "note": "Use if you have low HP!",
+          "spell_id": 202168
+        },
+        {
+          "mode": "aoe",
+          "note": "Always into combat.",
+          "spell_id": 100
+        },
+        {
+          "mode": "aoe",
+          "note": "on cooldown.",
+          "spell_id": 23922
+        },
+        {
+          "mode": "aoe",
+          "note": "on cooldown and to apply {394062}.",
+          "spell_id": 6343
+        },
+        {
+          "mode": "aoe",
+          "note": null,
+          "spell_id": 6572
+        },
+        {
+          "mode": "aoe",
+          "note": "Spend excess Rage on .",
+          "spell_id": 190456
+        },
+        {
+          "mode": "aoe",
+          "note": "targets at or below 20%(35% if you have the talent) health.",
+          "spell_id": 163201
+        },
+        {
+          "mode": "aoe",
+          "note": "Use if you have low HP!",
+          "spell_id": 202168
+        }
+      ],
       "stat_priority": [
         {
           "rating": 1083,

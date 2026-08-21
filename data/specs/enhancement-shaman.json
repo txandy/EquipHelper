@@ -886,13 +886,123 @@
       ],
       "hero_id": 55,
       "hero_name": "Stormbringer",
+      "performance": {
+        "difficulty": "Mitica+",
+        "median": 179867.9,
+        "metric": "dps",
+        "out_of": 40,
+        "rank": 11,
+        "sample": 300,
+        "top": 278882.6,
+        "zone": "Mythic+ Season 2"
+      },
       "provenance": {
         "mythicstats": {
           "fetched_at": "2026-08-21",
           "url": "https://mythicstats.com/spec/enhancement-shaman"
+        },
+        "wowhead": {
+          "fetched_at": "2026-08-21",
+          "url": "https://www.wowhead.com/guide/classes/shaman/enhancement/rotation-cooldowns-pve-dps"
         }
       },
-      "rotation": [],
+      "rotation": [
+        {
+          "mode": "st",
+          "note": "Cast &ndash;",
+          "spell_id": 470057
+        },
+        {
+          "mode": "st",
+          "note": "Cast &ndash;",
+          "spell_id": 187874
+        },
+        {
+          "mode": "st",
+          "note": "Cast",
+          "spell_id": 114051
+        },
+        {
+          "mode": "st",
+          "note": "Cast during {114051} &ndash;",
+          "spell_id": 115356
+        },
+        {
+          "mode": "st",
+          "note": "Cast during {384352}",
+          "spell_id": 17364
+        },
+        {
+          "mode": "st",
+          "note": "Cast / {188196} with 10 {187880} &ndash;",
+          "spell_id": 454009
+        },
+        {
+          "mode": "st",
+          "note": "Cast",
+          "spell_id": 17364
+        },
+        {
+          "mode": "st",
+          "note": "Cast",
+          "spell_id": 60103
+        },
+        {
+          "mode": "st",
+          "note": "Cast with 5+ {187880}",
+          "spell_id": 188196
+        },
+        {
+          "mode": "aoe",
+          "note": "Cast &ndash;",
+          "spell_id": 470057
+        },
+        {
+          "mode": "aoe",
+          "note": "Cast &ndash;",
+          "spell_id": 187874
+        },
+        {
+          "mode": "aoe",
+          "note": "Cast",
+          "spell_id": 114051
+        },
+        {
+          "mode": "aoe",
+          "note": "Cast during {114051} &ndash;",
+          "spell_id": 115356
+        },
+        {
+          "mode": "aoe",
+          "note": "Cast during {384352}",
+          "spell_id": 17364
+        },
+        {
+          "mode": "aoe",
+          "note": "Cast with a proc and 10 {187880} &ndash;",
+          "spell_id": 454009
+        },
+        {
+          "mode": "aoe",
+          "note": "Cast otherwise at 9+ {187880} &ndash;",
+          "spell_id": 188443
+        },
+        {
+          "mode": "aoe",
+          "note": "Cast",
+          "spell_id": 17364
+        },
+        {
+          "mode": "aoe",
+          "note": "Cast",
+          "spell_id": 60103
+        },
+        {
+          "mode": "aoe",
+          "note": "Cast with 5+ {187880}",
+          "spell_id": 188443
+        }
+      ],
       "stat_priority": [
         {
           "rating": 1131,

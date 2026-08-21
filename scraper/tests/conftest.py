@@ -20,3 +20,18 @@ def frost_mage(specs):
 @pytest.fixture(scope="session")
 def frost_mage_html():
     return (FIXTURES / "mythicstats-frost-mage.html").read_text(encoding="utf-8")
+
+
+@pytest.fixture(scope="session")
+def brewmaster(specs):
+    return next(s for s in specs if s.slug == "brewmaster-monk")
+
+
+@pytest.fixture(scope="session")
+def brewmaster_html():
+    return (FIXTURES / "wowhead-brewmaster-monk.html").read_text(encoding="utf-8")
+
+
+@pytest.fixture(scope="session")
+def wowhead_html():
+    return (FIXTURES / "wowhead-frost-mage.html").read_text(encoding="utf-8")

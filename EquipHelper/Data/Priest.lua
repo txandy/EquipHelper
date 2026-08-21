@@ -631,6 +631,16 @@ ns.RegisterClassData("PRIEST", {
 								usagePct = 1.4,
 							},
 						},
+						performance = {
+							difficulty = "Mitica+",
+							median = 18411.9,
+							metric = "dps",
+							outOf = 40,
+							rank = 39,
+							sample = 300,
+							top = 48577.7,
+							zone = "Mythic+ Season 2",
+						},
 						provenance = {
 							mythicstats = {
 								fetchedAt = "2026-08-21",
@@ -1321,6 +1331,16 @@ ns.RegisterClassData("PRIEST", {
 								itemID = 240969,
 								usagePct = 1.4,
 							},
+						},
+						performance = {
+							difficulty = "Mitica+",
+							median = 18411.9,
+							metric = "dps",
+							outOf = 40,
+							rank = 39,
+							sample = 300,
+							top = 48577.7,
+							zone = "Mythic+ Season 2",
 						},
 						provenance = {
 							mythicstats = {
@@ -2028,6 +2048,16 @@ ns.RegisterClassData("PRIEST", {
 								itemID = 240900,
 								usagePct = 2.7,
 							},
+						},
+						performance = {
+							difficulty = "Mitica+",
+							median = 25274.5,
+							metric = "dps",
+							outOf = 40,
+							rank = 38,
+							sample = 300,
+							top = 58350.4,
+							zone = "Mythic+ Season 2",
 						},
 						provenance = {
 							mythicstats = {
@@ -2780,10 +2810,146 @@ ns.RegisterClassData("PRIEST", {
 								usagePct = 0.5,
 							},
 						},
+						performance = {
+							difficulty = "Mitica+",
+							median = 179754.1,
+							metric = "dps",
+							outOf = 40,
+							rank = 12,
+							sample = 300,
+							top = 271518.9,
+							zone = "Mythic+ Season 2",
+						},
 						provenance = {
 							mythicstats = {
 								fetchedAt = "2026-08-21",
 								url = "https://mythicstats.com/spec/shadow-priest",
+							},
+							wowhead = {
+								fetchedAt = "2026-08-21",
+								url = "https://www.wowhead.com/guide/classes/priest/shadow/rotation-cooldowns-pve-dps",
+							},
+						},
+						rotation = {
+							{
+								mode = "st",
+								note = "Maintain , either with {1227280} or hard cast {34914}",
+								spellID = 34914,
+							},
+							{
+								mode = "st",
+								note = "Cast .",
+								spellID = 10060,
+							},
+							{
+								mode = "st",
+								note = "Cast if the target has an absorb shield.",
+								spellID = 32379,
+							},
+							{
+								mode = "st",
+								note = "Cast if {335467} is active or if {447444} is about to expire.",
+								spellID = 450405,
+							},
+							{
+								mode = "st",
+								note = "Spend on if it is not active, is about to fall off, you are about to cap, or {447444} is active.",
+								spellID = 335467,
+							},
+							{
+								mode = "st",
+								note = "Cast to activate {447444}.",
+								spellID = 263165,
+							},
+							{
+								mode = "st",
+								note = "Cast .",
+								spellID = 8092,
+							},
+							{
+								mode = "st",
+								note = "Cast .",
+								spellID = 335467,
+							},
+							{
+								mode = "st",
+								note = "Cast if there will be no additional targets to DoT or upcoming movement.",
+								spellID = 1227280,
+							},
+							{
+								mode = "st",
+								note = "Cast if the target is below 20% Hp.",
+								spellID = 32379,
+							},
+							{
+								mode = "st",
+								note = "Cast , interrupting as soon as anything of higher priority becomes available.",
+								spellID = 15407,
+							},
+							{
+								mode = "st",
+								note = "When moving, cast , {32379}, or {589} to generate some and deal some damage.",
+								spellID = 1227280,
+							},
+							{
+								mode = "aoe",
+								note = "Maintain , either with {1227280} or hard cast {34914}",
+								spellID = 34914,
+							},
+							{
+								mode = "aoe",
+								note = "Cast .",
+								spellID = 10060,
+							},
+							{
+								mode = "aoe",
+								note = "Cast if the target has an absorb shield.",
+								spellID = 32379,
+							},
+							{
+								mode = "aoe",
+								note = "Cast if {335467} is active or if {447444} is about to expire.",
+								spellID = 450405,
+							},
+							{
+								mode = "aoe",
+								note = "Spend on if it is not active, is about to fall off, you are about to cap, or {447444} is active.",
+								spellID = 335467,
+							},
+							{
+								mode = "aoe",
+								note = "Cast to activate {447444}.",
+								spellID = 263165,
+							},
+							{
+								mode = "aoe",
+								note = "Cast .",
+								spellID = 8092,
+							},
+							{
+								mode = "aoe",
+								note = "Cast .",
+								spellID = 335467,
+							},
+							{
+								mode = "aoe",
+								note = "Cast if there will be no additional targets to DoT or upcoming movement.",
+								spellID = 1227280,
+							},
+							{
+								mode = "aoe",
+								note = "Cast if there is a target is below 20% Hp.",
+								spellID = 32379,
+							},
+							{
+								mode = "aoe",
+								note = "Cast , interrupting as soon as anything of higher priority becomes available.",
+								spellID = 15407,
+							},
+							{
+								mode = "aoe",
+								note = "When moving, cast , {32379}, or {589} to generate some and deal some damage.",
+								spellID = 1227280,
 							},
 						},
 						statPriority = {
@@ -3477,10 +3643,136 @@ ns.RegisterClassData("PRIEST", {
 								usagePct = 0.5,
 							},
 						},
+						performance = {
+							difficulty = "Mitica+",
+							median = 179754.1,
+							metric = "dps",
+							outOf = 40,
+							rank = 12,
+							sample = 300,
+							top = 271518.9,
+							zone = "Mythic+ Season 2",
+						},
 						provenance = {
 							mythicstats = {
 								fetchedAt = "2026-08-21",
 								url = "https://mythicstats.com/spec/shadow-priest",
+							},
+							wowhead = {
+								fetchedAt = "2026-08-21",
+								url = "https://www.wowhead.com/guide/classes/priest/shadow/rotation-cooldowns-pve-dps",
+							},
+						},
+						rotation = {
+							{
+								mode = "st",
+								note = "Maintain , either with {1227280} or hard cast {34914}",
+								spellID = 34914,
+							},
+							{
+								mode = "st",
+								note = "Cast .",
+								spellID = 120644,
+							},
+							{
+								mode = "st",
+								note = "Cast .",
+								spellID = 10060,
+							},
+							{
+								mode = "st",
+								note = "Spend on if it is not active, is about to fall off, or you are about to cap.",
+								spellID = 335467,
+							},
+							{
+								mode = "st",
+								note = "Cast .",
+								spellID = 8092,
+							},
+							{
+								mode = "st",
+								note = "Cast if {335467} is active.",
+								spellID = 391403,
+							},
+							{
+								mode = "st",
+								note = "Cast if {228264} is active.",
+								spellID = 335467,
+							},
+							{
+								mode = "st",
+								note = "Cast if there will be no additional targets to DoT or upcoming movement.",
+								spellID = 1227280,
+							},
+							{
+								mode = "st",
+								note = "Cast if the target is below 20% Hp.",
+								spellID = 32379,
+							},
+							{
+								mode = "st",
+								note = "Cast , interrupting as soon as anything of higher priority becomes available.",
+								spellID = 15407,
+							},
+							{
+								mode = "st",
+								note = "When moving, cast , {32379}, or {589} to generate some and deal some damage.",
+								spellID = 1227280,
+							},
+							{
+								mode = "aoe",
+								note = "Maintain , either with {1227280} or hard cast {34914}",
+								spellID = 34914,
+							},
+							{
+								mode = "aoe",
+								note = "Cast .",
+								spellID = 120644,
+							},
+							{
+								mode = "aoe",
+								note = "Cast .",
+								spellID = 10060,
+							},
+							{
+								mode = "aoe",
+								note = "Spend on if it is not active, is about to fall off, or you are about to cap.",
+								spellID = 335467,
+							},
+							{
+								mode = "aoe",
+								note = "Cast .",
+								spellID = 8092,
+							},
+							{
+								mode = "aoe",
+								note = "Cast if {335467} is active.",
+								spellID = 391403,
+							},
+							{
+								mode = "aoe",
+								note = "Cast if {228264} is active.",
+								spellID = 335467,
+							},
+							{
+								mode = "aoe",
+								note = "Cast if there will be no additional targets to DoT or upcoming movement.",
+								spellID = 1227280,
+							},
+							{
+								mode = "aoe",
+								note = "Cast if there is a target is below 20% Hp.",
+								spellID = 32379,
+							},
+							{
+								mode = "aoe",
+								note = "Cast , interrupting as soon as anything of higher priority becomes available.",
+								spellID = 15407,
+							},
+							{
+								mode = "aoe",
+								note = "When moving, cast , {32379}, or {589} to generate some and deal some damage.",
+								spellID = 1227280,
 							},
 						},
 						statPriority = {
@@ -3736,10 +4028,136 @@ ns.RegisterClassData("PRIEST", {
 								usagePct = 15.4,
 							},
 						},
+						performance = {
+							difficulty = "Heroico",
+							median = 158115.9,
+							metric = "dps",
+							outOf = 40,
+							rank = 6,
+							sample = 300,
+							top = 186238.5,
+							zone = "The Venomous Abyss",
+						},
 						provenance = {
 							mythicstats = {
 								fetchedAt = "2026-08-21",
 								url = "https://mythicstats.com/raid/spec/shadow-priest",
+							},
+							wowhead = {
+								fetchedAt = "2026-08-21",
+								url = "https://www.wowhead.com/guide/classes/priest/shadow/rotation-cooldowns-pve-dps",
+							},
+						},
+						rotation = {
+							{
+								mode = "st",
+								note = "Maintain , either with {1227280} or hard cast {34914}",
+								spellID = 34914,
+							},
+							{
+								mode = "st",
+								note = "Cast .",
+								spellID = 120644,
+							},
+							{
+								mode = "st",
+								note = "Cast .",
+								spellID = 10060,
+							},
+							{
+								mode = "st",
+								note = "Spend on if it is not active, is about to fall off, or you are about to cap.",
+								spellID = 335467,
+							},
+							{
+								mode = "st",
+								note = "Cast .",
+								spellID = 8092,
+							},
+							{
+								mode = "st",
+								note = "Cast if {335467} is active.",
+								spellID = 391403,
+							},
+							{
+								mode = "st",
+								note = "Cast if {228264} is active.",
+								spellID = 335467,
+							},
+							{
+								mode = "st",
+								note = "Cast if there will be no additional targets to DoT or upcoming movement.",
+								spellID = 1227280,
+							},
+							{
+								mode = "st",
+								note = "Cast if the target is below 20% Hp.",
+								spellID = 32379,
+							},
+							{
+								mode = "st",
+								note = "Cast , interrupting as soon as anything of higher priority becomes available.",
+								spellID = 15407,
+							},
+							{
+								mode = "st",
+								note = "When moving, cast , {32379}, or {589} to generate some and deal some damage.",
+								spellID = 1227280,
+							},
+							{
+								mode = "aoe",
+								note = "Maintain , either with {1227280} or hard cast {34914}",
+								spellID = 34914,
+							},
+							{
+								mode = "aoe",
+								note = "Cast .",
+								spellID = 120644,
+							},
+							{
+								mode = "aoe",
+								note = "Cast .",
+								spellID = 10060,
+							},
+							{
+								mode = "aoe",
+								note = "Spend on if it is not active, is about to fall off, or you are about to cap.",
+								spellID = 335467,
+							},
+							{
+								mode = "aoe",
+								note = "Cast .",
+								spellID = 8092,
+							},
+							{
+								mode = "aoe",
+								note = "Cast if {335467} is active.",
+								spellID = 391403,
+							},
+							{
+								mode = "aoe",
+								note = "Cast if {228264} is active.",
+								spellID = 335467,
+							},
+							{
+								mode = "aoe",
+								note = "Cast if there will be no additional targets to DoT or upcoming movement.",
+								spellID = 1227280,
+							},
+							{
+								mode = "aoe",
+								note = "Cast if there is a target is below 20% Hp.",
+								spellID = 32379,
+							},
+							{
+								mode = "aoe",
+								note = "Cast , interrupting as soon as anything of higher priority becomes available.",
+								spellID = 15407,
+							},
+							{
+								mode = "aoe",
+								note = "When moving, cast , {32379}, or {589} to generate some and deal some damage.",
+								spellID = 1227280,
 							},
 						},
 						talentBuilds = {

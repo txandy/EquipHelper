@@ -790,13 +790,93 @@
       ],
       "hero_id": 32,
       "hero_name": "Rider of the Apocalypse",
+      "performance": {
+        "difficulty": "Mitica+",
+        "median": 180034.1,
+        "metric": "dps",
+        "out_of": 40,
+        "rank": 10,
+        "sample": 300,
+        "top": 306291.5,
+        "zone": "Mythic+ Season 2"
+      },
       "provenance": {
         "mythicstats": {
           "fetched_at": "2026-08-21",
           "url": "https://mythicstats.com/spec/unholy-death-knight"
+        },
+        "wowhead": {
+          "fetched_at": "2026-08-21",
+          "url": "https://www.wowhead.com/guide/classes/death-knight/unholy/rotation-cooldowns-pve-dps"
         }
       },
-      "rotation": [],
+      "rotation": [
+        {
+          "mode": "st",
+          "note": "Cast on cooldown.",
+          "spell_id": 1233448
+        },
+        {
+          "mode": "st",
+          "note": "Cast if {1233448} is active.",
+          "spell_id": 1247378
+        },
+        {
+          "mode": "st",
+          "note": "Cast if you have a {49530} proc.",
+          "spell_id": 47541
+        },
+        {
+          "mode": "st",
+          "note": "Cast if you have no {1254252} stacks.",
+          "spell_id": 85948
+        },
+        {
+          "mode": "st",
+          "note": "Cast if you have {1254252} stacks.",
+          "spell_id": 55090
+        },
+        {
+          "mode": "st",
+          "note": "Cast .",
+          "spell_id": 47541
+        },
+        {
+          "mode": "aoe",
+          "note": "Cast on cooldown.",
+          "spell_id": 1233448
+        },
+        {
+          "mode": "aoe",
+          "note": "Cast if {1233448} is active.",
+          "spell_id": 1247378
+        },
+        {
+          "mode": "aoe",
+          "note": "Cast if you expect your targets to stay inside of it.",
+          "spell_id": 43265
+        },
+        {
+          "mode": "aoe",
+          "note": "Cast if {49530} procs.",
+          "spell_id": 207317
+        },
+        {
+          "mode": "aoe",
+          "note": "Cast if you have no {1254252} stacks.",
+          "spell_id": 85948
+        },
+        {
+          "mode": "aoe",
+          "note": "Cast if you have {1254252} stacks.",
+          "spell_id": 55090
+        },
+        {
+          "mode": "aoe",
+          "note": "Cast .",
+          "spell_id": 207317
+        }
+      ],
       "stat_priority": [
         {
           "rating": 1152,
@@ -1726,13 +1806,93 @@
       ],
       "hero_id": 31,
       "hero_name": "San'layn",
+      "performance": {
+        "difficulty": "Mitica+",
+        "median": 180034.1,
+        "metric": "dps",
+        "out_of": 40,
+        "rank": 10,
+        "sample": 300,
+        "top": 306291.5,
+        "zone": "Mythic+ Season 2"
+      },
       "provenance": {
         "mythicstats": {
           "fetched_at": "2026-08-21",
           "url": "https://mythicstats.com/spec/unholy-death-knight"
+        },
+        "wowhead": {
+          "fetched_at": "2026-08-21",
+          "url": "https://www.wowhead.com/guide/classes/death-knight/unholy/rotation-cooldowns-pve-dps"
         }
       },
-      "rotation": [],
+      "rotation": [
+        {
+          "mode": "st",
+          "note": "Cast on cooldown.",
+          "spell_id": 1233448
+        },
+        {
+          "mode": "st",
+          "note": "Cast if {1233448} is active.",
+          "spell_id": 1247378
+        },
+        {
+          "mode": "st",
+          "note": "Cast if you have a {49530} proc.",
+          "spell_id": 47541
+        },
+        {
+          "mode": "st",
+          "note": "Cast if you have no {1254252} stacks.",
+          "spell_id": 85948
+        },
+        {
+          "mode": "st",
+          "note": "Cast if you have {1254252} stacks.",
+          "spell_id": 55090
+        },
+        {
+          "mode": "st",
+          "note": "Cast .",
+          "spell_id": 47541
+        },
+        {
+          "mode": "aoe",
+          "note": "Cast on cooldown.",
+          "spell_id": 1233448
+        },
+        {
+          "mode": "aoe",
+          "note": "Cast if {1233448} is active.",
+          "spell_id": 1247378
+        },
+        {
+          "mode": "aoe",
+          "note": "Cast if you expect your targets to stay inside of it.",
+          "spell_id": 43265
+        },
+        {
+          "mode": "aoe",
+          "note": "Cast if {49530} procs.",
+          "spell_id": 207317
+        },
+        {
+          "mode": "aoe",
+          "note": "Cast if you have no {1254252} stacks.",
+          "spell_id": 85948
+        },
+        {
+          "mode": "aoe",
+          "note": "Cast if you have {1254252} stacks.",
+          "spell_id": 55090
+        },
+        {
+          "mode": "aoe",
+          "note": "Cast .",
+          "spell_id": 207317
+        }
+      ],
       "stat_priority": [
         {
           "rating": 1152,

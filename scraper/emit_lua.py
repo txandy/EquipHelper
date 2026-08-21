@@ -104,12 +104,29 @@ def _guide_table(guide: dict) -> dict:
             for e in guide["enchants"]
         ],
         "rotation": [
-            {"spellID": e["spell_id"], "note": e["note"]} for e in guide["rotation"]
+            {"spellID": e["spell_id"], "note": e["note"], "mode": e["mode"]}
+            for e in guide["rotation"]
         ],
+        "performance": _performance_table(guide.get("performance")),
         "provenance": {
             key: {"url": p["url"], "fetchedAt": p["fetched_at"]}
             for key, p in guide["provenance"].items()
         },
+    }
+
+
+def _performance_table(perf: dict | None) -> dict | None:
+    if not perf:
+        return None
+    return {
+        "metric": perf["metric"],
+        "median": perf["median"],
+        "top": perf["top"],
+        "sample": perf["sample"],
+        "difficulty": perf["difficulty"],
+        "zone": perf["zone"],
+        "rank": perf["rank"],
+        "outOf": perf["out_of"],
     }
 
 
@@ -165,8 +182,9 @@ def update_toc(toc_path: Path, data_files: list[str]) -> None:
     )
 
 
-def write_all(out_dir: Path, toc_path: Path, by_class: dict[str, list[SpecGuides]],
+def write_all(out_dir: Path, toc_path: Path | None, by_class: dict[str, list[SpecGuides]],
               generated: date, sources: list[dict]) -> list[Path]:
+    """toc_path a None deja el .toc intacto, para builds parciales."""
     out_dir.mkdir(parents=True, exist_ok=True)
     written: list[Path] = []
     names: list[str] = []
@@ -185,5 +203,6 @@ def write_all(out_dir: Path, toc_path: Path, by_class: dict[str, list[SpecGuides
     manifest.write_text(render_manifest(generated, sources, counts), encoding="utf-8")
     written.append(manifest)
 
-    update_toc(toc_path, names)
+    if toc_path is not None:
+        update_toc(toc_path, names)
     return written

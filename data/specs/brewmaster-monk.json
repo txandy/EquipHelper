@@ -874,13 +874,118 @@
       ],
       "hero_id": 66,
       "hero_name": "Master of Harmony",
+      "performance": {
+        "difficulty": "Mitica+",
+        "median": 90739.0,
+        "metric": "dps",
+        "out_of": 40,
+        "rank": 33,
+        "sample": 300,
+        "top": 164811.9,
+        "zone": "Mythic+ Season 2"
+      },
       "provenance": {
         "mythicstats": {
           "fetched_at": "2026-08-21",
           "url": "https://mythicstats.com/spec/brewmaster-monk"
+        },
+        "wowhead": {
+          "fetched_at": "2026-08-21",
+          "url": "https://www.wowhead.com/guide/classes/monk/brewmaster/rotation-cooldowns-pve-tank"
         }
       },
-      "rotation": [],
+      "rotation": [
+        {
+          "mode": "st",
+          "note": "Execute an enemy with , when allowed",
+          "spell_id": 322109
+        },
+        {
+          "mode": "st",
+          "note": "Use to trigger {196736}",
+          "spell_id": 100784
+        },
+        {
+          "mode": "st",
+          "note": "Only if taking minimal damage, activate /{1241059}",
+          "spell_id": 322507
+        },
+        {
+          "mode": "st",
+          "note": "Activate",
+          "spell_id": 132578
+        },
+        {
+          "mode": "st",
+          "note": "Consume your buff with {100780}",
+          "spell_id": 196736
+        },
+        {
+          "mode": "st",
+          "note": "Use , ideally with {116847} active beforehand",
+          "spell_id": 325153
+        },
+        {
+          "mode": "st",
+          "note": "Use your second charge of",
+          "spell_id": 121253
+        },
+        {
+          "mode": "st",
+          "note": "Use when there are no other abilities to press",
+          "spell_id": 100780
+        },
+        {
+          "mode": "aoe",
+          "note": "Execute an enemy with , when allowed",
+          "spell_id": 322109
+        },
+        {
+          "mode": "aoe",
+          "note": "Activate",
+          "spell_id": 132578
+        },
+        {
+          "mode": "aoe",
+          "note": "While is active, cast {115181}",
+          "spell_id": 132578
+        },
+        {
+          "mode": "aoe",
+          "note": "While is active, cast {121253}",
+          "spell_id": 132578
+        },
+        {
+          "mode": "aoe",
+          "note": "Use to trigger {196736}",
+          "spell_id": 100784
+        },
+        {
+          "mode": "aoe",
+          "note": "Consume your buff with {100780}",
+          "spell_id": 196736
+        },
+        {
+          "mode": "aoe",
+          "note": "Use , ideally with {116847} active beforehand",
+          "spell_id": 325153
+        },
+        {
+          "mode": "aoe",
+          "note": "Only if taking minimal damage, activate /{1241059}",
+          "spell_id": 322507
+        },
+        {
+          "mode": "aoe",
+          "note": "Use your second charge of",
+          "spell_id": 121253
+        },
+        {
+          "mode": "aoe",
+          "note": "Use when there are no other abilities to press and {196736} is not active",
+          "spell_id": 322729
+        }
+      ],
       "stat_priority": [
         {
           "rating": 1047,
@@ -1908,13 +2013,118 @@
       ],
       "hero_id": 65,
       "hero_name": "Shado-Pan",
+      "performance": {
+        "difficulty": "Mitica+",
+        "median": 90739.0,
+        "metric": "dps",
+        "out_of": 40,
+        "rank": 33,
+        "sample": 300,
+        "top": 164811.9,
+        "zone": "Mythic+ Season 2"
+      },
       "provenance": {
         "mythicstats": {
           "fetched_at": "2026-08-21",
           "url": "https://mythicstats.com/spec/brewmaster-monk"
+        },
+        "wowhead": {
+          "fetched_at": "2026-08-21",
+          "url": "https://www.wowhead.com/guide/classes/monk/brewmaster/rotation-cooldowns-pve-tank"
         }
       },
-      "rotation": [],
+      "rotation": [
+        {
+          "mode": "st",
+          "note": "Execute an enemy with , when allowed",
+          "spell_id": 322109
+        },
+        {
+          "mode": "st",
+          "note": "Use to trigger {196736}",
+          "spell_id": 100784
+        },
+        {
+          "mode": "st",
+          "note": "Only if taking minimal damage, activate /{1241059}",
+          "spell_id": 322507
+        },
+        {
+          "mode": "st",
+          "note": "Activate",
+          "spell_id": 132578
+        },
+        {
+          "mode": "st",
+          "note": "Consume your buff with {100780}",
+          "spell_id": 196736
+        },
+        {
+          "mode": "st",
+          "note": "Use , ideally with {116847} active beforehand",
+          "spell_id": 325153
+        },
+        {
+          "mode": "st",
+          "note": "Use your second charge of",
+          "spell_id": 121253
+        },
+        {
+          "mode": "st",
+          "note": "Use when there are no other abilities to press",
+          "spell_id": 100780
+        },
+        {
+          "mode": "aoe",
+          "note": "Execute an enemy with , when allowed",
+          "spell_id": 322109
+        },
+        {
+          "mode": "aoe",
+          "note": "Activate",
+          "spell_id": 132578
+        },
+        {
+          "mode": "aoe",
+          "note": "While is active, cast {115181}",
+          "spell_id": 132578
+        },
+        {
+          "mode": "aoe",
+          "note": "While is active, cast {121253}",
+          "spell_id": 132578
+        },
+        {
+          "mode": "aoe",
+          "note": "Use to trigger {196736}",
+          "spell_id": 100784
+        },
+        {
+          "mode": "aoe",
+          "note": "Consume your buff with {100780}",
+          "spell_id": 196736
+        },
+        {
+          "mode": "aoe",
+          "note": "Use , ideally with {116847} active beforehand",
+          "spell_id": 325153
+        },
+        {
+          "mode": "aoe",
+          "note": "Only if taking minimal damage, activate /{1241059}",
+          "spell_id": 322507
+        },
+        {
+          "mode": "aoe",
+          "note": "Use your second charge of",
+          "spell_id": 121253
+        },
+        {
+          "mode": "aoe",
+          "note": "Use when there are no other abilities to press and {196736} is not active",
+          "spell_id": 322729
+        }
+      ],
       "stat_priority": [
         {
           "rating": 1047,

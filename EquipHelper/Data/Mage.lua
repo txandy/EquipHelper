@@ -631,10 +631,39 @@ ns.RegisterClassData("MAGE", {
 								usagePct = 5.4,
 							},
 						},
+						performance = {
+							difficulty = "Mitica+",
+							median = 214704.9,
+							metric = "dps",
+							outOf = 40,
+							rank = 1,
+							sample = 300,
+							top = 324464.2,
+							zone = "Mythic+ Season 2",
+						},
 						provenance = {
 							mythicstats = {
 								fetchedAt = "2026-08-21",
 								url = "https://mythicstats.com/spec/arcane-mage",
+							},
+							wowhead = {
+								fetchedAt = "2026-08-21",
+								url = "https://www.wowhead.com/guide/classes/mage/arcane/rotation-cooldowns-pve-dps",
+							},
+						},
+						rotation = {
+							{
+								mode = "st",
+								spellID = 365350,
+							},
+							{
+								mode = "st",
+								spellID = 5143,
+							},
+							{
+								mode = "st",
+								note = "then {321507} while its midair",
+								spellID = 44425,
 							},
 						},
 						statPriority = {
@@ -1411,10 +1440,56 @@ ns.RegisterClassData("MAGE", {
 								usagePct = 1.6,
 							},
 						},
+						performance = {
+							difficulty = "Mitica+",
+							median = 172840.0,
+							metric = "dps",
+							outOf = 40,
+							rank = 17,
+							sample = 300,
+							top = 331176.1,
+							zone = "Mythic+ Season 2",
+						},
 						provenance = {
 							mythicstats = {
 								fetchedAt = "2026-08-21",
 								url = "https://mythicstats.com/spec/fire-mage",
+							},
+							wowhead = {
+								fetchedAt = "2026-08-21",
+								url = "https://www.wowhead.com/guide/classes/mage/fire/rotation-cooldowns-pve-dps",
+							},
+						},
+						rotation = {
+							{
+								mode = "st",
+								note = "with {48108}",
+								spellID = 11366,
+							},
+							{
+								mode = "st",
+								note = "The below casts are used to generate :",
+								spellID = 48108,
+							},
+							{
+								mode = "st",
+								note = ".",
+								spellID = 108853,
+							},
+							{
+								mode = "aoe",
+								note = "with {48108}",
+								spellID = 2120,
+							},
+							{
+								mode = "aoe",
+								note = "The below casts are used to generate :",
+								spellID = 48108,
+							},
+							{
+								mode = "aoe",
+								note = ".",
+								spellID = 108853,
 							},
 						},
 						statPriority = {
@@ -2108,10 +2183,117 @@ ns.RegisterClassData("MAGE", {
 								usagePct = 1.3,
 							},
 						},
+						performance = {
+							difficulty = "Mitica+",
+							median = 146845.2,
+							metric = "dps",
+							outOf = 40,
+							rank = 26,
+							sample = 300,
+							top = 223975.3,
+							zone = "Mythic+ Season 2",
+						},
 						provenance = {
 							mythicstats = {
 								fetchedAt = "2026-08-21",
 								url = "https://mythicstats.com/spec/frost-mage",
+							},
+							wowhead = {
+								fetchedAt = "2026-08-21",
+								url = "https://www.wowhead.com/guide/classes/mage/frost/rotation-cooldowns-pve-dps",
+							},
+						},
+						rotation = {
+							{
+								mode = "st",
+								note = "if {190447} is active and {1247729} is not active",
+								spellID = 44614,
+							},
+							{
+								mode = "st",
+								note = "if {112965} at 2 stacks",
+								spellID = 30455,
+							},
+							{
+								mode = "st",
+								spellID = 84714,
+							},
+							{
+								mode = "st",
+								spellID = 199786,
+							},
+							{
+								mode = "st",
+								note = "if {112965} active",
+								spellID = 30455,
+							},
+							{
+								mode = "st",
+								note = "if {1221389} at 6 or more stacks",
+								spellID = 30455,
+							},
+							{
+								mode = "st",
+								note = "if at 3 or fewer {1246832}",
+								spellID = 205021,
+							},
+							{
+								mode = "st",
+								spellID = 44614,
+							},
+							{
+								mode = "st",
+								spellID = 116,
+							},
+							{
+								mode = "aoe",
+								note = "if {190447} is active and {1247729} is not active",
+								spellID = 44614,
+							},
+							{
+								mode = "aoe",
+								note = "if {112965} at 2 stacks",
+								spellID = 30455,
+							},
+							{
+								mode = "aoe",
+								spellID = 84714,
+							},
+							{
+								mode = "aoe",
+								spellID = 199786,
+							},
+							{
+								mode = "aoe",
+								note = "if {270233} is active",
+								spellID = 190356,
+							},
+							{
+								mode = "aoe",
+								note = "if {112965} is active",
+								spellID = 30455,
+							},
+							{
+								mode = "aoe",
+								note = "if {1221389} at 6 or more stacks",
+								spellID = 30455,
+							},
+							{
+								mode = "aoe",
+								note = "if at 3 or fewer {1246832}",
+								spellID = 205021,
+							},
+							{
+								mode = "aoe",
+								spellID = 44614,
+							},
+							{
+								mode = "aoe",
+								spellID = 190356,
+							},
+							{
+								mode = "aoe",
+								spellID = 116,
 							},
 						},
 						statPriority = {
@@ -2826,10 +3008,125 @@ ns.RegisterClassData("MAGE", {
 								usagePct = 1.3,
 							},
 						},
+						performance = {
+							difficulty = "Mitica+",
+							median = 146845.2,
+							metric = "dps",
+							outOf = 40,
+							rank = 26,
+							sample = 300,
+							top = 223975.3,
+							zone = "Mythic+ Season 2",
+						},
 						provenance = {
 							mythicstats = {
 								fetchedAt = "2026-08-21",
 								url = "https://mythicstats.com/spec/frost-mage",
+							},
+							wowhead = {
+								fetchedAt = "2026-08-21",
+								url = "https://www.wowhead.com/guide/classes/mage/frost/rotation-cooldowns-pve-dps",
+							},
+						},
+						rotation = {
+							{
+								mode = "st",
+								spellID = 199786,
+							},
+							{
+								mode = "st",
+								spellID = 1247777,
+							},
+							{
+								mode = "st",
+								note = "if {190447} is active and {1247729} is not active",
+								spellID = 44614,
+							},
+							{
+								mode = "st",
+								note = "if {112965} at 2 stacks",
+								spellID = 30455,
+							},
+							{
+								mode = "st",
+								spellID = 205021,
+							},
+							{
+								mode = "st",
+								spellID = 84714,
+							},
+							{
+								mode = "st",
+								note = "if both {112965} and {1247729} are active",
+								spellID = 30455,
+							},
+							{
+								mode = "st",
+								note = "if {1221389} at 12 or more stacks",
+								spellID = 30455,
+							},
+							{
+								mode = "st",
+								spellID = 44614,
+							},
+							{
+								mode = "st",
+								spellID = 116,
+							},
+							{
+								mode = "aoe",
+								spellID = 199786,
+							},
+							{
+								mode = "aoe",
+								note = "a few GCDs after {199786} to let finish if it procced",
+								spellID = 1247777,
+							},
+							{
+								mode = "aoe",
+								note = "if {190447} is active and {1247729} is not active",
+								spellID = 44614,
+							},
+							{
+								mode = "aoe",
+								note = "if {112965} at 2 stacks",
+								spellID = 30455,
+							},
+							{
+								mode = "aoe",
+								spellID = 205021,
+							},
+							{
+								mode = "aoe",
+								spellID = 84714,
+							},
+							{
+								mode = "aoe",
+								note = "if {270233} is learned and active",
+								spellID = 190356,
+							},
+							{
+								mode = "aoe",
+								note = "against 8 or more targets",
+								spellID = 190356,
+							},
+							{
+								mode = "aoe",
+								note = "if both {112965} and {1247729} are active",
+								spellID = 30455,
+							},
+							{
+								mode = "aoe",
+								note = "if {1221389} at 12 or more stacks",
+								spellID = 30455,
+							},
+							{
+								mode = "aoe",
+								spellID = 44614,
+							},
+							{
+								mode = "aoe",
+								spellID = 116,
 							},
 						},
 						statPriority = {

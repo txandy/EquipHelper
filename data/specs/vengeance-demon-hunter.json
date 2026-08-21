@@ -886,13 +886,158 @@
       ],
       "hero_id": 124,
       "hero_name": "Annihilator",
+      "performance": {
+        "difficulty": "Mitica+",
+        "median": 101808.0,
+        "metric": "dps",
+        "out_of": 40,
+        "rank": 30,
+        "sample": 300,
+        "top": 182014.5,
+        "zone": "Mythic+ Season 2"
+      },
       "provenance": {
         "mythicstats": {
           "fetched_at": "2026-08-21",
           "url": "https://mythicstats.com/spec/vengeance-demon-hunter"
+        },
+        "wowhead": {
+          "fetched_at": "2026-08-21",
+          "url": "https://www.wowhead.com/guide/classes/demon-hunter/vengeance/rotation-cooldowns-pve-tank"
         }
       },
-      "rotation": [],
+      "rotation": [
+        {
+          "mode": "st",
+          "note": "Use off GCD if you are at or near 2 charges and will not need it for movement soon.",
+          "spell_id": 189110
+        },
+        {
+          "mode": "st",
+          "note": "Maintain 75 Fury if you are at 2 stacks of or {187827} is about to come off cooldown.",
+          "spell_id": 1256301
+        },
+        {
+          "mode": "st",
+          "note": "Use if you will not overcap duration and {247454} has more than 10s remaining on its CD.",
+          "spell_id": 187827
+        },
+        {
+          "mode": "st",
+          "note": "Use if you are at or near 2 charges.",
+          "spell_id": 263642
+        },
+        {
+          "mode": "st",
+          "note": "Use with 5+ Souls. If this activated {1256302}, cast {228477} on the next GCD.",
+          "spell_id": 247454
+        },
+        {
+          "mode": "st",
+          "note": "Use .",
+          "spell_id": 258920
+        },
+        {
+          "mode": "st",
+          "note": "Use .",
+          "spell_id": 204596
+        },
+        {
+          "mode": "st",
+          "note": "Use with 1 or more Souls.",
+          "spell_id": 228477
+        },
+        {
+          "mode": "st",
+          "note": "Use if you have at least 50 Fury.",
+          "spell_id": 212084
+        },
+        {
+          "mode": "st",
+          "note": "Spend Fury with at 0 Souls.",
+          "spell_id": 228477
+        },
+        {
+          "mode": "st",
+          "note": "Use if you won't cap Fury or Souls.",
+          "spell_id": 263642
+        },
+        {
+          "mode": "st",
+          "note": "Use if you won't cap Fury.",
+          "spell_id": 232893
+        },
+        {
+          "mode": "st",
+          "note": "Use for filler or when kiting.",
+          "spell_id": 204157
+        },
+        {
+          "mode": "aoe",
+          "note": "Use off GCD if you are at or near 2 charges and will not need it for movement soon.",
+          "spell_id": 189110
+        },
+        {
+          "mode": "aoe",
+          "note": "Maintain 75 Fury if you are at 2 stacks of or {187827} is about to come off cooldown.",
+          "spell_id": 1256301
+        },
+        {
+          "mode": "aoe",
+          "note": "Use if you will not overcap duration and {247454} has more than 10s remaining on its CD.",
+          "spell_id": 187827
+        },
+        {
+          "mode": "aoe",
+          "note": "Use at or near 2 charges.",
+          "spell_id": 263642
+        },
+        {
+          "mode": "aoe",
+          "note": "Use with 5+ Souls. If this activated {1256302}, cast {228477} on the next GCD.",
+          "spell_id": 247454
+        },
+        {
+          "mode": "aoe",
+          "note": "Use .",
+          "spell_id": 258920
+        },
+        {
+          "mode": "aoe",
+          "note": "Use .",
+          "spell_id": 204596
+        },
+        {
+          "mode": "aoe",
+          "note": "Use if you have 5+ Souls but not enough Fury to {247454}.",
+          "spell_id": 232893
+        },
+        {
+          "mode": "aoe",
+          "note": "Use if you have at least 50 Fury.",
+          "spell_id": 212084
+        },
+        {
+          "mode": "aoe",
+          "note": "Spend Fury and any available Souls with .",
+          "spell_id": 228477
+        },
+        {
+          "mode": "aoe",
+          "note": "Use if you won't cap Souls.",
+          "spell_id": 263642
+        },
+        {
+          "mode": "aoe",
+          "note": "Use if you won't cap Fury.",
+          "spell_id": 232893
+        },
+        {
+          "mode": "aoe",
+          "note": "Use for filler or when kiting.",
+          "spell_id": 204157
+        }
+      ],
       "stat_priority": [
         {
           "rating": 1035,

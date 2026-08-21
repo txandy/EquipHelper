@@ -856,13 +856,158 @@
       ],
       "hero_id": 33,
       "hero_name": "Deathbringer",
+      "performance": {
+        "difficulty": "Mitica+",
+        "median": 155636.1,
+        "metric": "dps",
+        "out_of": 40,
+        "rank": 23,
+        "sample": 300,
+        "top": 274108.7,
+        "zone": "Mythic+ Season 2"
+      },
       "provenance": {
         "mythicstats": {
           "fetched_at": "2026-08-21",
           "url": "https://mythicstats.com/spec/frost-death-knight"
+        },
+        "wowhead": {
+          "fetched_at": "2026-08-21",
+          "url": "https://www.wowhead.com/guide/classes/death-knight/frost/rotation-cooldowns-pve-dps"
         }
       },
-      "rotation": [],
+      "rotation": [
+        {
+          "mode": "st",
+          "note": "if you have 2 charges",
+          "spell_id": 47568
+        },
+        {
+          "mode": "st",
+          "note": null,
+          "spell_id": 439843
+        },
+        {
+          "mode": "st",
+          "note": null,
+          "spell_id": 51271
+        },
+        {
+          "mode": "st",
+          "note": null,
+          "spell_id": 1249658
+        },
+        {
+          "mode": "st",
+          "note": null,
+          "spell_id": 279302
+        },
+        {
+          "mode": "st",
+          "note": "if you have 2 {51128} stacks, or 1 {51128} and {441378}",
+          "spell_id": 49020
+        },
+        {
+          "mode": "st",
+          "note": "with {59057}",
+          "spell_id": 49184
+        },
+        {
+          "mode": "st",
+          "note": "to avoid Runic Power waste",
+          "spell_id": 49143
+        },
+        {
+          "mode": "st",
+          "note": "with {51128}",
+          "spell_id": 49020
+        },
+        {
+          "mode": "st",
+          "note": "to generate {51128}",
+          "spell_id": 47568
+        },
+        {
+          "mode": "st",
+          "note": null,
+          "spell_id": 49143
+        },
+        {
+          "mode": "st",
+          "note": "without {51128}",
+          "spell_id": 49020
+        },
+        {
+          "mode": "st",
+          "note": null,
+          "spell_id": 49184
+        },
+        {
+          "mode": "aoe",
+          "note": "if you have 2 charges",
+          "spell_id": 47568
+        },
+        {
+          "mode": "aoe",
+          "note": null,
+          "spell_id": 439843
+        },
+        {
+          "mode": "aoe",
+          "note": null,
+          "spell_id": 51271
+        },
+        {
+          "mode": "aoe",
+          "note": null,
+          "spell_id": 1249658
+        },
+        {
+          "mode": "aoe",
+          "note": null,
+          "spell_id": 279302
+        },
+        {
+          "mode": "aoe",
+          "note": "if you have 2 {51128} stacks, or {441378}",
+          "spell_id": 207230
+        },
+        {
+          "mode": "aoe",
+          "note": "with {59057}",
+          "spell_id": 49184
+        },
+        {
+          "mode": "aoe",
+          "note": "to avoid Runic Power waste",
+          "spell_id": 194913
+        },
+        {
+          "mode": "aoe",
+          "note": "with {51128}",
+          "spell_id": 207230
+        },
+        {
+          "mode": "aoe",
+          "note": "to generate {51128}",
+          "spell_id": 47568
+        },
+        {
+          "mode": "aoe",
+          "note": null,
+          "spell_id": 194913
+        },
+        {
+          "mode": "aoe",
+          "note": "without {51128}",
+          "spell_id": 207230
+        },
+        {
+          "mode": "aoe",
+          "note": null,
+          "spell_id": 49184
+        }
+      ],
       "stat_priority": [
         {
           "rating": 1104,

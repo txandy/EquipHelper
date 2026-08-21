@@ -37,6 +37,14 @@ local function Acquire(container, kind, factory)
 	return widget
 end
 
+-- 146845.2 -> "147K". Los numeros crudos de dps no caben ni se leen.
+function ns.UI.ShortNumber(value)
+	if not value then return "" end
+	if value >= 1e6 then return ("%.1fM"):format(value / 1e6) end
+	if value >= 1e3 then return ("%.0fK"):format(value / 1e3) end
+	return ("%.0f"):format(value)
+end
+
 function ns.UI.Reset(container)
 	container.__y = -8
 	for _, pool in pairs(container.__pools or {}) do

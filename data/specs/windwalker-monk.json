@@ -881,13 +881,143 @@
       ],
       "hero_id": 65,
       "hero_name": "Shado-Pan",
+      "performance": {
+        "difficulty": "Mitica+",
+        "median": 173788.6,
+        "metric": "dps",
+        "out_of": 40,
+        "rank": 16,
+        "sample": 300,
+        "top": 258612.4,
+        "zone": "Mythic+ Season 2"
+      },
       "provenance": {
         "mythicstats": {
           "fetched_at": "2026-08-21",
           "url": "https://mythicstats.com/spec/windwalker-monk"
+        },
+        "wowhead": {
+          "fetched_at": "2026-08-21",
+          "url": "https://www.wowhead.com/guide/classes/monk/windwalker/rotation-cooldowns-pve-dps"
         }
       },
-      "rotation": [],
+      "rotation": [
+        {
+          "mode": "st",
+          "note": "Cast if low on Chi or {1249625} is almost over",
+          "spell_id": 1272696
+        },
+        {
+          "mode": "st",
+          "note": "Cast to avoid capping energy outside of cooldowns OR if not enough Chi to cast {113656}",
+          "spell_id": 100780
+        },
+        {
+          "mode": "st",
+          "note": "Cast",
+          "spell_id": 113656
+        },
+        {
+          "mode": "st",
+          "note": "Cast with {325201} AND with {1296624} active",
+          "spell_id": 101546
+        },
+        {
+          "mode": "st",
+          "note": "Cast",
+          "spell_id": 107428
+        },
+        {
+          "mode": "st",
+          "note": "Cast with {137384} OR during {1249625} talented into {1249832}",
+          "spell_id": 100784
+        },
+        {
+          "mode": "st",
+          "note": "Cast during {1249625} AND either more than 4 Chi OR {325201}",
+          "spell_id": 101546
+        },
+        {
+          "mode": "st",
+          "note": "Cast if less than 2 Chi",
+          "spell_id": 100780
+        },
+        {
+          "mode": "st",
+          "note": "Cast without overcapping Chi",
+          "spell_id": 100780
+        },
+        {
+          "mode": "aoe",
+          "note": "Cast if low on Chi or {1249625} is almost over",
+          "spell_id": 1272696
+        },
+        {
+          "mode": "aoe",
+          "note": "Cast if missing the Chi to cast {113656}",
+          "spell_id": 100780
+        },
+        {
+          "mode": "aoe",
+          "note": "Cast",
+          "spell_id": 113656
+        },
+        {
+          "mode": "aoe",
+          "note": "Cast with Season 2 4-piece bonus, {1296624}",
+          "spell_id": 101546
+        },
+        {
+          "mode": "aoe",
+          "note": "Cast to avoid capping Energy outside of {1249625}",
+          "spell_id": 100780
+        },
+        {
+          "mode": "aoe",
+          "note": "Cast during {1249625} with at least 5 targets",
+          "spell_id": 101546
+        },
+        {
+          "mode": "aoe",
+          "note": "Cast with either Bloodlust or {1249625} but without Season 2 4-piece bonus, {1296624}",
+          "spell_id": 107428
+        },
+        {
+          "mode": "aoe",
+          "note": "Cast with {1249832} talented AND {1249625} AND {107428} on cooldown",
+          "spell_id": 100784
+        },
+        {
+          "mode": "aoe",
+          "note": "Cast",
+          "spell_id": 101546
+        },
+        {
+          "mode": "aoe",
+          "note": "Cast with {137384}",
+          "spell_id": 100784
+        },
+        {
+          "mode": "aoe",
+          "note": "Cast with less than 5 Chi AND no {1249625}",
+          "spell_id": 100780
+        },
+        {
+          "mode": "aoe",
+          "note": "Cast with {392982} talented",
+          "spell_id": 100784
+        },
+        {
+          "mode": "aoe",
+          "note": "Cast",
+          "spell_id": 107428
+        },
+        {
+          "mode": "aoe",
+          "note": "Cast",
+          "spell_id": 100784
+        }
+      ],
       "stat_priority": [
         {
           "rating": 860,

@@ -587,6 +587,16 @@ ns.RegisterClassData("DEATHKNIGHT", {
 								usagePct = 4.0,
 							},
 						},
+						performance = {
+							difficulty = "Mitica+",
+							median = 123253.3,
+							metric = "dps",
+							outOf = 40,
+							rank = 28,
+							sample = 300,
+							top = 215625.1,
+							zone = "Mythic+ Season 2",
+						},
 						provenance = {
 							mythicstats = {
 								fetchedAt = "2026-08-21",
@@ -1305,10 +1315,56 @@ ns.RegisterClassData("DEATHKNIGHT", {
 								usagePct = 4.0,
 							},
 						},
+						performance = {
+							difficulty = "Mitica+",
+							median = 123253.3,
+							metric = "dps",
+							outOf = 40,
+							rank = 28,
+							sample = 300,
+							top = 215625.1,
+							zone = "Mythic+ Season 2",
+						},
 						provenance = {
 							mythicstats = {
 								fetchedAt = "2026-08-21",
 								url = "https://mythicstats.com/spec/blood-death-knight",
+							},
+							wowhead = {
+								fetchedAt = "2026-08-21",
+								url = "https://www.wowhead.com/guide/classes/death-knight/blood/rotation-cooldowns-pve-tank",
+							},
+						},
+						rotation = {
+							{
+								mode = "aoe",
+								note = "Gather the enemies or packs you intend to pull. You can weave , {206930} and {49998} while doing so to build AoE threat",
+								spellID = 50842,
+							},
+							{
+								mode = "aoe",
+								note = "Near the end of your gather, pre-place where you intend to fight",
+								spellID = 43265,
+							},
+							{
+								mode = "aoe",
+								note = "Cast",
+								spellID = 439843,
+							},
+							{
+								mode = "aoe",
+								note = "Cast",
+								spellID = 49028,
+							},
+							{
+								mode = "aoe",
+								note = "Cast",
+								spellID = 50842,
+							},
+							{
+								mode = "aoe",
+								note = "Cast",
+								spellID = 49998,
 							},
 						},
 						statPriority = {
@@ -1966,10 +2022,144 @@ ns.RegisterClassData("DEATHKNIGHT", {
 								usagePct = 0.5,
 							},
 						},
+						performance = {
+							difficulty = "Mitica+",
+							median = 155636.1,
+							metric = "dps",
+							outOf = 40,
+							rank = 23,
+							sample = 300,
+							top = 274108.7,
+							zone = "Mythic+ Season 2",
+						},
 						provenance = {
 							mythicstats = {
 								fetchedAt = "2026-08-21",
 								url = "https://mythicstats.com/spec/frost-death-knight",
+							},
+							wowhead = {
+								fetchedAt = "2026-08-21",
+								url = "https://www.wowhead.com/guide/classes/death-knight/frost/rotation-cooldowns-pve-dps",
+							},
+						},
+						rotation = {
+							{
+								mode = "st",
+								note = "if you have 2 charges",
+								spellID = 47568,
+							},
+							{
+								mode = "st",
+								spellID = 439843,
+							},
+							{
+								mode = "st",
+								spellID = 51271,
+							},
+							{
+								mode = "st",
+								spellID = 1249658,
+							},
+							{
+								mode = "st",
+								spellID = 279302,
+							},
+							{
+								mode = "st",
+								note = "if you have 2 {51128} stacks, or 1 {51128} and {441378}",
+								spellID = 49020,
+							},
+							{
+								mode = "st",
+								note = "with {59057}",
+								spellID = 49184,
+							},
+							{
+								mode = "st",
+								note = "to avoid Runic Power waste",
+								spellID = 49143,
+							},
+							{
+								mode = "st",
+								note = "with {51128}",
+								spellID = 49020,
+							},
+							{
+								mode = "st",
+								note = "to generate {51128}",
+								spellID = 47568,
+							},
+							{
+								mode = "st",
+								spellID = 49143,
+							},
+							{
+								mode = "st",
+								note = "without {51128}",
+								spellID = 49020,
+							},
+							{
+								mode = "st",
+								spellID = 49184,
+							},
+							{
+								mode = "aoe",
+								note = "if you have 2 charges",
+								spellID = 47568,
+							},
+							{
+								mode = "aoe",
+								spellID = 439843,
+							},
+							{
+								mode = "aoe",
+								spellID = 51271,
+							},
+							{
+								mode = "aoe",
+								spellID = 1249658,
+							},
+							{
+								mode = "aoe",
+								spellID = 279302,
+							},
+							{
+								mode = "aoe",
+								note = "if you have 2 {51128} stacks, or {441378}",
+								spellID = 207230,
+							},
+							{
+								mode = "aoe",
+								note = "with {59057}",
+								spellID = 49184,
+							},
+							{
+								mode = "aoe",
+								note = "to avoid Runic Power waste",
+								spellID = 194913,
+							},
+							{
+								mode = "aoe",
+								note = "with {51128}",
+								spellID = 207230,
+							},
+							{
+								mode = "aoe",
+								note = "to generate {51128}",
+								spellID = 47568,
+							},
+							{
+								mode = "aoe",
+								spellID = 194913,
+							},
+							{
+								mode = "aoe",
+								note = "without {51128}",
+								spellID = 207230,
+							},
+							{
+								mode = "aoe",
+								spellID = 49184,
 							},
 						},
 						statPriority = {
@@ -2696,10 +2886,91 @@ ns.RegisterClassData("DEATHKNIGHT", {
 								usagePct = 0.5,
 							},
 						},
+						performance = {
+							difficulty = "Mitica+",
+							median = 180034.1,
+							metric = "dps",
+							outOf = 40,
+							rank = 10,
+							sample = 300,
+							top = 306291.5,
+							zone = "Mythic+ Season 2",
+						},
 						provenance = {
 							mythicstats = {
 								fetchedAt = "2026-08-21",
 								url = "https://mythicstats.com/spec/unholy-death-knight",
+							},
+							wowhead = {
+								fetchedAt = "2026-08-21",
+								url = "https://www.wowhead.com/guide/classes/death-knight/unholy/rotation-cooldowns-pve-dps",
+							},
+						},
+						rotation = {
+							{
+								mode = "st",
+								note = "Cast on cooldown.",
+								spellID = 1233448,
+							},
+							{
+								mode = "st",
+								note = "Cast if {1233448} is active.",
+								spellID = 1247378,
+							},
+							{
+								mode = "st",
+								note = "Cast if you have a {49530} proc.",
+								spellID = 47541,
+							},
+							{
+								mode = "st",
+								note = "Cast if you have no {1254252} stacks.",
+								spellID = 85948,
+							},
+							{
+								mode = "st",
+								note = "Cast if you have {1254252} stacks.",
+								spellID = 55090,
+							},
+							{
+								mode = "st",
+								note = "Cast .",
+								spellID = 47541,
+							},
+							{
+								mode = "aoe",
+								note = "Cast on cooldown.",
+								spellID = 1233448,
+							},
+							{
+								mode = "aoe",
+								note = "Cast if {1233448} is active.",
+								spellID = 1247378,
+							},
+							{
+								mode = "aoe",
+								note = "Cast if you expect your targets to stay inside of it.",
+								spellID = 43265,
+							},
+							{
+								mode = "aoe",
+								note = "Cast if {49530} procs.",
+								spellID = 207317,
+							},
+							{
+								mode = "aoe",
+								note = "Cast if you have no {1254252} stacks.",
+								spellID = 85948,
+							},
+							{
+								mode = "aoe",
+								note = "Cast if you have {1254252} stacks.",
+								spellID = 55090,
+							},
+							{
+								mode = "aoe",
+								note = "Cast .",
+								spellID = 207317,
 							},
 						},
 						statPriority = {
@@ -3317,10 +3588,91 @@ ns.RegisterClassData("DEATHKNIGHT", {
 								usagePct = 0.5,
 							},
 						},
+						performance = {
+							difficulty = "Mitica+",
+							median = 180034.1,
+							metric = "dps",
+							outOf = 40,
+							rank = 10,
+							sample = 300,
+							top = 306291.5,
+							zone = "Mythic+ Season 2",
+						},
 						provenance = {
 							mythicstats = {
 								fetchedAt = "2026-08-21",
 								url = "https://mythicstats.com/spec/unholy-death-knight",
+							},
+							wowhead = {
+								fetchedAt = "2026-08-21",
+								url = "https://www.wowhead.com/guide/classes/death-knight/unholy/rotation-cooldowns-pve-dps",
+							},
+						},
+						rotation = {
+							{
+								mode = "st",
+								note = "Cast on cooldown.",
+								spellID = 1233448,
+							},
+							{
+								mode = "st",
+								note = "Cast if {1233448} is active.",
+								spellID = 1247378,
+							},
+							{
+								mode = "st",
+								note = "Cast if you have a {49530} proc.",
+								spellID = 47541,
+							},
+							{
+								mode = "st",
+								note = "Cast if you have no {1254252} stacks.",
+								spellID = 85948,
+							},
+							{
+								mode = "st",
+								note = "Cast if you have {1254252} stacks.",
+								spellID = 55090,
+							},
+							{
+								mode = "st",
+								note = "Cast .",
+								spellID = 47541,
+							},
+							{
+								mode = "aoe",
+								note = "Cast on cooldown.",
+								spellID = 1233448,
+							},
+							{
+								mode = "aoe",
+								note = "Cast if {1233448} is active.",
+								spellID = 1247378,
+							},
+							{
+								mode = "aoe",
+								note = "Cast if you expect your targets to stay inside of it.",
+								spellID = 43265,
+							},
+							{
+								mode = "aoe",
+								note = "Cast if {49530} procs.",
+								spellID = 207317,
+							},
+							{
+								mode = "aoe",
+								note = "Cast if you have no {1254252} stacks.",
+								spellID = 85948,
+							},
+							{
+								mode = "aoe",
+								note = "Cast if you have {1254252} stacks.",
+								spellID = 55090,
+							},
+							{
+								mode = "aoe",
+								note = "Cast .",
+								spellID = 207317,
 							},
 						},
 						statPriority = {

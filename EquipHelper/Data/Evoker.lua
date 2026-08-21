@@ -631,10 +631,131 @@ ns.RegisterClassData("EVOKER", {
 								usagePct = 0.6,
 							},
 						},
+						performance = {
+							difficulty = "Mitica+",
+							median = 162715.5,
+							metric = "dps",
+							outOf = 40,
+							rank = 21,
+							sample = 300,
+							top = 298248.2,
+							zone = "Mythic+ Season 2",
+						},
 						provenance = {
 							mythicstats = {
 								fetchedAt = "2026-08-21",
 								url = "https://mythicstats.com/spec/devastation-evoker",
+							},
+							wowhead = {
+								fetchedAt = "2026-08-21",
+								url = "https://www.wowhead.com/guide/classes/evoker/devastation/rotation-cooldowns-pve-dps",
+							},
+						},
+						rotation = {
+							{
+								mode = "st",
+								note = ".",
+								spellID = 357210,
+							},
+							{
+								mode = "st",
+								note = ".",
+								spellID = 375087,
+							},
+							{
+								mode = "st",
+								note = ".",
+								spellID = 370553,
+							},
+							{
+								mode = "st",
+								note = "Rank 1.",
+								spellID = 359073,
+							},
+							{
+								mode = "st",
+								note = "Rank 1.",
+								spellID = 357208,
+							},
+							{
+								mode = "st",
+								note = "with {436335} without {369297} if is not capped.",
+								spellID = 1292321,
+							},
+							{
+								mode = "st",
+								note = "Spend / to channel {356995} with {436335}.",
+								spellID = 369297,
+							},
+							{
+								mode = "st",
+								note = "Spend / to channel {356995}.",
+								spellID = 369297,
+							},
+							{
+								mode = "st",
+								note = ".",
+								spellID = 1292321,
+							},
+							{
+								mode = "st",
+								note = "as filler.",
+								spellID = 361469,
+							},
+							{
+								mode = "st",
+								note = "if needed for movement.",
+								spellID = 362969,
+							},
+							{
+								mode = "aoe",
+								note = ".",
+								spellID = 357210,
+							},
+							{
+								mode = "aoe",
+								note = ".",
+								spellID = 375087,
+							},
+							{
+								mode = "aoe",
+								note = "on {359073}. - .",
+								spellID = 370553,
+							},
+							{
+								mode = "aoe",
+								note = "Rank 1.",
+								spellID = 357208,
+							},
+							{
+								mode = "aoe",
+								note = ".",
+								spellID = 359073,
+							},
+							{
+								mode = "aoe",
+								note = "with {436335} without {369297} if is not capped.",
+								spellID = 1292321,
+							},
+							{
+								mode = "aoe",
+								note = "Channel with {436335}.",
+								spellID = 356995,
+							},
+							{
+								mode = "aoe",
+								note = "Otherwise, channel .",
+								spellID = 356995,
+							},
+							{
+								mode = "aoe",
+								note = ".",
+								spellID = 1292321,
+							},
+							{
+								mode = "aoe",
+								note = "as filler.",
+								spellID = 362969,
 							},
 						},
 						statPriority = {
@@ -1398,6 +1519,16 @@ ns.RegisterClassData("EVOKER", {
 								usagePct = 1.0,
 							},
 						},
+						performance = {
+							difficulty = "Mitica+",
+							median = 38855.3,
+							metric = "dps",
+							outOf = 40,
+							rank = 35,
+							sample = 300,
+							top = 100049.5,
+							zone = "Mythic+ Season 2",
+						},
 						provenance = {
 							mythicstats = {
 								fetchedAt = "2026-08-21",
@@ -2138,10 +2269,126 @@ ns.RegisterClassData("EVOKER", {
 								usagePct = 0.8,
 							},
 						},
+						performance = {
+							difficulty = "Mitica+",
+							median = 135773.1,
+							metric = "dps",
+							outOf = 40,
+							rank = 27,
+							sample = 300,
+							top = 217718.4,
+							zone = "Mythic+ Season 2",
+						},
 						provenance = {
 							mythicstats = {
 								fetchedAt = "2026-08-21",
 								url = "https://mythicstats.com/spec/augmentation-evoker",
+							},
+							wowhead = {
+								fetchedAt = "2026-08-21",
+								url = "https://www.wowhead.com/guide/classes/evoker/augmentation/rotation-cooldowns-pve-dps",
+							},
+						},
+						rotation = {
+							{
+								mode = "st",
+								note = "Maintain on allied DPS players.",
+								spellID = 409311,
+							},
+							{
+								mode = "st",
+								note = "Cast if a few seconds or less remain on the active buff duration.",
+								spellID = 395152,
+							},
+							{
+								mode = "st",
+								note = "Cast (see section on cooldown usage for more details).",
+								spellID = 403631,
+							},
+							{
+								mode = "st",
+								note = "Cast (see section on cooldown usage for more details).",
+								spellID = 370553,
+							},
+							{
+								mode = "st",
+								note = "Cast at Rank 1 or Max Rank.",
+								spellID = 357208,
+							},
+							{
+								mode = "st",
+								note = "Cast at Rank 1, unless increased radius is needed to hit relevant targets.",
+								spellID = 408092,
+							},
+							{
+								mode = "st",
+								note = "Cast .",
+								spellID = 395160,
+							},
+							{
+								mode = "st",
+								note = "Cast as filler in nearly all situations.",
+								spellID = 361469,
+							},
+							{
+								mode = "st",
+								note = "Cast as backup filler that can be cast while moving, or used to slow enemies.",
+								spellID = 362969,
+							},
+							{
+								mode = "st",
+								note = "Maintain on a Tank.",
+								spellID = 360827,
+							},
+							{
+								mode = "aoe",
+								note = "Maintain on allied DPS players.",
+								spellID = 409311,
+							},
+							{
+								mode = "aoe",
+								note = "Cast if a few seconds or less remain on the active buff duration.",
+								spellID = 395152,
+							},
+							{
+								mode = "aoe",
+								note = "Cast (see section on cooldown usage for more details).",
+								spellID = 403631,
+							},
+							{
+								mode = "aoe",
+								note = "Cast (see section on cooldown usage for more details).",
+								spellID = 370553,
+							},
+							{
+								mode = "aoe",
+								note = "Cast at Rank 1 or Max Rank.",
+								spellID = 357208,
+							},
+							{
+								mode = "aoe",
+								note = "Cast at Rank 1, unless increased radius is needed to hit relevant targets.",
+								spellID = 408092,
+							},
+							{
+								mode = "aoe",
+								note = "Cast .",
+								spellID = 395160,
+							},
+							{
+								mode = "aoe",
+								note = "Cast as filler in nearly all situations.",
+								spellID = 361469,
+							},
+							{
+								mode = "aoe",
+								note = "Cast as backup filler that can be cast while moving, or used to slow enemies.",
+								spellID = 362969,
+							},
+							{
+								mode = "aoe",
+								note = "Maintain on a Tank.",
+								spellID = 360827,
 							},
 						},
 						statPriority = {
@@ -2861,10 +3108,136 @@ ns.RegisterClassData("EVOKER", {
 								usagePct = 0.8,
 							},
 						},
+						performance = {
+							difficulty = "Mitica+",
+							median = 135773.1,
+							metric = "dps",
+							outOf = 40,
+							rank = 27,
+							sample = 300,
+							top = 217718.4,
+							zone = "Mythic+ Season 2",
+						},
 						provenance = {
 							mythicstats = {
 								fetchedAt = "2026-08-21",
 								url = "https://mythicstats.com/spec/augmentation-evoker",
+							},
+							wowhead = {
+								fetchedAt = "2026-08-21",
+								url = "https://www.wowhead.com/guide/classes/evoker/augmentation/rotation-cooldowns-pve-dps",
+							},
+						},
+						rotation = {
+							{
+								mode = "st",
+								note = "Maintain on allied DPS players.",
+								spellID = 409311,
+							},
+							{
+								mode = "st",
+								note = "Cast if a few seconds or less remain on the active buff duration.",
+								spellID = 395152,
+							},
+							{
+								mode = "st",
+								note = "Cast (see section on cooldown usage for more details).",
+								spellID = 403631,
+							},
+							{
+								mode = "st",
+								note = "Cast (see section on cooldown usage for more details).",
+								spellID = 370553,
+							},
+							{
+								mode = "st",
+								note = "Cast at Rank 1 or Max Rank.",
+								spellID = 357208,
+							},
+							{
+								mode = "st",
+								note = "Cast at Rank 1, unless increased radius is needed to hit relevant targets.",
+								spellID = 408092,
+							},
+							{
+								mode = "st",
+								note = "Only if talented: Cast (see section on cooldown usage for more details).",
+								spellID = 404977,
+							},
+							{
+								mode = "st",
+								note = "Cast .",
+								spellID = 395160,
+							},
+							{
+								mode = "st",
+								note = "Cast as filler in nearly all situations.",
+								spellID = 361469,
+							},
+							{
+								mode = "st",
+								note = "Cast as backup filler that can be cast while moving, or used to slow enemies.",
+								spellID = 362969,
+							},
+							{
+								mode = "st",
+								note = "Maintain on a Tank.",
+								spellID = 360827,
+							},
+							{
+								mode = "aoe",
+								note = "Maintain on allied DPS players.",
+								spellID = 409311,
+							},
+							{
+								mode = "aoe",
+								note = "Cast if a few seconds or less remain on the active buff duration.",
+								spellID = 395152,
+							},
+							{
+								mode = "aoe",
+								note = "Cast (see section on cooldown usage for more details).",
+								spellID = 403631,
+							},
+							{
+								mode = "aoe",
+								note = "Cast (see section on cooldown usage for more details).",
+								spellID = 370553,
+							},
+							{
+								mode = "aoe",
+								note = "Cast at Rank 1 or Max Rank.",
+								spellID = 357208,
+							},
+							{
+								mode = "aoe",
+								note = "Cast at Rank 1, unless increased radius is needed to hit relevant targets.",
+								spellID = 408092,
+							},
+							{
+								mode = "aoe",
+								note = "Only if talented: Cast (see section on cooldown usage for more details).",
+								spellID = 404977,
+							},
+							{
+								mode = "aoe",
+								note = "Cast .",
+								spellID = 395160,
+							},
+							{
+								mode = "aoe",
+								note = "Cast as filler in nearly all situations.",
+								spellID = 361469,
+							},
+							{
+								mode = "aoe",
+								note = "Cast as backup filler that can be cast while moving, or used to slow enemies.",
+								spellID = 362969,
+							},
+							{
+								mode = "aoe",
+								note = "Maintain on a Tank.",
+								spellID = 360827,
 							},
 						},
 						statPriority = {

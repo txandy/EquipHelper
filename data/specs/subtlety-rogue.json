@@ -886,13 +886,68 @@
       ],
       "hero_id": 53,
       "hero_name": "Deathstalker",
+      "performance": {
+        "difficulty": "Mitica+",
+        "median": 193914.9,
+        "metric": "dps",
+        "out_of": 40,
+        "rank": 6,
+        "sample": 300,
+        "top": 294147.9,
+        "zone": "Mythic+ Season 2"
+      },
       "provenance": {
         "mythicstats": {
           "fetched_at": "2026-08-21",
           "url": "https://mythicstats.com/spec/subtlety-rogue"
+        },
+        "wowhead": {
+          "fetched_at": "2026-08-21",
+          "url": "https://www.wowhead.com/guide/classes/rogue/subtlety/rotation-cooldowns-pve-dps"
         }
       },
-      "rotation": [],
+      "rotation": [
+        {
+          "mode": "st",
+          "note": "Cast if {457058} is up.",
+          "spell_id": 196819
+        },
+        {
+          "mode": "st",
+          "note": "Cast .",
+          "spell_id": 280719
+        },
+        {
+          "mode": "st",
+          "note": "Cast .",
+          "spell_id": 196819
+        },
+        {
+          "mode": "st",
+          "note": "Cast .",
+          "spell_id": 185438
+        },
+        {
+          "mode": "aoe",
+          "note": "Cast .",
+          "spell_id": 280719
+        },
+        {
+          "mode": "aoe",
+          "note": "Cast with {457058}.",
+          "spell_id": 196819
+        },
+        {
+          "mode": "aoe",
+          "note": "Cast .",
+          "spell_id": 319175
+        },
+        {
+          "mode": "aoe",
+          "note": "Cast .",
+          "spell_id": 197835
+        }
+      ],
       "stat_priority": [
         {
           "rating": 1018,

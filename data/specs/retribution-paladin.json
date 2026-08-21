@@ -821,13 +821,148 @@
       ],
       "hero_id": 50,
       "hero_name": "Herald of the Sun",
+      "performance": {
+        "difficulty": "Mitica+",
+        "median": 187573.2,
+        "metric": "dps",
+        "out_of": 40,
+        "rank": 9,
+        "sample": 300,
+        "top": 346092.1,
+        "zone": "Mythic+ Season 2"
+      },
       "provenance": {
         "mythicstats": {
           "fetched_at": "2026-08-21",
           "url": "https://mythicstats.com/spec/retribution-paladin"
+        },
+        "wowhead": {
+          "fetched_at": "2026-08-21",
+          "url": "https://www.wowhead.com/guide/classes/paladin/retribution/rotation-cooldowns-pve-dps"
         }
       },
-      "rotation": [],
+      "rotation": [
+        {
+          "mode": "st",
+          "note": "Cast",
+          "spell_id": 31884
+        },
+        {
+          "mode": "st",
+          "note": "Cast",
+          "spell_id": 343527
+        },
+        {
+          "mode": "st",
+          "note": "Cast with a {1306161} proc from {383328} and 5 Holy Power",
+          "spell_id": 53385
+        },
+        {
+          "mode": "st",
+          "note": "Cast with 5 Holy Power",
+          "spell_id": 383328
+        },
+        {
+          "mode": "st",
+          "note": "Cast",
+          "spell_id": 255937
+        },
+        {
+          "mode": "st",
+          "note": "Cast",
+          "spell_id": 375576
+        },
+        {
+          "mode": "st",
+          "note": "Cast with 2 stacks of {406064} if {31884} isn't active",
+          "spell_id": 184575
+        },
+        {
+          "mode": "st",
+          "note": "Cast with a {1306161} proc from {383328}",
+          "spell_id": 53385
+        },
+        {
+          "mode": "st",
+          "note": "Cast",
+          "spell_id": 383328
+        },
+        {
+          "mode": "st",
+          "note": "Cast",
+          "spell_id": 24275
+        },
+        {
+          "mode": "st",
+          "note": "Cast",
+          "spell_id": 184575
+        },
+        {
+          "mode": "st",
+          "note": "Cast",
+          "spell_id": 20271
+        },
+        {
+          "mode": "aoe",
+          "note": "Cast",
+          "spell_id": 31884
+        },
+        {
+          "mode": "aoe",
+          "note": "Cast",
+          "spell_id": 343527
+        },
+        {
+          "mode": "aoe",
+          "note": "On exactly 2 targets: Cast with a {1306161} proc from {53385} and 5 Holy Power",
+          "spell_id": 383328
+        },
+        {
+          "mode": "aoe",
+          "note": "Cast with 5 Holy Power",
+          "spell_id": 53385
+        },
+        {
+          "mode": "aoe",
+          "note": "Cast",
+          "spell_id": 255937
+        },
+        {
+          "mode": "aoe",
+          "note": "Cast",
+          "spell_id": 375576
+        },
+        {
+          "mode": "aoe",
+          "note": "Cast with 2 stacks of {406064} if {31884} isn't active",
+          "spell_id": 184575
+        },
+        {
+          "mode": "aoe",
+          "note": "On exactly 2 targets: Cast with a {1306161} proc from {53385}",
+          "spell_id": 383328
+        },
+        {
+          "mode": "aoe",
+          "note": "Cast",
+          "spell_id": 53385
+        },
+        {
+          "mode": "aoe",
+          "note": "Cast",
+          "spell_id": 24275
+        },
+        {
+          "mode": "aoe",
+          "note": "Cast",
+          "spell_id": 184575
+        },
+        {
+          "mode": "aoe",
+          "note": "Cast",
+          "spell_id": 20271
+        }
+      ],
       "stat_priority": [
         {
           "rating": 976,
@@ -1704,13 +1839,168 @@
       ],
       "hero_id": 48,
       "hero_name": "Templar",
+      "performance": {
+        "difficulty": "Mitica+",
+        "median": 187573.2,
+        "metric": "dps",
+        "out_of": 40,
+        "rank": 9,
+        "sample": 300,
+        "top": 346092.1,
+        "zone": "Mythic+ Season 2"
+      },
       "provenance": {
         "mythicstats": {
           "fetched_at": "2026-08-21",
           "url": "https://mythicstats.com/spec/retribution-paladin"
+        },
+        "wowhead": {
+          "fetched_at": "2026-08-21",
+          "url": "https://www.wowhead.com/guide/classes/paladin/retribution/rotation-cooldowns-pve-dps"
         }
       },
-      "rotation": [],
+      "rotation": [
+        {
+          "mode": "st",
+          "note": "Cast",
+          "spell_id": 31884
+        },
+        {
+          "mode": "st",
+          "note": "Cast",
+          "spell_id": 343527
+        },
+        {
+          "mode": "st",
+          "note": "Cast if it's castable after using {255937}",
+          "spell_id": 427453
+        },
+        {
+          "mode": "st",
+          "note": "Cast with a {425518} proc in any one of the following situations: \\t\\t\\t{31884} or {343527} is up, but will end within a few seconds",
+          "spell_id": 427453
+        },
+        {
+          "mode": "st",
+          "note": "You don't have the Haste buff from up, and {31884} won't come off cooldown for at least 5 seconds",
+          "spell_id": 432626
+        },
+        {
+          "mode": "st",
+          "note": "Cast with 5 Holy Power",
+          "spell_id": 383328
+        },
+        {
+          "mode": "st",
+          "note": "Cast",
+          "spell_id": 255937
+        },
+        {
+          "mode": "st",
+          "note": "Cast",
+          "spell_id": 375576
+        },
+        {
+          "mode": "st",
+          "note": "Cast with 2 stacks of {406064}",
+          "spell_id": 184575
+        },
+        {
+          "mode": "st",
+          "note": "Cast",
+          "spell_id": 383328
+        },
+        {
+          "mode": "st",
+          "note": "Cast",
+          "spell_id": 184575
+        },
+        {
+          "mode": "st",
+          "note": "Cast",
+          "spell_id": 24275
+        },
+        {
+          "mode": "st",
+          "note": "Cast",
+          "spell_id": 20271
+        },
+        {
+          "mode": "aoe",
+          "note": "Cast",
+          "spell_id": 31884
+        },
+        {
+          "mode": "aoe",
+          "note": "Cast",
+          "spell_id": 343527
+        },
+        {
+          "mode": "aoe",
+          "note": "Cast if it's castable after using {255937}",
+          "spell_id": 427453
+        },
+        {
+          "mode": "aoe",
+          "note": "Cast with a {425518} proc in any one of the following situations: \\t\\t\\t{31884} or {343527} is up, but will end within a few seconds",
+          "spell_id": 427453
+        },
+        {
+          "mode": "aoe",
+          "note": "You don't have the Haste buff from up, and {31884} won't come off cooldown for at least 5 seconds",
+          "spell_id": 432626
+        },
+        {
+          "mode": "aoe",
+          "note": "On 2-4 targets: Cast with a {1306161} proc from {53385} and 5 Holy Power",
+          "spell_id": 383328
+        },
+        {
+          "mode": "aoe",
+          "note": "Cast with 5 Holy Power",
+          "spell_id": 53385
+        },
+        {
+          "mode": "aoe",
+          "note": "Cast",
+          "spell_id": 255937
+        },
+        {
+          "mode": "aoe",
+          "note": "Cast",
+          "spell_id": 375576
+        },
+        {
+          "mode": "aoe",
+          "note": "Cast with 2 stacks of {406064}",
+          "spell_id": 184575
+        },
+        {
+          "mode": "aoe",
+          "note": "On 2-4 targets: Cast with a {1306161} proc from {53385}",
+          "spell_id": 383328
+        },
+        {
+          "mode": "aoe",
+          "note": "Cast",
+          "spell_id": 53385
+        },
+        {
+          "mode": "aoe",
+          "note": "Cast",
+          "spell_id": 184575
+        },
+        {
+          "mode": "aoe",
+          "note": "Cast",
+          "spell_id": 24275
+        },
+        {
+          "mode": "aoe",
+          "note": "Cast",
+          "spell_id": 20271
+        }
+      ],
       "stat_priority": [
         {
           "rating": 976,

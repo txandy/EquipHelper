@@ -631,10 +631,86 @@ ns.RegisterClassData("DRUID", {
 								usagePct = 1.5,
 							},
 						},
+						performance = {
+							difficulty = "Mitica+",
+							median = 175533.2,
+							metric = "dps",
+							outOf = 40,
+							rank = 14,
+							sample = 300,
+							top = 271612.9,
+							zone = "Mythic+ Season 2",
+						},
 						provenance = {
 							mythicstats = {
 								fetchedAt = "2026-08-21",
 								url = "https://mythicstats.com/spec/balance-druid",
+							},
+							wowhead = {
+								fetchedAt = "2026-08-21",
+								url = "https://www.wowhead.com/guide/classes/druid/balance/rotation-cooldowns-pve-dps",
+							},
+						},
+						rotation = {
+							{
+								mode = "st",
+								note = "Use if it's available before using {205636}.",
+								spellID = 202770,
+							},
+							{
+								mode = "st",
+								note = "Use with the next GCD after casting {205636}.",
+								spellID = 1239669,
+							},
+							{
+								mode = "aoe",
+								note = "Spread while targets are being gathered",
+								spellID = 8921,
+							},
+							{
+								mode = "aoe",
+								note = "Apply when all targets are gathered",
+								spellID = 93402,
+							},
+							{
+								mode = "aoe",
+								note = "Press if you are not currently in an {1239669} and your next cast is either {1239669} or {102560}",
+								spellID = 205636,
+							},
+							{
+								mode = "aoe",
+								note = "Press if you just used {205636}",
+								spellID = 102560,
+							},
+							{
+								mode = "aoe",
+								note = "Enter on 4 targets and above with enough to spend at least two stacks of {1261564}",
+								spellID = 1233272,
+							},
+							{
+								mode = "aoe",
+								note = "Enter up to and including 3 targets with enough to spend at least two stacks of {1261564}",
+								spellID = 1233346,
+							},
+							{
+								mode = "aoe",
+								note = "Cast at the start of {102560} to consume {1263363}",
+								spellID = 194153,
+							},
+							{
+								mode = "aoe",
+								note = "Cast to prevent capping on or to consume {1261564} at the start of {1239669}",
+								spellID = 191034,
+							},
+							{
+								mode = "aoe",
+								note = "Cast outside of {1239669} up to and including 4 targets.",
+								spellID = 5176,
+							},
+							{
+								mode = "aoe",
+								note = "Cast in {1233272} and {5176} in {1233346}",
+								spellID = 194153,
 							},
 						},
 						statPriority = {
@@ -1377,10 +1453,126 @@ ns.RegisterClassData("DRUID", {
 								usagePct = 3.1,
 							},
 						},
+						performance = {
+							difficulty = "Mitica+",
+							median = 174440.5,
+							metric = "dps",
+							outOf = 40,
+							rank = 15,
+							sample = 300,
+							top = 313517.4,
+							zone = "Mythic+ Season 2",
+						},
 						provenance = {
 							mythicstats = {
 								fetchedAt = "2026-08-21",
 								url = "https://mythicstats.com/spec/feral-druid",
+							},
+							wowhead = {
+								fetchedAt = "2026-08-21",
+								url = "https://www.wowhead.com/guide/classes/druid/feral/rotation-cooldowns-pve-dps",
+							},
+						},
+						rotation = {
+							{
+								mode = "st",
+								note = "Cast : If you have 5 Combo Points, {1079} is missing or in Pandemic, and you have {5217} active.",
+								spellID = 1079,
+							},
+							{
+								mode = "st",
+								note = "If you have 5 Combo Points, is missing or in Pandemic, and {5217} will not be active before the dot expires.",
+								spellID = 1079,
+							},
+							{
+								mode = "st",
+								note = "Cast if: you have 5 Combo Points and 50 energy, {1079} is active, and {106951} is active.",
+								spellID = 22568,
+							},
+							{
+								mode = "st",
+								note = "you have 5 Combo Points and 50 energy, is active, and {106951} is not active.",
+								spellID = 1079,
+							},
+							{
+								mode = "st",
+								note = "and {391528} with {5217}, these should be synced",
+								spellID = 106951,
+							},
+							{
+								mode = "st",
+								note = "If is coming off CD within 3 seconds, and you're above 80% energy dump your energy.",
+								spellID = 5217,
+							},
+							{
+								mode = "st",
+								note = "Cast on cooldown",
+								spellID = 5217,
+							},
+							{
+								mode = "st",
+								note = "Cast if: It is missing on the target or in pandemic",
+								spellID = 1822,
+							},
+							{
+								mode = "st",
+								note = "has 2 seconds or less of duration and {5217} is not ready.",
+								spellID = 1822,
+							},
+							{
+								mode = "st",
+								note = "has 2 seconds or less of duration and {5217} is not ready.",
+								spellID = 155625,
+							},
+							{
+								mode = "st",
+								note = "to Generate Combo Points",
+								spellID = 5221,
+							},
+							{
+								mode = "aoe",
+								note = "Cast if {1079} is missing or in pandemic.",
+								spellID = 285381,
+							},
+							{
+								mode = "aoe",
+								note = "Cast with {5217}, these should be synced.",
+								spellID = 106951,
+							},
+							{
+								mode = "aoe",
+								note = "Cast if you have 5 Combo Points, 50 energy and {1079} is active",
+								spellID = 22568,
+							},
+							{
+								mode = "aoe",
+								note = "and {391528} with {5217}, these should be synced.",
+								spellID = 106951,
+							},
+							{
+								mode = "aoe",
+								note = "Cast on cooldown.",
+								spellID = 274837,
+							},
+							{
+								mode = "aoe",
+								note = "during {106951} for {441835} procs.",
+								spellID = 213764,
+							},
+							{
+								mode = "aoe",
+								note = "with {135700} procs",
+								spellID = 213764,
+							},
+							{
+								mode = "aoe",
+								note = "Cast if it is missing or in pandemic up to 5 targets.",
+								spellID = 1822,
+							},
+							{
+								mode = "aoe",
+								note = "to generate Combo points.",
+								spellID = 213764,
 							},
 						},
 						statPriority = {
@@ -2118,10 +2310,121 @@ ns.RegisterClassData("DRUID", {
 								usagePct = 3.1,
 							},
 						},
+						performance = {
+							difficulty = "Mitica+",
+							median = 174440.5,
+							metric = "dps",
+							outOf = 40,
+							rank = 15,
+							sample = 300,
+							top = 313517.4,
+							zone = "Mythic+ Season 2",
+						},
 						provenance = {
 							mythicstats = {
 								fetchedAt = "2026-08-21",
 								url = "https://mythicstats.com/spec/feral-druid",
+							},
+							wowhead = {
+								fetchedAt = "2026-08-21",
+								url = "https://www.wowhead.com/guide/classes/druid/feral/rotation-cooldowns-pve-dps",
+							},
+						},
+						rotation = {
+							{
+								mode = "st",
+								note = "Cast : If you have 5 combo points, {1079} is missing or in Pandemic, and you have {5217} active.",
+								spellID = 1079,
+							},
+							{
+								mode = "st",
+								note = "If you have 5 combo points, is missing or in Pandemic, and {5217} will not be active before the dot expires.",
+								spellID = 1079,
+							},
+							{
+								mode = "st",
+								note = "Cast if: you have 5 Combo Points and 50 energy, {1079} is active, and {106951} is active.",
+								spellID = 22568,
+							},
+							{
+								mode = "st",
+								note = "you have 5 Combo Points and 50 energy, is active, and {106951} is not active.",
+								spellID = 1079,
+							},
+							{
+								mode = "st",
+								note = "and {391528} with {5217}, these should be synced",
+								spellID = 106951,
+							},
+							{
+								mode = "st",
+								note = "If is coming off CD within 3 seconds, and you're above 80% energy dump your energy.",
+								spellID = 5217,
+							},
+							{
+								mode = "st",
+								note = "Cast on cooldown",
+								spellID = 5217,
+							},
+							{
+								mode = "st",
+								note = "Cast if: It is missing on the target or in pandemic",
+								spellID = 1822,
+							},
+							{
+								mode = "st",
+								note = "has 2 seconds or less of duration and {5217} is not ready.",
+								spellID = 1822,
+							},
+							{
+								mode = "st",
+								note = "has 2 seconds or less of duration and {5217} is not ready.",
+								spellID = 155625,
+							},
+							{
+								mode = "st",
+								note = "to Generate Combo Points",
+								spellID = 5221,
+							},
+							{
+								mode = "aoe",
+								note = "Cast if {1079} is missing or in pandemic.",
+								spellID = 285381,
+							},
+							{
+								mode = "aoe",
+								note = "Cast with {5217}, these should be synced.",
+								spellID = 106951,
+							},
+							{
+								mode = "aoe",
+								note = "Cast if you have 5 Combo Points and {1079} is active",
+								spellID = 22568,
+							},
+							{
+								mode = "aoe",
+								note = "and {391528} with {5217}, these should be synced.",
+								spellID = 106951,
+							},
+							{
+								mode = "aoe",
+								note = "Cast on cooldown.",
+								spellID = 274837,
+							},
+							{
+								mode = "aoe",
+								note = "with {135700} procs up to 7 targets.",
+								spellID = 213764,
+							},
+							{
+								mode = "aoe",
+								note = "Cast if it is missing or in pandemic.",
+								spellID = 1822,
+							},
+							{
+								mode = "aoe",
+								note = "to generate Combo points.",
+								spellID = 213764,
 							},
 						},
 						statPriority = {
@@ -2760,10 +3063,121 @@ ns.RegisterClassData("DRUID", {
 								usagePct = 2.0,
 							},
 						},
+						performance = {
+							difficulty = "Mitica+",
+							median = 98730.4,
+							metric = "dps",
+							outOf = 40,
+							rank = 31,
+							sample = 300,
+							top = 189065.7,
+							zone = "Mythic+ Season 2",
+						},
 						provenance = {
 							mythicstats = {
 								fetchedAt = "2026-08-21",
 								url = "https://mythicstats.com/spec/guardian-druid",
+							},
+							wowhead = {
+								fetchedAt = "2026-08-21",
+								url = "https://www.wowhead.com/guide/classes/druid/guardian/rotation-cooldowns-pve-tank",
+							},
+						},
+						rotation = {
+							{
+								mode = "st",
+								note = "Maintain on your primary target.",
+								spellID = 8921,
+							},
+							{
+								mode = "st",
+								note = "Maintain 3-5 stacks of .",
+								spellID = 77758,
+							},
+							{
+								mode = "st",
+								note = "Cast on cooldown.",
+								spellID = 1252871,
+							},
+							{
+								mode = "st",
+								note = "Cast on cooldown.",
+								spellID = 33917,
+							},
+							{
+								mode = "st",
+								note = "Cast on cooldown.",
+								spellID = 77758,
+							},
+							{
+								mode = "st",
+								note = "Spend Rage on either (offensively) or {192081}(defensively.",
+								spellID = 6807,
+							},
+							{
+								mode = "st",
+								note = "Cast if your health dips low.",
+								spellID = 22842,
+							},
+							{
+								mode = "st",
+								note = "Cast with {203964} procs.",
+								spellID = 8921,
+							},
+							{
+								mode = "st",
+								note = "Use your cooldowns /{394786} as frequently as possible.",
+								spellID = 22812,
+							},
+							{
+								mode = "st",
+								note = "Cast if you have nothing else to press.",
+								spellID = 213771,
+							},
+							{
+								mode = "aoe",
+								note = "Maintain on your primary target.",
+								spellID = 8921,
+							},
+							{
+								mode = "aoe",
+								note = "Maintain 3-5 stacks of .",
+								spellID = 77758,
+							},
+							{
+								mode = "aoe",
+								note = "Cast on cooldown.",
+								spellID = 33917,
+							},
+							{
+								mode = "aoe",
+								note = "Cast on cooldown.",
+								spellID = 77758,
+							},
+							{
+								mode = "aoe",
+								note = "Spend Rage on either (offensively) or {192081}(defensively.",
+								spellID = 6807,
+							},
+							{
+								mode = "aoe",
+								note = "Cast if your health dips low.",
+								spellID = 22842,
+							},
+							{
+								mode = "aoe",
+								note = "Cast with {203964} procs.",
+								spellID = 8921,
+							},
+							{
+								mode = "aoe",
+								note = "Use your cooldowns /{394786} as frequently as possible.",
+								spellID = 22812,
+							},
+							{
+								mode = "aoe",
+								note = "Cast if you have nothing else to press.",
+								spellID = 213771,
 							},
 						},
 						statPriority = {
@@ -3539,6 +3953,16 @@ ns.RegisterClassData("DRUID", {
 								itemID = 240969,
 								usagePct = 1.2,
 							},
+						},
+						performance = {
+							difficulty = "Mitica+",
+							median = 13655.3,
+							metric = "dps",
+							outOf = 40,
+							rank = 40,
+							sample = 300,
+							top = 70602.9,
+							zone = "Mythic+ Season 2",
 						},
 						provenance = {
 							mythicstats = {

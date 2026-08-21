@@ -871,13 +871,88 @@
       ],
       "hero_id": 24,
       "hero_name": "Elune's Chosen",
+      "performance": {
+        "difficulty": "Mitica+",
+        "median": 175533.2,
+        "metric": "dps",
+        "out_of": 40,
+        "rank": 14,
+        "sample": 300,
+        "top": 271612.9,
+        "zone": "Mythic+ Season 2"
+      },
       "provenance": {
         "mythicstats": {
           "fetched_at": "2026-08-21",
           "url": "https://mythicstats.com/spec/balance-druid"
+        },
+        "wowhead": {
+          "fetched_at": "2026-08-21",
+          "url": "https://www.wowhead.com/guide/classes/druid/balance/rotation-cooldowns-pve-dps"
         }
       },
-      "rotation": [],
+      "rotation": [
+        {
+          "mode": "st",
+          "note": "Use if it's available before using {205636}.",
+          "spell_id": 202770
+        },
+        {
+          "mode": "st",
+          "note": "Use with the next GCD after casting {205636}.",
+          "spell_id": 1239669
+        },
+        {
+          "mode": "aoe",
+          "note": "Spread while targets are being gathered",
+          "spell_id": 8921
+        },
+        {
+          "mode": "aoe",
+          "note": "Apply when all targets are gathered",
+          "spell_id": 93402
+        },
+        {
+          "mode": "aoe",
+          "note": "Press if you are not currently in an {1239669} and your next cast is either {1239669} or {102560}",
+          "spell_id": 205636
+        },
+        {
+          "mode": "aoe",
+          "note": "Press if you just used {205636}",
+          "spell_id": 102560
+        },
+        {
+          "mode": "aoe",
+          "note": "Enter on 4 targets and above with enough to spend at least two stacks of {1261564}",
+          "spell_id": 1233272
+        },
+        {
+          "mode": "aoe",
+          "note": "Enter up to and including 3 targets with enough to spend at least two stacks of {1261564}",
+          "spell_id": 1233346
+        },
+        {
+          "mode": "aoe",
+          "note": "Cast at the start of {102560} to consume {1263363}",
+          "spell_id": 194153
+        },
+        {
+          "mode": "aoe",
+          "note": "Cast to prevent capping on or to consume {1261564} at the start of {1239669}",
+          "spell_id": 191034
+        },
+        {
+          "mode": "aoe",
+          "note": "Cast outside of {1239669} up to and including 4 targets.",
+          "spell_id": 5176
+        },
+        {
+          "mode": "aoe",
+          "note": "Cast in {1233272} and {5176} in {1233346}",
+          "spell_id": 194153
+        }
+      ],
       "stat_priority": [
         {
           "rating": 1053,

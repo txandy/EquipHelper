@@ -871,13 +871,138 @@
       ],
       "hero_id": 19,
       "hero_name": "Archon",
+      "performance": {
+        "difficulty": "Mitica+",
+        "median": 179754.1,
+        "metric": "dps",
+        "out_of": 40,
+        "rank": 12,
+        "sample": 300,
+        "top": 271518.9,
+        "zone": "Mythic+ Season 2"
+      },
       "provenance": {
         "mythicstats": {
           "fetched_at": "2026-08-21",
           "url": "https://mythicstats.com/spec/shadow-priest"
+        },
+        "wowhead": {
+          "fetched_at": "2026-08-21",
+          "url": "https://www.wowhead.com/guide/classes/priest/shadow/rotation-cooldowns-pve-dps"
         }
       },
-      "rotation": [],
+      "rotation": [
+        {
+          "mode": "st",
+          "note": "Maintain , either with {1227280} or hard cast {34914}",
+          "spell_id": 34914
+        },
+        {
+          "mode": "st",
+          "note": "Cast .",
+          "spell_id": 120644
+        },
+        {
+          "mode": "st",
+          "note": "Cast .",
+          "spell_id": 10060
+        },
+        {
+          "mode": "st",
+          "note": "Spend on if it is not active, is about to fall off, or you are about to cap.",
+          "spell_id": 335467
+        },
+        {
+          "mode": "st",
+          "note": "Cast .",
+          "spell_id": 8092
+        },
+        {
+          "mode": "st",
+          "note": "Cast if {335467} is active.",
+          "spell_id": 391403
+        },
+        {
+          "mode": "st",
+          "note": "Cast if {228264} is active.",
+          "spell_id": 335467
+        },
+        {
+          "mode": "st",
+          "note": "Cast if there will be no additional targets to DoT or upcoming movement.",
+          "spell_id": 1227280
+        },
+        {
+          "mode": "st",
+          "note": "Cast if the target is below 20% Hp.",
+          "spell_id": 32379
+        },
+        {
+          "mode": "st",
+          "note": "Cast , interrupting as soon as anything of higher priority becomes available.",
+          "spell_id": 15407
+        },
+        {
+          "mode": "st",
+          "note": "When moving, cast , {32379}, or {589} to generate some and deal some damage.",
+          "spell_id": 1227280
+        },
+        {
+          "mode": "aoe",
+          "note": "Maintain , either with {1227280} or hard cast {34914}",
+          "spell_id": 34914
+        },
+        {
+          "mode": "aoe",
+          "note": "Cast .",
+          "spell_id": 120644
+        },
+        {
+          "mode": "aoe",
+          "note": "Cast .",
+          "spell_id": 10060
+        },
+        {
+          "mode": "aoe",
+          "note": "Spend on if it is not active, is about to fall off, or you are about to cap.",
+          "spell_id": 335467
+        },
+        {
+          "mode": "aoe",
+          "note": "Cast .",
+          "spell_id": 8092
+        },
+        {
+          "mode": "aoe",
+          "note": "Cast if {335467} is active.",
+          "spell_id": 391403
+        },
+        {
+          "mode": "aoe",
+          "note": "Cast if {228264} is active.",
+          "spell_id": 335467
+        },
+        {
+          "mode": "aoe",
+          "note": "Cast if there will be no additional targets to DoT or upcoming movement.",
+          "spell_id": 1227280
+        },
+        {
+          "mode": "aoe",
+          "note": "Cast if there is a target is below 20% Hp.",
+          "spell_id": 32379
+        },
+        {
+          "mode": "aoe",
+          "note": "Cast , interrupting as soon as anything of higher priority becomes available.",
+          "spell_id": 15407
+        },
+        {
+          "mode": "aoe",
+          "note": "When moving, cast , {32379}, or {589} to generate some and deal some damage.",
+          "spell_id": 1227280
+        }
+      ],
       "stat_priority": [
         {
           "rating": 1033,
@@ -1874,13 +1999,148 @@
       ],
       "hero_id": 18,
       "hero_name": "Voidweaver",
+      "performance": {
+        "difficulty": "Mitica+",
+        "median": 179754.1,
+        "metric": "dps",
+        "out_of": 40,
+        "rank": 12,
+        "sample": 300,
+        "top": 271518.9,
+        "zone": "Mythic+ Season 2"
+      },
       "provenance": {
         "mythicstats": {
           "fetched_at": "2026-08-21",
           "url": "https://mythicstats.com/spec/shadow-priest"
+        },
+        "wowhead": {
+          "fetched_at": "2026-08-21",
+          "url": "https://www.wowhead.com/guide/classes/priest/shadow/rotation-cooldowns-pve-dps"
         }
       },
-      "rotation": [],
+      "rotation": [
+        {
+          "mode": "st",
+          "note": "Maintain , either with {1227280} or hard cast {34914}",
+          "spell_id": 34914
+        },
+        {
+          "mode": "st",
+          "note": "Cast .",
+          "spell_id": 10060
+        },
+        {
+          "mode": "st",
+          "note": "Cast if the target has an absorb shield.",
+          "spell_id": 32379
+        },
+        {
+          "mode": "st",
+          "note": "Cast if {335467} is active or if {447444} is about to expire.",
+          "spell_id": 450405
+        },
+        {
+          "mode": "st",
+          "note": "Spend on if it is not active, is about to fall off, you are about to cap, or {447444} is active.",
+          "spell_id": 335467
+        },
+        {
+          "mode": "st",
+          "note": "Cast to activate {447444}.",
+          "spell_id": 263165
+        },
+        {
+          "mode": "st",
+          "note": "Cast .",
+          "spell_id": 8092
+        },
+        {
+          "mode": "st",
+          "note": "Cast .",
+          "spell_id": 335467
+        },
+        {
+          "mode": "st",
+          "note": "Cast if there will be no additional targets to DoT or upcoming movement.",
+          "spell_id": 1227280
+        },
+        {
+          "mode": "st",
+          "note": "Cast if the target is below 20% Hp.",
+          "spell_id": 32379
+        },
+        {
+          "mode": "st",
+          "note": "Cast , interrupting as soon as anything of higher priority becomes available.",
+          "spell_id": 15407
+        },
+        {
+          "mode": "st",
+          "note": "When moving, cast , {32379}, or {589} to generate some and deal some damage.",
+          "spell_id": 1227280
+        },
+        {
+          "mode": "aoe",
+          "note": "Maintain , either with {1227280} or hard cast {34914}",
+          "spell_id": 34914
+        },
+        {
+          "mode": "aoe",
+          "note": "Cast .",
+          "spell_id": 10060
+        },
+        {
+          "mode": "aoe",
+          "note": "Cast if the target has an absorb shield.",
+          "spell_id": 32379
+        },
+        {
+          "mode": "aoe",
+          "note": "Cast if {335467} is active or if {447444} is about to expire.",
+          "spell_id": 450405
+        },
+        {
+          "mode": "aoe",
+          "note": "Spend on if it is not active, is about to fall off, you are about to cap, or {447444} is active.",
+          "spell_id": 335467
+        },
+        {
+          "mode": "aoe",
+          "note": "Cast to activate {447444}.",
+          "spell_id": 263165
+        },
+        {
+          "mode": "aoe",
+          "note": "Cast .",
+          "spell_id": 8092
+        },
+        {
+          "mode": "aoe",
+          "note": "Cast .",
+          "spell_id": 335467
+        },
+        {
+          "mode": "aoe",
+          "note": "Cast if there will be no additional targets to DoT or upcoming movement.",
+          "spell_id": 1227280
+        },
+        {
+          "mode": "aoe",
+          "note": "Cast if there is a target is below 20% Hp.",
+          "spell_id": 32379
+        },
+        {
+          "mode": "aoe",
+          "note": "Cast , interrupting as soon as anything of higher priority becomes available.",
+          "spell_id": 15407
+        },
+        {
+          "mode": "aoe",
+          "note": "When moving, cast , {32379}, or {589} to generate some and deal some damage.",
+          "spell_id": 1227280
+        }
+      ],
       "stat_priority": [
         {
           "rating": 1033,
@@ -2123,13 +2383,138 @@
       ],
       "hero_id": 19,
       "hero_name": "Archon",
+      "performance": {
+        "difficulty": "Heroico",
+        "median": 158115.9,
+        "metric": "dps",
+        "out_of": 40,
+        "rank": 6,
+        "sample": 300,
+        "top": 186238.5,
+        "zone": "The Venomous Abyss"
+      },
       "provenance": {
         "mythicstats": {
           "fetched_at": "2026-08-21",
           "url": "https://mythicstats.com/raid/spec/shadow-priest"
+        },
+        "wowhead": {
+          "fetched_at": "2026-08-21",
+          "url": "https://www.wowhead.com/guide/classes/priest/shadow/rotation-cooldowns-pve-dps"
         }
       },
-      "rotation": [],
+      "rotation": [
+        {
+          "mode": "st",
+          "note": "Maintain , either with {1227280} or hard cast {34914}",
+          "spell_id": 34914
+        },
+        {
+          "mode": "st",
+          "note": "Cast .",
+          "spell_id": 120644
+        },
+        {
+          "mode": "st",
+          "note": "Cast .",
+          "spell_id": 10060
+        },
+        {
+          "mode": "st",
+          "note": "Spend on if it is not active, is about to fall off, or you are about to cap.",
+          "spell_id": 335467
+        },
+        {
+          "mode": "st",
+          "note": "Cast .",
+          "spell_id": 8092
+        },
+        {
+          "mode": "st",
+          "note": "Cast if {335467} is active.",
+          "spell_id": 391403
+        },
+        {
+          "mode": "st",
+          "note": "Cast if {228264} is active.",
+          "spell_id": 335467
+        },
+        {
+          "mode": "st",
+          "note": "Cast if there will be no additional targets to DoT or upcoming movement.",
+          "spell_id": 1227280
+        },
+        {
+          "mode": "st",
+          "note": "Cast if the target is below 20% Hp.",
+          "spell_id": 32379
+        },
+        {
+          "mode": "st",
+          "note": "Cast , interrupting as soon as anything of higher priority becomes available.",
+          "spell_id": 15407
+        },
+        {
+          "mode": "st",
+          "note": "When moving, cast , {32379}, or {589} to generate some and deal some damage.",
+          "spell_id": 1227280
+        },
+        {
+          "mode": "aoe",
+          "note": "Maintain , either with {1227280} or hard cast {34914}",
+          "spell_id": 34914
+        },
+        {
+          "mode": "aoe",
+          "note": "Cast .",
+          "spell_id": 120644
+        },
+        {
+          "mode": "aoe",
+          "note": "Cast .",
+          "spell_id": 10060
+        },
+        {
+          "mode": "aoe",
+          "note": "Spend on if it is not active, is about to fall off, or you are about to cap.",
+          "spell_id": 335467
+        },
+        {
+          "mode": "aoe",
+          "note": "Cast .",
+          "spell_id": 8092
+        },
+        {
+          "mode": "aoe",
+          "note": "Cast if {335467} is active.",
+          "spell_id": 391403
+        },
+        {
+          "mode": "aoe",
+          "note": "Cast if {228264} is active.",
+          "spell_id": 335467
+        },
+        {
+          "mode": "aoe",
+          "note": "Cast if there will be no additional targets to DoT or upcoming movement.",
+          "spell_id": 1227280
+        },
+        {
+          "mode": "aoe",
+          "note": "Cast if there is a target is below 20% Hp.",
+          "spell_id": 32379
+        },
+        {
+          "mode": "aoe",
+          "note": "Cast , interrupting as soon as anything of higher priority becomes available.",
+          "spell_id": 15407
+        },
+        {
+          "mode": "aoe",
+          "note": "When moving, cast , {32379}, or {589} to generate some and deal some damage.",
+          "spell_id": 1227280
+        }
+      ],
       "stat_priority": [],
       "talent_builds": [
         {

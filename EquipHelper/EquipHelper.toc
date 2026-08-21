@@ -32,3 +32,4 @@ UI\Tabs\Stats.lua
 UI\Tabs\Talents.lua
 UI\Tabs\Rotation.lua
 UI\Tabs\Gear.lua
+UI\Tooltip.lua

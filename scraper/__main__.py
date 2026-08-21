@@ -11,8 +11,9 @@ from pathlib import Path
 
 from scraper import emit_lua, validate
 from scraper.http import Fetcher
-from scraper.model import SpecGuides
-from scraper.sources import mythicstats
+from scraper.model import SpecGuides  # noqa: F401
+from scraper.model import Provenance, RotationEntry
+from scraper.sources import mythicstats, warcraftlogs, wowhead
 from scraper.talent_tree import load as load_talents
 
 ROOT = Path(__file__).resolve().parent.parent
@@ -22,7 +23,102 @@ TOC = ROOT / "EquipHelper" / "EquipHelper.toc"
 
 SOURCES = [
     {"key": "mythicstats", "label": "Mythicstats", "url": "https://mythicstats.com"},
+    {"key": "warcraftlogs", "label": "Warcraft Logs", "url": "https://www.warcraftlogs.com"},
+    {"key": "wowhead", "label": "Wowhead", "url": "https://www.wowhead.com"},
 ]
+
+
+def _attach_rotations(fetcher, results, specs, report) -> None:
+    """Anade la lista de prioridad de Wowhead a las guias ya construidas.
+
+    La rotacion depende del hero talent pero no del tipo de contenido: la misma
+    prioridad vale en banda y en mitica+, y por eso se copia a las dos guias.
+    """
+    by_slug = {spec.slug: spec for spec in specs}
+    covered = 0
+
+    for result in results:
+        spec = by_slug.get(result.slug)
+        if not spec:
+            continue
+
+        try:
+            rotations, url = wowhead.fetch_rotations(fetcher, spec)
+        except Exception as exc:
+            report.warnings.append(f"wowhead {result.slug}: {exc}")
+            continue
+
+        if not rotations:
+            report.warnings.append(f"wowhead: sin rotacion para {result.slug}")
+            continue
+
+        covered += 1
+        fetched_at = date.today().isoformat()
+
+        for guide in result.guides:
+            modes = rotations.get(guide.hero_id)
+            if not modes:
+                continue
+
+            guide.rotation = [
+                RotationEntry(spell_id=entry["spell_id"], note=entry["note"], mode=mode)
+                for mode in ("st", "aoe")
+                for entry in modes.get(mode, [])
+            ]
+            guide.provenance[wowhead.SOURCE_KEY] = Provenance(url=url, fetched_at=fetched_at)
+
+    print(f"  wowhead: {covered} specs con rotacion")
+
+
+def _attach_performance(results: list[SpecGuides], specs, report) -> None:
+    """Anade el rendimiento de Warcraft Logs a las guias ya construidas.
+
+    Es aditivo a proposito: sin credenciales, o con la API caida, el build sigue
+    y el addon simplemente no muestra esa linea. Una fuente opcional no deberia
+    poder tumbar una publicacion.
+    """
+    try:
+        client = warcraftlogs.Client()
+    except warcraftlogs.NoCredentials as exc:
+        report.warnings.append(str(exc))
+        return
+
+    try:
+        client.refresh_budget()
+        zones = warcraftlogs.current_zones(client)
+    except Exception as exc:
+        report.warnings.append(f"warcraftlogs no disponible: {exc}")
+        return
+
+    by_slug = {spec.slug: spec for spec in specs}
+
+    for content, zone in zones.items():
+        measured: dict[str, object] = {}
+
+        for result in results:
+            spec = by_slug.get(result.slug)
+            if not spec:
+                continue
+            try:
+                performance = warcraftlogs.fetch_performance(client, spec, zone, content)
+            except Exception as exc:
+                report.warnings.append(f"warcraftlogs {result.slug}/{content}: {exc}")
+                continue
+            if performance:
+                measured[result.slug] = performance
+
+        # El puesto solo tiene sentido una vez medidas todas las specs.
+        warcraftlogs.rank_specs(measured)
+
+        for result in results:
+            performance = measured.get(result.slug)
+            if not performance:
+                continue
+            for guide in result.guides:
+                if guide.content == content:
+                    guide.performance = performance
+
+        print(f"  warcraftlogs: {len(measured)} specs medidas en {zone.name}")
 
 
 def _load_previous() -> dict[str, dict]:
@@ -65,6 +161,7 @@ def build(args: argparse.Namespace) -> int:
     contents = tuple(args.content)
     results: list[SpecGuides] = []
     failures: list[str] = []
+    _pending_warnings = validate.Report()
 
     for spec in specs:
         try:
@@ -76,7 +173,14 @@ def build(args: argparse.Namespace) -> int:
 
     # La cobertura se mide contra el catalogo completo aunque se pidiera un
     # subconjunto; con --spec eso seria ruido, asi que se compara consigo mismo.
+    if not args.no_wowhead:
+        _attach_rotations(fetcher, results, specs, _pending_warnings)
+
+    if not args.no_warcraftlogs:
+        _attach_performance(results, specs, _pending_warnings)
+
     report = validate.validate(results, specs)
+    report.warnings.extend(_pending_warnings.warnings)
     for failure in failures:
         report.warnings.append(f"descarga fallida: {failure}")
 
@@ -96,8 +200,13 @@ def build(args: argparse.Namespace) -> int:
         if spec.guides:
             by_class[spec.class_file].append(spec)
 
-    written = emit_lua.write_all(ADDON_DATA, TOC, by_class, date.today(), SOURCES)
+    # Con --spec el resultado es parcial: reescribir el .toc dejaria fuera las
+    # clases que no se pidieron y el addon cargaria a medias.
+    written = emit_lua.write_all(ADDON_DATA, None if args.spec else TOC,
+                                 by_class, date.today(), SOURCES)
     print(f"\nEscritos {len(written)} ficheros Lua en {ADDON_DATA.relative_to(ROOT)}")
+    if args.spec:
+        print("Build parcial: el .toc no se ha tocado.")
     return 0
 
 
@@ -112,6 +221,10 @@ def main() -> int:
     build_cmd.add_argument("--offline", action="store_true",
                            help="usa solo la cache en disco, sin red")
     build_cmd.add_argument("--talents", help="ruta local a talents.json")
+    build_cmd.add_argument("--no-warcraftlogs", action="store_true",
+                           help="omite la fuente de rendimiento (util al iterar)")
+    build_cmd.add_argument("--no-wowhead", action="store_true",
+                           help="omite la fuente de rotacion (util al iterar)")
     build_cmd.set_defaults(func=build)
 
     args = parser.parse_args()

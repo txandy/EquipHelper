@@ -821,13 +821,93 @@
       ],
       "hero_id": 43,
       "hero_name": "Pack Leader",
+      "performance": {
+        "difficulty": "Mitica+",
+        "median": 171202.6,
+        "metric": "dps",
+        "out_of": 40,
+        "rank": 18,
+        "sample": 300,
+        "top": 274564.0,
+        "zone": "Mythic+ Season 2"
+      },
       "provenance": {
         "mythicstats": {
           "fetched_at": "2026-08-21",
           "url": "https://mythicstats.com/spec/beast-mastery-hunter"
+        },
+        "wowhead": {
+          "fetched_at": "2026-08-21",
+          "url": "https://www.wowhead.com/guide/classes/hunter/beast-mastery/rotation-cooldowns-pve-dps"
         }
       },
-      "rotation": [],
+      "rotation": [
+        {
+          "mode": "st",
+          "note": "Cast if {19574} is available in the next 3 seconds or about to reach 2 charges.",
+          "spell_id": 217200
+        },
+        {
+          "mode": "st",
+          "note": "Cast .",
+          "spell_id": 19574
+        },
+        {
+          "mode": "st",
+          "note": "Cast if you have a {471876} buff or {1273126} active.",
+          "spell_id": 34026
+        },
+        {
+          "mode": "st",
+          "note": "Cast if you have {1299389} active.",
+          "spell_id": 193455
+        },
+        {
+          "mode": "st",
+          "note": "Cast .",
+          "spell_id": 217200
+        },
+        {
+          "mode": "st",
+          "note": "Cast .",
+          "spell_id": 193455
+        },
+        {
+          "mode": "aoe",
+          "note": "Cast on your priority target if you're about to reach 2 charges.",
+          "spell_id": 217200
+        },
+        {
+          "mode": "aoe",
+          "note": "Cast .",
+          "spell_id": 1264359
+        },
+        {
+          "mode": "aoe",
+          "note": "Cast as long as {115939} is active.",
+          "spell_id": 19574
+        },
+        {
+          "mode": "aoe",
+          "note": "Cast if you have a {471876} buff or {1273126} active.",
+          "spell_id": 34026
+        },
+        {
+          "mode": "aoe",
+          "note": "Cast if you have {1299389} active.",
+          "spell_id": 193455
+        },
+        {
+          "mode": "aoe",
+          "note": "Cast on your priority target.",
+          "spell_id": 217200
+        },
+        {
+          "mode": "aoe",
+          "note": "Cast .",
+          "spell_id": 193455
+        }
+      ],
       "stat_priority": [
         {
           "rating": 1059,

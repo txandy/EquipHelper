@@ -219,6 +219,17 @@ end)
 
 SLASH_EQUIPHELPER1 = "/eh"
 SLASH_EQUIPHELPER2 = "/equiphelper"
-SlashCmdList.EQUIPHELPER = function()
-	ns.ToggleMainPanel()
+SlashCmdList.EQUIPHELPER = function(input)
+	local command = (input or ""):lower():match("^%s*(%S*)")
+
+	if command == "tooltips" then
+		local db = ns.db and ns.db.profile
+		if not db then return end
+		db.tooltips = not db.tooltips
+		print(("|cffffd100EquipHelper|r: tooltips %s."):format(db.tooltips and "activados" or "desactivados"))
+	elseif command == "help" then
+		print("|cffffd100EquipHelper|r: /eh abre el panel, /eh tooltips los activa o desactiva.")
+	else
+		ns.ToggleMainPanel()
+	end
 end

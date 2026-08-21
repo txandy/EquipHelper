@@ -12,6 +12,16 @@ ns.Manifest = {
 			label = "Mythicstats",
 			url = "https://mythicstats.com",
 		},
+		{
+			key = "warcraftlogs",
+			label = "Warcraft Logs",
+			url = "https://www.warcraftlogs.com",
+		},
+		{
+			key = "wowhead",
+			label = "Wowhead",
+			url = "https://www.wowhead.com",
+		},
 	},
 	specCount = 40,
 }

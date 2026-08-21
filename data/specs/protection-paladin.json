@@ -871,13 +871,128 @@
       ],
       "hero_id": 49,
       "hero_name": "Lightsmith",
+      "performance": {
+        "difficulty": "Mitica+",
+        "median": 95079.3,
+        "metric": "dps",
+        "out_of": 40,
+        "rank": 32,
+        "sample": 300,
+        "top": 167812.7,
+        "zone": "Mythic+ Season 2"
+      },
       "provenance": {
         "mythicstats": {
           "fetched_at": "2026-08-21",
           "url": "https://mythicstats.com/spec/protection-paladin"
+        },
+        "wowhead": {
+          "fetched_at": "2026-08-21",
+          "url": "https://www.wowhead.com/guide/classes/paladin/protection/rotation-cooldowns-pve-tank"
         }
       },
-      "rotation": [],
+      "rotation": [
+        {
+          "mode": "st",
+          "note": "Cast on cooldown.",
+          "spell_id": 31884
+        },
+        {
+          "mode": "st",
+          "note": "if you aren't inside {31884}.",
+          "spell_id": 432472
+        },
+        {
+          "mode": "st",
+          "note": "Cast when you have 3-5 Holy Power or if it's free. Try not to cap Holy Power.",
+          "spell_id": 53600
+        },
+        {
+          "mode": "st",
+          "note": "Cast on cooldown.",
+          "spell_id": 31935
+        },
+        {
+          "mode": "st",
+          "note": "Cast on cooldown.",
+          "spell_id": 275779
+        },
+        {
+          "mode": "st",
+          "note": "if you have 0 Holy Power. Try to use this on cooldown as much as possible.",
+          "spell_id": 375576
+        },
+        {
+          "mode": "st",
+          "note": "if you have any charges.",
+          "spell_id": 432459
+        },
+        {
+          "mode": "st",
+          "note": "/{53595} on cooldown.",
+          "spell_id": 204019
+        },
+        {
+          "mode": "st",
+          "note": "if your health drops below 50% or to top yourself off if you are in danger of a big hit.",
+          "spell_id": 85673
+        },
+        {
+          "mode": "st",
+          "note": "as a filler.",
+          "spell_id": 26573
+        },
+        {
+          "mode": "aoe",
+          "note": "Cast on cooldown.",
+          "spell_id": 31884
+        },
+        {
+          "mode": "aoe",
+          "note": "if you aren't inside {31884}.",
+          "spell_id": 432472
+        },
+        {
+          "mode": "aoe",
+          "note": "Cast when you have 3-5 Holy Power or if it's free. Try not to cap Holy Power.",
+          "spell_id": 53600
+        },
+        {
+          "mode": "aoe",
+          "note": "Cast on cooldown.",
+          "spell_id": 31935
+        },
+        {
+          "mode": "aoe",
+          "note": "Cast on cooldown.",
+          "spell_id": 275779
+        },
+        {
+          "mode": "aoe",
+          "note": "if you have 0 Holy Power. Try to use this on cooldown as much as possible.",
+          "spell_id": 375576
+        },
+        {
+          "mode": "aoe",
+          "note": "if you have any charges.",
+          "spell_id": 432459
+        },
+        {
+          "mode": "aoe",
+          "note": "/{53595} on cooldown.",
+          "spell_id": 204019
+        },
+        {
+          "mode": "aoe",
+          "note": "if your health drops below 50% or to top yourself off if you are in danger of a big hit.",
+          "spell_id": 85673
+        },
+        {
+          "mode": "aoe",
+          "note": "as a filler.",
+          "spell_id": 26573
+        }
+      ],
       "stat_priority": [
         {
           "rating": 969,
@@ -1874,13 +1989,108 @@
       ],
       "hero_id": 48,
       "hero_name": "Templar",
+      "performance": {
+        "difficulty": "Mitica+",
+        "median": 95079.3,
+        "metric": "dps",
+        "out_of": 40,
+        "rank": 32,
+        "sample": 300,
+        "top": 167812.7,
+        "zone": "Mythic+ Season 2"
+      },
       "provenance": {
         "mythicstats": {
           "fetched_at": "2026-08-21",
           "url": "https://mythicstats.com/spec/protection-paladin"
+        },
+        "wowhead": {
+          "fetched_at": "2026-08-21",
+          "url": "https://www.wowhead.com/guide/classes/paladin/protection/rotation-cooldowns-pve-tank"
         }
       },
-      "rotation": [],
+      "rotation": [
+        {
+          "mode": "st",
+          "note": "Cast on cooldown.",
+          "spell_id": 31884
+        },
+        {
+          "mode": "st",
+          "note": "Cast on cooldown.",
+          "spell_id": 275779
+        },
+        {
+          "mode": "st",
+          "note": "Cast when you have 3-5 Holy Power or if it's free. Try not to cap Holy Power.",
+          "spell_id": 53600
+        },
+        {
+          "mode": "st",
+          "note": "Cast on cooldown.",
+          "spell_id": 31935
+        },
+        {
+          "mode": "st",
+          "note": "if you have 0 Holy Power. Try to use this on cooldown as much as possible.",
+          "spell_id": 375576
+        },
+        {
+          "mode": "st",
+          "note": "/{53595} on cooldown.",
+          "spell_id": 204019
+        },
+        {
+          "mode": "st",
+          "note": "if your health drops below 50% or to top yourself off if you are in danger of a big hit.",
+          "spell_id": 85673
+        },
+        {
+          "mode": "st",
+          "note": "as a filler.",
+          "spell_id": 26573
+        },
+        {
+          "mode": "aoe",
+          "note": "Cast on cooldown.",
+          "spell_id": 31884
+        },
+        {
+          "mode": "aoe",
+          "note": "Cast on cooldown.",
+          "spell_id": 275779
+        },
+        {
+          "mode": "aoe",
+          "note": "Cast when you have 3-5 Holy Power or if it's free. Try not to cap Holy Power.",
+          "spell_id": 53600
+        },
+        {
+          "mode": "aoe",
+          "note": "Cast on cooldown.",
+          "spell_id": 31935
+        },
+        {
+          "mode": "aoe",
+          "note": "if you have 0 Holy Power. Try to use this on cooldown as much as possible.",
+          "spell_id": 375576
+        },
+        {
+          "mode": "aoe",
+          "note": "/{53595} on cooldown.",
+          "spell_id": 204019
+        },
+        {
+          "mode": "aoe",
+          "note": "if your health drops below 50% or to top yourself off if you are in danger of a big hit.",
+          "spell_id": 85673
+        },
+        {
+          "mode": "aoe",
+          "note": "as a filler.",
+          "spell_id": 26573
+        }
+      ],
       "stat_priority": [
         {
           "rating": 969,

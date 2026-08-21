@@ -24,8 +24,13 @@ jobs:
 
       # El build falla solo si los datos no pasan la puerta de calidad, y
       # entonces no emite Lua: preferimos un job en rojo a publicar basura.
+      # Sin los secrets de Warcraft Logs el build sigue: esa fuente se salta con
+      # un aviso en vez de tumbar la publicacion.
       - name: Descargar y regenerar
         run: python -m scraper build
+        env:
+          WCL_CLIENT_ID: ${{ secrets.WCL_CLIENT_ID }}
+          WCL_CLIENT_SECRET: ${{ secrets.WCL_CLIENT_SECRET }}
 
       # PR y no push directo: los datos los mira una persona antes de que
       # lleguen a nadie, y el diff de data/ dice exactamente que cambio.

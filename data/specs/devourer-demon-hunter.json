@@ -881,13 +881,93 @@
       ],
       "hero_id": 124,
       "hero_name": "Annihilator",
+      "performance": {
+        "difficulty": "Mitica+",
+        "median": 187679.1,
+        "metric": "dps",
+        "out_of": 40,
+        "rank": 8,
+        "sample": 300,
+        "top": 290642.1,
+        "zone": "Mythic+ Season 2"
+      },
       "provenance": {
         "mythicstats": {
           "fetched_at": "2026-08-21",
           "url": "https://mythicstats.com/spec/devourer-demon-hunter"
+        },
+        "wowhead": {
+          "fetched_at": "2026-08-21",
+          "url": "https://www.wowhead.com/guide/classes/demon-hunter/devourer/rotation-cooldowns-pve-dps"
         }
       },
-      "rotation": [],
+      "rotation": [
+        {
+          "mode": "st",
+          "note": "Cast if it will trigger {1297432}.",
+          "spell_id": 473662
+        },
+        {
+          "mode": "st",
+          "note": "Cast at 4+ souls.",
+          "spell_id": 1226019
+        },
+        {
+          "mode": "st",
+          "note": "Cast",
+          "spell_id": 1217607
+        },
+        {
+          "mode": "st",
+          "note": "Cast",
+          "spell_id": 473728
+        },
+        {
+          "mode": "st",
+          "note": "Cast",
+          "spell_id": 1241937
+        },
+        {
+          "mode": "st",
+          "note": "Cast",
+          "spell_id": 473662
+        },
+        {
+          "mode": "aoe",
+          "note": "Cast if it will trigger {1297432}.",
+          "spell_id": 473662
+        },
+        {
+          "mode": "aoe",
+          "note": "Cast at 10 souls, or 4+ if it will proc {1256301}",
+          "spell_id": 1226033
+        },
+        {
+          "mode": "aoe",
+          "note": "Cast .",
+          "spell_id": 473728
+        },
+        {
+          "mode": "aoe",
+          "note": "Cast .",
+          "spell_id": 1217607
+        },
+        {
+          "mode": "aoe",
+          "note": "Cast if it will proc {1256301}",
+          "spell_id": 1226019
+        },
+        {
+          "mode": "aoe",
+          "note": "Cast",
+          "spell_id": 1241937
+        },
+        {
+          "mode": "aoe",
+          "note": "Cast",
+          "spell_id": 473662
+        }
+      ],
       "stat_priority": [
         {
           "rating": 988,
@@ -1908,13 +1988,133 @@
       ],
       "hero_id": 126,
       "hero_name": "Void-Scarred",
+      "performance": {
+        "difficulty": "Mitica+",
+        "median": 187679.1,
+        "metric": "dps",
+        "out_of": 40,
+        "rank": 8,
+        "sample": 300,
+        "top": 290642.1,
+        "zone": "Mythic+ Season 2"
+      },
       "provenance": {
         "mythicstats": {
           "fetched_at": "2026-08-21",
           "url": "https://mythicstats.com/spec/devourer-demon-hunter"
+        },
+        "wowhead": {
+          "fetched_at": "2026-08-21",
+          "url": "https://www.wowhead.com/guide/classes/demon-hunter/devourer/rotation-cooldowns-pve-dps"
         }
       },
-      "rotation": [],
+      "rotation": [
+        {
+          "mode": "st",
+          "note": "Cast if it will trigger {1297432}.",
+          "spell_id": 473662
+        },
+        {
+          "mode": "st",
+          "note": "Cast at 4+ souls.",
+          "spell_id": 1226019
+        },
+        {
+          "mode": "st",
+          "note": "Cast if one is not already active.",
+          "spell_id": 1241937
+        },
+        {
+          "mode": "st",
+          "note": "Cast if you are about to enter {1217605}.",
+          "spell_id": 1245412
+        },
+        {
+          "mode": "st",
+          "note": "Cast after {1245412} if about to enter {1217605} and {1246167} is available.",
+          "spell_id": 344866
+        },
+        {
+          "mode": "st",
+          "note": "Cast on cooldown.",
+          "spell_id": 1246167
+        },
+        {
+          "mode": "st",
+          "note": "Cast when available.",
+          "spell_id": 1217605
+        },
+        {
+          "mode": "st",
+          "note": "Cast .",
+          "spell_id": 1239519
+        },
+        {
+          "mode": "st",
+          "note": "Cast if buffed by {1239526}",
+          "spell_id": 198793
+        },
+        {
+          "mode": "st",
+          "note": "Cast .",
+          "spell_id": 473728
+        },
+        {
+          "mode": "st",
+          "note": "Cast .",
+          "spell_id": 473662
+        },
+        {
+          "mode": "aoe",
+          "note": "Cast at 10 souls if it is your first or second cast in this {1217607} window.",
+          "spell_id": 1239524
+        },
+        {
+          "mode": "aoe",
+          "note": "Cast",
+          "spell_id": 473728
+        },
+        {
+          "mode": "aoe",
+          "note": "Cast if it will trigger {1297432} and you have not yet cast your second {473728}.",
+          "spell_id": 1217610
+        },
+        {
+          "mode": "aoe",
+          "note": "Cast .",
+          "spell_id": 1245470
+        },
+        {
+          "mode": "aoe",
+          "note": "Cast if buffed by {1239526}.",
+          "spell_id": 198793
+        },
+        {
+          "mode": "aoe",
+          "note": "Cast .",
+          "spell_id": 1245483
+        },
+        {
+          "mode": "aoe",
+          "note": "Cast .",
+          "spell_id": 1259431
+        },
+        {
+          "mode": "aoe",
+          "note": "Cast if you have not yet cast your second {473728}.",
+          "spell_id": 1217610
+        },
+        {
+          "mode": "aoe",
+          "note": "Cast if you have cast your second {473728}.",
+          "spell_id": 185123
+        },
+        {
+          "mode": "aoe",
+          "note": "Cast at 20 Fury or less remaining, before you drop out of {1217607}.",
+          "spell_id": 1241937
+        }
+      ],
       "stat_priority": [
         {
           "rating": 988,

@@ -886,13 +886,88 @@
       ],
       "hero_id": 35,
       "hero_name": "Aldrachi Reaver",
+      "performance": {
+        "difficulty": "Mitica+",
+        "median": 166471.0,
+        "metric": "dps",
+        "out_of": 40,
+        "rank": 20,
+        "sample": 300,
+        "top": 282542.3,
+        "zone": "Mythic+ Season 2"
+      },
       "provenance": {
         "mythicstats": {
           "fetched_at": "2026-08-21",
           "url": "https://mythicstats.com/spec/havoc-demon-hunter"
+        },
+        "wowhead": {
+          "fetched_at": "2026-08-21",
+          "url": "https://www.wowhead.com/guide/classes/demon-hunter/havoc/rotation-cooldowns-pve-dps"
         }
       },
-      "rotation": [],
+      "rotation": [
+        {
+          "mode": "st",
+          "note": "Cast Once you have spent all reset abilities",
+          "spell_id": 191427
+        },
+        {
+          "mode": "st",
+          "note": "Cast when {198013} cooldown is less than 10 seconds",
+          "spell_id": 370965
+        },
+        {
+          "mode": "st",
+          "note": "Cast if {452402} is available",
+          "spell_id": 210152
+        },
+        {
+          "mode": "st",
+          "note": "Cast if {452402} is available",
+          "spell_id": 201427
+        },
+        {
+          "mode": "st",
+          "note": "Cast",
+          "spell_id": 198013
+        },
+        {
+          "mode": "st",
+          "note": "Cast",
+          "spell_id": 258860
+        },
+        {
+          "mode": "st",
+          "note": "Cast",
+          "spell_id": 210152
+        },
+        {
+          "mode": "st",
+          "note": "Cast",
+          "spell_id": 188499
+        },
+        {
+          "mode": "st",
+          "note": "Cast",
+          "spell_id": 201427
+        },
+        {
+          "mode": "st",
+          "note": "Cast if at 100 Fury or Less",
+          "spell_id": 213241
+        },
+        {
+          "mode": "st",
+          "note": "Cast",
+          "spell_id": 162794
+        },
+        {
+          "mode": "st",
+          "note": "Cast or {195072} when no other abilities are available",
+          "spell_id": 185123
+        }
+      ],
       "stat_priority": [
         {
           "rating": 1140,
@@ -1834,13 +1909,88 @@
       ],
       "hero_id": 34,
       "hero_name": "Fel-Scarred",
+      "performance": {
+        "difficulty": "Mitica+",
+        "median": 166471.0,
+        "metric": "dps",
+        "out_of": 40,
+        "rank": 20,
+        "sample": 300,
+        "top": 282542.3,
+        "zone": "Mythic+ Season 2"
+      },
       "provenance": {
         "mythicstats": {
           "fetched_at": "2026-08-21",
           "url": "https://mythicstats.com/spec/havoc-demon-hunter"
+        },
+        "wowhead": {
+          "fetched_at": "2026-08-21",
+          "url": "https://www.wowhead.com/guide/classes/demon-hunter/havoc/rotation-cooldowns-pve-dps"
         }
       },
-      "rotation": [],
+      "rotation": [
+        {
+          "mode": "st",
+          "note": "Cast Once you have spent all reset abilities",
+          "spell_id": 191427
+        },
+        {
+          "mode": "st",
+          "note": "Cast when {198013} cooldown is less than 10 seconds",
+          "spell_id": 370965
+        },
+        {
+          "mode": "st",
+          "note": "Cast if {452402} is available",
+          "spell_id": 210152
+        },
+        {
+          "mode": "st",
+          "note": "Cast if {452402} is available",
+          "spell_id": 201427
+        },
+        {
+          "mode": "st",
+          "note": "Cast",
+          "spell_id": 198013
+        },
+        {
+          "mode": "st",
+          "note": "Cast",
+          "spell_id": 258860
+        },
+        {
+          "mode": "st",
+          "note": "Cast",
+          "spell_id": 210152
+        },
+        {
+          "mode": "st",
+          "note": "Cast",
+          "spell_id": 188499
+        },
+        {
+          "mode": "st",
+          "note": "Cast",
+          "spell_id": 201427
+        },
+        {
+          "mode": "st",
+          "note": "Cast if at 100 Fury or Less",
+          "spell_id": 213241
+        },
+        {
+          "mode": "st",
+          "note": "Cast",
+          "spell_id": 162794
+        },
+        {
+          "mode": "st",
+          "note": "Cast or {195072} when no other abilities are available",
+          "spell_id": 185123
+        }
+      ],
       "stat_priority": [
         {
           "rating": 1140,

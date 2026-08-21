@@ -597,10 +597,146 @@ ns.RegisterClassData("WARRIOR", {
 								usagePct = 0.6,
 							},
 						},
+						performance = {
+							difficulty = "Mitica+",
+							median = 205536.6,
+							metric = "dps",
+							outOf = 40,
+							rank = 2,
+							sample = 300,
+							top = 319743.7,
+							zone = "Mythic+ Season 2",
+						},
 						provenance = {
 							mythicstats = {
 								fetchedAt = "2026-08-21",
 								url = "https://mythicstats.com/spec/arms-warrior",
+							},
+							wowhead = {
+								fetchedAt = "2026-08-21",
+								url = "https://www.wowhead.com/guide/classes/warrior/arms/rotation-cooldowns-pve-dps",
+							},
+						},
+						rotation = {
+							{
+								mode = "st",
+								note = "to apply or refresh Rend, when less than 10 seconds remaining and Colossus Smash off cooldown",
+								spellID = 845,
+							},
+							{
+								mode = "st",
+								note = "on cooldown",
+								spellID = 107574,
+							},
+							{
+								mode = "st",
+								note = "on cooldown",
+								spellID = 167105,
+							},
+							{
+								mode = "st",
+								note = "with two stacks {280776}",
+								spellID = 163201,
+							},
+							{
+								mode = "st",
+								note = "immediately before Bladestorm, if less than 3 stacks of {444769}",
+								spellID = 163201,
+							},
+							{
+								mode = "st",
+								note = "during Colossus Smash",
+								spellID = 227847,
+							},
+							{
+								mode = "st",
+								spellID = 1269383,
+							},
+							{
+								mode = "st",
+								spellID = 12294,
+							},
+							{
+								mode = "st",
+								note = "during {280776}",
+								spellID = 163201,
+							},
+							{
+								mode = "st",
+								spellID = 7384,
+							},
+							{
+								mode = "st",
+								note = "to refresh Rend with less than 5 seconds remaining",
+								spellID = 845,
+							},
+							{
+								mode = "st",
+								note = "when nothing else is available",
+								spellID = 1464,
+							},
+							{
+								mode = "aoe",
+								note = "on cooldown",
+								spellID = 260708,
+							},
+							{
+								mode = "aoe",
+								note = "early to apply Rend",
+								spellID = 845,
+							},
+							{
+								mode = "aoe",
+								spellID = 107574,
+							},
+							{
+								mode = "aoe",
+								spellID = 167105,
+							},
+							{
+								mode = "aoe",
+								note = "with three stacks of {334779}",
+								spellID = 845,
+							},
+							{
+								mode = "aoe",
+								spellID = 227847,
+							},
+							{
+								mode = "aoe",
+								note = "with two stacks of {280776}",
+								spellID = 163201,
+							},
+							{
+								mode = "aoe",
+								spellID = 845,
+							},
+							{
+								mode = "aoe",
+								note = "with two charges available",
+								spellID = 7384,
+							},
+							{
+								mode = "aoe",
+								note = "with {280776}",
+								spellID = 163201,
+							},
+							{
+								mode = "aoe",
+								spellID = 7384,
+							},
+							{
+								mode = "aoe",
+								spellID = 163201,
+							},
+							{
+								mode = "aoe",
+								spellID = 12294,
+							},
+							{
+								mode = "aoe",
+								note = "if nothing else is available",
+								spellID = 1464,
 							},
 						},
 						statPriority = {
@@ -1401,10 +1537,101 @@ ns.RegisterClassData("WARRIOR", {
 								usagePct = 1.0,
 							},
 						},
+						performance = {
+							difficulty = "Mitica+",
+							median = 177110.1,
+							metric = "dps",
+							outOf = 40,
+							rank = 13,
+							sample = 300,
+							top = 306863.8,
+							zone = "Mythic+ Season 2",
+						},
 						provenance = {
 							mythicstats = {
 								fetchedAt = "2026-08-21",
 								url = "https://mythicstats.com/spec/fury-warrior",
+							},
+							wowhead = {
+								fetchedAt = "2026-08-21",
+								url = "https://www.wowhead.com/guide/classes/warrior/fury/rotation-cooldowns-pve-dps",
+							},
+						},
+						rotation = {
+							{
+								mode = "st",
+								note = "over 100 rage",
+								spellID = 184367,
+							},
+							{
+								mode = "st",
+								note = "as much as possible immediately before using Bladestorm",
+								spellID = 184367,
+							},
+							{
+								mode = "st",
+								spellID = 227847,
+							},
+							{
+								mode = "st",
+								note = "with Sudden Death",
+								spellID = 5308,
+							},
+							{
+								mode = "st",
+								note = "if the {383877} is not active",
+								spellID = 184367,
+							},
+							{
+								mode = "st",
+								spellID = 335097,
+							},
+							{
+								mode = "st",
+								spellID = 385059,
+							},
+							{
+								mode = "st",
+								spellID = 5308,
+							},
+							{
+								mode = "st",
+								spellID = 335096,
+							},
+							{
+								mode = "aoe",
+								note = "if the {85739} buff is not active",
+								spellID = 190411,
+							},
+							{
+								mode = "aoe",
+								note = "as much as possible",
+								spellID = 184367,
+							},
+							{
+								mode = "aoe",
+								spellID = 227847,
+							},
+							{
+								mode = "aoe",
+								note = "with {280721}",
+								spellID = 5308,
+							},
+							{
+								mode = "aoe",
+								spellID = 385059,
+							},
+							{
+								mode = "aoe",
+								spellID = 335097,
+							},
+							{
+								mode = "aoe",
+								spellID = 335096,
+							},
+							{
+								mode = "aoe",
+								spellID = 5308,
 							},
 						},
 						statPriority = {
@@ -2174,10 +2401,115 @@ ns.RegisterClassData("WARRIOR", {
 								usagePct = 1.0,
 							},
 						},
+						performance = {
+							difficulty = "Mitica+",
+							median = 177110.1,
+							metric = "dps",
+							outOf = 40,
+							rank = 13,
+							sample = 300,
+							top = 306863.8,
+							zone = "Mythic+ Season 2",
+						},
 						provenance = {
 							mythicstats = {
 								fetchedAt = "2026-08-21",
 								url = "https://mythicstats.com/spec/fury-warrior",
+							},
+							wowhead = {
+								fetchedAt = "2026-08-21",
+								url = "https://www.wowhead.com/guide/classes/warrior/fury/rotation-cooldowns-pve-dps",
+							},
+						},
+						rotation = {
+							{
+								mode = "st",
+								note = "over 100 rage",
+								spellID = 184367,
+							},
+							{
+								mode = "st",
+								note = "with two stacks available or less than two seconds of Avatar remaining",
+								spellID = 435607,
+							},
+							{
+								mode = "st",
+								note = "twice to apply the Season 2 tier set critical strike buff",
+								spellID = 335096,
+							},
+							{
+								mode = "st",
+								note = "while the {383877} buff is active",
+								spellID = 335097,
+							},
+							{
+								mode = "st",
+								spellID = 335096,
+							},
+							{
+								mode = "st",
+								spellID = 184367,
+							},
+							{
+								mode = "st",
+								spellID = 435607,
+							},
+							{
+								mode = "st",
+								spellID = 335097,
+							},
+							{
+								mode = "st",
+								spellID = 5308,
+							},
+							{
+								mode = "st",
+								note = "when nothing else is available",
+								spellID = 6343,
+							},
+							{
+								mode = "aoe",
+								note = "if Enrage is not already active",
+								spellID = 184367,
+							},
+							{
+								mode = "aoe",
+								spellID = 435607,
+							},
+							{
+								mode = "aoe",
+								note = "if there are more than 6 targets",
+								spellID = 6343,
+							},
+							{
+								mode = "aoe",
+								note = "over 100 rage",
+								spellID = 184367,
+							},
+							{
+								mode = "aoe",
+								spellID = 335096,
+							},
+							{
+								mode = "aoe",
+								note = "with the {383877} active",
+								spellID = 335097,
+							},
+							{
+								mode = "aoe",
+								spellID = 184367,
+							},
+							{
+								mode = "aoe",
+								spellID = 6343,
+							},
+							{
+								mode = "aoe",
+								spellID = 335097,
+							},
+							{
+								mode = "aoe",
+								spellID = 5308,
 							},
 						},
 						statPriority = {
@@ -2858,10 +3190,94 @@ ns.RegisterClassData("WARRIOR", {
 								usagePct = 1.5,
 							},
 						},
+						performance = {
+							difficulty = "Mitica+",
+							median = 104530.3,
+							metric = "dps",
+							outOf = 40,
+							rank = 29,
+							sample = 300,
+							top = 204188.6,
+							zone = "Mythic+ Season 2",
+						},
 						provenance = {
 							mythicstats = {
 								fetchedAt = "2026-08-21",
 								url = "https://mythicstats.com/spec/protection-warrior",
+							},
+							wowhead = {
+								fetchedAt = "2026-08-21",
+								url = "https://www.wowhead.com/guide/classes/warrior/protection/rotation-cooldowns-pve-tank",
+							},
+						},
+						rotation = {
+							{
+								mode = "st",
+								note = "Always into combat.",
+								spellID = 100,
+							},
+							{
+								mode = "st",
+								note = "on cooldown.",
+								spellID = 23922,
+							},
+							{
+								mode = "st",
+								note = "on cooldown and to apply {394062}.",
+								spellID = 6343,
+							},
+							{
+								mode = "st",
+								spellID = 6572,
+							},
+							{
+								mode = "st",
+								note = "Spend excess Rage on .",
+								spellID = 190456,
+							},
+							{
+								mode = "st",
+								note = "targets at or below 20%(35% if you have the talent) health.",
+								spellID = 163201,
+							},
+							{
+								mode = "st",
+								note = "Use if you have low HP!",
+								spellID = 202168,
+							},
+							{
+								mode = "aoe",
+								note = "Always into combat.",
+								spellID = 100,
+							},
+							{
+								mode = "aoe",
+								note = "on cooldown.",
+								spellID = 23922,
+							},
+							{
+								mode = "aoe",
+								note = "on cooldown and to apply {394062}.",
+								spellID = 6343,
+							},
+							{
+								mode = "aoe",
+								spellID = 6572,
+							},
+							{
+								mode = "aoe",
+								note = "Spend excess Rage on .",
+								spellID = 190456,
+							},
+							{
+								mode = "aoe",
+								note = "targets at or below 20%(35% if you have the talent) health.",
+								spellID = 163201,
+							},
+							{
+								mode = "aoe",
+								note = "Use if you have low HP!",
+								spellID = 202168,
 							},
 						},
 						statPriority = {

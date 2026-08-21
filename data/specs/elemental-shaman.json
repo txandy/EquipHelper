@@ -871,13 +871,78 @@
       ],
       "hero_id": 56,
       "hero_name": "Farseer",
+      "performance": {
+        "difficulty": "Mitica+",
+        "median": 202152.5,
+        "metric": "dps",
+        "out_of": 40,
+        "rank": 3,
+        "sample": 300,
+        "top": 354835.1,
+        "zone": "Mythic+ Season 2"
+      },
       "provenance": {
         "mythicstats": {
           "fetched_at": "2026-08-21",
           "url": "https://mythicstats.com/spec/elemental-shaman"
+        },
+        "wowhead": {
+          "fetched_at": "2026-08-21",
+          "url": "https://www.wowhead.com/guide/classes/shaman/elemental/rotation-cooldowns-pve-dps"
         }
       },
-      "rotation": [],
+      "rotation": [
+        {
+          "mode": "st",
+          "note": "Remember to use and {378081} for movement events.",
+          "spell_id": 79206
+        },
+        {
+          "mode": "st",
+          "note": "Cast on cooldown.",
+          "spell_id": 191634
+        },
+        {
+          "mode": "st",
+          "note": "Cast on cooldown.",
+          "spell_id": 443454
+        },
+        {
+          "mode": "st",
+          "note": "Cast roughly on cooldown, but always after {191634}",
+          "spell_id": 114050
+        },
+        {
+          "mode": "st",
+          "note": "Cast as your filler.",
+          "spell_id": 188196
+        },
+        {
+          "mode": "aoe",
+          "note": "Remember to use and {378081} for movement events.",
+          "spell_id": 79206
+        },
+        {
+          "mode": "aoe",
+          "note": "Cast on cooldown.",
+          "spell_id": 191634
+        },
+        {
+          "mode": "aoe",
+          "note": "Cast roughly on cooldown.",
+          "spell_id": 443454
+        },
+        {
+          "mode": "aoe",
+          "note": "Cast roughly on cooldown, but always after {191634}",
+          "spell_id": 114050
+        },
+        {
+          "mode": "aoe",
+          "note": "Cast as your filler.",
+          "spell_id": 188443
+        }
+      ],
       "stat_priority": [
         {
           "rating": 1095,

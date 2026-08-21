@@ -62,7 +62,22 @@ class EnchantEntry:
 @dataclass
 class RotationEntry:
     spell_id: int
-    note: str | None = None
+    note: str | None = None   # puede llevar tokens {spellID} que el addon resuelve
+    mode: str = "st"          # "st" objetivo unico, "aoe" multiples
+
+
+@dataclass
+class Performance:
+    """Como rinde la spec, no como se juega. Viene de Warcraft Logs."""
+
+    metric: str          # "dps" o "hps"
+    median: float
+    top: float
+    sample: int
+    difficulty: str
+    zone: str
+    rank: int = 0
+    out_of: int = 0
 
 
 @dataclass
@@ -84,6 +99,7 @@ class Guide:
     gems: list[GearEntry] = field(default_factory=list)
     enchants: list[EnchantEntry] = field(default_factory=list)
     rotation: list[RotationEntry] = field(default_factory=list)
+    performance: Performance | None = None
     provenance: dict[str, Provenance] = field(default_factory=dict)
 
 

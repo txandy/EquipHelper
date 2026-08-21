@@ -7,7 +7,7 @@ def test_slug_matches_source_url_format(frost_mage):
 
 def test_class_file_uses_wow_token(specs):
     # 'Death Knight' -> DEATHKNIGHT: es la clave que espera el addon.
-    assert {s.class_file for s in specs} == {"MAGE", "WARRIOR"}
+    assert {s.class_file for s in specs} == {"MAGE", "WARRIOR", "MONK"}
 
 
 def test_hero_trees_are_named_and_identified(frost_mage):

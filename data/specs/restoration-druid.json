@@ -871,6 +871,16 @@
       ],
       "hero_id": 22,
       "hero_name": "Wildstalker",
+      "performance": {
+        "difficulty": "Mitica+",
+        "median": 13655.3,
+        "metric": "dps",
+        "out_of": 40,
+        "rank": 40,
+        "sample": 300,
+        "top": 70602.9,
+        "zone": "Mythic+ Season 2"
+      },
       "provenance": {
         "mythicstats": {
           "fetched_at": "2026-08-21",

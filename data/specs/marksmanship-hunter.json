@@ -821,13 +821,133 @@
       ],
       "hero_id": 42,
       "hero_name": "Sentinel",
+      "performance": {
+        "difficulty": "Mitica+",
+        "median": 169065.8,
+        "metric": "dps",
+        "out_of": 40,
+        "rank": 19,
+        "sample": 300,
+        "top": 342778.4,
+        "zone": "Mythic+ Season 2"
+      },
       "provenance": {
         "mythicstats": {
           "fetched_at": "2026-08-21",
           "url": "https://mythicstats.com/spec/marksmanship-hunter"
+        },
+        "wowhead": {
+          "fetched_at": "2026-08-21",
+          "url": "https://www.wowhead.com/guide/classes/hunter/marksmanship/rotation-cooldowns-pve-dps"
         }
       },
-      "rotation": [],
+      "rotation": [
+        {
+          "mode": "st",
+          "note": "Trinket Usage. Use on-use trinkets inside . Stat trinkets gain the most from the window, so they take priority when you have to pick one.",
+          "spell_id": 288613
+        },
+        {
+          "mode": "st",
+          "note": "Cast on cooldown. Thanks to {473520}, you can cast it twice in a row and should do so.",
+          "spell_id": 212431
+        },
+        {
+          "mode": "st",
+          "note": "Cast on cooldown.",
+          "spell_id": 260243
+        },
+        {
+          "mode": "st",
+          "note": "Cast on cooldown, saving your final use of the fight until {204089} reaches 30 stacks.",
+          "spell_id": 288613
+        },
+        {
+          "mode": "st",
+          "note": "Cast if {288613} is about to expire.",
+          "spell_id": 1264902
+        },
+        {
+          "mode": "st",
+          "note": "Cast to spend {260240}.",
+          "spell_id": 53351
+        },
+        {
+          "mode": "st",
+          "note": "Cast to spend {260240}. While {288613} is up, only do so straight after an {19434}.",
+          "spell_id": 185358
+        },
+        {
+          "mode": "st",
+          "note": "Cast on cooldown. Outside of {288613}, clip its last tick with {185358}.",
+          "spell_id": 257044
+        },
+        {
+          "mode": "st",
+          "note": "Cast on cooldown.",
+          "spell_id": 19434
+        },
+        {
+          "mode": "st",
+          "note": "Cast .",
+          "spell_id": 1264902
+        },
+        {
+          "mode": "st",
+          "note": "Cast .",
+          "spell_id": 56641
+        },
+        {
+          "mode": "aoe",
+          "note": "Trinket Usage. Use on-use trinkets inside . Stat trinkets gain the most from the window, so they take priority when you have to pick one.",
+          "spell_id": 288613
+        },
+        {
+          "mode": "aoe",
+          "note": "Cast on cooldown. Thanks to {473520} you get two casts in a row, and they should land on two different targets so that {1296634} reduces your cooldowns twice instead of once.",
+          "spell_id": 212431
+        },
+        {
+          "mode": "aoe",
+          "note": "Cast on cooldown.",
+          "spell_id": 260243
+        },
+        {
+          "mode": "aoe",
+          "note": "Cast on cooldown, saving your final use of the fight until {204089} reaches 30 stacks.",
+          "spell_id": 288613
+        },
+        {
+          "mode": "aoe",
+          "note": "Cast if {288613} is about to expire.",
+          "spell_id": 1264902
+        },
+        {
+          "mode": "aoe",
+          "note": "Cast to spend {260240}, or simply to put {257621} back up when it has dropped.",
+          "spell_id": 257620
+        },
+        {
+          "mode": "aoe",
+          "note": "Cast under {257621}, and clip its last tick with {257620}.",
+          "spell_id": 257044
+        },
+        {
+          "mode": "aoe",
+          "note": "Cast on cooldown with {257621} up.",
+          "spell_id": 19434
+        },
+        {
+          "mode": "aoe",
+          "note": "Cast .",
+          "spell_id": 1264902
+        },
+        {
+          "mode": "aoe",
+          "note": "Cast .",
+          "spell_id": 56641
+        }
+      ],
       "stat_priority": [
         {
           "rating": 1236,

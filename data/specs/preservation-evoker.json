@@ -871,6 +871,16 @@
       ],
       "hero_id": 37,
       "hero_name": "Flameshaper",
+      "performance": {
+        "difficulty": "Mitica+",
+        "median": 38855.3,
+        "metric": "dps",
+        "out_of": 40,
+        "rank": 35,
+        "sample": 300,
+        "top": 100049.5,
+        "zone": "Mythic+ Season 2"
+      },
       "provenance": {
         "mythicstats": {
           "fetched_at": "2026-08-21",

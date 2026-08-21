@@ -871,13 +871,43 @@
       ],
       "hero_id": 39,
       "hero_name": "Sunfury",
+      "performance": {
+        "difficulty": "Mitica+",
+        "median": 214704.9,
+        "metric": "dps",
+        "out_of": 40,
+        "rank": 1,
+        "sample": 300,
+        "top": 324464.2,
+        "zone": "Mythic+ Season 2"
+      },
       "provenance": {
         "mythicstats": {
           "fetched_at": "2026-08-21",
           "url": "https://mythicstats.com/spec/arcane-mage"
+        },
+        "wowhead": {
+          "fetched_at": "2026-08-21",
+          "url": "https://www.wowhead.com/guide/classes/mage/arcane/rotation-cooldowns-pve-dps"
         }
       },
-      "rotation": [],
+      "rotation": [
+        {
+          "mode": "st",
+          "note": null,
+          "spell_id": 365350
+        },
+        {
+          "mode": "st",
+          "note": null,
+          "spell_id": 5143
+        },
+        {
+          "mode": "st",
+          "note": "then {321507} while its midair",
+          "spell_id": 44425
+        }
+      ],
       "stat_priority": [
         {
           "rating": 910,

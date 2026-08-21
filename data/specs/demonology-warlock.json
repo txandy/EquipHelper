@@ -871,13 +871,108 @@
       ],
       "hero_id": 59,
       "hero_name": "Diabolist",
+      "performance": {
+        "difficulty": "Mitica+",
+        "median": 190788.9,
+        "metric": "dps",
+        "out_of": 40,
+        "rank": 7,
+        "sample": 300,
+        "top": 295802.6,
+        "zone": "Mythic+ Season 2"
+      },
       "provenance": {
         "mythicstats": {
           "fetched_at": "2026-08-21",
           "url": "https://mythicstats.com/spec/demonology-warlock"
+        },
+        "wowhead": {
+          "fetched_at": "2026-08-21",
+          "url": "https://www.wowhead.com/guide/classes/warlock/demonology/rotation-cooldowns-pve-dps"
         }
       },
-      "rotation": [],
+      "rotation": [
+        {
+          "mode": "st",
+          "note": "Cast /{196277}.",
+          "spell_id": 264130
+        },
+        {
+          "mode": "st",
+          "note": "Cast .",
+          "spell_id": 104316
+        },
+        {
+          "mode": "st",
+          "note": "Cast /{434635}.",
+          "spell_id": 105174
+        },
+        {
+          "mode": "st",
+          "note": "Cast /{1276467}.",
+          "spell_id": 1276452
+        },
+        {
+          "mode": "st",
+          "note": "Cast .",
+          "spell_id": 265187
+        },
+        {
+          "mode": "st",
+          "note": "Cast .",
+          "spell_id": 1276672
+        },
+        {
+          "mode": "st",
+          "note": "Cast with {267102}.",
+          "spell_id": 264178
+        },
+        {
+          "mode": "st",
+          "note": "Cast /{433891}.",
+          "spell_id": 686
+        },
+        {
+          "mode": "aoe",
+          "note": "Cast .",
+          "spell_id": 196277
+        },
+        {
+          "mode": "aoe",
+          "note": "Cast .",
+          "spell_id": 1276672
+        },
+        {
+          "mode": "aoe",
+          "note": "Cast .",
+          "spell_id": 104316
+        },
+        {
+          "mode": "aoe",
+          "note": "Cast /{434635}.",
+          "spell_id": 105174
+        },
+        {
+          "mode": "aoe",
+          "note": "Cast /{1276467}.",
+          "spell_id": 1276452
+        },
+        {
+          "mode": "aoe",
+          "note": "Cast .",
+          "spell_id": 265187
+        },
+        {
+          "mode": "aoe",
+          "note": "Cast with {267102}.",
+          "spell_id": 264178
+        },
+        {
+          "mode": "aoe",
+          "note": "Cast /{433891}.",
+          "spell_id": 686
+        }
+      ],
       "stat_priority": [
         {
           "rating": 870,

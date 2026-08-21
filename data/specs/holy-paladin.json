@@ -871,13 +871,53 @@
       ],
       "hero_id": 50,
       "hero_name": "Herald of the Sun",
+      "performance": {
+        "difficulty": "Mitica+",
+        "median": 27826.9,
+        "metric": "dps",
+        "out_of": 40,
+        "rank": 37,
+        "sample": 300,
+        "top": 72613.8,
+        "zone": "Mythic+ Season 2"
+      },
       "provenance": {
         "mythicstats": {
           "fetched_at": "2026-08-21",
           "url": "https://mythicstats.com/spec/holy-paladin"
+        },
+        "wowhead": {
+          "fetched_at": "2026-08-21",
+          "url": "https://www.wowhead.com/guide/classes/paladin/holy/rotation-cooldowns-pve-healer"
         }
       },
-      "rotation": [],
+      "rotation": [
+        {
+          "mode": "st",
+          "note": "Spend procs",
+          "spell_id": 53576
+        },
+        {
+          "mode": "st",
+          "note": "Cast on an Ally",
+          "spell_id": 20473
+        },
+        {
+          "mode": "st",
+          "note": "Cast as needed and as mana allows",
+          "spell_id": 82326
+        },
+        {
+          "mode": "st",
+          "note": "Cast",
+          "spell_id": 20271
+        },
+        {
+          "mode": "st",
+          "note": "Cast",
+          "spell_id": 19750
+        }
+      ],
       "stat_priority": [
         {
           "rating": 1068,
@@ -1884,13 +1924,53 @@
       ],
       "hero_id": 49,
       "hero_name": "Lightsmith",
+      "performance": {
+        "difficulty": "Mitica+",
+        "median": 27826.9,
+        "metric": "dps",
+        "out_of": 40,
+        "rank": 37,
+        "sample": 300,
+        "top": 72613.8,
+        "zone": "Mythic+ Season 2"
+      },
       "provenance": {
         "mythicstats": {
           "fetched_at": "2026-08-21",
           "url": "https://mythicstats.com/spec/holy-paladin"
+        },
+        "wowhead": {
+          "fetched_at": "2026-08-21",
+          "url": "https://www.wowhead.com/guide/classes/paladin/holy/rotation-cooldowns-pve-healer"
         }
       },
-      "rotation": [],
+      "rotation": [
+        {
+          "mode": "st",
+          "note": "Spend procs",
+          "spell_id": 53576
+        },
+        {
+          "mode": "st",
+          "note": "Cast on an Ally",
+          "spell_id": 20473
+        },
+        {
+          "mode": "st",
+          "note": "Cast as needed and as mana allows",
+          "spell_id": 82326
+        },
+        {
+          "mode": "st",
+          "note": "Cast",
+          "spell_id": 20271
+        },
+        {
+          "mode": "st",
+          "note": "Cast",
+          "spell_id": 19750
+        }
+      ],
       "stat_priority": [
         {
           "rating": 1068,

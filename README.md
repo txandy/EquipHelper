@@ -23,13 +23,21 @@ aparezca como un diff feo en un PR y no como un addon corrupto en producción.
 - [x] **Fase 1** — Esqueleto del addon: panel con pestañas Stats / Talentos / Rotación / Equipo, detección de spec y hero talent.
 - [x] **Fase 2** — Scraper de Mythicstats + esquema canónico + emisor de Lua + gate de calidad. **40 specs cubiertas.**
 - [x] **Fase 3** — Workflows de CI (scrape diario, test, release).
-- [ ] **Fase 4** — Archon.gg y la API de Warcraft Logs + merge entre fuentes.
-- [ ] **Fase 5** — Wowhead: prioridad de stats y rotación en prosa.
-- [ ] **Fase 6** — Tooltips de objeto enriquecidos.
+- [x] **Fase 4** — API oficial de Warcraft Logs: rendimiento medido por spec. **Archon.gg descartado**, ver abajo.
+- [x] **Fase 5** — Wowhead: listas de prioridad de rotación, separadas por hero talent y por objetivo único / AoE. **35 de 40 specs.**
+- [x] **Fase 6** — Tooltips de objeto enriquecidos.
 
-Los datos son reales: 40 specs, 58 guías (spec × hero talent × M+/banda), con
-prioridad de stats, builds de talentos importables, BiS por ranura, gemas y
-encantamientos. Falta la rotación, que llega en la fase 5 desde Wowhead.
+Los datos son reales: **40 specs, 58 guías** (spec × hero talent × M+/banda),
+con prioridad de stats, builds de talentos importables, BiS por ranura, gemas,
+encantamientos, rotación (51 guías) y rendimiento medido (58 guías).
+
+### Por qué no está Archon.gg
+
+Estaba en el plan y se descartó al inspeccionarlo: publica las builds como IDs
+de nodo (`selectedNodes`), no como import strings. Convertirlos exigiría
+reimplementar la codificación de loadouts de Blizzard, que cambia cada parche.
+Lo demás que ofrece —popularidad, DPS, equipo— ya lo dan Mythicstats y la API
+oficial de Warcraft Logs, de donde Archon deriva sus propios datos.
 
 ## Desarrollo
 
@@ -58,10 +66,37 @@ brew install luajit luarocks
 luarocks --lua-version=5.1 --lua-dir=/opt/homebrew/opt/luajit install luacheck
 ```
 
+## Credenciales
+
+Warcraft Logs necesita una app OAuth (créala en
+[warcraftlogs.com/api/clients](https://www.warcraftlogs.com/api/clients)):
+
+```bash
+export WCL_CLIENT_ID=...
+export WCL_CLIENT_SECRET=...
+```
+
+En local van en un `.env` que git ignora; en CI, como secrets del repo con esos
+mismos nombres. Si faltan, `make build` sigue adelante y solo omite el
+rendimiento.
+
 ## Fuentes y atribución
 
-Los datos proceden de Mythicstats, Archon.gg, Warcraft Logs y Wowhead. Cada
-guía muestra de qué fuente salió y cuándo se descargó. Warcraft Logs se consulta
-por su API oficial; el resto son módulos desacoplables, con rate-limit
-conservador y caché, y el addon degrada a las demás fuentes si una deja de estar
-disponible.
+| Fuente | Qué aporta | Cómo se accede |
+|--------|-----------|----------------|
+| [Mythicstats](https://mythicstats.com) | Builds de talentos importables, BiS, gemas, encantes, prioridad de stats | HTML renderizado en servidor |
+| [Warcraft Logs](https://www.warcraftlogs.com) | Rendimiento medido: mediana del top 100 y puesto por rol | API oficial GraphQL con OAuth |
+| [Wowhead](https://www.wowhead.com) | Listas de prioridad de rotación con sus condiciones | Guía en BBCode dentro de la página |
+
+Cada guía muestra de qué fuente salió y cuándo se descargó. Warcraft Logs se
+consulta por su API oficial; los otros dos son módulos desacoplables, con
+rate-limit de una petición por segundo, caché en disco y User-Agent
+identificable. Si una fuente deja de estar disponible, el build avisa y publica
+sin ella en vez de fallar.
+
+### Las cinco specs sin rotación
+
+`restoration-druid`, `preservation-evoker`, `discipline-priest`, `holy-priest` y
+`mistweaver-monk`. Sus guías de Wowhead explican la rotación en prosa y
+cronogramas, sin listas de prioridad que extraer. Es un límite de la fuente, no
+un fallo del parser: el build lo avisa en cada ejecución.

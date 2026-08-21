@@ -871,13 +871,58 @@
       ],
       "hero_id": 39,
       "hero_name": "Sunfury",
+      "performance": {
+        "difficulty": "Mitica+",
+        "median": 172840.0,
+        "metric": "dps",
+        "out_of": 40,
+        "rank": 17,
+        "sample": 300,
+        "top": 331176.1,
+        "zone": "Mythic+ Season 2"
+      },
       "provenance": {
         "mythicstats": {
           "fetched_at": "2026-08-21",
           "url": "https://mythicstats.com/spec/fire-mage"
+        },
+        "wowhead": {
+          "fetched_at": "2026-08-21",
+          "url": "https://www.wowhead.com/guide/classes/mage/fire/rotation-cooldowns-pve-dps"
         }
       },
-      "rotation": [],
+      "rotation": [
+        {
+          "mode": "st",
+          "note": "with {48108}",
+          "spell_id": 11366
+        },
+        {
+          "mode": "st",
+          "note": "The below casts are used to generate :",
+          "spell_id": 48108
+        },
+        {
+          "mode": "st",
+          "note": ".",
+          "spell_id": 108853
+        },
+        {
+          "mode": "aoe",
+          "note": "with {48108}",
+          "spell_id": 2120
+        },
+        {
+          "mode": "aoe",
+          "note": "The below casts are used to generate :",
+          "spell_id": 48108
+        },
+        {
+          "mode": "aoe",
+          "note": ".",
+          "spell_id": 108853
+        }
+      ],
       "stat_priority": [
         {
           "rating": 1217,

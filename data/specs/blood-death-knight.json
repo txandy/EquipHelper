@@ -811,13 +811,58 @@
       ],
       "hero_id": 33,
       "hero_name": "Deathbringer",
+      "performance": {
+        "difficulty": "Mitica+",
+        "median": 123253.3,
+        "metric": "dps",
+        "out_of": 40,
+        "rank": 28,
+        "sample": 300,
+        "top": 215625.1,
+        "zone": "Mythic+ Season 2"
+      },
       "provenance": {
         "mythicstats": {
           "fetched_at": "2026-08-21",
           "url": "https://mythicstats.com/spec/blood-death-knight"
+        },
+        "wowhead": {
+          "fetched_at": "2026-08-21",
+          "url": "https://www.wowhead.com/guide/classes/death-knight/blood/rotation-cooldowns-pve-tank"
         }
       },
-      "rotation": [],
+      "rotation": [
+        {
+          "mode": "aoe",
+          "note": "Gather the enemies or packs you intend to pull. You can weave , {206930} and {49998} while doing so to build AoE threat",
+          "spell_id": 50842
+        },
+        {
+          "mode": "aoe",
+          "note": "Near the end of your gather, pre-place where you intend to fight",
+          "spell_id": 43265
+        },
+        {
+          "mode": "aoe",
+          "note": "Cast",
+          "spell_id": 439843
+        },
+        {
+          "mode": "aoe",
+          "note": "Cast",
+          "spell_id": 49028
+        },
+        {
+          "mode": "aoe",
+          "note": "Cast",
+          "spell_id": 50842
+        },
+        {
+          "mode": "aoe",
+          "note": "Cast",
+          "spell_id": 49998
+        }
+      ],
       "stat_priority": [
         {
           "rating": 823,
@@ -1670,6 +1715,16 @@
       ],
       "hero_id": 31,
       "hero_name": "San'layn",
+      "performance": {
+        "difficulty": "Mitica+",
+        "median": 123253.3,
+        "metric": "dps",
+        "out_of": 40,
+        "rank": 28,
+        "sample": 300,
+        "top": 215625.1,
+        "zone": "Mythic+ Season 2"
+      },
       "provenance": {
         "mythicstats": {
           "fetched_at": "2026-08-21",

@@ -631,10 +631,101 @@ ns.RegisterClassData("WARLOCK", {
 								usagePct = 1.9,
 							},
 						},
+						performance = {
+							difficulty = "Mitica+",
+							median = 147572.5,
+							metric = "dps",
+							outOf = 40,
+							rank = 25,
+							sample = 300,
+							top = 275306.4,
+							zone = "Mythic+ Season 2",
+						},
 						provenance = {
 							mythicstats = {
 								fetchedAt = "2026-08-21",
 								url = "https://mythicstats.com/spec/affliction-warlock",
+							},
+							wowhead = {
+								fetchedAt = "2026-08-21",
+								url = "https://www.wowhead.com/guide/classes/warlock/affliction/rotation-cooldowns-pve-dps",
+							},
+						},
+						rotation = {
+							{
+								mode = "st",
+								note = "Cast .",
+								spellID = 48181,
+							},
+							{
+								mode = "st",
+								note = "Cast .",
+								spellID = 980,
+							},
+							{
+								mode = "st",
+								note = "Cast .",
+								spellID = 172,
+							},
+							{
+								mode = "st",
+								note = "Cast .",
+								spellID = 205180,
+							},
+							{
+								mode = "st",
+								note = "Cast .",
+								spellID = 316099,
+							},
+							{
+								mode = "st",
+								note = "Cast .",
+								spellID = 1257052,
+							},
+							{
+								mode = "st",
+								note = "Cast .",
+								spellID = 316099,
+							},
+							{
+								mode = "st",
+								note = "Cast .",
+								spellID = 1261149,
+							},
+							{
+								mode = "aoe",
+								note = "Cast .",
+								spellID = 27243,
+							},
+							{
+								mode = "aoe",
+								note = "Cast on your priority target.",
+								spellID = 48181,
+							},
+							{
+								mode = "aoe",
+								note = "Cast on a handful of targets.",
+								spellID = 980,
+							},
+							{
+								mode = "aoe",
+								note = "Cast .",
+								spellID = 205180,
+							},
+							{
+								mode = "aoe",
+								note = "Cast .",
+								spellID = 1257052,
+							},
+							{
+								mode = "aoe",
+								note = "Cast as many times as possible.",
+								spellID = 27243,
+							},
+							{
+								mode = "aoe",
+								note = "Cast .",
+								spellID = 1261149,
 							},
 						},
 						statPriority = {
@@ -1385,10 +1476,106 @@ ns.RegisterClassData("WARLOCK", {
 								usagePct = 1.3,
 							},
 						},
+						performance = {
+							difficulty = "Mitica+",
+							median = 190788.9,
+							metric = "dps",
+							outOf = 40,
+							rank = 7,
+							sample = 300,
+							top = 295802.6,
+							zone = "Mythic+ Season 2",
+						},
 						provenance = {
 							mythicstats = {
 								fetchedAt = "2026-08-21",
 								url = "https://mythicstats.com/spec/demonology-warlock",
+							},
+							wowhead = {
+								fetchedAt = "2026-08-21",
+								url = "https://www.wowhead.com/guide/classes/warlock/demonology/rotation-cooldowns-pve-dps",
+							},
+						},
+						rotation = {
+							{
+								mode = "st",
+								note = "Cast /{196277}.",
+								spellID = 264130,
+							},
+							{
+								mode = "st",
+								note = "Cast .",
+								spellID = 104316,
+							},
+							{
+								mode = "st",
+								note = "Cast /{434635}.",
+								spellID = 105174,
+							},
+							{
+								mode = "st",
+								note = "Cast /{1276467}.",
+								spellID = 1276452,
+							},
+							{
+								mode = "st",
+								note = "Cast .",
+								spellID = 265187,
+							},
+							{
+								mode = "st",
+								note = "Cast .",
+								spellID = 1276672,
+							},
+							{
+								mode = "st",
+								note = "Cast with {267102}.",
+								spellID = 264178,
+							},
+							{
+								mode = "st",
+								note = "Cast /{433891}.",
+								spellID = 686,
+							},
+							{
+								mode = "aoe",
+								note = "Cast .",
+								spellID = 196277,
+							},
+							{
+								mode = "aoe",
+								note = "Cast .",
+								spellID = 1276672,
+							},
+							{
+								mode = "aoe",
+								note = "Cast .",
+								spellID = 104316,
+							},
+							{
+								mode = "aoe",
+								note = "Cast /{434635}.",
+								spellID = 105174,
+							},
+							{
+								mode = "aoe",
+								note = "Cast /{1276467}.",
+								spellID = 1276452,
+							},
+							{
+								mode = "aoe",
+								note = "Cast .",
+								spellID = 265187,
+							},
+							{
+								mode = "aoe",
+								note = "Cast with {267102}.",
+								spellID = 264178,
+							},
+							{
+								mode = "aoe",
+								note = "Cast /{433891}.",
+								spellID = 686,
 							},
 						},
 						statPriority = {
@@ -2178,10 +2365,81 @@ ns.RegisterClassData("WARLOCK", {
 								usagePct = 1.8,
 							},
 						},
+						performance = {
+							difficulty = "Mitica+",
+							median = 158948.0,
+							metric = "dps",
+							outOf = 40,
+							rank = 22,
+							sample = 300,
+							top = 280870.6,
+							zone = "Mythic+ Season 2",
+						},
 						provenance = {
 							mythicstats = {
 								fetchedAt = "2026-08-21",
 								url = "https://mythicstats.com/spec/destruction-warlock",
+							},
+							wowhead = {
+								fetchedAt = "2026-08-21",
+								url = "https://www.wowhead.com/guide/classes/warlock/destruction/rotation-cooldowns-pve-dps",
+							},
+						},
+						rotation = {
+							{
+								mode = "st",
+								note = "Maintain",
+								spellID = 445468,
+							},
+							{
+								mode = "st",
+								note = "Cast when available, and if you are about to cap on soul shards",
+								spellID = 17877,
+							},
+							{
+								mode = "st",
+								note = "Cast to avoid capping soul shards",
+								spellID = 116858,
+							},
+							{
+								mode = "st",
+								note = "when available, and you have less than 4 soul shards",
+								spellID = 6353,
+							},
+							{
+								mode = "st",
+								note = "Cast to keep this below 2 stacks or when moving",
+								spellID = 17962,
+							},
+							{
+								mode = "st",
+								note = "Cast to generate soul shards and generate {196406} stacks. Try to use these on {116858} as much as possible.",
+								spellID = 17962,
+							},
+							{
+								mode = "st",
+								note = "Cast to generate soul shards",
+								spellID = 29722,
+							},
+							{
+								mode = "aoe",
+								note = "Maintain on as many targets as possible",
+								spellID = 445465,
+							},
+							{
+								mode = "aoe",
+								note = "cast when you have as many enemies affected by {445465} as possible",
+								spellID = 430014,
+							},
+							{
+								mode = "aoe",
+								note = "Cast to generate soul shards and {196406} stacks",
+								spellID = 17962,
+							},
+							{
+								mode = "aoe",
+								note = "Cast to generate soul shards",
+								spellID = 29722,
 							},
 						},
 						statPriority = {
@@ -2849,10 +3107,86 @@ ns.RegisterClassData("WARLOCK", {
 								usagePct = 1.8,
 							},
 						},
+						performance = {
+							difficulty = "Mitica+",
+							median = 158948.0,
+							metric = "dps",
+							outOf = 40,
+							rank = 22,
+							sample = 300,
+							top = 280870.6,
+							zone = "Mythic+ Season 2",
+						},
 						provenance = {
 							mythicstats = {
 								fetchedAt = "2026-08-21",
 								url = "https://mythicstats.com/spec/destruction-warlock",
+							},
+							wowhead = {
+								fetchedAt = "2026-08-21",
+								url = "https://www.wowhead.com/guide/classes/warlock/destruction/rotation-cooldowns-pve-dps",
+							},
+						},
+						rotation = {
+							{
+								mode = "st",
+								note = "Maintain .",
+								spellID = 348,
+							},
+							{
+								mode = "st",
+								note = "Cast when available, and if you are about to cap on soul shards",
+								spellID = 17877,
+							},
+							{
+								mode = "st",
+								note = "Cast to avoid capping soul shards",
+								spellID = 116858,
+							},
+							{
+								mode = "st",
+								note = "Cast if you have more than 4 soul shards and {433891} ready",
+								spellID = 116858,
+							},
+							{
+								mode = "st",
+								note = "when available, and you have less than 4 soul shards",
+								spellID = 6353,
+							},
+							{
+								mode = "st",
+								note = "Cast to keep this below 2 stacks or when moving",
+								spellID = 17962,
+							},
+							{
+								mode = "st",
+								note = "Cast to generate soul shards and generate {196406} stacks. Try to use these on {116858} as much as possible.",
+								spellID = 17962,
+							},
+							{
+								mode = "st",
+								note = "Cast to generate soul shards",
+								spellID = 29722,
+							},
+							{
+								mode = "aoe",
+								note = "Maintain on your main target, as well as any target you expect lives longer than 10 seconds",
+								spellID = 348,
+							},
+							{
+								mode = "aoe",
+								note = "Make sure you have no more than 2 soul shards before casting",
+								spellID = 433891,
+							},
+							{
+								mode = "aoe",
+								note = "Cast to generate soul shards and {196406} stacks",
+								spellID = 17962,
+							},
+							{
+								mode = "aoe",
+								note = "Cast to generate soul shards",
+								spellID = 29722,
 							},
 						},
 						statPriority = {

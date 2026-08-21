@@ -22,7 +22,7 @@ globals = {
 
 read_globals = {
 	-- Base
-	"CreateFrame", "UIParent", "GameTooltip", "GameTooltip_Hide", "PlaySound",
+	"print", "CreateFrame", "UIParent", "GameTooltip", "GameTooltip_Hide", "PlaySound", "tonumber",
 	"SOUNDKIT", "time", "tinsert", "select", "Item", "ITEM_QUALITY_COLORS",
 	"ChatFontNormal", "InputBoxTemplate",
 	-- Info de jugador / spec / talentos
@@ -32,6 +32,7 @@ read_globals = {
 	"LOCALIZED_CLASS_NAMES_MALE",
 	-- Plantillas y helpers de UI
 	"PanelTemplates_SetNumTabs", "PanelTemplates_SetTab",
+	"TooltipDataProcessor", "Enum", "ItemRefTooltip",
 	"ButtonFrameTemplate_HideButtonBar",
 	-- Cadenas localizadas
 	"STAT_CRITICAL_STRIKE", "STAT_HASTE", "STAT_MASTERY", "STAT_VERSATILITY",

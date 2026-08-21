@@ -886,13 +886,98 @@
       ],
       "hero_id": 43,
       "hero_name": "Pack Leader",
+      "performance": {
+        "difficulty": "Mitica+",
+        "median": 151055.1,
+        "metric": "dps",
+        "out_of": 40,
+        "rank": 24,
+        "sample": 300,
+        "top": 277291.8,
+        "zone": "Mythic+ Season 2"
+      },
       "provenance": {
         "mythicstats": {
           "fetched_at": "2026-08-21",
           "url": "https://mythicstats.com/spec/survival-hunter"
+        },
+        "wowhead": {
+          "fetched_at": "2026-08-21",
+          "url": "https://www.wowhead.com/guide/classes/hunter/survival/rotation-cooldowns-pve-dps"
         }
       },
-      "rotation": [],
+      "rotation": [
+        {
+          "mode": "st",
+          "note": "Cast if it is not yet active.",
+          "spell_id": 257284
+        },
+        {
+          "mode": "st",
+          "note": "Cast whenever any of the {471878} beasts are available to summon, without wasting any {260285} stacks. .",
+          "spell_id": 259489
+        },
+        {
+          "mode": "st",
+          "note": "Cast if you have a {260285} stack to spend.",
+          "spell_id": 259495
+        },
+        {
+          "mode": "st",
+          "note": "Cast if you have a {260285} stack to spend.",
+          "spell_id": 1261193
+        },
+        {
+          "mode": "st",
+          "note": "Cast if you have a {260285} stack to spend.",
+          "spell_id": 1259003
+        },
+        {
+          "mode": "st",
+          "note": "Cast with or without a {260285} to spend.",
+          "spell_id": 186270
+        },
+        {
+          "mode": "st",
+          "note": "Cast .",
+          "spell_id": 259489
+        },
+        {
+          "mode": "aoe",
+          "note": "Cast if it is not yet active.",
+          "spell_id": 257284
+        },
+        {
+          "mode": "aoe",
+          "note": "Cast whenever any of the {471878} beasts are available to summon, without wasting any {260285} stacks. .",
+          "spell_id": 259489
+        },
+        {
+          "mode": "aoe",
+          "note": "Cast if you have a {260285} stack to spend",
+          "spell_id": 1261193
+        },
+        {
+          "mode": "aoe",
+          "note": "Cast if you have a {260285} stack to spend.",
+          "spell_id": 259495
+        },
+        {
+          "mode": "aoe",
+          "note": "Cast if you have a {260285} stack to spend.",
+          "spell_id": 1259003
+        },
+        {
+          "mode": "aoe",
+          "note": "Cast with or without a {260285} to spend",
+          "spell_id": 186270
+        },
+        {
+          "mode": "aoe",
+          "note": "Cast .",
+          "spell_id": 259489
+        }
+      ],
       "stat_priority": [
         {
           "rating": 1129,
@@ -1862,13 +1947,98 @@
       ],
       "hero_id": 42,
       "hero_name": "Sentinel",
+      "performance": {
+        "difficulty": "Mitica+",
+        "median": 151055.1,
+        "metric": "dps",
+        "out_of": 40,
+        "rank": 24,
+        "sample": 300,
+        "top": 277291.8,
+        "zone": "Mythic+ Season 2"
+      },
       "provenance": {
         "mythicstats": {
           "fetched_at": "2026-08-21",
           "url": "https://mythicstats.com/spec/survival-hunter"
+        },
+        "wowhead": {
+          "fetched_at": "2026-08-21",
+          "url": "https://www.wowhead.com/guide/classes/hunter/survival/rotation-cooldowns-pve-dps"
         }
       },
-      "rotation": [],
+      "rotation": [
+        {
+          "mode": "st",
+          "note": "Cast if it is not yet active.",
+          "spell_id": 257284
+        },
+        {
+          "mode": "st",
+          "note": "Cast if you have a {260285} stack to spend and your target is not affected by {1253601}.",
+          "spell_id": 1261193
+        },
+        {
+          "mode": "st",
+          "note": "Cast if you have a {260285} stack to spend under the following circumstances: - If your target is affected by {1253601}. - If there is around 4-6 seconds remaining until {259495} is fully recharged.",
+          "spell_id": 259495
+        },
+        {
+          "mode": "st",
+          "note": "Cast if you have a {260285} stack to spend.",
+          "spell_id": 1264949
+        },
+        {
+          "mode": "st",
+          "note": "Cast . if you have a {260285} stack to spend.",
+          "spell_id": 1262293
+        },
+        {
+          "mode": "st",
+          "note": "Cast .",
+          "spell_id": 186270
+        },
+        {
+          "mode": "aoe",
+          "note": "Cast if it is not yet active.",
+          "spell_id": 257284
+        },
+        {
+          "mode": "aoe",
+          "note": "Cast whenever you run out of {260285} stacks.",
+          "spell_id": 259489
+        },
+        {
+          "mode": "aoe",
+          "note": "Cast if you have a {260285} stack to spend/",
+          "spell_id": 1261193
+        },
+        {
+          "mode": "aoe",
+          "note": "Cast if you have a {260285} stack to spend. Ideally you should directly target mobs that have {1253601} if available, but this can be ignored if you are trying to prioritise a bulky mob.",
+          "spell_id": 259495
+        },
+        {
+          "mode": "aoe",
+          "note": "Cast if you have a {260285} stack to spend. If your target already has {1253601} on them, try to swap to another target first.",
+          "spell_id": 1250646
+        },
+        {
+          "mode": "aoe",
+          "note": "Cast if you have a {260285} stack to spend.",
+          "spell_id": 1264949
+        },
+        {
+          "mode": "aoe",
+          "note": "Cast . if you have a {260285} stack to spend.",
+          "spell_id": 1262343
+        },
+        {
+          "mode": "aoe",
+          "note": "Cast .",
+          "spell_id": 186270
+        }
+      ],
       "stat_priority": [
         {
           "rating": 1129,

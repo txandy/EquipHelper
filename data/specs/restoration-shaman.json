@@ -871,13 +871,58 @@
       ],
       "hero_id": 54,
       "hero_name": "Totemic",
+      "performance": {
+        "difficulty": "Mitica+",
+        "median": 32965.9,
+        "metric": "dps",
+        "out_of": 40,
+        "rank": 36,
+        "sample": 300,
+        "top": 51846.0,
+        "zone": "Mythic+ Season 2"
+      },
       "provenance": {
         "mythicstats": {
           "fetched_at": "2026-08-21",
           "url": "https://mythicstats.com/spec/restoration-shaman"
+        },
+        "wowhead": {
+          "fetched_at": "2026-08-21",
+          "url": "https://www.wowhead.com/guide/classes/shaman/restoration/rotation-cooldowns-pve-healer"
         }
       },
-      "rotation": [],
+      "rotation": [
+        {
+          "mode": "st",
+          "note": "Use all your procs",
+          "spell_id": 1267068
+        },
+        {
+          "mode": "st",
+          "note": "Keep on cooldown",
+          "spell_id": 61295
+        },
+        {
+          "mode": "st",
+          "note": "Use",
+          "spell_id": 378081
+        },
+        {
+          "mode": "st",
+          "note": "Maintain",
+          "spell_id": 444995
+        },
+        {
+          "mode": "st",
+          "note": "Keep on cooldown",
+          "spell_id": 5394
+        },
+        {
+          "mode": "st",
+          "note": "Cast or {77472}",
+          "spell_id": 1064
+        }
+      ],
       "stat_priority": [
         {
           "rating": 929,

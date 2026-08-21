@@ -631,10 +631,51 @@ ns.RegisterClassData("PALADIN", {
 								usagePct = 3.4,
 							},
 						},
+						performance = {
+							difficulty = "Mitica+",
+							median = 27826.9,
+							metric = "dps",
+							outOf = 40,
+							rank = 37,
+							sample = 300,
+							top = 72613.8,
+							zone = "Mythic+ Season 2",
+						},
 						provenance = {
 							mythicstats = {
 								fetchedAt = "2026-08-21",
 								url = "https://mythicstats.com/spec/holy-paladin",
+							},
+							wowhead = {
+								fetchedAt = "2026-08-21",
+								url = "https://www.wowhead.com/guide/classes/paladin/holy/rotation-cooldowns-pve-healer",
+							},
+						},
+						rotation = {
+							{
+								mode = "st",
+								note = "Spend procs",
+								spellID = 53576,
+							},
+							{
+								mode = "st",
+								note = "Cast on an Ally",
+								spellID = 20473,
+							},
+							{
+								mode = "st",
+								note = "Cast as needed and as mana allows",
+								spellID = 82326,
+							},
+							{
+								mode = "st",
+								note = "Cast",
+								spellID = 20271,
+							},
+							{
+								mode = "st",
+								note = "Cast",
+								spellID = 19750,
 							},
 						},
 						statPriority = {
@@ -1300,10 +1341,51 @@ ns.RegisterClassData("PALADIN", {
 								usagePct = 3.4,
 							},
 						},
+						performance = {
+							difficulty = "Mitica+",
+							median = 27826.9,
+							metric = "dps",
+							outOf = 40,
+							rank = 37,
+							sample = 300,
+							top = 72613.8,
+							zone = "Mythic+ Season 2",
+						},
 						provenance = {
 							mythicstats = {
 								fetchedAt = "2026-08-21",
 								url = "https://mythicstats.com/spec/holy-paladin",
+							},
+							wowhead = {
+								fetchedAt = "2026-08-21",
+								url = "https://www.wowhead.com/guide/classes/paladin/holy/rotation-cooldowns-pve-healer",
+							},
+						},
+						rotation = {
+							{
+								mode = "st",
+								note = "Spend procs",
+								spellID = 53576,
+							},
+							{
+								mode = "st",
+								note = "Cast on an Ally",
+								spellID = 20473,
+							},
+							{
+								mode = "st",
+								note = "Cast as needed and as mana allows",
+								spellID = 82326,
+							},
+							{
+								mode = "st",
+								note = "Cast",
+								spellID = 20271,
+							},
+							{
+								mode = "st",
+								note = "Cast",
+								spellID = 19750,
 							},
 						},
 						statPriority = {
@@ -2062,10 +2144,106 @@ ns.RegisterClassData("PALADIN", {
 								usagePct = 2.6,
 							},
 						},
+						performance = {
+							difficulty = "Mitica+",
+							median = 95079.3,
+							metric = "dps",
+							outOf = 40,
+							rank = 32,
+							sample = 300,
+							top = 167812.7,
+							zone = "Mythic+ Season 2",
+						},
 						provenance = {
 							mythicstats = {
 								fetchedAt = "2026-08-21",
 								url = "https://mythicstats.com/spec/protection-paladin",
+							},
+							wowhead = {
+								fetchedAt = "2026-08-21",
+								url = "https://www.wowhead.com/guide/classes/paladin/protection/rotation-cooldowns-pve-tank",
+							},
+						},
+						rotation = {
+							{
+								mode = "st",
+								note = "Cast on cooldown.",
+								spellID = 31884,
+							},
+							{
+								mode = "st",
+								note = "Cast on cooldown.",
+								spellID = 275779,
+							},
+							{
+								mode = "st",
+								note = "Cast when you have 3-5 Holy Power or if it's free. Try not to cap Holy Power.",
+								spellID = 53600,
+							},
+							{
+								mode = "st",
+								note = "Cast on cooldown.",
+								spellID = 31935,
+							},
+							{
+								mode = "st",
+								note = "if you have 0 Holy Power. Try to use this on cooldown as much as possible.",
+								spellID = 375576,
+							},
+							{
+								mode = "st",
+								note = "/{53595} on cooldown.",
+								spellID = 204019,
+							},
+							{
+								mode = "st",
+								note = "if your health drops below 50% or to top yourself off if you are in danger of a big hit.",
+								spellID = 85673,
+							},
+							{
+								mode = "st",
+								note = "as a filler.",
+								spellID = 26573,
+							},
+							{
+								mode = "aoe",
+								note = "Cast on cooldown.",
+								spellID = 31884,
+							},
+							{
+								mode = "aoe",
+								note = "Cast on cooldown.",
+								spellID = 275779,
+							},
+							{
+								mode = "aoe",
+								note = "Cast when you have 3-5 Holy Power or if it's free. Try not to cap Holy Power.",
+								spellID = 53600,
+							},
+							{
+								mode = "aoe",
+								note = "Cast on cooldown.",
+								spellID = 31935,
+							},
+							{
+								mode = "aoe",
+								note = "if you have 0 Holy Power. Try to use this on cooldown as much as possible.",
+								spellID = 375576,
+							},
+							{
+								mode = "aoe",
+								note = "/{53595} on cooldown.",
+								spellID = 204019,
+							},
+							{
+								mode = "aoe",
+								note = "if your health drops below 50% or to top yourself off if you are in danger of a big hit.",
+								spellID = 85673,
+							},
+							{
+								mode = "aoe",
+								note = "as a filler.",
+								spellID = 26573,
 							},
 						},
 						statPriority = {
@@ -2733,10 +2911,126 @@ ns.RegisterClassData("PALADIN", {
 								usagePct = 2.6,
 							},
 						},
+						performance = {
+							difficulty = "Mitica+",
+							median = 95079.3,
+							metric = "dps",
+							outOf = 40,
+							rank = 32,
+							sample = 300,
+							top = 167812.7,
+							zone = "Mythic+ Season 2",
+						},
 						provenance = {
 							mythicstats = {
 								fetchedAt = "2026-08-21",
 								url = "https://mythicstats.com/spec/protection-paladin",
+							},
+							wowhead = {
+								fetchedAt = "2026-08-21",
+								url = "https://www.wowhead.com/guide/classes/paladin/protection/rotation-cooldowns-pve-tank",
+							},
+						},
+						rotation = {
+							{
+								mode = "st",
+								note = "Cast on cooldown.",
+								spellID = 31884,
+							},
+							{
+								mode = "st",
+								note = "if you aren't inside {31884}.",
+								spellID = 432472,
+							},
+							{
+								mode = "st",
+								note = "Cast when you have 3-5 Holy Power or if it's free. Try not to cap Holy Power.",
+								spellID = 53600,
+							},
+							{
+								mode = "st",
+								note = "Cast on cooldown.",
+								spellID = 31935,
+							},
+							{
+								mode = "st",
+								note = "Cast on cooldown.",
+								spellID = 275779,
+							},
+							{
+								mode = "st",
+								note = "if you have 0 Holy Power. Try to use this on cooldown as much as possible.",
+								spellID = 375576,
+							},
+							{
+								mode = "st",
+								note = "if you have any charges.",
+								spellID = 432459,
+							},
+							{
+								mode = "st",
+								note = "/{53595} on cooldown.",
+								spellID = 204019,
+							},
+							{
+								mode = "st",
+								note = "if your health drops below 50% or to top yourself off if you are in danger of a big hit.",
+								spellID = 85673,
+							},
+							{
+								mode = "st",
+								note = "as a filler.",
+								spellID = 26573,
+							},
+							{
+								mode = "aoe",
+								note = "Cast on cooldown.",
+								spellID = 31884,
+							},
+							{
+								mode = "aoe",
+								note = "if you aren't inside {31884}.",
+								spellID = 432472,
+							},
+							{
+								mode = "aoe",
+								note = "Cast when you have 3-5 Holy Power or if it's free. Try not to cap Holy Power.",
+								spellID = 53600,
+							},
+							{
+								mode = "aoe",
+								note = "Cast on cooldown.",
+								spellID = 31935,
+							},
+							{
+								mode = "aoe",
+								note = "Cast on cooldown.",
+								spellID = 275779,
+							},
+							{
+								mode = "aoe",
+								note = "if you have 0 Holy Power. Try to use this on cooldown as much as possible.",
+								spellID = 375576,
+							},
+							{
+								mode = "aoe",
+								note = "if you have any charges.",
+								spellID = 432459,
+							},
+							{
+								mode = "aoe",
+								note = "/{53595} on cooldown.",
+								spellID = 204019,
+							},
+							{
+								mode = "aoe",
+								note = "if your health drops below 50% or to top yourself off if you are in danger of a big hit.",
+								spellID = 85673,
+							},
+							{
+								mode = "aoe",
+								note = "as a filler.",
+								spellID = 26573,
 							},
 						},
 						statPriority = {
@@ -3453,10 +3747,166 @@ ns.RegisterClassData("PALADIN", {
 								usagePct = 0.6,
 							},
 						},
+						performance = {
+							difficulty = "Mitica+",
+							median = 187573.2,
+							metric = "dps",
+							outOf = 40,
+							rank = 9,
+							sample = 300,
+							top = 346092.1,
+							zone = "Mythic+ Season 2",
+						},
 						provenance = {
 							mythicstats = {
 								fetchedAt = "2026-08-21",
 								url = "https://mythicstats.com/spec/retribution-paladin",
+							},
+							wowhead = {
+								fetchedAt = "2026-08-21",
+								url = "https://www.wowhead.com/guide/classes/paladin/retribution/rotation-cooldowns-pve-dps",
+							},
+						},
+						rotation = {
+							{
+								mode = "st",
+								note = "Cast",
+								spellID = 31884,
+							},
+							{
+								mode = "st",
+								note = "Cast",
+								spellID = 343527,
+							},
+							{
+								mode = "st",
+								note = "Cast if it's castable after using {255937}",
+								spellID = 427453,
+							},
+							{
+								mode = "st",
+								note = "Cast with a {425518} proc in any one of the following situations: \\t\\t\\t{31884} or {343527} is up, but will end within a few seconds",
+								spellID = 427453,
+							},
+							{
+								mode = "st",
+								note = "You don't have the Haste buff from up, and {31884} won't come off cooldown for at least 5 seconds",
+								spellID = 432626,
+							},
+							{
+								mode = "st",
+								note = "Cast with 5 Holy Power",
+								spellID = 383328,
+							},
+							{
+								mode = "st",
+								note = "Cast",
+								spellID = 255937,
+							},
+							{
+								mode = "st",
+								note = "Cast",
+								spellID = 375576,
+							},
+							{
+								mode = "st",
+								note = "Cast with 2 stacks of {406064}",
+								spellID = 184575,
+							},
+							{
+								mode = "st",
+								note = "Cast",
+								spellID = 383328,
+							},
+							{
+								mode = "st",
+								note = "Cast",
+								spellID = 184575,
+							},
+							{
+								mode = "st",
+								note = "Cast",
+								spellID = 24275,
+							},
+							{
+								mode = "st",
+								note = "Cast",
+								spellID = 20271,
+							},
+							{
+								mode = "aoe",
+								note = "Cast",
+								spellID = 31884,
+							},
+							{
+								mode = "aoe",
+								note = "Cast",
+								spellID = 343527,
+							},
+							{
+								mode = "aoe",
+								note = "Cast if it's castable after using {255937}",
+								spellID = 427453,
+							},
+							{
+								mode = "aoe",
+								note = "Cast with a {425518} proc in any one of the following situations: \\t\\t\\t{31884} or {343527} is up, but will end within a few seconds",
+								spellID = 427453,
+							},
+							{
+								mode = "aoe",
+								note = "You don't have the Haste buff from up, and {31884} won't come off cooldown for at least 5 seconds",
+								spellID = 432626,
+							},
+							{
+								mode = "aoe",
+								note = "On 2-4 targets: Cast with a {1306161} proc from {53385} and 5 Holy Power",
+								spellID = 383328,
+							},
+							{
+								mode = "aoe",
+								note = "Cast with 5 Holy Power",
+								spellID = 53385,
+							},
+							{
+								mode = "aoe",
+								note = "Cast",
+								spellID = 255937,
+							},
+							{
+								mode = "aoe",
+								note = "Cast",
+								spellID = 375576,
+							},
+							{
+								mode = "aoe",
+								note = "Cast with 2 stacks of {406064}",
+								spellID = 184575,
+							},
+							{
+								mode = "aoe",
+								note = "On 2-4 targets: Cast with a {1306161} proc from {53385}",
+								spellID = 383328,
+							},
+							{
+								mode = "aoe",
+								note = "Cast",
+								spellID = 53385,
+							},
+							{
+								mode = "aoe",
+								note = "Cast",
+								spellID = 184575,
+							},
+							{
+								mode = "aoe",
+								note = "Cast",
+								spellID = 24275,
+							},
+							{
+								mode = "aoe",
+								note = "Cast",
+								spellID = 20271,
 							},
 						},
 						statPriority = {
@@ -4181,10 +4631,146 @@ ns.RegisterClassData("PALADIN", {
 								usagePct = 0.6,
 							},
 						},
+						performance = {
+							difficulty = "Mitica+",
+							median = 187573.2,
+							metric = "dps",
+							outOf = 40,
+							rank = 9,
+							sample = 300,
+							top = 346092.1,
+							zone = "Mythic+ Season 2",
+						},
 						provenance = {
 							mythicstats = {
 								fetchedAt = "2026-08-21",
 								url = "https://mythicstats.com/spec/retribution-paladin",
+							},
+							wowhead = {
+								fetchedAt = "2026-08-21",
+								url = "https://www.wowhead.com/guide/classes/paladin/retribution/rotation-cooldowns-pve-dps",
+							},
+						},
+						rotation = {
+							{
+								mode = "st",
+								note = "Cast",
+								spellID = 31884,
+							},
+							{
+								mode = "st",
+								note = "Cast",
+								spellID = 343527,
+							},
+							{
+								mode = "st",
+								note = "Cast with a {1306161} proc from {383328} and 5 Holy Power",
+								spellID = 53385,
+							},
+							{
+								mode = "st",
+								note = "Cast with 5 Holy Power",
+								spellID = 383328,
+							},
+							{
+								mode = "st",
+								note = "Cast",
+								spellID = 255937,
+							},
+							{
+								mode = "st",
+								note = "Cast",
+								spellID = 375576,
+							},
+							{
+								mode = "st",
+								note = "Cast with 2 stacks of {406064} if {31884} isn't active",
+								spellID = 184575,
+							},
+							{
+								mode = "st",
+								note = "Cast with a {1306161} proc from {383328}",
+								spellID = 53385,
+							},
+							{
+								mode = "st",
+								note = "Cast",
+								spellID = 383328,
+							},
+							{
+								mode = "st",
+								note = "Cast",
+								spellID = 24275,
+							},
+							{
+								mode = "st",
+								note = "Cast",
+								spellID = 184575,
+							},
+							{
+								mode = "st",
+								note = "Cast",
+								spellID = 20271,
+							},
+							{
+								mode = "aoe",
+								note = "Cast",
+								spellID = 31884,
+							},
+							{
+								mode = "aoe",
+								note = "Cast",
+								spellID = 343527,
+							},
+							{
+								mode = "aoe",
+								note = "On exactly 2 targets: Cast with a {1306161} proc from {53385} and 5 Holy Power",
+								spellID = 383328,
+							},
+							{
+								mode = "aoe",
+								note = "Cast with 5 Holy Power",
+								spellID = 53385,
+							},
+							{
+								mode = "aoe",
+								note = "Cast",
+								spellID = 255937,
+							},
+							{
+								mode = "aoe",
+								note = "Cast",
+								spellID = 375576,
+							},
+							{
+								mode = "aoe",
+								note = "Cast with 2 stacks of {406064} if {31884} isn't active",
+								spellID = 184575,
+							},
+							{
+								mode = "aoe",
+								note = "On exactly 2 targets: Cast with a {1306161} proc from {53385}",
+								spellID = 383328,
+							},
+							{
+								mode = "aoe",
+								note = "Cast",
+								spellID = 53385,
+							},
+							{
+								mode = "aoe",
+								note = "Cast",
+								spellID = 24275,
+							},
+							{
+								mode = "aoe",
+								note = "Cast",
+								spellID = 184575,
+							},
+							{
+								mode = "aoe",
+								note = "Cast",
+								spellID = 20271,
 							},
 						},
 						statPriority = {
