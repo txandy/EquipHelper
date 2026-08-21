@@ -21,6 +21,18 @@ ns.RegisterTab({
 				row.Right:SetText(build.source or "")
 			end
 
+			if build.metrics then
+				local metrics = {}
+				for _, key in ipairs({ "Avg key", "Max key", "Avg dps", "Max dps" }) do
+					if build.metrics[key] then
+						table.insert(metrics, ("%s %s"):format(key, build.metrics[key]))
+					end
+				end
+				if #metrics > 0 then
+					ns.UI.Paragraph(container, "|cff888888" .. table.concat(metrics, "   ") .. "|r")
+				end
+			end
+
 			ns.UI.CopyBox(container, build.importString)
 			ns.UI.Spacer(container, 6)
 		end

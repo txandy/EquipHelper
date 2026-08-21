@@ -334,7 +334,13 @@ local function UpdateHeader()
 
 	local m = ns.Manifest
 	if m then
-		local text = ("Datos: %s  |  %s  |  parche %s"):format(m.generated, m.season, m.patch)
+		local parts = {}
+		if m.generated then table.insert(parts, "Datos: " .. m.generated) end
+		if m.season then table.insert(parts, m.season) end
+		if m.patch then table.insert(parts, "parche " .. m.patch) end
+		if m.specCount then table.insert(parts, ("%d specs"):format(m.specCount)) end
+		local text = table.concat(parts, "  |  ")
+
 		if m.placeholder then
 			panel.Freshness:SetText("|cffff8800Datos de ejemplo -- el pipeline aun no esta conectado|r")
 		elseif ns.IsStale() then

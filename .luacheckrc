@@ -27,6 +27,7 @@ read_globals = {
 	"ChatFontNormal", "InputBoxTemplate",
 	-- Info de jugador / spec / talentos
 	"UnitClass", "GetSpecialization", "GetSpecializationInfo",
+	"GetSpecializationInfoByID",
 	"C_SpecializationInfo", "C_ClassTalents", "C_Traits", "C_Spell", "C_AddOns",
 	"LOCALIZED_CLASS_NAMES_MALE",
 	-- Plantillas y helpers de UI
@@ -39,4 +40,10 @@ read_globals = {
 	"WRISTSLOT", "HANDSSLOT", "WAISTSLOT", "LEGSSLOT", "FEETSLOT",
 	"FINGER0SLOT", "FINGER1SLOT", "TRINKET0SLOT", "TRINKET1SLOT",
 	"MAINHANDSLOT", "SECONDARYHANDSLOT",
+}
+
+-- Los ficheros de Data\ los escribe el emisor, no una persona: un import string
+-- de talentos no se puede partir en dos lineas, asi que el limite no aplica.
+files["EquipHelper/Data/*.lua"] = {
+	max_line_length = false,
 }

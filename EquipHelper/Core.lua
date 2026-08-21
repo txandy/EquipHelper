@@ -44,9 +44,20 @@ function ns.GetSpecs(classFile)
 	local class = ns.EnsureClassData(classFile)
 	if not class then return {} end
 
+	-- El nombre y el rol se piden al cliente para salir traducidos; el nombre
+	-- generado (en ingles) solo es el respaldo si el ID no le suena.
+	local getInfoByID = (C_SpecializationInfo and C_SpecializationInfo.GetSpecializationInfoByID)
+		or GetSpecializationInfoByID
+
 	local out = {}
 	for specID, spec in pairs(class.specs) do
-		table.insert(out, { specID = specID, name = spec.name, role = spec.role })
+		local name, role = spec.name, spec.role
+		if getInfoByID then
+			local _, localizedName, _, _, localizedRole = getInfoByID(specID)
+			name = localizedName or name
+			role = localizedRole or role
+		end
+		table.insert(out, { specID = specID, name = name, role = role })
 	end
 	table.sort(out, function(a, b) return a.specID < b.specID end)
 	return out

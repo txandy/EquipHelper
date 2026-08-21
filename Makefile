@@ -4,7 +4,7 @@ WOW_PATH ?=
 ADDONS_DIR = $(WOW_PATH)/Interface/AddOns
 LUACHECK = $(shell command -v luacheck 2>/dev/null || echo $$HOME/.luarocks/bin/luacheck)
 
-.PHONY: lint syntax install uninstall check
+.PHONY: lint syntax install uninstall check test build venv
 
 ## Lint del Lua con los globals de la API de WoW declarados en .luacheckrc
 lint:
@@ -26,3 +26,23 @@ install:
 
 uninstall:
 	@rm -f "$(ADDONS_DIR)/EquipHelper" && echo "Enlace eliminado."
+
+VENV = .venv
+PY = $(VENV)/bin/python
+
+## Crea el entorno de Python del scraper
+venv:
+	python3 -m venv $(VENV)
+	$(PY) -m pip -q install -r scraper/requirements.txt
+
+## Tests del scraper: corren contra HTML grabado, sin tocar la red
+test:
+	$(PY) -m pytest scraper/tests -q
+
+## Descarga, valida y regenera los .lua de Data/
+build:
+	$(PY) -m scraper build
+
+## Regenera desde la cache en disco, util para iterar en el parser
+build-offline:
+	$(PY) -m scraper build --offline

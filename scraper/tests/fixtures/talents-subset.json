@@ -1,0 +1,6497 @@
+[
+ {
+  "traitTreeId": 658,
+  "className": "Mage",
+  "classId": 8,
+  "specName": "Frost",
+  "specId": 64,
+  "classNodes": [
+   {
+    "id": 62117,
+    "name": "Ice Barrier",
+    "type": "single",
+    "posX": 3900,
+    "posY": 1500,
+    "maxRanks": 1,
+    "entryNode": true,
+    "next": [
+     62115,
+     62122
+    ],
+    "prev": [],
+    "entries": [
+     {
+      "id": 80176,
+      "definitionId": 85179,
+      "maxRanks": 1,
+      "type": "active",
+      "name": "Ice Barrier",
+      "spellId": 11426,
+      "icon": "spell_ice_lament",
+      "index": 100
+     }
+    ],
+    "freeNode": true
+   },
+   {
+    "id": 62115,
+    "name": "Alter Time",
+    "type": "single",
+    "posX": 3300,
+    "posY": 2100,
+    "maxRanks": 1,
+    "next": [
+     108654,
+     62102
+    ],
+    "prev": [
+     62117
+    ],
+    "entries": [
+     {
+      "id": 80174,
+      "definitionId": 85177,
+      "maxRanks": 1,
+      "type": "active",
+      "name": "Alter Time",
+      "spellId": 342245,
+      "icon": "spell_mage_altertime",
+      "index": 100
+     }
+    ]
+   },
+   {
+    "id": 62122,
+    "name": "Ice Block",
+    "type": "single",
+    "posX": 4500,
+    "posY": 2100,
+    "maxRanks": 1,
+    "next": [
+     62123,
+     62107
+    ],
+    "prev": [
+     62117
+    ],
+    "entries": [
+     {
+      "id": 80181,
+      "definitionId": 85184,
+      "maxRanks": 1,
+      "type": "active",
+      "name": "Ice Block",
+      "spellId": 45438,
+      "icon": "spell_frost_frost",
+      "index": 100
+     }
+    ]
+   },
+   {
+    "id": 108654,
+    "name": "Time Walk / Temporal Realignment",
+    "type": "choice",
+    "posX": 2700,
+    "posY": 2700,
+    "maxRanks": 1,
+    "next": [
+     62114
+    ],
+    "prev": [
+     62115
+    ],
+    "entries": [
+     {
+      "id": 134183,
+      "definitionId": 138963,
+      "maxRanks": 1,
+      "type": "passive",
+      "name": "Time Walk",
+      "spellId": 1244087,
+      "icon": "warrior_doubletime",
+      "index": 200
+     },
+     {
+      "id": 134182,
+      "definitionId": 138962,
+      "maxRanks": 1,
+      "type": "passive",
+      "name": "Temporal Realignment",
+      "spellId": 1244090,
+      "icon": "ability_evoker_timedilation",
+      "index": 300
+     }
+    ]
+   },
+   {
+    "id": 62102,
+    "name": "Master of Time",
+    "type": "single",
+    "posX": 3300,
+    "posY": 2700,
+    "maxRanks": 2,
+    "next": [
+     62114,
+     108660
+    ],
+    "prev": [
+     62115
+    ],
+    "entries": [
+     {
+      "id": 80159,
+      "definitionId": 85162,
+      "maxRanks": 2,
+      "type": "passive",
+      "name": "Master of Time",
+      "spellId": 342249,
+      "icon": "inv_belt_armor_waistoftime_d_01",
+      "index": 200
+     }
+    ]
+   },
+   {
+    "id": 62123,
+    "name": "Winter's Protection",
+    "type": "single",
+    "posX": 4500,
+    "posY": 2700,
+    "maxRanks": 2,
+    "next": [
+     108660,
+     62124
+    ],
+    "prev": [
+     62122
+    ],
+    "entries": [
+     {
+      "id": 80182,
+      "definitionId": 85185,
+      "maxRanks": 2,
+      "type": "passive",
+      "name": "Winter's Protection",
+      "spellId": 382424,
+      "icon": "spell_ice_rune",
+      "index": 100
+     }
+    ]
+   },
+   {
+    "id": 62107,
+    "name": "Frost Conditioning",
+    "type": "single",
+    "posX": 5100,
+    "posY": 2700,
+    "maxRanks": 1,
+    "next": [
+     62124
+    ],
+    "prev": [
+     62122
+    ],
+    "entries": [
+     {
+      "id": 80165,
+      "definitionId": 85168,
+      "maxRanks": 1,
+      "type": "passive",
+      "name": "Frost Conditioning",
+      "spellId": 1250315,
+      "icon": "spell_frost_icefloes",
+      "index": 100
+     }
+    ]
+   },
+   {
+    "id": 62114,
+    "name": "Arcane Warding",
+    "type": "single",
+    "posX": 2700,
+    "posY": 3300,
+    "maxRanks": 2,
+    "next": [
+     62084,
+     62104
+    ],
+    "prev": [
+     62102,
+     108654
+    ],
+    "entries": [
+     {
+      "id": 80173,
+      "definitionId": 85176,
+      "maxRanks": 2,
+      "type": "passive",
+      "name": "Arcane Warding",
+      "spellId": 383092,
+      "icon": "spell_arcane_arcaneresilience",
+      "index": 100
+     }
+    ]
+   },
+   {
+    "id": 108660,
+    "name": "Inspired Intellect",
+    "type": "single",
+    "posX": 3900,
+    "posY": 3300,
+    "maxRanks": 1,
+    "next": [
+     62104,
+     101883,
+     62116
+    ],
+    "prev": [
+     62123,
+     62102
+    ],
+    "entries": [
+     {
+      "id": 134190,
+      "definitionId": 138970,
+      "maxRanks": 1,
+      "type": "passive",
+      "name": "Inspired Intellect",
+      "spellId": 458437,
+      "icon": "spell_holy_arcaneintellect",
+      "index": 100
+     }
+    ]
+   },
+   {
+    "id": 62124,
+    "name": "Mirror Image",
+    "type": "single",
+    "posX": 5100,
+    "posY": 3300,
+    "maxRanks": 1,
+    "next": [
+     62116,
+     108662
+    ],
+    "prev": [
+     62107,
+     62123
+    ],
+    "entries": [
+     {
+      "id": 80183,
+      "definitionId": 85186,
+      "maxRanks": 1,
+      "type": "active",
+      "name": "Mirror Image",
+      "spellId": 55342,
+      "icon": "spell_magic_lesserinvisibilty",
+      "index": 100
+     }
+    ]
+   },
+   {
+    "id": 62084,
+    "name": "Spellsteal",
+    "type": "single",
+    "posX": 2100,
+    "posY": 3900,
+    "reqPoints": 8,
+    "maxRanks": 1,
+    "next": [
+     110082,
+     62105
+    ],
+    "prev": [
+     62114
+    ],
+    "entries": [
+     {
+      "id": 80140,
+      "definitionId": 85143,
+      "maxRanks": 1,
+      "type": "active",
+      "name": "Spellsteal",
+      "spellId": 30449,
+      "icon": "spell_arcane_arcane02",
+      "index": 100
+     }
+    ]
+   },
+   {
+    "id": 62104,
+    "name": "Quick Witted",
+    "type": "single",
+    "posX": 3300,
+    "posY": 3900,
+    "reqPoints": 8,
+    "maxRanks": 1,
+    "next": [
+     62105,
+     110079,
+     108661
+    ],
+    "prev": [
+     108660,
+     62114
+    ],
+    "entries": [
+     {
+      "id": 80161,
+      "definitionId": 85164,
+      "maxRanks": 1,
+      "type": "passive",
+      "name": "Quick Witted",
+      "spellId": 382297,
+      "icon": "ability_priest_surgeofdarkness",
+      "index": 100
+     }
+    ]
+   },
+   {
+    "id": 101883,
+    "name": "Dragon's Breath / Supernova",
+    "type": "choice",
+    "posX": 3900,
+    "posY": 3900,
+    "reqPoints": 8,
+    "maxRanks": 1,
+    "next": [
+     108661
+    ],
+    "prev": [
+     108660
+    ],
+    "entries": [
+     {
+      "id": 125819,
+      "definitionId": 130651,
+      "maxRanks": 1,
+      "type": "active",
+      "name": "Dragon's Breath",
+      "spellId": 31661,
+      "icon": "inv_misc_head_dragon_01",
+      "index": 100
+     },
+     {
+      "id": 125818,
+      "definitionId": 130650,
+      "maxRanks": 1,
+      "type": "active",
+      "name": "Supernova",
+      "spellId": 157980,
+      "icon": "spell_mage_supernova",
+      "index": 200
+     }
+    ]
+   },
+   {
+    "id": 62116,
+    "name": "Remove Curse",
+    "type": "single",
+    "posX": 4500,
+    "posY": 3900,
+    "reqPoints": 8,
+    "maxRanks": 1,
+    "next": [
+     108661,
+     110078,
+     93524
+    ],
+    "prev": [
+     108660,
+     62124
+    ],
+    "entries": [
+     {
+      "id": 80175,
+      "definitionId": 85178,
+      "maxRanks": 1,
+      "type": "active",
+      "name": "Remove Curse",
+      "spellId": 475,
+      "icon": "spell_nature_removecurse",
+      "index": 100
+     }
+    ]
+   },
+   {
+    "id": 108662,
+    "name": "Improved Conjuration",
+    "type": "single",
+    "posX": 5700,
+    "posY": 3900,
+    "reqPoints": 8,
+    "maxRanks": 2,
+    "next": [
+     93524
+    ],
+    "prev": [
+     62124
+    ],
+    "entries": [
+     {
+      "id": 134192,
+      "definitionId": 138972,
+      "maxRanks": 2,
+      "type": "passive",
+      "name": "Improved Conjuration",
+      "spellId": 1244025,
+      "icon": "spell_arcane_focusedpower",
+      "index": 100
+     }
+    ]
+   },
+   {
+    "id": 110082,
+    "name": "Improved Spellsteal",
+    "type": "single",
+    "posX": 2100,
+    "posY": 4500,
+    "reqPoints": 8,
+    "maxRanks": 1,
+    "next": [
+     62110
+    ],
+    "prev": [
+     62084
+    ],
+    "entries": [
+     {
+      "id": 136581,
+      "definitionId": 141354,
+      "maxRanks": 1,
+      "type": "passive",
+      "name": "Improved Spellsteal",
+      "spellId": 1270827,
+      "icon": "spell_arcane_arcane02",
+      "index": 100
+     }
+    ]
+   },
+   {
+    "id": 62105,
+    "name": "Shimmer / Improved Blink",
+    "type": "choice",
+    "posX": 2700,
+    "posY": 4500,
+    "reqPoints": 8,
+    "maxRanks": 1,
+    "next": [
+     62110,
+     62125,
+     62127
+    ],
+    "prev": [
+     62104,
+     62084
+    ],
+    "entries": [
+     {
+      "id": 80163,
+      "definitionId": 85166,
+      "maxRanks": 1,
+      "type": "active",
+      "name": "Shimmer",
+      "spellId": 212653,
+      "icon": "spell_arcane_massdispel",
+      "index": 100
+     },
+     {
+      "id": 134197,
+      "definitionId": 138977,
+      "maxRanks": 1,
+      "type": "passive",
+      "name": "Improved Blink",
+      "spellId": 1244340,
+      "icon": "spell_arcane_blink",
+      "index": 200
+     }
+    ]
+   },
+   {
+    "id": 110079,
+    "name": "Improved Counterspell",
+    "type": "single",
+    "posX": 3300,
+    "posY": 4500,
+    "reqPoints": 8,
+    "maxRanks": 1,
+    "next": [
+     62127
+    ],
+    "prev": [
+     62104
+    ],
+    "entries": [
+     {
+      "id": 136577,
+      "definitionId": 141350,
+      "maxRanks": 1,
+      "type": "passive",
+      "name": "Improved Counterspell",
+      "spellId": 1270865,
+      "icon": "inv_1115_mage_counterspell",
+      "index": 200
+     }
+    ]
+   },
+   {
+    "id": 108661,
+    "name": "Overflowing Energy",
+    "type": "single",
+    "posX": 3900,
+    "posY": 4500,
+    "reqPoints": 8,
+    "maxRanks": 1,
+    "next": [
+     62127,
+     110597,
+     62098
+    ],
+    "prev": [
+     62116,
+     62104,
+     101883
+    ],
+    "entries": [
+     {
+      "id": 134191,
+      "definitionId": 138971,
+      "maxRanks": 1,
+      "type": "passive",
+      "name": "Overflowing Energy",
+      "spellId": 390218,
+      "icon": "spell_arcane_manatap",
+      "index": 200
+     }
+    ]
+   },
+   {
+    "id": 110078,
+    "name": "Improved Remove Curse",
+    "type": "single",
+    "posX": 4500,
+    "posY": 4500,
+    "reqPoints": 8,
+    "maxRanks": 1,
+    "next": [
+     62098
+    ],
+    "prev": [
+     62116
+    ],
+    "entries": [
+     {
+      "id": 136576,
+      "definitionId": 141349,
+      "maxRanks": 1,
+      "type": "passive",
+      "name": "Improved Remove Curse",
+      "spellId": 1270847,
+      "icon": "spell_nature_removecurse",
+      "index": 200
+     }
+    ]
+   },
+   {
+    "id": 93524,
+    "name": "Greater Invisibility",
+    "type": "single",
+    "posX": 5100,
+    "posY": 4500,
+    "reqPoints": 8,
+    "maxRanks": 1,
+    "next": [
+     62098,
+     62112,
+     108659
+    ],
+    "prev": [
+     62116,
+     108662
+    ],
+    "entries": [
+     {
+      "id": 115877,
+      "definitionId": 120889,
+      "maxRanks": 1,
+      "type": "active",
+      "name": "Greater Invisibility",
+      "spellId": 110959,
+      "icon": "ability_mage_greaterinvisibility",
+      "index": 100
+     }
+    ]
+   },
+   {
+    "id": 62110,
+    "name": "Improved Frost Nova / Ice Ward",
+    "type": "choice",
+    "posX": 2100,
+    "posY": 5100,
+    "reqPoints": 8,
+    "maxRanks": 1,
+    "next": [
+     108658
+    ],
+    "prev": [
+     62105,
+     110082
+    ],
+    "entries": [
+     {
+      "id": 80168,
+      "definitionId": 85171,
+      "maxRanks": 1,
+      "type": "passive",
+      "name": "Improved Frost Nova",
+      "spellId": 343183,
+      "icon": "spell_frost_frostnova",
+      "index": 100
+     },
+     {
+      "id": 136466,
+      "definitionId": 141239,
+      "maxRanks": 1,
+      "type": "passive",
+      "name": "Ice Ward",
+      "spellId": 205036,
+      "icon": "spell_frost_frostward",
+      "index": 200
+     }
+    ]
+   },
+   {
+    "id": 62125,
+    "name": "Captured Thoughts",
+    "type": "single",
+    "posX": 2700,
+    "posY": 5100,
+    "reqPoints": 8,
+    "maxRanks": 1,
+    "next": [
+     108658
+    ],
+    "prev": [
+     62105
+    ],
+    "entries": [
+     {
+      "id": 134184,
+      "definitionId": 138964,
+      "maxRanks": 1,
+      "type": "passive",
+      "name": "Captured Thoughts",
+      "spellId": 1270872,
+      "icon": "spell_nature_elementalabsorption",
+      "index": 300
+     }
+    ]
+   },
+   {
+    "id": 62127,
+    "name": "Tome of Rhonin",
+    "type": "single",
+    "posX": 3300,
+    "posY": 5100,
+    "reqPoints": 8,
+    "maxRanks": 1,
+    "next": [
+     108658,
+     110081,
+     62096
+    ],
+    "prev": [
+     62105,
+     108661,
+     110079
+    ],
+    "entries": [
+     {
+      "id": 80187,
+      "definitionId": 85190,
+      "maxRanks": 1,
+      "type": "passive",
+      "name": "Tome of Rhonin",
+      "spellId": 382493,
+      "icon": "inv_misc_book_04",
+      "index": 100
+     }
+    ]
+   },
+   {
+    "id": 110597,
+    "name": "Improved Warding",
+    "type": "single",
+    "posX": 3900,
+    "posY": 5100,
+    "reqPoints": 8,
+    "maxRanks": 1,
+    "next": [
+     62096
+    ],
+    "prev": [
+     108661
+    ],
+    "entries": [
+     {
+      "id": 137410,
+      "definitionId": 142170,
+      "maxRanks": 1,
+      "type": "passive",
+      "name": "Improved Warding",
+      "spellId": 1297073,
+      "icon": "inv_cloth_raidmage_p_01helm",
+      "index": 100
+     }
+    ]
+   },
+   {
+    "id": 62098,
+    "name": "Tome of Antonidas",
+    "type": "single",
+    "posX": 4500,
+    "posY": 5100,
+    "reqPoints": 8,
+    "maxRanks": 1,
+    "next": [
+     62096,
+     110080,
+     108657
+    ],
+    "prev": [
+     108661,
+     93524,
+     110078
+    ],
+    "entries": [
+     {
+      "id": 80155,
+      "definitionId": 85158,
+      "maxRanks": 1,
+      "type": "passive",
+      "name": "Tome of Antonidas",
+      "spellId": 382490,
+      "icon": "inv_misc_book_18",
+      "index": 100
+     }
+    ]
+   },
+   {
+    "id": 62112,
+    "name": "Incantation of Swiftness",
+    "type": "single",
+    "posX": 5100,
+    "posY": 5100,
+    "reqPoints": 8,
+    "maxRanks": 2,
+    "next": [
+     108657
+    ],
+    "prev": [
+     93524
+    ],
+    "entries": [
+     {
+      "id": 80170,
+      "definitionId": 85173,
+      "maxRanks": 2,
+      "type": "passive",
+      "name": "Incantation of Swiftness",
+      "spellId": 382293,
+      "icon": "rogue_burstofspeed",
+      "index": 100
+     }
+    ]
+   },
+   {
+    "id": 108659,
+    "name": "Master of Escape",
+    "type": "single",
+    "posX": 5700,
+    "posY": 5100,
+    "reqPoints": 8,
+    "maxRanks": 1,
+    "next": [
+     108657
+    ],
+    "prev": [
+     93524
+    ],
+    "entries": [
+     {
+      "id": 134189,
+      "definitionId": 138969,
+      "maxRanks": 1,
+      "type": "passive",
+      "name": "Master of Escape",
+      "spellId": 210476,
+      "icon": "ability_mage_invisibility",
+      "index": 100
+     }
+    ]
+   },
+   {
+    "id": 108658,
+    "name": "Charm of Aegwynn",
+    "type": "single",
+    "posX": 2700,
+    "posY": 5700,
+    "reqPoints": 20,
+    "maxRanks": 1,
+    "next": [
+     62086,
+     62087,
+     62129
+    ],
+    "prev": [
+     62110,
+     62127,
+     62125
+    ],
+    "entries": [
+     {
+      "id": 134188,
+      "definitionId": 138968,
+      "maxRanks": 1,
+      "type": "passive",
+      "name": "Charm of Aegwynn",
+      "spellId": 1244105,
+      "icon": "inv_nerubian_necklace_02_color5",
+      "index": 100
+     }
+    ]
+   },
+   {
+    "id": 110081,
+    "name": "Brainstorm",
+    "type": "single",
+    "posX": 3300,
+    "posY": 5700,
+    "reqPoints": 20,
+    "maxRanks": 1,
+    "next": [
+     62129
+    ],
+    "prev": [
+     62127
+    ],
+    "entries": [
+     {
+      "id": 136579,
+      "definitionId": 141352,
+      "maxRanks": 1,
+      "type": "passive",
+      "name": "Brainstorm",
+      "spellId": 461261,
+      "icon": "ability_kaztik_dominatemind",
+      "index": 100
+     }
+    ]
+   },
+   {
+    "id": 62096,
+    "name": "Flow of Time",
+    "type": "single",
+    "posX": 3900,
+    "posY": 5700,
+    "reqPoints": 20,
+    "maxRanks": 1,
+    "next": [
+     62129,
+     62088,
+     62100
+    ],
+    "prev": [
+     62098,
+     62127,
+     110597
+    ],
+    "entries": [
+     {
+      "id": 80153,
+      "definitionId": 85156,
+      "maxRanks": 1,
+      "type": "passive",
+      "name": "Flow of Time",
+      "spellId": 382268,
+      "icon": "spell_arcane_blink",
+      "index": 100
+     }
+    ]
+   },
+   {
+    "id": 110080,
+    "name": "Mana Confluence",
+    "type": "single",
+    "posX": 4500,
+    "posY": 5700,
+    "reqPoints": 20,
+    "maxRanks": 1,
+    "next": [
+     62100
+    ],
+    "prev": [
+     62098
+    ],
+    "entries": [
+     {
+      "id": 136578,
+      "definitionId": 141351,
+      "maxRanks": 1,
+      "type": "passive",
+      "name": "Mana Confluence",
+      "spellId": 1270845,
+      "icon": "spell_shaman_blessingoftheeternals",
+      "index": 300
+     }
+    ]
+   },
+   {
+    "id": 108657,
+    "name": "Charm of Medivh",
+    "type": "single",
+    "posX": 5100,
+    "posY": 5700,
+    "reqPoints": 20,
+    "maxRanks": 1,
+    "next": [
+     62100,
+     62092,
+     62091
+    ],
+    "prev": [
+     62112,
+     108659,
+     62098
+    ],
+    "entries": [
+     {
+      "id": 134187,
+      "definitionId": 138967,
+      "maxRanks": 1,
+      "type": "passive",
+      "name": "Charm of Medivh",
+      "spellId": 1244107,
+      "icon": "inv_nerubian_necklace_02_color1",
+      "index": 100
+     }
+    ]
+   },
+   {
+    "id": 62086,
+    "name": "Permafrost Bauble",
+    "type": "single",
+    "posX": 2100,
+    "posY": 6300,
+    "reqPoints": 20,
+    "maxRanks": 1,
+    "next": [
+     62085
+    ],
+    "prev": [
+     108658
+    ],
+    "entries": [
+     {
+      "id": 80142,
+      "definitionId": 85145,
+      "maxRanks": 1,
+      "type": "passive",
+      "name": "Permafrost Bauble",
+      "spellId": 1265517,
+      "icon": "inv_10_dungeonjewelry_primalist_necklace_2_frost",
+      "index": 300
+     }
+    ]
+   },
+   {
+    "id": 62087,
+    "name": "Freezing Cold / Ice Nova",
+    "type": "choice",
+    "posX": 2700,
+    "posY": 6300,
+    "reqPoints": 20,
+    "maxRanks": 1,
+    "next": [
+     62085
+    ],
+    "prev": [
+     108658
+    ],
+    "entries": [
+     {
+      "id": 80143,
+      "definitionId": 85146,
+      "maxRanks": 1,
+      "type": "passive",
+      "name": "Freezing Cold",
+      "spellId": 386763,
+      "icon": "spell_frost_glacier",
+      "index": 100
+     },
+     {
+      "id": 134199,
+      "definitionId": 138979,
+      "maxRanks": 1,
+      "type": "active",
+      "name": "Ice Nova",
+      "spellId": 157997,
+      "icon": "spell_mage_icenova",
+      "index": 200
+     }
+    ]
+   },
+   {
+    "id": 62129,
+    "name": "Time Manipulation",
+    "type": "single",
+    "posX": 3300,
+    "posY": 6300,
+    "reqPoints": 20,
+    "maxRanks": 1,
+    "next": [
+     62085,
+     62094
+    ],
+    "prev": [
+     62096,
+     108658,
+     110081
+    ],
+    "entries": [
+     {
+      "id": 80189,
+      "definitionId": 85192,
+      "maxRanks": 1,
+      "type": "passive",
+      "name": "Time Manipulation",
+      "spellId": 387807,
+      "icon": "spell_nature_timestop",
+      "index": 100
+     }
+    ]
+   },
+   {
+    "id": 62088,
+    "name": "Ring of Frost / Mass Polymorph",
+    "type": "choice",
+    "posX": 3900,
+    "posY": 6300,
+    "reqPoints": 20,
+    "maxRanks": 1,
+    "next": [
+     62094
+    ],
+    "prev": [
+     62096
+    ],
+    "entries": [
+     {
+      "id": 80144,
+      "definitionId": 85147,
+      "maxRanks": 1,
+      "type": "active",
+      "name": "Ring of Frost",
+      "spellId": 113724,
+      "icon": "spell_frost_ring_of_frost",
+      "index": 100
+     },
+     {
+      "id": 134198,
+      "definitionId": 138978,
+      "maxRanks": 1,
+      "type": "active",
+      "name": "Mass Polymorph",
+      "spellId": 383121,
+      "icon": "spell_nature_doublepolymorph1",
+      "index": 200
+     }
+    ]
+   },
+   {
+    "id": 62100,
+    "name": "Energized Barriers",
+    "type": "single",
+    "posX": 4500,
+    "posY": 6300,
+    "reqPoints": 20,
+    "maxRanks": 1,
+    "next": [
+     62094,
+     108655
+    ],
+    "prev": [
+     108657,
+     62096,
+     110080
+    ],
+    "entries": [
+     {
+      "id": 80157,
+      "definitionId": 85160,
+      "maxRanks": 1,
+      "type": "passive",
+      "name": "Energized Barriers",
+      "spellId": 386828,
+      "icon": "spell_mage_temporalshield",
+      "index": 100
+     }
+    ]
+   },
+   {
+    "id": 62092,
+    "name": "Mass Invisibility",
+    "type": "single",
+    "posX": 5100,
+    "posY": 6300,
+    "reqPoints": 20,
+    "maxRanks": 1,
+    "next": [
+     108655
+    ],
+    "prev": [
+     108657
+    ],
+    "entries": [
+     {
+      "id": 115878,
+      "definitionId": 120890,
+      "maxRanks": 1,
+      "type": "active",
+      "name": "Mass Invisibility",
+      "spellId": 414664,
+      "icon": "ability_mage_massinvisibility",
+      "index": 200
+     }
+    ]
+   },
+   {
+    "id": 62091,
+    "name": "Barrier Diffusion",
+    "type": "single",
+    "posX": 5700,
+    "posY": 6300,
+    "reqPoints": 20,
+    "maxRanks": 1,
+    "next": [
+     108655
+    ],
+    "prev": [
+     108657
+    ],
+    "entries": [
+     {
+      "id": 80147,
+      "definitionId": 85150,
+      "maxRanks": 1,
+      "type": "passive",
+      "name": "Barrier Diffusion",
+      "spellId": 455428,
+      "icon": "spell_mage_evanesce",
+      "index": 100
+     }
+    ]
+   },
+   {
+    "id": 62085,
+    "name": "Ice Cold",
+    "type": "single",
+    "posX": 2700,
+    "posY": 6900,
+    "reqPoints": 20,
+    "maxRanks": 1,
+    "next": [],
+    "prev": [
+     62087,
+     62086,
+     62129
+    ],
+    "entries": [
+     {
+      "id": 80141,
+      "definitionId": 85144,
+      "maxRanks": 1,
+      "type": "passive",
+      "name": "Ice Cold",
+      "spellId": 414659,
+      "icon": "spell_fire_bluefire",
+      "index": 100
+     }
+    ]
+   },
+   {
+    "id": 62094,
+    "name": "Spatial Manipulation / Reflection",
+    "type": "choice",
+    "posX": 3900,
+    "posY": 6900,
+    "reqPoints": 20,
+    "maxRanks": 1,
+    "next": [],
+    "prev": [
+     62088,
+     62129,
+     62100
+    ],
+    "entries": [
+     {
+      "id": 126060,
+      "definitionId": 130892,
+      "maxRanks": 1,
+      "type": "passive",
+      "name": "Spatial Manipulation",
+      "spellId": 1244031,
+      "icon": "spell_mage_overpowered",
+      "index": 200
+     },
+     {
+      "id": 136580,
+      "definitionId": 141353,
+      "maxRanks": 1,
+      "type": "passive",
+      "name": "Reflection",
+      "spellId": 1270829,
+      "icon": "ability_hunter_displacement",
+      "index": 300
+     }
+    ]
+   },
+   {
+    "id": 108655,
+    "name": "Improved Ice Barrier",
+    "type": "single",
+    "posX": 5100,
+    "posY": 6900,
+    "reqPoints": 20,
+    "maxRanks": 1,
+    "next": [],
+    "prev": [
+     62092,
+     62091,
+     62100
+    ],
+    "entries": [
+     {
+      "id": 134185,
+      "definitionId": 138965,
+      "maxRanks": 1,
+      "type": "passive",
+      "name": "Improved Ice Barrier",
+      "spellId": 1244069,
+      "icon": "spell_ice_lament",
+      "index": 200
+     }
+    ]
+   }
+  ],
+  "specNodes": [
+   {
+    "id": 62176,
+    "name": "Ice Lance",
+    "type": "single",
+    "posX": 12300,
+    "posY": 1500,
+    "maxRanks": 1,
+    "entryNode": true,
+    "next": [
+     108864,
+     62164
+    ],
+    "prev": [],
+    "entries": [
+     {
+      "id": 80241,
+      "definitionId": 85244,
+      "maxRanks": 1,
+      "type": "active",
+      "name": "Ice Lance",
+      "spellId": 30455,
+      "icon": "spell_frost_frostblast",
+      "index": 100
+     }
+    ]
+   },
+   {
+    "id": 108864,
+    "name": "Blizzard / Blizzard",
+    "type": "choice",
+    "posX": 11700,
+    "posY": 2100,
+    "maxRanks": 1,
+    "next": [
+     62157
+    ],
+    "prev": [
+     62176
+    ],
+    "entries": [
+     {
+      "id": 134421,
+      "definitionId": 139193,
+      "maxRanks": 1,
+      "type": "active",
+      "name": "Blizzard",
+      "spellId": 190356,
+      "icon": "spell_frost_icestorm",
+      "index": 100
+     },
+     {
+      "id": 134538,
+      "definitionId": 139306,
+      "maxRanks": 1,
+      "type": "active",
+      "name": "Blizzard",
+      "spellId": 1248829,
+      "icon": "spell_frost_icestorm",
+      "index": 200
+     }
+    ]
+   },
+   {
+    "id": 62164,
+    "name": "Fingers of Frost",
+    "type": "single",
+    "posX": 12900,
+    "posY": 2100,
+    "maxRanks": 1,
+    "next": [
+     109915
+    ],
+    "prev": [
+     62176
+    ],
+    "entries": [
+     {
+      "id": 80227,
+      "definitionId": 85230,
+      "maxRanks": 1,
+      "type": "passive",
+      "name": "Fingers of Frost",
+      "spellId": 112965,
+      "icon": "ability_mage_wintersgrasp",
+      "index": 100
+     }
+    ]
+   },
+   {
+    "id": 62157,
+    "name": "Frostbite",
+    "type": "single",
+    "posX": 11700,
+    "posY": 2700,
+    "maxRanks": 1,
+    "next": [
+     62178,
+     108653
+    ],
+    "prev": [
+     108864
+    ],
+    "entries": [
+     {
+      "id": 80220,
+      "definitionId": 85223,
+      "maxRanks": 1,
+      "type": "passive",
+      "name": "Frostbite",
+      "spellId": 1248825,
+      "icon": "spell_frost_frostarmor",
+      "index": 100
+     }
+    ]
+   },
+   {
+    "id": 109915,
+    "name": "Icicles",
+    "type": "single",
+    "posX": 12900,
+    "posY": 2700,
+    "maxRanks": 1,
+    "next": [
+     108653,
+     62177
+    ],
+    "prev": [
+     62164
+    ],
+    "entries": [
+     {
+      "id": 136182,
+      "definitionId": 140955,
+      "maxRanks": 1,
+      "type": "passive",
+      "name": "Icicles",
+      "spellId": 1246832,
+      "icon": "ability_mage_glacialspike",
+      "index": 100
+     }
+    ]
+   },
+   {
+    "id": 62178,
+    "name": "Flurry",
+    "type": "single",
+    "posX": 11100,
+    "posY": 3300,
+    "maxRanks": 1,
+    "next": [
+     62179,
+     62181
+    ],
+    "prev": [
+     62157
+    ],
+    "entries": [
+     {
+      "id": 80243,
+      "definitionId": 85246,
+      "maxRanks": 1,
+      "type": "active",
+      "name": "Flurry",
+      "spellId": 44614,
+      "icon": "ability_deathknight_chillstreak",
+      "index": 100
+     }
+    ]
+   },
+   {
+    "id": 108653,
+    "name": "Cold Snap / Glacial Bulwark",
+    "type": "choice",
+    "posX": 12300,
+    "posY": 3300,
+    "maxRanks": 1,
+    "next": [
+     62153
+    ],
+    "prev": [
+     62157,
+     109915
+    ],
+    "entries": [
+     {
+      "id": 134181,
+      "definitionId": 138961,
+      "maxRanks": 1,
+      "type": "active",
+      "name": "Cold Snap",
+      "spellId": 235219,
+      "icon": "spell_frost_wizardmark",
+      "index": 100
+     },
+     {
+      "id": 134180,
+      "definitionId": 138960,
+      "maxRanks": 1,
+      "type": "passive",
+      "name": "Glacial Bulwark",
+      "spellId": 1244110,
+      "icon": "spell_frost_chillingarmor",
+      "index": 200
+     }
+    ]
+   },
+   {
+    "id": 62177,
+    "name": "Frozen Orb",
+    "type": "single",
+    "posX": 13500,
+    "posY": 3300,
+    "maxRanks": 1,
+    "next": [
+     81468,
+     62170
+    ],
+    "prev": [
+     109915
+    ],
+    "entries": [
+     {
+      "id": 80242,
+      "definitionId": 85245,
+      "maxRanks": 1,
+      "type": "active",
+      "name": "Frozen Orb",
+      "spellId": 84714,
+      "icon": "spell_frost_frozenorb",
+      "index": 100
+     }
+    ]
+   },
+   {
+    "id": 62179,
+    "name": "Brain Freeze",
+    "type": "single",
+    "posX": 10500,
+    "posY": 3900,
+    "reqPoints": 8,
+    "maxRanks": 1,
+    "next": [
+     62180,
+     62163
+    ],
+    "prev": [
+     62178
+    ],
+    "entries": [
+     {
+      "id": 80244,
+      "definitionId": 85247,
+      "maxRanks": 1,
+      "type": "passive",
+      "name": "Brain Freeze",
+      "spellId": 190447,
+      "icon": "ability_mage_brainfreeze",
+      "index": 100
+     }
+    ]
+   },
+   {
+    "id": 62181,
+    "name": "Piercing Cold",
+    "type": "single",
+    "posX": 11700,
+    "posY": 3900,
+    "reqPoints": 8,
+    "maxRanks": 1,
+    "next": [
+     62163,
+     108851
+    ],
+    "prev": [
+     62178
+    ],
+    "entries": [
+     {
+      "id": 80247,
+      "definitionId": 85250,
+      "maxRanks": 1,
+      "type": "passive",
+      "name": "Piercing Cold",
+      "spellId": 378919,
+      "icon": "spell_frost_frostbolt",
+      "index": 100
+     }
+    ]
+   },
+   {
+    "id": 62153,
+    "name": "Ray of Frost",
+    "type": "single",
+    "posX": 12300,
+    "posY": 3900,
+    "reqPoints": 8,
+    "maxRanks": 1,
+    "next": [
+     108851,
+     103771,
+     62150
+    ],
+    "prev": [
+     108653
+    ],
+    "entries": [
+     {
+      "id": 80216,
+      "definitionId": 85219,
+      "maxRanks": 1,
+      "type": "active",
+      "name": "Ray of Frost",
+      "spellId": 205021,
+      "icon": "ability_mage_rayoffrost",
+      "index": 100
+     }
+    ]
+   },
+   {
+    "id": 81468,
+    "name": "Everlasting Frost",
+    "type": "single",
+    "posX": 12900,
+    "posY": 3900,
+    "reqPoints": 8,
+    "maxRanks": 1,
+    "next": [
+     62150,
+     108860
+    ],
+    "prev": [
+     62177
+    ],
+    "entries": [
+     {
+      "id": 102429,
+      "definitionId": 107434,
+      "maxRanks": 1,
+      "type": "passive",
+      "name": "Everlasting Frost",
+      "spellId": 385167,
+      "icon": "spell_frost_chillingbolt",
+      "index": 100
+     }
+    ]
+   },
+   {
+    "id": 62170,
+    "name": "Permafrost Lances",
+    "type": "single",
+    "posX": 14100,
+    "posY": 3900,
+    "reqPoints": 8,
+    "maxRanks": 1,
+    "next": [
+     108860,
+     62174
+    ],
+    "prev": [
+     62177
+    ],
+    "entries": [
+     {
+      "id": 80234,
+      "definitionId": 85237,
+      "maxRanks": 1,
+      "type": "passive",
+      "name": "Permafrost Lances",
+      "spellId": 460590,
+      "icon": "spell_fire_bluerainoffire",
+      "index": 100
+     }
+    ]
+   },
+   {
+    "id": 62180,
+    "name": "Frozen Touch",
+    "type": "single",
+    "posX": 10500,
+    "posY": 4500,
+    "reqPoints": 8,
+    "maxRanks": 1,
+    "next": [
+     62151
+    ],
+    "prev": [
+     62179
+    ],
+    "entries": [
+     {
+      "id": 80245,
+      "definitionId": 85248,
+      "maxRanks": 1,
+      "type": "passive",
+      "name": "Frozen Touch",
+      "spellId": 205030,
+      "icon": "ability_mage_burstofcold",
+      "index": 200
+     }
+    ]
+   },
+   {
+    "id": 62163,
+    "name": "Splitting Ice",
+    "type": "single",
+    "posX": 11100,
+    "posY": 4500,
+    "reqPoints": 8,
+    "maxRanks": 1,
+    "next": [
+     62151
+    ],
+    "prev": [
+     62181,
+     62179
+    ],
+    "entries": [
+     {
+      "id": 80226,
+      "definitionId": 85229,
+      "maxRanks": 1,
+      "type": "passive",
+      "name": "Splitting Ice",
+      "spellId": 56377,
+      "icon": "spell_frost_ice_shards",
+      "index": 200
+     }
+    ]
+   },
+   {
+    "id": 108851,
+    "name": "Flash Freeze",
+    "type": "single",
+    "posX": 11700,
+    "posY": 4500,
+    "reqPoints": 8,
+    "maxRanks": 1,
+    "next": [
+     62151,
+     108859
+    ],
+    "prev": [
+     62181,
+     62153
+    ],
+    "entries": [
+     {
+      "id": 134407,
+      "definitionId": 139179,
+      "maxRanks": 1,
+      "type": "passive",
+      "name": "Flash Freeze",
+      "spellId": 379993,
+      "icon": "spell_hunter_icetrap",
+      "index": 100
+     }
+    ]
+   },
+   {
+    "id": 103771,
+    "name": "Splintering Ray / Frigid Focus",
+    "type": "choice",
+    "posX": 12300,
+    "posY": 4500,
+    "reqPoints": 8,
+    "maxRanks": 1,
+    "next": [
+     108859,
+     110258
+    ],
+    "prev": [
+     62153
+    ],
+    "entries": [
+     {
+      "id": 128077,
+      "definitionId": 132886,
+      "maxRanks": 1,
+      "type": "passive",
+      "name": "Splintering Ray",
+      "spellId": 418733,
+      "icon": "spell_fire_blueflamestrike",
+      "index": 100
+     },
+     {
+      "id": 134418,
+      "definitionId": 139190,
+      "maxRanks": 1,
+      "type": "passive",
+      "name": "Frigid Focus",
+      "spellId": 1247055,
+      "icon": "ability_deathknight_shroudofwinter",
+      "index": 200
+     }
+    ]
+   },
+   {
+    "id": 62150,
+    "name": "Winter's Blessing",
+    "type": "single",
+    "posX": 12900,
+    "posY": 4500,
+    "reqPoints": 8,
+    "maxRanks": 1,
+    "next": [
+     110258,
+     62173
+    ],
+    "prev": [
+     62153,
+     81468
+    ],
+    "entries": [
+     {
+      "id": 134540,
+      "definitionId": 139308,
+      "maxRanks": 1,
+      "type": "passive",
+      "name": "Winter's Blessing",
+      "spellId": 417489,
+      "icon": "spell_frost_wisp",
+      "index": 200
+     }
+    ]
+   },
+   {
+    "id": 108860,
+    "name": "Freezing Rain",
+    "type": "single",
+    "posX": 13500,
+    "posY": 4500,
+    "reqPoints": 8,
+    "maxRanks": 1,
+    "next": [
+     62173
+    ],
+    "prev": [
+     62170,
+     81468
+    ],
+    "entries": [
+     {
+      "id": 134416,
+      "definitionId": 139188,
+      "maxRanks": 1,
+      "type": "passive",
+      "name": "Freezing Rain",
+      "spellId": 270233,
+      "icon": "spell_frost_frozenorb",
+      "index": 100
+     }
+    ]
+   },
+   {
+    "id": 62174,
+    "name": "Cone of Frost",
+    "type": "single",
+    "posX": 14100,
+    "posY": 4500,
+    "reqPoints": 8,
+    "maxRanks": 1,
+    "next": [
+     62173
+    ],
+    "prev": [
+     62170
+    ],
+    "entries": [
+     {
+      "id": 80239,
+      "definitionId": 85242,
+      "maxRanks": 1,
+      "type": "passive",
+      "name": "Cone of Frost",
+      "spellId": 1247090,
+      "icon": "ability_mage_chilledtothebone",
+      "index": 100
+     }
+    ]
+   },
+   {
+    "id": 62151,
+    "name": "Fractured Frost",
+    "type": "single",
+    "posX": 11100,
+    "posY": 5100,
+    "reqPoints": 8,
+    "maxRanks": 1,
+    "next": [
+     108858
+    ],
+    "prev": [
+     62180,
+     62163,
+     108851
+    ],
+    "entries": [
+     {
+      "id": 80214,
+      "definitionId": 85217,
+      "maxRanks": 1,
+      "type": "passive",
+      "name": "Fractured Frost",
+      "spellId": 378448,
+      "icon": "spell_fire_frostresistancetotem",
+      "index": 100
+     }
+    ]
+   },
+   {
+    "id": 108859,
+    "name": "Improved Shatter",
+    "type": "single",
+    "posX": 11700,
+    "posY": 5100,
+    "reqPoints": 8,
+    "maxRanks": 1,
+    "next": [
+     108858,
+     109916
+    ],
+    "prev": [
+     103771,
+     108851
+    ],
+    "entries": [
+     {
+      "id": 134415,
+      "definitionId": 139187,
+      "maxRanks": 1,
+      "type": "passive",
+      "name": "Improved Shatter",
+      "spellId": 1246811,
+      "icon": "spell_frost_frostshock",
+      "index": 100
+     }
+    ]
+   },
+   {
+    "id": 110258,
+    "name": "Deep Shatter",
+    "type": "single",
+    "posX": 12900,
+    "posY": 5100,
+    "reqPoints": 8,
+    "maxRanks": 1,
+    "next": [
+     109916,
+     108852
+    ],
+    "prev": [
+     62150,
+     103771
+    ],
+    "entries": [
+     {
+      "id": 136796,
+      "definitionId": 141559,
+      "maxRanks": 1,
+      "type": "passive",
+      "name": "Deep Shatter",
+      "spellId": 1247025,
+      "icon": "inv_misc_frostemblem_01",
+      "index": 200
+     }
+    ]
+   },
+   {
+    "id": 62173,
+    "name": "Wintertide / White Out",
+    "type": "choice",
+    "posX": 13500,
+    "posY": 5100,
+    "reqPoints": 8,
+    "maxRanks": 1,
+    "next": [
+     108852
+    ],
+    "prev": [
+     62174,
+     108860,
+     62150
+    ],
+    "entries": [
+     {
+      "id": 80237,
+      "definitionId": 85240,
+      "maxRanks": 1,
+      "type": "passive",
+      "name": "Wintertide",
+      "spellId": 378406,
+      "icon": "ability_deathknight_frozencenter",
+      "index": 200
+     },
+     {
+      "id": 136880,
+      "definitionId": 141643,
+      "maxRanks": 1,
+      "type": "passive",
+      "name": "White Out",
+      "spellId": 1281638,
+      "icon": "spell_frost_frostblast",
+      "index": 300
+     }
+    ]
+   },
+   {
+    "id": 108858,
+    "name": "Glacial Attunement",
+    "type": "single",
+    "posX": 11100,
+    "posY": 5700,
+    "reqPoints": 20,
+    "maxRanks": 2,
+    "next": [
+     108853,
+     108855,
+     108849
+    ],
+    "prev": [
+     108859,
+     62151
+    ],
+    "entries": [
+     {
+      "id": 134414,
+      "definitionId": 139186,
+      "maxRanks": 2,
+      "type": "passive",
+      "name": "Glacial Attunement",
+      "spellId": 1247759,
+      "icon": "ability_hunter_glacialtrap",
+      "index": 100
+     }
+    ]
+   },
+   {
+    "id": 109916,
+    "name": "Heart of Ice",
+    "type": "single",
+    "posX": 12300,
+    "posY": 5700,
+    "reqPoints": 20,
+    "maxRanks": 1,
+    "next": [
+     108849,
+     110283,
+     108850
+    ],
+    "prev": [
+     108859,
+     110258
+    ],
+    "entries": [
+     {
+      "id": 136183,
+      "definitionId": 140956,
+      "maxRanks": 1,
+      "type": "passive",
+      "name": "Heart of Ice",
+      "spellId": 1247799,
+      "icon": "inv_10_dungeonjewelry_primalist_necklace_1_frost",
+      "index": 100
+     }
+    ]
+   },
+   {
+    "id": 108852,
+    "name": "Rimecaster",
+    "type": "single",
+    "posX": 13500,
+    "posY": 5700,
+    "reqPoints": 20,
+    "maxRanks": 2,
+    "next": [
+     108850,
+     108863,
+     108857
+    ],
+    "prev": [
+     62173,
+     110258
+    ],
+    "entries": [
+     {
+      "id": 134408,
+      "definitionId": 139180,
+      "maxRanks": 2,
+      "type": "passive",
+      "name": "Rimecaster",
+      "spellId": 1247743,
+      "icon": "spell_frost_manarecharge",
+      "index": 100
+     }
+    ]
+   },
+   {
+    "id": 108853,
+    "name": "Freezing Winds",
+    "type": "single",
+    "posX": 10500,
+    "posY": 6300,
+    "reqPoints": 20,
+    "maxRanks": 1,
+    "next": [
+     62182
+    ],
+    "prev": [
+     108858
+    ],
+    "entries": [
+     {
+      "id": 134409,
+      "definitionId": 139181,
+      "maxRanks": 1,
+      "type": "passive",
+      "name": "Freezing Winds",
+      "spellId": 1216953,
+      "icon": "spell_fire_blueflamering",
+      "index": 100
+     }
+    ]
+   },
+   {
+    "id": 108855,
+    "name": "Improved Flurry",
+    "type": "single",
+    "posX": 11100,
+    "posY": 6300,
+    "reqPoints": 20,
+    "maxRanks": 1,
+    "next": [
+     62182
+    ],
+    "prev": [
+     108858
+    ],
+    "entries": [
+     {
+      "id": 134411,
+      "definitionId": 139183,
+      "maxRanks": 1,
+      "type": "passive",
+      "name": "Improved Flurry",
+      "spellId": 1247769,
+      "icon": "ability_warlock_burningembersblue",
+      "index": 100
+     }
+    ]
+   },
+   {
+    "id": 108849,
+    "name": "Glacial Assault",
+    "type": "single",
+    "posX": 11700,
+    "posY": 6300,
+    "reqPoints": 20,
+    "maxRanks": 1,
+    "next": [
+     62184
+    ],
+    "prev": [
+     108858,
+     109916
+    ],
+    "entries": [
+     {
+      "id": 134405,
+      "definitionId": 139177,
+      "maxRanks": 1,
+      "type": "passive",
+      "name": "Glacial Assault",
+      "spellId": 378947,
+      "icon": "inv_staff_15",
+      "index": 100
+     }
+    ]
+   },
+   {
+    "id": 110283,
+    "name": "Crystalline Refraction",
+    "type": "single",
+    "posX": 12300,
+    "posY": 6300,
+    "reqPoints": 20,
+    "maxRanks": 1,
+    "next": [
+     62184
+    ],
+    "prev": [
+     109916
+    ],
+    "entries": [
+     {
+      "id": 136837,
+      "definitionId": 141600,
+      "maxRanks": 1,
+      "type": "passive",
+      "name": "Crystalline Refraction",
+      "spellId": 1247544,
+      "icon": "inv_10_enchanting_crystal_color3",
+      "index": 100
+     }
+    ]
+   },
+   {
+    "id": 108850,
+    "name": "Summon Water Elemental / Lonely Winter",
+    "type": "choice",
+    "posX": 12900,
+    "posY": 6300,
+    "reqPoints": 20,
+    "maxRanks": 1,
+    "next": [
+     62184
+    ],
+    "prev": [
+     108852,
+     109916
+    ],
+    "entries": [
+     {
+      "id": 134406,
+      "definitionId": 139178,
+      "maxRanks": 1,
+      "type": "active",
+      "name": "Summon Water Elemental",
+      "spellId": 31687,
+      "icon": "spell_frost_summonwaterelemental_2",
+      "index": 100
+     },
+     {
+      "id": 136839,
+      "definitionId": 141602,
+      "maxRanks": 1,
+      "type": "passive",
+      "name": "Lonely Winter",
+      "spellId": 205024,
+      "icon": "achievement_dungeon_frozenthrone",
+      "index": 200
+     }
+    ]
+   },
+   {
+    "id": 108863,
+    "name": "Glacial Chill / Glacial Shatter",
+    "type": "choice",
+    "posX": 13500,
+    "posY": 6300,
+    "reqPoints": 20,
+    "maxRanks": 1,
+    "next": [
+     62185
+    ],
+    "prev": [
+     108852
+    ],
+    "entries": [
+     {
+      "id": 134420,
+      "definitionId": 139192,
+      "maxRanks": 1,
+      "type": "passive",
+      "name": "Glacial Chill",
+      "spellId": 1280779,
+      "icon": "spell_frost_iceshard",
+      "index": 100
+     },
+     {
+      "id": 136838,
+      "definitionId": 141601,
+      "maxRanks": 1,
+      "type": "passive",
+      "name": "Glacial Shatter",
+      "spellId": 1280780,
+      "icon": "artifactability_frostmage_ebonbolt",
+      "index": 200
+     }
+    ]
+   },
+   {
+    "id": 108857,
+    "name": "Hailstones",
+    "type": "single",
+    "posX": 14100,
+    "posY": 6300,
+    "reqPoints": 20,
+    "maxRanks": 1,
+    "next": [
+     62185
+    ],
+    "prev": [
+     108852
+    ],
+    "entries": [
+     {
+      "id": 134413,
+      "definitionId": 139185,
+      "maxRanks": 1,
+      "type": "passive",
+      "name": "Hailstones",
+      "spellId": 1247742,
+      "icon": "artifactability_frostmage_blackicicles",
+      "index": 100
+     }
+    ]
+   },
+   {
+    "id": 62182,
+    "name": "Thermal Void",
+    "type": "single",
+    "posX": 11100,
+    "posY": 6900,
+    "reqPoints": 20,
+    "maxRanks": 1,
+    "next": [],
+    "prev": [
+     108855,
+     108853
+    ],
+    "entries": [
+     {
+      "id": 80248,
+      "definitionId": 85251,
+      "maxRanks": 1,
+      "type": "passive",
+      "name": "Thermal Void",
+      "spellId": 1247729,
+      "icon": "spell_mage_thermalvoid",
+      "index": 100
+     }
+    ]
+   },
+   {
+    "id": 62184,
+    "name": "Glaciate",
+    "type": "single",
+    "posX": 12300,
+    "posY": 6900,
+    "reqPoints": 20,
+    "maxRanks": 1,
+    "next": [],
+    "prev": [
+     108849,
+     108850,
+     110283
+    ],
+    "entries": [
+     {
+      "id": 80250,
+      "definitionId": 85253,
+      "maxRanks": 1,
+      "type": "passive",
+      "name": "Glaciate",
+      "spellId": 1247798,
+      "icon": "spell_frost_frozencore",
+      "index": 100
+     }
+    ]
+   },
+   {
+    "id": 62185,
+    "name": "Comet Storm",
+    "type": "single",
+    "posX": 13500,
+    "posY": 6900,
+    "reqPoints": 20,
+    "maxRanks": 1,
+    "next": [],
+    "prev": [
+     108857,
+     108863
+    ],
+    "entries": [
+     {
+      "id": 80251,
+      "definitionId": 85254,
+      "maxRanks": 1,
+      "type": "passive",
+      "name": "Comet Storm",
+      "spellId": 1247777,
+      "icon": "spell_mage_cometstorm2",
+      "index": 100
+     }
+    ]
+   },
+   {
+    "id": 110422,
+    "name": "Hand of Frost / Hand of Frost / Hand of Frost",
+    "type": "tiered",
+    "posX": 12300,
+    "posY": 7650,
+    "reqPoints": 20,
+    "maxRanks": 4,
+    "rankLevels": [
+     {
+      "level": 81,
+      "maxRanks": 1
+     },
+     {
+      "level": 84,
+      "maxRanks": 3
+     },
+     {
+      "level": 90,
+      "maxRanks": 4
+     }
+    ],
+    "entryNode": true,
+    "next": [],
+    "prev": [],
+    "entries": [
+     {
+      "id": 137034,
+      "definitionId": 141797,
+      "maxRanks": 1,
+      "type": "tierrank",
+      "name": "Hand of Frost",
+      "spellId": 1262935,
+      "icon": "inv12_apextalent_mage_handoffrost",
+      "index": 100
+     },
+     {
+      "id": 137033,
+      "definitionId": 141796,
+      "maxRanks": 2,
+      "type": "tierrank",
+      "name": "Hand of Frost",
+      "spellId": 1262981,
+      "icon": "spell_frost_piercing_chill",
+      "index": 200
+     },
+     {
+      "id": 137032,
+      "definitionId": 141795,
+      "maxRanks": 1,
+      "type": "tierrank",
+      "name": "Hand of Frost",
+      "spellId": 1263249,
+      "icon": "ability_mage_rayoffrost",
+      "index": 300
+     }
+    ]
+   }
+  ],
+  "heroNodes": [
+   {
+    "id": 94636,
+    "name": "Frostfire Bolt",
+    "type": "single",
+    "posX": 15000,
+    "posY": 1500,
+    "maxRanks": 1,
+    "entryNode": true,
+    "subTreeId": 41,
+    "next": [
+     94642,
+     94641,
+     94633,
+     109672
+    ],
+    "prev": [],
+    "entries": [
+     {
+      "id": 117239,
+      "definitionId": 122251,
+      "maxRanks": 1,
+      "type": "active",
+      "name": "Frostfire Bolt",
+      "spellId": 431044,
+      "icon": "inv_ability_frostfiremage_frostfirebolt",
+      "index": 100
+     }
+    ],
+    "freeNode": true,
+    "freeLevel": 71
+   },
+   {
+    "id": 94664,
+    "name": "Splintering Sorcery",
+    "type": "single",
+    "posX": 7800,
+    "posY": 2100,
+    "maxRanks": 1,
+    "entryNode": true,
+    "subTreeId": 40,
+    "next": [
+     94662,
+     94663,
+     94661,
+     109669
+    ],
+    "prev": [],
+    "entries": [
+     {
+      "id": 117267,
+      "definitionId": 122279,
+      "maxRanks": 1,
+      "type": "passive",
+      "name": "Splintering Sorcery",
+      "spellId": 443739,
+      "icon": "achievement_dungeon_arcanevaults",
+      "index": 100
+     }
+    ],
+    "freeNode": true,
+    "freeLevel": 71
+   },
+   {
+    "id": 94642,
+    "name": "Imbued Warding / Meltdown",
+    "type": "choice",
+    "posX": 14100,
+    "posY": 2100,
+    "maxRanks": 1,
+    "subTreeId": 41,
+    "next": [
+     94638
+    ],
+    "prev": [
+     94636
+    ],
+    "entries": [
+     {
+      "id": 117245,
+      "definitionId": 122257,
+      "maxRanks": 1,
+      "type": "passive",
+      "name": "Imbued Warding",
+      "spellId": 431066,
+      "icon": "inv_10_jewelcrafting_gem3primal_fire_cut_blue",
+      "index": 100
+     },
+     {
+      "id": 117776,
+      "definitionId": 122788,
+      "maxRanks": 1,
+      "type": "passive",
+      "name": "Meltdown",
+      "spellId": 431131,
+      "icon": "spell_frost_arcticwinds",
+      "index": 200
+     }
+    ]
+   },
+   {
+    "id": 94641,
+    "name": "Frostfire Empowerment",
+    "type": "single",
+    "posX": 14700,
+    "posY": 2100,
+    "maxRanks": 1,
+    "subTreeId": 41,
+    "next": [
+     94640
+    ],
+    "prev": [
+     94636
+    ],
+    "entries": [
+     {
+      "id": 117244,
+      "definitionId": 122256,
+      "maxRanks": 1,
+      "type": "passive",
+      "name": "Frostfire Empowerment",
+      "spellId": 431176,
+      "icon": "spell_frostfire_orb",
+      "index": 100
+     }
+    ]
+   },
+   {
+    "id": 94633,
+    "name": "Elemental Affinity / Flame and Frost",
+    "type": "choice",
+    "posX": 15300,
+    "posY": 2100,
+    "maxRanks": 1,
+    "subTreeId": 41,
+    "next": [
+     94634
+    ],
+    "prev": [
+     94636
+    ],
+    "entries": [
+     {
+      "id": 117236,
+      "definitionId": 122248,
+      "maxRanks": 1,
+      "type": "passive",
+      "name": "Elemental Affinity",
+      "spellId": 431067,
+      "icon": "inv_10_dungeonjewelry_dragon_trinket_5_red",
+      "index": 100
+     },
+     {
+      "id": 117775,
+      "definitionId": 122787,
+      "maxRanks": 1,
+      "type": "passive",
+      "name": "Flame and Frost",
+      "spellId": 431112,
+      "icon": "spell_firefrost_orb",
+      "index": 200
+     }
+    ]
+   },
+   {
+    "id": 109672,
+    "name": "Duality",
+    "type": "single",
+    "posX": 15900,
+    "posY": 2100,
+    "maxRanks": 1,
+    "subTreeId": 41,
+    "next": [
+     109671
+    ],
+    "prev": [
+     94636
+    ],
+    "entries": [
+     {
+      "id": 135923,
+      "definitionId": 140678,
+      "maxRanks": 1,
+      "type": "passive",
+      "name": "Duality",
+      "spellId": 1262843,
+      "icon": "ability_mage_frostfirebolt",
+      "index": 100
+     }
+    ]
+   },
+   {
+    "id": 94662,
+    "name": "Augury Abounds",
+    "type": "single",
+    "posX": 6900,
+    "posY": 2700,
+    "maxRanks": 1,
+    "subTreeId": 40,
+    "next": [
+     94659
+    ],
+    "prev": [
+     94664
+    ],
+    "entries": [
+     {
+      "id": 117265,
+      "definitionId": 122277,
+      "maxRanks": 1,
+      "type": "passive",
+      "name": "Augury Abounds",
+      "spellId": 1280165,
+      "icon": "spell_arcane_arcanepotency",
+      "index": 100
+     }
+    ]
+   },
+   {
+    "id": 94663,
+    "name": "Force of Will",
+    "type": "single",
+    "posX": 7500,
+    "posY": 2700,
+    "maxRanks": 1,
+    "subTreeId": 40,
+    "next": [
+     94656
+    ],
+    "prev": [
+     94664
+    ],
+    "entries": [
+     {
+      "id": 117266,
+      "definitionId": 122278,
+      "maxRanks": 1,
+      "type": "passive",
+      "name": "Force of Will",
+      "spellId": 444719,
+      "icon": "spell_mage_overpowered",
+      "index": 100
+     }
+    ]
+   },
+   {
+    "id": 94661,
+    "name": "Splintering Orbs",
+    "type": "single",
+    "posX": 8100,
+    "posY": 2700,
+    "maxRanks": 1,
+    "subTreeId": 40,
+    "next": [
+     94660
+    ],
+    "prev": [
+     94664
+    ],
+    "entries": [
+     {
+      "id": 117264,
+      "definitionId": 122276,
+      "maxRanks": 1,
+      "type": "passive",
+      "name": "Splintering Orbs",
+      "spellId": 444256,
+      "icon": "item_azereansphere",
+      "index": 100
+     }
+    ]
+   },
+   {
+    "id": 109669,
+    "name": "Attuned Familiar / Shifting Shards",
+    "type": "choice",
+    "posX": 8700,
+    "posY": 2700,
+    "maxRanks": 1,
+    "subTreeId": 40,
+    "next": [
+     109668
+    ],
+    "prev": [
+     94664
+    ],
+    "entries": [
+     {
+      "id": 135920,
+      "definitionId": 140675,
+      "maxRanks": 1,
+      "type": "passive",
+      "name": "Attuned Familiar",
+      "spellId": 1261106,
+      "icon": "ability_socererking_arcanemines",
+      "index": 100
+     },
+     {
+      "id": 135946,
+      "definitionId": 140701,
+      "maxRanks": 1,
+      "type": "passive",
+      "name": "Shifting Shards",
+      "spellId": 444675,
+      "icon": "ability_mage_freeze",
+      "index": 200
+     }
+    ]
+   },
+   {
+    "id": 94638,
+    "name": "Heat Sink",
+    "type": "single",
+    "posX": 14100,
+    "posY": 2700,
+    "maxRanks": 1,
+    "subTreeId": 41,
+    "next": [
+     94639
+    ],
+    "prev": [
+     94642
+    ],
+    "entries": [
+     {
+      "id": 117241,
+      "definitionId": 122253,
+      "maxRanks": 1,
+      "type": "passive",
+      "name": "Heat Sink",
+      "spellId": 1248002,
+      "icon": "spell_fire_masterofelements",
+      "index": 100
+     }
+    ]
+   },
+   {
+    "id": 94640,
+    "name": "Thermal Conditioning / Severe Temperatures",
+    "type": "choice",
+    "posX": 14700,
+    "posY": 2700,
+    "maxRanks": 1,
+    "subTreeId": 41,
+    "next": [
+     94632
+    ],
+    "prev": [
+     94641
+    ],
+    "entries": [
+     {
+      "id": 117243,
+      "definitionId": 122255,
+      "maxRanks": 1,
+      "type": "passive",
+      "name": "Thermal Conditioning",
+      "spellId": 431117,
+      "icon": "spell_fireresistancetotem_01",
+      "index": 100
+     },
+     {
+      "id": 134441,
+      "definitionId": 139212,
+      "maxRanks": 1,
+      "type": "passive",
+      "name": "Severe Temperatures",
+      "spellId": 431189,
+      "icon": "inv_magemount_fire",
+      "index": 200
+     }
+    ]
+   },
+   {
+    "id": 94634,
+    "name": "Dualcasting Adept",
+    "type": "single",
+    "posX": 15300,
+    "posY": 2700,
+    "maxRanks": 1,
+    "subTreeId": 41,
+    "next": [
+     94637
+    ],
+    "prev": [
+     94633
+    ],
+    "entries": [
+     {
+      "id": 117237,
+      "definitionId": 122249,
+      "maxRanks": 1,
+      "type": "passive",
+      "name": "Dualcasting Adept",
+      "spellId": 1248014,
+      "icon": "ability_dualwieldspecialization",
+      "index": 100
+     }
+    ]
+   },
+   {
+    "id": 109671,
+    "name": "Molten Chill",
+    "type": "single",
+    "posX": 15900,
+    "posY": 2700,
+    "maxRanks": 1,
+    "subTreeId": 41,
+    "next": [
+     109670
+    ],
+    "prev": [
+     109672
+    ],
+    "entries": [
+     {
+      "id": 135922,
+      "definitionId": 140677,
+      "maxRanks": 1,
+      "type": "passive",
+      "name": "Molten Chill",
+      "spellId": 1262844,
+      "icon": "spell_fire_incinerate",
+      "index": 100
+     }
+    ]
+   },
+   {
+    "id": 94659,
+    "name": "Slippery Slinging / Look Again",
+    "type": "choice",
+    "posX": 6900,
+    "posY": 3300,
+    "maxRanks": 1,
+    "subTreeId": 40,
+    "next": [
+     94658
+    ],
+    "prev": [
+     94662
+    ],
+    "entries": [
+     {
+      "id": 117262,
+      "definitionId": 122274,
+      "maxRanks": 1,
+      "type": "passive",
+      "name": "Slippery Slinging",
+      "spellId": 444752,
+      "icon": "ability_mage_icyfeet",
+      "index": 100
+     },
+     {
+      "id": 123418,
+      "definitionId": 128256,
+      "maxRanks": 1,
+      "type": "passive",
+      "name": "Look Again",
+      "spellId": 444756,
+      "icon": "achievement_bg_tophealer_av",
+      "index": 200
+     }
+    ]
+   },
+   {
+    "id": 94656,
+    "name": "Controlled Instincts",
+    "type": "single",
+    "posX": 7500,
+    "posY": 3300,
+    "maxRanks": 1,
+    "subTreeId": 40,
+    "next": [
+     94657
+    ],
+    "prev": [
+     94663
+    ],
+    "entries": [
+     {
+      "id": 117259,
+      "definitionId": 122271,
+      "maxRanks": 1,
+      "type": "passive",
+      "name": "Controlled Instincts",
+      "spellId": 444483,
+      "icon": "spell_frost_ice_shards",
+      "index": 100
+     }
+    ]
+   },
+   {
+    "id": 94660,
+    "name": "Reactive Barrier / Phantasmal Image",
+    "type": "choice",
+    "posX": 8100,
+    "posY": 3300,
+    "maxRanks": 1,
+    "subTreeId": 40,
+    "next": [
+     94655
+    ],
+    "prev": [
+     94661
+    ],
+    "entries": [
+     {
+      "id": 117263,
+      "definitionId": 122275,
+      "maxRanks": 1,
+      "type": "passive",
+      "name": "Reactive Barrier",
+      "spellId": 444827,
+      "icon": "ability_racial_forceshield",
+      "index": 100
+     },
+     {
+      "id": 123417,
+      "definitionId": 128255,
+      "maxRanks": 1,
+      "type": "passive",
+      "name": "Phantasmal Image",
+      "spellId": 444784,
+      "icon": "spell_arcane_prismaticcloak",
+      "index": 200
+     }
+    ]
+   },
+   {
+    "id": 109668,
+    "name": "Infused Splinters",
+    "type": "single",
+    "posX": 8700,
+    "posY": 3300,
+    "maxRanks": 1,
+    "subTreeId": 40,
+    "next": [
+     109667
+    ],
+    "prev": [
+     109669
+    ],
+    "entries": [
+     {
+      "id": 135919,
+      "definitionId": 140674,
+      "maxRanks": 1,
+      "type": "passive",
+      "name": "Infused Splinters",
+      "spellId": 1261080,
+      "icon": "spell_mage_focusingcrystal",
+      "index": 100
+     }
+    ]
+   },
+   {
+    "id": 94639,
+    "name": "Frostfire Infusion",
+    "type": "single",
+    "posX": 14100,
+    "posY": 3300,
+    "maxRanks": 1,
+    "subTreeId": 41,
+    "next": [
+     94635
+    ],
+    "prev": [
+     94638
+    ],
+    "entries": [
+     {
+      "id": 117242,
+      "definitionId": 122254,
+      "maxRanks": 1,
+      "type": "passive",
+      "name": "Frostfire Infusion",
+      "spellId": 431166,
+      "icon": "inv_10_blacksmithing_craftedbar_frostfirealloy",
+      "index": 100
+     }
+    ]
+   },
+   {
+    "id": 94632,
+    "name": "Flash Freezeburn",
+    "type": "single",
+    "posX": 14700,
+    "posY": 3300,
+    "maxRanks": 1,
+    "subTreeId": 41,
+    "next": [
+     94635
+    ],
+    "prev": [
+     94640
+    ],
+    "entries": [
+     {
+      "id": 117235,
+      "definitionId": 122247,
+      "maxRanks": 1,
+      "type": "passive",
+      "name": "Flash Freezeburn",
+      "spellId": 431178,
+      "icon": "spell_fire_elementaldevastation",
+      "index": 100
+     }
+    ]
+   },
+   {
+    "id": 94637,
+    "name": "Blast Radius",
+    "type": "single",
+    "posX": 15300,
+    "posY": 3300,
+    "maxRanks": 1,
+    "subTreeId": 41,
+    "next": [
+     94635
+    ],
+    "prev": [
+     94634
+    ],
+    "entries": [
+     {
+      "id": 117240,
+      "definitionId": 122252,
+      "maxRanks": 1,
+      "type": "passive",
+      "name": "Blast Radius",
+      "spellId": 1248016,
+      "icon": "spell_frostresistancetotem_01",
+      "index": 100
+     }
+    ]
+   },
+   {
+    "id": 109670,
+    "name": "Elemental Conduit",
+    "type": "single",
+    "posX": 15900,
+    "posY": 3300,
+    "maxRanks": 1,
+    "subTreeId": 41,
+    "next": [
+     94635
+    ],
+    "prev": [
+     109671
+    ],
+    "entries": [
+     {
+      "id": 135921,
+      "definitionId": 140676,
+      "maxRanks": 1,
+      "type": "passive",
+      "name": "Elemental Conduit",
+      "spellId": 1262845,
+      "icon": "inv_ability_shaman_primordialwave",
+      "index": 100
+     }
+    ]
+   },
+   {
+    "id": 94658,
+    "name": "Archmage's Wrath",
+    "type": "single",
+    "posX": 6900,
+    "posY": 3900,
+    "maxRanks": 1,
+    "subTreeId": 40,
+    "next": [
+     94654
+    ],
+    "prev": [
+     94659
+    ],
+    "entries": [
+     {
+      "id": 117261,
+      "definitionId": 122273,
+      "maxRanks": 1,
+      "type": "passive",
+      "name": "Archmage's Wrath",
+      "spellId": 444968,
+      "icon": "spell_arcane_arcane03",
+      "index": 100
+     }
+    ]
+   },
+   {
+    "id": 94657,
+    "name": "Signature Spell",
+    "type": "single",
+    "posX": 7500,
+    "posY": 3900,
+    "maxRanks": 1,
+    "subTreeId": 40,
+    "next": [
+     94654
+    ],
+    "prev": [
+     94656
+    ],
+    "entries": [
+     {
+      "id": 128267,
+      "definitionId": 133074,
+      "maxRanks": 1,
+      "type": "passive",
+      "name": "Signature Spell",
+      "spellId": 470021,
+      "icon": "inv_enchanting_815_drustwand",
+      "index": 200
+     }
+    ]
+   },
+   {
+    "id": 94655,
+    "name": "Spellfrost Teachings",
+    "type": "single",
+    "posX": 8100,
+    "posY": 3900,
+    "maxRanks": 1,
+    "subTreeId": 40,
+    "next": [
+     94654
+    ],
+    "prev": [
+     94660
+    ],
+    "entries": [
+     {
+      "id": 117258,
+      "definitionId": 122270,
+      "maxRanks": 1,
+      "type": "passive",
+      "name": "Spellfrost Teachings",
+      "spellId": 444986,
+      "icon": "70_inscription_vantus_rune_azure",
+      "index": 100
+     }
+    ]
+   },
+   {
+    "id": 109667,
+    "name": "Polished Focus",
+    "type": "single",
+    "posX": 8700,
+    "posY": 3900,
+    "maxRanks": 1,
+    "subTreeId": 40,
+    "next": [
+     94654
+    ],
+    "prev": [
+     109668
+    ],
+    "entries": [
+     {
+      "id": 135918,
+      "definitionId": 140673,
+      "maxRanks": 1,
+      "type": "passive",
+      "name": "Polished Focus",
+      "spellId": 1261082,
+      "icon": "inv_misc_orb_blue",
+      "index": 100
+     }
+    ]
+   },
+   {
+    "id": 94635,
+    "name": "Isothermic Core",
+    "type": "single",
+    "posX": 15000,
+    "posY": 3900,
+    "maxRanks": 1,
+    "subTreeId": 41,
+    "requiresNode": 62185,
+    "next": [],
+    "prev": [
+     94632,
+     94639,
+     94637,
+     109670
+    ],
+    "entries": [
+     {
+      "id": 117238,
+      "definitionId": 122250,
+      "maxRanks": 1,
+      "type": "passive",
+      "name": "Isothermic Core",
+      "spellId": 431095,
+      "icon": "inv12_ability_mage_isothermiccore",
+      "index": 100
+     }
+    ]
+   },
+   {
+    "id": 94654,
+    "name": "Splinterstorm",
+    "type": "single",
+    "posX": 7800,
+    "posY": 4500,
+    "maxRanks": 1,
+    "subTreeId": 40,
+    "requiresNode": 102449,
+    "next": [],
+    "prev": [
+     94655,
+     109667,
+     94658,
+     94657
+    ],
+    "entries": [
+     {
+      "id": 117257,
+      "definitionId": 122269,
+      "maxRanks": 1,
+      "type": "passive",
+      "name": "Splinterstorm",
+      "spellId": 443783,
+      "icon": "ability_mage_burstofcold",
+      "index": 100
+     }
+    ]
+   }
+  ],
+  "subTreeNodes": [
+   {
+    "id": 99828,
+    "name": "Frostfire / Spellslinger",
+    "type": "subtree",
+    "posX": 8700,
+    "posY": 1500,
+    "entryNode": true,
+    "next": [],
+    "prev": [],
+    "entries": [
+     {
+      "id": 123342,
+      "type": "subtree",
+      "name": "Frostfire",
+      "traitSubTreeId": 41,
+      "traitTreeId": 658,
+      "atlasMemberName": "talents-heroclass-mage-frostfire",
+      "nodes": [
+       94636,
+       109956,
+       94642,
+       94641,
+       94633,
+       109672,
+       94638,
+       94640,
+       94634,
+       109671,
+       94639,
+       94632,
+       94637,
+       109670,
+       94635
+      ]
+     },
+     {
+      "id": 123339,
+      "type": "subtree",
+      "name": "Spellslinger",
+      "traitSubTreeId": 40,
+      "traitTreeId": 658,
+      "atlasMemberName": "talents-heroclass-mage-spellslinger",
+      "nodes": [
+       94664,
+       94662,
+       94663,
+       94661,
+       109669,
+       94659,
+       94656,
+       94660,
+       109668,
+       94658,
+       94657,
+       94655,
+       109667,
+       94654
+      ]
+     }
+    ]
+   }
+  ]
+ },
+ {
+  "traitTreeId": 850,
+  "className": "Warrior",
+  "classId": 1,
+  "specName": "Fury",
+  "specId": 72,
+  "classNodes": [
+   {
+    "id": 90325,
+    "name": "Berserker Stance",
+    "type": "single",
+    "posX": 2400,
+    "posY": 900,
+    "maxRanks": 1,
+    "entryNode": true,
+    "next": [
+     90344,
+     90328
+    ],
+    "prev": [],
+    "entries": [
+     {
+      "id": 112182,
+      "definitionId": 117187,
+      "maxRanks": 1,
+      "type": "active",
+      "name": "Berserker Stance",
+      "spellId": 386196,
+      "icon": "ability_racial_avatar",
+      "index": 100
+     }
+    ],
+    "freeNode": true
+   },
+   {
+    "id": 92538,
+    "name": "Defensive Stance",
+    "type": "single",
+    "posX": 4800,
+    "posY": 900,
+    "maxRanks": 1,
+    "entryNode": true,
+    "next": [
+     90343,
+     90371
+    ],
+    "prev": [],
+    "entries": [
+     {
+      "id": 114644,
+      "definitionId": 119650,
+      "maxRanks": 1,
+      "type": "active",
+      "name": "Defensive Stance",
+      "spellId": 386208,
+      "icon": "ability_warrior_defensivestance",
+      "index": 100
+     }
+    ],
+    "freeNode": true
+   },
+   {
+    "id": 90344,
+    "name": "Fast Footwork",
+    "type": "single",
+    "posX": 1800,
+    "posY": 1500,
+    "maxRanks": 1,
+    "next": [
+     90326,
+     110654
+    ],
+    "prev": [
+     90325
+    ],
+    "entries": [
+     {
+      "id": 112206,
+      "definitionId": 117211,
+      "maxRanks": 1,
+      "type": "passive",
+      "name": "Fast Footwork",
+      "spellId": 382260,
+      "icon": "ability_hunter_posthaste",
+      "index": 100
+     }
+    ]
+   },
+   {
+    "id": 90328,
+    "name": "War Machine",
+    "type": "single",
+    "posX": 3000,
+    "posY": 1500,
+    "maxRanks": 1,
+    "next": [
+     90326,
+     90346,
+     90352
+    ],
+    "prev": [
+     90325
+    ],
+    "entries": [
+     {
+      "id": 112185,
+      "definitionId": 117190,
+      "maxRanks": 1,
+      "type": "passive",
+      "name": "War Machine",
+      "spellId": 262231,
+      "icon": "ability_hunter_rapidkilling",
+      "index": 0
+     }
+    ]
+   },
+   {
+    "id": 90343,
+    "name": "Thunder Clap",
+    "type": "single",
+    "posX": 4200,
+    "posY": 1500,
+    "maxRanks": 1,
+    "next": [
+     90346,
+     95959,
+     90337
+    ],
+    "prev": [
+     92538
+    ],
+    "entries": [
+     {
+      "id": 112205,
+      "definitionId": 117210,
+      "maxRanks": 1,
+      "type": "active",
+      "name": "Thunder Clap",
+      "spellId": 6343,
+      "icon": "spell_nature_thunderclap",
+      "index": 100
+     }
+    ]
+   },
+   {
+    "id": 90371,
+    "name": "Leeching Strikes",
+    "type": "single",
+    "posX": 5400,
+    "posY": 1500,
+    "maxRanks": 1,
+    "next": [
+     90337,
+     108674
+    ],
+    "prev": [
+     92538
+    ],
+    "entries": [
+     {
+      "id": 112238,
+      "definitionId": 117243,
+      "maxRanks": 1,
+      "type": "passive",
+      "name": "Leeching Strikes",
+      "spellId": 382258,
+      "icon": "inv_artifact_bloodoftheassassinated",
+      "index": 100
+     }
+    ]
+   },
+   {
+    "id": 90326,
+    "name": "Impending Victory",
+    "type": "single",
+    "posX": 2400,
+    "posY": 2100,
+    "maxRanks": 1,
+    "next": [
+     110654,
+     90332,
+     90352
+    ],
+    "prev": [
+     90344,
+     90328
+    ],
+    "entries": [
+     {
+      "id": 112183,
+      "definitionId": 117188,
+      "maxRanks": 1,
+      "type": "active",
+      "name": "Impending Victory",
+      "spellId": 202168,
+      "icon": "spell_impending_victory",
+      "index": 100
+     }
+    ]
+   },
+   {
+    "id": 90346,
+    "name": "Heroic Leap",
+    "type": "single",
+    "posX": 3600,
+    "posY": 2100,
+    "maxRanks": 1,
+    "next": [
+     90352,
+     90355,
+     90353
+    ],
+    "prev": [
+     90328,
+     90343
+    ],
+    "entries": [
+     {
+      "id": 112208,
+      "definitionId": 117213,
+      "maxRanks": 1,
+      "type": "active",
+      "name": "Heroic Leap",
+      "spellId": 6544,
+      "icon": "ability_heroicleap",
+      "index": 100
+     }
+    ]
+   },
+   {
+    "id": 95959,
+    "name": "Crackling Thunder",
+    "type": "single",
+    "posX": 4200,
+    "posY": 2100,
+    "maxRanks": 1,
+    "next": [],
+    "prev": [
+     90343
+    ],
+    "entries": [
+     {
+      "id": 118853,
+      "definitionId": 123753,
+      "maxRanks": 1,
+      "type": "passive",
+      "name": "Crackling Thunder",
+      "spellId": 203201,
+      "icon": "ability_thunderking_overcharge",
+      "index": 100
+     }
+    ]
+   },
+   {
+    "id": 90337,
+    "name": "Storm Bolt",
+    "type": "single",
+    "posX": 4800,
+    "posY": 2100,
+    "maxRanks": 1,
+    "next": [
+     90353,
+     108674
+    ],
+    "prev": [
+     90371,
+     90343
+    ],
+    "entries": [
+     {
+      "id": 112198,
+      "definitionId": 117203,
+      "maxRanks": 1,
+      "type": "active",
+      "name": "Storm Bolt",
+      "spellId": 107570,
+      "icon": "warrior_talent_icon_stormbolt",
+      "index": 0
+     }
+    ]
+   },
+   {
+    "id": 110654,
+    "name": "Storm of Blood",
+    "type": "single",
+    "posX": 1800,
+    "posY": 2700,
+    "maxRanks": 1,
+    "next": [
+     90375,
+     90351
+    ],
+    "prev": [
+     90326,
+     90344
+    ],
+    "entries": [
+     {
+      "id": 137472,
+      "definitionId": 142232,
+      "maxRanks": 1,
+      "type": "passive",
+      "name": "Storm of Blood",
+      "spellId": 1299025,
+      "icon": "ability_ironmaidens_whirlofblood",
+      "index": 100
+     }
+    ]
+   },
+   {
+    "id": 90332,
+    "name": "Second Wind",
+    "type": "single",
+    "posX": 2400,
+    "posY": 2700,
+    "maxRanks": 1,
+    "next": [],
+    "prev": [
+     90326
+    ],
+    "entries": [
+     {
+      "id": 112190,
+      "definitionId": 117195,
+      "maxRanks": 1,
+      "type": "passive",
+      "name": "Second Wind",
+      "spellId": 29838,
+      "icon": "ability_hunter_harass",
+      "index": 100
+     }
+    ]
+   },
+   {
+    "id": 90352,
+    "name": "Frothing Berserker",
+    "type": "single",
+    "posX": 3000,
+    "posY": 2700,
+    "maxRanks": 1,
+    "next": [
+     90375,
+     90378,
+     90331
+    ],
+    "prev": [
+     90326,
+     90346,
+     90328
+    ],
+    "entries": [
+     {
+      "id": 112216,
+      "definitionId": 117221,
+      "maxRanks": 1,
+      "type": "passive",
+      "name": "Frothing Berserker",
+      "spellId": 392792,
+      "icon": "warrior_talent_icon_furyintheblood",
+      "index": 100
+     }
+    ]
+   },
+   {
+    "id": 90355,
+    "name": "Bounding Stride",
+    "type": "single",
+    "posX": 3600,
+    "posY": 2700,
+    "maxRanks": 1,
+    "next": [],
+    "prev": [
+     90346
+    ],
+    "entries": [
+     {
+      "id": 112219,
+      "definitionId": 117224,
+      "maxRanks": 1,
+      "type": "passive",
+      "name": "Bounding Stride",
+      "spellId": 202163,
+      "icon": "ability_heroicleap",
+      "index": 0
+     }
+    ]
+   },
+   {
+    "id": 90353,
+    "name": "Pain and Gain",
+    "type": "single",
+    "posX": 4200,
+    "posY": 2700,
+    "maxRanks": 1,
+    "next": [
+     90331,
+     110119,
+     90385
+    ],
+    "prev": [
+     90346,
+     90337
+    ],
+    "entries": [
+     {
+      "id": 112217,
+      "definitionId": 117222,
+      "maxRanks": 1,
+      "type": "passive",
+      "name": "Pain and Gain",
+      "spellId": 382549,
+      "icon": "spell_holy_painsupression",
+      "index": 0
+     }
+    ]
+   },
+   {
+    "id": 108674,
+    "name": "Intervene / Interpose",
+    "type": "choice",
+    "posX": 5400,
+    "posY": 2700,
+    "maxRanks": 1,
+    "next": [
+     90385,
+     95956
+    ],
+    "prev": [
+     90337,
+     90371
+    ],
+    "entries": [
+     {
+      "id": 134214,
+      "definitionId": 138992,
+      "maxRanks": 1,
+      "type": "active",
+      "name": "Intervene",
+      "spellId": 3411,
+      "icon": "ability_warrior_victoryrush",
+      "index": 100
+     },
+     {
+      "id": 134213,
+      "definitionId": 138991,
+      "maxRanks": 1,
+      "type": "active",
+      "name": "Interpose",
+      "spellId": 1244088,
+      "icon": "ability_paladin_speedoflight",
+      "index": 200
+     }
+    ]
+   },
+   {
+    "id": 90375,
+    "name": "Shockwave",
+    "type": "single",
+    "posX": 2400,
+    "posY": 3300,
+    "reqPoints": 8,
+    "maxRanks": 1,
+    "next": [
+     90351,
+     90374,
+     90348
+    ],
+    "prev": [
+     90352,
+     110654
+    ],
+    "entries": [
+     {
+      "id": 112242,
+      "definitionId": 117247,
+      "maxRanks": 1,
+      "type": "active",
+      "name": "Shockwave",
+      "spellId": 46968,
+      "icon": "ability_warrior_shockwave",
+      "index": 100
+     }
+    ]
+   },
+   {
+    "id": 90378,
+    "name": "Overwhelming Rage",
+    "type": "single",
+    "posX": 3000,
+    "posY": 3300,
+    "reqPoints": 8,
+    "maxRanks": 1,
+    "next": [],
+    "prev": [
+     90352
+    ],
+    "entries": [
+     {
+      "id": 112245,
+      "definitionId": 117250,
+      "maxRanks": 1,
+      "type": "passive",
+      "name": "Overwhelming Rage",
+      "spellId": 382767,
+      "icon": "racial_orc_berserkerstrength",
+      "index": 100
+     }
+    ]
+   },
+   {
+    "id": 90331,
+    "name": "Rallying Cry",
+    "type": "single",
+    "posX": 3600,
+    "posY": 3300,
+    "reqPoints": 8,
+    "maxRanks": 1,
+    "next": [
+     90348,
+     108705
+    ],
+    "prev": [
+     90353,
+     90352
+    ],
+    "entries": [
+     {
+      "id": 112188,
+      "definitionId": 117193,
+      "maxRanks": 1,
+      "type": "active",
+      "name": "Rallying Cry",
+      "spellId": 97462,
+      "icon": "ability_warrior_rallyingcry",
+      "index": 100
+     }
+    ]
+   },
+   {
+    "id": 110119,
+    "name": "Field Dressing",
+    "type": "single",
+    "posX": 4200,
+    "posY": 3300,
+    "reqPoints": 8,
+    "maxRanks": 1,
+    "next": [],
+    "prev": [
+     90353
+    ],
+    "entries": [
+     {
+      "id": 136626,
+      "definitionId": 141398,
+      "maxRanks": 1,
+      "type": "passive",
+      "name": "Field Dressing",
+      "spellId": 1271926,
+      "icon": "inv_misc_bandage_08",
+      "index": 100
+     }
+    ]
+   },
+   {
+    "id": 90385,
+    "name": "Spell Reflection",
+    "type": "single",
+    "posX": 4800,
+    "posY": 3300,
+    "reqPoints": 8,
+    "maxRanks": 1,
+    "next": [
+     108705,
+     95956
+    ],
+    "prev": [
+     90353,
+     108674
+    ],
+    "entries": [
+     {
+      "id": 112253,
+      "definitionId": 117258,
+      "maxRanks": 1,
+      "type": "active",
+      "name": "Spell Reflection",
+      "spellId": 23920,
+      "icon": "ability_warrior_shieldreflection",
+      "index": 100
+     }
+    ]
+   },
+   {
+    "id": 90351,
+    "name": "Wrecking Throw / Shattering Throw",
+    "type": "choice",
+    "posX": 1800,
+    "posY": 3900,
+    "reqPoints": 8,
+    "maxRanks": 1,
+    "next": [
+     90366
+    ],
+    "prev": [
+     90375,
+     110654
+    ],
+    "entries": [
+     {
+      "id": 112215,
+      "definitionId": 117220,
+      "maxRanks": 1,
+      "type": "active",
+      "name": "Wrecking Throw",
+      "spellId": 384110,
+      "icon": "warrior_talent_icon_mastercleaver",
+      "index": 0
+     },
+     {
+      "id": 112214,
+      "definitionId": 117219,
+      "maxRanks": 1,
+      "type": "active",
+      "name": "Shattering Throw",
+      "spellId": 64382,
+      "icon": "ability_warrior_shatteringthrow",
+      "index": 100
+     }
+    ]
+   },
+   {
+    "id": 90374,
+    "name": "Rumbling Earth",
+    "type": "single",
+    "posX": 2400,
+    "posY": 3900,
+    "reqPoints": 8,
+    "maxRanks": 1,
+    "next": [],
+    "prev": [
+     90375
+    ],
+    "entries": [
+     {
+      "id": 112241,
+      "definitionId": 117246,
+      "maxRanks": 1,
+      "type": "passive",
+      "name": "Rumbling Earth",
+      "spellId": 275339,
+      "icon": "spell_shaman_earthquake",
+      "index": 0
+     }
+    ]
+   },
+   {
+    "id": 90348,
+    "name": "Berserker Shout / Fearless",
+    "type": "choice",
+    "posX": 3000,
+    "posY": 3900,
+    "reqPoints": 8,
+    "maxRanks": 1,
+    "next": [
+     90366,
+     90382
+    ],
+    "prev": [
+     90331,
+     90375
+    ],
+    "entries": [
+     {
+      "id": 112211,
+      "definitionId": 117216,
+      "maxRanks": 1,
+      "type": "active",
+      "name": "Berserker Shout",
+      "spellId": 384100,
+      "icon": "spell_nature_ancestralguardian",
+      "index": 100
+     },
+     {
+      "id": 112210,
+      "definitionId": 117215,
+      "maxRanks": 1,
+      "type": "passive",
+      "name": "Fearless",
+      "spellId": 1271925,
+      "icon": "ability_warrior_endlessrage",
+      "index": 200
+     }
+    ]
+   },
+   {
+    "id": 108705,
+    "name": "Intimidating Shout / Piercing Howl",
+    "type": "choice",
+    "posX": 4200,
+    "posY": 3900,
+    "reqPoints": 8,
+    "maxRanks": 1,
+    "next": [
+     90368,
+     90382
+    ],
+    "prev": [
+     90331,
+     90385
+    ],
+    "entries": [
+     {
+      "id": 134254,
+      "definitionId": 139027,
+      "maxRanks": 1,
+      "type": "active",
+      "name": "Intimidating Shout",
+      "spellId": 5246,
+      "icon": "ability_golemthunderclap",
+      "index": 100
+     },
+     {
+      "id": 136627,
+      "definitionId": 141399,
+      "maxRanks": 1,
+      "type": "active",
+      "name": "Piercing Howl",
+      "spellId": 12323,
+      "icon": "spell_shadow_deathscream",
+      "index": 200
+     }
+    ]
+   },
+   {
+    "id": 95956,
+    "name": "Honed Reflexes",
+    "type": "single",
+    "posX": 5400,
+    "posY": 3900,
+    "reqPoints": 8,
+    "maxRanks": 1,
+    "next": [
+     90368
+    ],
+    "prev": [
+     90385,
+     108674
+    ],
+    "entries": [
+     {
+      "id": 118850,
+      "definitionId": 123750,
+      "maxRanks": 1,
+      "type": "passive",
+      "name": "Honed Reflexes",
+      "spellId": 391271,
+      "icon": "spell_holy_borrowedtime",
+      "index": 100
+     }
+    ]
+   },
+   {
+    "id": 90366,
+    "name": "Armored to the Teeth",
+    "type": "single",
+    "posX": 2400,
+    "posY": 4500,
+    "reqPoints": 8,
+    "maxRanks": 2,
+    "next": [
+     90347,
+     110118
+    ],
+    "prev": [
+     90348,
+     90351
+    ],
+    "entries": [
+     {
+      "id": 112233,
+      "definitionId": 117238,
+      "maxRanks": 2,
+      "type": "passive",
+      "name": "Armored to the Teeth",
+      "spellId": 384124,
+      "icon": "inv_shoulder_22",
+      "index": 100
+     }
+    ]
+   },
+   {
+    "id": 90382,
+    "name": "Double Time",
+    "type": "single",
+    "posX": 3600,
+    "posY": 4500,
+    "reqPoints": 8,
+    "maxRanks": 1,
+    "next": [
+     110118,
+     108685
+    ],
+    "prev": [
+     90348,
+     108705
+    ],
+    "entries": [
+     {
+      "id": 112249,
+      "definitionId": 117254,
+      "maxRanks": 1,
+      "type": "passive",
+      "name": "Double Time",
+      "spellId": 103827,
+      "icon": "inv_misc_horn_04",
+      "index": 100
+     }
+    ]
+   },
+   {
+    "id": 90368,
+    "name": "Reinforced Plates",
+    "type": "single",
+    "posX": 4800,
+    "posY": 4500,
+    "reqPoints": 8,
+    "maxRanks": 2,
+    "next": [
+     108685,
+     108686
+    ],
+    "prev": [
+     95956,
+     108705
+    ],
+    "entries": [
+     {
+      "id": 112235,
+      "definitionId": 117240,
+      "maxRanks": 2,
+      "type": "passive",
+      "name": "Reinforced Plates",
+      "spellId": 382939,
+      "icon": "inv_chest_plate04",
+      "index": 100
+     }
+    ]
+   },
+   {
+    "id": 90347,
+    "name": "Barbaric Training",
+    "type": "single",
+    "posX": 1800,
+    "posY": 5100,
+    "reqPoints": 23,
+    "maxRanks": 1,
+    "next": [
+     90381
+    ],
+    "prev": [
+     90366
+    ],
+    "entries": [
+     {
+      "id": 112209,
+      "definitionId": 117214,
+      "maxRanks": 1,
+      "type": "passive",
+      "name": "Barbaric Training",
+      "spellId": 383082,
+      "icon": "ability_garrosh_whirling_corruption",
+      "index": 0
+     }
+    ]
+   },
+   {
+    "id": 110118,
+    "name": "Javelineer",
+    "type": "single",
+    "posX": 3000,
+    "posY": 5100,
+    "reqPoints": 23,
+    "maxRanks": 1,
+    "next": [
+     90381,
+     90373
+    ],
+    "prev": [
+     90366,
+     90382
+    ],
+    "entries": [
+     {
+      "id": 136625,
+      "definitionId": 141397,
+      "maxRanks": 1,
+      "type": "passive",
+      "name": "Javelineer",
+      "spellId": 1271948,
+      "icon": "inv121_ability_warrior_javelineer",
+      "index": 100
+     }
+    ]
+   },
+   {
+    "id": 108685,
+    "name": "Resonant Voice",
+    "type": "single",
+    "posX": 4200,
+    "posY": 5100,
+    "reqPoints": 23,
+    "maxRanks": 1,
+    "next": [
+     90373,
+     90360
+    ],
+    "prev": [
+     90382,
+     90368
+    ],
+    "entries": [
+     {
+      "id": 134225,
+      "definitionId": 139003,
+      "maxRanks": 1,
+      "type": "passive",
+      "name": "Resonant Voice",
+      "spellId": 1243660,
+      "icon": "warrior_disruptingshout",
+      "index": 100
+     }
+    ]
+   },
+   {
+    "id": 108686,
+    "name": "Crushing Force",
+    "type": "single",
+    "posX": 5400,
+    "posY": 5100,
+    "reqPoints": 23,
+    "maxRanks": 1,
+    "next": [
+     90360
+    ],
+    "prev": [
+     90368
+    ],
+    "entries": [
+     {
+      "id": 134226,
+      "definitionId": 139004,
+      "maxRanks": 1,
+      "type": "passive",
+      "name": "Crushing Force",
+      "spellId": 382764,
+      "icon": "spell_shadow_unholystrength",
+      "index": 100
+     }
+    ]
+   },
+   {
+    "id": 90381,
+    "name": "Cruel Strikes",
+    "type": "single",
+    "posX": 2400,
+    "posY": 5700,
+    "reqPoints": 23,
+    "maxRanks": 2,
+    "next": [
+     108543,
+     90380
+    ],
+    "prev": [
+     90347,
+     110118
+    ],
+    "entries": [
+     {
+      "id": 112248,
+      "definitionId": 117253,
+      "maxRanks": 2,
+      "type": "passive",
+      "name": "Cruel Strikes",
+      "spellId": 392777,
+      "icon": "ability_criticalstrike",
+      "index": 100
+     }
+    ]
+   },
+   {
+    "id": 90373,
+    "name": "Dual Wield Specialization",
+    "type": "single",
+    "posX": 3600,
+    "posY": 5700,
+    "reqPoints": 23,
+    "maxRanks": 2,
+    "next": [
+     90380,
+     108542
+    ],
+    "prev": [
+     110118,
+     108685
+    ],
+    "entries": [
+     {
+      "id": 112240,
+      "definitionId": 117245,
+      "maxRanks": 2,
+      "type": "passive",
+      "name": "Dual Wield Specialization",
+      "spellId": 382900,
+      "icon": "ability_dualwield",
+      "index": 100
+     }
+    ]
+   },
+   {
+    "id": 90360,
+    "name": "Wild Strikes",
+    "type": "single",
+    "posX": 4800,
+    "posY": 5700,
+    "reqPoints": 23,
+    "maxRanks": 2,
+    "next": [
+     108542,
+     108544
+    ],
+    "prev": [
+     108686,
+     108685
+    ],
+    "entries": [
+     {
+      "id": 112224,
+      "definitionId": 117229,
+      "maxRanks": 2,
+      "type": "passive",
+      "name": "Wild Strikes",
+      "spellId": 382946,
+      "icon": "ability_rogue_sprint",
+      "index": 100
+     }
+    ]
+   },
+   {
+    "id": 108543,
+    "name": "Anger Management",
+    "type": "single",
+    "posX": 1800,
+    "posY": 6300,
+    "reqPoints": 23,
+    "maxRanks": 1,
+    "next": [],
+    "prev": [
+     90381
+    ],
+    "entries": [
+     {
+      "id": 134032,
+      "definitionId": 138815,
+      "maxRanks": 1,
+      "type": "passive",
+      "name": "Anger Management",
+      "spellId": 152278,
+      "icon": "warrior_talent_icon_angermanagement",
+      "index": 100
+     }
+    ]
+   },
+   {
+    "id": 90380,
+    "name": "Champion's Spear",
+    "type": "single",
+    "posX": 3000,
+    "posY": 6300,
+    "reqPoints": 23,
+    "maxRanks": 1,
+    "next": [],
+    "prev": [
+     90373,
+     90381
+    ],
+    "entries": [
+     {
+      "id": 112247,
+      "definitionId": 117252,
+      "maxRanks": 1,
+      "type": "active",
+      "name": "Champion's Spear",
+      "spellId": 376079,
+      "icon": "inv_ability_warrior_championsspear",
+      "index": 100
+     }
+    ]
+   },
+   {
+    "id": 108542,
+    "name": "Stance Mastery",
+    "type": "single",
+    "posX": 4200,
+    "posY": 6300,
+    "reqPoints": 23,
+    "maxRanks": 1,
+    "next": [],
+    "prev": [
+     90373,
+     90360
+    ],
+    "entries": [
+     {
+      "id": 134031,
+      "definitionId": 138814,
+      "maxRanks": 1,
+      "type": "passive",
+      "name": "Stance Mastery",
+      "spellId": 1280961,
+      "icon": "crest_warrior",
+      "index": 100
+     }
+    ]
+   },
+   {
+    "id": 108544,
+    "name": "Battlefield Commander",
+    "type": "single",
+    "posX": 5400,
+    "posY": 6300,
+    "reqPoints": 23,
+    "maxRanks": 1,
+    "next": [],
+    "prev": [
+     90360
+    ],
+    "entries": [
+     {
+      "id": 134033,
+      "definitionId": 138816,
+      "maxRanks": 1,
+      "type": "passive",
+      "name": "Battlefield Commander",
+      "spellId": 424742,
+      "icon": "ability_warrior_commandingshout",
+      "index": 100
+     }
+    ]
+   }
+  ],
+  "specNodes": [
+   {
+    "id": 90392,
+    "name": "Bloodthirst",
+    "type": "single",
+    "posX": 12000,
+    "posY": 900,
+    "maxRanks": 1,
+    "entryNode": true,
+    "next": [
+     90396
+    ],
+    "prev": [],
+    "entries": [
+     {
+      "id": 112261,
+      "definitionId": 117266,
+      "maxRanks": 1,
+      "type": "active",
+      "name": "Bloodthirst",
+      "spellId": 23881,
+      "icon": "spell_nature_bloodlust",
+      "index": 100
+     }
+    ]
+   },
+   {
+    "id": 90396,
+    "name": "Raging Blow",
+    "type": "single",
+    "posX": 12000,
+    "posY": 1500,
+    "maxRanks": 1,
+    "next": [
+     90430,
+     90398,
+     90429
+    ],
+    "prev": [
+     90392
+    ],
+    "entries": [
+     {
+      "id": 112265,
+      "definitionId": 117270,
+      "maxRanks": 1,
+      "type": "active",
+      "name": "Raging Blow",
+      "spellId": 85288,
+      "icon": "warrior_wild_strike",
+      "index": 100
+     }
+    ]
+   },
+   {
+    "id": 90430,
+    "name": "Sudden Death",
+    "type": "single",
+    "posX": 10800,
+    "posY": 2100,
+    "maxRanks": 1,
+    "next": [
+     90403,
+     90395
+    ],
+    "prev": [
+     90396
+    ],
+    "entries": [
+     {
+      "id": 112301,
+      "definitionId": 117306,
+      "maxRanks": 1,
+      "type": "passive",
+      "name": "Sudden Death",
+      "spellId": 29725,
+      "icon": "ability_warrior_improveddisciplines",
+      "index": 100
+     }
+    ]
+   },
+   {
+    "id": 90398,
+    "name": "Frenzied Enrage / Powerful Enrage",
+    "type": "choice",
+    "posX": 12000,
+    "posY": 2100,
+    "maxRanks": 1,
+    "next": [
+     90395,
+     90394
+    ],
+    "prev": [
+     90396
+    ],
+    "entries": [
+     {
+      "id": 112267,
+      "definitionId": 117272,
+      "maxRanks": 1,
+      "type": "passive",
+      "name": "Frenzied Enrage",
+      "spellId": 383848,
+      "icon": "spell_shadow_unholyfrenzy",
+      "index": 100
+     },
+     {
+      "id": 119112,
+      "definitionId": 124012,
+      "maxRanks": 1,
+      "type": "passive",
+      "name": "Powerful Enrage",
+      "spellId": 440277,
+      "icon": "ability_warrior_strengthofarms",
+      "index": 200
+     }
+    ]
+   },
+   {
+    "id": 90429,
+    "name": "Improved Execute",
+    "type": "single",
+    "posX": 13200,
+    "posY": 2100,
+    "maxRanks": 1,
+    "next": [
+     90394,
+     90427
+    ],
+    "prev": [
+     90396
+    ],
+    "entries": [
+     {
+      "id": 112300,
+      "definitionId": 117305,
+      "maxRanks": 1,
+      "type": "passive",
+      "name": "Improved Execute",
+      "spellId": 316402,
+      "icon": "inv_sword_48",
+      "index": 100
+     }
+    ]
+   },
+   {
+    "id": 90403,
+    "name": "Focus in Chaos",
+    "type": "single",
+    "posX": 10200,
+    "posY": 2700,
+    "maxRanks": 1,
+    "next": [
+     90410,
+     90399
+    ],
+    "prev": [
+     90430
+    ],
+    "entries": [
+     {
+      "id": 112272,
+      "definitionId": 117277,
+      "maxRanks": 1,
+      "type": "passive",
+      "name": "Focus in Chaos",
+      "spellId": 383486,
+      "icon": "ability_hunter_mastermarksman",
+      "index": 100
+     }
+    ]
+   },
+   {
+    "id": 90395,
+    "name": "Enraged Regeneration",
+    "type": "single",
+    "posX": 11400,
+    "posY": 2700,
+    "maxRanks": 1,
+    "next": [
+     90399,
+     110330,
+     90408
+    ],
+    "prev": [
+     90430,
+     90398
+    ],
+    "entries": [
+     {
+      "id": 112264,
+      "definitionId": 117269,
+      "maxRanks": 1,
+      "type": "active",
+      "name": "Enraged Regeneration",
+      "spellId": 184364,
+      "icon": "ability_warrior_focusedrage",
+      "index": 100
+     }
+    ]
+   },
+   {
+    "id": 90394,
+    "name": "Warpaint",
+    "type": "single",
+    "posX": 12600,
+    "posY": 2700,
+    "maxRanks": 1,
+    "next": [
+     90390,
+     90408
+    ],
+    "prev": [
+     90429,
+     90398
+    ],
+    "entries": [
+     {
+      "id": 112263,
+      "definitionId": 117268,
+      "maxRanks": 1,
+      "type": "passive",
+      "name": "Warpaint",
+      "spellId": 208154,
+      "icon": "ability_rogue_preparation",
+      "index": 100
+     }
+    ]
+   },
+   {
+    "id": 90427,
+    "name": "Improved Whirlwind",
+    "type": "single",
+    "posX": 13800,
+    "posY": 2700,
+    "maxRanks": 1,
+    "next": [
+     90390,
+     90391
+    ],
+    "prev": [
+     90429
+    ],
+    "entries": [
+     {
+      "id": 112298,
+      "definitionId": 117303,
+      "maxRanks": 1,
+      "type": "passive",
+      "name": "Improved Whirlwind",
+      "spellId": 12950,
+      "icon": "ability_whirlwind",
+      "index": 100
+     }
+    ]
+   },
+   {
+    "id": 90410,
+    "name": "Massacre",
+    "type": "single",
+    "posX": 10200,
+    "posY": 3300,
+    "reqPoints": 8,
+    "maxRanks": 1,
+    "next": [
+     109966
+    ],
+    "prev": [
+     90403
+    ],
+    "entries": [
+     {
+      "id": 112279,
+      "definitionId": 117284,
+      "maxRanks": 1,
+      "type": "passive",
+      "name": "Massacre",
+      "spellId": 206315,
+      "icon": "inv_axe_2h_orcwarrior_c_01",
+      "index": 100
+     }
+    ]
+   },
+   {
+    "id": 90399,
+    "name": "Fresh Meat",
+    "type": "single",
+    "posX": 10800,
+    "posY": 3300,
+    "reqPoints": 8,
+    "maxRanks": 1,
+    "next": [
+     109966,
+     90397
+    ],
+    "prev": [
+     90395,
+     90403
+    ],
+    "entries": [
+     {
+      "id": 112268,
+      "definitionId": 117273,
+      "maxRanks": 1,
+      "type": "passive",
+      "name": "Fresh Meat",
+      "spellId": 215568,
+      "icon": "ability_deathwing_bloodcorruption_death",
+      "index": 100
+     }
+    ]
+   },
+   {
+    "id": 110330,
+    "name": "Invigorating Fury",
+    "type": "single",
+    "posX": 11400,
+    "posY": 3300,
+    "reqPoints": 8,
+    "maxRanks": 1,
+    "next": [],
+    "prev": [
+     90395
+    ],
+    "entries": [
+     {
+      "id": 136890,
+      "definitionId": 141653,
+      "maxRanks": 1,
+      "type": "passive",
+      "name": "Invigorating Fury",
+      "spellId": 383468,
+      "icon": "spell_misc_emotionangry",
+      "index": 100
+     }
+    ]
+   },
+   {
+    "id": 90408,
+    "name": "Rampage",
+    "type": "single",
+    "posX": 12010,
+    "posY": 3300,
+    "reqPoints": 8,
+    "maxRanks": 1,
+    "next": [
+     109969,
+     109965,
+     90407
+    ],
+    "prev": [
+     90394,
+     90395
+    ],
+    "entries": [
+     {
+      "id": 112277,
+      "definitionId": 117282,
+      "maxRanks": 1,
+      "type": "active",
+      "name": "Rampage",
+      "spellId": 184367,
+      "icon": "ability_warrior_rampage",
+      "index": 100
+     }
+    ]
+   },
+   {
+    "id": 90390,
+    "name": "Improved Raging Blow",
+    "type": "single",
+    "posX": 13200,
+    "posY": 3300,
+    "reqPoints": 8,
+    "maxRanks": 1,
+    "next": [
+     90428,
+     109967
+    ],
+    "prev": [
+     90427,
+     90394
+    ],
+    "entries": [
+     {
+      "id": 112259,
+      "definitionId": 117264,
+      "maxRanks": 1,
+      "type": "passive",
+      "name": "Improved Raging Blow",
+      "spellId": 383854,
+      "icon": "warrior_wild_strike",
+      "index": 100
+     }
+    ]
+   },
+   {
+    "id": 90391,
+    "name": "Rampaging Ruin",
+    "type": "single",
+    "posX": 13800,
+    "posY": 3300,
+    "reqPoints": 8,
+    "maxRanks": 1,
+    "next": [
+     109967
+    ],
+    "prev": [
+     90427
+    ],
+    "entries": [
+     {
+      "id": 112260,
+      "definitionId": 117265,
+      "maxRanks": 1,
+      "type": "passive",
+      "name": "Rampaging Ruin",
+      "spellId": 1265357,
+      "icon": "ability_warrior_trauma",
+      "index": 200
+     }
+    ]
+   },
+   {
+    "id": 109966,
+    "name": "Deep Wounds",
+    "type": "single",
+    "posX": 10200,
+    "posY": 3900,
+    "reqPoints": 8,
+    "maxRanks": 1,
+    "next": [],
+    "prev": [
+     90399,
+     90410
+    ],
+    "entries": [
+     {
+      "id": 136451,
+      "definitionId": 141224,
+      "maxRanks": 1,
+      "type": "passive",
+      "name": "Deep Wounds",
+      "spellId": 1261060,
+      "icon": "ability_backstab",
+      "index": 100
+     }
+    ]
+   },
+   {
+    "id": 90397,
+    "name": "Spite",
+    "type": "single",
+    "posX": 10800,
+    "posY": 3900,
+    "reqPoints": 8,
+    "maxRanks": 2,
+    "next": [
+     90402,
+     109962
+    ],
+    "prev": [
+     90399
+    ],
+    "entries": [
+     {
+      "id": 112266,
+      "definitionId": 117271,
+      "maxRanks": 2,
+      "type": "passive",
+      "name": "Spite",
+      "spellId": 383852,
+      "icon": "warrior_talent_icon_furyintheblood",
+      "index": 100
+     }
+    ]
+   },
+   {
+    "id": 109969,
+    "name": "Scent of Blood",
+    "type": "single",
+    "posX": 11400,
+    "posY": 3900,
+    "reqPoints": 8,
+    "maxRanks": 1,
+    "next": [
+     90412,
+     109962
+    ],
+    "prev": [
+     90408
+    ],
+    "entries": [
+     {
+      "id": 136454,
+      "definitionId": 141227,
+      "maxRanks": 1,
+      "type": "passive",
+      "name": "Scent of Blood",
+      "spellId": 1265355,
+      "icon": "ability_hunter_harass",
+      "index": 100
+     }
+    ]
+   },
+   {
+    "id": 109965,
+    "name": "Kill or Be Killed",
+    "type": "single",
+    "posX": 12000,
+    "posY": 3900,
+    "reqPoints": 8,
+    "maxRanks": 1,
+    "next": [
+     90412
+    ],
+    "prev": [
+     90408
+    ],
+    "entries": [
+     {
+      "id": 136450,
+      "definitionId": 141223,
+      "maxRanks": 1,
+      "type": "passive",
+      "name": "Kill or Be Killed",
+      "spellId": 1265361,
+      "icon": "inv12_ability_warrior_fury",
+      "index": 100
+     }
+    ]
+   },
+   {
+    "id": 90407,
+    "name": "Hack and Slash",
+    "type": "single",
+    "posX": 12600,
+    "posY": 3900,
+    "reqPoints": 8,
+    "maxRanks": 1,
+    "next": [
+     90412,
+     90405
+    ],
+    "prev": [
+     90408
+    ],
+    "entries": [
+     {
+      "id": 112276,
+      "definitionId": 117281,
+      "maxRanks": 1,
+      "type": "passive",
+      "name": "Hack and Slash",
+      "spellId": 383877,
+      "icon": "ability_rogue_rollthebones02",
+      "index": 100
+     }
+    ]
+   },
+   {
+    "id": 90428,
+    "name": "Cruelty",
+    "type": "single",
+    "posX": 13200,
+    "posY": 3900,
+    "reqPoints": 8,
+    "maxRanks": 2,
+    "next": [
+     90405,
+     90387
+    ],
+    "prev": [
+     90390
+    ],
+    "entries": [
+     {
+      "id": 112299,
+      "definitionId": 117304,
+      "maxRanks": 2,
+      "type": "passive",
+      "name": "Cruelty",
+      "spellId": 392931,
+      "icon": "spell_nature_focusedmind",
+      "index": 100
+     }
+    ]
+   },
+   {
+    "id": 109967,
+    "name": "Meat Cleaver / Carving Blades",
+    "type": "choice",
+    "posX": 13800,
+    "posY": 3900,
+    "reqPoints": 8,
+    "maxRanks": 1,
+    "next": [],
+    "prev": [
+     90391,
+     90390
+    ],
+    "entries": [
+     {
+      "id": 136452,
+      "definitionId": 141225,
+      "maxRanks": 1,
+      "type": "passive",
+      "name": "Meat Cleaver",
+      "spellId": 280392,
+      "icon": "warrior_talent_icon_mastercleaver",
+      "index": 100
+     },
+     {
+      "id": 137487,
+      "definitionId": 142247,
+      "maxRanks": 1,
+      "type": "passive",
+      "name": "Carving Blades",
+      "spellId": 1300463,
+      "icon": "inv_knife_1h_goblinrogue_c_01",
+      "index": 200
+     }
+    ]
+   },
+   {
+    "id": 90402,
+    "name": "Cold Steel, Hot Blood",
+    "type": "single",
+    "posX": 10200,
+    "posY": 4500,
+    "reqPoints": 8,
+    "maxRanks": 1,
+    "next": [
+     90421
+    ],
+    "prev": [
+     90397
+    ],
+    "entries": [
+     {
+      "id": 112271,
+      "definitionId": 117276,
+      "maxRanks": 1,
+      "type": "passive",
+      "name": "Cold Steel, Hot Blood",
+      "spellId": 383959,
+      "icon": "ability_rogue_hungerforblood",
+      "index": 100
+     }
+    ]
+   },
+   {
+    "id": 109962,
+    "name": "Ragedrinker",
+    "type": "single",
+    "posX": 11400,
+    "posY": 4500,
+    "reqPoints": 8,
+    "maxRanks": 1,
+    "next": [
+     90421,
+     90406
+    ],
+    "prev": [
+     90397,
+     109969
+    ],
+    "entries": [
+     {
+      "id": 136447,
+      "definitionId": 141220,
+      "maxRanks": 1,
+      "type": "passive",
+      "name": "Ragedrinker",
+      "spellId": 1265356,
+      "icon": "spell_nzinsanity_bloodthirst",
+      "index": 100
+     }
+    ]
+   },
+   {
+    "id": 90412,
+    "name": "Recklessness",
+    "type": "single",
+    "posX": 12000,
+    "posY": 4500,
+    "reqPoints": 8,
+    "maxRanks": 1,
+    "next": [
+     90406
+    ],
+    "prev": [
+     90407,
+     109969,
+     109965
+    ],
+    "entries": [
+     {
+      "id": 112281,
+      "definitionId": 117286,
+      "maxRanks": 1,
+      "type": "active",
+      "name": "Recklessness",
+      "spellId": 1719,
+      "icon": "warrior_talent_icon_innerrage",
+      "index": 100
+     }
+    ]
+   },
+   {
+    "id": 90405,
+    "name": "Bloodcraze",
+    "type": "single",
+    "posX": 12600,
+    "posY": 4500,
+    "reqPoints": 8,
+    "maxRanks": 1,
+    "next": [
+     90406,
+     90425
+    ],
+    "prev": [
+     90428,
+     90407
+    ],
+    "entries": [
+     {
+      "id": 112274,
+      "definitionId": 117279,
+      "maxRanks": 1,
+      "type": "passive",
+      "name": "Bloodcraze",
+      "spellId": 393950,
+      "icon": "ability_creature_cursed_02",
+      "index": 100
+     }
+    ]
+   },
+   {
+    "id": 90387,
+    "name": "Wrath and Fury",
+    "type": "single",
+    "posX": 13800,
+    "posY": 4500,
+    "reqPoints": 8,
+    "maxRanks": 1,
+    "next": [
+     90425
+    ],
+    "prev": [
+     90428
+    ],
+    "entries": [
+     {
+      "id": 112255,
+      "definitionId": 117260,
+      "maxRanks": 1,
+      "type": "passive",
+      "name": "Wrath and Fury",
+      "spellId": 392936,
+      "icon": "inv_sword_2h_artifactarathor_d_03",
+      "index": 100
+     }
+    ]
+   },
+   {
+    "id": 90421,
+    "name": "Deft Experience",
+    "type": "single",
+    "posX": 10800,
+    "posY": 5100,
+    "reqPoints": 20,
+    "maxRanks": 2,
+    "next": [
+     109963,
+     110203
+    ],
+    "prev": [
+     90402,
+     109962
+    ],
+    "entries": [
+     {
+      "id": 112292,
+      "definitionId": 117297,
+      "maxRanks": 2,
+      "type": "passive",
+      "name": "Deft Experience",
+      "spellId": 383295,
+      "icon": "inv_misc_book_07",
+      "index": 100
+     }
+    ]
+   },
+   {
+    "id": 90406,
+    "name": "Frenzy",
+    "type": "single",
+    "posX": 12000,
+    "posY": 5100,
+    "reqPoints": 20,
+    "maxRanks": 1,
+    "next": [
+     110203,
+     90401
+    ],
+    "prev": [
+     90412,
+     90405,
+     109962
+    ],
+    "entries": [
+     {
+      "id": 112275,
+      "definitionId": 117280,
+      "maxRanks": 1,
+      "type": "passive",
+      "name": "Frenzy",
+      "spellId": 335077,
+      "icon": "ability_rogue_bloodyeye",
+      "index": 100
+     }
+    ]
+   },
+   {
+    "id": 90425,
+    "name": "Critical Thinking",
+    "type": "single",
+    "posX": 13200,
+    "posY": 5100,
+    "reqPoints": 20,
+    "maxRanks": 2,
+    "next": [
+     90401,
+     109964
+    ],
+    "prev": [
+     90387,
+     90405
+    ],
+    "entries": [
+     {
+      "id": 112296,
+      "definitionId": 117301,
+      "maxRanks": 2,
+      "type": "passive",
+      "name": "Critical Thinking",
+      "spellId": 383297,
+      "icon": "ability_criticalstrike",
+      "index": 100
+     }
+    ]
+   },
+   {
+    "id": 109963,
+    "name": "Vicious Contempt",
+    "type": "single",
+    "posX": 10200,
+    "posY": 5700,
+    "reqPoints": 20,
+    "maxRanks": 1,
+    "next": [
+     109968
+    ],
+    "prev": [
+     90421
+    ],
+    "entries": [
+     {
+      "id": 136448,
+      "definitionId": 141221,
+      "maxRanks": 1,
+      "type": "passive",
+      "name": "Vicious Contempt",
+      "spellId": 383885,
+      "icon": "ability_ironmaidens_sorkasprey",
+      "index": 100
+     }
+    ]
+   },
+   {
+    "id": 110203,
+    "name": "Odyn's Fury",
+    "type": "single",
+    "posX": 11400,
+    "posY": 5700,
+    "reqPoints": 20,
+    "maxRanks": 1,
+    "next": [
+     109968,
+     90388
+    ],
+    "prev": [
+     90406,
+     90421
+    ],
+    "entries": [
+     {
+      "id": 136735,
+      "definitionId": 141507,
+      "maxRanks": 1,
+      "type": "active",
+      "name": "Odyn's Fury",
+      "spellId": 385059,
+      "icon": "inv_sword_1h_artifactvigfus_d_01",
+      "index": 100
+     }
+    ]
+   },
+   {
+    "id": 90401,
+    "name": "Bloodborne",
+    "type": "single",
+    "posX": 12600,
+    "posY": 5700,
+    "reqPoints": 20,
+    "maxRanks": 1,
+    "next": [
+     90388,
+     90415
+    ],
+    "prev": [
+     90425,
+     90406
+    ],
+    "entries": [
+     {
+      "id": 112270,
+      "definitionId": 117275,
+      "maxRanks": 1,
+      "type": "passive",
+      "name": "Bloodborne",
+      "spellId": 385703,
+      "icon": "inv_artifact_bloodoftheassassinated",
+      "index": 0
+     }
+    ]
+   },
+   {
+    "id": 109964,
+    "name": "Surge of Adrenaline",
+    "type": "single",
+    "posX": 13800,
+    "posY": 5700,
+    "reqPoints": 20,
+    "maxRanks": 1,
+    "next": [
+     90415
+    ],
+    "prev": [
+     90425
+    ],
+    "entries": [
+     {
+      "id": 136449,
+      "definitionId": 141222,
+      "maxRanks": 1,
+      "type": "passive",
+      "name": "Surge of Adrenaline",
+      "spellId": 1265359,
+      "icon": "inv_1115_warrior_fasterreflexes",
+      "index": 100
+     }
+    ]
+   },
+   {
+    "id": 109968,
+    "name": "Executioner's Wrath",
+    "type": "single",
+    "posX": 10800,
+    "posY": 6300,
+    "reqPoints": 20,
+    "maxRanks": 1,
+    "next": [],
+    "prev": [
+     109963,
+     110203
+    ],
+    "entries": [
+     {
+      "id": 136453,
+      "definitionId": 141226,
+      "maxRanks": 1,
+      "type": "passive",
+      "name": "Executioner's Wrath",
+      "spellId": 1265570,
+      "icon": "inv_12_nonmasculinecharacter_human",
+      "index": 100
+     }
+    ]
+   },
+   {
+    "id": 90388,
+    "name": "Reckless Abandon",
+    "type": "single",
+    "posX": 12000,
+    "posY": 6300,
+    "reqPoints": 20,
+    "maxRanks": 1,
+    "next": [],
+    "prev": [
+     90401,
+     110203
+    ],
+    "entries": [
+     {
+      "id": 119139,
+      "definitionId": 124039,
+      "maxRanks": 1,
+      "type": "passive",
+      "name": "Reckless Abandon",
+      "spellId": 396749,
+      "icon": "spell_fire_incinerate",
+      "index": 100
+     }
+    ]
+   },
+   {
+    "id": 90415,
+    "name": "Avatar / Bladestorm",
+    "type": "choice",
+    "posX": 13200,
+    "posY": 6300,
+    "reqPoints": 20,
+    "maxRanks": 1,
+    "next": [],
+    "prev": [
+     90401,
+     109964
+    ],
+    "entries": [
+     {
+      "id": 112285,
+      "definitionId": 117290,
+      "maxRanks": 1,
+      "type": "active",
+      "name": "Avatar",
+      "spellId": 107574,
+      "icon": "warrior_talent_icon_avatar",
+      "index": 100
+     },
+     {
+      "id": 112284,
+      "definitionId": 117289,
+      "maxRanks": 1,
+      "type": "active",
+      "name": "Bladestorm",
+      "spellId": 227847,
+      "icon": "ability_warrior_bladestorm",
+      "index": 200
+     }
+    ]
+   },
+   {
+    "id": 110412,
+    "name": "Rampaging Berserker / Rampaging Berserker / Rampaging Berserker",
+    "type": "tiered",
+    "posX": 12000,
+    "posY": 7050,
+    "reqPoints": 20,
+    "maxRanks": 4,
+    "rankLevels": [
+     {
+      "level": 81,
+      "maxRanks": 1
+     },
+     {
+      "level": 84,
+      "maxRanks": 3
+     },
+     {
+      "level": 90,
+      "maxRanks": 4
+     }
+    ],
+    "entryNode": true,
+    "next": [],
+    "prev": [],
+    "entries": [
+     {
+      "id": 137004,
+      "definitionId": 141767,
+      "maxRanks": 1,
+      "type": "tierrank",
+      "name": "Rampaging Berserker",
+      "spellId": 1269308,
+      "icon": "inv12_apextalent_warrior_rampagingberserker2",
+      "index": 100
+     },
+     {
+      "id": 137003,
+      "definitionId": 141766,
+      "maxRanks": 2,
+      "type": "tierrank",
+      "name": "Rampaging Berserker",
+      "spellId": 1269309,
+      "icon": "inv12_apextalent_warrior_rampagingberserker2",
+      "index": 200
+     },
+     {
+      "id": 137002,
+      "definitionId": 141765,
+      "maxRanks": 1,
+      "type": "tierrank",
+      "name": "Rampaging Berserker",
+      "spellId": 1269310,
+      "icon": "inv12_apextalent_warrior_rampagingberserker2",
+      "index": 300
+     }
+    ]
+   }
+  ],
+  "heroNodes": [
+   {
+    "id": 94803,
+    "name": "Lightning Strikes",
+    "type": "single",
+    "posX": 15000,
+    "posY": 300,
+    "maxRanks": 1,
+    "entryNode": true,
+    "subTreeId": 61,
+    "next": [
+     94816,
+     94800,
+     94808,
+     109811
+    ],
+    "prev": [],
+    "entries": [
+     {
+      "id": 117400,
+      "definitionId": 122412,
+      "maxRanks": 1,
+      "type": "passive",
+      "name": "Lightning Strikes",
+      "spellId": 434969,
+      "icon": "ability_vehicle_electrocharge",
+      "index": 100
+     }
+    ],
+    "freeNode": true,
+    "freeLevel": 71
+   },
+   {
+    "id": 94816,
+    "name": "Crashing Thunder",
+    "type": "single",
+    "posX": 14080,
+    "posY": 890,
+    "maxRanks": 1,
+    "subTreeId": 61,
+    "requiresNode": 90343,
+    "next": [
+     94785
+    ],
+    "prev": [
+     94803
+    ],
+    "entries": [
+     {
+      "id": 117413,
+      "definitionId": 122425,
+      "maxRanks": 1,
+      "type": "passive",
+      "name": "Crashing Thunder",
+      "spellId": 436707,
+      "icon": "spell_nature_thunderclap",
+      "index": 100
+     }
+    ]
+   },
+   {
+    "id": 94800,
+    "name": "Ground Current",
+    "type": "single",
+    "posX": 14700,
+    "posY": 900,
+    "maxRanks": 1,
+    "subTreeId": 61,
+    "next": [
+     94817
+    ],
+    "prev": [
+     94803
+    ],
+    "entries": [
+     {
+      "id": 117397,
+      "definitionId": 122409,
+      "maxRanks": 1,
+      "type": "passive",
+      "name": "Ground Current",
+      "spellId": 436148,
+      "icon": "warrior_talent_icon_thunderstruck",
+      "index": 100
+     }
+    ]
+   },
+   {
+    "id": 94808,
+    "name": "Strength of the Mountain",
+    "type": "single",
+    "posX": 15310,
+    "posY": 900,
+    "maxRanks": 1,
+    "subTreeId": 61,
+    "next": [
+     94798
+    ],
+    "prev": [
+     94803
+    ],
+    "entries": [
+     {
+      "id": 117405,
+      "definitionId": 122417,
+      "maxRanks": 1,
+      "type": "passive",
+      "name": "Strength of the Mountain",
+      "spellId": 437068,
+      "icon": "ability_warrior_titansgrip",
+      "index": 100
+     }
+    ]
+   },
+   {
+    "id": 109811,
+    "name": "Storm Surge",
+    "type": "single",
+    "posX": 15900,
+    "posY": 900,
+    "maxRanks": 1,
+    "subTreeId": 61,
+    "next": [
+     109810
+    ],
+    "prev": [
+     94803
+    ],
+    "entries": [
+     {
+      "id": 136070,
+      "definitionId": 140825,
+      "maxRanks": 1,
+      "type": "passive",
+      "name": "Storm Surge",
+      "spellId": 275336,
+      "icon": "ability_racial_avatar",
+      "index": 100
+     }
+    ]
+   },
+   {
+    "id": 94814,
+    "name": "Slayer's Dominance",
+    "type": "single",
+    "posX": 7850,
+    "posY": 1250,
+    "maxRanks": 1,
+    "entryNode": true,
+    "subTreeId": 60,
+    "next": [
+     94788,
+     94810,
+     94795,
+     109817
+    ],
+    "prev": [],
+    "entries": [
+     {
+      "id": 117411,
+      "definitionId": 122423,
+      "maxRanks": 1,
+      "type": "passive",
+      "name": "Slayer's Dominance",
+      "spellId": 444767,
+      "icon": "inv_ability_slayerwarrior_slayersdominance",
+      "index": 100
+     }
+    ],
+    "freeNode": true,
+    "freeLevel": 71
+   },
+   {
+    "id": 94785,
+    "name": "Thunder Blast",
+    "type": "single",
+    "posX": 14100,
+    "posY": 1500,
+    "maxRanks": 1,
+    "subTreeId": 61,
+    "requiresNode": 90343,
+    "next": [
+     94797
+    ],
+    "prev": [
+     94816
+    ],
+    "entries": [
+     {
+      "id": 117382,
+      "definitionId": 122394,
+      "maxRanks": 1,
+      "type": "passive",
+      "name": "Thunder Blast",
+      "spellId": 435607,
+      "icon": "warrior_talent_icon_bloodandthunder",
+      "index": 100
+     }
+    ]
+   },
+   {
+    "id": 94817,
+    "name": "Storm Bolts / Storm Shield",
+    "type": "choice",
+    "posX": 14700,
+    "posY": 1500,
+    "maxRanks": 1,
+    "subTreeId": 61,
+    "next": [
+     94792
+    ],
+    "prev": [
+     94800
+    ],
+    "entries": [
+     {
+      "id": 117414,
+      "definitionId": 122426,
+      "maxRanks": 1,
+      "type": "passive",
+      "name": "Storm Bolts",
+      "spellId": 436162,
+      "icon": "warrior_talent_icon_stormbolt",
+      "index": 100
+     },
+     {
+      "id": 118835,
+      "definitionId": 123735,
+      "maxRanks": 1,
+      "type": "passive",
+      "name": "Storm Shield",
+      "spellId": 438597,
+      "icon": "spell_winston_bubble",
+      "index": 200
+     }
+    ]
+   },
+   {
+    "id": 94798,
+    "name": "Keep Your Feet on the Ground / Steadfast as the Peaks",
+    "type": "choice",
+    "posX": 15310,
+    "posY": 1500,
+    "maxRanks": 1,
+    "subTreeId": 61,
+    "next": [
+     94807
+    ],
+    "prev": [
+     94808
+    ],
+    "entries": [
+     {
+      "id": 117395,
+      "definitionId": 122407,
+      "maxRanks": 1,
+      "type": "passive",
+      "name": "Keep Your Feet on the Ground",
+      "spellId": 438590,
+      "icon": "ability_thunderking_overcharge",
+      "index": 100
+     },
+     {
+      "id": 118836,
+      "definitionId": 123736,
+      "maxRanks": 1,
+      "type": "passive",
+      "name": "Steadfast as the Peaks",
+      "spellId": 434970,
+      "icon": "ability_warrior_devastate",
+      "index": 200
+     }
+    ]
+   },
+   {
+    "id": 109810,
+    "name": "Conductivity",
+    "type": "single",
+    "posX": 15900,
+    "posY": 1500,
+    "maxRanks": 1,
+    "subTreeId": 61,
+    "next": [
+     109809
+    ],
+    "prev": [
+     109811
+    ],
+    "entries": [
+     {
+      "id": 136069,
+      "definitionId": 140824,
+      "maxRanks": 1,
+      "type": "passive",
+      "name": "Conductivity",
+      "spellId": 1270723,
+      "icon": "spell_shaman_thunderstorm",
+      "index": 100
+     }
+    ]
+   },
+   {
+    "id": 94788,
+    "name": "Imminent Demise",
+    "type": "single",
+    "posX": 6900,
+    "posY": 1800,
+    "maxRanks": 1,
+    "subTreeId": 60,
+    "next": [
+     94813
+    ],
+    "prev": [
+     94814
+    ],
+    "entries": [
+     {
+      "id": 117385,
+      "definitionId": 122397,
+      "maxRanks": 1,
+      "type": "passive",
+      "name": "Imminent Demise",
+      "spellId": 444769,
+      "icon": "ability_warrior_improveddisciplines",
+      "index": 100
+     }
+    ]
+   },
+   {
+    "id": 94810,
+    "name": "Overwhelming Blades",
+    "type": "single",
+    "posX": 7500,
+    "posY": 1800,
+    "maxRanks": 1,
+    "subTreeId": 60,
+    "requiresNode": 0,
+    "next": [
+     94786
+    ],
+    "prev": [
+     94814
+    ],
+    "entries": [
+     {
+      "id": 117407,
+      "definitionId": 122419,
+      "maxRanks": 1,
+      "type": "passive",
+      "name": "Overwhelming Blades",
+      "spellId": 444772,
+      "icon": "inv_10_specialization_blacksmithing_blades_color1",
+      "index": 100
+     }
+    ]
+   },
+   {
+    "id": 94795,
+    "name": "Relentless Pursuit / Vicious Agility",
+    "type": "choice",
+    "posX": 8100,
+    "posY": 1800,
+    "maxRanks": 1,
+    "subTreeId": 60,
+    "next": [
+     94787
+    ],
+    "prev": [
+     94814
+    ],
+    "entries": [
+     {
+      "id": 117392,
+      "definitionId": 122404,
+      "maxRanks": 1,
+      "type": "passive",
+      "name": "Relentless Pursuit",
+      "spellId": 444776,
+      "icon": "ability_rogue_sprint",
+      "index": 100
+     },
+     {
+      "id": 123408,
+      "definitionId": 128246,
+      "maxRanks": 1,
+      "type": "passive",
+      "name": "Vicious Agility",
+      "spellId": 444777,
+      "icon": "ability_paladin_speedoflight",
+      "index": 200
+     }
+    ]
+   },
+   {
+    "id": 109817,
+    "name": "Violent Euphoria",
+    "type": "single",
+    "posX": 8700,
+    "posY": 1800,
+    "maxRanks": 1,
+    "subTreeId": 60,
+    "requiresNode": 0,
+    "next": [
+     109816
+    ],
+    "prev": [
+     94814
+    ],
+    "entries": [
+     {
+      "id": 136076,
+      "definitionId": 140831,
+      "maxRanks": 1,
+      "type": "passive",
+      "name": "Violent Euphoria",
+      "spellId": 1270717,
+      "icon": "ability_butcher_exsanguination",
+      "index": 100
+     }
+    ]
+   },
+   {
+    "id": 94797,
+    "name": "Flashing Skies / Snap Induction",
+    "type": "choice",
+    "posX": 14100,
+    "posY": 2100,
+    "maxRanks": 1,
+    "subTreeId": 61,
+    "requiresNode": 90343,
+    "next": [
+     94805
+    ],
+    "prev": [
+     94785
+    ],
+    "entries": [
+     {
+      "id": 117394,
+      "definitionId": 122406,
+      "maxRanks": 1,
+      "type": "passive",
+      "name": "Flashing Skies",
+      "spellId": 437079,
+      "icon": "spell_lightning_lightningbolt01",
+      "index": 100
+     },
+     {
+      "id": 118833,
+      "definitionId": 123733,
+      "maxRanks": 1,
+      "type": "passive",
+      "name": "Snap Induction",
+      "spellId": 456270,
+      "icon": "ability_thunderking_thunderstruck",
+      "index": 200
+     }
+    ]
+   },
+   {
+    "id": 94792,
+    "name": "Gathering Clouds / Thorim's Might",
+    "type": "choice",
+    "posX": 14700,
+    "posY": 2100,
+    "maxRanks": 1,
+    "subTreeId": 61,
+    "next": [
+     94805
+    ],
+    "prev": [
+     94817
+    ],
+    "entries": [
+     {
+      "id": 117389,
+      "definitionId": 122401,
+      "maxRanks": 1,
+      "type": "passive",
+      "name": "Gathering Clouds",
+      "spellId": 436201,
+      "icon": "spell_nature_stormreach",
+      "index": 100
+     },
+     {
+      "id": 118834,
+      "definitionId": 123734,
+      "maxRanks": 1,
+      "type": "passive",
+      "name": "Thorim's Might",
+      "spellId": 436152,
+      "icon": "inv_ability_mountainthanewarrior_thorimsmight",
+      "index": 200
+     }
+    ]
+   },
+   {
+    "id": 94807,
+    "name": "Burst of Power",
+    "type": "single",
+    "posX": 15300,
+    "posY": 2100,
+    "maxRanks": 1,
+    "subTreeId": 61,
+    "next": [
+     94805
+    ],
+    "prev": [
+     94798
+    ],
+    "entries": [
+     {
+      "id": 117404,
+      "definitionId": 122416,
+      "maxRanks": 1,
+      "type": "passive",
+      "name": "Burst of Power",
+      "spellId": 437118,
+      "icon": "shaman_pvp_thundercharge",
+      "index": 100
+     }
+    ]
+   },
+   {
+    "id": 109809,
+    "name": "Capacitance",
+    "type": "single",
+    "posX": 15900,
+    "posY": 2100,
+    "maxRanks": 1,
+    "subTreeId": 61,
+    "next": [
+     94805
+    ],
+    "prev": [
+     109810
+    ],
+    "entries": [
+     {
+      "id": 136068,
+      "definitionId": 140823,
+      "maxRanks": 1,
+      "type": "passive",
+      "name": "Capacitance",
+      "spellId": 1270724,
+      "icon": "spell_nature_purge",
+      "index": 100
+     }
+    ]
+   },
+   {
+    "id": 94813,
+    "name": "Death Drive",
+    "type": "single",
+    "posX": 6900,
+    "posY": 2400,
+    "maxRanks": 1,
+    "subTreeId": 60,
+    "next": [
+     94784
+    ],
+    "prev": [
+     94788
+    ],
+    "entries": [
+     {
+      "id": 117410,
+      "definitionId": 122422,
+      "maxRanks": 1,
+      "type": "passive",
+      "name": "Death Drive",
+      "spellId": 444770,
+      "icon": "ability_warrior_focusedrage",
+      "index": 100
+     }
+    ]
+   },
+   {
+    "id": 94786,
+    "name": "Culling Cyclone / Brutal Finish",
+    "type": "choice",
+    "posX": 7500,
+    "posY": 2400,
+    "maxRanks": 1,
+    "subTreeId": 60,
+    "requiresNode": 0,
+    "next": [
+     94809
+    ],
+    "prev": [
+     94810
+    ],
+    "entries": [
+     {
+      "id": 117383,
+      "definitionId": 122395,
+      "maxRanks": 1,
+      "type": "passive",
+      "name": "Culling Cyclone",
+      "spellId": 444778,
+      "icon": "ability_warrior_bladestorm",
+      "index": 100
+     },
+     {
+      "id": 123409,
+      "definitionId": 128247,
+      "maxRanks": 1,
+      "type": "passive",
+      "name": "Brutal Finish",
+      "spellId": 446085,
+      "icon": "ability_revendreth_warrior",
+      "index": 200
+     }
+    ]
+   },
+   {
+    "id": 94787,
+    "name": "Fierce Followthrough / Opportunist",
+    "type": "choice",
+    "posX": 8100,
+    "posY": 2400,
+    "maxRanks": 1,
+    "subTreeId": 60,
+    "next": [
+     94801
+    ],
+    "prev": [
+     94795
+    ],
+    "entries": [
+     {
+      "id": 117384,
+      "definitionId": 122396,
+      "maxRanks": 1,
+      "type": "passive",
+      "name": "Fierce Followthrough",
+      "spellId": 444773,
+      "icon": "spell_deathknight_butcher2",
+      "index": 100
+     },
+     {
+      "id": 123770,
+      "definitionId": 128608,
+      "maxRanks": 1,
+      "type": "passive",
+      "name": "Opportunist",
+      "spellId": 444774,
+      "icon": "ability_warrior_weaponmastery",
+      "index": 200
+     }
+    ]
+   },
+   {
+    "id": 109816,
+    "name": "Deadly Focus",
+    "type": "single",
+    "posX": 8700,
+    "posY": 2400,
+    "maxRanks": 1,
+    "subTreeId": 60,
+    "next": [
+     109815
+    ],
+    "prev": [
+     109817
+    ],
+    "entries": [
+     {
+      "id": 136075,
+      "definitionId": 140830,
+      "maxRanks": 1,
+      "type": "passive",
+      "name": "Deadly Focus",
+      "spellId": 1270718,
+      "icon": "spell_hunter_focusingshot",
+      "index": 100
+     }
+    ]
+   },
+   {
+    "id": 94805,
+    "name": "Avatar of the Storm",
+    "type": "single",
+    "posX": 15010,
+    "posY": 2710,
+    "maxRanks": 1,
+    "subTreeId": 61,
+    "next": [],
+    "prev": [
+     94797,
+     94792,
+     94807,
+     109809
+    ],
+    "entries": [
+     {
+      "id": 117402,
+      "definitionId": 122414,
+      "maxRanks": 1,
+      "type": "passive",
+      "name": "Avatar of the Storm",
+      "spellId": 437134,
+      "icon": "achievement_dungeon_blackrockcaverns_ascendantlordobsidius",
+      "index": 100
+     }
+    ]
+   },
+   {
+    "id": 94784,
+    "name": "Show No Mercy",
+    "type": "single",
+    "posX": 6900,
+    "posY": 3000,
+    "maxRanks": 1,
+    "subTreeId": 60,
+    "next": [
+     94820
+    ],
+    "prev": [
+     94813
+    ],
+    "entries": [
+     {
+      "id": 117381,
+      "definitionId": 122393,
+      "maxRanks": 1,
+      "type": "passive",
+      "name": "Show No Mercy",
+      "spellId": 444771,
+      "icon": "warrior_talent_icon_lambstotheslaughter",
+      "index": 100
+     }
+    ]
+   },
+   {
+    "id": 94809,
+    "name": "Reap the Storm",
+    "type": "single",
+    "posX": 7500,
+    "posY": 3000,
+    "maxRanks": 1,
+    "subTreeId": 60,
+    "next": [
+     94820
+    ],
+    "prev": [
+     94786
+    ],
+    "entries": [
+     {
+      "id": 117406,
+      "definitionId": 122418,
+      "maxRanks": 1,
+      "type": "passive",
+      "name": "Reap the Storm",
+      "spellId": 444775,
+      "icon": "ability_arakkoa_spinning_blade",
+      "index": 100
+     }
+    ]
+   },
+   {
+    "id": 94801,
+    "name": "Slayer's Malice",
+    "type": "single",
+    "posX": 8100,
+    "posY": 3000,
+    "maxRanks": 1,
+    "subTreeId": 60,
+    "next": [
+     94820
+    ],
+    "prev": [
+     94787
+    ],
+    "entries": [
+     {
+      "id": 117398,
+      "definitionId": 122410,
+      "maxRanks": 1,
+      "type": "passive",
+      "name": "Slayer's Malice",
+      "spellId": 444779,
+      "icon": "ability_warrior_revenge",
+      "index": 100
+     }
+    ]
+   },
+   {
+    "id": 109815,
+    "name": "Unhinged",
+    "type": "single",
+    "posX": 8700,
+    "posY": 3000,
+    "maxRanks": 1,
+    "subTreeId": 60,
+    "requiresNode": 0,
+    "next": [
+     94820
+    ],
+    "prev": [
+     109816
+    ],
+    "entries": [
+     {
+      "id": 136074,
+      "definitionId": 140829,
+      "maxRanks": 1,
+      "type": "passive",
+      "name": "Unhinged",
+      "spellId": 386628,
+      "icon": "spell_shadow_spectralsight",
+      "index": 100
+     }
+    ]
+   },
+   {
+    "id": 94820,
+    "name": "Unrelenting Onslaught",
+    "type": "single",
+    "posX": 7850,
+    "posY": 3650,
+    "maxRanks": 1,
+    "subTreeId": 60,
+    "next": [],
+    "prev": [
+     94809,
+     94784,
+     94801,
+     109815
+    ],
+    "entries": [
+     {
+      "id": 117417,
+      "definitionId": 122429,
+      "maxRanks": 1,
+      "type": "passive",
+      "name": "Unrelenting Onslaught",
+      "spellId": 444780,
+      "icon": "ability_warrior_commandingshout",
+      "index": 100
+     }
+    ]
+   }
+  ],
+  "subTreeNodes": [
+   {
+    "id": 99852,
+    "name": "Mountain Thane / Slayer",
+    "type": "subtree",
+    "posX": 7800,
+    "posY": 600,
+    "entryNode": true,
+    "next": [],
+    "prev": [],
+    "entries": [
+     {
+      "id": 123392,
+      "type": "subtree",
+      "name": "Mountain Thane",
+      "traitSubTreeId": 61,
+      "traitTreeId": 850,
+      "atlasMemberName": "talents-heroclass-warrior-mountainthane",
+      "nodes": [
+       94803,
+       94816,
+       94800,
+       94808,
+       109811,
+       94785,
+       94817,
+       94798,
+       109810,
+       94797,
+       94792,
+       94807,
+       109809,
+       94805
+      ]
+     },
+     {
+      "id": 123389,
+      "type": "subtree",
+      "name": "Slayer",
+      "traitSubTreeId": 60,
+      "traitTreeId": 850,
+      "atlasMemberName": "talents-heroclass-warrior-slayer",
+      "nodes": [
+       94814,
+       94788,
+       94810,
+       94795,
+       109817,
+       94813,
+       94786,
+       94787,
+       109816,
+       94784,
+       94809,
+       94801,
+       109815,
+       94820
+      ]
+     }
+    ]
+   }
+  ]
+ }
+]

@@ -1,0 +1,990 @@
+{
+  "class_file": "DRUID",
+  "class_name": "Druid",
+  "guides": [
+    {
+      "content": "mplus",
+      "enchants": [
+        {
+          "item_id": 244029,
+          "slot": "MAINHAND",
+          "usage_pct": 74.6
+        },
+        {
+          "item_id": 243973,
+          "slot": "MAINHAND",
+          "usage_pct": 23.9
+        },
+        {
+          "item_id": 244001,
+          "slot": "MAINHAND",
+          "usage_pct": 0.6
+        },
+        {
+          "item_id": 243951,
+          "slot": "HEAD",
+          "usage_pct": 74.3
+        },
+        {
+          "item_id": 244007,
+          "slot": "HEAD",
+          "usage_pct": 9.4
+        },
+        {
+          "item_id": 243981,
+          "slot": "HEAD",
+          "usage_pct": 8.7
+        },
+        {
+          "item_id": 244021,
+          "slot": "SHOULDER",
+          "usage_pct": 70.5
+        },
+        {
+          "item_id": 243963,
+          "slot": "SHOULDER",
+          "usage_pct": 13.0
+        },
+        {
+          "item_id": 243991,
+          "slot": "SHOULDER",
+          "usage_pct": 12.0
+        },
+        {
+          "item_id": 243977,
+          "slot": "CHEST",
+          "usage_pct": 94.8
+        },
+        {
+          "item_id": 243975,
+          "slot": "CHEST",
+          "usage_pct": 3.5
+        },
+        {
+          "item_id": 243976,
+          "slot": "CHEST",
+          "usage_pct": 1.1
+        },
+        {
+          "item_id": 244641,
+          "slot": "LEGS",
+          "usage_pct": 83.7
+        },
+        {
+          "item_id": 244643,
+          "slot": "LEGS",
+          "usage_pct": 8.7
+        },
+        {
+          "item_id": 240133,
+          "slot": "LEGS",
+          "usage_pct": 6.0
+        },
+        {
+          "item_id": 243983,
+          "slot": "FEET",
+          "usage_pct": 72.4
+        },
+        {
+          "item_id": 243953,
+          "slot": "FEET",
+          "usage_pct": 14.0
+        },
+        {
+          "item_id": 244009,
+          "slot": "FEET",
+          "usage_pct": 12.5
+        },
+        {
+          "item_id": 244015,
+          "slot": "FINGER1",
+          "usage_pct": 43.7
+        },
+        {
+          "item_id": 244017,
+          "slot": "FINGER1",
+          "usage_pct": 25.3
+        },
+        {
+          "item_id": 243957,
+          "slot": "FINGER1",
+          "usage_pct": 18.1
+        }
+      ],
+      "gear": {
+        "BACK": [
+          {
+            "item_id": 239656,
+            "note": null,
+            "source_hint": null,
+            "usage_pct": 24.9
+          },
+          {
+            "item_id": 193763,
+            "note": null,
+            "source_hint": null,
+            "usage_pct": 15.8
+          },
+          {
+            "item_id": 251190,
+            "note": null,
+            "source_hint": null,
+            "usage_pct": 12.1
+          },
+          {
+            "item_id": 159288,
+            "note": null,
+            "source_hint": null,
+            "usage_pct": 7.6
+          },
+          {
+            "item_id": 193712,
+            "note": null,
+            "source_hint": null,
+            "usage_pct": 6.7
+          },
+          {
+            "item_id": 250019,
+            "note": null,
+            "source_hint": null,
+            "usage_pct": 6.6
+          },
+          {
+            "item_id": 251132,
+            "note": null,
+            "source_hint": null,
+            "usage_pct": 5.4
+          },
+          {
+            "item_id": 272230,
+            "note": null,
+            "source_hint": null,
+            "usage_pct": 4.4
+          }
+        ],
+        "CHEST": [
+          {
+            "item_id": 250027,
+            "note": null,
+            "source_hint": null,
+            "usage_pct": 31.6
+          },
+          {
+            "item_id": 271531,
+            "note": null,
+            "source_hint": null,
+            "usage_pct": 12.9
+          },
+          {
+            "item_id": 151313,
+            "note": null,
+            "source_hint": null,
+            "usage_pct": 10.3
+          },
+          {
+            "item_id": 251159,
+            "note": null,
+            "source_hint": null,
+            "usage_pct": 8.7
+          },
+          {
+            "item_id": 193764,
+            "note": null,
+            "source_hint": null,
+            "usage_pct": 6.9
+          },
+          {
+            "item_id": 251226,
+            "note": null,
+            "source_hint": null,
+            "usage_pct": 6.7
+          },
+          {
+            "item_id": 244570,
+            "note": null,
+            "source_hint": null,
+            "usage_pct": 5.8
+          },
+          {
+            "item_id": 239048,
+            "note": null,
+            "source_hint": null,
+            "usage_pct": 4.9
+          }
+        ],
+        "FEET": [
+          {
+            "item_id": 251153,
+            "note": null,
+            "source_hint": null,
+            "usage_pct": 14.8
+          },
+          {
+            "item_id": 244569,
+            "note": null,
+            "source_hint": null,
+            "usage_pct": 13.9
+          },
+          {
+            "item_id": 251210,
+            "note": null,
+            "source_hint": null,
+            "usage_pct": 13.8
+          },
+          {
+            "item_id": 250026,
+            "note": null,
+            "source_hint": null,
+            "usage_pct": 10.2
+          },
+          {
+            "item_id": 159304,
+            "note": null,
+            "source_hint": null,
+            "usage_pct": 9.4
+          },
+          {
+            "item_id": 159327,
+            "note": null,
+            "source_hint": null,
+            "usage_pct": 8.1
+          },
+          {
+            "item_id": 277786,
+            "note": null,
+            "source_hint": null,
+            "usage_pct": 8.1
+          },
+          {
+            "item_id": 249334,
+            "note": null,
+            "source_hint": null,
+            "usage_pct": 7.8
+          }
+        ],
+        "FINGER1": [
+          {
+            "item_id": 268290,
+            "note": null,
+            "source_hint": null,
+            "usage_pct": 60.3
+          },
+          {
+            "item_id": 151311,
+            "note": null,
+            "source_hint": null,
+            "usage_pct": 22.9
+          },
+          {
+            "item_id": 273792,
+            "note": null,
+            "source_hint": null,
+            "usage_pct": 11.8
+          },
+          {
+            "item_id": 159459,
+            "note": null,
+            "source_hint": null,
+            "usage_pct": 11.4
+          },
+          {
+            "item_id": 251093,
+            "note": null,
+            "source_hint": null,
+            "usage_pct": 10.3
+          },
+          {
+            "item_id": 252258,
+            "note": null,
+            "source_hint": null,
+            "usage_pct": 9.9
+          },
+          {
+            "item_id": 251136,
+            "note": null,
+            "source_hint": null,
+            "usage_pct": 6.7
+          },
+          {
+            "item_id": 251217,
+            "note": null,
+            "source_hint": null,
+            "usage_pct": 6.6
+          }
+        ],
+        "HANDS": [
+          {
+            "item_id": 250025,
+            "note": null,
+            "source_hint": null,
+            "usage_pct": 56.6
+          },
+          {
+            "item_id": 271529,
+            "note": null,
+            "source_hint": null,
+            "usage_pct": 12.7
+          },
+          {
+            "item_id": 251124,
+            "note": null,
+            "source_hint": null,
+            "usage_pct": 7.2
+          },
+          {
+            "item_id": 193758,
+            "note": null,
+            "source_hint": null,
+            "usage_pct": 6.3
+          },
+          {
+            "item_id": 159337,
+            "note": null,
+            "source_hint": null,
+            "usage_pct": 5.0
+          },
+          {
+            "item_id": 159312,
+            "note": null,
+            "source_hint": null,
+            "usage_pct": 4.4
+          },
+          {
+            "item_id": 272241,
+            "note": null,
+            "source_hint": null,
+            "usage_pct": 3.1
+          },
+          {
+            "item_id": 277785,
+            "note": null,
+            "source_hint": null,
+            "usage_pct": 2.1
+          }
+        ],
+        "HEAD": [
+          {
+            "item_id": 250024,
+            "note": null,
+            "source_hint": null,
+            "usage_pct": 47.9
+          },
+          {
+            "item_id": 268283,
+            "note": null,
+            "source_hint": null,
+            "usage_pct": 15.8
+          },
+          {
+            "item_id": 271528,
+            "note": null,
+            "source_hint": null,
+            "usage_pct": 9.3
+          },
+          {
+            "item_id": 193751,
+            "note": null,
+            "source_hint": null,
+            "usage_pct": 7.8
+          },
+          {
+            "item_id": 273791,
+            "note": null,
+            "source_hint": null,
+            "usage_pct": 7.8
+          },
+          {
+            "item_id": 251140,
+            "note": null,
+            "source_hint": null,
+            "usage_pct": 5.0
+          },
+          {
+            "item_id": 239033,
+            "note": null,
+            "source_hint": null,
+            "usage_pct": 3.7
+          },
+          {
+            "item_id": 277784,
+            "note": null,
+            "source_hint": null,
+            "usage_pct": 0.8
+          }
+        ],
+        "LEGS": [
+          {
+            "item_id": 250023,
+            "note": null,
+            "source_hint": null,
+            "usage_pct": 48.7
+          },
+          {
+            "item_id": 271527,
+            "note": null,
+            "source_hint": null,
+            "usage_pct": 10.8
+          },
+          {
+            "item_id": 251198,
+            "note": null,
+            "source_hint": null,
+            "usage_pct": 6.8
+          },
+          {
+            "item_id": 159329,
+            "note": null,
+            "source_hint": null,
+            "usage_pct": 5.5
+          },
+          {
+            "item_id": 244574,
+            "note": null,
+            "source_hint": null,
+            "usage_pct": 5.1
+          },
+          {
+            "item_id": 159313,
+            "note": null,
+            "source_hint": null,
+            "usage_pct": 5.0
+          },
+          {
+            "item_id": 251130,
+            "note": null,
+            "source_hint": null,
+            "usage_pct": 4.4
+          },
+          {
+            "item_id": 251087,
+            "note": null,
+            "source_hint": null,
+            "usage_pct": 3.1
+          }
+        ],
+        "MAINHAND": [
+          {
+            "item_id": 249278,
+            "note": null,
+            "source_hint": null,
+            "usage_pct": 24.3
+          },
+          {
+            "item_id": 245771,
+            "note": null,
+            "source_hint": null,
+            "usage_pct": 15.3
+          },
+          {
+            "item_id": 237847,
+            "note": null,
+            "source_hint": null,
+            "usage_pct": 9.8
+          },
+          {
+            "item_id": 258529,
+            "note": null,
+            "source_hint": null,
+            "usage_pct": 9.1
+          },
+          {
+            "item_id": 273783,
+            "note": null,
+            "source_hint": null,
+            "usage_pct": 8.0
+          },
+          {
+            "item_id": 158370,
+            "note": null,
+            "source_hint": null,
+            "usage_pct": 6.8
+          },
+          {
+            "item_id": 251149,
+            "note": null,
+            "source_hint": null,
+            "usage_pct": 5.5
+          },
+          {
+            "item_id": 159642,
+            "note": null,
+            "source_hint": null,
+            "usage_pct": 4.5
+          }
+        ],
+        "NECK": [
+          {
+            "item_id": 268291,
+            "note": null,
+            "source_hint": null,
+            "usage_pct": 41.4
+          },
+          {
+            "item_id": 273781,
+            "note": null,
+            "source_hint": null,
+            "usage_pct": 13.4
+          },
+          {
+            "item_id": 251173,
+            "note": null,
+            "source_hint": null,
+            "usage_pct": 12.6
+          },
+          {
+            "item_id": 151309,
+            "note": null,
+            "source_hint": null,
+            "usage_pct": 6.8
+          },
+          {
+            "item_id": 251142,
+            "note": null,
+            "source_hint": null,
+            "usage_pct": 5.9
+          },
+          {
+            "item_id": 251096,
+            "note": null,
+            "source_hint": null,
+            "usage_pct": 4.8
+          },
+          {
+            "item_id": 251234,
+            "note": null,
+            "source_hint": null,
+            "usage_pct": 4.1
+          },
+          {
+            "item_id": 272229,
+            "note": null,
+            "source_hint": null,
+            "usage_pct": 3.2
+          }
+        ],
+        "SHOULDER": [
+          {
+            "item_id": 250022,
+            "note": null,
+            "source_hint": null,
+            "usage_pct": 42.9
+          },
+          {
+            "item_id": 271526,
+            "note": null,
+            "source_hint": null,
+            "usage_pct": 15.3
+          },
+          {
+            "item_id": 251223,
+            "note": null,
+            "source_hint": null,
+            "usage_pct": 13.0
+          },
+          {
+            "item_id": 273774,
+            "note": null,
+            "source_hint": null,
+            "usage_pct": 7.3
+          },
+          {
+            "item_id": 244572,
+            "note": null,
+            "source_hint": null,
+            "usage_pct": 5.9
+          },
+          {
+            "item_id": 251146,
+            "note": null,
+            "source_hint": null,
+            "usage_pct": 3.9
+          },
+          {
+            "item_id": 251092,
+            "note": null,
+            "source_hint": null,
+            "usage_pct": 3.3
+          },
+          {
+            "item_id": 272244,
+            "note": null,
+            "source_hint": null,
+            "usage_pct": 1.9
+          }
+        ],
+        "TRINKET1": [
+          {
+            "item_id": 249343,
+            "note": null,
+            "source_hint": null,
+            "usage_pct": 46.5
+          },
+          {
+            "item_id": 268292,
+            "note": null,
+            "source_hint": null,
+            "usage_pct": 23.4
+          },
+          {
+            "item_id": 250256,
+            "note": null,
+            "source_hint": null,
+            "usage_pct": 17.2
+          },
+          {
+            "item_id": 273796,
+            "note": null,
+            "source_hint": null,
+            "usage_pct": 11.6
+          },
+          {
+            "item_id": 260235,
+            "note": null,
+            "source_hint": null,
+            "usage_pct": 9.0
+          },
+          {
+            "item_id": 250144,
+            "note": null,
+            "source_hint": null,
+            "usage_pct": 7.2
+          },
+          {
+            "item_id": 250215,
+            "note": null,
+            "source_hint": null,
+            "usage_pct": 6.7
+          },
+          {
+            "item_id": 250214,
+            "note": null,
+            "source_hint": null,
+            "usage_pct": 6.7
+          }
+        ],
+        "WAIST": [
+          {
+            "item_id": 268286,
+            "note": null,
+            "source_hint": null,
+            "usage_pct": 44.1
+          },
+          {
+            "item_id": 159301,
+            "note": null,
+            "source_hint": null,
+            "usage_pct": 11.3
+          },
+          {
+            "item_id": 251189,
+            "note": null,
+            "source_hint": null,
+            "usage_pct": 8.7
+          },
+          {
+            "item_id": 251235,
+            "note": null,
+            "source_hint": null,
+            "usage_pct": 7.5
+          },
+          {
+            "item_id": 244573,
+            "note": null,
+            "source_hint": null,
+            "usage_pct": 6.6
+          },
+          {
+            "item_id": 159317,
+            "note": null,
+            "source_hint": null,
+            "usage_pct": 5.9
+          },
+          {
+            "item_id": 250021,
+            "note": null,
+            "source_hint": null,
+            "usage_pct": 3.7
+          },
+          {
+            "item_id": 251166,
+            "note": null,
+            "source_hint": null,
+            "usage_pct": 3.0
+          }
+        ],
+        "WRIST": [
+          {
+            "item_id": 244576,
+            "note": null,
+            "source_hint": null,
+            "usage_pct": 37.7
+          },
+          {
+            "item_id": 251183,
+            "note": null,
+            "source_hint": null,
+            "usage_pct": 12.1
+          },
+          {
+            "item_id": 250020,
+            "note": null,
+            "source_hint": null,
+            "usage_pct": 9.5
+          },
+          {
+            "item_id": 251135,
+            "note": null,
+            "source_hint": null,
+            "usage_pct": 9.4
+          },
+          {
+            "item_id": 251103,
+            "note": null,
+            "source_hint": null,
+            "usage_pct": 7.5
+          },
+          {
+            "item_id": 159300,
+            "note": null,
+            "source_hint": null,
+            "usage_pct": 5.7
+          },
+          {
+            "item_id": 272246,
+            "note": null,
+            "source_hint": null,
+            "usage_pct": 4.1
+          },
+          {
+            "item_id": 193714,
+            "note": null,
+            "source_hint": null,
+            "usage_pct": 2.6
+          }
+        ]
+      },
+      "gems": [
+        {
+          "item_id": 240894,
+          "note": null,
+          "source_hint": null,
+          "usage_pct": 29.9
+        },
+        {
+          "item_id": 240916,
+          "note": null,
+          "source_hint": null,
+          "usage_pct": 22.7
+        },
+        {
+          "item_id": 240983,
+          "note": null,
+          "source_hint": null,
+          "usage_pct": 18.1
+        },
+        {
+          "item_id": 240890,
+          "note": null,
+          "source_hint": null,
+          "usage_pct": 7.6
+        },
+        {
+          "item_id": 240900,
+          "note": null,
+          "source_hint": null,
+          "usage_pct": 2.9
+        },
+        {
+          "item_id": 240892,
+          "note": null,
+          "source_hint": null,
+          "usage_pct": 2.8
+        },
+        {
+          "item_id": 240908,
+          "note": null,
+          "source_hint": null,
+          "usage_pct": 2.6
+        },
+        {
+          "item_id": 240910,
+          "note": null,
+          "source_hint": null,
+          "usage_pct": 2.1
+        },
+        {
+          "item_id": 240906,
+          "note": null,
+          "source_hint": null,
+          "usage_pct": 2.0
+        }
+      ],
+      "hero_id": 24,
+      "hero_name": "Elune's Chosen",
+      "provenance": {
+        "mythicstats": {
+          "fetched_at": "2026-08-21",
+          "url": "https://mythicstats.com/spec/guardian-druid"
+        }
+      },
+      "rotation": [],
+      "stat_priority": [
+        {
+          "rating": 1049,
+          "share": 25.1,
+          "stat": "HASTE",
+          "weight": 1.0
+        },
+        {
+          "rating": 655,
+          "share": 17.2,
+          "stat": "MASTERY",
+          "weight": 0.624
+        },
+        {
+          "rating": 633,
+          "share": 23.2,
+          "stat": "CRIT",
+          "weight": 0.603
+        },
+        {
+          "rating": 347,
+          "share": 5.9,
+          "stat": "VERSATILITY",
+          "weight": 0.331
+        }
+      ],
+      "talent_builds": [
+        {
+          "hero_id": 24,
+          "import_string": "CgGAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAgZmZmFzMjZWmZxMPwMLLDMbGGNRmZWmZmZmlxMPAAAAAAAjNzALbzMYMLDgJAAAgNMzAsYMMwsYBgZGAA",
+          "label": "Elune's Chosen #1",
+          "metrics": {
+            "Avg dps": "109K",
+            "Avg key": "+12.3",
+            "Max dps": "129K",
+            "Max key": "+14"
+          },
+          "source": "mythicstats",
+          "url": "https://mythicstats.com/spec/guardian-druid",
+          "usage_pct": 2.2
+        },
+        {
+          "hero_id": 24,
+          "import_string": "CgGAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAgZmxsYmZMziZxMPwMWGw2MMaimZmlZmZmZZMzAAAAAgBzYzA22mZwYWGATAAAAbYGALGYALWAYmBwA",
+          "label": "Elune's Chosen #2",
+          "metrics": {
+            "Avg dps": "86.8K",
+            "Avg key": "+12.3",
+            "Max dps": "86.8K",
+            "Max key": "+14"
+          },
+          "source": "mythicstats",
+          "url": "https://mythicstats.com/spec/guardian-druid",
+          "usage_pct": 2.1
+        },
+        {
+          "hero_id": 24,
+          "import_string": "CgGAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAgZmxsYmZMziZxMmZZZgZbGGNRmZWmZmZmlxMAAAAAwgZsZALbzMYMLDgJAAAgNMzAsYgBsYBgZGAD",
+          "label": "Elune's Chosen #3",
+          "metrics": {
+            "Avg dps": "102K",
+            "Avg key": "+11.9",
+            "Max dps": "109K",
+            "Max key": "+13"
+          },
+          "source": "mythicstats",
+          "url": "https://mythicstats.com/spec/guardian-druid",
+          "usage_pct": 1.9
+        },
+        {
+          "hero_id": 24,
+          "import_string": "CgGAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAgZmZml5BmZMziZxwMLLDMbGGNRzMzyMzMzsMmBAAAAAgZsYAbbzMYMLDgJAAAgNMzAsYGMgNLAMzAYA",
+          "label": "Elune's Chosen #4",
+          "metrics": {
+            "Avg dps": "69.0K",
+            "Avg key": "+11.6",
+            "Max dps": "77.4K",
+            "Max key": "+12"
+          },
+          "source": "mythicstats",
+          "url": "https://mythicstats.com/spec/guardian-druid",
+          "usage_pct": 1.8
+        },
+        {
+          "hero_id": 24,
+          "import_string": "CgGAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAgZmZml5BmZMziZxwMLLDMbGGNRmZWmZmZmlxMMAAAAAgZsZALbzMYMLDgJAAAgNMzAsYGMgFLAMzAYA",
+          "label": "Elune's Chosen #5",
+          "metrics": {
+            "Avg dps": "104K",
+            "Avg key": "+11.8",
+            "Max dps": "106K",
+            "Max key": "+13"
+          },
+          "source": "mythicstats",
+          "url": "https://mythicstats.com/spec/guardian-druid",
+          "usage_pct": 1.5
+        },
+        {
+          "hero_id": 24,
+          "import_string": "CgGAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAgZmZmFzMjZWmZxMPwMLLDMbGGNRmZWmZmZmlxMMAAAAAAjNzALbzMYMLDgJAAAgNMzAsYMMwsYBgZGAA",
+          "label": "Elune's Chosen #6",
+          "metrics": {
+            "Avg dps": "98.2K",
+            "Avg key": "+11.7",
+            "Max dps": "103K",
+            "Max key": "+13"
+          },
+          "source": "mythicstats",
+          "url": "https://mythicstats.com/spec/guardian-druid",
+          "usage_pct": 1.5
+        },
+        {
+          "hero_id": 24,
+          "import_string": "CgGAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAgZmZmFzMjZWmZxMPwMLLDMbGGNRmZWmZmZmlxMPAAAAAAAjNzALbzMYMbDgJAAAgNMzAsYMMwsYBgZGAA",
+          "label": "Elune's Chosen #7",
+          "metrics": {
+            "Avg dps": "107K",
+            "Avg key": "+12.5",
+            "Max dps": "127K",
+            "Max key": "+15"
+          },
+          "source": "mythicstats",
+          "url": "https://mythicstats.com/spec/guardian-druid",
+          "usage_pct": 1.4
+        },
+        {
+          "hero_id": 24,
+          "import_string": "CgGAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAgZmxsYMjZWMLmZmxyAzmZMaiMzsMzMzMLjZAAAAAAYGbGwy2MDGzyAYCAAAYDzMALGDDYhNAzMAG",
+          "label": "Elune's Chosen #8",
+          "metrics": {
+            "Avg dps": "147K",
+            "Avg key": "+12.8",
+            "Max dps": "158K",
+            "Max key": "+14"
+          },
+          "source": "mythicstats",
+          "url": "https://mythicstats.com/spec/guardian-druid",
+          "usage_pct": 1.4
+        },
+        {
+          "hero_id": 24,
+          "import_string": "CgGAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAgZmxsYmZMziZxwMLLDYbwoJamZWMzMzsMmhBAAAAwgZsZALbzMYMbDgJAAAgNMzAsYGMgNLbAmZAMA",
+          "label": "Elune's Chosen #9",
+          "metrics": {
+            "Avg dps": "90.5K",
+            "Avg key": "+11.4",
+            "Max dps": "90.5K",
+            "Max key": "+12"
+          },
+          "source": "mythicstats",
+          "url": "https://mythicstats.com/spec/guardian-druid",
+          "usage_pct": 1.4
+        }
+      ]
+    }
+  ],
+  "slug": "guardian-druid",
+  "spec_id": 104,
+  "spec_name": "Guardian"
+}

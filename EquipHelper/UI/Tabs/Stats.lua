@@ -30,13 +30,17 @@ ns.RegisterTab({
 			if entry.note then
 				row.Left:SetText(("%d. %s  |cff888888(%s)|r"):format(i, label, entry.note))
 			end
-			if entry.weight then
-				row.Right:SetText(("%.2f"):format(entry.weight))
-			end
+
+			local right = {}
+			if entry.weight then table.insert(right, ("peso %.2f"):format(entry.weight)) end
+			if entry.share then table.insert(right, ("%.1f%% del total"):format(entry.share)) end
+			row.Right:SetText(table.concat(right, "  |  "))
 		end
 
 		ns.UI.Spacer(container)
 		ns.UI.Paragraph(container,
-			"El peso es relativo al stat mas valioso. Sirve para desempatar entre dos piezas de igual nivel, no para ignorar el nivel de objeto.")
+			"Medido sobre lo que llevan de verdad los mejores jugadores, no sobre una simulacion. "
+			.. "El peso es relativo al stat mas alto; la cuota es que parte de su presupuesto "
+			.. "secundario le dedican.")
 	end,
 })
