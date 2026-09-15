@@ -6,7 +6,16 @@
       "content": "mplus",
       "hero_id": 43,
       "hero_name": "Pack Leader",
-      "performance": null,
+      "performance": {
+        "difficulty": "Mythic+",
+        "median": 248053.9,
+        "metric": "dps",
+        "out_of": 40,
+        "rank": 24,
+        "sample": 300,
+        "top": 377613.2,
+        "zone": "Mythic+ Season 2"
+      },
       "views": {
         "icyveins": {
           "consumables": [
@@ -42,7 +51,7 @@
             }
           ],
           "enchants": [],
-          "fetched_at": "2026-08-21",
+          "fetched_at": "2026-09-15",
           "gear": {
             "BACK": [
               {
@@ -135,7 +144,7 @@
             "MAINHAND": [
               {
                 "drop_source": "Altar of Fangs",
-                "enchant_id": 244031,
+                "enchant_id": 273072,
                 "gem_id": null,
                 "item_id": 275070,
                 "note": null,
@@ -157,7 +166,7 @@
             "OFFHAND": [
               {
                 "drop_source": "Altar of Fangs",
-                "enchant_id": 244031,
+                "enchant_id": 273072,
                 "gem_id": null,
                 "item_id": 275070,
                 "note": null,
@@ -284,156 +293,124 @@
           "consumables": [],
           "enchants": [
             {
-              "item_id": 244031,
+              "item_id": 273072,
               "slot": "MAINHAND",
-              "usage_pct": 84.2
+              "usage_pct": 59.0
             },
             {
-              "item_id": 244029,
+              "item_id": 244031,
               "slot": "MAINHAND",
-              "usage_pct": 9.7
+              "usage_pct": 33.9
             },
             {
               "item_id": 243973,
               "slot": "MAINHAND",
-              "usage_pct": 2.7
+              "usage_pct": 3.4
+            },
+            {
+              "item_id": 273072,
+              "slot": "OFFHAND",
+              "usage_pct": 61.3
             },
             {
               "item_id": 244031,
               "slot": "OFFHAND",
-              "usage_pct": 86.5
+              "usage_pct": 34.8
             },
             {
               "item_id": 244029,
               "slot": "OFFHAND",
-              "usage_pct": 9.2
-            },
-            {
-              "item_id": 243973,
-              "slot": "OFFHAND",
-              "usage_pct": 2.1
+              "usage_pct": 2.6
             },
             {
               "item_id": 244007,
               "slot": "HEAD",
-              "usage_pct": 54.5
+              "usage_pct": 65.5
             },
             {
               "item_id": 243951,
               "slot": "HEAD",
-              "usage_pct": 36.3
+              "usage_pct": 30.8
             },
             {
-              "item_id": 243981,
+              "item_id": 244005,
               "slot": "HEAD",
-              "usage_pct": 2.7
+              "usage_pct": 2.5
             },
             {
               "item_id": 243991,
               "slot": "SHOULDER",
-              "usage_pct": 55.3
+              "usage_pct": 62.8
             },
             {
               "item_id": 244021,
               "slot": "SHOULDER",
-              "usage_pct": 37.2
+              "usage_pct": 30.3
             },
             {
-              "item_id": 243963,
+              "item_id": 243989,
               "slot": "SHOULDER",
-              "usage_pct": 3.9
+              "usage_pct": 3.0
             },
             {
               "item_id": 243977,
               "slot": "CHEST",
-              "usage_pct": 96.0
+              "usage_pct": 99.4
             },
             {
               "item_id": 243975,
               "slot": "CHEST",
-              "usage_pct": 3.0
+              "usage_pct": 0.5
             },
             {
-              "item_id": 243974,
+              "item_id": 243947,
               "slot": "CHEST",
-              "usage_pct": 0.6
+              "usage_pct": 0.1
             },
             {
               "item_id": 244641,
               "slot": "LEGS",
-              "usage_pct": 97.2
-            },
-            {
-              "item_id": 244643,
-              "slot": "LEGS",
-              "usage_pct": 2.1
+              "usage_pct": 99.9
             },
             {
               "item_id": 244645,
               "slot": "LEGS",
-              "usage_pct": 0.3
+              "usage_pct": 0.1
             },
             {
               "item_id": 243953,
               "slot": "FEET",
-              "usage_pct": 61.0
+              "usage_pct": 63.3
             },
             {
               "item_id": 243983,
               "slot": "FEET",
-              "usage_pct": 33.4
+              "usage_pct": 30.6
             },
             {
               "item_id": 244009,
               "slot": "FEET",
-              "usage_pct": 5.1
+              "usage_pct": 6.0
             },
             {
               "item_id": 243957,
               "slot": "FINGER1",
-              "usage_pct": 87.0
+              "usage_pct": 96.4
             },
             {
               "item_id": 243959,
               "slot": "FINGER1",
-              "usage_pct": 10.5
+              "usage_pct": 3.3
             },
             {
-              "item_id": 243955,
+              "item_id": 244015,
               "slot": "FINGER1",
-              "usage_pct": 1.3
+              "usage_pct": 0.1
             }
           ],
-          "fetched_at": "2026-08-21",
+          "fetched_at": "2026-09-15",
           "gear": {
             "BACK": [
-              {
-                "drop_source": null,
-                "enchant_id": null,
-                "gem_id": null,
-                "item_id": 239656,
-                "note": null,
-                "source_hint": null,
-                "usage_pct": 22.0
-              },
-              {
-                "drop_source": null,
-                "enchant_id": null,
-                "gem_id": null,
-                "item_id": 193763,
-                "note": null,
-                "source_hint": null,
-                "usage_pct": 11.0
-              },
-              {
-                "drop_source": null,
-                "enchant_id": null,
-                "gem_id": null,
-                "item_id": 258575,
-                "note": null,
-                "source_hint": null,
-                "usage_pct": 10.9
-              },
               {
                 "drop_source": null,
                 "enchant_id": null,
@@ -441,7 +418,7 @@
                 "item_id": 251190,
                 "note": null,
                 "source_hint": null,
-                "usage_pct": 10.1
+                "usage_pct": 23.8
               },
               {
                 "drop_source": null,
@@ -450,7 +427,43 @@
                 "item_id": 251132,
                 "note": null,
                 "source_hint": null,
-                "usage_pct": 7.8
+                "usage_pct": 20.9
+              },
+              {
+                "drop_source": null,
+                "enchant_id": null,
+                "gem_id": null,
+                "item_id": 268253,
+                "note": null,
+                "source_hint": null,
+                "usage_pct": 14.1
+              },
+              {
+                "drop_source": null,
+                "enchant_id": null,
+                "gem_id": null,
+                "item_id": 271487,
+                "note": null,
+                "source_hint": null,
+                "usage_pct": 12.1
+              },
+              {
+                "drop_source": null,
+                "enchant_id": null,
+                "gem_id": null,
+                "item_id": 239656,
+                "note": null,
+                "source_hint": null,
+                "usage_pct": 10.8
+              },
+              {
+                "drop_source": null,
+                "enchant_id": null,
+                "gem_id": null,
+                "item_id": 193763,
+                "note": null,
+                "source_hint": null,
+                "usage_pct": 10.8
               },
               {
                 "drop_source": null,
@@ -459,7 +472,7 @@
                 "item_id": 159288,
                 "note": null,
                 "source_hint": null,
-                "usage_pct": 4.9
+                "usage_pct": 5.8
               },
               {
                 "drop_source": null,
@@ -468,16 +481,7 @@
                 "item_id": 272230,
                 "note": null,
                 "source_hint": null,
-                "usage_pct": 3.5
-              },
-              {
-                "drop_source": null,
-                "enchant_id": null,
-                "gem_id": null,
-                "item_id": 272227,
-                "note": null,
-                "source_hint": null,
-                "usage_pct": 3.2
+                "usage_pct": 1.0
               }
             ],
             "CHEST": [
@@ -485,37 +489,19 @@
                 "drop_source": null,
                 "enchant_id": null,
                 "gem_id": null,
-                "item_id": 249991,
-                "note": null,
-                "source_hint": null,
-                "usage_pct": 63.4
-              },
-              {
-                "drop_source": null,
-                "enchant_id": null,
-                "gem_id": null,
                 "item_id": 271495,
                 "note": null,
                 "source_hint": null,
-                "usage_pct": 25.3
+                "usage_pct": 92.5
               },
               {
                 "drop_source": null,
                 "enchant_id": null,
                 "gem_id": null,
-                "item_id": 272247,
+                "item_id": 271876,
                 "note": null,
                 "source_hint": null,
-                "usage_pct": 1.8
-              },
-              {
-                "drop_source": null,
-                "enchant_id": null,
-                "gem_id": null,
-                "item_id": 251233,
-                "note": null,
-                "source_hint": null,
-                "usage_pct": 1.8
+                "usage_pct": 4.9
               },
               {
                 "drop_source": null,
@@ -530,19 +516,10 @@
                 "drop_source": null,
                 "enchant_id": null,
                 "gem_id": null,
-                "item_id": 251179,
+                "item_id": 251233,
                 "note": null,
                 "source_hint": null,
-                "usage_pct": 1.1
-              },
-              {
-                "drop_source": null,
-                "enchant_id": null,
-                "gem_id": null,
-                "item_id": 277779,
-                "note": null,
-                "source_hint": null,
-                "usage_pct": 0.9
+                "usage_pct": 0.6
               },
               {
                 "drop_source": null,
@@ -551,7 +528,7 @@
                 "item_id": 239046,
                 "note": null,
                 "source_hint": null,
-                "usage_pct": 0.8
+                "usage_pct": 0.3
               }
             ],
             "FEET": [
@@ -559,28 +536,10 @@
                 "drop_source": null,
                 "enchant_id": null,
                 "gem_id": null,
-                "item_id": 268287,
+                "item_id": 268233,
                 "note": null,
                 "source_hint": null,
-                "usage_pct": 27.2
-              },
-              {
-                "drop_source": null,
-                "enchant_id": null,
-                "gem_id": null,
-                "item_id": 249990,
-                "note": null,
-                "source_hint": null,
-                "usage_pct": 21.8
-              },
-              {
-                "drop_source": null,
-                "enchant_id": null,
-                "gem_id": null,
-                "item_id": 244610,
-                "note": null,
-                "source_hint": null,
-                "usage_pct": 9.2
+                "usage_pct": 24.9
               },
               {
                 "drop_source": null,
@@ -589,34 +548,16 @@
                 "item_id": 159388,
                 "note": null,
                 "source_hint": null,
-                "usage_pct": 8.5
+                "usage_pct": 22.0
               },
               {
                 "drop_source": null,
                 "enchant_id": null,
                 "gem_id": null,
-                "item_id": 159371,
+                "item_id": 271494,
                 "note": null,
                 "source_hint": null,
-                "usage_pct": 5.4
-              },
-              {
-                "drop_source": null,
-                "enchant_id": null,
-                "gem_id": null,
-                "item_id": 251125,
-                "note": null,
-                "source_hint": null,
-                "usage_pct": 4.4
-              },
-              {
-                "drop_source": null,
-                "enchant_id": null,
-                "gem_id": null,
-                "item_id": 272248,
-                "note": null,
-                "source_hint": null,
-                "usage_pct": 4.4
+                "usage_pct": 14.6
               },
               {
                 "drop_source": null,
@@ -625,7 +566,43 @@
                 "item_id": 244577,
                 "note": null,
                 "source_hint": null,
-                "usage_pct": 4.3
+                "usage_pct": 14.4
+              },
+              {
+                "drop_source": null,
+                "enchant_id": null,
+                "gem_id": null,
+                "item_id": 268258,
+                "note": null,
+                "source_hint": null,
+                "usage_pct": 9.3
+              },
+              {
+                "drop_source": null,
+                "enchant_id": null,
+                "gem_id": null,
+                "item_id": 251125,
+                "note": null,
+                "source_hint": null,
+                "usage_pct": 4.0
+              },
+              {
+                "drop_source": null,
+                "enchant_id": null,
+                "gem_id": null,
+                "item_id": 272248,
+                "note": null,
+                "source_hint": null,
+                "usage_pct": 3.4
+              },
+              {
+                "drop_source": null,
+                "enchant_id": null,
+                "gem_id": null,
+                "item_id": 159371,
+                "note": null,
+                "source_hint": null,
+                "usage_pct": 1.9
               }
             ],
             "FINGER1": [
@@ -633,64 +610,10 @@
                 "drop_source": null,
                 "enchant_id": null,
                 "gem_id": null,
-                "item_id": 268290,
+                "item_id": 252258,
                 "note": null,
                 "source_hint": null,
-                "usage_pct": 56.5
-              },
-              {
-                "drop_source": null,
-                "enchant_id": null,
-                "gem_id": null,
-                "item_id": 251093,
-                "note": null,
-                "source_hint": null,
-                "usage_pct": 18.9
-              },
-              {
-                "drop_source": null,
-                "enchant_id": null,
-                "gem_id": null,
-                "item_id": 193708,
-                "note": null,
-                "source_hint": null,
-                "usage_pct": 15.9
-              },
-              {
-                "drop_source": null,
-                "enchant_id": null,
-                "gem_id": null,
-                "item_id": 251217,
-                "note": null,
-                "source_hint": null,
-                "usage_pct": 14.4
-              },
-              {
-                "drop_source": null,
-                "enchant_id": null,
-                "gem_id": null,
-                "item_id": 251136,
-                "note": null,
-                "source_hint": null,
-                "usage_pct": 12.7
-              },
-              {
-                "drop_source": null,
-                "enchant_id": null,
-                "gem_id": null,
-                "item_id": 251115,
-                "note": null,
-                "source_hint": null,
-                "usage_pct": 9.0
-              },
-              {
-                "drop_source": null,
-                "enchant_id": null,
-                "gem_id": null,
-                "item_id": 273792,
-                "note": null,
-                "source_hint": null,
-                "usage_pct": 8.0
+                "usage_pct": 48.9
               },
               {
                 "drop_source": null,
@@ -699,7 +622,61 @@
                 "item_id": 158366,
                 "note": null,
                 "source_hint": null,
-                "usage_pct": 7.5
+                "usage_pct": 39.1
+              },
+              {
+                "drop_source": null,
+                "enchant_id": null,
+                "gem_id": null,
+                "item_id": 251136,
+                "note": null,
+                "source_hint": null,
+                "usage_pct": 29.1
+              },
+              {
+                "drop_source": null,
+                "enchant_id": null,
+                "gem_id": null,
+                "item_id": 273792,
+                "note": null,
+                "source_hint": null,
+                "usage_pct": 25.1
+              },
+              {
+                "drop_source": null,
+                "enchant_id": null,
+                "gem_id": null,
+                "item_id": 272150,
+                "note": null,
+                "source_hint": null,
+                "usage_pct": 9.6
+              },
+              {
+                "drop_source": null,
+                "enchant_id": null,
+                "gem_id": null,
+                "item_id": 268249,
+                "note": null,
+                "source_hint": null,
+                "usage_pct": 8.6
+              },
+              {
+                "drop_source": null,
+                "enchant_id": null,
+                "gem_id": null,
+                "item_id": 272147,
+                "note": null,
+                "source_hint": null,
+                "usage_pct": 7.4
+              },
+              {
+                "drop_source": null,
+                "enchant_id": null,
+                "gem_id": null,
+                "item_id": 272149,
+                "note": null,
+                "source_hint": null,
+                "usage_pct": 7.0
               }
             ],
             "HANDS": [
@@ -707,19 +684,10 @@
                 "drop_source": null,
                 "enchant_id": null,
                 "gem_id": null,
-                "item_id": 249989,
-                "note": null,
-                "source_hint": null,
-                "usage_pct": 65.8
-              },
-              {
-                "drop_source": null,
-                "enchant_id": null,
-                "gem_id": null,
                 "item_id": 271493,
                 "note": null,
                 "source_hint": null,
-                "usage_pct": 24.7
+                "usage_pct": 91.5
               },
               {
                 "drop_source": null,
@@ -728,34 +696,16 @@
                 "item_id": 193752,
                 "note": null,
                 "source_hint": null,
-                "usage_pct": 3.3
+                "usage_pct": 2.9
               },
               {
                 "drop_source": null,
                 "enchant_id": null,
                 "gem_id": null,
-                "item_id": 272249,
+                "item_id": 268238,
                 "note": null,
                 "source_hint": null,
-                "usage_pct": 1.6
-              },
-              {
-                "drop_source": null,
-                "enchant_id": null,
-                "gem_id": null,
-                "item_id": 251165,
-                "note": null,
-                "source_hint": null,
-                "usage_pct": 1.5
-              },
-              {
-                "drop_source": null,
-                "enchant_id": null,
-                "gem_id": null,
-                "item_id": 160213,
-                "note": null,
-                "source_hint": null,
-                "usage_pct": 0.9
+                "usage_pct": 1.4
               },
               {
                 "drop_source": null,
@@ -764,7 +714,7 @@
                 "item_id": 251152,
                 "note": null,
                 "source_hint": null,
-                "usage_pct": 0.8
+                "usage_pct": 1.3
               },
               {
                 "drop_source": null,
@@ -773,7 +723,34 @@
                 "item_id": 244583,
                 "note": null,
                 "source_hint": null,
-                "usage_pct": 0.4
+                "usage_pct": 1.1
+              },
+              {
+                "drop_source": null,
+                "enchant_id": null,
+                "gem_id": null,
+                "item_id": 160213,
+                "note": null,
+                "source_hint": null,
+                "usage_pct": 0.8
+              },
+              {
+                "drop_source": null,
+                "enchant_id": null,
+                "gem_id": null,
+                "item_id": 251165,
+                "note": null,
+                "source_hint": null,
+                "usage_pct": 0.6
+              },
+              {
+                "drop_source": null,
+                "enchant_id": null,
+                "gem_id": null,
+                "item_id": 249989,
+                "note": null,
+                "source_hint": null,
+                "usage_pct": 0.5
               }
             ],
             "HEAD": [
@@ -781,34 +758,16 @@
                 "drop_source": null,
                 "enchant_id": null,
                 "gem_id": null,
-                "item_id": 249988,
-                "note": null,
-                "source_hint": null,
-                "usage_pct": 62.4
-              },
-              {
-                "drop_source": null,
-                "enchant_id": null,
-                "gem_id": null,
                 "item_id": 271492,
                 "note": null,
                 "source_hint": null,
-                "usage_pct": 27.2
+                "usage_pct": 94.3
               },
               {
                 "drop_source": null,
                 "enchant_id": null,
                 "gem_id": null,
                 "item_id": 239035,
-                "note": null,
-                "source_hint": null,
-                "usage_pct": 2.3
-              },
-              {
-                "drop_source": null,
-                "enchant_id": null,
-                "gem_id": null,
-                "item_id": 277776,
                 "note": null,
                 "source_hint": null,
                 "usage_pct": 1.9
@@ -820,16 +779,7 @@
                 "item_id": 251220,
                 "note": null,
                 "source_hint": null,
-                "usage_pct": 1.8
-              },
-              {
-                "drop_source": null,
-                "enchant_id": null,
-                "gem_id": null,
-                "item_id": 251158,
-                "note": null,
-                "source_hint": null,
-                "usage_pct": 1.1
+                "usage_pct": 1.5
               },
               {
                 "drop_source": null,
@@ -838,16 +788,34 @@
                 "item_id": 193765,
                 "note": null,
                 "source_hint": null,
-                "usage_pct": 0.9
+                "usage_pct": 1.3
               },
               {
                 "drop_source": null,
                 "enchant_id": null,
                 "gem_id": null,
-                "item_id": 251119,
+                "item_id": 249988,
                 "note": null,
                 "source_hint": null,
-                "usage_pct": 0.8
+                "usage_pct": 0.4
+              },
+              {
+                "drop_source": null,
+                "enchant_id": null,
+                "gem_id": null,
+                "item_id": 251158,
+                "note": null,
+                "source_hint": null,
+                "usage_pct": 0.4
+              },
+              {
+                "drop_source": null,
+                "enchant_id": null,
+                "gem_id": null,
+                "item_id": 268230,
+                "note": null,
+                "source_hint": null,
+                "usage_pct": 0.3
               }
             ],
             "LEGS": [
@@ -855,37 +823,10 @@
                 "drop_source": null,
                 "enchant_id": null,
                 "gem_id": null,
-                "item_id": 249987,
-                "note": null,
-                "source_hint": null,
-                "usage_pct": 73.2
-              },
-              {
-                "drop_source": null,
-                "enchant_id": null,
-                "gem_id": null,
                 "item_id": 271491,
                 "note": null,
                 "source_hint": null,
-                "usage_pct": 21.8
-              },
-              {
-                "drop_source": null,
-                "enchant_id": null,
-                "gem_id": null,
-                "item_id": 193759,
-                "note": null,
-                "source_hint": null,
-                "usage_pct": 1.0
-              },
-              {
-                "drop_source": null,
-                "enchant_id": null,
-                "gem_id": null,
-                "item_id": 277775,
-                "note": null,
-                "source_hint": null,
-                "usage_pct": 0.9
+                "usage_pct": 74.0
               },
               {
                 "drop_source": null,
@@ -894,96 +835,22 @@
                 "item_id": 159375,
                 "note": null,
                 "source_hint": null,
-                "usage_pct": 0.9
+                "usage_pct": 6.8
               },
               {
                 "drop_source": null,
                 "enchant_id": null,
                 "gem_id": null,
-                "item_id": 251141,
+                "item_id": 244582,
                 "note": null,
                 "source_hint": null,
-                "usage_pct": 0.8
+                "usage_pct": 6.5
               },
               {
                 "drop_source": null,
                 "enchant_id": null,
                 "gem_id": null,
-                "item_id": 268288,
-                "note": null,
-                "source_hint": null,
-                "usage_pct": 0.4
-              },
-              {
-                "drop_source": null,
-                "enchant_id": null,
-                "gem_id": null,
-                "item_id": 251215,
-                "note": null,
-                "source_hint": null,
-                "usage_pct": 0.4
-              }
-            ],
-            "MAINHAND": [
-              {
-                "drop_source": null,
-                "enchant_id": null,
-                "gem_id": null,
-                "item_id": 249925,
-                "note": null,
-                "source_hint": null,
-                "usage_pct": 11.1
-              },
-              {
-                "drop_source": null,
-                "enchant_id": null,
-                "gem_id": null,
-                "item_id": 237847,
-                "note": null,
-                "source_hint": null,
-                "usage_pct": 11.0
-              },
-              {
-                "drop_source": null,
-                "enchant_id": null,
-                "gem_id": null,
-                "item_id": 258436,
-                "note": null,
-                "source_hint": null,
-                "usage_pct": 10.0
-              },
-              {
-                "drop_source": null,
-                "enchant_id": null,
-                "gem_id": null,
-                "item_id": 237837,
-                "note": null,
-                "source_hint": null,
-                "usage_pct": 7.5
-              },
-              {
-                "drop_source": null,
-                "enchant_id": null,
-                "gem_id": null,
-                "item_id": 159642,
-                "note": null,
-                "source_hint": null,
-                "usage_pct": 7.0
-              },
-              {
-                "drop_source": null,
-                "enchant_id": null,
-                "gem_id": null,
-                "item_id": 273783,
-                "note": null,
-                "source_hint": null,
-                "usage_pct": 6.7
-              },
-              {
-                "drop_source": null,
-                "enchant_id": null,
-                "gem_id": null,
-                "item_id": 158370,
+                "item_id": 268237,
                 "note": null,
                 "source_hint": null,
                 "usage_pct": 4.4
@@ -992,7 +859,108 @@
                 "drop_source": null,
                 "enchant_id": null,
                 "gem_id": null,
-                "item_id": 272272,
+                "item_id": 251141,
+                "note": null,
+                "source_hint": null,
+                "usage_pct": 3.0
+              },
+              {
+                "drop_source": null,
+                "enchant_id": null,
+                "gem_id": null,
+                "item_id": 193759,
+                "note": null,
+                "source_hint": null,
+                "usage_pct": 2.6
+              },
+              {
+                "drop_source": null,
+                "enchant_id": null,
+                "gem_id": null,
+                "item_id": 277775,
+                "note": null,
+                "source_hint": null,
+                "usage_pct": 1.4
+              },
+              {
+                "drop_source": null,
+                "enchant_id": null,
+                "gem_id": null,
+                "item_id": 249987,
+                "note": null,
+                "source_hint": null,
+                "usage_pct": 0.9
+              }
+            ],
+            "MAINHAND": [
+              {
+                "drop_source": null,
+                "enchant_id": null,
+                "gem_id": null,
+                "item_id": 268215,
+                "note": null,
+                "source_hint": null,
+                "usage_pct": 21.5
+              },
+              {
+                "drop_source": null,
+                "enchant_id": null,
+                "gem_id": null,
+                "item_id": 237847,
+                "note": null,
+                "source_hint": null,
+                "usage_pct": 16.5
+              },
+              {
+                "drop_source": null,
+                "enchant_id": null,
+                "gem_id": null,
+                "item_id": 268213,
+                "note": null,
+                "source_hint": null,
+                "usage_pct": 13.8
+              },
+              {
+                "drop_source": null,
+                "enchant_id": null,
+                "gem_id": null,
+                "item_id": 237837,
+                "note": null,
+                "source_hint": null,
+                "usage_pct": 13.4
+              },
+              {
+                "drop_source": null,
+                "enchant_id": null,
+                "gem_id": null,
+                "item_id": 268199,
+                "note": null,
+                "source_hint": null,
+                "usage_pct": 7.1
+              },
+              {
+                "drop_source": null,
+                "enchant_id": null,
+                "gem_id": null,
+                "item_id": 237842,
+                "note": null,
+                "source_hint": null,
+                "usage_pct": 4.0
+              },
+              {
+                "drop_source": null,
+                "enchant_id": null,
+                "gem_id": null,
+                "item_id": 273783,
+                "note": null,
+                "source_hint": null,
+                "usage_pct": 4.0
+              },
+              {
+                "drop_source": null,
+                "enchant_id": null,
+                "gem_id": null,
+                "item_id": 268209,
                 "note": null,
                 "source_hint": null,
                 "usage_pct": 3.9
@@ -1003,19 +971,19 @@
                 "drop_source": null,
                 "enchant_id": null,
                 "gem_id": null,
-                "item_id": 268291,
+                "item_id": 251142,
                 "note": null,
                 "source_hint": null,
-                "usage_pct": 53.9
+                "usage_pct": 29.4
               },
               {
                 "drop_source": null,
                 "enchant_id": null,
                 "gem_id": null,
-                "item_id": 251142,
+                "item_id": 268265,
                 "note": null,
                 "source_hint": null,
-                "usage_pct": 11.6
+                "usage_pct": 23.9
               },
               {
                 "drop_source": null,
@@ -1024,16 +992,7 @@
                 "item_id": 251234,
                 "note": null,
                 "source_hint": null,
-                "usage_pct": 9.4
-              },
-              {
-                "drop_source": null,
-                "enchant_id": null,
-                "gem_id": null,
-                "item_id": 251173,
-                "note": null,
-                "source_hint": null,
-                "usage_pct": 4.8
+                "usage_pct": 17.6
               },
               {
                 "drop_source": null,
@@ -1042,51 +1001,13 @@
                 "item_id": 273781,
                 "note": null,
                 "source_hint": null,
-                "usage_pct": 4.7
+                "usage_pct": 7.9
               },
               {
                 "drop_source": null,
                 "enchant_id": null,
                 "gem_id": null,
-                "item_id": 240950,
-                "note": null,
-                "source_hint": null,
-                "usage_pct": 3.7
-              },
-              {
-                "drop_source": null,
-                "enchant_id": null,
-                "gem_id": null,
-                "item_id": 272228,
-                "note": null,
-                "source_hint": null,
-                "usage_pct": 2.2
-              },
-              {
-                "drop_source": null,
-                "enchant_id": null,
-                "gem_id": null,
-                "item_id": 275531,
-                "note": null,
-                "source_hint": null,
-                "usage_pct": 1.6
-              }
-            ],
-            "OFFHAND": [
-              {
-                "drop_source": null,
-                "enchant_id": null,
-                "gem_id": null,
-                "item_id": 237837,
-                "note": null,
-                "source_hint": null,
-                "usage_pct": 60.6
-              },
-              {
-                "drop_source": null,
-                "enchant_id": null,
-                "gem_id": null,
-                "item_id": 249925,
+                "item_id": 251173,
                 "note": null,
                 "source_hint": null,
                 "usage_pct": 7.6
@@ -1095,11 +1016,31 @@
                 "drop_source": null,
                 "enchant_id": null,
                 "gem_id": null,
-                "item_id": 258436,
+                "item_id": 272229,
                 "note": null,
                 "source_hint": null,
-                "usage_pct": 5.1
+                "usage_pct": 5.6
               },
+              {
+                "drop_source": null,
+                "enchant_id": null,
+                "gem_id": null,
+                "item_id": 266314,
+                "note": null,
+                "source_hint": null,
+                "usage_pct": 2.9
+              },
+              {
+                "drop_source": null,
+                "enchant_id": null,
+                "gem_id": null,
+                "item_id": 240950,
+                "note": null,
+                "source_hint": null,
+                "usage_pct": 2.8
+              }
+            ],
+            "OFFHAND": [
               {
                 "drop_source": null,
                 "enchant_id": null,
@@ -1107,34 +1048,7 @@
                 "item_id": 275070,
                 "note": null,
                 "source_hint": null,
-                "usage_pct": 3.6
-              },
-              {
-                "drop_source": null,
-                "enchant_id": null,
-                "gem_id": null,
-                "item_id": 251180,
-                "note": null,
-                "source_hint": null,
-                "usage_pct": 2.8
-              },
-              {
-                "drop_source": null,
-                "enchant_id": null,
-                "gem_id": null,
-                "item_id": 49807,
-                "note": null,
-                "source_hint": null,
-                "usage_pct": 2.3
-              },
-              {
-                "drop_source": null,
-                "enchant_id": null,
-                "gem_id": null,
-                "item_id": 251212,
-                "note": null,
-                "source_hint": null,
-                "usage_pct": 2.3
+                "usage_pct": 68.4
               },
               {
                 "drop_source": null,
@@ -1143,7 +1057,61 @@
                 "item_id": 251128,
                 "note": null,
                 "source_hint": null,
-                "usage_pct": 2.3
+                "usage_pct": 9.7
+              },
+              {
+                "drop_source": null,
+                "enchant_id": null,
+                "gem_id": null,
+                "item_id": 159136,
+                "note": null,
+                "source_hint": null,
+                "usage_pct": 9.0
+              },
+              {
+                "drop_source": null,
+                "enchant_id": null,
+                "gem_id": null,
+                "item_id": 251224,
+                "note": null,
+                "source_hint": null,
+                "usage_pct": 2.6
+              },
+              {
+                "drop_source": null,
+                "enchant_id": null,
+                "gem_id": null,
+                "item_id": 237837,
+                "note": null,
+                "source_hint": null,
+                "usage_pct": 2.6
+              },
+              {
+                "drop_source": null,
+                "enchant_id": null,
+                "gem_id": null,
+                "item_id": 251180,
+                "note": null,
+                "source_hint": null,
+                "usage_pct": 1.9
+              },
+              {
+                "drop_source": null,
+                "enchant_id": null,
+                "gem_id": null,
+                "item_id": 268264,
+                "note": null,
+                "source_hint": null,
+                "usage_pct": 1.9
+              },
+              {
+                "drop_source": null,
+                "enchant_id": null,
+                "gem_id": null,
+                "item_id": 271093,
+                "note": null,
+                "source_hint": null,
+                "usage_pct": 1.9
               }
             ],
             "SHOULDER": [
@@ -1154,43 +1122,7 @@
                 "item_id": 271490,
                 "note": null,
                 "source_hint": null,
-                "usage_pct": 24.6
-              },
-              {
-                "drop_source": null,
-                "enchant_id": null,
-                "gem_id": null,
-                "item_id": 249986,
-                "note": null,
-                "source_hint": null,
-                "usage_pct": 21.9
-              },
-              {
-                "drop_source": null,
-                "enchant_id": null,
-                "gem_id": null,
-                "item_id": 193704,
-                "note": null,
-                "source_hint": null,
-                "usage_pct": 11.3
-              },
-              {
-                "drop_source": null,
-                "enchant_id": null,
-                "gem_id": null,
-                "item_id": 151323,
-                "note": null,
-                "source_hint": null,
-                "usage_pct": 7.7
-              },
-              {
-                "drop_source": null,
-                "enchant_id": null,
-                "gem_id": null,
-                "item_id": 277774,
-                "note": null,
-                "source_hint": null,
-                "usage_pct": 7.3
+                "usage_pct": 87.8
               },
               {
                 "drop_source": null,
@@ -1199,25 +1131,52 @@
                 "item_id": 239049,
                 "note": null,
                 "source_hint": null,
-                "usage_pct": 6.7
+                "usage_pct": 5.4
               },
               {
                 "drop_source": null,
                 "enchant_id": null,
                 "gem_id": null,
-                "item_id": 272252,
+                "item_id": 268231,
                 "note": null,
                 "source_hint": null,
-                "usage_pct": 3.9
+                "usage_pct": 4.1
               },
               {
                 "drop_source": null,
                 "enchant_id": null,
                 "gem_id": null,
-                "item_id": 251097,
+                "item_id": 251131,
                 "note": null,
                 "source_hint": null,
-                "usage_pct": 3.3
+                "usage_pct": 2.0
+              },
+              {
+                "drop_source": null,
+                "enchant_id": null,
+                "gem_id": null,
+                "item_id": 249986,
+                "note": null,
+                "source_hint": null,
+                "usage_pct": 0.3
+              },
+              {
+                "drop_source": null,
+                "enchant_id": null,
+                "gem_id": null,
+                "item_id": 151323,
+                "note": null,
+                "source_hint": null,
+                "usage_pct": 0.3
+              },
+              {
+                "drop_source": null,
+                "enchant_id": null,
+                "gem_id": null,
+                "item_id": 244580,
+                "note": null,
+                "source_hint": null,
+                "usage_pct": 0.3
               }
             ],
             "TRINKET1": [
@@ -1225,73 +1184,73 @@
                 "drop_source": null,
                 "enchant_id": null,
                 "gem_id": null,
-                "item_id": 193701,
-                "note": null,
-                "source_hint": null,
-                "usage_pct": 45.6
-              },
-              {
-                "drop_source": null,
-                "enchant_id": null,
-                "gem_id": null,
-                "item_id": 249343,
-                "note": null,
-                "source_hint": null,
-                "usage_pct": 45.1
-              },
-              {
-                "drop_source": null,
-                "enchant_id": null,
-                "gem_id": null,
-                "item_id": 249806,
-                "note": null,
-                "source_hint": null,
-                "usage_pct": 19.4
-              },
-              {
-                "drop_source": null,
-                "enchant_id": null,
-                "gem_id": null,
                 "item_id": 250215,
                 "note": null,
                 "source_hint": null,
-                "usage_pct": 9.0
+                "usage_pct": 39.5
               },
               {
                 "drop_source": null,
                 "enchant_id": null,
                 "gem_id": null,
-                "item_id": 264507,
+                "item_id": 270165,
                 "note": null,
                 "source_hint": null,
-                "usage_pct": 8.7
+                "usage_pct": 37.3
               },
               {
                 "drop_source": null,
                 "enchant_id": null,
                 "gem_id": null,
-                "item_id": 273796,
+                "item_id": 270173,
                 "note": null,
                 "source_hint": null,
-                "usage_pct": 5.7
+                "usage_pct": 28.1
               },
               {
                 "drop_source": null,
                 "enchant_id": null,
                 "gem_id": null,
-                "item_id": 274493,
+                "item_id": 270175,
                 "note": null,
                 "source_hint": null,
-                "usage_pct": 4.9
+                "usage_pct": 24.6
               },
               {
                 "drop_source": null,
                 "enchant_id": null,
                 "gem_id": null,
-                "item_id": 265657,
+                "item_id": 250214,
                 "note": null,
                 "source_hint": null,
-                "usage_pct": 4.8
+                "usage_pct": 24.4
+              },
+              {
+                "drop_source": null,
+                "enchant_id": null,
+                "gem_id": null,
+                "item_id": 273797,
+                "note": null,
+                "source_hint": null,
+                "usage_pct": 8.1
+              },
+              {
+                "drop_source": null,
+                "enchant_id": null,
+                "gem_id": null,
+                "item_id": 270164,
+                "note": null,
+                "source_hint": null,
+                "usage_pct": 8.1
+              },
+              {
+                "drop_source": null,
+                "enchant_id": null,
+                "gem_id": null,
+                "item_id": 250228,
+                "note": null,
+                "source_hint": null,
+                "usage_pct": 6.6
               }
             ],
             "WAIST": [
@@ -1302,25 +1261,7 @@
                 "item_id": 244581,
                 "note": null,
                 "source_hint": null,
-                "usage_pct": 16.5
-              },
-              {
-                "drop_source": null,
-                "enchant_id": null,
-                "gem_id": null,
-                "item_id": 249371,
-                "note": null,
-                "source_hint": null,
-                "usage_pct": 15.8
-              },
-              {
-                "drop_source": null,
-                "enchant_id": null,
-                "gem_id": null,
-                "item_id": 249985,
-                "note": null,
-                "source_hint": null,
-                "usage_pct": 13.5
+                "usage_pct": 49.5
               },
               {
                 "drop_source": null,
@@ -1329,16 +1270,7 @@
                 "item_id": 251155,
                 "note": null,
                 "source_hint": null,
-                "usage_pct": 10.9
-              },
-              {
-                "drop_source": null,
-                "enchant_id": null,
-                "gem_id": null,
-                "item_id": 244611,
-                "note": null,
-                "source_hint": null,
-                "usage_pct": 10.5
+                "usage_pct": 18.0
               },
               {
                 "drop_source": null,
@@ -1347,16 +1279,34 @@
                 "item_id": 251228,
                 "note": null,
                 "source_hint": null,
-                "usage_pct": 6.5
+                "usage_pct": 16.8
               },
               {
                 "drop_source": null,
                 "enchant_id": null,
                 "gem_id": null,
-                "item_id": 277773,
+                "item_id": 268254,
                 "note": null,
                 "source_hint": null,
-                "usage_pct": 6.5
+                "usage_pct": 6.4
+              },
+              {
+                "drop_source": null,
+                "enchant_id": null,
+                "gem_id": null,
+                "item_id": 271489,
+                "note": null,
+                "source_hint": null,
+                "usage_pct": 3.6
+              },
+              {
+                "drop_source": null,
+                "enchant_id": null,
+                "gem_id": null,
+                "item_id": 268216,
+                "note": null,
+                "source_hint": null,
+                "usage_pct": 3.4
               },
               {
                 "drop_source": null,
@@ -1365,7 +1315,7 @@
                 "item_id": 159369,
                 "note": null,
                 "source_hint": null,
-                "usage_pct": 3.5
+                "usage_pct": 2.1
               }
             ],
             "WRIST": [
@@ -1376,52 +1326,7 @@
                 "item_id": 244584,
                 "note": null,
                 "source_hint": null,
-                "usage_pct": 38.4
-              },
-              {
-                "drop_source": null,
-                "enchant_id": null,
-                "gem_id": null,
-                "item_id": 249304,
-                "note": null,
-                "source_hint": null,
-                "usage_pct": 12.3
-              },
-              {
-                "drop_source": null,
-                "enchant_id": null,
-                "gem_id": null,
-                "item_id": 251200,
-                "note": null,
-                "source_hint": null,
-                "usage_pct": 8.6
-              },
-              {
-                "drop_source": null,
-                "enchant_id": null,
-                "gem_id": null,
-                "item_id": 251079,
-                "note": null,
-                "source_hint": null,
-                "usage_pct": 7.0
-              },
-              {
-                "drop_source": null,
-                "enchant_id": null,
-                "gem_id": null,
-                "item_id": 151321,
-                "note": null,
-                "source_hint": null,
-                "usage_pct": 5.8
-              },
-              {
-                "drop_source": null,
-                "enchant_id": null,
-                "gem_id": null,
-                "item_id": 273775,
-                "note": null,
-                "source_hint": null,
-                "usage_pct": 4.6
+                "usage_pct": 76.9
               },
               {
                 "drop_source": null,
@@ -1430,7 +1335,43 @@
                 "item_id": 159380,
                 "note": null,
                 "source_hint": null,
-                "usage_pct": 3.8
+                "usage_pct": 7.9
+              },
+              {
+                "drop_source": null,
+                "enchant_id": null,
+                "gem_id": null,
+                "item_id": 251200,
+                "note": null,
+                "source_hint": null,
+                "usage_pct": 6.3
+              },
+              {
+                "drop_source": null,
+                "enchant_id": null,
+                "gem_id": null,
+                "item_id": 273775,
+                "note": null,
+                "source_hint": null,
+                "usage_pct": 3.4
+              },
+              {
+                "drop_source": null,
+                "enchant_id": null,
+                "gem_id": null,
+                "item_id": 268217,
+                "note": null,
+                "source_hint": null,
+                "usage_pct": 2.6
+              },
+              {
+                "drop_source": null,
+                "enchant_id": null,
+                "gem_id": null,
+                "item_id": 276532,
+                "note": null,
+                "source_hint": null,
+                "usage_pct": 0.8
               },
               {
                 "drop_source": null,
@@ -1439,7 +1380,16 @@
                 "item_id": 277772,
                 "note": null,
                 "source_hint": null,
-                "usage_pct": 3.7
+                "usage_pct": 0.8
+              },
+              {
+                "drop_source": null,
+                "enchant_id": null,
+                "gem_id": null,
+                "item_id": 272254,
+                "note": null,
+                "source_hint": null,
+                "usage_pct": 0.6
               }
             ]
           },
@@ -1451,7 +1401,7 @@
               "item_id": 240898,
               "note": null,
               "source_hint": null,
-              "usage_pct": 43.6
+              "usage_pct": 35.1
             },
             {
               "drop_source": null,
@@ -1460,7 +1410,7 @@
               "item_id": 240983,
               "note": null,
               "source_hint": null,
-              "usage_pct": 17.2
+              "usage_pct": 21.0
             },
             {
               "drop_source": null,
@@ -1469,16 +1419,7 @@
               "item_id": 240908,
               "note": null,
               "source_hint": null,
-              "usage_pct": 12.3
-            },
-            {
-              "drop_source": null,
-              "enchant_id": null,
-              "gem_id": null,
-              "item_id": 240900,
-              "note": null,
-              "source_hint": null,
-              "usage_pct": 11.9
+              "usage_pct": 13.2
             },
             {
               "drop_source": null,
@@ -1487,7 +1428,16 @@
               "item_id": 240892,
               "note": null,
               "source_hint": null,
-              "usage_pct": 4.2
+              "usage_pct": 11.1
+            },
+            {
+              "drop_source": null,
+              "enchant_id": null,
+              "gem_id": null,
+              "item_id": 240900,
+              "note": null,
+              "source_hint": null,
+              "usage_pct": 7.2
             },
             {
               "drop_source": null,
@@ -1496,7 +1446,7 @@
               "item_id": 240890,
               "note": null,
               "source_hint": null,
-              "usage_pct": 3.2
+              "usage_pct": 5.0
             },
             {
               "drop_source": null,
@@ -1505,7 +1455,7 @@
               "item_id": 240906,
               "note": null,
               "source_hint": null,
-              "usage_pct": 2.6
+              "usage_pct": 3.8
             },
             {
               "drop_source": null,
@@ -1514,106 +1464,136 @@
               "item_id": 240967,
               "note": null,
               "source_hint": null,
-              "usage_pct": 1.5
+              "usage_pct": 2.6
             },
             {
               "drop_source": null,
               "enchant_id": null,
               "gem_id": null,
-              "item_id": 240918,
+              "item_id": 240902,
               "note": null,
               "source_hint": null,
-              "usage_pct": 0.5
+              "usage_pct": 0.3
             }
           ],
           "notes": {},
           "source": "mythicstats",
           "stat_priority": [
             {
-              "rating": 1129,
-              "share": 31.2,
+              "rating": 1168,
+              "share": 31.6,
               "stat": "MASTERY",
               "weight": 1.0
             },
             {
-              "rating": 832,
-              "share": 31.8,
+              "rating": 830,
+              "share": 31.6,
               "stat": "CRIT",
-              "weight": 0.737
+              "weight": 0.711
             },
             {
-              "rating": 672,
-              "share": 17.2,
+              "rating": 801,
+              "share": 20.2,
               "stat": "HASTE",
-              "weight": 0.595
+              "weight": 0.686
             },
             {
-              "rating": 52,
-              "share": 0.6,
+              "rating": 98,
+              "share": 1.5,
               "stat": "VERSATILITY",
-              "weight": 0.046
+              "weight": 0.084
             }
           ],
           "talent_builds": [
             {
               "hero_id": 43,
               "hero_specific": true,
-              "import_string": "C8PAAAAAAAAAAAAAAAAAAAAAAMgxMGWgFYGGawiZmZmZGLDAAAAAAzYmZGbzYMjZYZMNDAAAwAgZssMzYhZmhHYMGwMbAYMmZ2MAA",
+              "import_string": "C8PAAAAAAAAAAAAAAAAAAAAAAMgxMG2gFYGGawiZmZmZGLDAAAAAAzYmZGbGjZMDLjpZAAAAGAMssMz8ALMzMMjxAmZDAjxMzmBA",
               "label": "Pack Leader #1",
               "metrics": {
-                "Avg dps": "164K",
-                "Avg key": "+11.3",
-                "Max dps": "204K",
-                "Max key": "+12"
+                "Avg dps": "285K",
+                "Avg key": "+17.5",
+                "Max dps": "352K",
+                "Max key": "+19"
               },
               "source": "mythicstats",
               "url": "https://mythicstats.com/spec/survival-hunter",
-              "usage_pct": 3.7
+              "usage_pct": 4.9
+            },
+            {
+              "hero_id": 43,
+              "hero_specific": true,
+              "import_string": "C8PAAAAAAAAAAAAAAAAAAAAAAMgxMG2gFYGGawiZmZmZGLDAAAAAAzYmZGbzYMjZYZMNDAAAwAghllZmHYhZmhHYMGwMbAYMmZ2MAA",
+              "label": "Pack Leader #2",
+              "metrics": {
+                "Avg dps": "291K",
+                "Avg key": "+17.3",
+                "Max dps": "344K",
+                "Max key": "+19"
+              },
+              "source": "mythicstats",
+              "url": "https://mythicstats.com/spec/survival-hunter",
+              "usage_pct": 3.1
+            },
+            {
+              "hero_id": 43,
+              "hero_specific": true,
+              "import_string": "C8PAAAAAAAAAAAAAAAAAAAAAAMgxMG2gFYGGawiZmZmZGLDAAAAAAzYmZGbGjZMDLjpZAAAAGAMssMz8ALMzMMjxAmZDAjxMziBA",
+              "label": "Pack Leader #3",
+              "metrics": {
+                "Avg dps": "301K",
+                "Avg key": "+17.6",
+                "Max dps": "348K",
+                "Max key": "+19"
+              },
+              "source": "mythicstats",
+              "url": "https://mythicstats.com/spec/survival-hunter",
+              "usage_pct": 2.9
+            },
+            {
+              "hero_id": 43,
+              "hero_specific": true,
+              "import_string": "C8PAAAAAAAAAAAAAAAAAAAAAAMgxMG2gFYGGawiZmZmZGLDAAAAAAzYmZGbzYYMDbjpZAAAAGAMssMz8ALMzMMjxAmZDAjxMzmBA",
+              "label": "Pack Leader #4",
+              "metrics": {
+                "Avg dps": "282K",
+                "Avg key": "+17.2",
+                "Max dps": "311K",
+                "Max key": "+18"
+              },
+              "source": "mythicstats",
+              "url": "https://mythicstats.com/spec/survival-hunter",
+              "usage_pct": 2.5
             },
             {
               "hero_id": 43,
               "hero_specific": true,
               "import_string": "C8PAAAAAAAAAAAAAAAAAAAAAAMgxMG2gFYGGawiZmZmZGLDAAAAAAzYmZGbzYMjZwYaGAAAgBAzYZZmxCzMjxYmBMzGAGjZmNDA",
-              "label": "Pack Leader #2",
+              "label": "Pack Leader #5",
               "metrics": {
-                "Avg dps": "216K",
-                "Avg key": "+12.6",
-                "Max dps": "264K",
-                "Max key": "+15"
+                "Avg dps": "281K",
+                "Avg key": "+16.9",
+                "Max dps": "318K",
+                "Max key": "+18"
               },
               "source": "mythicstats",
               "url": "https://mythicstats.com/spec/survival-hunter",
-              "usage_pct": 1.8
+              "usage_pct": 2.1
             },
             {
               "hero_id": 43,
               "hero_specific": true,
-              "import_string": "C8PAAAAAAAAAAAAAAAAAAAAAAMgxMG2gFYGGawiZmZmZYZAAAAAAwMmZmx2MGzYGMmmBAAAgBAGLLzMziZmZMmZMgZ2AgxYmZzAA",
-              "label": "Pack Leader #3",
+              "import_string": "C8PAAAAAAAAAAAAAAAAAAAAAAMgxMG2gFYGGawiZmZmZGLDAAAAAAzYmZGbGjZMDbjpZAAAAGAMssMz8ALMzMMjxAmZDAjxMziBA",
+              "label": "Pack Leader #6",
               "metrics": {
-                "Avg dps": "182K",
-                "Avg key": "+12.4",
-                "Max dps": "193K",
-                "Max key": "+14"
+                "Avg dps": "290K",
+                "Avg key": "+17.8",
+                "Max dps": "318K",
+                "Max key": "+19"
               },
               "source": "mythicstats",
               "url": "https://mythicstats.com/spec/survival-hunter",
-              "usage_pct": 1.4
-            },
-            {
-              "hero_id": 43,
-              "hero_specific": true,
-              "import_string": "C8PAAAAAAAAAAAAAAAAAAAAAAMgxMG2gFYGGawiZmZmZYZAAAAAAwMmZmx2MGzYGMmmBAAAgBAGLLzMziZmZMPwYMgZ2AgxYmZzAA",
-              "label": "Pack Leader #4",
-              "metrics": {
-                "Avg dps": "173K",
-                "Avg key": "+11.5",
-                "Max dps": "195K",
-                "Max key": "+12"
-              },
-              "source": "mythicstats",
-              "url": "https://mythicstats.com/spec/survival-hunter",
-              "usage_pct": 1.3
+              "usage_pct": 1.6
             }
           ],
           "url": "https://mythicstats.com/spec/survival-hunter"
@@ -1652,7 +1632,7 @@
             }
           ],
           "enchants": [],
-          "fetched_at": "2026-08-21",
+          "fetched_at": "2026-09-15",
           "gear": {},
           "gems": [],
           "notes": {},
@@ -1667,7 +1647,16 @@
       "content": "mplus",
       "hero_id": 42,
       "hero_name": "Sentinel",
-      "performance": null,
+      "performance": {
+        "difficulty": "Mythic+",
+        "median": 248053.9,
+        "metric": "dps",
+        "out_of": 40,
+        "rank": 24,
+        "sample": 300,
+        "top": 377613.2,
+        "zone": "Mythic+ Season 2"
+      },
       "views": {
         "icyveins": {
           "consumables": [
@@ -1703,7 +1692,7 @@
             }
           ],
           "enchants": [],
-          "fetched_at": "2026-08-21",
+          "fetched_at": "2026-09-15",
           "gear": {
             "BACK": [
               {
@@ -1796,7 +1785,7 @@
             "MAINHAND": [
               {
                 "drop_source": "Altar of Fangs",
-                "enchant_id": 244031,
+                "enchant_id": 273072,
                 "gem_id": null,
                 "item_id": 275070,
                 "note": null,
@@ -1818,7 +1807,7 @@
             "OFFHAND": [
               {
                 "drop_source": "Altar of Fangs",
-                "enchant_id": 244031,
+                "enchant_id": 273072,
                 "gem_id": null,
                 "item_id": 275070,
                 "note": null,
@@ -1945,156 +1934,124 @@
           "consumables": [],
           "enchants": [
             {
-              "item_id": 244031,
+              "item_id": 273072,
               "slot": "MAINHAND",
-              "usage_pct": 84.2
+              "usage_pct": 59.0
             },
             {
-              "item_id": 244029,
+              "item_id": 244031,
               "slot": "MAINHAND",
-              "usage_pct": 9.7
+              "usage_pct": 33.9
             },
             {
               "item_id": 243973,
               "slot": "MAINHAND",
-              "usage_pct": 2.7
+              "usage_pct": 3.4
+            },
+            {
+              "item_id": 273072,
+              "slot": "OFFHAND",
+              "usage_pct": 61.3
             },
             {
               "item_id": 244031,
               "slot": "OFFHAND",
-              "usage_pct": 86.5
+              "usage_pct": 34.8
             },
             {
               "item_id": 244029,
               "slot": "OFFHAND",
-              "usage_pct": 9.2
-            },
-            {
-              "item_id": 243973,
-              "slot": "OFFHAND",
-              "usage_pct": 2.1
+              "usage_pct": 2.6
             },
             {
               "item_id": 244007,
               "slot": "HEAD",
-              "usage_pct": 54.5
+              "usage_pct": 65.5
             },
             {
               "item_id": 243951,
               "slot": "HEAD",
-              "usage_pct": 36.3
+              "usage_pct": 30.8
             },
             {
-              "item_id": 243981,
+              "item_id": 244005,
               "slot": "HEAD",
-              "usage_pct": 2.7
+              "usage_pct": 2.5
             },
             {
               "item_id": 243991,
               "slot": "SHOULDER",
-              "usage_pct": 55.3
+              "usage_pct": 62.8
             },
             {
               "item_id": 244021,
               "slot": "SHOULDER",
-              "usage_pct": 37.2
+              "usage_pct": 30.3
             },
             {
-              "item_id": 243963,
+              "item_id": 243989,
               "slot": "SHOULDER",
-              "usage_pct": 3.9
+              "usage_pct": 3.0
             },
             {
               "item_id": 243977,
               "slot": "CHEST",
-              "usage_pct": 96.0
+              "usage_pct": 99.4
             },
             {
               "item_id": 243975,
               "slot": "CHEST",
-              "usage_pct": 3.0
+              "usage_pct": 0.5
             },
             {
-              "item_id": 243974,
+              "item_id": 243947,
               "slot": "CHEST",
-              "usage_pct": 0.6
+              "usage_pct": 0.1
             },
             {
               "item_id": 244641,
               "slot": "LEGS",
-              "usage_pct": 97.2
-            },
-            {
-              "item_id": 244643,
-              "slot": "LEGS",
-              "usage_pct": 2.1
+              "usage_pct": 99.9
             },
             {
               "item_id": 244645,
               "slot": "LEGS",
-              "usage_pct": 0.3
+              "usage_pct": 0.1
             },
             {
               "item_id": 243953,
               "slot": "FEET",
-              "usage_pct": 61.0
+              "usage_pct": 63.3
             },
             {
               "item_id": 243983,
               "slot": "FEET",
-              "usage_pct": 33.4
+              "usage_pct": 30.6
             },
             {
               "item_id": 244009,
               "slot": "FEET",
-              "usage_pct": 5.1
+              "usage_pct": 6.0
             },
             {
               "item_id": 243957,
               "slot": "FINGER1",
-              "usage_pct": 87.0
+              "usage_pct": 96.4
             },
             {
               "item_id": 243959,
               "slot": "FINGER1",
-              "usage_pct": 10.5
+              "usage_pct": 3.3
             },
             {
-              "item_id": 243955,
+              "item_id": 244015,
               "slot": "FINGER1",
-              "usage_pct": 1.3
+              "usage_pct": 0.1
             }
           ],
-          "fetched_at": "2026-08-21",
+          "fetched_at": "2026-09-15",
           "gear": {
             "BACK": [
-              {
-                "drop_source": null,
-                "enchant_id": null,
-                "gem_id": null,
-                "item_id": 239656,
-                "note": null,
-                "source_hint": null,
-                "usage_pct": 22.0
-              },
-              {
-                "drop_source": null,
-                "enchant_id": null,
-                "gem_id": null,
-                "item_id": 193763,
-                "note": null,
-                "source_hint": null,
-                "usage_pct": 11.0
-              },
-              {
-                "drop_source": null,
-                "enchant_id": null,
-                "gem_id": null,
-                "item_id": 258575,
-                "note": null,
-                "source_hint": null,
-                "usage_pct": 10.9
-              },
               {
                 "drop_source": null,
                 "enchant_id": null,
@@ -2102,7 +2059,7 @@
                 "item_id": 251190,
                 "note": null,
                 "source_hint": null,
-                "usage_pct": 10.1
+                "usage_pct": 23.8
               },
               {
                 "drop_source": null,
@@ -2111,7 +2068,43 @@
                 "item_id": 251132,
                 "note": null,
                 "source_hint": null,
-                "usage_pct": 7.8
+                "usage_pct": 20.9
+              },
+              {
+                "drop_source": null,
+                "enchant_id": null,
+                "gem_id": null,
+                "item_id": 268253,
+                "note": null,
+                "source_hint": null,
+                "usage_pct": 14.1
+              },
+              {
+                "drop_source": null,
+                "enchant_id": null,
+                "gem_id": null,
+                "item_id": 271487,
+                "note": null,
+                "source_hint": null,
+                "usage_pct": 12.1
+              },
+              {
+                "drop_source": null,
+                "enchant_id": null,
+                "gem_id": null,
+                "item_id": 239656,
+                "note": null,
+                "source_hint": null,
+                "usage_pct": 10.8
+              },
+              {
+                "drop_source": null,
+                "enchant_id": null,
+                "gem_id": null,
+                "item_id": 193763,
+                "note": null,
+                "source_hint": null,
+                "usage_pct": 10.8
               },
               {
                 "drop_source": null,
@@ -2120,7 +2113,7 @@
                 "item_id": 159288,
                 "note": null,
                 "source_hint": null,
-                "usage_pct": 4.9
+                "usage_pct": 5.8
               },
               {
                 "drop_source": null,
@@ -2129,16 +2122,7 @@
                 "item_id": 272230,
                 "note": null,
                 "source_hint": null,
-                "usage_pct": 3.5
-              },
-              {
-                "drop_source": null,
-                "enchant_id": null,
-                "gem_id": null,
-                "item_id": 272227,
-                "note": null,
-                "source_hint": null,
-                "usage_pct": 3.2
+                "usage_pct": 1.0
               }
             ],
             "CHEST": [
@@ -2146,37 +2130,19 @@
                 "drop_source": null,
                 "enchant_id": null,
                 "gem_id": null,
-                "item_id": 249991,
-                "note": null,
-                "source_hint": null,
-                "usage_pct": 63.4
-              },
-              {
-                "drop_source": null,
-                "enchant_id": null,
-                "gem_id": null,
                 "item_id": 271495,
                 "note": null,
                 "source_hint": null,
-                "usage_pct": 25.3
+                "usage_pct": 92.5
               },
               {
                 "drop_source": null,
                 "enchant_id": null,
                 "gem_id": null,
-                "item_id": 272247,
+                "item_id": 271876,
                 "note": null,
                 "source_hint": null,
-                "usage_pct": 1.8
-              },
-              {
-                "drop_source": null,
-                "enchant_id": null,
-                "gem_id": null,
-                "item_id": 251233,
-                "note": null,
-                "source_hint": null,
-                "usage_pct": 1.8
+                "usage_pct": 4.9
               },
               {
                 "drop_source": null,
@@ -2191,19 +2157,10 @@
                 "drop_source": null,
                 "enchant_id": null,
                 "gem_id": null,
-                "item_id": 251179,
+                "item_id": 251233,
                 "note": null,
                 "source_hint": null,
-                "usage_pct": 1.1
-              },
-              {
-                "drop_source": null,
-                "enchant_id": null,
-                "gem_id": null,
-                "item_id": 277779,
-                "note": null,
-                "source_hint": null,
-                "usage_pct": 0.9
+                "usage_pct": 0.6
               },
               {
                 "drop_source": null,
@@ -2212,7 +2169,7 @@
                 "item_id": 239046,
                 "note": null,
                 "source_hint": null,
-                "usage_pct": 0.8
+                "usage_pct": 0.3
               }
             ],
             "FEET": [
@@ -2220,28 +2177,10 @@
                 "drop_source": null,
                 "enchant_id": null,
                 "gem_id": null,
-                "item_id": 268287,
+                "item_id": 268233,
                 "note": null,
                 "source_hint": null,
-                "usage_pct": 27.2
-              },
-              {
-                "drop_source": null,
-                "enchant_id": null,
-                "gem_id": null,
-                "item_id": 249990,
-                "note": null,
-                "source_hint": null,
-                "usage_pct": 21.8
-              },
-              {
-                "drop_source": null,
-                "enchant_id": null,
-                "gem_id": null,
-                "item_id": 244610,
-                "note": null,
-                "source_hint": null,
-                "usage_pct": 9.2
+                "usage_pct": 24.9
               },
               {
                 "drop_source": null,
@@ -2250,34 +2189,16 @@
                 "item_id": 159388,
                 "note": null,
                 "source_hint": null,
-                "usage_pct": 8.5
+                "usage_pct": 22.0
               },
               {
                 "drop_source": null,
                 "enchant_id": null,
                 "gem_id": null,
-                "item_id": 159371,
+                "item_id": 271494,
                 "note": null,
                 "source_hint": null,
-                "usage_pct": 5.4
-              },
-              {
-                "drop_source": null,
-                "enchant_id": null,
-                "gem_id": null,
-                "item_id": 251125,
-                "note": null,
-                "source_hint": null,
-                "usage_pct": 4.4
-              },
-              {
-                "drop_source": null,
-                "enchant_id": null,
-                "gem_id": null,
-                "item_id": 272248,
-                "note": null,
-                "source_hint": null,
-                "usage_pct": 4.4
+                "usage_pct": 14.6
               },
               {
                 "drop_source": null,
@@ -2286,7 +2207,43 @@
                 "item_id": 244577,
                 "note": null,
                 "source_hint": null,
-                "usage_pct": 4.3
+                "usage_pct": 14.4
+              },
+              {
+                "drop_source": null,
+                "enchant_id": null,
+                "gem_id": null,
+                "item_id": 268258,
+                "note": null,
+                "source_hint": null,
+                "usage_pct": 9.3
+              },
+              {
+                "drop_source": null,
+                "enchant_id": null,
+                "gem_id": null,
+                "item_id": 251125,
+                "note": null,
+                "source_hint": null,
+                "usage_pct": 4.0
+              },
+              {
+                "drop_source": null,
+                "enchant_id": null,
+                "gem_id": null,
+                "item_id": 272248,
+                "note": null,
+                "source_hint": null,
+                "usage_pct": 3.4
+              },
+              {
+                "drop_source": null,
+                "enchant_id": null,
+                "gem_id": null,
+                "item_id": 159371,
+                "note": null,
+                "source_hint": null,
+                "usage_pct": 1.9
               }
             ],
             "FINGER1": [
@@ -2294,64 +2251,10 @@
                 "drop_source": null,
                 "enchant_id": null,
                 "gem_id": null,
-                "item_id": 268290,
+                "item_id": 252258,
                 "note": null,
                 "source_hint": null,
-                "usage_pct": 56.5
-              },
-              {
-                "drop_source": null,
-                "enchant_id": null,
-                "gem_id": null,
-                "item_id": 251093,
-                "note": null,
-                "source_hint": null,
-                "usage_pct": 18.9
-              },
-              {
-                "drop_source": null,
-                "enchant_id": null,
-                "gem_id": null,
-                "item_id": 193708,
-                "note": null,
-                "source_hint": null,
-                "usage_pct": 15.9
-              },
-              {
-                "drop_source": null,
-                "enchant_id": null,
-                "gem_id": null,
-                "item_id": 251217,
-                "note": null,
-                "source_hint": null,
-                "usage_pct": 14.4
-              },
-              {
-                "drop_source": null,
-                "enchant_id": null,
-                "gem_id": null,
-                "item_id": 251136,
-                "note": null,
-                "source_hint": null,
-                "usage_pct": 12.7
-              },
-              {
-                "drop_source": null,
-                "enchant_id": null,
-                "gem_id": null,
-                "item_id": 251115,
-                "note": null,
-                "source_hint": null,
-                "usage_pct": 9.0
-              },
-              {
-                "drop_source": null,
-                "enchant_id": null,
-                "gem_id": null,
-                "item_id": 273792,
-                "note": null,
-                "source_hint": null,
-                "usage_pct": 8.0
+                "usage_pct": 48.9
               },
               {
                 "drop_source": null,
@@ -2360,7 +2263,61 @@
                 "item_id": 158366,
                 "note": null,
                 "source_hint": null,
-                "usage_pct": 7.5
+                "usage_pct": 39.1
+              },
+              {
+                "drop_source": null,
+                "enchant_id": null,
+                "gem_id": null,
+                "item_id": 251136,
+                "note": null,
+                "source_hint": null,
+                "usage_pct": 29.1
+              },
+              {
+                "drop_source": null,
+                "enchant_id": null,
+                "gem_id": null,
+                "item_id": 273792,
+                "note": null,
+                "source_hint": null,
+                "usage_pct": 25.1
+              },
+              {
+                "drop_source": null,
+                "enchant_id": null,
+                "gem_id": null,
+                "item_id": 272150,
+                "note": null,
+                "source_hint": null,
+                "usage_pct": 9.6
+              },
+              {
+                "drop_source": null,
+                "enchant_id": null,
+                "gem_id": null,
+                "item_id": 268249,
+                "note": null,
+                "source_hint": null,
+                "usage_pct": 8.6
+              },
+              {
+                "drop_source": null,
+                "enchant_id": null,
+                "gem_id": null,
+                "item_id": 272147,
+                "note": null,
+                "source_hint": null,
+                "usage_pct": 7.4
+              },
+              {
+                "drop_source": null,
+                "enchant_id": null,
+                "gem_id": null,
+                "item_id": 272149,
+                "note": null,
+                "source_hint": null,
+                "usage_pct": 7.0
               }
             ],
             "HANDS": [
@@ -2368,19 +2325,10 @@
                 "drop_source": null,
                 "enchant_id": null,
                 "gem_id": null,
-                "item_id": 249989,
-                "note": null,
-                "source_hint": null,
-                "usage_pct": 65.8
-              },
-              {
-                "drop_source": null,
-                "enchant_id": null,
-                "gem_id": null,
                 "item_id": 271493,
                 "note": null,
                 "source_hint": null,
-                "usage_pct": 24.7
+                "usage_pct": 91.5
               },
               {
                 "drop_source": null,
@@ -2389,34 +2337,16 @@
                 "item_id": 193752,
                 "note": null,
                 "source_hint": null,
-                "usage_pct": 3.3
+                "usage_pct": 2.9
               },
               {
                 "drop_source": null,
                 "enchant_id": null,
                 "gem_id": null,
-                "item_id": 272249,
+                "item_id": 268238,
                 "note": null,
                 "source_hint": null,
-                "usage_pct": 1.6
-              },
-              {
-                "drop_source": null,
-                "enchant_id": null,
-                "gem_id": null,
-                "item_id": 251165,
-                "note": null,
-                "source_hint": null,
-                "usage_pct": 1.5
-              },
-              {
-                "drop_source": null,
-                "enchant_id": null,
-                "gem_id": null,
-                "item_id": 160213,
-                "note": null,
-                "source_hint": null,
-                "usage_pct": 0.9
+                "usage_pct": 1.4
               },
               {
                 "drop_source": null,
@@ -2425,7 +2355,7 @@
                 "item_id": 251152,
                 "note": null,
                 "source_hint": null,
-                "usage_pct": 0.8
+                "usage_pct": 1.3
               },
               {
                 "drop_source": null,
@@ -2434,7 +2364,34 @@
                 "item_id": 244583,
                 "note": null,
                 "source_hint": null,
-                "usage_pct": 0.4
+                "usage_pct": 1.1
+              },
+              {
+                "drop_source": null,
+                "enchant_id": null,
+                "gem_id": null,
+                "item_id": 160213,
+                "note": null,
+                "source_hint": null,
+                "usage_pct": 0.8
+              },
+              {
+                "drop_source": null,
+                "enchant_id": null,
+                "gem_id": null,
+                "item_id": 251165,
+                "note": null,
+                "source_hint": null,
+                "usage_pct": 0.6
+              },
+              {
+                "drop_source": null,
+                "enchant_id": null,
+                "gem_id": null,
+                "item_id": 249989,
+                "note": null,
+                "source_hint": null,
+                "usage_pct": 0.5
               }
             ],
             "HEAD": [
@@ -2442,34 +2399,16 @@
                 "drop_source": null,
                 "enchant_id": null,
                 "gem_id": null,
-                "item_id": 249988,
-                "note": null,
-                "source_hint": null,
-                "usage_pct": 62.4
-              },
-              {
-                "drop_source": null,
-                "enchant_id": null,
-                "gem_id": null,
                 "item_id": 271492,
                 "note": null,
                 "source_hint": null,
-                "usage_pct": 27.2
+                "usage_pct": 94.3
               },
               {
                 "drop_source": null,
                 "enchant_id": null,
                 "gem_id": null,
                 "item_id": 239035,
-                "note": null,
-                "source_hint": null,
-                "usage_pct": 2.3
-              },
-              {
-                "drop_source": null,
-                "enchant_id": null,
-                "gem_id": null,
-                "item_id": 277776,
                 "note": null,
                 "source_hint": null,
                 "usage_pct": 1.9
@@ -2481,16 +2420,7 @@
                 "item_id": 251220,
                 "note": null,
                 "source_hint": null,
-                "usage_pct": 1.8
-              },
-              {
-                "drop_source": null,
-                "enchant_id": null,
-                "gem_id": null,
-                "item_id": 251158,
-                "note": null,
-                "source_hint": null,
-                "usage_pct": 1.1
+                "usage_pct": 1.5
               },
               {
                 "drop_source": null,
@@ -2499,16 +2429,34 @@
                 "item_id": 193765,
                 "note": null,
                 "source_hint": null,
-                "usage_pct": 0.9
+                "usage_pct": 1.3
               },
               {
                 "drop_source": null,
                 "enchant_id": null,
                 "gem_id": null,
-                "item_id": 251119,
+                "item_id": 249988,
                 "note": null,
                 "source_hint": null,
-                "usage_pct": 0.8
+                "usage_pct": 0.4
+              },
+              {
+                "drop_source": null,
+                "enchant_id": null,
+                "gem_id": null,
+                "item_id": 251158,
+                "note": null,
+                "source_hint": null,
+                "usage_pct": 0.4
+              },
+              {
+                "drop_source": null,
+                "enchant_id": null,
+                "gem_id": null,
+                "item_id": 268230,
+                "note": null,
+                "source_hint": null,
+                "usage_pct": 0.3
               }
             ],
             "LEGS": [
@@ -2516,37 +2464,10 @@
                 "drop_source": null,
                 "enchant_id": null,
                 "gem_id": null,
-                "item_id": 249987,
-                "note": null,
-                "source_hint": null,
-                "usage_pct": 73.2
-              },
-              {
-                "drop_source": null,
-                "enchant_id": null,
-                "gem_id": null,
                 "item_id": 271491,
                 "note": null,
                 "source_hint": null,
-                "usage_pct": 21.8
-              },
-              {
-                "drop_source": null,
-                "enchant_id": null,
-                "gem_id": null,
-                "item_id": 193759,
-                "note": null,
-                "source_hint": null,
-                "usage_pct": 1.0
-              },
-              {
-                "drop_source": null,
-                "enchant_id": null,
-                "gem_id": null,
-                "item_id": 277775,
-                "note": null,
-                "source_hint": null,
-                "usage_pct": 0.9
+                "usage_pct": 74.0
               },
               {
                 "drop_source": null,
@@ -2555,96 +2476,22 @@
                 "item_id": 159375,
                 "note": null,
                 "source_hint": null,
-                "usage_pct": 0.9
+                "usage_pct": 6.8
               },
               {
                 "drop_source": null,
                 "enchant_id": null,
                 "gem_id": null,
-                "item_id": 251141,
+                "item_id": 244582,
                 "note": null,
                 "source_hint": null,
-                "usage_pct": 0.8
+                "usage_pct": 6.5
               },
               {
                 "drop_source": null,
                 "enchant_id": null,
                 "gem_id": null,
-                "item_id": 268288,
-                "note": null,
-                "source_hint": null,
-                "usage_pct": 0.4
-              },
-              {
-                "drop_source": null,
-                "enchant_id": null,
-                "gem_id": null,
-                "item_id": 251215,
-                "note": null,
-                "source_hint": null,
-                "usage_pct": 0.4
-              }
-            ],
-            "MAINHAND": [
-              {
-                "drop_source": null,
-                "enchant_id": null,
-                "gem_id": null,
-                "item_id": 249925,
-                "note": null,
-                "source_hint": null,
-                "usage_pct": 11.1
-              },
-              {
-                "drop_source": null,
-                "enchant_id": null,
-                "gem_id": null,
-                "item_id": 237847,
-                "note": null,
-                "source_hint": null,
-                "usage_pct": 11.0
-              },
-              {
-                "drop_source": null,
-                "enchant_id": null,
-                "gem_id": null,
-                "item_id": 258436,
-                "note": null,
-                "source_hint": null,
-                "usage_pct": 10.0
-              },
-              {
-                "drop_source": null,
-                "enchant_id": null,
-                "gem_id": null,
-                "item_id": 237837,
-                "note": null,
-                "source_hint": null,
-                "usage_pct": 7.5
-              },
-              {
-                "drop_source": null,
-                "enchant_id": null,
-                "gem_id": null,
-                "item_id": 159642,
-                "note": null,
-                "source_hint": null,
-                "usage_pct": 7.0
-              },
-              {
-                "drop_source": null,
-                "enchant_id": null,
-                "gem_id": null,
-                "item_id": 273783,
-                "note": null,
-                "source_hint": null,
-                "usage_pct": 6.7
-              },
-              {
-                "drop_source": null,
-                "enchant_id": null,
-                "gem_id": null,
-                "item_id": 158370,
+                "item_id": 268237,
                 "note": null,
                 "source_hint": null,
                 "usage_pct": 4.4
@@ -2653,7 +2500,108 @@
                 "drop_source": null,
                 "enchant_id": null,
                 "gem_id": null,
-                "item_id": 272272,
+                "item_id": 251141,
+                "note": null,
+                "source_hint": null,
+                "usage_pct": 3.0
+              },
+              {
+                "drop_source": null,
+                "enchant_id": null,
+                "gem_id": null,
+                "item_id": 193759,
+                "note": null,
+                "source_hint": null,
+                "usage_pct": 2.6
+              },
+              {
+                "drop_source": null,
+                "enchant_id": null,
+                "gem_id": null,
+                "item_id": 277775,
+                "note": null,
+                "source_hint": null,
+                "usage_pct": 1.4
+              },
+              {
+                "drop_source": null,
+                "enchant_id": null,
+                "gem_id": null,
+                "item_id": 249987,
+                "note": null,
+                "source_hint": null,
+                "usage_pct": 0.9
+              }
+            ],
+            "MAINHAND": [
+              {
+                "drop_source": null,
+                "enchant_id": null,
+                "gem_id": null,
+                "item_id": 268215,
+                "note": null,
+                "source_hint": null,
+                "usage_pct": 21.5
+              },
+              {
+                "drop_source": null,
+                "enchant_id": null,
+                "gem_id": null,
+                "item_id": 237847,
+                "note": null,
+                "source_hint": null,
+                "usage_pct": 16.5
+              },
+              {
+                "drop_source": null,
+                "enchant_id": null,
+                "gem_id": null,
+                "item_id": 268213,
+                "note": null,
+                "source_hint": null,
+                "usage_pct": 13.8
+              },
+              {
+                "drop_source": null,
+                "enchant_id": null,
+                "gem_id": null,
+                "item_id": 237837,
+                "note": null,
+                "source_hint": null,
+                "usage_pct": 13.4
+              },
+              {
+                "drop_source": null,
+                "enchant_id": null,
+                "gem_id": null,
+                "item_id": 268199,
+                "note": null,
+                "source_hint": null,
+                "usage_pct": 7.1
+              },
+              {
+                "drop_source": null,
+                "enchant_id": null,
+                "gem_id": null,
+                "item_id": 237842,
+                "note": null,
+                "source_hint": null,
+                "usage_pct": 4.0
+              },
+              {
+                "drop_source": null,
+                "enchant_id": null,
+                "gem_id": null,
+                "item_id": 273783,
+                "note": null,
+                "source_hint": null,
+                "usage_pct": 4.0
+              },
+              {
+                "drop_source": null,
+                "enchant_id": null,
+                "gem_id": null,
+                "item_id": 268209,
                 "note": null,
                 "source_hint": null,
                 "usage_pct": 3.9
@@ -2664,19 +2612,19 @@
                 "drop_source": null,
                 "enchant_id": null,
                 "gem_id": null,
-                "item_id": 268291,
+                "item_id": 251142,
                 "note": null,
                 "source_hint": null,
-                "usage_pct": 53.9
+                "usage_pct": 29.4
               },
               {
                 "drop_source": null,
                 "enchant_id": null,
                 "gem_id": null,
-                "item_id": 251142,
+                "item_id": 268265,
                 "note": null,
                 "source_hint": null,
-                "usage_pct": 11.6
+                "usage_pct": 23.9
               },
               {
                 "drop_source": null,
@@ -2685,16 +2633,7 @@
                 "item_id": 251234,
                 "note": null,
                 "source_hint": null,
-                "usage_pct": 9.4
-              },
-              {
-                "drop_source": null,
-                "enchant_id": null,
-                "gem_id": null,
-                "item_id": 251173,
-                "note": null,
-                "source_hint": null,
-                "usage_pct": 4.8
+                "usage_pct": 17.6
               },
               {
                 "drop_source": null,
@@ -2703,51 +2642,13 @@
                 "item_id": 273781,
                 "note": null,
                 "source_hint": null,
-                "usage_pct": 4.7
+                "usage_pct": 7.9
               },
               {
                 "drop_source": null,
                 "enchant_id": null,
                 "gem_id": null,
-                "item_id": 240950,
-                "note": null,
-                "source_hint": null,
-                "usage_pct": 3.7
-              },
-              {
-                "drop_source": null,
-                "enchant_id": null,
-                "gem_id": null,
-                "item_id": 272228,
-                "note": null,
-                "source_hint": null,
-                "usage_pct": 2.2
-              },
-              {
-                "drop_source": null,
-                "enchant_id": null,
-                "gem_id": null,
-                "item_id": 275531,
-                "note": null,
-                "source_hint": null,
-                "usage_pct": 1.6
-              }
-            ],
-            "OFFHAND": [
-              {
-                "drop_source": null,
-                "enchant_id": null,
-                "gem_id": null,
-                "item_id": 237837,
-                "note": null,
-                "source_hint": null,
-                "usage_pct": 60.6
-              },
-              {
-                "drop_source": null,
-                "enchant_id": null,
-                "gem_id": null,
-                "item_id": 249925,
+                "item_id": 251173,
                 "note": null,
                 "source_hint": null,
                 "usage_pct": 7.6
@@ -2756,11 +2657,31 @@
                 "drop_source": null,
                 "enchant_id": null,
                 "gem_id": null,
-                "item_id": 258436,
+                "item_id": 272229,
                 "note": null,
                 "source_hint": null,
-                "usage_pct": 5.1
+                "usage_pct": 5.6
               },
+              {
+                "drop_source": null,
+                "enchant_id": null,
+                "gem_id": null,
+                "item_id": 266314,
+                "note": null,
+                "source_hint": null,
+                "usage_pct": 2.9
+              },
+              {
+                "drop_source": null,
+                "enchant_id": null,
+                "gem_id": null,
+                "item_id": 240950,
+                "note": null,
+                "source_hint": null,
+                "usage_pct": 2.8
+              }
+            ],
+            "OFFHAND": [
               {
                 "drop_source": null,
                 "enchant_id": null,
@@ -2768,34 +2689,7 @@
                 "item_id": 275070,
                 "note": null,
                 "source_hint": null,
-                "usage_pct": 3.6
-              },
-              {
-                "drop_source": null,
-                "enchant_id": null,
-                "gem_id": null,
-                "item_id": 251180,
-                "note": null,
-                "source_hint": null,
-                "usage_pct": 2.8
-              },
-              {
-                "drop_source": null,
-                "enchant_id": null,
-                "gem_id": null,
-                "item_id": 49807,
-                "note": null,
-                "source_hint": null,
-                "usage_pct": 2.3
-              },
-              {
-                "drop_source": null,
-                "enchant_id": null,
-                "gem_id": null,
-                "item_id": 251212,
-                "note": null,
-                "source_hint": null,
-                "usage_pct": 2.3
+                "usage_pct": 68.4
               },
               {
                 "drop_source": null,
@@ -2804,7 +2698,61 @@
                 "item_id": 251128,
                 "note": null,
                 "source_hint": null,
-                "usage_pct": 2.3
+                "usage_pct": 9.7
+              },
+              {
+                "drop_source": null,
+                "enchant_id": null,
+                "gem_id": null,
+                "item_id": 159136,
+                "note": null,
+                "source_hint": null,
+                "usage_pct": 9.0
+              },
+              {
+                "drop_source": null,
+                "enchant_id": null,
+                "gem_id": null,
+                "item_id": 251224,
+                "note": null,
+                "source_hint": null,
+                "usage_pct": 2.6
+              },
+              {
+                "drop_source": null,
+                "enchant_id": null,
+                "gem_id": null,
+                "item_id": 237837,
+                "note": null,
+                "source_hint": null,
+                "usage_pct": 2.6
+              },
+              {
+                "drop_source": null,
+                "enchant_id": null,
+                "gem_id": null,
+                "item_id": 251180,
+                "note": null,
+                "source_hint": null,
+                "usage_pct": 1.9
+              },
+              {
+                "drop_source": null,
+                "enchant_id": null,
+                "gem_id": null,
+                "item_id": 268264,
+                "note": null,
+                "source_hint": null,
+                "usage_pct": 1.9
+              },
+              {
+                "drop_source": null,
+                "enchant_id": null,
+                "gem_id": null,
+                "item_id": 271093,
+                "note": null,
+                "source_hint": null,
+                "usage_pct": 1.9
               }
             ],
             "SHOULDER": [
@@ -2815,43 +2763,7 @@
                 "item_id": 271490,
                 "note": null,
                 "source_hint": null,
-                "usage_pct": 24.6
-              },
-              {
-                "drop_source": null,
-                "enchant_id": null,
-                "gem_id": null,
-                "item_id": 249986,
-                "note": null,
-                "source_hint": null,
-                "usage_pct": 21.9
-              },
-              {
-                "drop_source": null,
-                "enchant_id": null,
-                "gem_id": null,
-                "item_id": 193704,
-                "note": null,
-                "source_hint": null,
-                "usage_pct": 11.3
-              },
-              {
-                "drop_source": null,
-                "enchant_id": null,
-                "gem_id": null,
-                "item_id": 151323,
-                "note": null,
-                "source_hint": null,
-                "usage_pct": 7.7
-              },
-              {
-                "drop_source": null,
-                "enchant_id": null,
-                "gem_id": null,
-                "item_id": 277774,
-                "note": null,
-                "source_hint": null,
-                "usage_pct": 7.3
+                "usage_pct": 87.8
               },
               {
                 "drop_source": null,
@@ -2860,25 +2772,52 @@
                 "item_id": 239049,
                 "note": null,
                 "source_hint": null,
-                "usage_pct": 6.7
+                "usage_pct": 5.4
               },
               {
                 "drop_source": null,
                 "enchant_id": null,
                 "gem_id": null,
-                "item_id": 272252,
+                "item_id": 268231,
                 "note": null,
                 "source_hint": null,
-                "usage_pct": 3.9
+                "usage_pct": 4.1
               },
               {
                 "drop_source": null,
                 "enchant_id": null,
                 "gem_id": null,
-                "item_id": 251097,
+                "item_id": 251131,
                 "note": null,
                 "source_hint": null,
-                "usage_pct": 3.3
+                "usage_pct": 2.0
+              },
+              {
+                "drop_source": null,
+                "enchant_id": null,
+                "gem_id": null,
+                "item_id": 249986,
+                "note": null,
+                "source_hint": null,
+                "usage_pct": 0.3
+              },
+              {
+                "drop_source": null,
+                "enchant_id": null,
+                "gem_id": null,
+                "item_id": 151323,
+                "note": null,
+                "source_hint": null,
+                "usage_pct": 0.3
+              },
+              {
+                "drop_source": null,
+                "enchant_id": null,
+                "gem_id": null,
+                "item_id": 244580,
+                "note": null,
+                "source_hint": null,
+                "usage_pct": 0.3
               }
             ],
             "TRINKET1": [
@@ -2886,73 +2825,73 @@
                 "drop_source": null,
                 "enchant_id": null,
                 "gem_id": null,
-                "item_id": 193701,
-                "note": null,
-                "source_hint": null,
-                "usage_pct": 45.6
-              },
-              {
-                "drop_source": null,
-                "enchant_id": null,
-                "gem_id": null,
-                "item_id": 249343,
-                "note": null,
-                "source_hint": null,
-                "usage_pct": 45.1
-              },
-              {
-                "drop_source": null,
-                "enchant_id": null,
-                "gem_id": null,
-                "item_id": 249806,
-                "note": null,
-                "source_hint": null,
-                "usage_pct": 19.4
-              },
-              {
-                "drop_source": null,
-                "enchant_id": null,
-                "gem_id": null,
                 "item_id": 250215,
                 "note": null,
                 "source_hint": null,
-                "usage_pct": 9.0
+                "usage_pct": 39.5
               },
               {
                 "drop_source": null,
                 "enchant_id": null,
                 "gem_id": null,
-                "item_id": 264507,
+                "item_id": 270165,
                 "note": null,
                 "source_hint": null,
-                "usage_pct": 8.7
+                "usage_pct": 37.3
               },
               {
                 "drop_source": null,
                 "enchant_id": null,
                 "gem_id": null,
-                "item_id": 273796,
+                "item_id": 270173,
                 "note": null,
                 "source_hint": null,
-                "usage_pct": 5.7
+                "usage_pct": 28.1
               },
               {
                 "drop_source": null,
                 "enchant_id": null,
                 "gem_id": null,
-                "item_id": 274493,
+                "item_id": 270175,
                 "note": null,
                 "source_hint": null,
-                "usage_pct": 4.9
+                "usage_pct": 24.6
               },
               {
                 "drop_source": null,
                 "enchant_id": null,
                 "gem_id": null,
-                "item_id": 265657,
+                "item_id": 250214,
                 "note": null,
                 "source_hint": null,
-                "usage_pct": 4.8
+                "usage_pct": 24.4
+              },
+              {
+                "drop_source": null,
+                "enchant_id": null,
+                "gem_id": null,
+                "item_id": 273797,
+                "note": null,
+                "source_hint": null,
+                "usage_pct": 8.1
+              },
+              {
+                "drop_source": null,
+                "enchant_id": null,
+                "gem_id": null,
+                "item_id": 270164,
+                "note": null,
+                "source_hint": null,
+                "usage_pct": 8.1
+              },
+              {
+                "drop_source": null,
+                "enchant_id": null,
+                "gem_id": null,
+                "item_id": 250228,
+                "note": null,
+                "source_hint": null,
+                "usage_pct": 6.6
               }
             ],
             "WAIST": [
@@ -2963,25 +2902,7 @@
                 "item_id": 244581,
                 "note": null,
                 "source_hint": null,
-                "usage_pct": 16.5
-              },
-              {
-                "drop_source": null,
-                "enchant_id": null,
-                "gem_id": null,
-                "item_id": 249371,
-                "note": null,
-                "source_hint": null,
-                "usage_pct": 15.8
-              },
-              {
-                "drop_source": null,
-                "enchant_id": null,
-                "gem_id": null,
-                "item_id": 249985,
-                "note": null,
-                "source_hint": null,
-                "usage_pct": 13.5
+                "usage_pct": 49.5
               },
               {
                 "drop_source": null,
@@ -2990,16 +2911,7 @@
                 "item_id": 251155,
                 "note": null,
                 "source_hint": null,
-                "usage_pct": 10.9
-              },
-              {
-                "drop_source": null,
-                "enchant_id": null,
-                "gem_id": null,
-                "item_id": 244611,
-                "note": null,
-                "source_hint": null,
-                "usage_pct": 10.5
+                "usage_pct": 18.0
               },
               {
                 "drop_source": null,
@@ -3008,16 +2920,34 @@
                 "item_id": 251228,
                 "note": null,
                 "source_hint": null,
-                "usage_pct": 6.5
+                "usage_pct": 16.8
               },
               {
                 "drop_source": null,
                 "enchant_id": null,
                 "gem_id": null,
-                "item_id": 277773,
+                "item_id": 268254,
                 "note": null,
                 "source_hint": null,
-                "usage_pct": 6.5
+                "usage_pct": 6.4
+              },
+              {
+                "drop_source": null,
+                "enchant_id": null,
+                "gem_id": null,
+                "item_id": 271489,
+                "note": null,
+                "source_hint": null,
+                "usage_pct": 3.6
+              },
+              {
+                "drop_source": null,
+                "enchant_id": null,
+                "gem_id": null,
+                "item_id": 268216,
+                "note": null,
+                "source_hint": null,
+                "usage_pct": 3.4
               },
               {
                 "drop_source": null,
@@ -3026,7 +2956,7 @@
                 "item_id": 159369,
                 "note": null,
                 "source_hint": null,
-                "usage_pct": 3.5
+                "usage_pct": 2.1
               }
             ],
             "WRIST": [
@@ -3037,52 +2967,7 @@
                 "item_id": 244584,
                 "note": null,
                 "source_hint": null,
-                "usage_pct": 38.4
-              },
-              {
-                "drop_source": null,
-                "enchant_id": null,
-                "gem_id": null,
-                "item_id": 249304,
-                "note": null,
-                "source_hint": null,
-                "usage_pct": 12.3
-              },
-              {
-                "drop_source": null,
-                "enchant_id": null,
-                "gem_id": null,
-                "item_id": 251200,
-                "note": null,
-                "source_hint": null,
-                "usage_pct": 8.6
-              },
-              {
-                "drop_source": null,
-                "enchant_id": null,
-                "gem_id": null,
-                "item_id": 251079,
-                "note": null,
-                "source_hint": null,
-                "usage_pct": 7.0
-              },
-              {
-                "drop_source": null,
-                "enchant_id": null,
-                "gem_id": null,
-                "item_id": 151321,
-                "note": null,
-                "source_hint": null,
-                "usage_pct": 5.8
-              },
-              {
-                "drop_source": null,
-                "enchant_id": null,
-                "gem_id": null,
-                "item_id": 273775,
-                "note": null,
-                "source_hint": null,
-                "usage_pct": 4.6
+                "usage_pct": 76.9
               },
               {
                 "drop_source": null,
@@ -3091,7 +2976,43 @@
                 "item_id": 159380,
                 "note": null,
                 "source_hint": null,
-                "usage_pct": 3.8
+                "usage_pct": 7.9
+              },
+              {
+                "drop_source": null,
+                "enchant_id": null,
+                "gem_id": null,
+                "item_id": 251200,
+                "note": null,
+                "source_hint": null,
+                "usage_pct": 6.3
+              },
+              {
+                "drop_source": null,
+                "enchant_id": null,
+                "gem_id": null,
+                "item_id": 273775,
+                "note": null,
+                "source_hint": null,
+                "usage_pct": 3.4
+              },
+              {
+                "drop_source": null,
+                "enchant_id": null,
+                "gem_id": null,
+                "item_id": 268217,
+                "note": null,
+                "source_hint": null,
+                "usage_pct": 2.6
+              },
+              {
+                "drop_source": null,
+                "enchant_id": null,
+                "gem_id": null,
+                "item_id": 276532,
+                "note": null,
+                "source_hint": null,
+                "usage_pct": 0.8
               },
               {
                 "drop_source": null,
@@ -3100,7 +3021,16 @@
                 "item_id": 277772,
                 "note": null,
                 "source_hint": null,
-                "usage_pct": 3.7
+                "usage_pct": 0.8
+              },
+              {
+                "drop_source": null,
+                "enchant_id": null,
+                "gem_id": null,
+                "item_id": 272254,
+                "note": null,
+                "source_hint": null,
+                "usage_pct": 0.6
               }
             ]
           },
@@ -3112,7 +3042,7 @@
               "item_id": 240898,
               "note": null,
               "source_hint": null,
-              "usage_pct": 43.6
+              "usage_pct": 35.1
             },
             {
               "drop_source": null,
@@ -3121,7 +3051,7 @@
               "item_id": 240983,
               "note": null,
               "source_hint": null,
-              "usage_pct": 17.2
+              "usage_pct": 21.0
             },
             {
               "drop_source": null,
@@ -3130,16 +3060,7 @@
               "item_id": 240908,
               "note": null,
               "source_hint": null,
-              "usage_pct": 12.3
-            },
-            {
-              "drop_source": null,
-              "enchant_id": null,
-              "gem_id": null,
-              "item_id": 240900,
-              "note": null,
-              "source_hint": null,
-              "usage_pct": 11.9
+              "usage_pct": 13.2
             },
             {
               "drop_source": null,
@@ -3148,7 +3069,16 @@
               "item_id": 240892,
               "note": null,
               "source_hint": null,
-              "usage_pct": 4.2
+              "usage_pct": 11.1
+            },
+            {
+              "drop_source": null,
+              "enchant_id": null,
+              "gem_id": null,
+              "item_id": 240900,
+              "note": null,
+              "source_hint": null,
+              "usage_pct": 7.2
             },
             {
               "drop_source": null,
@@ -3157,7 +3087,7 @@
               "item_id": 240890,
               "note": null,
               "source_hint": null,
-              "usage_pct": 3.2
+              "usage_pct": 5.0
             },
             {
               "drop_source": null,
@@ -3166,7 +3096,7 @@
               "item_id": 240906,
               "note": null,
               "source_hint": null,
-              "usage_pct": 2.6
+              "usage_pct": 3.8
             },
             {
               "drop_source": null,
@@ -3175,44 +3105,44 @@
               "item_id": 240967,
               "note": null,
               "source_hint": null,
-              "usage_pct": 1.5
+              "usage_pct": 2.6
             },
             {
               "drop_source": null,
               "enchant_id": null,
               "gem_id": null,
-              "item_id": 240918,
+              "item_id": 240902,
               "note": null,
               "source_hint": null,
-              "usage_pct": 0.5
+              "usage_pct": 0.3
             }
           ],
           "notes": {},
           "source": "mythicstats",
           "stat_priority": [
             {
-              "rating": 1129,
-              "share": 31.2,
+              "rating": 1168,
+              "share": 31.6,
               "stat": "MASTERY",
               "weight": 1.0
             },
             {
-              "rating": 832,
-              "share": 31.8,
+              "rating": 830,
+              "share": 31.6,
               "stat": "CRIT",
-              "weight": 0.737
+              "weight": 0.711
             },
             {
-              "rating": 672,
-              "share": 17.2,
+              "rating": 801,
+              "share": 20.2,
               "stat": "HASTE",
-              "weight": 0.595
+              "weight": 0.686
             },
             {
-              "rating": 52,
-              "share": 0.6,
+              "rating": 98,
+              "share": 1.5,
               "stat": "VERSATILITY",
-              "weight": 0.046
+              "weight": 0.084
             }
           ],
           "talent_builds": [
@@ -3222,89 +3152,44 @@
               "import_string": "C8PAAAAAAAAAAAAAAAAAAAAAAMWgBmxoxyAYGw2MzMzMjZbeAAAAAAAzYmZGbzYMjZYZMNDAAAwAAjllZGLYmZ8AjxAwM2AjxMzmBA",
               "label": "Sentinel #1",
               "metrics": {
-                "Avg dps": "170K",
-                "Avg key": "+11.3",
-                "Max dps": "248K",
-                "Max key": "+13"
+                "Avg dps": "280K",
+                "Avg key": "+16.5",
+                "Max dps": "348K",
+                "Max key": "+19"
               },
               "source": "mythicstats",
               "url": "https://mythicstats.com/spec/survival-hunter",
-              "usage_pct": 15.3
+              "usage_pct": 5.8
             },
             {
               "hero_id": 42,
               "hero_specific": true,
-              "import_string": "C8PAAAAAAAAAAAAAAAAAAAAAAMWgBmxoxyAYGw2MzMzYmZbGAAAAAAzYmZGmxYGzgx0MAAAADAwy2MjtZMzYMmZAYGbYxYYmFDA",
+              "import_string": "C8PAAAAAAAAAAAAAAAAAAAAAAMWgBmxoxyAYGw2MzMzYmZbGAAAAAAzYmZGbzYMjZwYaGAAAgBAYZbmxyMmZMGjBgZshFjhZ2MAA",
               "label": "Sentinel #2",
               "metrics": {
-                "Avg dps": "151K",
-                "Avg key": "+11.1",
-                "Max dps": "177K",
-                "Max key": "+12"
+                "Avg dps": "289K",
+                "Avg key": "+17.2",
+                "Max dps": "367K",
+                "Max key": "+18"
               },
               "source": "mythicstats",
               "url": "https://mythicstats.com/spec/survival-hunter",
-              "usage_pct": 4.3
+              "usage_pct": 2.5
             },
             {
               "hero_id": 42,
               "hero_specific": true,
-              "import_string": "C8PAAAAAAAAAAAAAAAAAAAAAAMWgBmxoxyAYGw2MzMzYmZbGAAAAAAzYmZGmxYGzgx0MAAAADAwy2MjlZMzYMmZAYGbYxYYmFDA",
+              "import_string": "C8PAAAAAAAAAAAAAAAAAAAAAAMWgBmxoxyAYGw2MzMzYmZbGAAAAAAzYmZGmxYGzwyYaGAAAgBAYZbmxyMmZwMjBgZsxwYYmNDA",
               "label": "Sentinel #3",
               "metrics": {
-                "Avg dps": "180K",
-                "Avg key": "+11.4",
-                "Max dps": "198K",
-                "Max key": "+12"
+                "Avg dps": "308K",
+                "Avg key": "+16.4",
+                "Max dps": "378K",
+                "Max key": "+17"
               },
               "source": "mythicstats",
               "url": "https://mythicstats.com/spec/survival-hunter",
-              "usage_pct": 2.7
-            },
-            {
-              "hero_id": 42,
-              "hero_specific": true,
-              "import_string": "C8PAAAAAAAAAAAAAAAAAAAAAAMWgBmxoxyAYGw2MzMzYmZbGAAAAAAzYmZGmxYGzgx0MAAAADAwy2MjtZMzYMmZAYGbYxYYmNDA",
-              "label": "Sentinel #4",
-              "metrics": {
-                "Avg dps": "157K",
-                "Avg key": "+11.1",
-                "Max dps": "192K",
-                "Max key": "+12"
-              },
-              "source": "mythicstats",
-              "url": "https://mythicstats.com/spec/survival-hunter",
-              "usage_pct": 2.4
-            },
-            {
-              "hero_id": 42,
-              "hero_specific": true,
-              "import_string": "C8PAAAAAAAAAAAAAAAAAAAAAAMWgBmxoxyAYGw2MzMzYmZbGAAAAAAzYmZGmxYGzgx0MAAAADAwy2MjlZMzYMmZAYGbYxYYmNDA",
-              "label": "Sentinel #5",
-              "metrics": {
-                "Avg dps": "191K",
-                "Avg key": "+11.4",
-                "Max dps": "232K",
-                "Max key": "+12"
-              },
-              "source": "mythicstats",
-              "url": "https://mythicstats.com/spec/survival-hunter",
-              "usage_pct": 1.9
-            },
-            {
-              "hero_id": 42,
-              "hero_specific": true,
-              "import_string": "C8PAAAAAAAAAAAAAAAAAAAAAAMWgBmxoxyAYGw2MzMzYmZbGAAAAAAzYmZGmxYGzwyYaGAAAgBAGLbzMWGmZwMjBgZsxwYYmNDA",
-              "label": "Sentinel #6",
-              "metrics": {
-                "Avg dps": "198K",
-                "Avg key": "+11.2",
-                "Max dps": "210K",
-                "Max key": "+12"
-              },
-              "source": "mythicstats",
-              "url": "https://mythicstats.com/spec/survival-hunter",
-              "usage_pct": 1.3
+              "usage_pct": 2.1
             }
           ],
           "url": "https://mythicstats.com/spec/survival-hunter"
@@ -3343,7 +3228,1492 @@
             }
           ],
           "enchants": [],
-          "fetched_at": "2026-08-21",
+          "fetched_at": "2026-09-15",
+          "gear": {},
+          "gems": [],
+          "notes": {},
+          "source": "wowhead",
+          "stat_priority": [],
+          "talent_builds": [],
+          "url": "https://www.wowhead.com/guide/classes/hunter/survival/enchants-gems-pve-dps"
+        }
+      }
+    },
+    {
+      "content": "raid",
+      "hero_id": 42,
+      "hero_name": "Sentinel",
+      "performance": {
+        "difficulty": "Mythic",
+        "median": 170670.7,
+        "metric": "dps",
+        "out_of": 40,
+        "rank": 27,
+        "sample": 194,
+        "top": 312871.8,
+        "zone": "The Venomous Abyss"
+      },
+      "views": {
+        "icyveins": {
+          "consumables": [
+            {
+              "category": "FLASK",
+              "is_primary": true,
+              "item_id": 241322
+            },
+            {
+              "category": "HEALTH_POTION",
+              "is_primary": true,
+              "item_id": 271883
+            },
+            {
+              "category": "FOOD",
+              "is_primary": true,
+              "item_id": 255846
+            },
+            {
+              "category": "FOOD",
+              "is_primary": false,
+              "item_id": 255845
+            },
+            {
+              "category": "FOOD",
+              "is_primary": false,
+              "item_id": 242747
+            },
+            {
+              "category": "RUNE",
+              "is_primary": true,
+              "item_id": 259085
+            }
+          ],
+          "enchants": [],
+          "fetched_at": "2026-09-15",
+          "gear": {
+            "BACK": [
+              {
+                "drop_source": "Coiled Altar",
+                "enchant_id": null,
+                "gem_id": null,
+                "item_id": 268253,
+                "note": null,
+                "source_hint": null,
+                "usage_pct": null
+              }
+            ],
+            "CHEST": [
+              {
+                "drop_source": "Catalyst from Ula'tek",
+                "enchant_id": 243977,
+                "gem_id": null,
+                "item_id": 271495,
+                "note": null,
+                "source_hint": null,
+                "usage_pct": null
+              }
+            ],
+            "FEET": [
+              {
+                "drop_source": "Sszorak",
+                "enchant_id": 243983,
+                "gem_id": null,
+                "item_id": 268233,
+                "note": null,
+                "source_hint": null,
+                "usage_pct": null
+              }
+            ],
+            "FINGER1": [
+              {
+                "drop_source": "Nymrissa Wavecaller",
+                "enchant_id": 243956,
+                "gem_id": 240898,
+                "item_id": 268266,
+                "note": null,
+                "source_hint": null,
+                "usage_pct": null
+              }
+            ],
+            "FINGER2": [
+              {
+                "drop_source": "Vashnik",
+                "enchant_id": 243956,
+                "gem_id": 240898,
+                "item_id": 268249,
+                "note": null,
+                "source_hint": null,
+                "usage_pct": null
+              }
+            ],
+            "HANDS": [
+              {
+                "drop_source": "Catalyst from Nymrissa Wavecaller",
+                "enchant_id": null,
+                "gem_id": null,
+                "item_id": 271493,
+                "note": null,
+                "source_hint": null,
+                "usage_pct": null
+              }
+            ],
+            "HEAD": [
+              {
+                "drop_source": "Twin Fangs",
+                "enchant_id": 243950,
+                "gem_id": 240983,
+                "item_id": 271492,
+                "note": null,
+                "source_hint": null,
+                "usage_pct": null
+              }
+            ],
+            "LEGS": [
+              {
+                "drop_source": "Catalyst from Coiled Altar",
+                "enchant_id": 244640,
+                "gem_id": null,
+                "item_id": 271491,
+                "note": null,
+                "source_hint": null,
+                "usage_pct": null
+              }
+            ],
+            "MAINHAND": [
+              {
+                "drop_source": "Coiled Altar",
+                "enchant_id": 273072,
+                "gem_id": null,
+                "item_id": 268213,
+                "note": null,
+                "source_hint": null,
+                "usage_pct": null
+              }
+            ],
+            "NECK": [
+              {
+                "drop_source": "Ula'tek",
+                "enchant_id": null,
+                "gem_id": 240898,
+                "item_id": 268265,
+                "note": null,
+                "source_hint": null,
+                "usage_pct": null
+              }
+            ],
+            "SHOULDER": [
+              {
+                "drop_source": "Catalyst from Coiled Altar",
+                "enchant_id": 244021,
+                "gem_id": null,
+                "item_id": 271490,
+                "note": null,
+                "source_hint": null,
+                "usage_pct": null
+              }
+            ],
+            "TRINKET1": [
+              {
+                "drop_source": "Ula'tek",
+                "enchant_id": null,
+                "gem_id": null,
+                "item_id": 270175,
+                "note": null,
+                "source_hint": null,
+                "usage_pct": null
+              }
+            ],
+            "TRINKET2": [
+              {
+                "drop_source": "Coiled Altar",
+                "enchant_id": null,
+                "gem_id": null,
+                "item_id": 270173,
+                "note": null,
+                "source_hint": null,
+                "usage_pct": null
+              }
+            ],
+            "WAIST": [
+              {
+                "drop_source": "Crafted by Leatherworking",
+                "enchant_id": null,
+                "gem_id": 240898,
+                "item_id": 244581,
+                "note": null,
+                "source_hint": null,
+                "usage_pct": null
+              }
+            ],
+            "WRIST": [
+              {
+                "drop_source": "Crafted by Leatherworking",
+                "enchant_id": null,
+                "gem_id": 240898,
+                "item_id": 244584,
+                "note": null,
+                "source_hint": null,
+                "usage_pct": null
+              }
+            ]
+          },
+          "gems": [
+            {
+              "drop_source": null,
+              "enchant_id": null,
+              "gem_id": null,
+              "item_id": 240983,
+              "note": null,
+              "source_hint": null,
+              "usage_pct": null
+            },
+            {
+              "drop_source": null,
+              "enchant_id": null,
+              "gem_id": null,
+              "item_id": 240898,
+              "note": null,
+              "source_hint": null,
+              "usage_pct": null
+            }
+          ],
+          "notes": {
+            "trinkets": "As Survival, our optimal setup is Voracious Heart of Ula'tek paired with Zul'jin's Guillotine Technique . Use the Heart with Takedown when possible, but do not hold it for more than 20 seconds to do so."
+          },
+          "source": "icyveins",
+          "stat_priority": [],
+          "talent_builds": [
+            {
+              "hero_id": 0,
+              "hero_specific": false,
+              "import_string": "C8PAAAAAAAAAAAAAAAAAAAAAAMWgBmxoxyAYmgtZMzMGzyAAAAAAwMmxMLmxYGzgx0MAAAADAmxyyMzsYMzMjZmBAzYZDGDjNDAA",
+              "label": "Survival Single Target - Sentinel",
+              "metrics": {},
+              "source": "icyveins",
+              "url": "https://www.icy-veins.com/wow/survival-hunter-pve-dps-spec-builds-talents",
+              "usage_pct": null
+            },
+            {
+              "hero_id": 0,
+              "hero_specific": false,
+              "import_string": "C8PAAAAAAAAAAAAAAAAAAAAAAMWgBmxYGLDgZGYbmZmZmxsNPAAAAAAgZMzMjtZMmxMsMmmBAAAYAgxyyMjFMzMegxYAYGbgxYmZzAAA",
+              "label": "Survival Mythic+ - Sentinel",
+              "metrics": {},
+              "source": "icyveins",
+              "url": "https://www.icy-veins.com/wow/survival-hunter-pve-dps-spec-builds-talents",
+              "usage_pct": null
+            },
+            {
+              "hero_id": 0,
+              "hero_specific": false,
+              "import_string": "C8PAAAAAAAAAAAAAAAAAAAAAAMWgBmxYGLDgZGYbmZmZmxsNPAAAAAAgZMzMDGjZMzwYaAAAAAAGLLzMWwMzMzYMAMjNsMjxMzmBAAA",
+              "label": "Survival Delves - Sentinel",
+              "metrics": {},
+              "source": "icyveins",
+              "url": "https://www.icy-veins.com/wow/survival-hunter-pve-dps-spec-builds-talents",
+              "usage_pct": null
+            }
+          ],
+          "url": "https://www.icy-veins.com/wow/survival-hunter-pve-dps-gear-best-in-slot"
+        },
+        "mythicstats": {
+          "consumables": [],
+          "enchants": [
+            {
+              "item_id": 273072,
+              "slot": "MAINHAND",
+              "usage_pct": 59.5
+            },
+            {
+              "item_id": 244031,
+              "slot": "MAINHAND",
+              "usage_pct": 30.0
+            },
+            {
+              "item_id": 244029,
+              "slot": "MAINHAND",
+              "usage_pct": 4.3
+            },
+            {
+              "item_id": 273072,
+              "slot": "OFFHAND",
+              "usage_pct": 49.4
+            },
+            {
+              "item_id": 244031,
+              "slot": "OFFHAND",
+              "usage_pct": 40.3
+            },
+            {
+              "item_id": 243973,
+              "slot": "OFFHAND",
+              "usage_pct": 6.5
+            },
+            {
+              "item_id": 244007,
+              "slot": "HEAD",
+              "usage_pct": 60.4
+            },
+            {
+              "item_id": 243951,
+              "slot": "HEAD",
+              "usage_pct": 31.5
+            },
+            {
+              "item_id": 243981,
+              "slot": "HEAD",
+              "usage_pct": 5.9
+            },
+            {
+              "item_id": 243991,
+              "slot": "SHOULDER",
+              "usage_pct": 57.7
+            },
+            {
+              "item_id": 244021,
+              "slot": "SHOULDER",
+              "usage_pct": 31.2
+            },
+            {
+              "item_id": 243963,
+              "slot": "SHOULDER",
+              "usage_pct": 5.7
+            },
+            {
+              "item_id": 243977,
+              "slot": "CHEST",
+              "usage_pct": 98.5
+            },
+            {
+              "item_id": 243975,
+              "slot": "CHEST",
+              "usage_pct": 1.5
+            },
+            {
+              "item_id": 244641,
+              "slot": "LEGS",
+              "usage_pct": 99.3
+            },
+            {
+              "item_id": 244643,
+              "slot": "LEGS",
+              "usage_pct": 0.7
+            },
+            {
+              "item_id": 243953,
+              "slot": "FEET",
+              "usage_pct": 62.0
+            },
+            {
+              "item_id": 243983,
+              "slot": "FEET",
+              "usage_pct": 31.4
+            },
+            {
+              "item_id": 244009,
+              "slot": "FEET",
+              "usage_pct": 6.4
+            },
+            {
+              "item_id": 243957,
+              "slot": "FINGER1",
+              "usage_pct": 93.4
+            },
+            {
+              "item_id": 243959,
+              "slot": "FINGER1",
+              "usage_pct": 5.5
+            },
+            {
+              "item_id": 243955,
+              "slot": "FINGER1",
+              "usage_pct": 0.5
+            }
+          ],
+          "fetched_at": "2026-09-15",
+          "gear": {
+            "BACK": [
+              {
+                "drop_source": null,
+                "enchant_id": null,
+                "gem_id": null,
+                "item_id": 251132,
+                "note": null,
+                "source_hint": null,
+                "usage_pct": 34.0
+              },
+              {
+                "drop_source": null,
+                "enchant_id": null,
+                "gem_id": null,
+                "item_id": 268253,
+                "note": null,
+                "source_hint": null,
+                "usage_pct": 15.9
+              },
+              {
+                "drop_source": null,
+                "enchant_id": null,
+                "gem_id": null,
+                "item_id": 271487,
+                "note": null,
+                "source_hint": null,
+                "usage_pct": 14.9
+              },
+              {
+                "drop_source": null,
+                "enchant_id": null,
+                "gem_id": null,
+                "item_id": 251190,
+                "note": null,
+                "source_hint": null,
+                "usage_pct": 10.4
+              },
+              {
+                "drop_source": null,
+                "enchant_id": null,
+                "gem_id": null,
+                "item_id": 193763,
+                "note": null,
+                "source_hint": null,
+                "usage_pct": 8.2
+              },
+              {
+                "drop_source": null,
+                "enchant_id": null,
+                "gem_id": null,
+                "item_id": 239656,
+                "note": null,
+                "source_hint": null,
+                "usage_pct": 6.2
+              },
+              {
+                "drop_source": null,
+                "enchant_id": null,
+                "gem_id": null,
+                "item_id": 272225,
+                "note": null,
+                "source_hint": null,
+                "usage_pct": 3.5
+              },
+              {
+                "drop_source": null,
+                "enchant_id": null,
+                "gem_id": null,
+                "item_id": 159288,
+                "note": null,
+                "source_hint": null,
+                "usage_pct": 2.0
+              }
+            ],
+            "CHEST": [
+              {
+                "drop_source": null,
+                "enchant_id": null,
+                "gem_id": null,
+                "item_id": 271495,
+                "note": null,
+                "source_hint": null,
+                "usage_pct": 85.9
+              },
+              {
+                "drop_source": null,
+                "enchant_id": null,
+                "gem_id": null,
+                "item_id": 271876,
+                "note": null,
+                "source_hint": null,
+                "usage_pct": 8.9
+              },
+              {
+                "drop_source": null,
+                "enchant_id": null,
+                "gem_id": null,
+                "item_id": 251233,
+                "note": null,
+                "source_hint": null,
+                "usage_pct": 3.2
+              },
+              {
+                "drop_source": null,
+                "enchant_id": null,
+                "gem_id": null,
+                "item_id": 239034,
+                "note": null,
+                "source_hint": null,
+                "usage_pct": 1.0
+              },
+              {
+                "drop_source": null,
+                "enchant_id": null,
+                "gem_id": null,
+                "item_id": 273789,
+                "note": null,
+                "source_hint": null,
+                "usage_pct": 0.5
+              }
+            ],
+            "FEET": [
+              {
+                "drop_source": null,
+                "enchant_id": null,
+                "gem_id": null,
+                "item_id": 268233,
+                "note": null,
+                "source_hint": null,
+                "usage_pct": 26.3
+              },
+              {
+                "drop_source": null,
+                "enchant_id": null,
+                "gem_id": null,
+                "item_id": 159388,
+                "note": null,
+                "source_hint": null,
+                "usage_pct": 20.1
+              },
+              {
+                "drop_source": null,
+                "enchant_id": null,
+                "gem_id": null,
+                "item_id": 268258,
+                "note": null,
+                "source_hint": null,
+                "usage_pct": 16.1
+              },
+              {
+                "drop_source": null,
+                "enchant_id": null,
+                "gem_id": null,
+                "item_id": 244577,
+                "note": null,
+                "source_hint": null,
+                "usage_pct": 12.4
+              },
+              {
+                "drop_source": null,
+                "enchant_id": null,
+                "gem_id": null,
+                "item_id": 271494,
+                "note": null,
+                "source_hint": null,
+                "usage_pct": 11.4
+              },
+              {
+                "drop_source": null,
+                "enchant_id": null,
+                "gem_id": null,
+                "item_id": 271440,
+                "note": null,
+                "source_hint": null,
+                "usage_pct": 5.5
+              },
+              {
+                "drop_source": null,
+                "enchant_id": null,
+                "gem_id": null,
+                "item_id": 272248,
+                "note": null,
+                "source_hint": null,
+                "usage_pct": 3.5
+              },
+              {
+                "drop_source": null,
+                "enchant_id": null,
+                "gem_id": null,
+                "item_id": 159371,
+                "note": null,
+                "source_hint": null,
+                "usage_pct": 2.2
+              }
+            ],
+            "FINGER1": [
+              {
+                "drop_source": null,
+                "enchant_id": null,
+                "gem_id": null,
+                "item_id": 251136,
+                "note": null,
+                "source_hint": null,
+                "usage_pct": 38.5
+              },
+              {
+                "drop_source": null,
+                "enchant_id": null,
+                "gem_id": null,
+                "item_id": 252258,
+                "note": null,
+                "source_hint": null,
+                "usage_pct": 36.7
+              },
+              {
+                "drop_source": null,
+                "enchant_id": null,
+                "gem_id": null,
+                "item_id": 273792,
+                "note": null,
+                "source_hint": null,
+                "usage_pct": 27.3
+              },
+              {
+                "drop_source": null,
+                "enchant_id": null,
+                "gem_id": null,
+                "item_id": 158366,
+                "note": null,
+                "source_hint": null,
+                "usage_pct": 24.3
+              },
+              {
+                "drop_source": null,
+                "enchant_id": null,
+                "gem_id": null,
+                "item_id": 240949,
+                "note": null,
+                "source_hint": null,
+                "usage_pct": 10.9
+              },
+              {
+                "drop_source": null,
+                "enchant_id": null,
+                "gem_id": null,
+                "item_id": 279010,
+                "note": null,
+                "source_hint": null,
+                "usage_pct": 9.9
+              },
+              {
+                "drop_source": null,
+                "enchant_id": null,
+                "gem_id": null,
+                "item_id": 272150,
+                "note": null,
+                "source_hint": null,
+                "usage_pct": 8.7
+              },
+              {
+                "drop_source": null,
+                "enchant_id": null,
+                "gem_id": null,
+                "item_id": 268249,
+                "note": null,
+                "source_hint": null,
+                "usage_pct": 7.4
+              }
+            ],
+            "HANDS": [
+              {
+                "drop_source": null,
+                "enchant_id": null,
+                "gem_id": null,
+                "item_id": 271493,
+                "note": null,
+                "source_hint": null,
+                "usage_pct": 85.4
+              },
+              {
+                "drop_source": null,
+                "enchant_id": null,
+                "gem_id": null,
+                "item_id": 193752,
+                "note": null,
+                "source_hint": null,
+                "usage_pct": 4.5
+              },
+              {
+                "drop_source": null,
+                "enchant_id": null,
+                "gem_id": null,
+                "item_id": 160213,
+                "note": null,
+                "source_hint": null,
+                "usage_pct": 3.0
+              },
+              {
+                "drop_source": null,
+                "enchant_id": null,
+                "gem_id": null,
+                "item_id": 268238,
+                "note": null,
+                "source_hint": null,
+                "usage_pct": 2.5
+              },
+              {
+                "drop_source": null,
+                "enchant_id": null,
+                "gem_id": null,
+                "item_id": 272249,
+                "note": null,
+                "source_hint": null,
+                "usage_pct": 2.0
+              },
+              {
+                "drop_source": null,
+                "enchant_id": null,
+                "gem_id": null,
+                "item_id": 244583,
+                "note": null,
+                "source_hint": null,
+                "usage_pct": 1.2
+              },
+              {
+                "drop_source": null,
+                "enchant_id": null,
+                "gem_id": null,
+                "item_id": 251165,
+                "note": null,
+                "source_hint": null,
+                "usage_pct": 1.0
+              }
+            ],
+            "HEAD": [
+              {
+                "drop_source": null,
+                "enchant_id": null,
+                "gem_id": null,
+                "item_id": 271492,
+                "note": null,
+                "source_hint": null,
+                "usage_pct": 90.3
+              },
+              {
+                "drop_source": null,
+                "enchant_id": null,
+                "gem_id": null,
+                "item_id": 239035,
+                "note": null,
+                "source_hint": null,
+                "usage_pct": 5.5
+              },
+              {
+                "drop_source": null,
+                "enchant_id": null,
+                "gem_id": null,
+                "item_id": 251220,
+                "note": null,
+                "source_hint": null,
+                "usage_pct": 2.5
+              },
+              {
+                "drop_source": null,
+                "enchant_id": null,
+                "gem_id": null,
+                "item_id": 268230,
+                "note": null,
+                "source_hint": null,
+                "usage_pct": 0.7
+              },
+              {
+                "drop_source": null,
+                "enchant_id": null,
+                "gem_id": null,
+                "item_id": 249988,
+                "note": null,
+                "source_hint": null,
+                "usage_pct": 0.5
+              }
+            ],
+            "LEGS": [
+              {
+                "drop_source": null,
+                "enchant_id": null,
+                "gem_id": null,
+                "item_id": 271491,
+                "note": null,
+                "source_hint": null,
+                "usage_pct": 85.1
+              },
+              {
+                "drop_source": null,
+                "enchant_id": null,
+                "gem_id": null,
+                "item_id": 244582,
+                "note": null,
+                "source_hint": null,
+                "usage_pct": 9.7
+              },
+              {
+                "drop_source": null,
+                "enchant_id": null,
+                "gem_id": null,
+                "item_id": 159375,
+                "note": null,
+                "source_hint": null,
+                "usage_pct": 1.7
+              },
+              {
+                "drop_source": null,
+                "enchant_id": null,
+                "gem_id": null,
+                "item_id": 268237,
+                "note": null,
+                "source_hint": null,
+                "usage_pct": 1.5
+              },
+              {
+                "drop_source": null,
+                "enchant_id": null,
+                "gem_id": null,
+                "item_id": 251141,
+                "note": null,
+                "source_hint": null,
+                "usage_pct": 1.2
+              },
+              {
+                "drop_source": null,
+                "enchant_id": null,
+                "gem_id": null,
+                "item_id": 249987,
+                "note": null,
+                "source_hint": null,
+                "usage_pct": 0.5
+              }
+            ],
+            "MAINHAND": [
+              {
+                "drop_source": null,
+                "enchant_id": null,
+                "gem_id": null,
+                "item_id": 268215,
+                "note": null,
+                "source_hint": null,
+                "usage_pct": 27.3
+              },
+              {
+                "drop_source": null,
+                "enchant_id": null,
+                "gem_id": null,
+                "item_id": 268213,
+                "note": null,
+                "source_hint": null,
+                "usage_pct": 21.8
+              },
+              {
+                "drop_source": null,
+                "enchant_id": null,
+                "gem_id": null,
+                "item_id": 237847,
+                "note": null,
+                "source_hint": null,
+                "usage_pct": 13.4
+              },
+              {
+                "drop_source": null,
+                "enchant_id": null,
+                "gem_id": null,
+                "item_id": 268199,
+                "note": null,
+                "source_hint": null,
+                "usage_pct": 9.2
+              },
+              {
+                "drop_source": null,
+                "enchant_id": null,
+                "gem_id": null,
+                "item_id": 237837,
+                "note": null,
+                "source_hint": null,
+                "usage_pct": 7.2
+              },
+              {
+                "drop_source": null,
+                "enchant_id": null,
+                "gem_id": null,
+                "item_id": 268209,
+                "note": null,
+                "source_hint": null,
+                "usage_pct": 5.7
+              },
+              {
+                "drop_source": null,
+                "enchant_id": null,
+                "gem_id": null,
+                "item_id": 271093,
+                "note": null,
+                "source_hint": null,
+                "usage_pct": 5.2
+              },
+              {
+                "drop_source": null,
+                "enchant_id": null,
+                "gem_id": null,
+                "item_id": 237842,
+                "note": null,
+                "source_hint": null,
+                "usage_pct": 3.2
+              }
+            ],
+            "NECK": [
+              {
+                "drop_source": null,
+                "enchant_id": null,
+                "gem_id": null,
+                "item_id": 268265,
+                "note": null,
+                "source_hint": null,
+                "usage_pct": 39.5
+              },
+              {
+                "drop_source": null,
+                "enchant_id": null,
+                "gem_id": null,
+                "item_id": 251142,
+                "note": null,
+                "source_hint": null,
+                "usage_pct": 19.6
+              },
+              {
+                "drop_source": null,
+                "enchant_id": null,
+                "gem_id": null,
+                "item_id": 251234,
+                "note": null,
+                "source_hint": null,
+                "usage_pct": 16.1
+              },
+              {
+                "drop_source": null,
+                "enchant_id": null,
+                "gem_id": null,
+                "item_id": 273781,
+                "note": null,
+                "source_hint": null,
+                "usage_pct": 9.2
+              },
+              {
+                "drop_source": null,
+                "enchant_id": null,
+                "gem_id": null,
+                "item_id": 251173,
+                "note": null,
+                "source_hint": null,
+                "usage_pct": 5.7
+              },
+              {
+                "drop_source": null,
+                "enchant_id": null,
+                "gem_id": null,
+                "item_id": 268251,
+                "note": null,
+                "source_hint": null,
+                "usage_pct": 4.5
+              },
+              {
+                "drop_source": null,
+                "enchant_id": null,
+                "gem_id": null,
+                "item_id": 268250,
+                "note": null,
+                "source_hint": null,
+                "usage_pct": 1.7
+              },
+              {
+                "drop_source": null,
+                "enchant_id": null,
+                "gem_id": null,
+                "item_id": 268291,
+                "note": null,
+                "source_hint": null,
+                "usage_pct": 1.2
+              }
+            ],
+            "OFFHAND": [
+              {
+                "drop_source": null,
+                "enchant_id": null,
+                "gem_id": null,
+                "item_id": 275070,
+                "note": null,
+                "source_hint": null,
+                "usage_pct": 33.8
+              },
+              {
+                "drop_source": null,
+                "enchant_id": null,
+                "gem_id": null,
+                "item_id": 268264,
+                "note": null,
+                "source_hint": null,
+                "usage_pct": 16.9
+              },
+              {
+                "drop_source": null,
+                "enchant_id": null,
+                "gem_id": null,
+                "item_id": 237837,
+                "note": null,
+                "source_hint": null,
+                "usage_pct": 13.0
+              },
+              {
+                "drop_source": null,
+                "enchant_id": null,
+                "gem_id": null,
+                "item_id": 251224,
+                "note": null,
+                "source_hint": null,
+                "usage_pct": 10.4
+              },
+              {
+                "drop_source": null,
+                "enchant_id": null,
+                "gem_id": null,
+                "item_id": 251128,
+                "note": null,
+                "source_hint": null,
+                "usage_pct": 10.4
+              },
+              {
+                "drop_source": null,
+                "enchant_id": null,
+                "gem_id": null,
+                "item_id": 270930,
+                "note": null,
+                "source_hint": null,
+                "usage_pct": 6.5
+              },
+              {
+                "drop_source": null,
+                "enchant_id": null,
+                "gem_id": null,
+                "item_id": 271093,
+                "note": null,
+                "source_hint": null,
+                "usage_pct": 2.6
+              }
+            ],
+            "SHOULDER": [
+              {
+                "drop_source": null,
+                "enchant_id": null,
+                "gem_id": null,
+                "item_id": 271490,
+                "note": null,
+                "source_hint": null,
+                "usage_pct": 86.1
+              },
+              {
+                "drop_source": null,
+                "enchant_id": null,
+                "gem_id": null,
+                "item_id": 268231,
+                "note": null,
+                "source_hint": null,
+                "usage_pct": 4.7
+              },
+              {
+                "drop_source": null,
+                "enchant_id": null,
+                "gem_id": null,
+                "item_id": 239049,
+                "note": null,
+                "source_hint": null,
+                "usage_pct": 3.2
+              },
+              {
+                "drop_source": null,
+                "enchant_id": null,
+                "gem_id": null,
+                "item_id": 251131,
+                "note": null,
+                "source_hint": null,
+                "usage_pct": 2.5
+              },
+              {
+                "drop_source": null,
+                "enchant_id": null,
+                "gem_id": null,
+                "item_id": 272252,
+                "note": null,
+                "source_hint": null,
+                "usage_pct": 2.2
+              },
+              {
+                "drop_source": null,
+                "enchant_id": null,
+                "gem_id": null,
+                "item_id": 251184,
+                "note": null,
+                "source_hint": null,
+                "usage_pct": 0.7
+              }
+            ],
+            "TRINKET1": [
+              {
+                "drop_source": null,
+                "enchant_id": null,
+                "gem_id": null,
+                "item_id": 270165,
+                "note": null,
+                "source_hint": null,
+                "usage_pct": 44.9
+              },
+              {
+                "drop_source": null,
+                "enchant_id": null,
+                "gem_id": null,
+                "item_id": 270175,
+                "note": null,
+                "source_hint": null,
+                "usage_pct": 36.5
+              },
+              {
+                "drop_source": null,
+                "enchant_id": null,
+                "gem_id": null,
+                "item_id": 270173,
+                "note": null,
+                "source_hint": null,
+                "usage_pct": 34.2
+              },
+              {
+                "drop_source": null,
+                "enchant_id": null,
+                "gem_id": null,
+                "item_id": 250215,
+                "note": null,
+                "source_hint": null,
+                "usage_pct": 24.6
+              },
+              {
+                "drop_source": null,
+                "enchant_id": null,
+                "gem_id": null,
+                "item_id": 273796,
+                "note": null,
+                "source_hint": null,
+                "usage_pct": 7.2
+              },
+              {
+                "drop_source": null,
+                "enchant_id": null,
+                "gem_id": null,
+                "item_id": 270164,
+                "note": null,
+                "source_hint": null,
+                "usage_pct": 6.9
+              },
+              {
+                "drop_source": null,
+                "enchant_id": null,
+                "gem_id": null,
+                "item_id": 250228,
+                "note": null,
+                "source_hint": null,
+                "usage_pct": 6.0
+              },
+              {
+                "drop_source": null,
+                "enchant_id": null,
+                "gem_id": null,
+                "item_id": 250225,
+                "note": null,
+                "source_hint": null,
+                "usage_pct": 5.2
+              }
+            ],
+            "WAIST": [
+              {
+                "drop_source": null,
+                "enchant_id": null,
+                "gem_id": null,
+                "item_id": 244581,
+                "note": null,
+                "source_hint": null,
+                "usage_pct": 61.3
+              },
+              {
+                "drop_source": null,
+                "enchant_id": null,
+                "gem_id": null,
+                "item_id": 268254,
+                "note": null,
+                "source_hint": null,
+                "usage_pct": 11.9
+              },
+              {
+                "drop_source": null,
+                "enchant_id": null,
+                "gem_id": null,
+                "item_id": 251228,
+                "note": null,
+                "source_hint": null,
+                "usage_pct": 9.2
+              },
+              {
+                "drop_source": null,
+                "enchant_id": null,
+                "gem_id": null,
+                "item_id": 251155,
+                "note": null,
+                "source_hint": null,
+                "usage_pct": 9.2
+              },
+              {
+                "drop_source": null,
+                "enchant_id": null,
+                "gem_id": null,
+                "item_id": 271489,
+                "note": null,
+                "source_hint": null,
+                "usage_pct": 4.2
+              },
+              {
+                "drop_source": null,
+                "enchant_id": null,
+                "gem_id": null,
+                "item_id": 272253,
+                "note": null,
+                "source_hint": null,
+                "usage_pct": 1.2
+              },
+              {
+                "drop_source": null,
+                "enchant_id": null,
+                "gem_id": null,
+                "item_id": 268216,
+                "note": null,
+                "source_hint": null,
+                "usage_pct": 1.0
+              },
+              {
+                "drop_source": null,
+                "enchant_id": null,
+                "gem_id": null,
+                "item_id": 275505,
+                "note": null,
+                "source_hint": null,
+                "usage_pct": 1.0
+              }
+            ],
+            "WRIST": [
+              {
+                "drop_source": null,
+                "enchant_id": null,
+                "gem_id": null,
+                "item_id": 244584,
+                "note": null,
+                "source_hint": null,
+                "usage_pct": 73.7
+              },
+              {
+                "drop_source": null,
+                "enchant_id": null,
+                "gem_id": null,
+                "item_id": 268217,
+                "note": null,
+                "source_hint": null,
+                "usage_pct": 11.4
+              },
+              {
+                "drop_source": null,
+                "enchant_id": null,
+                "gem_id": null,
+                "item_id": 159380,
+                "note": null,
+                "source_hint": null,
+                "usage_pct": 11.2
+              },
+              {
+                "drop_source": null,
+                "enchant_id": null,
+                "gem_id": null,
+                "item_id": 251200,
+                "note": null,
+                "source_hint": null,
+                "usage_pct": 1.2
+              },
+              {
+                "drop_source": null,
+                "enchant_id": null,
+                "gem_id": null,
+                "item_id": 277772,
+                "note": null,
+                "source_hint": null,
+                "usage_pct": 0.7
+              },
+              {
+                "drop_source": null,
+                "enchant_id": null,
+                "gem_id": null,
+                "item_id": 273775,
+                "note": null,
+                "source_hint": null,
+                "usage_pct": 0.5
+              },
+              {
+                "drop_source": null,
+                "enchant_id": null,
+                "gem_id": null,
+                "item_id": 271488,
+                "note": null,
+                "source_hint": null,
+                "usage_pct": 0.5
+              }
+            ]
+          },
+          "gems": [
+            {
+              "drop_source": null,
+              "enchant_id": null,
+              "gem_id": null,
+              "item_id": 240898,
+              "note": null,
+              "source_hint": null,
+              "usage_pct": 29.1
+            },
+            {
+              "drop_source": null,
+              "enchant_id": null,
+              "gem_id": null,
+              "item_id": 240983,
+              "note": null,
+              "source_hint": null,
+              "usage_pct": 21.9
+            },
+            {
+              "drop_source": null,
+              "enchant_id": null,
+              "gem_id": null,
+              "item_id": 240900,
+              "note": null,
+              "source_hint": null,
+              "usage_pct": 15.3
+            },
+            {
+              "drop_source": null,
+              "enchant_id": null,
+              "gem_id": null,
+              "item_id": 240908,
+              "note": null,
+              "source_hint": null,
+              "usage_pct": 9.6
+            },
+            {
+              "drop_source": null,
+              "enchant_id": null,
+              "gem_id": null,
+              "item_id": 240892,
+              "note": null,
+              "source_hint": null,
+              "usage_pct": 7.6
+            },
+            {
+              "drop_source": null,
+              "enchant_id": null,
+              "gem_id": null,
+              "item_id": 240890,
+              "note": null,
+              "source_hint": null,
+              "usage_pct": 7.4
+            },
+            {
+              "drop_source": null,
+              "enchant_id": null,
+              "gem_id": null,
+              "item_id": 240906,
+              "note": null,
+              "source_hint": null,
+              "usage_pct": 6.7
+            },
+            {
+              "drop_source": null,
+              "enchant_id": null,
+              "gem_id": null,
+              "item_id": 240967,
+              "note": null,
+              "source_hint": null,
+              "usage_pct": 1.1
+            },
+            {
+              "drop_source": null,
+              "enchant_id": null,
+              "gem_id": null,
+              "item_id": 240910,
+              "note": null,
+              "source_hint": null,
+              "usage_pct": 0.6
+            }
+          ],
+          "notes": {},
+          "source": "mythicstats",
+          "stat_priority": [
+            {
+              "rating": 1197,
+              "share": 31.4,
+              "stat": "MASTERY",
+              "weight": 1.0
+            },
+            {
+              "rating": 890,
+              "share": 33.0,
+              "stat": "CRIT",
+              "weight": 0.744
+            },
+            {
+              "rating": 755,
+              "share": 18.9,
+              "stat": "HASTE",
+              "weight": 0.631
+            },
+            {
+              "rating": 88,
+              "share": 1.2,
+              "stat": "VERSATILITY",
+              "weight": 0.074
+            }
+          ],
+          "talent_builds": [
+            {
+              "hero_id": 42,
+              "hero_specific": true,
+              "import_string": "C8PAAAAAAAAAAAAAAAAAAAAAAMWgBmxoxyAYGwmxMzYYZAAAAAAYGzYGMGzYGMmmBAAAYAwMWWmZmFmZmZmZGAYGLMLGjZmNDA",
+              "label": "Sentinel #1",
+              "metrics": {
+                "Avg dps": "199K",
+                "Max dps": "246K"
+              },
+              "source": "mythicstats",
+              "url": "https://mythicstats.com/raid/spec/survival-hunter",
+              "usage_pct": 11.7
+            }
+          ],
+          "url": "https://mythicstats.com/raid/spec/survival-hunter"
+        },
+        "wowhead": {
+          "consumables": [
+            {
+              "category": "FLASK",
+              "is_primary": true,
+              "item_id": 245933
+            },
+            {
+              "category": "POTION",
+              "is_primary": true,
+              "item_id": 241288
+            },
+            {
+              "category": "HEALTH_POTION",
+              "is_primary": true,
+              "item_id": 271884
+            },
+            {
+              "category": "WEAPON_OIL",
+              "is_primary": true,
+              "item_id": 243734
+            },
+            {
+              "category": "RUNE",
+              "is_primary": true,
+              "item_id": 259085
+            },
+            {
+              "category": "FOOD",
+              "is_primary": true,
+              "item_id": 275265
+            }
+          ],
+          "enchants": [],
+          "fetched_at": "2026-09-15",
           "gear": {},
           "gems": [],
           "notes": {},
