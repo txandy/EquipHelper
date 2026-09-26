@@ -18,9 +18,9 @@ ns.Manifest = {
 		"WARLOCK",
 		"WARRIOR",
 	},
-	generated = "2026-08-21",
-	generatedEpoch = 1787270400,
-	guideCount = 58,
+	generated = "2026-09-26",
+	generatedEpoch = 1790380800,
+	guideCount = 98,
 	sources = {
 		{
 			key = "mythicstats",
